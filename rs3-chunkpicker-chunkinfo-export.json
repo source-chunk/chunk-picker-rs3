@@ -15642,6 +15642,15 @@
 				"Primary": true,
 				"Priority": 8
 			},
+			"Reinforce any building at ~|Fort Forinthry|~": {
+				"Tasks": {
+					"Fort construction[+]": "Construction"
+				},
+				"Items": ["Eternal frame*", "Stone wall segment*"],
+				"Level": 105,
+				"Primary": true,
+				"Priority": 9
+			},
 			"Construct ~|eternal gilded drawers|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Eternal plank*", "Gold leaf*"],
@@ -25875,17 +25884,6 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|longbow|~": {
-				"Items": ["Longbow"],
-				"Level": 1,
-				"Skills": {
-					"Ranged": 1
-				},
-				"Primary": false,
-				"Priority": 12,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Wield a ~|wooden shield|~": {
 				"Items": ["Wooden shield"],
 				"Level": 1,
@@ -25989,17 +25987,6 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield an ~|oak longbow|~": {
-				"Items": ["Oak longbow"],
-				"Level": 10,
-				"Skills": {
-					"Ranged": 10
-				},
-				"Primary": false,
-				"Priority": 6,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Wear a ~|slayer helmet|~": {
 				"Items": ["Slayer helmet"],
 				"Level": 10,
@@ -26100,17 +26087,6 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
-			},
-			"Wield a ~|willow longbow|~": {
-				"Items": ["Willow longbow"],
-				"Level": 20,
-				"Skills": {
-					"Ranged": 20
-				},
-				"Primary": false,
-				"Priority": 8,
-				"NoPet": true,
-				"NoBoost": true
 			},
 			"Wield a ~|mirror shield|~": {
 				"Items": ["Mirror sield"],
@@ -26353,17 +26329,6 @@
 				"Level": 30,
 				"Primary": false,
 				"Priority": 8,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wield a ~|maple longbow|~": {
-				"Items": ["Maple longbow"],
-				"Level": 30,
-				"Skills": {
-					"Ranged": 30
-				},
-				"Primary": false,
-				"Priority": 9,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -26649,17 +26614,6 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|yew longbow|~": {
-				"Items": ["Yew longbow"],
-				"Level": 40,
-				"Skills": {
-					"Ranged": 40
-				},
-				"Primary": false,
-				"Priority": 23,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Wear a piece of ~|cosmic armour|~": {
 				"Items": ["CosmicArmour[+]"],
 				"Level": 40,
@@ -26754,18 +26708,6 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
-			},
-			"Wield a ~|maple longbow (sighted)|~": {
-				"Items": ["Maple longbow (sighted)"],
-				"Level": 45,
-				"Skills": {
-					"Ranged": 45,
-					"Dungeoneering": 45
-				},
-				"Primary": false,
-				"Priority": 4,
-				"NoPet": true,
-				"NoBoost": true
 			},
 			"Unlock the ~|Divert|~ ability": {
 				"Items": ["Divert ability codex"],
@@ -26911,17 +26853,6 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|magic longbow|~": {
-				"Items": ["Magic longbow"],
-				"Level": 50,
-				"Skills": {
-					"Ranged": 50
-				},
-				"Primary": false,
-				"Priority": 16,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Wear a ~|dwarven helmet|~": {
 				"Items": ["Dwarven helmet"],
 				"Level": 50,
@@ -27028,18 +26959,6 @@
 				"Level": 55,
 				"Primary": false,
 				"Priority": 8,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wield a ~|magic longbow (sighted)|~": {
-				"Items": ["Magic longbow (sighted)"],
-				"Level": 55,
-				"Skills": {
-					"Ranged": 55,
-					"Dungeoneering": 45
-				},
-				"Primary": false,
-				"Priority": 9,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -27201,18 +27120,6 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield an ~|elder longbow|~": {
-				"Items": ["Elder longbow"],
-				"Level": 60,
-				"Skills": {
-					"Ranged": 60
-				},
-				"Primary": false,
-				"Priority": 14,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
 			"Wear a piece of ~|demon slayer equipment|~": {
 				"Items": ["Demon Slayer[+]"],
 				"Level": 60,
@@ -27325,19 +27232,6 @@
 				"Priority": 6,
 				"NoPet": true,
 				"NoBoost": true
-			},
-			"Wield a ~|elder longbow (sighted)|~": {
-				"Items": ["Elder longbow (sighted)"],
-				"Level": 65,
-				"Skills": {
-					"Ranged": 65,
-					"Dungeoneering": 45
-				},
-				"Primary": false,
-				"Priority": 7,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
 			},
 			"Wear a piece of ~|superior skeletal armour|~": {
 				"Items": ["SuperiorSkeletalArmour[+]"],
@@ -30658,8 +30552,7 @@
 				"Level": 45,
 				"Primary": false,
 				"Skills": {
-					"Defence": 45,
-					"Ranged": 45
+					"Ranged": 40
 				},
 				"Priority": 1
 			},
@@ -30668,8 +30561,7 @@
 				"Level": 45,
 				"Primary": false,
 				"Skills": {
-					"Defence": 55,
-					"Ranged": 55
+					"Ranged": 80
 				},
 				"Priority": 2
 			},
@@ -30678,8 +30570,7 @@
 				"Level": 45,
 				"Primary": false,
 				"Skills": {
-					"Defence": 65,
-					"Ranged": 65
+					"Ranged": 90
 				},
 				"Priority": 3,
 				"Not F2P": true
@@ -38677,12 +38568,20 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Fletch ~|shafts|~ using oak logs": {
+				"Items": ["Oak logs*"],
+				"Level": 10,
+				"Output": "Shaft",
+				"Primary": true,
+				"Priority": 1,
+				"Partial": true
+			},
 			"Fletch an ~|oak shortbow (unstrung)|~": {
 				"Items": ["Oak logs*"],
 				"Level": 10,
 				"Output": "Oak shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 1,
+				"Priority": 2,
 				"Partial": true
 			},
 			"String an ~|oak shortbow|~": {
@@ -38690,21 +38589,21 @@
 				"Level": 10,
 				"Output": "Oak shortbow",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Fletch an ~|oak wood box|~": {
 				"Items": ["Oak logs*", "Logs*"],
 				"Level": 10,
 				"Output": "Oak wood box",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 4
 			},
 			"Tip ~|iron arrows|~": {
 				"Items": ["Headless shaft*", "Iron arrowheads*"],
 				"Level": 10,
 				"Output": "Iron arrow",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 5
 			},
 			"Fletch a ~|birdhouse|~": {
 				"Items": ["Logs*", "Clockwork"],
@@ -38912,14 +38811,6 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Fletch ~|shafts|~ using oak logs": {
-				"Items": ["Oak logs*"],
-				"Level": 15,
-				"Output": "Shaft",
-				"Primary": true,
-				"Priority": 1,
-				"Partial": true
-			},
 			"Fletch an ~|oak longbow (unstrung)|~": {
 				"Items": ["Oak logs*"],
 				"Level": 15,
@@ -38950,12 +38841,20 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
+			"Fletch ~|shafts|~ using willow logs": {
+				"Items": ["Willow logs*"],
+				"Level": 20,
+				"Output": "Shaft",
+				"Primary": true,
+				"Priority": 1,
+				"Partial": true
+			},
 			"Fletch a ~|willow shortbow (unstrung)|~": {
 				"Items": ["Willow logs*"],
 				"Level": 20,
 				"Output": "Willow shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 1,
+				"Priority": 2,
 				"Partial": true
 			},
 			"String a ~|willow shortbow|~": {
@@ -38963,14 +38862,14 @@
 				"Level": 20,
 				"Output": "Willow shortbow",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Fletch a ~|willow wood box|~": {
 				"Items": ["Willow logs*", "Oak logs*", "Logs*"],
 				"Level": 20,
 				"Output": "Willow wood box",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 4
 			},
 			"Tip ~|steel arrows|~": {
 				"Items": ["Headless shaft*", "Steel arrowheads*"],
@@ -39053,8 +38952,8 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Fletch ~|shafts|~ using willow logs": {
-				"Items": ["Willow logs*"],
+			"Fletch ~|shafts|~ using teak logs": {
+				"Items": ["Teak logs*"],
 				"Level": 30,
 				"Output": "Shaft",
 				"Primary": true,
@@ -39066,7 +38965,7 @@
 				"Level": 30,
 				"Output": "Unstrung comp bow",
 				"Primary": true,
-				"Priority": 3,
+				"Priority": 2,
 				"Not F2P": true,
 				"Partial": true
 			},
@@ -39075,7 +38974,7 @@
 				"Level": 30,
 				"Output": "Comp ogre bow",
 				"Primary": true,
-				"Priority": 4,
+				"Priority": 3,
 				"Not F2P": true
 			},
 			"Fletch a ~|teak wood box|~": {
@@ -39083,14 +38982,14 @@
 				"Level": 30,
 				"Output": "Teak wood box",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 4
 			},
 			"Tip ~|mithril arrows|~": {
 				"Items": ["Headless shaft*", "Mithril arrowheads*"],
 				"Level": 30,
 				"Output": "Mithril arrow",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 5
 			},
 			"Fletch a ~|teak wood box|~ in New Varrock": {
 				"Chunks": ["New Varrock"],
@@ -39173,12 +39072,20 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Fletch ~|shafts|~ using maple logs": {
+				"Items": ["Maple logs*"],
+				"Level": 40,
+				"Output": "Shaft",
+				"Primary": true,
+				"Priority": 1,
+				"Partial": true
+			},
 			"Fletch a ~|maple shortbow (unstrung)|~": {
 				"Items": ["Maple logs*"],
 				"Level": 40,
 				"Output": "Maple shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 1,
+				"Priority": 2,
 				"Partial": true
 			},
 			"String a ~|maple shortbow|~": {
@@ -39186,21 +39093,21 @@
 				"Level": 40,
 				"Output": "Maple shortbow",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Fletch a ~|maple wood box|~": {
 				"Items": ["Maple logs*", "Teak logs*", "Willow logs*", "Oak logs*", "Logs*"],
 				"Level": 40,
 				"Output": "Maple wood box",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 4
 			},
 			"Tip ~|adamant arrows|~": {
 				"Items": ["Headless shaft*", "Adamant arrowheads*"],
 				"Level": 40,
 				"Output": "Adamant arrow",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 5
 			},
 			"Fletch ~|pearl bolt tips|~": {
 				"Items": ["OysterPearl[+]*"],
@@ -39254,22 +39161,6 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Fletch ~|shafts|~ using maple logs": {
-				"Items": ["Maple logs*"],
-				"Level": 45,
-				"Output": "Shaft",
-				"Primary": true,
-				"Priority": 2,
-				"Partial": true
-			},
-			"Fletch ~|shafts|~ using acadia logs": {
-				"Items": ["Acadia logs*"],
-				"Level": 45,
-				"Output": "Shaft",
-				"Primary": true,
-				"Priority": 3,
-				"Partial": true
-			},
 			"Fletch a ~|maple longbow (unstrung)|~": {
 				"Items": ["Maple logs*"],
 				"Level": 45,
@@ -39318,12 +39209,20 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
+			"Fletch ~|shafts|~ using acadia logs": {
+				"Items": ["Acadia logs*"],
+				"Level": 50,
+				"Output": "Shaft",
+				"Primary": true,
+				"Priority": 1,
+				"Partial": true
+			},
 			"Fletch an ~|acadia shortbow (unstrung)|~": {
 				"Items": ["Acadia logs*"],
 				"Level": 50,
 				"Output": "Acadia shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 1,
+				"Priority": 2,
 				"Partial": true
 			},
 			"String an ~|acadia shortbow|~": {
@@ -39331,21 +39230,21 @@
 				"Level": 50,
 				"Output": "Acadia shortbow",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Fletch an ~|acadia wood box|~": {
 				"Items": ["Acadia logs*", "Maple logs*", "Teak logs*", "Willow logs*", "Oak logs*", "Logs*"],
 				"Level": 50,
 				"Output": "Acadia wood box",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 4
 			},
 			"Tip ~|rune arrows|~": {
 				"Items": ["Headless shaft*", "Rune arrowheads*"],
 				"Level": 50,
 				"Output": "Rune arrow",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 5
 			},
 			"Fletch ~|arrow shafts (Dungeoneering)|~ from bovistrangler branches in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
@@ -39496,8 +39395,8 @@
 				"Priority": 2,
 				"Partial": true
 			},
-			"Fletch ~|shafts|~ using yew logs": {
-				"Items": ["Yew logs*"],
+			"Fletch ~|shafts|~ using mahogany logs": {
+				"Items": ["Mahogany logs*"],
 				"Level": 60,
 				"Output": "Shaft",
 				"Primary": true,
@@ -39642,27 +39541,38 @@
 				"Primary": true,
 				"Priority": 6
 			},
+			"Fletch ~|shafts|~ using yew logs": {
+				"Items": ["Yew logs*"],
+				"Level": 70,
+				"Output": "Shaft",
+				"Primary": true,
+				"Priority": 1,
+				"Partial": true,
+				"Not F2P": true
+			},
 			"Fletch a ~|yew shortbow (unstrung)|~": {
 				"Items": ["Yew logs*"],
 				"Level": 70,
 				"Output": "Yew shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 1,
-				"Partial": true
+				"Priority": 2,
+				"Partial": true,
+				"Not F2P": true
 			},
 			"String a ~|yew shortbow|~": {
 				"Items": ["Yew shortbow (unstrung)*", "Bowstring*"],
 				"Level": 70,
 				"Output": "Yew shortbow",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood stock|~": {
 				"Items": ["Blisterwood logs*"],
 				"Level": 70,
 				"Output": "Blisterwood stock",
 				"Primary": true,
-				"Priority": 3,
+				"Priority": 4,
 				"Not F2P": true,
 				"Partial": true
 			},
@@ -39671,7 +39581,7 @@
 				"Level": 70,
 				"Output": "Blisterwood stake-thrower crossbow (unstrung)",
 				"Primary": true,
-				"Priority": 4,
+				"Priority": 5,
 				"Not F2P": true,
 				"Partial": true
 			},
@@ -39680,7 +39590,7 @@
 				"Level": 70,
 				"Output": "Blisterwood stake-thrower crossbow",
 				"Primary": true,
-				"Priority": 5,
+				"Priority": 6,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood wand|~": {
@@ -39688,7 +39598,7 @@
 				"Level": 70,
 				"Output": "Blisterwood wand",
 				"Primary": true,
-				"Priority": 6,
+				"Priority": 7,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood sickle|~": {
@@ -39696,7 +39606,7 @@
 				"Level": 70,
 				"Output": "Blisterwood sickle",
 				"Primary": true,
-				"Priority": 7,
+				"Priority": 8,
 				"Not F2P": true
 			},
 			"Fletch an ~|off-hand blisterwood sickle|~": {
@@ -39704,7 +39614,7 @@
 				"Level": 70,
 				"Output": "Off-hand blisterwood sickle",
 				"Primary": true,
-				"Priority": 8,
+				"Priority": 9,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood stake|~": {
@@ -39712,7 +39622,7 @@
 				"Level": 70,
 				"Output": "Blisterwood stake",
 				"Primary": true,
-				"Priority": 9,
+				"Priority": 10,
 				"Not F2P": true
 			},
 			"Fletch an ~|off-hand blisterwood stake|~": {
@@ -39720,7 +39630,7 @@
 				"Level": 70,
 				"Output": "Off-hand blisterwood stake",
 				"Primary": true,
-				"Priority": 10,
+				"Priority": 11,
 				"Not F2P": true
 			},
 			"Fletch ~|blisterwood stakes (ammo)|~": {
@@ -39728,7 +39638,7 @@
 				"Level": 70,
 				"Output": "Blisterwood stakes (ammo)",
 				"Primary": true,
-				"Priority": 11,
+				"Priority": 12,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood orb|~": {
@@ -39736,7 +39646,7 @@
 				"Level": 70,
 				"Output": "Blisterwood orb",
 				"Primary": true,
-				"Priority": 12,
+				"Priority": 13,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood polearm|~": {
@@ -39744,7 +39654,7 @@
 				"Level": 70,
 				"Output": "Blisterwood polearm",
 				"Primary": true,
-				"Priority": 13,
+				"Priority": 14,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood staff|~": {
@@ -39752,7 +39662,7 @@
 				"Level": 70,
 				"Output": "Blisterwood staff",
 				"Primary": true,
-				"Priority": 14,
+				"Priority": 15,
 				"Not F2P": true
 			},
 			"Fletch a ~|yew wood box|~": {
@@ -39760,7 +39670,7 @@
 				"Level": 70,
 				"Output": "Yew wood box",
 				"Primary": true,
-				"Priority": 15,
+				"Priority": 16,
 				"Not F2P": true
 			},
 			"Tip ~|necronium arrows|~": {
@@ -39768,7 +39678,7 @@
 				"Level": 70,
 				"Output": "Necronium arrow",
 				"Primary": true,
-				"Priority": 16
+				"Priority": 17
 			},
 			"Fletch ~|dragon bolt tips|~": {
 				"Items": ["Dragonstone*"],
@@ -39793,7 +39703,8 @@
 				"Output": "Yew stock",
 				"Primary": true,
 				"Priority": 1,
-				"Partial": true
+				"Partial": true,
+				"Not F2P": true
 			},
 			"Fletch a ~|necronium crossbow (unstrung)|~": {
 				"Items": ["Yew stock*", "Necronium limbs*"],
@@ -39834,14 +39745,6 @@
 				"Priority": 6,
 				"Not F2P": true
 			},
-			"Fletch ~|shafts|~ using magic logs": {
-				"Items": ["Magic logs*"],
-				"Level": 75,
-				"Output": "Shaft",
-				"Primary": true,
-				"Priority": 1,
-				"Partial": true
-			},
 			"Fletch a ~|yew longbow (unstrung)|~": {
 				"Items": ["Yew logs*"],
 				"Level": 75,
@@ -39873,12 +39776,20 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
+			"Fletch ~|shafts|~ using magic logs": {
+				"Items": ["Magic logs*"],
+				"Level": 80,
+				"Output": "Shaft",
+				"Primary": true,
+				"Priority": 1,
+				"Partial": true
+			},
 			"Fletch a ~|magic shortbow (unstrung)|~": {
 				"Items": ["Magic logs*"],
 				"Level": 80,
 				"Output": "Magic shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 1,
+				"Priority": 2,
 				"Partial": true
 			},
 			"String a ~|magic shortbow|~": {
@@ -39886,14 +39797,14 @@
 				"Level": 80,
 				"Output": "Magic shortbow",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Fletch ~|hydrix bolt tips|~": {
 				"Items": ["Hydrix*"],
 				"Level": 80,
 				"Output": "Hydrix bolt tips",
 				"Primary": true,
-				"Priority": 7,
+				"Priority": 4,
 				"Not F2P": true,
 				"Partial": true
 			},
@@ -40798,7 +40709,7 @@
 			"Imbue ~|Jas dragonbane arrows|~": {
 				"Items": ["Dinarrow*", "Resonant anima of Jas*"],
 				"Level": 95,
-				"Output": "Jas arrow",
+				"Output": "Jas dragonbane arrow",
 				"Primary": true,
 				"Priority": 20
 			},
@@ -40823,7 +40734,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Fletch a ~|eternal magic shaft|~": {
+			"Fletch an ~|eternal magic shaft|~": {
 				"Items": ["Eternal magic logs*"],
 				"Level": 100,
 				"Output": "Eternal magic shaft",
@@ -40831,7 +40742,7 @@
 				"Priority": 2,
 				"Partial": true
 			},
-			"Feather a ~|eternal magic headless shaft|~": {
+			"Feather an ~|eternal magic headless shaft|~": {
 				"Items": ["Eternal magic shaft*", "Feather[+]*"],
 				"Level": 100,
 				"Output": "Eternal magic headless shaft",
@@ -48410,6 +48321,9 @@
 			"Mine a ~|rubium vein|~": {
 				"Level": 46,
 				"Objects": ["Rubium vein"],
+				"Tasks": {
+					"~|Kennith's Concerns|~ Complete the quest": "Quest"
+				},
 				"Primary": true,
 				"Output": "Rubium",
 				"Priority": 1,
@@ -52825,37 +52739,84 @@
 				"Priority": 13,
 				"Not F2P": true
 			},
-			"Cast ~|Tune Bane|~ to make abyssalbanite ore": {
+			"Cast ~|Tune Bane|~": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune bane scroll", "Abyssal head"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Untuned bane ammo[+]*", "Tune bane scroll"],
 				"Level": 87,
-				"Output": "Abyssalbanite ore",
 				"Primary": true,
 				"Priority": 14
 			},
-			"Cast ~|Tune Bane|~ to make basiliskbanite ore": {
+			"Cast ~|Tune Bane|~ to make abyssalbane arrows": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune bane scroll", "Basilisk head"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Bane arrow*", "Tune bane scroll"],
 				"Level": 87,
-				"Output": "Basiliskbanite ore",
+				"Output": "Abyssalbane arrow",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Cast ~|Tune Bane|~ to make abyssalbane bolts": {
+				"Category": ["Spells"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune bane scroll"],
+				"Level": 87,
+				"Output": "Abyssalbane bolts",
 				"Primary": true,
 				"Priority": 15
 			},
-			"Cast ~|Tune Bane|~ to make dragonbanite ore": {
+			"Cast ~|Tune Bane|~ to make basiliskbane arrows": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune bane scroll", "DragonFocus[+]"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Bane arrow*", "Tune bane scroll"],
 				"Level": 87,
-				"Output": "Dragonbanite ore",
+				"Output": "Basiliskbane arrow",
 				"Primary": true,
 				"Priority": 16
 			},
-			"Cast ~|Tune Bane|~ to make wallasalkibanite ore": {
+			"Cast ~|Tune Bane|~ to make basiliskbane bolts": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune bane scroll", "WallasalkiFocus[+]"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Bane bolts*", "Tune bane scroll"],
 				"Level": 87,
-				"Output": "Wallasalkibanite ore",
+				"Output": "Basiliskbane bolts",
 				"Primary": true,
 				"Priority": 17
+			},
+			"Cast ~|Tune Bane|~ to make dragonbane arrow": {
+				"Category": ["Spells"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Bane arrow*", "Tune bane scroll"],
+				"Level": 87,
+				"Output": "Dragonbane arrow",
+				"Primary": true,
+				"Priority": 18
+			},
+			"Cast ~|Tune Bane|~ to make dragonbane bolts": {
+				"Category": ["Spells"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Bane bolts*", "Tune bane scroll"],
+				"Level": 87,
+				"Output": "Dragonbane bolts",
+				"Primary": true,
+				"Priority": 19
+			},
+			"Cast ~|Tune Bane|~ to make wallasalkibane arrows": {
+				"Category": ["Spells"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Bane arrow*", "Tune bane scroll"],
+				"Level": 87,
+				"Output": "Wallasalkibane arrow",
+				"Primary": true,
+				"Priority": 20
+			},
+			"Cast ~|Tune Bane|~ to make wallasalkibane bolts": {
+				"Category": ["Spells"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Bane bolts*", "Tune bane scroll"],
+				"Level": 87,
+				"Output": "Wallasalkibane bolts",
+				"Primary": true,
+				"Priority": 21
+			},
+			"Cast ~|Tune Bane|~ to make Jas demonbane arrows": {
+				"Category": ["Spells"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Jas dragonbane arrow*", "Tune bane scroll"],
+				"Level": 87,
+				"Output": "Jas demonbane arrow",
+				"Primary": true,
+				"Priority": 20
 			},
 			"Wield ~|obliteration|~": {
 				"Items": ["Obliteration"],
@@ -56422,9 +56383,6 @@
 				"Items": ["Longbow"],
 				"Level": 1,
 				"Primary": false,
-				"Skills": {
-					"Defence": 1
-				},
 				"Priority": 4,
 				"NoPet": true,
 				"NoBoost": true
@@ -56628,9 +56586,6 @@
 				"Items": ["Oak longbow"],
 				"Level": 10,
 				"Primary": false,
-				"Skills": {
-					"Defence": 10
-				},
 				"Priority": 2,
 				"NoPet": true,
 				"NoBoost": true
@@ -56809,9 +56764,6 @@
 				"Items": ["Willow longbow"],
 				"Level": 20,
 				"Primary": false,
-				"Skills": {
-					"Defence": 20
-				},
 				"Priority": 13,
 				"NoPet": true,
 				"NoBoost": true
@@ -57517,9 +57469,6 @@
 				"Items": ["Maple longbow"],
 				"Level": 40,
 				"Primary": false,
-				"Skills": {
-					"Defence": 30
-				},
 				"Priority": 3,
 				"NoPet": true,
 				"NoBoost": true
@@ -57674,6 +57623,17 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield a ~|maple longbow (sighted)|~": {
+				"Items": ["Maple longbow (sighted)"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 45
+				},
+				"Priority": 21,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Enter the ~|Ranging Guild|~": {
 				"Chunks": ["10549"],
 				"Level": 40,
@@ -57722,18 +57682,6 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|maple longbow (sighted)|~": {
-				"Items": ["Maple longbow (sighted)"],
-				"Level": 45,
-				"Primary": false,
-				"Skills": {
-					"Defence": 45,
-					"Dungeoneering": 45
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Wield a ~|chinchompa|~": {
 				"Items": ["Chinchompa"],
 				"Level": 45,
@@ -57764,9 +57712,6 @@
 				"Items": ["Acadia longbow"],
 				"Level": 50,
 				"Primary": false,
-				"Skills": {
-					"Defence": 50
-				},
 				"Priority": 2,
 				"NoPet": true,
 				"NoBoost": true
@@ -58124,18 +58069,6 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|magic longbow (sighted)|~": {
-				"Items": ["Magic longbow (sighted)"],
-				"Level": 55,
-				"Primary": false,
-				"Skills": {
-					"Defence": 55,
-					"Dungeoneering": 45
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Wield a ~|Saradomin bow|~": {
 				"Items": ["Saradomin bow"],
 				"Level": 55,
@@ -58417,19 +58350,6 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield an ~|elder longbow (sighted)|~": {
-				"Items": ["Elder longbow (sighted)"],
-				"Level": 65,
-				"Primary": false,
-				"Skills": {
-					"Defence": 65,
-					"Dungeoneering": 45
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
 			"Wield a ~|black chinchompa|~": {
 				"Items": ["Black chinchompa"],
 				"Level": 55,
@@ -58471,9 +58391,6 @@
 				"Items": ["Yew longbow"],
 				"Level": 70,
 				"Primary": false,
-				"Skills": {
-					"Defence": 40
-				},
 				"Priority": 2,
 				"NoPet": true,
 				"NoBoost": true
@@ -58857,9 +58774,6 @@
 				"Items": ["Magic longbow"],
 				"Level": 80,
 				"Primary": false,
-				"Skills": {
-					"Defence": 50
-				},
 				"Priority": 2,
 				"NoPet": true,
 				"NoBoost": true
@@ -59079,7 +58993,18 @@
 				"Items": ["Bane bolts[+]"],
 				"Level": 80,
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 22,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield a ~|magic longbow (sighted)|~": {
+				"Items": ["Magic longbow (sighted)"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 45
+				},
+				"Priority": 23,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -59267,9 +59192,6 @@
 				"Items": ["Elder longbow"],
 				"Level": 90,
 				"Primary": false,
-				"Skills": {
-					"Defence": 60
-				},
 				"Priority": 2,
 				"NoPet": true,
 				"NoBoost": true,
@@ -59279,7 +59201,7 @@
 				"Items": ["Elder rune crossbow[+]"],
 				"Level": 90,
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 3,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -59287,7 +59209,7 @@
 				"Items": ["Noxious longbow"],
 				"Level": 90,
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 4,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -59296,7 +59218,7 @@
 				"Items": ["Hellfire bow"],
 				"Level": 90,
 				"Primary": false,
-				"Priority": 2,
+				"Priority": 5,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -59305,7 +59227,7 @@
 				"Items": ["Ascension crossbow"],
 				"Level": 90,
 				"Primary": false,
-				"Priority": 3,
+				"Priority": 6,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -59314,7 +59236,7 @@
 				"Items": ["Off-hand ascension crossbow"],
 				"Level": 90,
 				"Primary": false,
-				"Priority": 4,
+				"Priority": 7,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -59323,7 +59245,7 @@
 				"Items": ["Dominion crossbow"],
 				"Level": 90,
 				"Primary": false,
-				"Priority": 5,
+				"Priority": 8,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -59335,7 +59257,7 @@
 				"Skills": {
 					"Defence": 90
 				},
-				"Priority": 6,
+				"Priority": 9,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -59501,6 +59423,18 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield an ~|elder longbow (sighted)|~": {
+				"Items": ["Elder longbow (sighted)"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 45
+				},
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Balls of wool"],
@@ -59622,11 +59556,47 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Equip a ~|dinarrow|~": {
+				"Items": ["Dinarrow"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
 			"Wield the ~|bow of the Last Guardian|~": {
 				"Items": ["Bow of the Last Guardian"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Wield an ~|eternal magic shortbow|~": {
+				"Items": ["Eternal magic shortbow"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Wield an ~|eternal magic longbow|~": {
+				"Items": ["Eternal magic longbow"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Wield a ~|primal crossbow|~": {
+				"Items": ["Primal crossbow[+]"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -65431,38 +65401,6 @@
 				"Primary": true,
 				"Output": "t80 death skull weapon",
 				"Priority": 1
-			},
-			"Smelt an ~|abyssalbane bar|~": {
-				"Items": ["Abyssalbanite ore*"],
-				"Level": 77,
-				"Objects": ["Furnace[+]"],
-				"Output": "Abyssalbane bar",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Smelt a ~|basiliskbane bar|~": {
-				"Items": ["Basiliskbanite ore*"],
-				"Level": 77,
-				"Objects": ["Furnace[+]"],
-				"Output": "Basiliskbane bar",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Smelt a ~|dragonbane bar|~": {
-				"Items": ["Dragonbanite ore*"],
-				"Level": 77,
-				"Objects": ["Furnace[+]"],
-				"Output": "Dragonbane bar",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Smelt a ~|wallasalkibane bar|~": {
-				"Items": ["Wallasalkibanite ore*"],
-				"Level": 77,
-				"Objects": ["Furnace[+]"],
-				"Output": "Wallasalkibane bar",
-				"Primary": true,
-				"Priority": 4
 			},
 			"Smelt a ~|bane bar|~": {
 				"Items": ["Banite ore*"],
@@ -140598,92 +140536,92 @@
 				"Label": "Skilling Collection Log",
 				"Items": ["Warped stone"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: small ceramic flower pot|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Small ceramic flower pot|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Small ceramic flower pot"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: ceramic flower pot|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Ceramic flower pot|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Ceramic flower pot"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: stacked ceramic flower pots (level 8)|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Stacked ceramic flower pots (level 8)|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Stacked ceramic flower pots (level 8)"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: small ceramic flower pot (level 10)|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Stacked ceramic flower pots (level 10)|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
-				"Items": ["Furniture plans: Small ceramic flower pot (level 10)"]
+				"Items": ["Furniture plans: Stacked ceramic flower pots (level 10)"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: small terracotta flower pot|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Small terracotta flower pot|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Small terracotta flower pot"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: terracotta flower pot|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Terracotta flower pot|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Terracotta flower pot"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: stacked terracotta flower pot (level 14)|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Stacked terracotta flower pots (level 14)|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
-				"Items": ["Furniture plans: Stacked terracotta flower pot (level 14)"]
+				"Items": ["Furniture plans: Stacked terracotta flower pots (level 14)"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: stacked terracotta flower pot (level 16)|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Stacked terracotta flower pots (level 16)|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
-				"Items": ["Furniture plans: Stacked terracotta flower pot (level 16)"]
+				"Items": ["Furniture plans: Stacked terracotta flower pots (level 16)"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: flower planter (level 24)|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Flower planter (level 24)|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Flower planter (level 24)"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: flower planter (level 28)|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Flower planter (level 28)|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Flower planter (level 28)"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: flower planter (level 32)|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Flower planter (level 32)|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Flower planter (level 32)"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: stone planter|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Stone planter|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Stone planter"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: beehive|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Beehive|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Beehive"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: tiny gold pile|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Tiny gold pile|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Tiny gold pile"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: safe|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Safe|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Safe"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: small gold pile|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Small gold pile|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Small gold pile"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: medium gold pile|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Medium gold pile|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Medium gold pile"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: vault door|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Vault door|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Vault door"]
@@ -140693,17 +140631,17 @@
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Altar of War"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: ritual marker|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Ritual marker|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Ritual marker"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: tied ritual marker|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Tied ritual marker|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Tied ritual marker"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: warped ritual marker|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Warped ritual marker|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Warped ritual marker"]
@@ -140748,7 +140686,7 @@
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Bob rug"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: large gold pile|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Large gold pile|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Large gold pile"]
@@ -140758,42 +140696,42 @@
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Bob rug (patterned)"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: huge gold pile|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Huge gold pile|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Huge gold pile"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: decorative dragon and unicorn rug|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Decorative dragon and unicorn rug|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Decorative dragon and unicorn rug"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: decorative black rug|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Decorative black rug|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Decorative black rug"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: decorative blue rug|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Decorative blue rug|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Decorative blue rug"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: decorative green rug|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Decorative green rug|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Decorative green rug"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: decorative red rug|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Decorative red rug|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Decorative red rug"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: decorative purple rug|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Decorative purple rug|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Decorative purple rug"]
 			},
-			"(Furniture Plans) Unlock ~|furniture plans: decorative yellow rug|~": {
+			"(Furniture Plans) Unlock ~|furniture plans: Decorative yellow rug|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Decorative yellow rug"]
@@ -144408,8 +144346,8 @@
 				"Items": ["Fire cape"]
 			},
 			"(TzHaar) Obtain ~|TzRek-Jad|~": {
-				"Category": ["Collection Log", "Boss Collection Log"],
-				"Label": "Boss Collection Log",
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
 				"Items": ["TzHaar egg"]
 			},
 			"(TzHaar) Obtain the ~|TokHaar-Kal-Ket|~": {
@@ -147334,259 +147272,259 @@
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Amascut's crown|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Amascut's crown"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain the ~|head of the Ambassador|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Head of the Ambassador"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Araxxor's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Araxxor's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain the ~|Arch-Glacor core|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Arch-Glacor core"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain the ~|Barrows chest|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Barrows chest"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Beastmaster Durzag's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Beastmaster Durzag's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain the ~|black stone dragon's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Black Stone Dragon's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Zilyana's wings|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Zilyana's wings"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain the ~|corporeal beast's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Corporeal Beast's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Croesus' head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Cosmetics"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Croesus' head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain the ~|dagannoth king heads|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Dagannoth King heads"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|The Gate of Elidinis (trophy)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Cosmetics"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["The Gate of Elidinis (trohpy)"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|General Graardor's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["General Graardor's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain the ~|giant mole's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Giant mole's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Gregorovic's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Gregorovic's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Har-Aken's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Har-Aken's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Helwyr's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Helwyr's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Hermod's helmet|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Hermod's helmet"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Kalphite King's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Kalphite King's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Kerapac's time-torn Staff of Armadyl|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Kerapac's time-torn Staff of Armadyl"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Kree'arra's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Kree'arra's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|K'ril Tsutsaroth shoulder guard|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["K'ril Tsutsaroth shoulder guard"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain a ~|Legio crown|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Legio crown"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain the ~|soul obelisk (trophy)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Soul obelisk (trophy)"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Nex's wings|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Nex's wings"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Nex's elemental crystals|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Nex's elemental crystals"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain the ~|Queen Black Dragon's shackles|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Queen Black Dragon's shackles"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Raksha's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Raksha's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Orikalka's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Orikalka's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Pthentraken's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Pthentraken's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Rathis's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Rathis's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Osseous' skull|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Osseous' skull"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Seiryu's horns|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Seiryu's horns"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Solak's core|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Solak's core"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Telos' sword|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Telos' sword"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain the ~|wings of the Twin Furies|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Wings of the Twin Furies"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|TzKal-Zuk's helmet|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["TzKal-Zuk's helmet"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|TzTok-Jad's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["TzTok-Jad's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Gorvek's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Gorvek's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Vorago's arm|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Vorago's arm"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Yakamaru's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Yakamaru's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Zamorak's Edict runes|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Zamorak's Edict runes"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Vorkath's head|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Vorkath's head"],
 				"Not F2P": true
@@ -179248,10 +179186,16 @@
 			},
 			"Unlock the Bob rug*": {
 				"Chunks": ["11575-1"],
+				"Tasks": {
+					"~|A Tail of Two Cats|~ Complete the quest": "Quest"
+				},
 				"Output": "Furniture plans: Bob rug"
 			},
 			"Unlock the Bob rug (patterned)*": {
 				"Chunks": ["11575-1"],
+				"Tasks": {
+					"~|A Tail of Two Cats|~ Complete the quest": "Quest"
+				},
 				"Output": "Furniture plans: Bob rug (patterned)"
 			},
 			"Reclaim items from Gudrik*": {
@@ -228819,21 +228763,22 @@
 				"Eldritch crossbow": true,
 				"Primal crossbow": true,
 				"Primal crossbow Mk. 5": true,
+				"Primal 2h crossbow": true,
 				"Off-hand primal crossbow": true,
 				"Off-hand primal crossbow Mk. 5": true,
 				"Ruinous crossbow": true,
 				"Off-hand ruinous crossbow": true,
 				"Orikalkum crossbow": true,
-				"Orikalkum crossbow": true,
+				"Orikalkum 2h crossbow": true,
 				"Off-hand orikalkum crossbow": true,
 				"Necrite crossbow": true,
-				"Necrite crossbow": true,
+				"Necrite 2h crossbow": true,
 				"Off-hand necrite crossbow": true,
 				"Bane crossbow": true,
-				"Bane crossbow": true,
+				"Bane 2h crossbow": true,
 				"Off-hand bane crossbow": true,
 				"Elder rune crossbow": true,
-				"Elder rune crossbow": true,
+				"Elder rune 2h crossbow": true,
 				"Off-hand elder rune crossbow": true
 			},
 			"Ogre arrow": {
@@ -230201,14 +230146,18 @@
 				"Guthix arrows",
 				"Broad arrow",
 				"Fragment arrow",
+				"Orikalkum arrow",
 				"Dragon arrow",
+				"Necronium arrow",
+				"Dark arrow",
+				"Bane arrow",
 				"Abyssalbane arrow",
 				"Basiliskbane arrow",
 				"Dragonbane arrow",
 				"Wallasalkibane arrow",
-				"Dark arrow",
 				"Stalker arrow",
 				"Wild arrow",
+				"Elder rune arrow",
 				"Araxyte arrow",
 				"Black stone arrows",
 				"Deathspore arrows",
@@ -230248,13 +230197,16 @@
 				"Sapphire bolts (e)",
 				"Diamond bolts",
 				"Dragon bolts",
+				"Orikalkum arrow",
 				"Emerald bolts (e)",
 				"Ruby bolts (e)",
+				"Necronium bolts",
+				"Onyx bolts",
+				"Bane bolts",
 				"Abyssalbane bolts",
 				"Basiliskbane bolts",
 				"Dragonbane bolts",
 				"Wallasalkibane bolts",
-				"Onyx bolts",
 				"Wyvern spines",
 				"Diamond bolts (e)",
 				"Dragon bolts (e)",
@@ -230273,6 +230225,7 @@
 				"Onyx bakriminel bolts",
 				"Hydrix bakriminel bolts",
 				"Ascension bolts",
+				"Elder rune bolts",
 				"Ascendri bolts",
 				"Ascendri bolts (e)",
 				"Blight bolts",
@@ -231553,18 +231506,6 @@
 			"DragonfireProtection[+]": [
 				"Anti-dragon shield", "Dragon bane square shield", "Antifire (3)", "Antifire mix (2)", "Super antifire (3)"
 			],
-			"DragonFocus[+]": [
-				"Baby dragon bones",
-				"Black dragonhide",
-				"Blue dragon scale",
-				"Blue dragonhide",
-				"Dragon bones",
-				"Dragonkin bones",
-				"Green dragonhide",
-				"King black dragon head",
-				"Red dragonhide",
-				"Royal dragonhide"
-			],
 			"Dragon mask[+]": [
 				"Green dragon mask",
 				"Blue dragon mask",
@@ -231917,8 +231858,6 @@
 			],
 			"FireFamiliar[+]": ["Pyrelord pouch", "Forge regent pouch"],
 			"FiremakingBow[+]": [
-				"Acadia shortbow",
-				"Acadia longbow",
 				"Dark bow",
 				"Elder longbow (sighted)",
 				"Elder longbow",
@@ -232140,7 +232079,19 @@
 				"Steel 2h crossbow",
 				"Steel crossbow",
 				"Wyvern crossbow",
-				"Zanik's crossbow"
+				"Zanik's crossbow",
+				"Orikalkum crossbow",
+				"Orikalkum 2h crossbow",
+				"Off-hand orikalkum crossbow",
+				"Necronium crossbow",
+				"Necronium 2h crossbow",
+				"Off-hand necronium crossbow",
+				"Bane crossbow",
+				"Bane 2h crossbow",
+				"Off-hand bane crossbow",
+				"Elder rune crossbow",
+				"Elder rune 2h crossbow",
+				"Off-hand elder rune crossbow"
 			],
 			"GraviteMagicWeapon[+]": [
 				"Gravite staff",
@@ -233221,6 +233172,7 @@
 				"Lychee",
 				"Mango"
 			],
+			"Primal crossbow[+]": ["Primal crossbow", "Primal 2h crossbow", "Off-hand primal crossbow"],
 			"Primal melee weapon[+]": [
 				"Primal 2h sword + 1",
 				"Primal 2h sword + 2",
@@ -234529,6 +234481,7 @@
 				"Dragonstone amulet (unstrung)",
 				"Diamond amulet (unstrung)"
 			],
+			"Untuned bane ammo[+]": ["Bane bolts", "Bane arrow", "Jas dragonbane arrow"],
 			"VanguardArmour[+]": [
 				"Vanguard body",
 				"Vanguard boots",
@@ -234705,11 +234658,6 @@
 				"Void torcher pouch"
 			],
 			"VyrePyreLogs[+]": ["Teak pyre logs", "Arctic pyre logs", "Maple pyre logs", "Mahogany pyre logs", "Eucalyptus pyre logs", "Yew pyre logs", "Magic pyre logs", "Elder pyre logs"],
-			"WallasalkiFocus[+]": [
-				"Fibula piece",
-				"Ribcage piece",
-				"Skull piece"
-			],
 			"Warped dye kit": ["Chaotic rapier warped dye kit", "Chaotic maul warped dye kit", "Chaotic crossbow warped dye kit"],
 			"Warpriest[+]": [
 				"Warpriest of Armadyl boots",
@@ -236083,7 +236031,6 @@
 			"DragonArmour[+]": "Any piece of dragon armour",
 			"DragonfireProtection[+]": "Any item that grants dragonfire protection",
 			"DragonfireShield[+]": "Any dragonfire shield variant",
-			"DragonFocus[+]": "Any item to tune bane to dragons",
 			"Dragon mask[+]": "Any dragon mask for the master emote clue",
 			"DragonRelatedBones[+]": "Any bones related to chromatic dragons, including dragonkin bones",
 			"DragonRiderArmour[+]": "Any piece of dragonrider armour",
@@ -236495,6 +236442,7 @@
 			"UnfinishedMasterwork[+]": "Any piece of unfinished masterwork melee armour",
 			"UnfiredUrn[+]": "Any unfired urn that the fire urn spell can be cast upon",
 			"Unstrung amulet[+]": "Any unstrung amulet that can be strung using the string amulet spell",
+			"Untuned bane ammo[+]": "Any type of untuned bane ammo",
 			"VanguardArmour[+]": "Any piece of vanguard armour",
 			"VariantApoterrasaur[+]": "Any arcane apoterrasaur variant",
 			"VariantAsciatops[+]": "Any asciatops variant",
@@ -236524,7 +236472,6 @@
 			"Voidequipment[+]": "Any piece of void knight armour",
 			"Voidpouch[+]": "Any pouch that can be used to create a call to arms scroll",
 			"VyrePyreLogs[+]": "Any tier of pyre logs that can be used for vyre cremation",
-            "WallasalkiFocus[+]": "Any item that can be used to tune bane to wallasalkis",
 			"Warped dye kit[+]": "A warped dye kit for any chaotic weapon",
 			"Warpriest[+]": "Any piece of warpriest armour",
 			"Water rune[+]": "Any water rune equivalent",
@@ -238240,7 +238187,18 @@
 				"Harvest a ~|luminous wisp|~",
 				"Harvest an ~|incandescent wisp|~"
 			],
-			"Secrets of Amberfell: Rope[+]": ["~|Secrets of Amberfell|~ 3a", "~|Secrets of Amberfell|~ 3b"]
+			"Secrets of Amberfell: Rope[+]": ["~|Secrets of Amberfell|~ 3a", "~|Secrets of Amberfell|~ 3b"],
+			"Fort construction[+]": [
+				"Build the tier 3 ~|Workshop (Fort Forinthry)|~",
+				"Build the tier 3 ~|Town Hall (Fort Forinthry)|~",
+				"Build the tier 3 ~|Chapel (Fort Forinthry)|~",
+				"Build the tier 3 ~|Kitchen (Fort Forinthry)|~",
+				"Build the tier 3 ~|Command Centre|~",
+				"Build the tier 3 ~|Guardhouse|~",
+				"Build the tier 3 ~|Grove Cabin|~",
+				"Build the tier 3 ~|Ranger's Workroom|~",
+				"Build the tier 3 ~|Botanist's Workbench|~"
+			]
 		},
 		"tasksPlusNames": {
 			"A Taste of the Exotic[+]": "Any subtasks for A Taste of the Exotic",
@@ -257717,7 +257675,7 @@
 			"Off-hand dragon longsword": {
 				"1": "Uncommon"
 			},
-			"Elder shortbow": {
+			"Orikalkum 2h crossbow": {
 				"1": "Uncommon"
 			},
 			"Gold stone spirit": {
@@ -302179,6 +302137,8 @@
 			"Willow longbow": true,
 			"Maple shortbow": true,
 			"Maple longbow": true,
+			"Acadia shortbow": true,
+			"Acadia longbow": true,
 			"Bronze javelin": true,
 			"Iron javelin": true,
 			"Steel javelin": true,
@@ -304269,6 +304229,8 @@
 			"Willow longbow": true,
 			"Maple shortbow": true,
 			"Maple longbow": true,
+			"Acadia shortbow": true,
+			"Acadia longbow": true,
 			"Iron javelin": true,
 			"Steel javelin": true,
 			"Mithril javelin": true,
@@ -318029,7 +317991,7 @@
 				"Wild pie": {
 					"1": "1/100"
 				},
-				"Watermelong seed": {
+				"Watermelon seed": {
 					"3": "1/100"
 				},
 				"Diamond": {
@@ -353954,18 +353916,18 @@
 		"Abyssalbane arrow": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Ranged": 60
+				"Ranged": 80
 			},
 			"class": "ranged",
 			"lp": 0,
-			"tier": 60,
+			"tier": 80,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
 			"is_consumable": true,
 			"melee_damage": 0,
 			"magic_damage": 0,
-			"ability_damage": 864,
+			"ability_damage": 1152,
 			"style": "arrows",
 			"prayer": 0,
 			"accuracy": 0,
@@ -353974,18 +353936,18 @@
 		"Abyssalbane bolts": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Ranged": 60
+				"Ranged": 80
 			},
 			"class": "ranged",
 			"lp": 0,
-			"tier": 60,
+			"tier": 80,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
 			"is_consumable": true,
 			"melee_damage": 0,
 			"magic_damage": 0,
-			"ability_damage": 864,
+			"ability_damage": 1152,
 			"style": "bolts",
 			"prayer": 0,
 			"accuracy": 0,
@@ -354305,6 +354267,47 @@
 			"attack_range": 8,
 			"class": "magic",
 			"accuracy": 150
+		},
+		"Acadia longbow": {
+			"ranged_damage": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "arrows",
+			"ability_damage": 720,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 50
+			},
+			"type": "Longbow",
+			"speed": 5,
+			"tier": 50,
+			"lp": 0,
+			"attack_range": 9,
+			"class": "ranged",
+			"accuracy": 850,
+			"auto_damage": 637
+		},
+		"Acadia shortbow": {
+			"ranged_damage": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "arrows",
+			"ability_damage": 720,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 50
+			},
+			"speed": 4,
+			"tier": 50,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 850,
+			"auto_damage": 438.8
 		},
 		"Achromatic Balmung": {
 			"ranged_damage": 0,
@@ -360518,6 +360521,25 @@
 			"accuracy": 0,
 			"has_passive": true
 		},
+		"Bane 2h crossbow": {
+			"ranged_damage": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 1080,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 80
+			},
+			"speed": 3,
+			"tier": 75,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1693
+		},
 		"Bane 2h sword + 1": {
 			"ranged_damage": 0,
 			"melee_damage": 0,
@@ -360712,6 +360734,65 @@
 			"charges": 10000,
 			"prayer": 0,
 			"accuracy": 0
+		},
+		"Bane arrow": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Ranged": 80
+			},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 80,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"ability_damage": 1152,
+			"style": "arrows",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 480
+		},
+		"Bane bolts": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Ranged": 80
+			},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 80,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"ability_damage": 1152,
+			"style": "bolts",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 480
+		},
+		"Bane crossbow": {
+			"ranged_damage": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 720,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 80
+			},
+			"speed": 3,
+			"tier": 75,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1693
 		},
 		"Bane full helm + 1": {
 			"ranged_damage": 0,
@@ -362113,18 +362194,18 @@
 		"Basiliskbane arrow": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Ranged": 60
+				"Ranged": 80
 			},
 			"class": "ranged",
 			"lp": 0,
-			"tier": 60,
+			"tier": 80,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
 			"is_consumable": true,
 			"melee_damage": 0,
 			"magic_damage": 0,
-			"ability_damage": 864,
+			"ability_damage": 1152,
 			"style": "arrows",
 			"prayer": 0,
 			"accuracy": 0,
@@ -362133,18 +362214,18 @@
 		"Basiliskbane bolts": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Ranged": 60
+				"Ranged": 80
 			},
 			"class": "ranged",
 			"lp": 0,
-			"tier": 60,
+			"tier": 80,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
 			"is_consumable": true,
 			"melee_damage": 0,
 			"magic_damage": 0,
-			"ability_damage": 864,
+			"ability_damage": 1152,
 			"style": "bolts",
 			"prayer": 0,
 			"accuracy": 0,
@@ -369774,13 +369855,12 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 672,
+			"ability_damage": 1008,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 297.2,
+			"armour": 0,
 			"requirements": {
-				"Ranged": 70,
-				"Defence": 70
+				"Ranged": 70
 			},
 			"type": "Longbow",
 			"speed": 7,
@@ -373341,18 +373421,18 @@
 		"Dragonbane arrow": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Ranged": 60
+				"Ranged": 80
 			},
 			"class": "ranged",
 			"lp": 0,
-			"tier": 60,
+			"tier": 80,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
 			"is_consumable": true,
 			"melee_damage": 0,
 			"magic_damage": 0,
-			"ability_damage": 864,
+			"ability_damage": 1152,
 			"style": "arrows",
 			"prayer": 0,
 			"accuracy": 0,
@@ -373361,18 +373441,18 @@
 		"Dragonbane bolts": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Ranged": 60
+				"Ranged": 80
 			},
 			"class": "ranged",
 			"lp": 0,
-			"tier": 60,
+			"tier": 80,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
 			"is_consumable": true,
 			"melee_damage": 0,
 			"magic_damage": 0,
-			"ability_damage": 864,
+			"ability_damage": 1152,
 			"style": "bolts",
 			"prayer": 0,
 			"accuracy": 0,
@@ -374108,6 +374188,25 @@
 			"has_spec": true,
 			"has_passive": true
 		},
+		"Elder rune 2h crossbow": {
+			"ranged_damage": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 1152,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 90
+			},
+			"speed": 3,
+			"tier": 80,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1924
+		},
 		"Elder rune 2h sword + 1": {
 			"ranged_damage": 0,
 			"melee_damage": 0,
@@ -374341,6 +374440,65 @@
 			"charges": 10000,
 			"prayer": 0,
 			"accuracy": 0
+		},
+		"Elder rune arrow": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Ranged": 90
+			},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 90,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"ability_damage": 1296,
+			"style": "arrows",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 480
+		},
+		"Elder rune bolts": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Ranged": 90
+			},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 90,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"ability_damage": 1296,
+			"style": "bolts",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 480
+		},
+		"Elder rune crossbow": {
+			"ranged_damage": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 768,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 90
+			},
+			"speed": 3,
+			"tier": 80,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1924
 		},
 		"Elder rune full helm + 1": {
 			"ranged_damage": 0,
@@ -375291,43 +375449,42 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 624,
+			"ability_damage": 1152,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 259.8,
+			"armour": 0,
 			"requirements": {
-				"Defence": 65,
-				"Ranged": 65
+				"Ranged": 90
 			},
 			"type": "Longbow",
 			"speed": 5,
-			"tier": 65,
+			"tier": 80,
+			"accuracy_tier": 85,
 			"lp": 0,
 			"attack_range": 9,
 			"class": "ranged",
-			"accuracy": 1299,
-			"auto_damage": 344.5
+			"accuracy": 1924,
+			"auto_damage": 318
 		},
 		"Elder longbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 576,
+			"ability_damage": 1152,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 226.4,
+			"armour": 0,
 			"requirements": {
-				"Defence": 60,
-				"Ranged": 60
+				"Ranged": 90
 			},
 			"type": "Longbow",
 			"speed": 5,
-			"tier": 60,
+			"tier": 80,
 			"lp": 0,
-			"attack_range": 8,
+			"attack_range": 9,
 			"class": "ranged",
-			"accuracy": 1132,
+			"accuracy": 1924,
 			"auto_damage": 318
 		},
 		"Elder shortbow": {
@@ -375335,19 +375492,19 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 864,
+			"ability_damage": 1152,
 			"magic_damage": 0,
 			"melee_damage": 0,
 			"armour": 0,
 			"requirements": {
-				"Ranged": 60
+				"Ranged": 90
 			},
 			"speed": 4,
-			"tier": 60,
+			"tier": 80,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 1132,
+			"accuracy": 1924,
 			"auto_damage": 526.5
 		},
 		"Eldritch crossbow": {
@@ -376525,6 +376682,26 @@
 			"class": "magic",
 			"accuracy": 2458
 		},
+		"Eternal magic longbow": {
+			"ranged_damage": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "arrows",
+			"ability_damage": 1425.6,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 99
+			},
+			"type": "Longbow",
+			"speed": 5,
+			"tier": 85,
+			"lp": 0,
+			"attack_range": 9,
+			"class": "ranged",
+			"accuracy": 2178
+		},
 		"Eternal magic shortbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
@@ -376538,9 +376715,7 @@
 				"Ranged": 99
 			},
 			"speed": 3,
-			"tier": 90,
-			"damage_tier": 85,
-			"accuracy_tier": 85,
+			"tier": 85,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
@@ -376559,9 +376734,7 @@
 				"Ranged": 99
 			},
 			"speed": 3,
-			"tier": 100,
-			"damage_tier": 90,
-			"accuracy_tier": 90,
+			"tier": 90,
 			"lp": 0,
 			"attack_range": 8,
 			"class": "ranged",
@@ -378557,7 +378730,8 @@
 			"accuracy": 2458,
 			"auto_damage": 1147.5,
 			"can_augment": true,
-			"has_spec": true
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Gloves of subjugation": {
 			"ranged_damage": 0,
@@ -384988,6 +385162,25 @@
 			"accuracy": 0,
 			"auto_damage": 480
 		},
+		"Longbow": {
+			"ranged_damage": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "arrows",
+			"ability_damage": 72,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {},
+			"type": "Longbow",
+			"speed": 5,
+			"tier": 1,
+			"lp": 0,
+			"attack_range": 9,
+			"class": "ranged",
+			"accuracy": 150,
+			"auto_damage": 63.8
+		},
 		"Luck of the Dwarves": {
 			"ranged_damage": 22.5,
 			"requirements": {},
@@ -385307,19 +385500,19 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 720,
+			"ability_damage": 1080,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 170,
+			"armour": 0,
 			"requirements": {
-				"Ranged": 50
+				"Ranged": 80
 			},
 			"speed": 5,
-			"tier": 50,
+			"tier": 75,
 			"lp": 0,
 			"attack_range": 9,
 			"class": "ranged",
-			"accuracy": 850,
+			"accuracy": 1694,
 			"auto_damage": 265,
 			"has_spec": true
 		},
@@ -385363,22 +385556,20 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 528,
+			"ability_damage": 1080,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 196.6,
+			"armour": 0,
 			"requirements": {
-				"Defence": 55,
-				"Ranged": 55
+				"Ranged": 80
 			},
 			"type": "Longbow",
 			"speed": 5,
-			"tier": 55,
+			"tier": 75,
+			"accuracy_tier": 80,
 			"lp": 0,
 			"attack_range": 9,
 			"class": "ranged",
-			"accuracy": 983,
-			"auto_damage": 291.5,
 			"has_spec": true
 		},
 		"Magic longbow": {
@@ -385386,21 +385577,20 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 480,
+			"ability_damage": 1080,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 170,
+			"armour": 0,
 			"requirements": {
-				"Defence": 50,
-				"Ranged": 50
+				"Ranged": 80
 			},
 			"type": "Longbow",
 			"speed": 5,
-			"tier": 50,
+			"tier": 75,
 			"lp": 0,
-			"attack_range": 8,
+			"attack_range": 9,
 			"class": "ranged",
-			"accuracy": 850,
+			"accuracy": 1694,
 			"auto_damage": 265,
 			"has_spec": true
 		},
@@ -385409,19 +385599,19 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 720,
+			"ability_damage": 1080,
 			"magic_damage": 0,
 			"melee_damage": 0,
 			"armour": 0,
 			"requirements": {
-				"Ranged": 50
+				"Ranged": 80
 			},
 			"speed": 4,
-			"tier": 50,
+			"tier": 75,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 850,
+			"accuracy": 1694,
 			"auto_damage": 438.8,
 			"has_spec": true
 		},
@@ -385623,43 +385813,42 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 432,
+			"ability_damage": 576,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 146.4,
+			"armour": 0,
 			"requirements": {
-				"Defence": 45,
-				"Ranged": 45
+				"Ranged": 40
 			},
 			"type": "Longbow",
 			"speed": 5,
-			"tier": 45,
+			"tier": 40,
+			"accuracy_tier": 45,
 			"lp": 0,
 			"attack_range": 9,
 			"class": "ranged",
-			"accuracy": 732,
-			"auto_damage": 238.5
+			"accuracy": 628,
+			"auto_damage": 159
 		},
 		"Maple longbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 288,
+			"ability_damage": 576,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 90.8,
+			"armour": 0,
 			"requirements": {
-				"Defence": 30,
-				"Ranged": 30
+				"Ranged": 40
 			},
 			"type": "Longbow",
 			"speed": 5,
-			"tier": 30,
+			"tier": 40,
 			"lp": 0,
-			"attack_range": 8,
+			"attack_range": 9,
 			"class": "ranged",
-			"accuracy": 454,
+			"accuracy": 628,
 			"auto_damage": 159
 		},
 		"Maple shortbow": {
@@ -385667,19 +385856,19 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 432,
+			"ability_damage": 576,
 			"magic_damage": 0,
 			"melee_damage": 0,
 			"armour": 0,
 			"requirements": {
-				"Ranged": 30
+				"Ranged": 40
 			},
 			"speed": 4,
-			"tier": 30,
+			"tier": 40,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 454,
+			"accuracy": 628,
 			"auto_damage": 263.3
 		},
 		"Marrentill tar": {
@@ -389891,6 +390080,25 @@
 			"prayer": 2,
 			"accuracy": 0
 		},
+		"Necronium 2h crossbow": {
+			"ranged_damage": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 1008,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 70
+			},
+			"speed": 3,
+			"tier": 70,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1486
+		},
 		"Necronium 2h greataxe + 1": {
 			"ranged_damage": 0,
 			"melee_damage": 0,
@@ -390086,6 +390294,46 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
+		"Necronium arrow": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Ranged": 70
+			},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 70,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"ability_damage": 1008,
+			"style": "arrows",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 672
+		},
+		"Necronium bolts": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Ranged": 70
+			},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 70,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"ability_damage": 1008,
+			"style": "bolts",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 672
+		},
 		"Necronium battleaxe + 1": {
 			"ranged_damage": 0,
 			"melee_damage": 0,
@@ -390190,6 +390438,25 @@
 			"class": "melee",
 			"accuracy": 1486,
 			"auto_damage": 1043
+		},
+		"Necronium crossbow": {
+			"ranged_damage": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 672,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 70
+			},
+			"speed": 3,
+			"tier": 70,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1486
 		},
 		"Necronium full helm + 1": {
 			"ranged_damage": 0,
@@ -391066,22 +391333,21 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 96,
+			"ability_damage": 144,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 40.4,
+			"armour": 0,
 			"requirements": {
-				"Defence": 10,
 				"Ranged": 10
 			},
 			"type": "Longbow",
 			"speed": 5,
 			"tier": 10,
 			"lp": 0,
-			"attack_range": 8,
+			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 202,
-			"auto_damage": 53
+			"auto_damage": 87.8
 		},
 		"Oak shortbow": {
 			"ranged_damage": 0,
@@ -392077,6 +392343,25 @@
 			"accuracy": 110,
 			"auto_damage": 24
 		},
+		"Off-hand bane crossbow": {
+			"ranged_damage": 0,
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 360,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 80
+			},
+			"speed": 3,
+			"tier": 75,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1693
+		},
 		"Off-hand bronze crossbow": {
 			"ranged_damage": 0,
 			"slot": "off-hand weapon",
@@ -392619,6 +392904,25 @@
 			"auto_damage": 551.2,
 			"can_augment": true
 		},
+		"Off-hand elder rune crossbow": {
+			"ranged_damage": 0,
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 384,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 90
+			},
+			"speed": 3,
+			"tier": 80,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1924
+		},
 		"Off-hand gravite knife": {
 			"ranged_damage": 0,
 			"melee_damage": 0,
@@ -393088,12 +393392,69 @@
 			"accuracy": 454,
 			"auto_damage": 223.5
 		},
-		"Off-hand primal crossbow": {
+		"Off-hand necronium crossbow": {
 			"ranged_damage": 0,
-			"slot": "main hand weapon",
+			"slot": "off-hand weapon",
 			"prayer": 0,
 			"style": "bolts",
-			"ability_damage": 475.2,
+			"ability_damage": 672,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 70
+			},
+			"speed": 3,
+			"tier": 70,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1486
+		},
+		"Off-hand orikalkum crossbow": {
+			"ranged_damage": 0,
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 228,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 60
+			},
+			"speed": 3,
+			"tier": 60,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1132
+		},
+		"Off-hand primal crossbow": {
+			"ranged_damage": 0,
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 408,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 99
+			},
+			"speed": 2,
+			"tier": 85,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 2178
+		},
+		"Off-hand primal crossbow Mk. 5": {
+			"ranged_damage": 0,
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 432,
 			"magic_damage": 0,
 			"melee_damage": 0,
 			"armour": 0,
@@ -393102,29 +393463,6 @@
 			},
 			"speed": 2,
 			"tier": 90,
-			"damage_tier": 85,
-			"accuracy_tier": 85,
-			"lp": 0,
-			"attack_range": 7,
-			"class": "ranged",
-			"accuracy": 2178
-		},
-		"Off-hand primal crossbow Mk. 5": {
-			"ranged_damage": 0,
-			"slot": "main hand weapon",
-			"prayer": 0,
-			"style": "bolts",
-			"ability_damage": 475.2,
-			"magic_damage": 0,
-			"melee_damage": 0,
-			"armour": 0,
-			"requirements": {
-				"Ranged": 99
-			},
-			"speed": 2,
-			"tier": 95,
-			"damage_tier": 90,
-			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
@@ -393950,6 +394288,25 @@
 			"accuracy": 2458,
 			"can_augment": true
 		},
+		"Orikalkum 2h crossbow": {
+			"ranged_damage": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 864,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 60
+			},
+			"speed": 3,
+			"tier": 60,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1132
+		},
 		"Orikalkum 2h warhammer + 1": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
@@ -394097,6 +394454,65 @@
 			"magic_damage": 0,
 			"prayer": 0,
 			"accuracy": 0
+		},
+		"Orikalkum arrow": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Ranged": 60
+			},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 60,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"ability_damage": 864,
+			"style": "arrows",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 480
+		},
+		"Orikalkum bolts": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Ranged": 60
+			},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 60,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"ability_damage": 864,
+			"style": "bolts",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 480
+		},
+		"Orikalkum crossbow": {
+			"ranged_damage": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 576,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 60
+			},
+			"speed": 3,
+			"tier": 60,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1132
 		},
 		"Orikalkum full helm + 1": {
 			"ranged_damage": 0,
@@ -395415,6 +395831,25 @@
 			"prayer": 3,
 			"accuracy": 0
 		},
+		"Primal 2h crossbow": {
+			"ranged_damage": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 1224,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 99
+			},
+			"speed": 2,
+			"tier": 85,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 2178
+		},
 		"Primal 2h sword": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
@@ -395688,7 +396123,7 @@
 			"slot": "main hand weapon",
 			"prayer": 0,
 			"style": "bolts",
-			"ability_damage": 950.4,
+			"ability_damage": 816,
 			"magic_damage": 0,
 			"melee_damage": 0,
 			"armour": 0,
@@ -395696,9 +396131,7 @@
 				"Ranged": 99
 			},
 			"speed": 2,
-			"tier": 90,
-			"damage_tier": 85,
-			"accuracy_tier": 85,
+			"tier": 85,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
@@ -395709,7 +396142,7 @@
 			"slot": "main hand weapon",
 			"prayer": 0,
 			"style": "bolts",
-			"ability_damage": 950.4,
+			"ability_damage": 864,
 			"magic_damage": 0,
 			"melee_damage": 0,
 			"armour": 0,
@@ -395717,9 +396150,7 @@
 				"Ranged": 99
 			},
 			"speed": 2,
-			"tier": 95,
-			"damage_tier": 90,
-			"accuracy_tier": 90,
+			"tier": 90,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
@@ -405071,25 +405502,6 @@
 			"accuracy": 110,
 			"auto_damage": 22.4
 		},
-		"Longbow": {
-			"ranged_damage": 0,
-			"slot": "2h weapon",
-			"prayer": 0,
-			"style": "arrows",
-			"ability_damage": 48,
-			"magic_damage": 0,
-			"melee_damage": 0,
-			"armour": 30,
-			"requirements": {},
-			"type": "Longbow",
-			"speed": 5,
-			"tier": 5,
-			"lp": 0,
-			"attack_range": 8,
-			"class": "ranged",
-			"accuracy": 150,
-			"auto_damage": 26.5
-		},
 		"Shortbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
@@ -405101,7 +405513,7 @@
 			"armour": 0,
 			"requirements": {},
 			"speed": 4,
-			"tier": 5,
+			"tier": 1,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
@@ -415427,18 +415839,18 @@
 		"Wallasalkibane arrow": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Ranged": 60
+				"Ranged": 80
 			},
 			"class": "ranged",
 			"lp": 0,
-			"tier": 60,
+			"tier": 80,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
 			"is_consumable": true,
 			"melee_damage": 0,
 			"magic_damage": 0,
-			"ability_damage": 864,
+			"ability_damage": 1152,
 			"style": "arrows",
 			"prayer": 0,
 			"accuracy": 0,
@@ -415447,18 +415859,18 @@
 		"Wallasalkibane bolts": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Ranged": 60
+				"Ranged": 80
 			},
 			"class": "ranged",
 			"lp": 0,
-			"tier": 60,
+			"tier": 80,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
 			"is_consumable": true,
 			"melee_damage": 0,
 			"magic_damage": 0,
-			"ability_damage": 864,
+			"ability_damage": 1152,
 			"style": "bolts",
 			"prayer": 0,
 			"accuracy": 0,
@@ -416794,7 +417206,7 @@
 			"ability_damage": 288,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 63.2,
+			"armour": 0,
 			"requirements": {
 				"Ranged": 20
 			},
@@ -416804,29 +417216,28 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 316,
-			"auto_damage": 106
+			"auto_damage": 175.5
 		},
 		"Willow longbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 192,
+			"ability_damage": 288,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 63.2,
+			"armour": 0,
 			"requirements": {
-				"Defence": 20,
 				"Ranged": 20
 			},
 			"type": "Longbow",
 			"speed": 5,
 			"tier": 20,
 			"lp": 0,
-			"attack_range": 8,
+			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 316,
-			"auto_damage": 106
+			"auto_damage": 175.5
 		},
 		"Willow shortbow": {
 			"ranged_damage": 0,
@@ -417407,19 +417818,19 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 576,
+			"ability_damage": 1008,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 125.6,
+			"armour": 0,
 			"requirements": {
-				"Ranged": 40
+				"Ranged": 70
 			},
 			"speed": 5,
-			"tier": 40,
+			"tier": 70,
 			"lp": 0,
 			"attack_range": 9,
 			"class": "ranged",
-			"accuracy": 628,
+			"accuracy": 1486,
 			"auto_damage": 212
 		},
 		"Yew longbow": {
@@ -417427,21 +417838,20 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 384,
+			"ability_damage": 1008,
 			"magic_damage": 0,
 			"melee_damage": 0,
-			"armour": 125.6,
+			"armour": 0,
 			"requirements": {
-				"Defence": 40,
-				"Ranged": 40
+				"Ranged": 70
 			},
 			"type": "Longbow",
 			"speed": 5,
-			"tier": 40,
+			"tier": 70,
 			"lp": 0,
-			"attack_range": 8,
+			"attack_range": 9,
 			"class": "ranged",
-			"accuracy": 628,
+			"accuracy": 1486,
 			"auto_damage": 212
 		},
 		"Yew shortbow": {
@@ -417449,19 +417859,19 @@
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "arrows",
-			"ability_damage": 576,
+			"ability_damage": 1008,
 			"magic_damage": 0,
 			"melee_damage": 0,
 			"armour": 0,
 			"requirements": {
-				"Ranged": 40
+				"Ranged": 70
 			},
 			"speed": 4,
-			"tier": 40,
+			"tier": 70,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 628,
+			"accuracy": 1486,
 			"auto_damage": 351
 		},
 		"Zamorak arrows": {
