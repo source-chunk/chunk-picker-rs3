@@ -1613,7 +1613,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.9.60';
+let currentVersion = '6.9.61';
 let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.48';
 let updateLevel = 'unconnected-areas';
@@ -1763,7 +1763,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.9.60";
+mapImg.src = "runescape_world_map.png?v=6.9.61";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3692,7 +3692,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.9.60");
+        myWorker = new Worker("./worker.js?v=6.9.61");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage({
             type: 'current',
@@ -4049,8 +4049,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.9.60");
-let myWorker2 = new Worker("./worker.js?v=6.9.60");
+let myWorker = new Worker("./worker.js?v=6.9.61");
+let myWorker2 = new Worker("./worker.js?v=6.9.61");
 let workerOnMessage = function(e) {
     if (e.data.type === 'reload') {
         window.location.reload();
@@ -7217,7 +7217,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.9.60");
+    myWorker2 = new Worker("./worker.js?v=6.9.61");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage({
         type: 'future',
@@ -10358,7 +10358,7 @@ let encodeRFC5987ValueChars = function(str, forFirebase) {
 
 // Decode string
 let decodeQueryParam = function(str) {
-    return decodeURIComponent(str.replaceAll('-_-', '%').replaceAll('%25', '%').replaceAll(/%2E/g, '.').replaceAll(/%2F/g, '#').replaceAll(/%2G/g, '/').replaceAll(/%2H/g, "'").replaceAll(/-2H/g, "'").replaceAll(/%2I/g, ',').replaceAll(/%2J/g, '+').replaceAll(/%2Q/g, '!').replace(/%(?![0-9a-zA-Z][0-9a-zA-Z]+)/g, '%25')).replaceAll(/%2E/g, '.').replaceAll(/%2F/g, '#').replaceAll(/%2G/g, '/').replaceAll(/%2H/g, "'").replaceAll(/-2H/g, "'").replaceAll(/%2I/g, ',').replaceAll(/%2J/g, '+').replaceAll(/%2Q/g, '!');
+    return DOMPurify.sanitize(decodeURIComponent(str.replaceAll('-_-', '%').replaceAll('%25', '%').replaceAll(/%2E/g, '.').replaceAll(/%2F/g, '#').replaceAll(/%2G/g, '/').replaceAll(/%2H/g, "'").replaceAll(/-2H/g, "'").replaceAll(/%2I/g, ',').replaceAll(/%2J/g, '+').replaceAll(/%2Q/g, '!').replace(/%(?![0-9a-zA-Z][0-9a-zA-Z]+)/g, '%25')).replaceAll(/%2E/g, '.').replaceAll(/%2F/g, '#').replaceAll(/%2G/g, '/').replaceAll(/%2H/g, "'").replaceAll(/-2H/g, "'").replaceAll(/%2I/g, ',').replaceAll(/%2J/g, '+').replaceAll(/%2Q/g, '!'), { ALLOWED_TAGS: [], ALLOWED_ATTR: [] });
 }
 
 // Encode object
