@@ -241903,12 +241903,6 @@
 			},
 			"HerbDropTable+": {
 				"1": "10/128"
-			},
-			"Furniture plans: Zaros rug": {
-				"1": "1/1000"
-			},
-			"Furniture plans: Zaros altar": {
-				"1": "1/1000"
 			}
 		},
 		"Ancient mage (Heart of Gielinor)": {
@@ -241974,10 +241968,10 @@
 				"1": "4/126"
 			},
 			"Furniture plans: Zaros rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zaros altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Ancient ranger": {
@@ -242037,12 +242031,6 @@
 			},
 			"HerbDropTable+": {
 				"1": "10/128"
-			},
-			"Furniture plans: Zaros rug": {
-				"1": "1/1000"
-			},
-			"Furniture plans: Zaros altar": {
-				"1": "1/1000"
 			}
 		},
 		"Ancient ranger (Heart of Gielinor)": {
@@ -242108,10 +242096,10 @@
 				"1": "4/126"
 			},
 			"Furniture plans: Zaros rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zaros altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Ancient warrior": {
@@ -242176,12 +242164,6 @@
 			},
 			"HerbDropTable+": {
 				"1": "10/128"
-			},
-			"Furniture plans: Zaros rug": {
-				"1": "1/1000"
-			},
-			"Furniture plans: Zaros altar": {
-				"1": "1/1000"
 			}
 		},
 		"Ancient warrior (Heart of Gielinor)": {
@@ -242247,10 +242229,10 @@
 				"1": "4/126"
 			},
 			"Furniture plans: Zaros rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zaros altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Angry Turkey": {
@@ -243796,10 +243778,10 @@
 				"1": "4/124"
 			},
 			"Furniture plans: Seren rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Seren altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Automaton champion": {
@@ -243946,10 +243928,10 @@
 				"1": "15/128"
 			},
 			"Furniture plans: Armadyl rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Armadyl altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Baby black dragon": {
@@ -245880,10 +245862,10 @@
 				"1": "4/126"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Black Knight (Invasion of Falador)": {
@@ -245959,10 +245941,10 @@
 				"1": "4/124"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Black Stone Scuttler": {
@@ -246718,12 +246700,6 @@
 			},
 			"HerbDropTable+": {
 				"1": "10/128"
-			},
-			"Furniture plans: Zaros rug": {
-				"1": "1/1000"
-			},
-			"Furniture plans: Zaros altar": {
-				"1": "1/1000"
 			}
 		},
 		"Blood reaver (Heart of Gielinor)": {
@@ -246789,10 +246765,10 @@
 				"1": "4/124"
 			},
 			"Furniture plans: Zaros rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zaros altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Bloodworm": {
@@ -248684,10 +248660,10 @@
 				"1": "4/124"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Chaos Elemental": {
@@ -249395,10 +249371,10 @@
 				"1": "4/126"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Chaos dwarf hand cannoneer": {
@@ -250444,10 +250420,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Saradomin rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Saradomin altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Commander Zilyana (Hard Mode)": {
@@ -250588,10 +250564,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Saradomin rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Saradomin altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Confused barbarian": {
@@ -252175,10 +252151,10 @@
 				"1": "1/100"
 			},
 			"Furniture plans: Bandos rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Bandos altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Cyclossus": {
@@ -258856,10 +258832,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Bandos rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Bandos altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"General Graardor (Hard Mode)": {
@@ -259000,10 +258976,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Bandos rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Bandos altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"General malpractitioner": {
@@ -261622,10 +261598,10 @@
 				"1": "2/128"
 			},
 			"Furniture plans: Bandos rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Bandos altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Goblin (Lumbridge)": {
@@ -262502,10 +262478,10 @@
 				"1": "15/128"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Greater demon": {
@@ -264727,10 +264703,10 @@
 				"1": "1/1000"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Hellhound (Heart of Gielinor)": {
@@ -264796,10 +264772,10 @@
 				"1": "4/126"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Hellhound (The Zamorakian Undercity)": {
@@ -264942,10 +264918,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Seren rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Seren altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Helwyr (Hard Mode)": {
@@ -265028,10 +265004,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Seren rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Seren altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Hengel": {
@@ -265711,10 +265687,10 @@
 				"1": "12/128"
 			},
 			"Furniture plans: Bandos rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Bandos altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Hobgoblin (elite)": {
@@ -266969,10 +266945,10 @@
 				"1": "3/128"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Icelord": {
@@ -267274,10 +267250,10 @@
 				"1": "1/5000"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Imp herald": {
@@ -268799,10 +268775,10 @@
 				"1": "15/129"
 			},
 			"Furniture plans: Bandos rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Bandos altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Joseph": {
@@ -269226,10 +269202,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"K'ril Tsutsaroth (Hard Mode)": {
@@ -269345,10 +269321,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Kal'gerion demon": {
@@ -270591,10 +270567,10 @@
 				"1": "1/1000"
 			},
 			"Furniture plans: Saradomin rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Saradomin altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Kraka": {
@@ -270836,10 +270812,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Armadyl rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Armadyl altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Kree'arra (Hard Mode)": {
@@ -270991,10 +270967,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Armadyl rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Armadyl altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Ksenia": {
@@ -274788,10 +274764,10 @@
 				"1": "4/126"
 			},
 			"Furniture plans: Zaros rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zaros altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Nechryael (elite)": {
@@ -275372,12 +275348,6 @@
 			},
 			"Nex's wings": {
 				"1": "1/128"
-			},
-			"Furniture plans: Zaros rug": {
-				"1": "1/1000"
-			},
-			"Furniture plans: Zaros altar": {
-				"1": "1/1000"
 			}
 		},
 		"Nex, Angel of Death": {
@@ -275519,12 +275489,6 @@
 			},
 			"Nex's elemental crystals": {
 				"1": "1/128"
-			},
-			"Furniture plans: Nex rug": {
-				"1": "1/1000"
-			},
-			"Furniture plans: Nex altar": {
-				"1": "1/1000"
 			}
 		},
 		"Nikita": {
@@ -275793,10 +275757,10 @@
 				"1": "19/128"
 			},
 			"Furniture plans: Bandos rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Bandos altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Ogre chieftain": {
@@ -276408,10 +276372,10 @@
 				"1": "1/25"
 			},
 			"Furniture plans: Bandos rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Bandos altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Ork statue": {
@@ -279918,10 +279882,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Saradomin rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Saradomin altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Saradomin wizard": {
@@ -280636,10 +280600,10 @@
 				"1": "4/126"
 			},
 			"Furniture plans: Seren rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Seren altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Seren mage": {
@@ -280705,10 +280669,10 @@
 				"1": "4/126"
 			},
 			"Furniture plans: Seren rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Seren altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Seren warrior": {
@@ -280774,10 +280738,10 @@
 				"1": "4/126"
 			},
 			"Furniture plans: Seren rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Seren altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Sergeant Grimspike": {
@@ -287624,10 +287588,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Twin Furies (Hard Mode)": {
@@ -287713,10 +287677,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Twig (monster)": {
@@ -289310,10 +289274,10 @@
 				"1": "19/128"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Vampyre Juvenile": {
@@ -289841,10 +289805,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Zaros rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zaros altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Vindicta (Hard Mode)": {
@@ -289929,10 +289893,10 @@
 				"1": "1/128"
 			},
 			"Furniture plans: Zaros rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zaros altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Volatile TzekHaar-Hur": {
@@ -291602,10 +291566,10 @@
 				"1": "3/512"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"White Knight": {
@@ -292300,10 +292264,10 @@
 				"1": "4/126"
 			},
 			"Furniture plans: Seren rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Seren altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Woman": {
@@ -293691,10 +293655,10 @@
 				"1": "4/126"
 			},
 			"Furniture plans: Zamorak rug": {
-				"1": "1/1000"
+				"1": "1/512"
 			},
 			"Furniture plans: Zamorak altar": {
-				"1": "1/1000"
+				"1": "1/512"
 			}
 		},
 		"Zemouregal & Vorkath (Story Mode)": {
@@ -324076,10 +324040,10 @@
 					"1": "4/126"
 				},
 				"Furniture plans: Zaros rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Zaros altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				}
 			},
 			"Abyssal lord": {
@@ -325581,12 +325545,6 @@
 				},
 				"GemDropTable+": {
 					"1": "8/128"
-				},
-				"Furniture plans: Zamorak rug": {
-					"1": "1/1000"
-				},
-				"Furniture plans: Zamorak altar": {
-					"1": "1/1000"
 				}
 			},
 			"Bloodveld (Heart of Gielinor)": {
@@ -325652,10 +325610,10 @@
 					"1": "4/126"
 				},
 				"Furniture plans: Zamorak rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Zamorak altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				}
 			},
 			"Brine rat": {
@@ -333352,10 +333310,10 @@
 					"1": "2/128"
 				},
 				"Furniture plans: Zamorak rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Zamorak altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				}
 			},
 			"Ripper Demon": {
@@ -335265,28 +335223,28 @@
 					"1": "14/128"
 				},
 				"Furniture plans: Bandos rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Bandos altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Armadyl rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Armadyl altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Saradomin rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Saradomin altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Zamorak rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Zamorak altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				}
 			},
 			"Spiritual ranger": {
@@ -335440,28 +335398,28 @@
 					"1": "1/25"
 				},
 				"Furniture plans: Bandos rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Bandos altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Armadyl rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Armadyl altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Saradomin rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Saradomin altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Zamorak rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Zamorak altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				}
 			},
 			"Spiritual warrior": {
@@ -335627,28 +335585,28 @@
 					"1": "12/128"
 				},
 				"Furniture plans: Bandos rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Bandos altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Armadyl rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Armadyl altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Saradomin rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Saradomin altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Zamorak rug": {
-					"1": "1/1000"
+					"1": "1/512"
 				},
 				"Furniture plans: Zamorak altar": {
-					"1": "1/1000"
+					"1": "1/512"
 				}
 			},
 			"Terror dog": {
@@ -341932,10 +341890,10 @@
 					"1": "1/64"
 				},
 				"Furniture plans: Safe": {
-					"1": "1/100"
+					"1": "1/256"
 				},
 				"Furniture plans: Vault door": {
-					"1": "1/100"
+					"1": "1/512"
 				}
 			},
 			"High-level safes": {
@@ -341952,10 +341910,10 @@
 					"1": "1/1280"
 				},
 				"Furniture plans: Safe": {
-					"1": "1/100"
+					"1": "1/256"
 				},
 				"Furniture plans: Vault door": {
-					"1": "1/100"
+					"1": "1/512"
 				}
 			},
 			"Wall Safe": {
@@ -342326,12 +342284,6 @@
 				},
 				"Pilfer points": {
 					"1-15": "Always"
-				},
-				"Furniture plans: Safe": {
-					"1": "1/100"
-				},
-				"Furniture plans: Vault door": {
-					"1": "1/100"
 				}
 			},
 			"Asuran Arsenal loot": {
@@ -342398,12 +342350,6 @@
 				},
 				"Pilfer points": {
 					"1-15": "Always"
-				},
-				"Furniture plans: Safe": {
-					"1": "1/100"
-				},
-				"Furniture plans: Vault door": {
-					"1": "1/100"
 				}
 			},
 			"Chest (Dwarven mines, Thieving)": {
