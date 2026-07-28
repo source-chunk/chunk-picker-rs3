@@ -344,6 +344,7 @@ let objectsPlus = {};
 let chunksPlus = {};
 let monstersPlus = {};
 let npcsPlus = {};
+let shopsPlus = {};
 let mixPlus = {};
 let tasksPlus = {};
 let tools = {};
@@ -527,7 +528,7 @@ let ruleNames = {
     "Show Diary Tasks Any": "Show all Area Tasks achievements possible, regardless of tier<span class='rule-asterisk noscroll'>*</span>",
     "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must fletch yew logs into an unstrung shieldbow rather than arrow shafts)<span class='rule-asterisk noscroll'>*</span>",
     "BIS Skilling": "Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Pickaxe of Life and Death, Elite skilling outfits, Seed bag, etc.)",
-    "BIS Skilling Consumables": "Must also obtain best-in-slot/quality-of-life consumable items for skilling (scrimshaws, familiars, etc.)",
+    "BIS Skilling Consumables": "Must also obtain best-in-slot/quality-of-life charged or degrading items for skilling (scrimshaws, skillchompa, etc.)",
     "BIS Skilling Relics": "Must also obtain best-in-slot/quality-of-life Archaeology relics for skilling",
 	"Brawling Gloves": "Must also obtain every non-combat pair of brawling gloves",
 	"Hero Items": "Must obtain Hero Items as part of chunk tasks<span class='rule-asterisk noscroll'>†</span>",
@@ -3707,6 +3708,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
             objectsPlus,
             chunksPlus,
             itemsPlus,
+            shopsPlus,
             mixPlus,
             npcsPlus,
             tasksPlus,
@@ -7232,6 +7234,7 @@ let calcFutureChallenges = function() {
         objectsPlus,
         chunksPlus,
         itemsPlus,
+        shopsPlus,
         mixPlus,
         npcsPlus,
         tasksPlus,
@@ -11032,7 +11035,7 @@ let showDetails = function(challenge, skill, dataType, isNested) {
             return;
         }
         searchDetailsModalOpen && closeSearchDetails();
-        let detailsKeys = ['ItemsDetails', 'ObjectsDetails', 'MonstersDetails', 'NPCsDetails', 'ChunksDetails', 'Skill RequirementsDetails', 'Task RequirementsDetails'];
+        let detailsKeys = ['ItemsDetails', 'ObjectsDetails', 'MonstersDetails', 'NPCsDetails', 'ChunksDetails', 'ShopsDetails', 'Skill RequirementsDetails', 'Task RequirementsDetails'];
         let skills = [...skillNames];
         skills.push('Nonskill');
         detailsModalOpen = true;
@@ -12895,6 +12898,7 @@ let setCodeItems = function() {
     chunksPlus = codeItems['chunksPlus'];
     monstersPlus = codeItems['monstersPlus'];
     npcsPlus = codeItems['npcsPlus'];
+    shopsPlus = codeItems['shopsPlus'];
     mixPlus = codeItems['mixPlus'];
     tasksPlus = codeItems['tasksPlus'];
     tools = codeItems['tools'];

@@ -147,6 +147,7 @@ let monstersPlus;
 let objectsPlus;
 let chunksPlus;
 let itemsPlus;
+let shopsPlus;
 let mixPlus;
 let npcsPlus;
 let tools;
@@ -260,6 +261,7 @@ onmessage = function(e) {
             monstersPlus,
             objectsPlus,
             chunksPlus,
+			shopsPlus,
             itemsPlus,
             mixPlus,
             npcsPlus,
@@ -3729,6 +3731,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
     let objects = {...baseChunkData['objects']};
     let monsters = {...baseChunkData['monsters']};
     let npcs = {...baseChunkData['npcs']};
+	let shops = {...baseChunkData['shops']}
     let valids = {};
     extraOutputItems = {};
     multiTasks = {};
@@ -3870,6 +3873,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
             chunkInfo['challenges'][skill][name]['MonstersDetails'] = [];
             chunkInfo['challenges'][skill][name]['NPCsDetails'] = [];
             chunkInfo['challenges'][skill][name]['ChunksDetails'] = [];
+            chunkInfo['challenges'][skill][name]['ShopsDetails'] = [];
             chunkInfo['challenges'][skill][name]['Skill RequirementsDetails'] = [];
             chunkInfo['challenges'][skill][name]['Skill Requirements'] = [];
             chunkInfo['challenges'][skill][name]['Task RequirementsDetails'] = [];
@@ -4531,6 +4535,43 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                     }
                 }
                 !!secondary && (tempSecondary = true);
+            });
+            if (wrongThings.length > 0) {
+                nonValids[name] = wrongThings;
+                return;
+            }
+			!!chunkInfo['challenges'][skill][name]['Shops'] && chunkInfo['challenges'][skill][name]['Shops'].some(shop => {
+                let secondary = true;
+				 if (shop.includes('[+]') && shopsPlus.hasOwnProperty(shop)) {
+                    let tempValid = false;
+                    shopsPlus[shop].filter((plus) => { return !!shops[plus] }).some(plus => {
+                        tempValid = true;
+                        if (Object.keys(shops[plus.replaceAll(/\*/g, '')]).filter((source) => { return !source.includes('secondary-') }).length > 0) {
+                            secondary = false;
+                            return true;
+                        }
+                    });
+                    if (!tempValid) {
+                        validChallenge = false;
+                        wrongThings.push(shops);
+                        nonValids[name] = wrongThings;
+                        chunkInfo['challenges'][skill][name]['ShopsDetails'].push(shop);
+                        return true;
+                    } else {
+                        chunkInfo['challenges'][skill][name]['ShopsDetails'].push(shop);
+                    }
+                } else {
+                    if (shop) {
+                        validChallenge = false;
+                        wrongThings.push(shop);
+                        nonValids[name] = wrongThings;
+                        chunkInfo['challenges'][skill][name]['ShopsDetails'].push(shop);
+                        return true;
+                    } else {
+                        chunkInfo['challenges'][skill][name]['ShopsDetails'].push(shop);
+                        (Object.keys(shop).filter((source) => { return !source.includes('secondary-') }).length > 0) && (secondary = false);
+                    }
+                }
             });
             if (wrongThings.length > 0) {
                 nonValids[name] = wrongThings;
@@ -5638,7 +5679,7 @@ let calcBIS = function(completedOnly) {
                 if (skill === 'Melee' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
                         let isAccuracyNeeded = chunkInfo['equipment'][equip].slot !== 'off-hand weapon';
-						chunkInfo['equipment'][equip].extra_power = (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
+						chunkInfo['equipment'][equip].extra_power = (isAccuracyNeeded ? 1 : 1/2) * (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
 						if (!completedOnly && ((chunkInfo['equipment'][equip].accuracy_tier > 0 && chunkInfo['equipment'][equip].damage_tier > 0) || equip === 'Unarmed')) {
                             if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
@@ -5709,7 +5750,7 @@ let calcBIS = function(completedOnly) {
                 } else if (skill === 'Stab' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
                         let isAccuracyNeeded = chunkInfo['equipment'][equip].slot !== 'off-hand weapon';
-						chunkInfo['equipment'][equip].extra_power = (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
+						chunkInfo['equipment'][equip].extra_power = (isAccuracyNeeded ? 1 : 1/2) * (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
 						if (!completedOnly && chunkInfo['equipment'][equip].style === 'stab' && (chunkInfo['equipment'][equip].accuracy_tier > 0 && chunkInfo['equipment'][equip].damage_tier > 0)) {
                             if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
@@ -5769,7 +5810,7 @@ let calcBIS = function(completedOnly) {
                 } else if (skill === 'Slash' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
                         let isAccuracyNeeded = chunkInfo['equipment'][equip].slot !== 'off-hand weapon';
-						chunkInfo['equipment'][equip].extra_power = (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
+						chunkInfo['equipment'][equip].extra_power = (isAccuracyNeeded ? 1 : 1/2) * (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
 						if (!completedOnly && chunkInfo['equipment'][equip].style === 'slash' && (chunkInfo['equipment'][equip].accuracy_tier > 0 && chunkInfo['equipment'][equip].damage_tier > 0)) {
                             if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
@@ -5838,7 +5879,7 @@ let calcBIS = function(completedOnly) {
                 } else if (skill === 'Crush' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
 						let isAccuracyNeeded = chunkInfo['equipment'][equip].slot !== 'off-hand weapon';
-						chunkInfo['equipment'][equip].extra_power = (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
+						chunkInfo['equipment'][equip].extra_power = (isAccuracyNeeded ? 1 : 1/2) * (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
 						if (!completedOnly && chunkInfo['equipment'][equip].style === 'crush' && (chunkInfo['equipment'][equip].accuracy_tier > 0 && chunkInfo['equipment'][equip].damage_tier > 0)) {
                             if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
@@ -5948,7 +5989,7 @@ let calcBIS = function(completedOnly) {
                         if (!(Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) }).length > 0) || bestAmmo !== null || (Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) }).length === 1 && Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) })[0] === 'No ammo')) {
                             let ammoMultiplier = 1;
                             let isAccuracyNeeded = (chunkInfo['equipment'][equip].slot !== 'off-hand weapon' && !!bestAmmo);
-							chunkInfo['equipment'][equip].extra_power = (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
+							chunkInfo['equipment'][equip].extra_power = (isAccuracyNeeded ? 1 : 1/2) * (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
 							 if (!completedOnly && (chunkInfo['equipment'][equip].accuracy_tier > 0 && chunkInfo['equipment'][equip].damage_tier > 0)) {
                                 if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                     bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
@@ -5994,8 +6035,8 @@ let calcBIS = function(completedOnly) {
                                     }
                                 }
                             }
-							//console.log(equip + " has a total power of " + ((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy_tier : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].damage_tier, chunkInfo['equipment'][bestAmmo].damage_tier) : chunkInfo['equipment'][equip].damage_tier) + chunkInfo['equipment'][equip].extra_power));
-							//console.log(bestEquipment[chunkInfo['equipment'][equip].slot] + " is the BIS in slot " + chunkInfo['equipment'][equip].slot + " with a total power of " + (((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier, chunkInfo['equipment'][bestAmmoSaved[chunkInfo['equipment'][equip].slot]].damage_tier) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].extra_power)));
+							console.log(equip + " has a total power of " + ((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy_tier : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].damage_tier, chunkInfo['equipment'][bestAmmo].damage_tier) : chunkInfo['equipment'][equip].damage_tier) + chunkInfo['equipment'][equip].extra_power));
+							console.log(bestEquipment[chunkInfo['equipment'][equip].slot] + " is the BIS in slot " + chunkInfo['equipment'][equip].slot + " with a total power of " + (((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier, chunkInfo['equipment'][bestAmmoSaved[chunkInfo['equipment'][equip].slot]].damage_tier) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].extra_power)));
 						}
 					} else {
                         if (chunkInfo['equipment'][equip].ranged_damage >= 0 && chunkInfo['equipment'][equip].slot !== 'ammo') {
@@ -6036,7 +6077,7 @@ let calcBIS = function(completedOnly) {
                 } else if (skill === 'Magic' && (chunkInfo['equipment'][equip].class === 'magic' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
                         let isAccuracyNeeded = chunkInfo['equipment'][equip].slot !== 'off-hand weapon';
-						chunkInfo['equipment'][equip].extra_power = (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
+						chunkInfo['equipment'][equip].extra_power = (isAccuracyNeeded ? 1 : 1/2) * (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
 						if (!completedOnly && (chunkInfo['equipment'][equip].accuracy_tier > 0 && chunkInfo['equipment'][equip].damage_tier > 0)) {
                             if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
@@ -6098,7 +6139,7 @@ let calcBIS = function(completedOnly) {
                 } else if (skill === 'Necromancy' && (chunkInfo['equipment'][equip].class === 'necromancy' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
                         let isAccuracyNeeded = chunkInfo['equipment'][equip].slot !== 'off-hand weapon';
-						chunkInfo['equipment'][equip].extra_power = (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
+						chunkInfo['equipment'][equip].extra_power = (isAccuracyNeeded ? 1 : 1/2) * (((!!chunkInfo['equipment'][equip].can_augment && chunks.hasOwnProperty('Invention Guild')) ? augmentationWeight : 0) + (!!chunkInfo['equipment'][equip].has_spec ? specialAttackWeight : 0) + (!!chunkInfo['equipment'][equip].has_passive ? passiveWeight : 0));
 						if (!completedOnly && (chunkInfo['equipment'][equip].accuracy_tier > 0 && chunkInfo['equipment'][equip].damage_tier > 0)) {
                             if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
