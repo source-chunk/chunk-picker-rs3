@@ -62810,6 +62810,17 @@
 				"Output": "Gargoyle",
 				"NoPet": true
 			},
+			"Slay a ~|gargoyle|~ in the wilderness": {
+				"Items": ["RockHammer[+]"],
+				"Level": 75,
+				"Monsters": ["Gargoyle"],
+				"Chunks": ["12858"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Gargoyle#Wilderness",
+				"NoPet": true
+			},
 			"Slay a ~|throwing muspah|~": {
 				"Level": 76,
 				"Monsters": ["Throwing muspah"],
@@ -63030,6 +63041,16 @@
 				"Priority": 5,
 				"Source": "drop",
 				"Output": "Abyssal demon (Heart of Gielinor)",
+				"NoPet": true
+			},
+			"Slay an ~|abyssal demon|~ in the Wilderness": {
+				"Level": 85,
+				"Monsters": ["Abyssal demon"],
+				"Chunks": ["WildyAbyssalBeast[+]"],
+				"Primary": false,
+				"Priority": 4,
+				"Source": "drop",
+				"Output": "Abyssal demon#Wilderness",
 				"NoPet": true
 			},
 			"Slay a ~|risen ghost|~": {
@@ -63340,6 +63361,17 @@
 				"Output": "Ice strykewyrm (task)",
 				"NoPet": true
 			},
+			"Slay an ~|ice strykewyrm|~ in the wilderness": {
+				"Items": ["FireCape[+]"],
+				"Level": 93,
+				"Monsters": ["Ice strykewyrm"],
+				"Chunks": ["WildyIceStrykewyrm[+]"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Ice strykewyrm#Wilderness",
+				"NoPet": true
+			},
 			"Slay a ~|sakadagami|~": {
 				"Level": 93,
 				"Monsters": ["Sakadagami"],
@@ -63412,6 +63444,16 @@
 				"Priority": 50,
 				"Source": "drop",
 				"Output": "Dragonstone dragon (task)",
+				"NoPet": true
+			},
+			"Slay a ~|dragonstone dragon|~ in the wilderness": {
+				"Level": 95,
+				"Monsters": ["Dragonstone dragon"],
+				"Chunks": ["Deep Wilderness Dungeon"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Dragonstone dragon#Wilderness",
 				"NoPet": true
 			},
 			"Slay a ~|luminous snaggler|~": {
@@ -63558,6 +63600,16 @@
 				"Output": "Ripper Demon (task)",
 				"NoPet": true
 			},
+			"Slay a ~|Ripper Demon|~ in the wilderness": {
+				"Level": 96,
+				"Monsters": ["Ripper Demon"],
+				"Chunks": ["WildyRipperDemon[+]"],
+				"Primary": false,
+				"Priority": 101,
+				"Source": "drop",
+				"Output": "Ripper Demon#Wilderness",
+				"NoPet": true
+			},
 			"Slay a ~|Camel Warrior|~": {
 				"Level": 96,
 				"Monsters": ["Camel Warrior"],
@@ -63586,6 +63638,16 @@
 				"Priority": 5,
 				"Source": "drop",
 				"Output": "Acheron mammoth",
+				"NoPet": true
+			},
+			"Slay an ~|Acheron mammoth|~ in the wilderness": {
+				"Level": 96,
+				"Monsters": ["Acheron mammoth"],
+				"Chunks": ["11837"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Acheron mammoth#Wilderness",
 				"NoPet": true
 			},
 			"Slay a ~|corrupted dust devil|~": {
@@ -63632,6 +63694,16 @@
 				"Output": "Onyx dragon (task)",
 				"NoPet": true
 			},
+			"Slay an ~|onyx dragon|~ in the wilderness": {
+				"Level": 98,
+				"Monsters": ["Onyx dragon"],
+				"Chunks": ["WildyOnyxDragon[+]"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Onyx dragon#Wilderness",
+				"NoPet": true
+			},
 			"Slay a ~|soulgazer|~": {
 				"Level": 99,
 				"Monsters": ["Soulgazer"],
@@ -63639,6 +63711,16 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Soulgazer",
+				"NoPet": true
+			},
+			"Slay a ~|soulgazer|~ in the wilderness": {
+				"Level": 99,
+				"Monsters": ["Soulgazer"],
+				"CHunks": ["WildySoulgazer[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Soulgazer#Wilderness",
 				"NoPet": true
 			},
 			"Slay a ~|brutish dinosaur|~": {
@@ -63727,6 +63809,16 @@
 				"Priority": 50,
 				"Source": "drop",
 				"Output": "Hydrix dragon (task)",
+				"NoPet": true
+			},
+			"Slay a ~|hydrix dragon|~ in the wilderness": {
+				"Level": 101,
+				"Monsters": ["Hydrix dragon"],
+				"Chunks": ["WildyHydrixDragon[+]"],
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Hydrix dragon#Wilderness",
 				"NoPet": true
 			},
 			"Slay a ~|lampenflora|~": {
@@ -64184,6 +64276,16 @@
 				"Output": "Abyssal savage",
 				"NoPet": true
 			},
+			"Slay an ~|abyssal savage|~ in the wilderness": {
+				"Level": 95,
+				"Monsters": ["Abyssal savage"],
+				"Chunks": ["WildyAbyssalSavage[+]"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Abyssal savage#Wilderness",
+				"NoPet": true
+			},
 			"Slay an ~|abyssal beast|~": {
 				"Level": 105,
 				"Monsters": ["Abyssal beast"],
@@ -64205,6 +64307,16 @@
 				"Output": "Abyssal beast (task)",
 				"NoPet": true
 			},
+			"Slay an ~|abyssal beast|~ in the wilderness": {
+				"Level": 105,
+				"Monsters": ["Abyssal beast"],
+				"Chunks": ["WildyAbyssalBeast[+]"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Abyssal beast#Wilderness",
+				"NoPet": true
+			},
 			"Slay an ~|abyssal lord|~": {
 				"Level": 115,
 				"Monsters": ["Abyssal lord"],
@@ -64224,6 +64336,16 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Abyssal lord (task)",
+				"NoPet": true
+			},
+			"Slay an ~|abyssal lord|~ in the wilderness": {
+				"Level": 115,
+				"Monsters": ["Abyssal lord"],
+				"Chunks": ["WildyAbyssalLord[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Abyssal lord#Wilderness",
 				"NoPet": true
 			},
 			"Wield an ~|abyssal vine whip|~": {
@@ -148484,22 +148606,26 @@
 			"(Artisans' Workshop) Obtain any ~|iron ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"(Artisans' Workshop) Obtain any ~|off-hand iron ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"(Artisans' Workshop) Obtain any ~|steel ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"(Artisans' Workshop) Obtain any ~|off-hand steel ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"(Artisans' Workshop) Obtain any ~|mithril ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -148534,102 +148660,122 @@
 			"Obtain an ~|iron ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand iron ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|iron ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand iron ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|iron ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand iron ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|iron ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand iron ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|iron ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand iron ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|steel ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand steel ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|steel ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand steel ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|steel ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand steel ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|steel ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand steel ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|steel ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand steel ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|mithril ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
@@ -197944,7 +198090,8 @@
 						"Tree": 4
 					},
 					"Monster": {
-						"Blue dragon": 10
+						"Blue dragon": 10,
+						"Blue dragon#Wilderness": 1
 					},
 					"Spawn": {
 						"Skull": 2
@@ -197982,6 +198129,7 @@
 					},
 					"Monster": {
 						"Green dragon": 3,
+						"Green dragon#Wilderness": 1,
 						"Demon Boss (Wilderness)": 1
 					},
 					"Clue": {
@@ -199120,7 +199268,8 @@
 						"Fishing spot (lava)": 1
 					},
 					"Monster": {
-						"Hellhound": 2
+						"Hellhound": 2,
+						"Hellhound#Wilderness": 1
 					},
 					"Spawn": {
 						"Iron full helm": 1
@@ -199137,7 +199286,8 @@
 						"Crashed star": 1
 					},
 					"Monster": {
-						"Hydrix dragon": 5
+						"Hydrix dragon": 5,
+						"Hydrix dragon#Wilderness": 1
 					},
 					"Clue": {
 						"hard": 1,
@@ -199157,12 +199307,14 @@
 						"Web": 1
 					},
 					"Monster": {
-						"Hellhound": 9
+						"Hellhound": 9,
+						"Hellhound#Wilderness": 1
 					}
 				},
 				"4": {
 					"Monster": {
-						"Hellhound": 2
+						"Hellhound": 2,
+						"Hellhound#Wilderness": 1
 					},
 					"Spawn": {
 						"Gold necklace": 1
@@ -199192,7 +199344,8 @@
 			},
 			"Monster": {
 				"Pirate": 12,
-				"Hellhound": 2
+				"Hellhound": 2,
+				"Hellhound#Wilderness": 1
 			},
 			"NPC": {
 				"Mysterious ghost": 1,
@@ -200426,6 +200579,7 @@
 			},
 			"Monster": {
 				"Hellhound": 9,
+				"Hellhound#Wilderness": 1,
 				"Lesser demon": 5
 			},
 			"NPC": {
@@ -200459,7 +200613,8 @@
 				"1": {
 					"Monster": {
 						"Abyssal beast": 10,
-						"Hellhound": 15,
+						"Abyssal beast": 1,
+						"Hellhound#Wilderness": 1,
 						"Lava strykewyrm": 3
 					},
 					"NPC": {
@@ -200474,7 +200629,8 @@
 				},
 				"2": {
 					"Monster": {
-						"Hellhound": 2
+						"Hellhound": 2,
+						"Hellhound#Wilderness": 1
 					}
 				}
 			},
@@ -200513,6 +200669,7 @@
 			},
 			"Monster": {
 				"Hellhound": 7,
+				"Hellhound#Wilderness": 1,
 				"Battle mage": 9,
 				"Ripper Demon": 1
 			},
@@ -201560,7 +201717,8 @@
 				"Crashed star": 1
 			},
 			"Monster": {
-				"Greater demon": 9
+				"Greater demon": 9,
+				"Greater demon#Wilderness": 1
 			},
 			"Clue": {
 				"elite": 7
@@ -201649,6 +201807,7 @@
 			},
 			"Monster": {
 				"Hellhound": 5,
+				"Hellhound#Wilderness": 1,
 				"Magic axe": 9
 			},
 			"Clue": {
@@ -204428,7 +204587,9 @@
 			},
 			"Monster": {
 				"Greater demon": 5,
-				"Kal'gerion demon": 10
+				"Greater demon#Wilderness": 1,
+				"Kal'gerion demon": 10,
+				"Kal'gerion demon#Wilderness": 1
 			},
 			"Spawn": {
 				"Nature rune": 2,
@@ -205535,7 +205696,8 @@
 			"Sections": {
 				"1": {
 					"Monster": {
-						"Waterfiend": 9
+						"Waterfiend": 9,
+						"Waterfiend#Wilderness": 1
 					},
 					"NPC": {
 						"Gull": 3,
@@ -205557,7 +205719,9 @@
 				"1": {
 					"Monster": {
 						"Green dragon": 11,
+						"Green dragon#Wilderness": 1,
 						"Waterfiend": 4,
+						"Waterfiend#Wilderness": 1,
 						"Demon Boss (Wilderness)": 1
 					},
 					"Quest": {
@@ -205607,6 +205771,7 @@
 		"13371": {
 			"Monster": {
 				"Hellhound": 12,
+				"Hellhound#Wilderness": 1,
 				"Greater demon ash lord": 1
 			},
 			"Object": {
@@ -223133,6 +223298,7 @@
 				"Earth warrior": 4,
 				"Thug": 9,
 				"Black demon": 3,
+				"Black demon#Wilderness": 1,
 				"Spider": 8
 			},
 			"Connect": {
@@ -225271,6 +225437,7 @@
 			"Monster": {
 				"Poison spider": 9,
 				"Black dragon": 2,
+				"Black dragon#Wilderness": 1,
 				"Ripper Demon": 3
 			},
 			"Connect": {
@@ -225716,8 +225883,11 @@
 				"Lesser demon": 8,
 				"Dark beast": 9,
 				"Greater demon": 10,
+				"Greater demon#Wilderness": 1,
 				"Green dragon": 5,
+				"Green dragon#Wilderness": 1,
 				"Hellhound": 8,
+				"Hellhound#Wilderness": 1,
 				"Revenant imp": 2,
 				"Revenant goblin": 4,
 				"Revenant icefiend": 1,
@@ -236181,6 +236351,7 @@
 			"WildyDarkBeast[+]": ["11835", "11834", "12090", "Forinthry Dungeon"],
 			"WildyGreaterBerserkLord[+]": ["11836", "13372-1"],
 			"WildyHydrixDragon[+]": ["12092-1", "Deep Wilderness Dungeon"],
+			"WildyIceStrykewyrm[+]": ["11836", "12091-1"],
 			"WildyOnyxDragon[+]": ["12859-1", "13115", "Deep Wilderness Dungeon"],
 			"WildyRipperDemon[+]": ["12348-2", "12349", "12860", "Lava Maze Dungeon"],
 			"WildySoulgazer[+]": ["13114", "13370-1"],
@@ -245638,6 +245809,11 @@
 				"1": "1/200"
 			}
 		},
+		"Black demon#Wilderness": {
+			"WildernessDropTable+": {
+				"1": "50/5102"
+			}
+		},
 		"Black demon (Demon Flash Mobs)": {
 			"Infernal ashes": {
 				"1": "Always"
@@ -245826,6 +246002,11 @@
 			},
 			"RareDropTable+": {
 				"1": "1/250"
+			}
+		},
+		"Black dragon#Wilderness": {
+			"WildernessDropTable+": {
+				"1": "50/5000"
 			}
 		},
 		"Black dragon (Dragonkin Laboratory)": {
@@ -246419,9 +246600,6 @@
 			},
 			"HerbDropTable+": {
 				"1": "15/128"
-			},
-			"WildernessDropTable+": {
-				"1": "50/6756"
 			}
 		},
 		"Boggoth": {
@@ -262083,6 +262261,11 @@
 				"1": "22/128"
 			}
 		},
+		"Greater demon#Wilderness": {
+			"WildernessDropTable+": {
+				"1": "50/6097"
+			}
+		},
 		"Greater demon (elite)": {
 			"Accursed ashes": {
 				"1": "Always"
@@ -262227,6 +262410,9 @@
 			},
 			"RareDropTable+": {
 				"1": "1/200"
+			},
+			"WildernessDropTable+": {
+				"1": "50/3355"
 			}
 		},
 		"Greater demon berserker": {
@@ -262308,6 +262494,9 @@
 			},
 			"RareDropTable+": {
 				"1": "1/200"
+			},
+			"WildernessDropTable+": {
+				"1": "50/3144"
 			}
 		},
 		"Greater demon brute": {
@@ -262695,7 +262884,9 @@
 			},
 			"HerbDropTable+": {
 				"1": "15/128"
-			},
+			}
+		},
+		"Green dragon#Wilderness": {
 			"WildernessDropTable+": {
 				"1": "50/7936"
 			}
@@ -264169,6 +264360,11 @@
 			},
 			"Spirit ruby": {
 				"1": "1/1000"
+			}
+		},
+		"Hellhound#Wilderness": {
+			"WildernessDropTable+": {
+				"1": "50/5434"
 			}
 		},
 		"Hellhound (God Wars Dungeon)": {
@@ -268966,6 +269162,11 @@
 			},
 			"RareDropTable+": {
 				"1": "1/100"
+			}
+		},
+		"Kal'gerion demon#Wilderness": {
+			"WildernessDropTable+": {
+				"1": "50/3968"
 			}
 		},
 		"Kal'gerion demon (The Shadow Reef)": {
@@ -283931,9 +284132,6 @@
 			},
 			"RareDropTable+": {
 				"1": "Unknown"
-			},
-			"WildernessDropTable+": {
-				"1": "50/3703"
 			}
 		},
 		"Soulless": {
@@ -290673,7 +290871,9 @@
 			},
 			"GemDropTable+": {
 				"1": "4/128"
-			},
+			}
+		},
+		"Waterfiend#Wilderness": {
 			"WildernessDropTable+": {
 				"1": "50/4672"
 			}
@@ -290874,9 +291074,6 @@
 			},
 			"RareDropTable+": {
 				"1": "1/250"
-			},
-			"WildernessDropTable+": {
-				"1": "50/4504"
 			}
 		},
 		"Werewolf": {
@@ -296265,7 +296462,13 @@
 			"Potato seed^Catablepon": [{
 				"Members only": "Nonskill"
 			}],
+			"Potato seed^Hill giant": [{
+				"Members only": "Nonskill"
+			}],
 			"Onion seed^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Onion seed^Hill giant": [{
 				"Members only": "Nonskill"
 			}],
 			"Cabbage seed^": [{
@@ -299043,6 +299246,11 @@
 					"Access to stardust": "Nonskill"
 				}]
 			},
+			"Shrine of the Spirit Wolves": {
+				"16946-1": [{
+					"Members only": "Nonskill"
+				}]
+			},
 			"Slayer Equipment": {
 				"13111": [{
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
@@ -299204,6 +299412,11 @@
 			"Summoning Supplies (Bogrog)": {
 				"10031": [{
 					"~|Watchtower|~ 7": "Quest"
+				}]
+			},
+			"Summoning Supplies (Wendlewick)": {
+				"16946-1": [{
+					"Members only": "Nonskill"
 				}]
 			},
 			"Sydekix's Shop of Balance": {
@@ -323252,11 +323465,13 @@
 				"RareDropTable+": {
 					"1": "1/75"
 				},
-				"WildernessDropTable+": {
-					"1": "50/4201"
-				},
 				"AbyssalHerbDropTable+": {
 					"1": "20/100"
+				}
+			},
+			"Abyssal beast#Wilderness": {
+				"WildernessDropTable+": {
+					"1": "50/4201"
 				}
 			},
 			"Abyssal beast (task)": {
@@ -323361,6 +323576,11 @@
 				},
 				"RareDropTable+": {
 					"1": "1/150"
+				}
+			},
+			"Abyssal demon#Wilderness": {
+				"WildernessDropTable+": {
+					"1": "50/5102"
 				}
 			},
 			"Abyssal demon (Heart of Gielinor)": {
@@ -323511,11 +323731,13 @@
 				"RareDropTable+": {
 					"1": "1/50"
 				},
-				"WildernessDropTable+": {
-					"1": "50/3759"
-				},
 				"AbyssalHerbDropTable+": {
 					"1": "10/100"
+				}
+			},
+			"Abyssal lord#Wilderness": {
+				"WildernessDropTable+": {
+					"1": "50/3759"
 				}
 			},
 			"Abyssal lord (task)": {
@@ -323598,6 +323820,11 @@
 				},
 				"AbyssalHerbDropTable+": {
 					"1": "1/100"
+				}
+			},
+			"Abyssal savage#Wilderness": {
+				"WildernessDropTable+": {
+					"1": "50/4504"
 				}
 			},
 			"Acheron mammoth": {
@@ -323693,7 +323920,9 @@
 				},
 				"RareDropTable+": {
 					"1": "1/100"
-				},
+				}
+			},
+			"Acheron mammoth#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/3816"
 				}
@@ -327407,7 +327636,9 @@
 				},
 				"RareDropTable+": {
 					"1": "1/150"
-				},
+				}
+			},
+			"Dragonstone dragon#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/4201"
 				}
@@ -328366,7 +328597,9 @@
 				},
 				"Spirit ruby": {
 					"1": "1/1000"
-				},
+				}
+			},
+			"Gargoyle#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/4761"
 				}
@@ -328968,7 +329201,9 @@
 				},
 				"RareDropTable+": {
 					"1": "1/100"
-				},
+				}
+			},
+			"Hydrix dragon#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/3759"
 				}
@@ -329150,7 +329385,9 @@
 				},
 				"TalismanDropTable+": {
 					"1": "1/101"
-				},
+				}
+			},
+			"Ice strykewyrm#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/4716"
 				}
@@ -332402,7 +332639,9 @@
 				},
 				"RareDropTable+": {
 					"1": "1/150"
-				},
+				}
+			},
+			"Onyx dragon#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/3968"
 				}
@@ -332804,6 +333043,11 @@
 				},
 				"RareDropTable+": {
 					"1": "1/100"
+				}
+			},
+			"Ripper Demon#Wilderness": {
+				"WildernessDropTable+": {
+					"1": "50/3816"
 				}
 			},
 			"Ripper Demon (task)": {
@@ -334445,7 +334689,9 @@
 				},
 				"RareDropTable+": {
 					"1": "1/100"
-				},
+				}
+			},
+			"Soulgazer#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/3906"
 				}
@@ -339918,35 +340164,23 @@
 					"60": "Common",
 					"120": "Common"
 				},
-				"Adrenaline crystal": {
-					"5-15 (noted)": "Very rare"
-				},
 				"Bloodweed seed": {
-					"1": "Very rare"
-				},
-				"Wilderness hilt": {
-					"1": "Very rare"
-				},
-				"Preserved meat": {
-					"1": "Very rare"
+					"1": "1/500"
 				},
 				"Dragonfruit seed": {
-					"1-2": "Very rare"
+					"1-2": "1/5000"
 				},
 				"Mango seed": {
-					"1-3": "Very rare"
+					"1-3": "1/1000"
 				},
-				"Stinkhorn spore": {
-					"1-3": "Very rare"
+				"Stinkshroom seed": {
+					"1-3": "1/800"
 				},
 				"Ciku seed": {
-					"1": "Very rare"
+					"1": "1/4000"
 				},
-				"Fremennik equipment patch": {
-					"1": "Very rare"
-				},
-				"Revenant drop enhancer": {
-					"1": "Very rare"
+				"WildernessDropTable+": {
+					"1": "50/50000"
 				}
 			},
 			"Waiko islander": {
@@ -343301,22 +343535,25 @@
 			},
 			"Muddychests": {
 				"Coins": {
-					"10000": "1405/2673"
+					"10000": "21/128"
 				},
 				"Battlestaff": {
-					"2 (noted)": "104/2673"
+					"2 (noted)": "5/128"
 				},
 				"Blood rune": {
-					"20": "275/2673"
+					"20": "14/128"
 				},
 				"Bloodweed seed": {
-					"1": "224/2673"
+					"1": "12/128"
 				},
 				"Dragon longsword": {
-					"1": "112/2673"
+					"1": "4/128"
 				},
 				"Crystal key": {
-					"1": "56/2673"
+					"1": "3/128"
+				},
+				"WildernessDropTable+": {
+					"1": "1/256"
 				}
 			},
 			"Newtroost loot": {

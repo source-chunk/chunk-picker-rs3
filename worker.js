@@ -5013,7 +5013,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
             drops[line.split('|')[1]] = true;
         });
         Object.keys(items).filter((item) => { return !!items[item] }).sort().forEach((item) => {
-            !drops[item] && Object.keys(items[item]).filter((source) => { return (items[item][source].includes('-drop') || items[item][source].includes('-Slayer') || items[item][source].includes('-Thieving') || items[item][source].includes('-Hunter')) }).forEach((source) => {
+            !drops[item] && Object.keys(items[item]).filter((source) => { return (items[item][source].includes('-drop') || items[item][source].includes('-Slayer') || items[item][source].includes('-Thieving') || items[item][source].includes('-Hunter'))}).forEach((source) => {
                 let realSource = source.replaceAll('*', '');
                 if (source.includes('Slay ')) {
                     let monster = chunkInfo['challenges']['Slayer'][source]['Output'];
@@ -6035,8 +6035,8 @@ let calcBIS = function(completedOnly) {
                                     }
                                 }
                             }
-							console.log(equip + " has a total power of " + ((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy_tier : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].damage_tier, chunkInfo['equipment'][bestAmmo].damage_tier) : chunkInfo['equipment'][equip].damage_tier) + chunkInfo['equipment'][equip].extra_power));
-							console.log(bestEquipment[chunkInfo['equipment'][equip].slot] + " is the BIS in slot " + chunkInfo['equipment'][equip].slot + " with a total power of " + (((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier, chunkInfo['equipment'][bestAmmoSaved[chunkInfo['equipment'][equip].slot]].damage_tier) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].extra_power)));
+							//console.log(equip + " has a total power of " + ((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy_tier : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].damage_tier, chunkInfo['equipment'][bestAmmo].damage_tier) : chunkInfo['equipment'][equip].damage_tier) + chunkInfo['equipment'][equip].extra_power));
+							//console.log(bestEquipment[chunkInfo['equipment'][equip].slot] + " is the BIS in slot " + chunkInfo['equipment'][equip].slot + " with a total power of " + (((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier, chunkInfo['equipment'][bestAmmoSaved[chunkInfo['equipment'][equip].slot]].damage_tier) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].extra_power)));
 						}
 					} else {
                         if (chunkInfo['equipment'][equip].ranged_damage >= 0 && chunkInfo['equipment'][equip].slot !== 'ammo') {
