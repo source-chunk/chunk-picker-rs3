@@ -10697,6 +10697,17 @@
 				"Primary": true,
 				"Priority": 5
 			},
+			"Build a room with the mud ~|floor style|~": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["Player-owned house"],
+				"Level": 5,
+				"Tasks": {
+					"~|Love Story|~ Complete the quest": "Quest"
+				},
+				"Primary": false,
+				"Priority": 100,
+				"NoBoost": true
+			},
 			"Construct any plant from ~|bagged plant 2|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Bagged plant 2"],
@@ -10878,6 +10889,14 @@
 				"Level": 10,
 				"Primary": false,
 				"Priority": 103,
+				"NoBoost": true
+			},
+			"Build a room with the paving stone ~|floor style|~": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["Player-owned house"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 104,
 				"NoBoost": true
 			},
 			"Construct a ~|firepit with hook|~": {
@@ -11188,6 +11207,14 @@
 				"Priority": 105,
 				"NoBoost": true
 			},
+			"Build a room with the grey flagstone ~|floor style|~": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["Player-owned house"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 106,
+				"NoBoost": true
+			},
 			"Build the ~|water filtration system|~ at Het's Oasis": {
 				"Chunks": ["13362-1"],
 				"Items": ["Bronze bar*", "Silver bar*", "Bucket of sand*", "Big fishing net*"],
@@ -11211,7 +11238,8 @@
 			},
 			"Build a second small pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankOakUp[+]*", "SteelNails[+]*", "Small pen deed II"],
+				"Items": ["PlankOakUp[+]*", "SteelNails[+]*"],
+				"Shops": ["Farmers' Market"],
 				"Level": 20,
 				"Skills": {
 					"Farming": 28
@@ -11628,6 +11656,14 @@
 				"Priority": 105,
 				"NoBoost": true
 			},
+			"Build a room with the red flagstone ~|floor style|~": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["Player-owned house"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 106,
+				"NoBoost": true
+			},
 			"Construct a ~|teak stool|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Teak plank*"],
@@ -11876,6 +11912,14 @@
 				"Primary": true,
 				"Priority": 14
 			},
+			"Build a room with the teak plank ~|floor style|~": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["Player-owned house"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 100,
+				"NoBoost": true
+			},
 			"Construct an ~|oak long table|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Oak planl"],
@@ -11931,7 +11975,8 @@
 				"Level": 38,
 				"Primary": true,
 				"Priority": 3
-			},"Build a ~|rope rack|~ in the Feldip eyrie": {
+			},
+			"Build a ~|rope rack|~ in the Feldip eyrie": {
 				"Chunks": ["Jungle Eagles' Eyrie"],
 				"Items": ["Teak plank*", "Rope*"],
 				"Level": 38,
@@ -12054,7 +12099,8 @@
 			},
 			"Build a medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*", "Medium pen deed I"],
+				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*"],
+				"Shops": ["Farmers' Market"],
 				"Level": 40,
 				"Skills": {
 					"Farming": 35
@@ -12068,7 +12114,8 @@
 			},
 			"Build a second medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankTeakUp[+]**", "MithrilNails[+]*", "Medium pen deed II"],
+				"Items": ["PlankTeakUp[+]**", "MithrilNails[+]*"],
+				"Shops": ["Farmers' Market"],
 				"Level": 40,
 				"Skills": {
 					"Farming": 64
@@ -12428,7 +12475,7 @@
 			},
 			"Build a small dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
-				"Items": ["Small dinosaur pen deed"],
+				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 45,
 				"Tasks": {
 					"Unlock the Anachronia Base Camp": "Nonskill",
@@ -12789,6 +12836,17 @@
 				"Priority": 105,
 				"NoBoost": true
 			},
+			"Build a room with the dark stone slabs ~|floor style|~": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["Player-owned house"],
+				"Level": 50,
+				"Tasks": {
+					"~|Love Story|~ Complete the quest": "Quest"
+				},
+				"Primary": false,
+				"Priority": 106,
+				"NoBoost": true
+			},
 			"Unlock the ~|Livid farm|~ spells": {
 				"Level": 50,
 				"Chunks": ["8253-1"],
@@ -12971,7 +13029,7 @@
 			},
 			"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
-				"Items": ["Dinosaur breeding pen"],
+				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 55,
 				"Tasks": {
 					"Unlock the Anachronia Base Camp": "Nonskill",
@@ -13205,7 +13263,8 @@
 			},
 			"Build a large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankMahoganyUp[+]*", "Rune nails*", "Large pen deed I"],
+				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
+				"Shops": ["Farmers' Market"],
 				"Level": 60,
 				"Skills": {
 					"Farming": 49
@@ -13216,7 +13275,8 @@
 			},
 			"Build a second large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankMahoganyUp[+]*", "Rune nails*", "Large pen deed II"],
+				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
+				"Shops": ["Farmers' Market"],
 				"Level": 60,
 				"Skills": {
 					"Farming": 71
@@ -13259,6 +13319,17 @@
 				"Level": 60,
 				"Primary": false,
 				"Priority": 105,
+				"NoBoost": true
+			},
+			"Build a room with the kitchen tile ~|floor style|~": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["Player-owned house"],
+				"Level": 60,
+				"Tasks": {
+					"~|Recipe for Disaster: Defeating the Culinaromancer|~ Complete the subquest": "Quest"
+				},
+				"Primary": false,
+				"Priority": 106,
 				"NoBoost": true
 			},
 			"Gain access to teak planks in ~|Construction Contracts|~": {
@@ -13587,6 +13658,15 @@
 				"Level": 65,
 				"Primary": true,
 				"Priority": 14
+			},
+			"Build a room with the terracotta paving ~|floor style|~": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["Player-owned house"],
+				"Items": ["Floor plans: Terracotta paving"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 106,
+				"NoBoost": true
 			},
 			"Construct a ~|banner making stand|~": {
 				"Category": ["InsidePOH Primary"],
@@ -13952,6 +14032,14 @@
 				"Level": 70,
 				"Primary": false,
 				"Priority": 106,
+				"NoBoost": true
+			},
+			"Build a room with the mahogany plank ~|floor style|~": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["Player-owned house"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 107,
 				"NoBoost": true
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
@@ -14356,6 +14444,15 @@
 				"Priority": 102,
 				"NoBoost": true
 			},
+			"Build a room with the dark stone slabs ~|floor style|~": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["Player-owned house"],
+				"Items": ["Floor plans: Temple tile"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 103,
+				"NoBoost": true
+			},
 			"Prepare stones at the stonemason in the ~|Dream of Iaia|~": {
 				"Chunks": ["Dream of Iaia", "15939-1"],
 				"Level": 75,
@@ -14369,6 +14466,18 @@
 				"Level": 75,
 				"Primary": false,
 				"Priority": 1001
+			},
+			"Unlock the ~|Furniture plans: Ritual marker|~": {
+				"Shops": ["Dungeoneering Rewards"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Unlock the ~|Floor plans: Temple tile|~": {
+				"Shops": ["Dungeoneering Rewards"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 1002
 			},
 			"Construct a ~|great white shark fish-head|~": {
 				"Category": ["InsidePOH Primary"],
@@ -14617,7 +14726,7 @@
 			},
 			"Build a medium dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
-				"Items": ["Medium dinosaur pen deed"],
+				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 80,
 				"Skills": {
 					"Farming": 76
@@ -14662,6 +14771,17 @@
 				},
 				"Primary": false,
 				"Priority": 103
+			},
+			"Build a room with the light or dark herringbone ~|floor style|~": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["Player-owned house"],
+				"Level": 80,
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
+				"Primary": false,
+				"Priority": 104,
+				"NoBoost": true
 			},
 			"Construct a ~|boutique prawnbroker|~": {
 				"Category": ["InsidePOH Primary"],
@@ -15054,7 +15174,7 @@
 			},
 			"Build a large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14660"],
-				"Items": ["Large dinosaur pen deed I"],
+				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 90,
 				"Skills": {
 					"Farming": 98
@@ -15069,7 +15189,7 @@
 			},
 			"Build a second large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
-				"Items": ["Large dinosaur pen deed II"],
+				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 90,
 				"Skills": {
 					"Farming": 104
@@ -31950,7 +32070,8 @@
 			},
 			"Build a second small pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankOakUp[+]*", "SteelNails[+]*", "Small pen deed II"],
+				"Items": ["PlankOakUp[+]*", "SteelNails[+]*"],
+				"Shops": ["Farmers' Market"],
 				"Level": 28,
 				"Skills": {
 					"Construction": 20
@@ -32161,7 +32282,8 @@
 			},
 			"Build a medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*", "Medium pen deed I"],
+				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*"],
+				"Shops": ["Farmers' Market"],
 				"Level": 35,
 				"Skills": {
 					"Construction": 40
@@ -32492,7 +32614,7 @@
 			},
 			"Build a small dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
-				"Items": ["Small dinosaur pen deed"],
+				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 42,
 				"Skills": {
 					"Construction": 45
@@ -32507,7 +32629,7 @@
 			},
 			"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
-				"Items": ["Dinosaur breeding pen deed I"],
+				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 42,
 				"Tasks": {
 					"Unlock the Anachronia Base Camp": "Nonskill",
@@ -32593,7 +32715,8 @@
 			},
 			"Build a large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankMahoganyUp[+]*", "Rune nails*", "Large pen deed I"],
+				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
+				"Shops": ["Farmers' Market"],
 				"Level": 49,
 				"Skills": {
 					"Construction": 60
@@ -33060,7 +33183,8 @@
 			},
 			"Build a second medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*", "Medium pen deed II"],
+				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*"],
+				"Shops": ["Farmers' Market"],
 				"Level": 64,
 				"Skills": {
 					"Construction": 40
@@ -33265,7 +33389,8 @@
 			},
 			"Build a second large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankMahoganyUp[+]*", "Rune nails*", "Large pen deed II"],
+				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
+				"Shops": ["Farmers' Market"],
 				"Level": 71,
 				"Skills": {
 					"Construction": 60
@@ -33436,7 +33561,7 @@
 			},
 			"Build a medium dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
-				"Items": ["Medium dinosaur pen deed"],
+				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 76,
 				"Skills": {
 					"Construction": 80
@@ -34493,7 +34618,7 @@
 			},
 			"Build a large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14660"],
-				"Items": ["Large dinosaur pen deed I"],
+				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 98,
 				"Skills": {
 					"Construction": 90
@@ -34749,7 +34874,7 @@
 			},
 			"Build a second large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
-				"Items": ["Large dinosaur pen deed II"],
+				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 104,
 				"Skills": {
 					"Construction": 90
@@ -39751,14 +39876,16 @@
 				"Output": "Yew longbow (unstrung)",
 				"Primary": true,
 				"Priority": 1,
-				"Partial": true
+				"Partial": true,
+				"Not F2P": true
 			},
 			"String a ~|yew longbow|~": {
 				"Items": ["Yew longbow (unstrung)*", "Bowstring*"],
 				"Level": 75,
 				"Output": "Yew longbow",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Fletch logs at the fletcher's hut in the ~|Dream of Iaia|~": {
 				"Chunks": ["Dream of Iaia", "15939-1"],
@@ -40340,18 +40467,18 @@
 				"Priority": 1,
 				"Partial": true
 			},
-			"Fletch an ~|elder rune crossbow (unstrung)|~": {
+			"Fletch an ~|elder crossbow (unstrung)|~": {
 				"Items": ["Elder stock*", "Elder rune limbs*"],
 				"Level": 93,
-				"Output": "Elder rune crossbow (unstrung)",
+				"Output": "Elder crossbow (unstrung)",
 				"Primary": true,
 				"Priority": 2,
 				"Partial": true
 			},
-			"String an ~|elder rune crossbow|~": {
-				"Items": ["Elder rune crossbow (unstrung)*", "Crossbow string*"],
+			"String an ~|elder crossbow|~": {
+				"Items": ["Elder crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 93,
-				"Output": "Elder rune cbows",
+				"Output": "Elder cbows",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -59204,8 +59331,8 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield an ~|elder rune crossbow|~": {
-				"Items": ["Elder rune crossbow[+]"],
+			"Wield an ~|elder crossbow|~": {
+				"Items": ["Elder crossbow[+]"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 3,
@@ -62683,6 +62810,17 @@
 				"Output": "Gargoyle",
 				"NoPet": true
 			},
+			"Slay a ~|gargoyle|~ in the wilderness": {
+				"Items": ["RockHammer[+]"],
+				"Level": 75,
+				"Monsters": ["Gargoyle"],
+				"Chunks": ["12858"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Gargoyle#Wilderness",
+				"NoPet": true
+			},
 			"Slay a ~|throwing muspah|~": {
 				"Level": 76,
 				"Monsters": ["Throwing muspah"],
@@ -62903,6 +63041,16 @@
 				"Priority": 5,
 				"Source": "drop",
 				"Output": "Abyssal demon (Heart of Gielinor)",
+				"NoPet": true
+			},
+			"Slay an ~|abyssal demon|~ in the Wilderness": {
+				"Level": 85,
+				"Monsters": ["Abyssal demon"],
+				"Chunks": ["WildyAbyssalBeast[+]"],
+				"Primary": false,
+				"Priority": 4,
+				"Source": "drop",
+				"Output": "Abyssal demon#Wilderness",
 				"NoPet": true
 			},
 			"Slay a ~|risen ghost|~": {
@@ -63213,6 +63361,17 @@
 				"Output": "Ice strykewyrm (task)",
 				"NoPet": true
 			},
+			"Slay an ~|ice strykewyrm|~ in the wilderness": {
+				"Items": ["FireCape[+]"],
+				"Level": 93,
+				"Monsters": ["Ice strykewyrm"],
+				"Chunks": ["WildyIceStrykewyrm[+]"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Ice strykewyrm#Wilderness",
+				"NoPet": true
+			},
 			"Slay a ~|sakadagami|~": {
 				"Level": 93,
 				"Monsters": ["Sakadagami"],
@@ -63285,6 +63444,16 @@
 				"Priority": 50,
 				"Source": "drop",
 				"Output": "Dragonstone dragon (task)",
+				"NoPet": true
+			},
+			"Slay a ~|dragonstone dragon|~ in the wilderness": {
+				"Level": 95,
+				"Monsters": ["Dragonstone dragon"],
+				"Chunks": ["Deep Wilderness Dungeon"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Dragonstone dragon#Wilderness",
 				"NoPet": true
 			},
 			"Slay a ~|luminous snaggler|~": {
@@ -63431,6 +63600,16 @@
 				"Output": "Ripper Demon (task)",
 				"NoPet": true
 			},
+			"Slay a ~|Ripper Demon|~ in the wilderness": {
+				"Level": 96,
+				"Monsters": ["Ripper Demon"],
+				"Chunks": ["WildyRipperDemon[+]"],
+				"Primary": false,
+				"Priority": 101,
+				"Source": "drop",
+				"Output": "Ripper Demon#Wilderness",
+				"NoPet": true
+			},
 			"Slay a ~|Camel Warrior|~": {
 				"Level": 96,
 				"Monsters": ["Camel Warrior"],
@@ -63459,6 +63638,16 @@
 				"Priority": 5,
 				"Source": "drop",
 				"Output": "Acheron mammoth",
+				"NoPet": true
+			},
+			"Slay an ~|Acheron mammoth|~ in the wilderness": {
+				"Level": 96,
+				"Monsters": ["Acheron mammoth"],
+				"Chunks": ["11837"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Acheron mammoth#Wilderness",
 				"NoPet": true
 			},
 			"Slay a ~|corrupted dust devil|~": {
@@ -63505,6 +63694,16 @@
 				"Output": "Onyx dragon (task)",
 				"NoPet": true
 			},
+			"Slay an ~|onyx dragon|~ in the wilderness": {
+				"Level": 98,
+				"Monsters": ["Onyx dragon"],
+				"Chunks": ["WildyOnyxDragon[+]"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Onyx dragon#Wilderness",
+				"NoPet": true
+			},
 			"Slay a ~|soulgazer|~": {
 				"Level": 99,
 				"Monsters": ["Soulgazer"],
@@ -63512,6 +63711,16 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Soulgazer",
+				"NoPet": true
+			},
+			"Slay a ~|soulgazer|~ in the wilderness": {
+				"Level": 99,
+				"Monsters": ["Soulgazer"],
+				"CHunks": ["WildySoulgazer[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Soulgazer#Wilderness",
 				"NoPet": true
 			},
 			"Slay a ~|brutish dinosaur|~": {
@@ -63600,6 +63809,16 @@
 				"Priority": 50,
 				"Source": "drop",
 				"Output": "Hydrix dragon (task)",
+				"NoPet": true
+			},
+			"Slay a ~|hydrix dragon|~ in the wilderness": {
+				"Level": 101,
+				"Monsters": ["Hydrix dragon"],
+				"Chunks": ["WildyHydrixDragon[+]"],
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Hydrix dragon#Wilderness",
 				"NoPet": true
 			},
 			"Slay a ~|lampenflora|~": {
@@ -64057,6 +64276,16 @@
 				"Output": "Abyssal savage",
 				"NoPet": true
 			},
+			"Slay an ~|abyssal savage|~ in the wilderness": {
+				"Level": 95,
+				"Monsters": ["Abyssal savage"],
+				"Chunks": ["WildyAbyssalSavage[+]"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Abyssal savage#Wilderness",
+				"NoPet": true
+			},
 			"Slay an ~|abyssal beast|~": {
 				"Level": 105,
 				"Monsters": ["Abyssal beast"],
@@ -64078,6 +64307,16 @@
 				"Output": "Abyssal beast (task)",
 				"NoPet": true
 			},
+			"Slay an ~|abyssal beast|~ in the wilderness": {
+				"Level": 105,
+				"Monsters": ["Abyssal beast"],
+				"Chunks": ["WildyAbyssalBeast[+]"],
+				"Primary": false,
+				"Priority": 100,
+				"Source": "drop",
+				"Output": "Abyssal beast#Wilderness",
+				"NoPet": true
+			},
 			"Slay an ~|abyssal lord|~": {
 				"Level": 115,
 				"Monsters": ["Abyssal lord"],
@@ -64097,6 +64336,16 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Abyssal lord (task)",
+				"NoPet": true
+			},
+			"Slay an ~|abyssal lord|~ in the wilderness": {
+				"Level": 115,
+				"Monsters": ["Abyssal lord"],
+				"Chunks": ["WildyAbyssalLord[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Abyssal lord#Wilderness",
 				"NoPet": true
 			},
 			"Wield an ~|abyssal vine whip|~": {
@@ -67217,7 +67466,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit wolf scroll (howl)|~": {
+			"Create a ~|spirit wolf scroll (Howl)|~": {
 				"Items": ["Spirit wolf pouch*"],
 				"Level": 1,
 				"Objects": ["Obelisk"],
@@ -67241,7 +67490,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|dreadfowl scroll (dreadfowl strike)|~": {
+			"Create a ~|dreadfowl scroll (Dreadfowl Strike)|~": {
 				"Items": ["Dreadfowl pouch*"],
 				"Level": 4,
 				"Objects": ["Obelisk"],
@@ -67249,7 +67498,7 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Create a ~|meerkat scroll (fetch casket)|~": {
+			"Create a ~|meerkat scroll (Fetch Casket)|~": {
 				"Items": ["Meerkat pouch*"],
 				"Level": 4,
 				"Objects": ["Obelisk"],
@@ -67381,7 +67630,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit spider scroll (egg spawn)|~": {
+			"Create a ~|spirit spider scroll (Egg Spawn)|~": {
 				"Items": ["Spirit spider pouch*"],
 				"Level": 10,
 				"Objects": ["Obelisk"],
@@ -67389,7 +67638,7 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Use a ~|spirit spider scroll (egg spawn)|~": {
+			"Use a ~|spirit spider scroll (Egg Spawn)|~": {
 				"Items": ["Spirit spider scroll (egg spawn)*"],
 				"Level": 10,
 				"Output": "Red spiders' eggs",
@@ -67438,7 +67687,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|thorny snail scroll (slime spray)|~": {
+			"Create a ~|thorny snail scroll (Slime Spray)|~": {
 				"Items": ["Thorny snail pouch*"],
 				"Level": 13,
 				"Objects": ["Obelisk"],
@@ -67470,7 +67719,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|spirit pig scroll (bacon blast)|~": {
+			"Create a ~|spirit pig scroll (Bacon Blast)|~": {
 				"Items": ["Pigpouch[+]*"],
 				"Level": 14,
 				"Objects": ["Pig machine"],
@@ -67494,7 +67743,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|granite crab scroll (stony shell)|~": {
+			"Create a ~|granite crab scroll (Stony Shell)|~": {
 				"Items": ["Granite crab pouch*"],
 				"Level": 16,
 				"Objects": ["Obelisk"],
@@ -67510,7 +67759,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit mosquito scroll (pester)|~": {
+			"Create a ~|spirit mosquito scroll (Pester)|~": {
 				"Items": ["Spirit mosquito pouch*"],
 				"Level": 17,
 				"Objects": ["Obelisk"],
@@ -67526,7 +67775,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|desert wyrm scroll (electric lash)|~": {
+			"Create a ~|desert wyrm scroll (Electric Lash)|~": {
 				"Items": ["Desert wyrm pouch*"],
 				"Level": 18,
 				"Objects": ["Obelisk"],
@@ -67542,7 +67791,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit scorpion scroll (venom shot)|~": {
+			"Create a ~|spirit scorpion scroll (Venom Shot)|~": {
 				"Items": ["Spirit scorpion pouch*"],
 				"Level": 19,
 				"Objects": ["Obelisk"],
@@ -67569,7 +67818,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit Tz-Kih scroll (fireball assault)|~": {
+			"Create a ~|spirit Tz-Kih scroll (Fireball Assault)|~": {
 				"Items": ["Spirit Tz-Kih pouch*"],
 				"Level": 22,
 				"Objects": ["Obelisk"],
@@ -67585,7 +67834,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|albino rat scroll (cheese feast)|~": {
+			"Create a ~|albino rat scroll (Cheese Feast)|~": {
 				"Items": ["Albino rat pouch*"],
 				"Level": 23,
 				"Objects": ["Obelisk"],
@@ -67593,7 +67842,7 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Use a ~|albino rat scroll (cheese feast)|~": {
+			"Use a ~|albino rat scroll (Cheese Feast)|~": {
 				"Items": ["Albino rat scroll (cheese feast)*"],
 				"Level": 23,
 				"Output": "Cheese",
@@ -67616,7 +67865,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit kalphite scroll (sandstorm)|~": {
+			"Create a ~|spirit kalphite scroll (Sandstorm)|~": {
 				"Items": ["Spirit kalphite pouch*"],
 				"Level": 25,
 				"Objects": ["Obelisk"],
@@ -67632,7 +67881,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|compost mound scroll (generate compost)|~": {
+			"Create a ~|compost mound scroll (Generate Compost)|~": {
 				"Items": ["Compost mound pouch*"],
 				"Level": 28,
 				"Objects": ["Obelisk"],
@@ -67640,7 +67889,7 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Use a ~|compost mound scroll (generate compost)|~": {
+			"Use a ~|compost mound scroll (Generate Compost)|~": {
 				"Items": ["Compost mound scroll (generate compost)*"],
 				"Level": 28,
 				"Output": "Compost",
@@ -67655,7 +67904,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|giant chinchompa scroll (explode)|~": {
+			"Create a ~|giant chinchompa scroll (Explode)|~": {
 				"Items": ["Giant chinchompa pouch*"],
 				"Level": 29,
 				"Objects": ["Obelisk"],
@@ -67703,7 +67952,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|vampyre bat scroll (vampyre touch)|~": {
+			"Create a ~|vampyre bat scroll (Vampyre Touch)|~": {
 				"Items": ["Vampyre bat pouch*"],
 				"Level": 31,
 				"Objects": ["Obelisk"],
@@ -67719,7 +67968,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|honey badger scroll (insane ferocity)|~": {
+			"Create a ~|honey badger scroll (Insane Ferocity)|~": {
 				"Items": ["Honey badger pouch*"],
 				"Level": 32,
 				"Objects": ["Obelisk"],
@@ -67735,7 +67984,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|beaver scroll (multichop)|~": {
+			"Create a ~|beaver scroll (Multichop)|~": {
 				"Items": ["Beaver pouch*"],
 				"Level": 33,
 				"Objects": ["Obelisk"],
@@ -67775,7 +68024,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Create a ~|void scroll (call to arms)|~": {
+			"Create a ~|void scroll (Call to Arms)|~": {
 				"Items": ["Voidpouch[+]*"],
 				"Level": 34,
 				"Objects": ["Obelisk"],
@@ -67791,7 +68040,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|bronze minotaur scroll (bronze bull rush)|~": {
+			"Create a ~|bronze minotaur scroll (Bronze Bull Rush)|~": {
 				"Items": ["Bronze minotaur pouch*"],
 				"Level": 36,
 				"Objects": ["Obelisk"],
@@ -67819,7 +68068,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|bull ant scroll (unburden)|~": {
+			"Create a ~|bull ant scroll (Unburden)|~": {
 				"Items": ["Bull ant pouch*"],
 				"Level": 40,
 				"Objects": ["Obelisk"],
@@ -67846,13 +68095,20 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|macaw scroll (herbcall)|~": {
+			"Create a ~|macaw scroll (Herbcall)|~": {
 				"Items": ["Macaw pouch*"],
 				"Level": 41,
 				"Objects": ["Obelisk"],
 				"Output": "Macaw scroll (herbcall)",
 				"Primary": false,
 				"Priority": 2
+			},
+			"Use a ~|macaw scroll (Herbcall)|~": {
+				"Items": ["Macaw scroll (herbcall)*"],
+				"Level": 41,
+				"Output": "Herbcall",
+				"Primary": false,
+				"Priority": 3
 			},
 			"Create a ~|evil turnip (familiar) pouch|~": {
 				"Items": ["Crimson charm*", "Carved evil turnip*", "Pouch*", "Spirit shards*"],
@@ -67862,7 +68118,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|evil turnip scroll (evil flames)|~": {
+			"Create a ~|evil turnip scroll (Evil Flames)|~": {
 				"Items": ["Evil turnip pouch*"],
 				"Level": 42,
 				"Objects": ["Obelisk"],
@@ -67926,7 +68182,7 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Create a ~|spirit cockatrice scroll (petrifying gaze)|~": {
+			"Create a ~|spirit cockatrice scroll (Petrifying Gaze)|~": {
 				"Items": ["Cockatricepouch[+]*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
@@ -67975,7 +68231,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Create a ~|binding contract (hellhound)|~": {
+			"Create a ~|binding contract (Hellhound)|~": {
 				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
 				"Level": 45,
 				"Monsters": ["Hellhound"],
@@ -67987,7 +68243,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|hellhound scroll (soul food)|~": {
+			"Create a ~|hellhound scroll (Soul Food)|~": {
 				"Items": ["Binding contract (hellhound)*"],
 				"Level": 45,
 				"Objects": ["Obelisk"],
@@ -68011,7 +68267,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|iron minotaur scroll (iron bull rush)|~": {
+			"Create a ~|iron minotaur scroll (Iron Bull Rush)|~": {
 				"Items": ["Iron minotaur pouch*"],
 				"Level": 46,
 				"Objects": ["Obelisk"],
@@ -68019,7 +68275,7 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Create a ~|pyrelord scroll (immense heat)|~": {
+			"Create a ~|pyrelord scroll (Immense Heat)|~": {
 				"Items": ["Pyrelord pouch*"],
 				"Level": 46,
 				"Objects": ["Obelisk"],
@@ -68035,20 +68291,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|magpie scroll (thieving fingers)|~": {
+			"Create a ~|magpie scroll (Thieving Fingers)|~": {
 				"Items": ["Magpie pouch*"],
 				"Level": 47,
 				"Objects": ["Obelisk"],
 				"Output": "Magpie scroll (thieving fingers)",
 				"Primary": false,
 				"Priority": 2
-			},
-			"Use a ~|macaw scroll (herbcall)|~": {
-				"Items": ["Macaw scroll (herbcall)*"],
-				"Level": 48,
-				"Output": "Herbcall",
-				"Primary": false,
-				"Priority": 3
 			},
 			"Create a ~|bloated leech pouch|~": {
 				"Items": ["Crimson charm*", "Raw beef*", "Pouch*", "Spirit shards*"],
@@ -68058,7 +68307,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|bloated leech scroll (blood drain)|~": {
+			"Create a ~|bloated leech scroll (Blood Drain)|~": {
 				"Items": ["Bloated leech pouch*"],
 				"Level": 49,
 				"Objects": ["Obelisk"],
@@ -68078,7 +68327,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|waterfiend scroll (straight flush)|~": {
+			"Create a ~|waterfiend scroll (Straight Flush)|~": {
 				"Items": ["Binding contract (waterfiend)*"],
 				"Level": 50,
 				"Objects": ["Obelisk"],
@@ -68169,7 +68418,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit terrorbird scroll (tireless run)|~": {
+			"Create a ~|spirit terrorbird scroll (Tireless Run)|~": {
 				"Items": ["Spirit terrorbird pouch*"],
 				"Level": 52,
 				"Objects": ["Obelisk"],
@@ -68185,7 +68434,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|abyssal parasite scroll (abyssal drain)|~": {
+			"Create a ~|abyssal parasite scroll (Abyssal Drain)|~": {
 				"Items": ["Abyssal parasite pouch*"],
 				"Level": 54,
 				"Objects": ["Obelisk"],
@@ -68201,7 +68450,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit jelly scroll (dissolve)|~": {
+			"Create a ~|spirit jelly scroll (Dissolve)|~": {
 				"Items": ["Spirit jelly pouch*"],
 				"Level": 55,
 				"Objects": ["Obelisk"],
@@ -68225,7 +68474,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|ibis scroll (fish rain)|~": {
+			"Create a ~|ibis scroll (Fish Rain)|~": {
 				"Items": ["Ibis pouch*"],
 				"Level": 56,
 				"Objects": ["Obelisk"],
@@ -68233,13 +68482,20 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Create a ~|steel minotaur scroll (steel bull rush)|~": {
+			"Create a ~|steel minotaur scroll (Steel Bull Rush)|~": {
 				"Items": ["Steel minotaur pouch*"],
 				"Level": 56,
 				"Objects": ["Obelisk"],
 				"Output": "Steel minotaur scroll (steel bull rush)",
 				"Primary": false,
 				"Priority": 4
+			},
+			"Use a ~|ibis scroll (Fish Rain)|~": {
+				"Items": ["Ibis scroll (fish rain)*"],
+				"Level": 56,
+				"Output": "Fish rain",
+				"Primary": false,
+				"Priority": 5
 			},
 			"Create a ~|spirit graahk pouch|~": {
 				"Items": ["Blue charm*", "Graahk fur*", "Pouch*", "Spirit shards*"],
@@ -68265,7 +68521,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|spirit kyatt scroll (ambush)|~": {
+			"Create a ~|spirit kyatt scroll (Ambush)|~": {
 				"Items": ["Spirit kyatt pouch*"],
 				"Level": 57,
 				"Objects": ["Obelisk"],
@@ -68273,7 +68529,7 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Create a ~|spirit larupia scroll (rending)|~": {
+			"Create a ~|spirit larupia scroll (Rending)|~": {
 				"Items": ["Spirit larupia pouch*"],
 				"Level": 57,
 				"Objects": ["Obelisk"],
@@ -68281,7 +68537,7 @@
 				"Primary": false,
 				"Priority": 5
 			},
-			"Create a ~|spirit graahk scroll (goad)|~": {
+			"Create a ~|spirit graahk scroll (Goad)|~": {
 				"Items": ["Spirit graahk pouch*"],
 				"Level": 57,
 				"Objects": ["Obelisk"],
@@ -68297,20 +68553,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|karamthulu overlord scroll (doomsphere)|~": {
+			"Create a ~|karamthulu overlord scroll (Doomsphere)|~": {
 				"Items": ["Karam. overlord pouch*"],
 				"Level": 58,
 				"Objects": ["Obelisk"],
 				"Output": "Karamthulu overlord scroll (doomsphere)",
 				"Primary": false,
 				"Priority": 2
-			},
-			"Use a ~|ibis scroll (fish rain)|~": {
-				"Items": ["Ibis scroll (fish rain)*"],
-				"Level": 58,
-				"Output": "Fish rain",
-				"Primary": false,
-				"Priority": 3
 			},
 			"Catch a ~|squirrel|~": {
 				"Items": ["Small fishing net", "Rope", "Nuts"],
@@ -68341,7 +68590,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|smoke devil scroll (dust cloud)|~": {
+			"Create a ~|smoke devil scroll (Dust Cloud)|~": {
 				"Items": ["Smoke devil pouch*"],
 				"Level": 61,
 				"Objects": ["Obelisk"],
@@ -68357,7 +68606,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|abyssal lurker scroll (abyssal stealth)|~": {
+			"Create a ~|abyssal lurker scroll (Abyssal Stealth)|~": {
 				"Items": ["Abyssal lurker pouch*"],
 				"Level": 62,
 				"Objects": ["Obelisk"],
@@ -68373,7 +68622,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit cobra scroll (ophidian incubation)|~": {
+			"Create a ~|spirit cobra scroll (Ophidian Incubation)|~": {
 				"Items": ["Spirit cobra pouch*"],
 				"Level": 63,
 				"Objects": ["Obelisk"],
@@ -68381,49 +68630,49 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a cockatrice egg": {
+			"Use a ~|spirit cobra scroll (Ophidian Incubation)|~ to make a cockatrice egg": {
 				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Egg*"],
 				"Level": 63,
 				"Output": "Cockatrice egg",
 				"Primary": false,
 				"Priority": 3
 			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a saratrice egg": {
+			"Use a ~|spirit cobra scroll (Ophidian Incubation)|~ to make a saratrice egg": {
 				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Bird's egg (blue)*"],
 				"Level": 63,
 				"Output": "Saratrice egg",
 				"Primary": false,
 				"Priority": 4
 			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a zamatrice egg": {
+			"Use a ~|spirit cobra scroll (Ophidian Incubation)|~ to make a zamatrice egg": {
 				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Bird's egg (red)*"],
 				"Level": 63,
 				"Output": "Zamatrice egg",
 				"Primary": false,
 				"Priority": 5
 			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a guthatrice egg": {
+			"Use a ~|spirit cobra scroll (Ophidian Incubation)|~ to make a guthatrice egg": {
 				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Bird's egg (green)*"],
 				"Level": 63,
 				"Output": "Guthatrice egg",
 				"Primary": false,
 				"Priority": 6
 			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a coraxatrice egg": {
+			"Use a ~|spirit cobra scroll (Ophidian Incubation)|~ to make a coraxatrice egg": {
 				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Raven egg*"],
 				"Level": 63,
 				"Output": "Coraxatrice egg",
 				"Primary": false,
 				"Priority": 7
 			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a pengatrice egg": {
+			"Use a ~|spirit cobra scroll (Ophidian Incubation)|~ to make a pengatrice egg": {
 				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Penguin egg*"],
 				"Level": 63,
 				"Output": "Pengatrice egg",
 				"Primary": false,
 				"Priority": 8
 			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a vulatrice egg": {
+			"Use a ~|spirit cobra scroll (Ophidian Incubation)|~ to make a vulatrice egg": {
 				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Vulture egg*"],
 				"Level": 63,
 				"Output": "Vulatrice egg",
@@ -68438,7 +68687,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|stranger plant scroll (poisonous blast)|~": {
+			"Create a ~|stranger plant scroll (Poisonous Blast)|~": {
 				"Items": ["Stranger plant pouch*"],
 				"Level": 64,
 				"Objects": ["Obelisk"],
@@ -68462,7 +68711,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|mithril minotaur scroll (mithril bull rush)|~": {
+			"Create a ~|mithril minotaur scroll (Mithril Bull Rush)|~": {
 				"Items": ["Mithril minotaur pouch*"],
 				"Level": 66,
 				"Objects": ["Obelisk"],
@@ -68470,7 +68719,7 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Create a ~|barker toad scroll (toad bark)|~": {
+			"Create a ~|barker toad scroll (Toad Bark)|~": {
 				"Items": ["Barker toad pouch*"],
 				"Level": 66,
 				"Objects": ["Obelisk"],
@@ -68486,7 +68735,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|war tortoise scroll (tetsudo)|~": {
+			"Create a ~|war tortoise scroll (Tetsudo)|~": {
 				"Items": ["War tortoise pouch*"],
 				"Level": 67,
 				"Objects": ["Obelisk"],
@@ -68502,7 +68751,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|bunyip scroll (swallow whole)|~": {
+			"Create a ~|bunyip scroll (Swallow Whole)|~": {
 				"Items": ["Bunyip pouch*"],
 				"Level": 68,
 				"Objects": ["Obelisk"],
@@ -68518,7 +68767,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|fruit bat scroll (fruitfall)|~": {
+			"Create a ~|fruit bat scroll (Fruitfall)|~": {
 				"Items": ["Fruit bat pouch*"],
 				"Level": 69,
 				"Objects": ["Obelisk"],
@@ -68526,7 +68775,7 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Use a ~|fruit bat scroll (fruitfall)|~": {
+			"Use a ~|fruit bat scroll (Fruitfall)|~": {
 				"Items": ["Fruit bat scroll (fruitfall)*"],
 				"Level": 69,
 				"Output": "Fish rain",
@@ -68541,7 +68790,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|ravenous locust scroll (famine)|~": {
+			"Create a ~|ravenous locust scroll (Famine)|~": {
 				"Items": ["Ravecous locust pouch*"],
 				"Level": 70,
 				"Objects": ["Obelisk"],
@@ -68584,7 +68833,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|arctic bear scroll (arctic blast)|~": {
+			"Create a ~|arctic bear scroll (Arctic Blast)|~": {
 				"Items": ["Arctic bear pouch*"],
 				"Level": 71,
 				"Objects": ["Obelisk"],
@@ -68608,7 +68857,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|phoenix scroll (rise from the ashes)|~": {
+			"Create a ~|phoenix scroll (Rise from the Ashes)|~": {
 				"Items": ["Phoenix pouch*"],
 				"Level": 72,
 				"Objects": ["Obelisk"],
@@ -68644,7 +68893,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|obsidian golem scroll (volcanic strength)|~": {
+			"Create a ~|obsidian golem scroll (Volcanic Strength)|~": {
 				"Items": ["Obsidian golem pouch*"],
 				"Level": 73,
 				"Objects": ["Obelisk"],
@@ -68652,7 +68901,7 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Create a ~|blood reaver scroll (blood siphon)|~": {
+			"Create a ~|blood reaver scroll (Blood Siphon)|~": {
 				"Items": ["Binding contract (blood reaver)*"],
 				"Level": 73,
 				"Objects": ["Obelisk"],
@@ -68668,7 +68917,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|granite lobster scroll (crushing claw)|~": {
+			"Create a ~|granite lobster scroll (Crushing Claw)|~": {
 				"Items": ["Granite lobster pouch*"],
 				"Level": 74,
 				"Objects": ["Obelisk"],
@@ -68696,7 +68945,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|praying mantis scroll (mantis strike)|~": {
+			"Create a ~|praying mantis scroll (Mantis Strike)|~": {
 				"Items": ["Praying mantis pouch*"],
 				"Level": 75,
 				"Objects": ["Obelisk"],
@@ -68704,7 +68953,7 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Create a ~|gargyole scroll (hammer rock)|~": {
+			"Create a ~|gargyole scroll (Hammer Rock)|~": {
 				"Items": ["Binding contract (gargoyle)*"],
 				"Level": 75,
 				"Objects": ["Obelisk"],
@@ -68736,7 +68985,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|forge regent scroll (inferno)|~": {
+			"Create a ~|forge regent scroll (Inferno)|~": {
 				"Items": ["Forge regent pouch*"],
 				"Level": 76,
 				"Objects": ["Obelisk"],
@@ -68744,7 +68993,7 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Create a ~|adamant minotaur scroll (adamant bull rush)|~": {
+			"Create a ~|adamant minotaur scroll (Adamant Bull Rush)|~": {
 				"Items": ["Adamant minotaur pouch*"],
 				"Level": 76,
 				"Objects": ["Obelisk"],
@@ -68760,7 +69009,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|talon beast scroll (deadly claw)|~": {
+			"Create a ~|talon beast scroll (Deadly Claw)|~": {
 				"Items": ["Talon beast pouch*"],
 				"Level": 77,
 				"Objects": ["Obelisk"],
@@ -68776,7 +69025,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|giant ent scroll (acorn missile)|~": {
+			"Create a ~|giant ent scroll (Acorn Missile)|~": {
 				"Items": ["Giant ent pouch*"],
 				"Level": 78,
 				"Objects": ["Obelisk"],
@@ -68784,7 +69033,7 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Use a ~|giant ent scroll (acorn missile)|~": {
+			"Use a ~|giant ent scroll (Acorn Missile)|~": {
 				"Items": ["Giant ent scroll (acorn missile)*"],
 				"Level": 78,
 				"Output": "Acorn",
@@ -68815,7 +69064,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|elemental titan scroll (titan's constitution)|~": {
+			"Create a ~|elemental titan scroll (Titan's Constitution)|~": {
 				"Items": ["EleTitanpouch[+]*"],
 				"Level": 79,
 				"Objects": ["Obelisk"],
@@ -68831,7 +69080,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|hydra scroll (regrowth)|~": {
+			"Create a ~|hydra scroll (Regrowth)|~": {
 				"Items": ["Hydra pouch*"],
 				"Level": 80,
 				"Objects": ["Obelisk"],
@@ -68896,7 +69145,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|lesser demon scroll (ring of fire)|~": {
+			"Create a ~|lesser demon scroll (Ring of Fire)|~": {
 				"Items": ["LesserDemonpouch[+]*"],
 				"Level": 82,
 				"Objects": ["Obelisk"],
@@ -68920,7 +69169,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|spirit dagannoth scroll (spike shot)|~": {
+			"Create a ~|spirit dagannoth scroll (Spike Shot)|~": {
 				"Items": ["Spirit dagannoth pouch*"],
 				"Level": 83,
 				"Objects": ["Obelisk"],
@@ -68928,7 +69177,7 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Create a ~|lava titan scroll (ebon thunder)|~": {
+			"Create a ~|lava titan scroll (Ebon Thunder)|~": {
 				"Items": ["Lava titan pouch*"],
 				"Level": 83,
 				"Objects": ["Obelisk"],
@@ -68985,7 +69234,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Create a ~|phoenix scroll (rise from the ashes)|~ from a reborn phoenix pouch": {
+			"Create a ~|phoenix scroll (Rise from the Ashes)|~ from a reborn phoenix pouch": {
 				"Items": ["Reborn phoenix pouch*"],
 				"Level": 84,
 				"Objects": ["Obelisk"],
@@ -69013,7 +69262,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|swamp titan scroll (swamp plague)|~": {
+			"Create a ~|swamp titan scroll (Swamp Plague)|~": {
 				"Items": ["Swamp titan pouch*"],
 				"Level": 85,
 				"Objects": ["Obelisk"],
@@ -69021,7 +69270,7 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Create a ~|abyssal demon scroll (abyssal block)|~": {
+			"Create a ~|abyssal demon scroll (Abyssal Block)|~": {
 				"Items": ["Binding contract (abyssal demon)*"],
 				"Level": 85,
 				"Objects": ["Obelisk"],
@@ -69046,7 +69295,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|rune minotaur scroll (rune bull rush)|~": {
+			"Create a ~|rune minotaur scroll (Rune Bull Rush)|~": {
 				"Items": ["Rune minotaur pouch*"],
 				"Level": 86,
 				"Objects": ["Obelisk"],
@@ -69086,7 +69335,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Create a ~|nihil scroll (annihilate)|~": {
+			"Create a ~|nihil scroll (Annihilate)|~": {
 				"Items": ["Nihilpouch[+]*"],
 				"Level": 87,
 				"Objects": ["Obelisk"],
@@ -69094,7 +69343,7 @@
 				"Primary": false,
 				"Priority": 5
 			},
-			"Create a ~|ghast scroll (ghastly request)|~": {
+			"Create a ~|ghast scroll (Ghastly Request)|~": {
 				"Items": ["Ghast pouch*"],
 				"Level": 87,
 				"Objects": ["Obelisk"],
@@ -69118,7 +69367,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|unicorn stallion scroll (healing aura)|~": {
+			"Create a ~|unicorn stallion scroll (Healing Aura)|~": {
 				"Items": ["Unicorn stallion pouch*"],
 				"Level": 88,
 				"Objects": ["Obelisk"],
@@ -69134,7 +69383,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|geyser titan scroll (boil)|~": {
+			"Create a ~|geyser titan scroll (Boil)|~": {
 				"Items": ["Geyser titan pouch*"],
 				"Level": 89,
 				"Objects": ["Obelisk"],
@@ -69154,7 +69403,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|Kal'gerion demon scroll (crit-i-kal)|~": {
+			"Create a ~|Kal'gerion demon scroll (Crit-i-Kal)|~": {
 				"Items": ["Binding contract (Kal'gerion demon)*"],
 				"Level": 90,
 				"Objects": ["Obelisk"],
@@ -69228,7 +69477,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|wolpertinger scroll (magic focus)|~": {
+			"Create a ~|wolpertinger scroll (Magic Focus)|~": {
 				"Items": ["Wolpertinger pouch*"],
 				"Level": 92,
 				"Objects": ["Obelisk"],
@@ -69244,7 +69493,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|abyssal titan scroll (essence shipment)|~": {
+			"Create a ~|abyssal titan scroll (Essence Shipment)|~": {
 				"Items": ["Abyssal titan pouch*"],
 				"Level": 93,
 				"Objects": ["Obelisk"],
@@ -69268,7 +69517,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|iron titan scroll (iron within)|~": {
+			"Create a ~|iron titan scroll (Iron Within)|~": {
 				"Items": ["Iron titan pouch*"],
 				"Level": 95,
 				"Objects": ["Obelisk"],
@@ -69305,7 +69554,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|binding contract (Ripper Demon)|~": {
+			"Create a ~|binding contract (ripper demon)|~": {
 				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
 				"Level": 96,
 				"Monsters": ["Ripper Demon"],
@@ -69314,7 +69563,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|pack yak scroll (winter storage)|~": {
+			"Create a ~|pack yak scroll (Winter Storage)|~": {
 				"Items": ["Pack yak pouch*"],
 				"Level": 96,
 				"Objects": ["Obelisk"],
@@ -69322,7 +69571,7 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Create a ~|Ripper Demon scroll (death from above)|~": {
+			"Create a ~|Ripper Demon scroll (Death From Above)|~": {
 				"Items": ["Binding contract (Ripper Demon)*"],
 				"Level": 96,
 				"Objects": ["Obelisk"],
@@ -69362,7 +69611,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|pack mammoth scroll (mammoth feast)|~": {
+			"Create a ~|pack mammoth scroll (Mammoth Feast)|~": {
 				"Items": ["Pack mammoth pouch*"],
 				"Level": 99,
 				"Objects": ["Obelisk"],
@@ -69370,7 +69619,7 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Create a ~|steel titan scroll (steel of legends)|~": {
+			"Create a ~|steel titan scroll (Steel of Legends)|~": {
 				"Items": ["Steel titan pouch*"],
 				"Level": 99,
 				"Objects": ["Obelisk"],
@@ -127420,8 +127669,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Unlock Plant Power (Tier 4) from Sydekix's Reward Store at the Garden of Kharid.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["13107-1"],
-				"Items": ["HerbSeed[+]", "Plant Power (Tier 4)"],
+				"Shops": ["Sydekix's Shop of Balance"],
 				"Skills": {
 					"Farming": 110
 				},
@@ -128083,7 +128331,7 @@
 				"Description": "Unlock all permanent effects from Death's Store.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Reaper points"],
-				"Chunks": ["Death's Office"],
+				"Shops": ["Death's Store"],
 				"RuneScore": 75,
 				"Not F2P": true
 			},
@@ -128324,7 +128572,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Granny's Favourite Farmer": {
-				"Category": ["Comp achievements", "Trim achievements", "Normal Farming"],
+				"Category": ["Comp achievements", "Trim achievements", "Farming Primary"],
 				"Description": "Gain max reputation with the Farming Guild.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["10548"],
@@ -129070,7 +129318,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Purchase all permanent unlocks from Ezreal's shop at the Archaeology Guild.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["13108-3"],
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology guildmaster|~": "Archaeology"
 				},
@@ -132364,7 +132612,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Unlock Plant Power (Tier 1) from Sydekix's Reward Store at the Garden of Kharid.",
 				"BaseQuest": "Skills achievements",
-				"Items": ["Plant Power (Tier 1)"],
+				"Shops": ["Sydekix's Shop of Balance"],
 				"Skills": {
 					"Farming": 50
 				},
@@ -133597,7 +133845,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Unlock the runespan portal redirect.",
 				"BaseQuest": "Skills achievements",
-				"Items": ["Portal redirection"],
+				"Shops": ["Wizard Rinsit's Runecrafting Shop"],
 				"RuneScore": 5,
 				"Not F2P": true
 			},
@@ -140778,6 +141026,16 @@
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Zaros altar"]
+			},
+			"(Floor Plans) Unlock ~|floor plans: Temple tile|~": {
+				"Category": ["Collection Log", "Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Furniture plans: Temple tile"]
+			},
+			"(Floor Plans) Unlock ~|floor plans: Terracotta paving|~": {
+				"Category": ["Collection Log", "Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Furniture plans: Terracotta paving"]
 			},
 			"(Asgarnia & Misthalin) Obtain a ~|goblin mail|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -148348,22 +148606,26 @@
 			"(Artisans' Workshop) Obtain any ~|iron ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"(Artisans' Workshop) Obtain any ~|off-hand iron ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"(Artisans' Workshop) Obtain any ~|steel ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"(Artisans' Workshop) Obtain any ~|off-hand steel ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"(Artisans' Workshop) Obtain any ~|mithril ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -148398,102 +148660,122 @@
 			"Obtain an ~|iron ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand iron ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|iron ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand iron ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|iron ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand iron ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|iron ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand iron ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|iron ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand iron ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|steel ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand steel ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|steel ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand steel ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|steel ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand steel ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|steel ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand steel ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|steel ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|off-hand steel ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"],
+				"Not F2P": true
 			},
 			"Obtain an ~|mithril ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
@@ -153854,118 +154136,135 @@
 			"Unlock the ability to craft the ~|Book of Death|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["Death's Office"],
+				"Shops": ["Death's Store"],
 				"Items": ["Reaper points"]
 			},
 			"Unlock the Reaper's choice from ~|Death's Store|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["Death's Office"],
+				"Shops": ["Death's Store"],
 				"Items": ["Reaper points"]
 			},
 			"Unlock the ~|rainbow loot beam|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["Death's Office"],
+				"Shops": ["Death's Store"],
 				"Items": ["Reaper points"]
 			},
 			"Unlock the ~|grave loot beam|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["Death's Office"],
+				"Shops": ["Death's Store"],
 				"Items": ["Reaper points"]
 			},
 			"Unlock the bonfire booster from ~|Death's Store|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["Death's Office"],
+				"Shops": ["Death's Store"],
 				"Items": ["Reaper points"]
 			},
 			"Unlock the ability to buy further Reaper tasks from ~|Death's Store|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["Death's Office"],
+				"Shops": ["Death's Store"],
 				"Items": ["Reaper points"]
 			},
 			"Unlock the Reaper Scroll from ~|Death's Store|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["Death's Office"],
+				"Shops": ["Death's Store"],
 				"Items": ["Reaper points"]
 			},
 			"Unlock ability to overcharge your ~|ring of death|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["Death's Office"],
+				"Shops": ["Death's Store"],
 				"Items": ["Reaper points"]
 			},
 			"Unlock the ~|Enchanted Notepaper (blueprint)|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Notepaper blueprint", "Dungeoneering token*"]
+				"Shops": ["Daemonheim Rewards"],
+				"Items": ["Dungeoneering token*"],
+				"Not F2P": true
 			},
 			"Unlock the ~|Dungeoneering outfit piece (blueprint)|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Elite Dungeoneering outfit blueprint", "Dungeoneering token*"]
+				"Shops": ["Daemonheim Rewards"],
+				"Items": ["Dungeoneering token*"],
+				"Not F2P": true
 			},
 			"Unlock the ~|Daemonheim skill door boost|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Daemonheim skill door boost", "Dungeoneering token*"]
+				"Shops": ["Daemonheim Rewards"],
+				"Items": ["Dungeoneering token*"],
+				"Not F2P": true
 			},
 			"Unlock the ability to create a ~|superior scrimshaw of aggression|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Scrimshaw of aggression+ scroll", "Dungeoneering token*"]
+				"Shops": ["Daemonheim Rewards"],
+				"Items": ["Dungeoneering token*"],
+				"Not F2P": true
 			},
 			"Unlock the ability to create a ~|superior scrimshaw of sacrifice|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Scrimshaw of sacrifice+ scroll", "Dungeoneering token*"]
+				"Shops": ["Daemonheim Rewards"],
+				"Items": ["Dungeoneering token*"],
+				"Not F2P": true
 			},
 			"Unlock the ability to create a ~|superior scrimshaw of corruption|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Scrimshaw of corruption+ scroll", "Dungeoneering token*"]
+				"Shops": ["Daemonheim Rewards"],
+				"Items": ["Dungeoneering token*"],
+				"Not F2P": true
 			},
 			"Unlock the ability to fletch a ~|black stone arrows|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Recipe: Black stone arrows", "Dungeoneering token*"]
+				"Shops": ["Daemonheim Rewards"],
+				"Items": ["Dungeoneering token*"],
+				"Not F2P": true
 			},
 			"Unlock the ~|Elite Dungeon chest upgrade|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Elite dungeon chest upgrade", "Dungeoneering token*"],
+				"Shops": ["Daemonheim Rewards"],
+				"Items": ["Dungeoneering token*"],
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
-				}
+				},
+				"Not F2P": true
 			},
 			"Unlock the ~|Demon Slayer ability codex blueprint|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Demon Slayer ability codex blueprint", "Dungeoneering token*"]
+				"Shops": ["Daemonheim Rewards"],
+				"Items": ["Dungeoneering token*"],
+				"Not F2P": true
 			},
 			"Unlock the ~|Dragon Slayer ability codex blueprint|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Dragon Slayer ability codex blueprint", "Dungeoneering token*"]
+				"Shops": ["Daemonheim Rewards"],
+				"Items": ["Dungeoneering token*"],
+				"Not F2P": true
 			},
 			"Unlock the ~|Undead Slayer ability codex blueprint|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Undead Slayer ability codex blueprint", "Dungeoneering token*"]
-			},
-			"Unlock the ~|spirit cape|~ passive effect": {
-				"Category": ["Permanent Unlockables"],
-				"Label": "Permanent Unlockables",
-				"Items": ["Spirit cape"]
+				"Shops": ["Daemonheim Rewards"],
+				"Items": ["Dungeoneering token*"],
+				"Not F2P": true
 			},
 			"Unlock all 4 tiers of Plant Power from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Plant Power (Tier 4)"],
+				"Shops": ["Sydekix's Shop of Balance"],
 				"Requirements": {
 					"Farming": 110
 				}
@@ -153973,32 +154272,32 @@
 			"Unlock Bountiful Harvest from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Bountiful Harvest"]
+				"Shops": ["Sydekix's Shop of Balance"]
 			},
 			"Unlock Bountiful Harvest 2 from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Bountiful Harvest 2"]
+				"Shops": ["Sydekix's Shop of Balance"]
 			},
 			"Unlock Speedy Growth from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Speedy Growth"]
+				"Shops": ["Sydekix's Shop of Balance"]
 			},
 			"Unlock Quick-cense from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Quick-cense"]
+				"Shops": ["Sydekix's Shop of Balance"]
 			},
 			"Unlock Makes-cense from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Makes-cense"]
+				"Shops": ["Sydekix's Shop of Balance"]
 			},
 			"Unlock Buckets All the Way Down from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Buckets All the Way Down"]
+				"Shops": ["Sydekix's Shop of Balance"]
 			},
 			"Unlock the benefits from a Tier 1 ~|Workshop (Fort Forinthry)|~": {
 				"Category": ["Permanent Unlockables"],
@@ -154454,6 +154753,7 @@
 			"Upgrade your ~|soil box|~ once": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				}
@@ -154461,6 +154761,7 @@
 			"Upgrade your ~|material storage|~ once": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				}
@@ -154468,6 +154769,7 @@
 			"Upgrade your ~|mattock precision|~ once": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				}
@@ -154475,6 +154777,7 @@
 			"Upgrade your ~|soil box|~ twice": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology associate|~": "Archaeology"
 				}
@@ -154482,6 +154785,7 @@
 			"Upgrade your ~|material storage|~ twice": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology associate|~": "Archaeology"
 				}
@@ -154489,6 +154793,7 @@
 			"Upgrade your ~|mattock precision|~ twice": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology associate|~": "Archaeology"
 				}
@@ -154496,6 +154801,7 @@
 			"Unlock the ~|auto-screener v1.080 (blueprint)|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology associate|~": "Archaeology"
 				}
@@ -154503,6 +154809,7 @@
 			"Upgrade your ~|soil box|~ thrice": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology professor|~": "Archaeology"
 				}
@@ -154510,6 +154817,7 @@
 			"Upgrade your ~|material storage|~ thrice": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology professor|~": "Archaeology"
 				}
@@ -154517,6 +154825,7 @@
 			"Upgrade your ~|mattock precision|~ thrice": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology professor|~": "Archaeology"
 				}
@@ -154524,6 +154833,7 @@
 			"Unlock an additional ~|relic|~ preset": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology professor|~": "Archaeology"
 				}
@@ -154531,6 +154841,7 @@
 			"Upgrade your ~|mattock precision|~ for a fourth and final time": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology guildmaster|~": "Archaeology"
 				}
@@ -154538,6 +154849,7 @@
 			"Upgrade your ~|artefact storage|~ once": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology associate|~": "Archaeology"
 				}
@@ -154545,6 +154857,7 @@
 			"Upgrade your ~|artefact storage|~ twice": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology professor|~": "Archaeology"
 				}
@@ -154552,6 +154865,7 @@
 			"Upgrade your ~|artefact storage|~ thrice": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
+				"Shops": ["Archaeology Guild Shop"],
 				"Tasks": {
 					"Become an ~|archaeology guildmaster|~": "Archaeology"
 				}
@@ -154569,7 +154883,7 @@
 			"Unlock the use of ~|ferocious rings|~ in Morvran's dungeon": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Ferocious ring upgrade (for use in Morvran's dungeon)"],
+				"Shops": ["Slayer Rewards"],
 				"Requirements": {
 					"Slayer": 90
 				},
@@ -154578,12 +154892,12 @@
 			"Learn how to craft ~|rings of slaying|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Learn how to craft rings of slaying"],
+				"Shops": ["Slayer Rewards"],
 				"Not F2P": true
 			},
 			"Learn how to fletch ~|broad bolts|~ and arrows": {
 				"Category": ["Permanent Unlockables"],
-				"Items": ["Learn how to fletch broad arrows/bolts"],
+				"Shops": ["Slayer Rewards"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
 					"~|Smoking Kills|~ Complete the quest": "Quest"
@@ -154593,13 +154907,13 @@
 			"Learn how to deliver killing blows quicker from a ~|Slayer Master|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Learn how to deliver killing blows quicker"],
+				"Shops": ["Slayer Rewards"],
 				"Not F2P": true
 			},
 			"Learn how to fuse rings to a ~|full Slayer helmet|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Learn how to fuse rings to full Slayer helmets"],
+				"Shops": ["Slayer Rewards"],
 				"Tasks": {
 					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
@@ -154608,7 +154922,7 @@
 			"Learn how to craft a ~|slayer helmet|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Learn how to craft Slayer helmets"],
+				"Shops": ["Slayer Rewards"],
 				"Tasks": {
 					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
@@ -154617,43 +154931,43 @@
 			"Learn how to how to attack ~|ice stykewyrms|~ without a fire cape": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Learn new technique to attack ice strykewyrms"],
+				"Shops": ["Slayer Rewards"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|bonecrusher|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Bonecrusher", "Learn how to attach the bonecrusher to your toolbelt"],
+				"Shops": ["Slayer Rewards"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|herbicide|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Herbicide", "Learn how to attach herbicide to your toolbelt"],
+				"Shops": ["Slayer Rewards"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|seedicide|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Seedicide", "Learn how to attach seedicide to your toolbelt"],
+				"Shops": ["Slayer Rewards"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|charming imp|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Charming imp", "Learn how to attach the charming imp to your toolbelt"],
+				"Shops": ["Slayer Rewards"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|gold accumulator|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Gold accumulator", "Attach the gold accumulator on your toolbelt"],
+				"Shops": ["Slayer Rewards"],
 				"Not F2P": true
 			},
 			"Learn how to how to move souls in the ~|Sunken Pyramid|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Fourth Room in Sunken Pyramid"],
+				"Shops": ["Slayer Rewards"],
 				"Not F2P": true
 			},
 			"Build both small pens in your ~|Player-Owned Farm|~": {
@@ -154677,60 +154991,70 @@
 					"Build a second large pen in your ~|player-owned farm|~": "Farming"
 				}
 			},
+			"Unlock the ~|bank chest (player-owned farm)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Shops": ["Farmers' Market[+]"]
+			},
 			"Unlock and fully upgrade the ~|storm barn|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Storm barn deeds", "Storm barn extension 1 (+15 spaces)", "Storm barn extension 2 (+30 spaces)"]
+				"Shops": ["Farmers' Market[+]"]
+			},
+			"Unlock and fully upgrade the ~|storm barn|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Shops": ["Farmers' Market[+]"]
 			},
 			"Unlock the ability for animals in your ~|Player-Owned Farm|~ to breed in small pens": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Animals can now breed in small pens"]
+				"Shops": ["Farmers' Market"]
 			},
 			"Unlock the ability for animals in your ~|Player-Owned Farm|~ to breed in medium pens": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Animals can now breed in medium pens"]
+				"Shops": ["Farmers' Market"]
 			},
 			"Unlock the ability for animals in your ~|Player-Owned Farm|~ to breed in large pens": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Animals can now breed in large pens"]
+				"Shops": ["Farmers' Market"]
 			},
 			"Unlock all boosts to multiple traits for animals in your ~|Player-Owned Farm|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Multiple trait boost (large)", "Multiple trait boost (medium)", "Multiple trait boost (small)"]
+				"Shops": ["Farmers' Market[+]"]
 			},
 			"Unlock noted produce in your ~|Player-Owned Farm|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Noted produce"]
+				"Shops": ["Farmers' Market[+]"]
 			},
 			"Unlock the ~|seasonaliser wheel|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Seasonaliser wheel"]
+				"Shops": ["Farmers' Market"]
 			},
 			"Unlock all farmhands at your ~|Player-Owned Farm|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Farmhands"]
+				"Shops": ["Farmers' Market"]
 			},
 			"Upgrade the ~|seedicide|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Seedicide collector upgrade"]
+				"Shops": ["Farmers' Market[+]"]
 			},
 			"Upgrade the ~|herbicide|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Herbicide collector upgrade"]
+				"Shops": ["Farmers' Market[+]"]
 			},
 			"Unlock the ~|master farmer outfit blueprint|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Master farmer outfit blueprint"],
+				"Shops": ["Farmers' Market[+]"],
 				"Requirements": {
 					"Invention": 20,
 					"Farming": 80
@@ -154764,73 +155088,78 @@
 					"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": "Farming"
 				}
 			},
+			"Unlock the ability to attune the ~|Max Guild portal|~ to the Ranch out of Time": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Shops": ["Farmers' Market (Anachronia)"]
+			},
 			"Unlock the ability for animals in the ~|Ranch out of Time|~ to breed in small pens": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Animals can now breed in small dinosaur pens"]
+				"Shops": ["Farmers' Market (Anachronia)"]
 			},
 			"Unlock the ability for animals in the ~|Ranch out of Time|~ to breed in medium pens": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Animals can now breed in medium dinosaur pens"]
+				"Shops": ["Farmers' Market (Anachronia)"]
 			},
 			"Unlock the ability for animals in the ~|Ranch out of Time|~ to breed in large pens": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Animals can now breed in large dinosaur pens"]
+				"Shops": ["Farmers' Market (Anachronia)"]
 			},
 			"Unlock all ammenities in ~|War's Retreat|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["War's Retreat"],
+				"Shops": ["War's Wares"],
 				"Monsters": ["AnyBoss[+]"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to oak": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["War's Retreat"],
+				"Shops": ["War's Wares"],
 				"Monsters": ["AnyBoss[+]"],
 				"Items": ["Oak logs*"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to willow": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["War's Retreat"],
+				"Shops": ["War's Wares"],
 				"Monsters": ["AnyBoss[+]"],
 				"Items": ["Oak logs*", "Willow logs*"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to maple": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["War's Retreat"],
+				"Shops": ["War's Wares"],
 				"Monsters": ["AnyBoss[+]"],
 				"Items": ["Oak logs*", "Willow logs*", "Maple logs*"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to yew": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["War's Retreat"],
+				"Shops": ["War's Wares"],
 				"Monsters": ["AnyBoss[+]"],
 				"Items": ["Oak logs*", "Willow logs*", "Maple logs*", "Yew logs*"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to magic": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["War's Retreat"],
+				"Shops": ["War's Wares"],
 				"Monsters": ["AnyBoss[+]"],
 				"Items": ["Oak logs*", "Willow logs*", "Maple logs*", "Yew logs*", "Magic logs*"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to elder": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["War's Retreat"],
+				"Shops": ["War's Wares"],
 				"Monsters": ["AnyBoss[+]"],
 				"Items": ["Oak logs*", "Willow logs*", "Maple logs*", "Yew logs*", "Magic logs*", "Elder logs*"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to eternal magic": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["War's Retreat"],
+				"Shops": ["War's Wares"],
 				"Monsters": ["AnyBoss[+]"],
 				"Items": ["Oak logs*", "Willow logs*", "Maple logs*", "Yew logs*", "Magic logs*", "Elder logs*", "Eternal magic logs*"]
 			},
@@ -154901,27 +155230,23 @@
 			"Unlock both quick repair upgrades at the ~|Artisan's Workshop|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["12084-1"],
-				"NPCs": ["Egil"]
+				"Shops": ["Artisans' Workshop Reward Shop"]
 			},
 			"Unlock all 5 ~|Solemn Smith|~ upgrades": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["12084-1"],
-				"NPCs": ["Egil"]
+				"Shops": ["Artisans' Workshop Reward Shop"]
 			},
 			"Unlock all 5 ~|Ceremonial Swordsmith|~ upgrades": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["12084-1"],
-				"NPCs": ["Egil"],
+				"Shops": ["Artisans' Workshop Reward Shop"],
 				"Not F2P": true
 			},
 			"Unlock all three ~|dwarf multicannon|~ upgrades": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["12084-1"],
-				"NPCs": ["Egil"],
+				"Shops": ["Artisans' Workshop Reward Shop"],
 				"Not F2P": true
 			},
 			"Unlock access to the ~|Contraband Yak Produce|~ shop": {
@@ -155351,7 +155676,7 @@
 			"Unlock the ~|elite trapper outfit blueprint|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Elite trapper outfit blueprint"],
+				"Shops": ["Hunter Mark Shop"],
 				"Requirements": {
 					"Invention": 20,
 					"Hunter": 80
@@ -155360,17 +155685,17 @@
 			"Unlock ~|quick traps|~ from the Hunter Mark Shop": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Quick traps"]
+				"Shops": ["Hunter Mark Shop"]
 			},
 			"Unlock the ~|portal redirection|~ to the top level of the Runespan": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Portal redirection"]
+				"Shops": ["Wizard Rinsit's Runecrafting Shop"]
 			},
 			"Unlock ~|Focused Siphoning|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Focused Siphoning"]
+				"Shops": ["Wizard Rinsit's Runecrafting Shop"]
 			},
 			"Fully upgrade the ~|portable telescope|~": {
 				"Category": ["Permanent Unlockables"],
@@ -155522,27 +155847,32 @@
 			"Unlock the ~|one finger discount|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["One finger discount"]
+				"Shops": ["Dodgy Derek's Dirty Deals#Reward Shop"]
 			},
 			"Unlock the ~|two finger discount|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Two finger discount"]
+				"Shops": ["Dodgy Derek's Dirty Deals#Reward Shop"]
 			},
 			"Unlock the ~|three finger discount|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Three finger discount"]
+				"Shops": ["Dodgy Derek's Dirty Deals#Reward Shop"]
 			},
 			"Unlock the ~|four finger discount|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Four finger discount"]
+				"Shops": ["Dodgy Derek's Dirty Deals#Reward Shop"]
 			},
 			"Unlock the ~|five finger discount|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Five finger discount"]
+				"Shops": ["Dodgy Derek's Dirty Deals#Reward Shop"]
+			},
+			"Fully upgrade a ~|huge loot bag|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Shops": ["Dodgy Derek's Dirty Deals#Reward Shop"]
 			},
 			"Fully unlock the potential of the ~|Sunspear|~": {
 				"Category": ["Permanent Unlockables"],
@@ -156978,17 +157308,17 @@
 			"Obtain the ~|Grandpa/Grandma|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["Farm deeds (+titles)"]
+				"Shops": ["Farmers' Market[+]"]
 			},
 			"Obtain the ~|Granny|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["Farm deeds (+titles)"]
+				"Shops": ["Farmers' Market[+]"]
 			},
 			"Obtain the ~|the Master Farmer|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["Farm deeds (+titles)"]
+				"Shops": ["Farmers' Market[+]"]
 			},
 			"Obtain the ~|Old Mc|~ title": {
 				"Category": ["Titles", "Breeding Log"],
@@ -157023,7 +157353,7 @@
 			"Obtain the ~|Potterington|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["Farm deeds (+titles)"]
+				"Shops": ["Farmers' Market[+]"]
 			},
 			"Obtain the ~|of the Cadarn|~ title": {
 				"Category": ["Titles"],
@@ -161065,228 +161395,6 @@
 				"Items": ["Ritualist's mask add-on"],
 				"Not F2P": true
 			},
-			"Summon a ~|arctic bear|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Arctic bear pouch"],
-				"Priority": 1,
-				"Set": "BIS Hunter Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|spirit larupia|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Spirit larupia pouch"],
-				"Priority": 2,
-				"Set": "BIS Hunter Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|spirit kyatt|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Spirit kyatt pouch"],
-				"Priority": 3,
-				"Set": "BIS Hunter Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|spirit graahk|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Spirit graahk pouch"],
-				"Priority": 4,
-				"Set": "BIS Hunter Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|wolpertinger|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Wolpertinger pouch"],
-				"Priority": 5,
-				"Set": "BIS Hunter Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|stranger plant|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Stranger plant pouch"],
-				"Priority": 1,
-				"Set": "BIS Farming Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|compost mound|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Compost mound pouch"],
-				"Priority": 2,
-				"Set": "BIS Farming Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|dreadfowl|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Dreadfowl pouch"],
-				"Priority": 3,
-				"Set": "BIS Farming Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|granite lobster|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Granite lobster pouch"],
-				"Priority": 1,
-				"Set": "BIS Fishing Familiar",
-				"Not F2P": true
-			},
-			"Summon an ~|ibis|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Ibis pouch"],
-				"Priority": 2,
-				"Set": "BIS Fishing Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|granite crab|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Granite crab pouch"],
-				"Priority": 3,
-				"Set": "BIS Farming Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|waterfiend (familiar)|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Binding contract (waterfiend)"],
-				"Not F2P": true
-			},
-			"Summon a ~|gargoyle (familiar)|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Binding contract (gargoyle)"],
-				"Priority": 1,
-				"Set": "BIS Mining Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|lava titan|~ (mining)": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Lava titan pouch"],
-				"Priority": 2,
-				"Set": "BIS Mining Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|obsidian golem|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Obsidian golem pouch"],
-				"Priority": 3,
-				"Set": "BIS Mining Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|void ravager|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Void ravager pouch"],
-				"Priority": 4,
-				"Set": "BIS Mining Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|desert wyrm|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Desert wyrm pouch"],
-				"Priority": 5,
-				"Set": "BIS Mining Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|beaver|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Beaver pouch"],
-				"Not F2P": true
-			},
-			"Summon a ~|reborn phoenix|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Reborn phoenix pouch"],
-				"Priority": 1,
-				"Set": "BIS Firemaking Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|lava titan|~ (firemaking)": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Lava titan pouch"],
-				"Priority": 2,
-				"Set": "BIS Firemaking Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|phoenix (familiar)|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Phoenix pouch"],
-				"Priority": 3,
-				"Set": "BIS Firemaking Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|forge regent|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Forge regent pouch"],
-				"Priority": 4,
-				"Set": "BIS Firemaking Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|pyrelord|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Pyrelord pouch"],
-				"Priority": 5,
-				"Set": "BIS Firemaking Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|magpie|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Magpie pouch"],
-				"Not F2P": true
-			},
-			"Summon an ~|abyssal titan|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Abyssal titan pouch"],
-				"Priority": 1,
-				"Set": "BIS Runecrafting Familiar",
-				"Not F2P": true
-			},
-			"Summon an ~|abyssal lurker|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Abyssal lurker pouch"],
-				"Priority": 2,
-				"Set": "BIS Runecrafting Familiar",
-				"Not F2P": true
-			},
-			"Summon an ~|abyssal parasite|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Abyssal parasite pouch"],
-				"Priority": 3,
-				"Set": "BIS Runecrafting Familiar",
-				"Not F2P": true
-			},
-			"Summon a ~|nightmare muspah|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Nightmare muspah pouch"],
-				"Not F2P": true
-			},
-			"Summon a ~|light creature (familiar)|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling Familiar",
-				"Items": ["Light creature pouch"],
-				"Not F2P": true
-			},
 			"Obtain a ~|woodcutting accumulator|~": {
 				"Category": ["BIS Skilling", "BIS Skilling Consumables"],
 				"Label": "BIS Skilling",
@@ -161315,462 +161423,6 @@
 				"Category": ["BIS Skilling", "BIS Skilling Consumables"],
 				"Label": "BIS Skilling",
 				"Items": ["Liquid patch bomb"],
-				"Not F2P": true
-			},
-			"Obtain a ~|exquisite cooking urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Exquisite cooking urn"],
-				"Priority": 1,
-				"Set": "BIS Cooking Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|decorated cooking urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Decorated cooking urn"],
-				"Priority": 2,
-				"Set": "BIS Cooking Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|strong cooking urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Strong cooking urn"],
-				"Priority": 3,
-				"Set": "BIS Cooking Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|plain cooking urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Plain cooking urn"],
-				"Priority": 4,
-				"Set": "BIS Cooking Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|fragile cooking urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Fragile cooking urn"],
-				"Priority": 5,
-				"Set": "BIS Cooking Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|cracked cooking urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Cracked cooking urn"],
-				"Priority": 6,
-				"Set": "BIS Cooking Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|exquisite divination urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Exquisite divination urn"],
-				"Priority": 1,
-				"Set": "BIS Divination Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|decorated divination urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Decorated divination urn"],
-				"Priority": 2,
-				"Set": "BIS Divination Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|strong divination urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Strong divination urn"],
-				"Priority": 3,
-				"Set": "BIS Divination Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|plain divination urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Plain divination urn"],
-				"Priority": 4,
-				"Set": "BIS Divination Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|fragile divination urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Fragile divination urn"],
-				"Priority": 5,
-				"Set": "BIS Divination Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|cracked divination urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Cracked divination urn"],
-				"Priority": 6,
-				"Set": "BIS Divination Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|exquisite farming urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Exquisite farming urn"],
-				"Priority": 1,
-				"Set": "BIS Farming Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|decorated farming urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Decorated farming urn"],
-				"Priority": 2,
-				"Set": "BIS Farming Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|strong farming urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Strong farming urn"],
-				"Priority": 3,
-				"Set": "BIS Farming Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|plain farming urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Plain farming urn"],
-				"Priority": 4,
-				"Set": "BIS Farming Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|fragile farming urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Fragile farming urn"],
-				"Priority": 5,
-				"Set": "BIS Farming Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|cracked farming urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Cracked farming urn"],
-				"Priority": 6,
-				"Set": "BIS Farming Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|exquisite fishing urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Exquisite fishing urn"],
-				"Priority": 1,
-				"Set": "BIS Fishing Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|decorated fishing urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Decorated fishing urn"],
-				"Priority": 2,
-				"Set": "BIS Fishing Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|strong fishing urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Strong fishing urn"],
-				"Priority": 3,
-				"Set": "BIS Fishing Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|plain fishing urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Plain fishing urn"],
-				"Priority": 4,
-				"Set": "BIS Fishing Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|fragile fishing urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Fragile fishing urn"],
-				"Priority": 5,
-				"Set": "BIS Fishing Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|cracked fishing urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Cracked fishing urn"],
-				"Priority": 6,
-				"Set": "BIS Fishing Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|exquisite hunter urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Exquisite hunter urn"],
-				"Priority": 1,
-				"Set": "BIS Hunter Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|decorated hunter urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Decorated hunter urn"],
-				"Priority": 2,
-				"Set": "BIS Hunter Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|strong hunter urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Strong hunter urn"],
-				"Priority": 3,
-				"Set": "BIS Hunter Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|plain hunter urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Plain hunter urn"],
-				"Priority": 4,
-				"Set": "BIS Hunter Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|fragile hunter urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Fragile hunter urn"],
-				"Priority": 5,
-				"Set": "BIS Hunter Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|cracked hunter urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Cracked hunter urn"],
-				"Priority": 6,
-				"Set": "BIS Hunter Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|exquisite mining urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Exquisite mining urn"],
-				"Priority": 1,
-				"Set": "BIS Mining Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|decorated mining urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Decorated mining urn"],
-				"Priority": 2,
-				"Set": "BIS Mining Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|strong mining urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Strong mining urn"],
-				"Priority": 3,
-				"Set": "BIS Mining Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|plain mining urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Plain mining urn"],
-				"Priority": 4,
-				"Set": "BIS Mining Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|fragile mining urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Fragile mining urn"],
-				"Priority": 5,
-				"Set": "BIS Mining Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|cracked mining urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Cracked mining urn"],
-				"Priority": 6,
-				"Set": "BIS Mining Urn",
-				"Not F2P": true
-			},
-			"Obtain an ~|impious urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Impious urn"],
-				"Priority": 1,
-				"Set": "BIS Prayer Urn",
-				"Not F2P": true
-			},
-			"Obtain an ~|accursed urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Accursed urn"],
-				"Priority": 2,
-				"Set": "BIS Prayer Urn",
-				"Not F2P": true
-			},
-			"Obtain an ~|infernal urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Infernal urn"],
-				"Priority": 3,
-				"Set": "BIS Prayer Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|exquisite runecrafting urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Exquisite runecrafting urn"],
-				"Priority": 1,
-				"Set": "BIS Runecrafting Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|decorated runecrafting urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Decorated runecrafting urn"],
-				"Priority": 2,
-				"Set": "BIS Runecrafting Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|strong runecrafting urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Strong runecrafting urn"],
-				"Priority": 3,
-				"Set": "BIS Runecrafting Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|plain runecrafting urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Plain runecrafting urn"],
-				"Priority": 4,
-				"Set": "BIS Runecrafting Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|fragile runecrafting urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Fragile runecrafting urn"],
-				"Priority": 5,
-				"Set": "BIS Runecrafting Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|cracked runecrafting urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Cracked runecrafting urn"],
-				"Priority": 6,
-				"Set": "BIS Cooking Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|exquisite smithing urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Exquisite smithing urn"],
-				"Priority": 1,
-				"Set": "BIS Smithing Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|decorated smithing urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Decorated smithing urn"],
-				"Priority": 2,
-				"Set": "BIS Smithing Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|strong smithing urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Strong smithing urn"],
-				"Priority": 3,
-				"Set": "BIS Smithing Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|plain smithing urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Plain smithing urn"],
-				"Priority": 4,
-				"Set": "BIS Smithing Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|fragile smithing urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Fragile smithing urn"],
-				"Priority": 5,
-				"Set": "BIS Smithing Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|cracked smithing urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Cracked smithing urn"],
-				"Priority": 6,
-				"Set": "BIS Smithing Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|exquisite woodcutting urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Exquisite woodcutting urn"],
-				"Priority": 1,
-				"Set": "BIS Woodcutting Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|decorated woodcutting urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Decorated woodcutting urn"],
-				"Priority": 2,
-				"Set": "BIS Woodcutting Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|strong woodcutting urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Strong woodcutting urn"],
-				"Priority": 3,
-				"Set": "BIS Woodcutting Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|plain woodcutting urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Plain woodcutting urn"],
-				"Priority": 4,
-				"Set": "BIS Woodcutting Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|fragile woodcutting urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Fragile woodcutting urn"],
-				"Priority": 5,
-				"Set": "BIS Woodcutting Urn",
-				"Not F2P": true
-			},
-			"Obtain a ~|cracked woodcutting urn|~": {
-				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Cracked woodcutting urn"],
-				"Priority": 6,
-				"Set": "BIS Woodcutting Urn",
 				"Not F2P": true
 			},
 			"Unlock the ~|Pouch Protector|~ relic power": {
@@ -167720,7 +167372,7 @@
 				"Category": ["Timegated"]
 			},
 			"Farming content enabled": {
-				"Category": ["Normal Farming"]
+				"Category": ["Farming Primary"]
 			},
 			"Minigames enabled": {
 				"Category": ["Minigame"]
@@ -179473,7 +179125,7 @@
 				"Bookcase": 2,
 				"Sacks": 5,
 				"Pottery oven": 1,
-				"Potter's wheel[+]": 2,
+				"Potter's wheel": 2,
 				"Waterpump": 1,
 				"Wheat": 365,
 				"Oak": 11,
@@ -183597,7 +183249,7 @@
 				"Fairy ring": 1,
 				"Bank chest": 1,
 				"House Portal": 1,
-				"Potter's wheel[+]": 4,
+				"Potter's wheel": 4,
 				"Pottery oven": 2,
 				"Cooking range": 1,
 				"Well": 1,
@@ -190399,7 +190051,7 @@
 				"Crate": 27,
 				"Boxes": 1,
 				"Altar": 1,
-				"Potter's wheel[+]": 4,
+				"Potter's wheel": 4,
 				"Pottery oven": 1,
 				"Willow": 2,
 				"Oak": 9,
@@ -190735,7 +190387,7 @@
 					"Object": {
 						"Pottery oven": 1,
 						"Spinning wheel": 1,
-						"Potter's wheel[+]": 1,
+						"Potter's wheel": 1,
 						"Fremennik Anvil": 3,
 						"Fremennik Forge": 2,
 						"Fremennik Furnace": 1
@@ -196647,7 +196299,7 @@
 						"Pattern table": 1,
 						"Tailor's dummy": 2,
 						"Tailor's display": 1,
-						"Potter's wheel[+]": 4,
+						"Potter's wheel": 4,
 						"Sink": 1,
 						"Inventor's workbench": 2,
 						"Furnace": 1,
@@ -196898,7 +196550,7 @@
 				"Tree": 51,
 				"Well": 1,
 				"Pottery oven": 2,
-				"Potter's wheel[+]": 2,
+				"Potter's wheel": 2,
 				"Loom": 2,
 				"Spinning wheel": 2,
 				"Camp Fire": 1,
@@ -198438,7 +198090,8 @@
 						"Tree": 4
 					},
 					"Monster": {
-						"Blue dragon": 10
+						"Blue dragon": 10,
+						"Blue dragon#Wilderness": 1
 					},
 					"Spawn": {
 						"Skull": 2
@@ -198476,6 +198129,7 @@
 					},
 					"Monster": {
 						"Green dragon": 3,
+						"Green dragon#Wilderness": 1,
 						"Demon Boss (Wilderness)": 1
 					},
 					"Clue": {
@@ -199614,7 +199268,8 @@
 						"Fishing spot (lava)": 1
 					},
 					"Monster": {
-						"Hellhound": 2
+						"Hellhound": 2,
+						"Hellhound#Wilderness": 1
 					},
 					"Spawn": {
 						"Iron full helm": 1
@@ -199631,7 +199286,8 @@
 						"Crashed star": 1
 					},
 					"Monster": {
-						"Hydrix dragon": 5
+						"Hydrix dragon": 5,
+						"Hydrix dragon#Wilderness": 1
 					},
 					"Clue": {
 						"hard": 1,
@@ -199651,12 +199307,14 @@
 						"Web": 1
 					},
 					"Monster": {
-						"Hellhound": 9
+						"Hellhound": 9,
+						"Hellhound#Wilderness": 1
 					}
 				},
 				"4": {
 					"Monster": {
-						"Hellhound": 2
+						"Hellhound": 2,
+						"Hellhound#Wilderness": 1
 					},
 					"Spawn": {
 						"Gold necklace": 1
@@ -199686,7 +199344,8 @@
 			},
 			"Monster": {
 				"Pirate": 12,
-				"Hellhound": 2
+				"Hellhound": 2,
+				"Hellhound#Wilderness": 1
 			},
 			"NPC": {
 				"Mysterious ghost": 1,
@@ -200482,7 +200141,7 @@
 				"Bookcase": 4,
 				"Sacks": 5,
 				"Pottery oven": 1,
-				"Potter's wheel[+]": 2,
+				"Potter's wheel": 2,
 				"Waterpump": 1,
 				"Wheat": 362,
 				"Oak": 9,
@@ -200647,7 +200306,7 @@
 						"Closed chest": 3,
 						"Dead tree": 21,
 						"Mysterious ruins": 1,
-						"Potter's wheel[+]": 2,
+						"Potter's wheel": 2,
 						"Fire": 3,
 						"Well": 1,
 						"Crates": 4,
@@ -200920,6 +200579,7 @@
 			},
 			"Monster": {
 				"Hellhound": 9,
+				"Hellhound#Wilderness": 1,
 				"Lesser demon": 5
 			},
 			"NPC": {
@@ -200953,7 +200613,8 @@
 				"1": {
 					"Monster": {
 						"Abyssal beast": 10,
-						"Hellhound": 15,
+						"Abyssal beast": 1,
+						"Hellhound#Wilderness": 1,
 						"Lava strykewyrm": 3
 					},
 					"NPC": {
@@ -200968,7 +200629,8 @@
 				},
 				"2": {
 					"Monster": {
-						"Hellhound": 2
+						"Hellhound": 2,
+						"Hellhound#Wilderness": 1
 					}
 				}
 			},
@@ -201007,6 +200669,7 @@
 			},
 			"Monster": {
 				"Hellhound": 7,
+				"Hellhound#Wilderness": 1,
 				"Battle mage": 9,
 				"Ripper Demon": 1
 			},
@@ -201401,7 +201064,7 @@
 				"1": {
 					"Object": {
 						"Pottery oven": 1,
-						"Potter's wheel[+]": 2,
+						"Potter's wheel": 2,
 						"Cooking range": 8,
 						"Well": 1,
 						"Fountain": 1,
@@ -202054,7 +201717,8 @@
 				"Crashed star": 1
 			},
 			"Monster": {
-				"Greater demon": 9
+				"Greater demon": 9,
+				"Greater demon#Wilderness": 1
 			},
 			"Clue": {
 				"elite": 7
@@ -202143,6 +201807,7 @@
 			},
 			"Monster": {
 				"Hellhound": 5,
+				"Hellhound#Wilderness": 1,
 				"Magic axe": 9
 			},
 			"Clue": {
@@ -203164,7 +202829,7 @@
 						"Bank booth": 6,
 						"Chest": 1,
 						"Pottery oven": 1,
-						"Potter's wheel[+]": 2,
+						"Potter's wheel": 2,
 						"Crate": 3,
 						"Bookcase": 1,
 						"Shelf": 9,
@@ -204015,7 +203680,7 @@
 				"Centre piece": 1,
 				"Hole": 1,
 				"Spinning wheel": 1,
-				"Potter's wheel[+]": 1,
+				"Potter's wheel": 1,
 				"Sink": 4,
 				"Crate": 2
 			},
@@ -204922,7 +204587,9 @@
 			},
 			"Monster": {
 				"Greater demon": 5,
-				"Kal'gerion demon": 10
+				"Greater demon#Wilderness": 1,
+				"Kal'gerion demon": 10,
+				"Kal'gerion demon#Wilderness": 1
 			},
 			"Spawn": {
 				"Nature rune": 2,
@@ -206029,7 +205696,8 @@
 			"Sections": {
 				"1": {
 					"Monster": {
-						"Waterfiend": 9
+						"Waterfiend": 9,
+						"Waterfiend#Wilderness": 1
 					},
 					"NPC": {
 						"Gull": 3,
@@ -206051,7 +205719,9 @@
 				"1": {
 					"Monster": {
 						"Green dragon": 11,
+						"Green dragon#Wilderness": 1,
 						"Waterfiend": 4,
+						"Waterfiend#Wilderness": 1,
 						"Demon Boss (Wilderness)": 1
 					},
 					"Quest": {
@@ -206101,6 +205771,7 @@
 		"13371": {
 			"Monster": {
 				"Hellhound": 12,
+				"Hellhound#Wilderness": 1,
 				"Greater demon ash lord": 1
 			},
 			"Object": {
@@ -208566,7 +208237,7 @@
 				"2": {
 					"Object": {
 						"Pottery oven": 1,
-						"Potter's wheel[+]": 2
+						"Potter's wheel": 2
 					},
 					"NPC": {
 						"Sentinel Draemus": 1,
@@ -209943,7 +209614,7 @@
 			"Object": {
 				"Hay bales": 2,
 				"Pottery oven": 1,
-				"Potter's wheel[+]": 2,
+				"Potter's wheel": 2,
 				"Spinning wheel": 1,
 				"Bookcase": 7,
 				"Portal": 4,
@@ -213973,7 +213644,6 @@
 						"Creeping ivy": 3,
 						"Raz's stash": 1,
 						"Planks (Highweald Forest)": 1,
-						"Log balance (Highweald Forest)": 1,
 						"Giant crayfish (fishing spot)": 2,
 						"Tree": 32,
 						"Oak": 4
@@ -213996,7 +213666,11 @@
 						"Tree": 3
 					}
 				},
-				"3": {}
+				"3": {
+					"Object": {
+						"Log balance (Highweald Forest)": 1
+					}
+				}
 			},
 			"Nickname": "Raz's Hut"
 		},
@@ -216450,7 +216124,7 @@
 				"Bookcase": 4,
 				"Sacks": 5,
 				"Pottery oven": 1,
-				"Potter's wheel[+]": 2,
+				"Potter's wheel": 2,
 				"Waterpump": 1,
 				"Wheat": 365,
 				"Oak": 9,
@@ -223624,6 +223298,7 @@
 				"Earth warrior": 4,
 				"Thug": 9,
 				"Black demon": 3,
+				"Black demon#Wilderness": 1,
 				"Spider": 8
 			},
 			"Connect": {
@@ -225762,6 +225437,7 @@
 			"Monster": {
 				"Poison spider": 9,
 				"Black dragon": 2,
+				"Black dragon#Wilderness": 1,
 				"Ripper Demon": 3
 			},
 			"Connect": {
@@ -226207,8 +225883,11 @@
 				"Lesser demon": 8,
 				"Dark beast": 9,
 				"Greater demon": 10,
+				"Greater demon#Wilderness": 1,
 				"Green dragon": 5,
+				"Green dragon#Wilderness": 1,
 				"Hellhound": 8,
+				"Hellhound#Wilderness": 1,
 				"Revenant imp": 2,
 				"Revenant goblin": 4,
 				"Revenant icefiend": 1,
@@ -227046,7 +226725,7 @@
 				"Chaos altar": 1,
 				"Hay bales": 2,
 				"Pottery oven": 1,
-				"Potter's wheel[+]": 2,
+				"Potter's wheel": 2,
 				"Spinning wheel": 1,
 				"Portal": 4,
 				"Blood fountain": 3,
@@ -228806,9 +228485,9 @@
 				"Bane crossbow": true,
 				"Bane 2h crossbow": true,
 				"Off-hand bane crossbow": true,
-				"Elder rune crossbow": true,
-				"Elder rune 2h crossbow": true,
-				"Off-hand elder rune crossbow": true
+				"Elder crossbow": true,
+				"Elder 2h crossbow": true,
+				"Off-hand elder crossbow": true
 			},
 			"Ogre arrow": {
 				"Ogre bow": true,
@@ -231722,7 +231401,7 @@
 				"Elder rune round shield + 5",
 				"Elder rune round shield"
 			],
-			"Elder rune crossbow[+]": ["Elder rune crossbow", "Elder rune 2h crossbow", "Off-hand elder rune crossbow"],
+			"Elder crossbow[+]": ["Elder crossbow", "Elder 2h crossbow", "Off-hand elder crossbow"],
 			"ElderRuneOrPrimal[+]": ["Elder rune bar", "Primal bar"],
 			"ElderRuneWeapon[+]": [
 				"Elder rune 2h sword + 1",
@@ -232118,9 +231797,9 @@
 				"Bane crossbow",
 				"Bane 2h crossbow",
 				"Off-hand bane crossbow",
-				"Elder rune crossbow",
-				"Elder rune 2h crossbow",
-				"Off-hand elder rune crossbow"
+				"Elder crossbow",
+				"Elder 2h crossbow",
+				"Off-hand elder crossbow"
 			],
 			"GraviteMagicWeapon[+]": [
 				"Gravite staff",
@@ -236081,7 +235760,7 @@
 			"ElderOverloadPotion[+]": "Any elderoverload potion",
 			"Elderpick[+]": "Any elder rune pickaxe",
 			"ElderRuneArmour[+]": "Any piece of elder rune armour",
-			"Elder rune crossbow[+]": "Any type of elder rune crossbow",
+			"Elder crossbow[+]": "Any type of elder crossbow",
 			"ElderRuneOrPrimal[+]": "Elder rune or primal bars",
 			"ElderRuneWeapon[+]": "Any elder rune melee weapon",
 			"Elemental Staff[+]": "Any staff of element variant",
@@ -236672,6 +236351,7 @@
 			"WildyDarkBeast[+]": ["11835", "11834", "12090", "Forinthry Dungeon"],
 			"WildyGreaterBerserkLord[+]": ["11836", "13372-1"],
 			"WildyHydrixDragon[+]": ["12092-1", "Deep Wilderness Dungeon"],
+			"WildyIceStrykewyrm[+]": ["11836", "12091-1"],
 			"WildyOnyxDragon[+]": ["12859-1", "13115", "Deep Wilderness Dungeon"],
 			"WildyRipperDemon[+]": ["12348-2", "12349", "12860", "Lava Maze Dungeon"],
 			"WildySoulgazer[+]": ["13114", "13370-1"],
@@ -237544,6 +237224,12 @@
 			"Revenant Souls[+]": "Any revenant variant that may fill an ushabti",
 			"Cockroach Souls[+]": "Any cockroach variant that may fill an ushabti",
 			"Nodon Souls[+]": "Any Nodon dragonkin variant that may fill an ushabti"
+		},
+		"shopsPlus": {
+			"Farmers' Market[+]": ["Farmers' Market", "Farmers' Market (Anachronia)"]
+		},
+		"shopsPlusNames": {
+			"Farmers' Market[+]": "The Farmers' Market"
 		},
 		"mixPlus": {
 			"Citizen[+]": [
@@ -246123,6 +245809,11 @@
 				"1": "1/200"
 			}
 		},
+		"Black demon#Wilderness": {
+			"WildernessDropTable+": {
+				"1": "50/5102"
+			}
+		},
 		"Black demon (Demon Flash Mobs)": {
 			"Infernal ashes": {
 				"1": "Always"
@@ -246311,6 +246002,11 @@
 			},
 			"RareDropTable+": {
 				"1": "1/250"
+			}
+		},
+		"Black dragon#Wilderness": {
+			"WildernessDropTable+": {
+				"1": "50/5000"
 			}
 		},
 		"Black dragon (Dragonkin Laboratory)": {
@@ -246904,9 +246600,6 @@
 			},
 			"HerbDropTable+": {
 				"1": "15/128"
-			},
-			"WildernessDropTable+": {
-				"1": "50/6756"
 			}
 		},
 		"Boggoth": {
@@ -260305,9 +259998,6 @@
 			"Dragon 2h sword": {
 				"1": "1/260"
 			},
-			"Long, sharp claws": {
-				"1": "1/4"
-			},
 			"Long bone": {
 				"1": "1/400"
 			},
@@ -262571,6 +262261,11 @@
 				"1": "22/128"
 			}
 		},
+		"Greater demon#Wilderness": {
+			"WildernessDropTable+": {
+				"1": "50/6097"
+			}
+		},
 		"Greater demon (elite)": {
 			"Accursed ashes": {
 				"1": "Always"
@@ -262715,6 +262410,9 @@
 			},
 			"RareDropTable+": {
 				"1": "1/200"
+			},
+			"WildernessDropTable+": {
+				"1": "50/3355"
 			}
 		},
 		"Greater demon berserker": {
@@ -262796,6 +262494,9 @@
 			},
 			"RareDropTable+": {
 				"1": "1/200"
+			},
+			"WildernessDropTable+": {
+				"1": "50/3144"
 			}
 		},
 		"Greater demon brute": {
@@ -263183,7 +262884,9 @@
 			},
 			"HerbDropTable+": {
 				"1": "15/128"
-			},
+			}
+		},
+		"Green dragon#Wilderness": {
 			"WildernessDropTable+": {
 				"1": "50/7936"
 			}
@@ -264657,6 +264360,11 @@
 			},
 			"Spirit ruby": {
 				"1": "1/1000"
+			}
+		},
+		"Hellhound#Wilderness": {
+			"WildernessDropTable+": {
+				"1": "50/5434"
 			}
 		},
 		"Hellhound (God Wars Dungeon)": {
@@ -269454,6 +269162,11 @@
 			},
 			"RareDropTable+": {
 				"1": "1/100"
+			}
+		},
+		"Kal'gerion demon#Wilderness": {
+			"WildernessDropTable+": {
+				"1": "50/3968"
 			}
 		},
 		"Kal'gerion demon (The Shadow Reef)": {
@@ -284419,9 +284132,6 @@
 			},
 			"RareDropTable+": {
 				"1": "Unknown"
-			},
-			"WildernessDropTable+": {
-				"1": "50/3703"
 			}
 		},
 		"Soulless": {
@@ -291161,7 +290871,9 @@
 			},
 			"GemDropTable+": {
 				"1": "4/128"
-			},
+			}
+		},
+		"Waterfiend#Wilderness": {
 			"WildernessDropTable+": {
 				"1": "50/4672"
 			}
@@ -291362,9 +291074,6 @@
 			},
 			"RareDropTable+": {
 				"1": "1/250"
-			},
-			"WildernessDropTable+": {
-				"1": "50/4504"
 			}
 		},
 		"Werewolf": {
@@ -296753,7 +296462,13 @@
 			"Potato seed^Catablepon": [{
 				"Members only": "Nonskill"
 			}],
+			"Potato seed^Hill giant": [{
+				"Members only": "Nonskill"
+			}],
 			"Onion seed^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Onion seed^Hill giant": [{
 				"Members only": "Nonskill"
 			}],
 			"Cabbage seed^": [{
@@ -297446,27 +297161,6 @@
 			"Scroll of gathering^": [{
 				"Members only": "Nonskill"
 			}],
-			"Notepaper blueprint^": [{
-				"Members only": "Nonskill"
-			}],
-			"Elite Dungeoneering outfit blueprint^": [{
-				"Members only": "Nonskill"
-			}],
-			"Scrimshaw of aggression+ scroll^": [{
-				"Members only": "Nonskill"
-			}],
-			"Scrimshaw of sacrifice+ scroll^": [{
-				"Members only": "Nonskill"
-			}],
-			"Scrimshaw of corruption+ scroll^": [{
-				"Members only": "Nonskill"
-			}],
-			"Recipe: Black stone arrows^": [{
-				"Members only": "Nonskill"
-			}],
-			"Elite dungeon chest upgrade^": [{
-				"Members only": "Nonskill"
-			}],
 			"Scroll of life^": [{
 				"Members only": "Nonskill"
 			}],
@@ -297489,15 +297183,6 @@
 				"Members only": "Nonskill"
 			}],
 			"Scroll of renewal^": [{
-				"Members only": "Nonskill"
-			}],
-			"Demon Slayer ability codex blueprint^": [{
-				"Members only": "Nonskill"
-			}],
-			"Dragon Slayer ability codex blueprint^": [{
-				"Members only": "Nonskill"
-			}],
-			"Undead Slayer ability codex blueprint^": [{
 				"Members only": "Nonskill"
 			}],
 			"Occultist's undead neckalace^": [{
@@ -297611,10 +297296,22 @@
 			"Retro celestial robes^": [{
 				"Members only": "Nonskill"
 			}],
-			"Tied ritual marker^": [{
+			"Floor plans: Temple tile^": [{
+				"Unlock the ~|Floor plans: Temple tile|~": "Construction"
+			}],
+			"Furniture plans: Ritual marker^": [{
+				"Unlock the ~|Furniture plans: Ritual marker|~": "Construction"
+			}, {
 				"~|Nadir (abridged saga)|~ Complete the abridged saga": "Quest"
 			}],
-			"Warped ritual marker^": [{
+			"Furniture plans: Tied ritual marker^": [{
+				"Unlock the ~|Furniture plans: Ritual marker|~": "Construction"
+			}, {
+				"~|Nadir (abridged saga)|~ Complete the abridged saga": "Quest"
+			}],
+			"Furniture plans: Warped ritual marker^": [{
+				"Unlock the ~|Furniture plans: Ritual marker|~": "Construction"
+			}, {
 				"~|Nadir (unabridged saga)|~ Complete the unabridged saga": "Quest"
 			}],
 			"Micah^": [{
@@ -297815,14 +297512,8 @@
 			"Cerificate of qualification (guildmaster)^": [{
 				"Become an ~|archaeology guildmaster|~": "Archaeology"
 			}],
-			"Workbench upgrade 1^": [{
-				"Become an ~|archaeology associate|~": "Archaeology"
-			}],
-			"Workbench upgrade 2^": [{
-				"Become an ~|archaeology professor|~": "Archaeology"
-			}],
-			"Workbench upgrade 3^": [{
-				"Become an ~|archaeology guildmaster|~": "Archaeology"
+			"Igneous geode^": [{
+				"Members only": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -299391,7 +299082,7 @@
 				}]
 			},
 			"Herby Werby Reward Shop": {
-				"16453": [{
+				"16453-2": [{
 					"Non-Daily DnD": "Nonskill"
 				}]
 			},
@@ -299555,6 +299246,11 @@
 					"Access to stardust": "Nonskill"
 				}]
 			},
+			"Shrine of the Spirit Wolves": {
+				"16946-1": [{
+					"Members only": "Nonskill"
+				}]
+			},
 			"Slayer Equipment": {
 				"13111": [{
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
@@ -299716,6 +299412,11 @@
 			"Summoning Supplies (Bogrog)": {
 				"10031": [{
 					"~|Watchtower|~ 7": "Quest"
+				}]
+			},
+			"Summoning Supplies (Wendlewick)": {
+				"16946-1": [{
+					"Members only": "Nonskill"
 				}]
 			},
 			"Sydekix's Shop of Balance": {
@@ -301697,7 +301398,6 @@
 			"Archaeologist's trousers": true,
 			"Archaeologist's gloves": true,
 			"Archaeologist's boots": true,
-			"Auto-screener v1.080 blueprint": true,
 			"Master archaeologist's hat": true,
 			"Master archaeologist's jacket": true,
 			"Master archaeologist's trousers": true,
@@ -301708,10 +301408,7 @@
 			"Cerificate of qualification (assistant)": true,
 			"Cerificate of qualification (associate)": true,
 			"Cerificate of qualification (professor)": true,
-			"Cerificate of qualification (guildmaster)": true,
-			"Workbench upgrade 1": true,
-			"Workbench upgrade 2": true,
-			"Workbench upgrade 3": true
+			"Cerificate of qualification (guildmaster)": true
 		},
 		"Ardougne Baker's Stall": {
 			"Bread": true,
@@ -302797,12 +302494,7 @@
 			"Master thief's stethoscope": true,
 			"Medium loot bag": true,
 			"Large loot bag": true,
-			"Huge loot bag": true,
-			"One finger discount": true,
-			"Two finger discount": true,
-			"Three finger discount": true,
-			"Four finger discount": true,
-			"Five finger discount": true
+			"Huge loot bag": true
 		},
 		"Dodgy Mike's Second-hand Clothing": {
 			"Pirate bandana (white)": true,
@@ -302968,17 +302660,6 @@
 			"Ruinous staff": true,
 			"Ruinous crossbow": true,
 			"Off-hand ruinous crossbow": true,
-			"Notepaper blueprint": true,
-			"Elite Dungeoneering outfit blueprint": true,
-			"Daemonheim skill door boost": true,
-			"Scrimshaw of aggression+ scroll": true,
-			"Scrimshaw of sacrifice+ scroll": true,
-			"Scrimshaw of corruption+ scroll": true,
-			"Recipe: Black stone arrows": true,
-			"Elite dungeon chest upgrade": true,
-			"Demon Slayer ability codex blueprint": true,
-			"Dragon Slayer ability codex blueprint": true,
-			"Undead Slayer ability codex blueprint": true,
 			"Magma golem pet": true,
 			"Crassian scuttler pet": true,
 			"Acolyte of Seiryu headdress": true,
@@ -303012,6 +302693,7 @@
 			"Chaotic maul warped dye kit": true,
 			"Chaotic crossbow frozen dye kit": true,
 			"Chaotic crossbow warped dye kit": true,
+			"Floor plans: Temple tile": true,
 			"Furniture plans: Ritual marker": true,
 			"Furniture plans: Tied ritual marker": true,
 			"Furniture plans: Warped ritual marker": true
@@ -303126,24 +302808,7 @@
 			"Compost": true
 		},
 		"Farmers' Market": {
-			"Small pen deed II": true,
-			"Medium pen deed I": true,
-			"Large pen deed I": true,
-			"Bank chest": true,
-			"Medium pen deed II": true,
-			"Large pen deed II": true,
 			"Farm totem": true,
-			"Noted produce": true,
-			"Seasonaliser wheel": true,
-			"Multiple trait boost (small)": true,
-			"Multiple trait boost (medium)": true,
-			"Multiple trait boost (large)": true, 
-			"Animals can now breed in small pens": true,
-			"Animals can now breed in medium pens": true,
-			"Animals can now breed in large pens": true,
-			"Storm barn deeds": true,
-			"Storm barn extension 1 (+15 spaces)": true,
-			"Storm barn extension 2 (+30 spaces)": true,
 			"Chicken egg (unchecked)": true,
 			"White ewe (unchecked)": true,
 			"White ram (unchecked)": true,
@@ -303162,38 +302827,16 @@
 			"Master farmer outfit blueprint": true,
 			"Master farmer fragment pack": true,
 			"Trevor the magical zygomite": true,
-			"Herbicide": true,
-			"Seedicide": true,
-			"Herbicide collector upgrade": true,
-			"Seedicide collector upgrade": true,
 			"Farm deeds (+titles)": true,
 			"Status icons": true,
 			"Harvest potion": true,
 			"Anachronia Dinosaur Farm teleport": true,
-			"Farmhands": true,
 			"Furniture plans: Flower planter (level 24)": true,
 			"Furniture plans: Flower planter (level 28)": true,
 			"Furniture plans: Flower planter (level 32)": true
 		},
 		"Farmers' Market (Anachronia)": {
-			"Small dinosaur pen deed": true,
-			"Medium dinosaur pen deed": true,
-			"Large dinosaur pen deed I": true,
-			"Large dinosaur pen deed II": true,
-			"Dinosaur breeding pen": true,
-			"Bank chest": true,
 			"Farm totem": true,
-			"Noted produce": true,
-			"Multiple trait boost (small)": true,
-			"Multiple trait boost (medium)": true,
-			"Multiple trait boost (large)": true, 
-			"Animals can now breed in small dinosaur pens": true,
-			"Animals can now breed in medium dinosaur pens": true,
-			"Animals can now breed in large dinosaur pens": true,
-			"Storm barn deeds": true,
-			"Anachronia storm barn deeds": true,
-			"Storm barn extension 1 (+15 spaces)": true,
-			"Storm barn extension 2 (+30 spaces)": true,
 			"Common green frog (unchecked)": true,
 			"Green salamander (unchecked)": true,
 			"Animal name re-roller": true,
@@ -303208,12 +302851,8 @@
 			"Trevor the magical zygomite": true,
 			"Herbicide": true,
 			"Seedicide": true,
-			"Herbicide collector upgrade": true,
-			"Seedicide collector upgrade": true,
-			"Farm deeds (+titles)": true,
 			"Status icons": true,
 			"Harvest potion": true,
-			"Max guild portal attunement": true,
 			"Anachronia Dinosaur Farm teleport": true,
 			"Furniture plans: Stone planter": true
 		},
@@ -303903,11 +303542,8 @@
 			"Bronze square shield": true
 		},
 		"Hunter Mark Shop": {
-			"Quick traps": true,
 			"Dinosaur lure": true,
 			"Frog repellent": true,
-			"Ranked 'Baiter' title": true,
-			"Elite trapper outfit blueprint": true,
 			"Medium Hunter lamp": true,
 			"Medium Slayer lamp (Hunter Marks)": true,
 			"Dinosaur egg": true
@@ -305881,34 +305517,8 @@
 			"Broad bolts": true,
 			"Runes for Slayer Dart": true,
 			"Ring of Slaying": true,
-			"Full Slayer Helmet Upgrade (1)": true,
-			"Full Slayer Helmet Upgrade (2)": true,
-			"Full Slayer Helmet Upgrade (3)": true,
-			"Full Slayer Helmet Upgrade (4)": true,
-			"Ferocious ring upgrade (for use in Morvran's dungeon)": true,
 			"Slayer XP": true,
-			"Ushabti": true,
-			"Fourth Room in Sunken Pyramid": true,
-			"Persuade Slayer masters to assign Aquanites": true,
-			"Persuade Slayer masters to assign Muspahs": true,
-			"Persuade Slayer masters to assign Nihils": true,
-			"Persuade Slayer masters to assign Glacors": true,
-			"Persuade Slayer masters to assign Tormented demons": true,
-			"Persuade Slayer masters to assign Nightmares": true,
-			"Learn how to fletch broad arrows/bolts": true,
-			"Learn how to craft rings of slaying": true,
-			"Learn how to deliver killing blows quicker": true,
-			"Learn how to craft Slayer helmets": true,
-			"Learn how to fuse rings to full Slayer helmets": true,
-			"Learn new technique to attack ice strykewyrms": true,
-			"Learn how to attach the bonecrusher to your toolbelt": true,
-			"Learn how to attach herbicide to your toolbelt": true,
-			"Learn how to attach seedicide to your toolbelt": true,
-			"Learn how to attach the charming imp to your toolbelt": true,
-			"Attach the gold accumulator on your toolbelt": true,
-			"Learn to move the souls in your personal slayer dungeon": true,
-			"Recharge a fused Full Slayer Helmet": true,
-			"Recharge Rings of Slaying and Ferocious rings": true
+			"Ushabti": true
 		},
 		"Smithing Smith's Shop": {
 			"Bronze scimitar": true,
@@ -306005,16 +305615,6 @@
 			"Feather": true
 		},
 		"Sydekix's Shop of Balance": {
-			"Plant Power (Tier 1)": true,
-			"Plant Power (Tier 2)": true,
-			"Plant Power (Tier 3)": true,
-			"Plant Power (Tier 4)": true,
-			"Bountiful Harvest": true,
-			"Bountiful Harvest 2": true,
-			"Speedy Growth": true,
-			"Quick-cense": true,
-			"Makes-cense": true,
-			"Buckets All the Way Down": true,
 			"Farmer's hat": true,
 			"Farmer's jacket": true,
 			"Farmer's legwear": true,
@@ -306562,6 +306162,7 @@
 			"Bonecrusher upgrade": true,
 			"Spirit dragon pet": true,
 			"Idol crabletine token": true,
+			"Floor plans: Terracotta paving": true,
 			"Furniture plans: Small terracotta flower pot": true,
 			"Furniture plans: Terracotta flower pot": true,
 			"Furniture plans: Stacked terracotta flower pots (level 14)": true,
@@ -306819,7 +306420,6 @@
 			"Giant pouch": true
 		},
 		"Wizard Rinsit's Runecrafting Shop": {
-			"Portal redirection": true,
 			"Master runecrafter hat": true,
 			"Master runecrafter robe": true,
 			"Master runecrafter skirt": true,
@@ -306840,8 +306440,7 @@
 			"Law altar teleport": true,
 			"Death altar teleport": true,
 			"Blood altar teleport": true,
-			"Hungry hood": true,
-			"Focused Siphoning": true
+			"Hungry hood": true
 		},
 		"Wydin's Food Store": {
 			"Pot of flour": true,
@@ -316882,14 +316481,14 @@
 					"1": "Always"
 				}
 			},
-			"Elder rune cbows": {
-				"Elder rune crossbow": {
+			"Elder cbows": {
+				"Elder crossbow": {
 					"1": "Always"
 				},
-				"Elder rune 2h crossbow": {
+				"Elder 2h crossbow": {
 					"1": "Always"
 				},
-				"Off-hand elder rune crossbow": {
+				"Off-hand elder crossbow": {
 					"1": "Always"
 				}
 			},
@@ -323866,11 +323465,13 @@
 				"RareDropTable+": {
 					"1": "1/75"
 				},
-				"WildernessDropTable+": {
-					"1": "50/4201"
-				},
 				"AbyssalHerbDropTable+": {
 					"1": "20/100"
+				}
+			},
+			"Abyssal beast#Wilderness": {
+				"WildernessDropTable+": {
+					"1": "50/4201"
 				}
 			},
 			"Abyssal beast (task)": {
@@ -323975,6 +323576,11 @@
 				},
 				"RareDropTable+": {
 					"1": "1/150"
+				}
+			},
+			"Abyssal demon#Wilderness": {
+				"WildernessDropTable+": {
+					"1": "50/5102"
 				}
 			},
 			"Abyssal demon (Heart of Gielinor)": {
@@ -324125,11 +323731,13 @@
 				"RareDropTable+": {
 					"1": "1/50"
 				},
-				"WildernessDropTable+": {
-					"1": "50/3759"
-				},
 				"AbyssalHerbDropTable+": {
 					"1": "10/100"
+				}
+			},
+			"Abyssal lord#Wilderness": {
+				"WildernessDropTable+": {
+					"1": "50/3759"
 				}
 			},
 			"Abyssal lord (task)": {
@@ -324212,6 +323820,11 @@
 				},
 				"AbyssalHerbDropTable+": {
 					"1": "1/100"
+				}
+			},
+			"Abyssal savage#Wilderness": {
+				"WildernessDropTable+": {
+					"1": "50/4504"
 				}
 			},
 			"Acheron mammoth": {
@@ -324307,7 +323920,9 @@
 				},
 				"RareDropTable+": {
 					"1": "1/100"
-				},
+				}
+			},
+			"Acheron mammoth#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/3816"
 				}
@@ -328021,7 +327636,9 @@
 				},
 				"RareDropTable+": {
 					"1": "1/150"
-				},
+				}
+			},
+			"Dragonstone dragon#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/4201"
 				}
@@ -328980,7 +328597,9 @@
 				},
 				"Spirit ruby": {
 					"1": "1/1000"
-				},
+				}
+			},
+			"Gargoyle#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/4761"
 				}
@@ -329582,7 +329201,9 @@
 				},
 				"RareDropTable+": {
 					"1": "1/100"
-				},
+				}
+			},
+			"Hydrix dragon#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/3759"
 				}
@@ -329764,7 +329385,9 @@
 				},
 				"TalismanDropTable+": {
 					"1": "1/101"
-				},
+				}
+			},
+			"Ice strykewyrm#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/4716"
 				}
@@ -333016,7 +332639,9 @@
 				},
 				"RareDropTable+": {
 					"1": "1/150"
-				},
+				}
+			},
+			"Onyx dragon#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/3968"
 				}
@@ -333418,6 +333043,11 @@
 				},
 				"RareDropTable+": {
 					"1": "1/100"
+				}
+			},
+			"Ripper Demon#Wilderness": {
+				"WildernessDropTable+": {
+					"1": "50/3816"
 				}
 			},
 			"Ripper Demon (task)": {
@@ -335059,7 +334689,9 @@
 				},
 				"RareDropTable+": {
 					"1": "1/100"
-				},
+				}
+			},
+			"Soulgazer#Wilderness": {
 				"WildernessDropTable+": {
 					"1": "50/3906"
 				}
@@ -340532,35 +340164,23 @@
 					"60": "Common",
 					"120": "Common"
 				},
-				"Adrenaline crystal": {
-					"5-15 (noted)": "Very rare"
-				},
 				"Bloodweed seed": {
-					"1": "Very rare"
-				},
-				"Wilderness hilt": {
-					"1": "Very rare"
-				},
-				"Preserved meat": {
-					"1": "Very rare"
+					"1": "1/500"
 				},
 				"Dragonfruit seed": {
-					"1-2": "Very rare"
+					"1-2": "1/5000"
 				},
 				"Mango seed": {
-					"1-3": "Very rare"
+					"1-3": "1/1000"
 				},
-				"Stinkhorn spore": {
-					"1-3": "Very rare"
+				"Stinkshroom spore": {
+					"1-3": "1/800"
 				},
 				"Ciku seed": {
-					"1": "Very rare"
+					"1": "1/4000"
 				},
-				"Fremennik equipment patch": {
-					"1": "Very rare"
-				},
-				"Revenant drop enhancer": {
-					"1": "Very rare"
+				"WildernessDropTable+": {
+					"1": "50/50000"
 				}
 			},
 			"Waiko islander": {
@@ -343915,22 +343535,25 @@
 			},
 			"Muddychests": {
 				"Coins": {
-					"10000": "1405/2673"
+					"10000": "21/128"
 				},
 				"Battlestaff": {
-					"2 (noted)": "104/2673"
+					"2 (noted)": "5/128"
 				},
 				"Blood rune": {
-					"20": "275/2673"
+					"20": "14/128"
 				},
 				"Bloodweed seed": {
-					"1": "224/2673"
+					"1": "12/128"
 				},
 				"Dragon longsword": {
-					"1": "112/2673"
+					"1": "4/128"
 				},
 				"Crystal key": {
-					"1": "56/2673"
+					"1": "3/128"
+				},
+				"WildernessDropTable+": {
+					"1": "1/256"
 				}
 			},
 			"Newtroost loot": {
@@ -352860,7 +352483,6 @@
 			],
 			"2": [
 				"17206-1",
-				"17206-3",
 				"16949-1",
 				"16949-2"
 			],
@@ -374415,12 +374037,31 @@
 			"has_spec": true,
 			"has_passive": true
 		},
-		"Elder rune 2h crossbow": {
+		"Elder 2h crossbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
 			"style": "bolts",
 			"ability_damage": 1152,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 90
+			},
+			"speed": 3,
+			"tier": 80,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1924
+		},
+		"Elder crossbow": {
+			"ranged_damage": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 768,
 			"magic_damage": 0,
 			"melee_damage": 0,
 			"armour": 0,
@@ -374707,25 +374348,6 @@
 			"prayer": 0,
 			"accuracy": 0,
 			"auto_damage": 480
-		},
-		"Elder rune crossbow": {
-			"ranged_damage": 0,
-			"slot": "main hand weapon",
-			"prayer": 0,
-			"style": "bolts",
-			"ability_damage": 768,
-			"magic_damage": 0,
-			"melee_damage": 0,
-			"armour": 0,
-			"requirements": {
-				"Ranged": 90
-			},
-			"speed": 3,
-			"tier": 80,
-			"lp": 0,
-			"attack_range": 7,
-			"class": "ranged",
-			"accuracy": 1924
 		},
 		"Elder rune full helm + 1": {
 			"ranged_damage": 0,
@@ -393131,7 +392753,7 @@
 			"auto_damage": 551.2,
 			"can_augment": true
 		},
-		"Off-hand elder rune crossbow": {
+		"Off-hand elder crossbow": {
 			"ranged_damage": 0,
 			"slot": "off-hand weapon",
 			"prayer": 0,
