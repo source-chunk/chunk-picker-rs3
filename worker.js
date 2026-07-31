@@ -3720,6 +3720,12 @@ let onlyShop = function(sources) {
     return allShop;
 }
 
+// Checks if any source of an item is in AllowedSources list
+let hasAllowedSource = function(sources, allowedSources) {
+    let allowedSource = !allowedSources || allowedSources.length === 0 || Object.keys(sources).filter((source) => { return allowedSources.includes(source) }).length > 0;
+    return allowedSource;
+}
+
 // Checks if chunkId string contains a section indicator
 let containsSections = function(chunkStr) {
     return (chunkStr.includes('-') && !isNaN(chunkStr.split('-')[0]) && (!isNaN(chunkStr.split('-')[1])));
@@ -4166,7 +4172,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                             if (items[plus + '*'] && !combatSkills.includes(skill)) {
                                 plusAdjusted += '*';
                             }
-                            if (!!items[plusAdjusted] && (!chunkInfo['challenges'][skill][name].hasOwnProperty('NonShop') || !chunkInfo['challenges'][skill][name]['NonShop'] || !onlyShop(items[plusAdjusted]))) {
+                            if (!!items[plusAdjusted] && (!chunkInfo['challenges'][skill][name].hasOwnProperty('NonShop') || !chunkInfo['challenges'][skill][name]['NonShop'] || !onlyShop(items[plusAdjusted])) && hasAllowedSource(items[plusAdjusted], chunkInfo['challenges'][skill][name]['AllowedSources'])) {
                                 tempValid = true;
                                 xResults++;
                                 xItem.includes('*') && Object.keys(items[plusAdjusted]).some(source => {
@@ -4222,7 +4228,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                         let tempValid = false;
                         let tempTempValid = false;
                         let multiValid = false;
-                        itemsPlus[item.replaceAll(/\*/g, '')].filter((plus) => { return (!!items[plus] || (items[plus + '*'] && !combatSkills.includes(skill))) && (!chunkInfo['challenges'][skill][name].hasOwnProperty('NonShop') || !chunkInfo['challenges'][skill][name]['NonShop'] || !onlyShop(items[plus])) }).forEach((plus) => {
+                        itemsPlus[item.replaceAll(/\*/g, '')].filter((plus) => { return (!!items[plus] || (items[plus + '*'] && !combatSkills.includes(skill))) && (!chunkInfo['challenges'][skill][name].hasOwnProperty('NonShop') || !chunkInfo['challenges'][skill][name]['NonShop'] || !onlyShop(items[plus])) && hasAllowedSource(items[plus], chunkInfo['challenges'][skill][name]['AllowedSources']) }).forEach((plus) => {
                             tempValid = true;
                             let plusAdjusted = plus;
                             if (items[plus + '*'] && !combatSkills.includes(skill)) {
@@ -4283,7 +4289,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                         return true;
                     }
                 } else {
-                    if ((!items[item.replaceAll(/\*/g, '')] && (!items[item.replaceAll(/\*/g, '') + '*'] || combatSkills.includes(skill))) || (chunkInfo['challenges'][skill][name].hasOwnProperty('NonShop') && chunkInfo['challenges'][skill][name]['NonShop'] && onlyShop(items[item.replaceAll(/\*/g, '')]))) {
+                    if ((!items[item.replaceAll(/\*/g, '')] && (!items[item.replaceAll(/\*/g, '') + '*'] || combatSkills.includes(skill))) || (chunkInfo['challenges'][skill][name].hasOwnProperty('NonShop') && chunkInfo['challenges'][skill][name]['NonShop'] && onlyShop(items[item.replaceAll(/\*/g, '')])) || !hasAllowedSource(items[item.replaceAll(/\*/g, '')], chunkInfo['challenges'][skill][name]['AllowedSources'])) {
                         validChallenge = false;
                         wrongThings.push(item);
                         nonValids[name] = wrongThings;
