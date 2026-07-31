@@ -1617,7 +1617,7 @@ let topbarElements = {
 let currentVersion = '6.9.62';
 let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.48';
-let updateLevel = 'unconnected-areas';
+let updateLevel = 'unconnected-areas, shopsPlus';
 
 // Patreon Test Server Data
 let onTestServer = false;

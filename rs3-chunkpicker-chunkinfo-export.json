@@ -38277,7 +38277,8 @@
 				"Objects": ["Giant crayfish (fishing spot)"],
 				"Primary": true,
 				"Output": "Raw giant crayfish",
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Build the giant crayfish pool at the ~|Wendlewick fish farm|~": {
 				"Items": ["Big fishing net*", "Magic plank*", "Rune nails*", "Bolt of cloth*"],
@@ -163949,7 +163950,8 @@
 				}
 			},
 			"Hollow Hill": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Not F2P": true
 			},
 			"Dungeons of Daemonheim": {
 				"UnlocksArea": true,
@@ -178465,7 +178467,8 @@
 			},
 			"Search hollow trees*": {
 				"Objects": ["Hollow tree (Highweald Forest)"],
-				"Output": "Hollow tree loot"
+				"Output": "Hollow tree loot",
+				"Not F2P": true
 			},
 			"Obtain Blessings of the Wolf*": {
 				"Items": ["Gold charm*"]
@@ -214217,8 +214220,7 @@
 						"Material cache (triskelion)": 3
 					},
 					"NPC": {
-						"Tali": 1,
-						"Reuben": 1
+						"Tali": 1
 					},
 					"Quest": {
 						"Trader Woes": "step"
@@ -219487,6 +219489,9 @@
 				"Ikadia the Exile": 1
             },
 			"Spawn": {
+				"Blue dragon scale": 4,
+				"Bones": 18,
+				"Coins": 24,
 				"Dusty key": 1
 			},
             "Quest": {
@@ -297513,6 +297518,9 @@
 				"Become an ~|archaeology guildmaster|~": "Archaeology"
 			}],
 			"Igneous geode^": [{
+				"Members only": "Nonskill"
+			}],
+			"Furniture plans: Beehive^": [{
 				"Members only": "Nonskill"
 			}]
 		},
