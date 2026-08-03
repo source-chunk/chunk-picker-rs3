@@ -75,6 +75,14 @@
 				"Priority": 11,
 				"NoPet": true
 			},
+			"Cross the lower ~|log balance (Highweald Forest waterfall)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Log balance (Highweald Forest waterfall)#Lower"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 12,
+				"NoPet": true
+			},
 			"Play a game of ~|Gnome ball|~": {
 				"Category": ["Gnomeball"],
 				"Chunks": ["9526-1"],
@@ -462,14 +470,6 @@
 				"Priority": 1,
 				"NoPet": true
 			},
-			"Cross the ~|log balance (Highweald Forest)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Log balance (Highweald Forest)"],
-				"Level": 34,
-				"Primary": false,
-				"Priority": 2,
-				"NoPet": true
-			},
 			"Complete a lap of the ~|barbarian outpost agility course|~": {
 				"Chunks": ["10039"],
 				"Tasks": {
@@ -484,6 +484,14 @@
 				"Level": 35,
 				"Primary": false,
 				"Priority": 2,
+				"NoPet": true
+			},
+			"Cross the upper ~|log balance (Highweald Forest waterfall)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Log balance (Highweald Forest waterfall)#Upper"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 3,
 				"NoPet": true
 			},
 			"Pickpocket a ~|H.A.M. member|~ for quadruple loot": {
@@ -11879,16 +11887,16 @@
 				"Primary": true,
 				"Priority": 10
 			},
-			"Construct a ~|small pedestal (limestone)|~": {
+			"Construct a ~|small stone pedestal|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Limestone brick*"],
 				"Objects": ["Furniture workbench"],
 				"Level": 35,
-				"Output": "Small pedestal",
+				"Output": "Small stone pedestal",
 				"Primary": true,
 				"Priority": 11
 			},
-			"Construct a ~|large pedestal (limestone)|~": {
+			"Construct a ~|large stone pedestal|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Limestone brick*"],
 				"Objects": ["Furniture workbench"],
@@ -11896,7 +11904,7 @@
 				"Primary": true,
 				"Priority": 12
 			},
-			"Construct a ~|huge pedestal (limestone)|~": {
+			"Construct a ~|huge stone pedestal|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Limestone brick*"],
 				"Objects": ["Furniture workbench"],
@@ -12753,7 +12761,7 @@
 			},
 			"Construct a ~|tiny gold pile|~": {
 				"Category": ["InsidePOH Primary"],
-				"Items": ["Small pedestal*", "Furniture plans: Tiny gold pile"],
+				"Items": ["Small stone pedestal*", "Furniture plans: Tiny gold pile"],
 				"Objects": ["Furniture workbench"],
 				"Level": 50,
 				"Primary": true,
@@ -13237,7 +13245,7 @@
 				"Primary": true,
 				"Priority": 9
 			},
-			"Construct a ~|small pedestal (mahogany)|~": {
+			"Construct a ~|small mahogany pedestal|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Mahogany plank*", "Gold leaf*"],
 				"Objects": ["Furniture workbench"],
@@ -13255,7 +13263,7 @@
 			},
 			"Construct a ~|small gold pile|~": {
 				"Category": ["InsidePOH Primary"],
-				"Items": ["Small pedestal*", "Marble block*", "Golf leaf*", "Furniture plans: Small gold pile"],
+				"Items": ["Small stone pedestal*", "Marble block*", "Golf leaf*", "Furniture plans: Small gold pile"],
 				"Objects": ["Furniture workbench"],
 				"Level": 60,
 				"Primary": true,
@@ -13643,7 +13651,7 @@
 				"Primary": true,
 				"Priority": 12
 			},
-			"Construct a ~|large pedestal (mahogany)|~": {
+			"Construct a ~|large mahogany pedestal|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Mahogany plank*", "Gold leaf*"],
 				"Objects": ["Furniture workbench"],
@@ -13965,7 +13973,7 @@
 			},
 			"Construct a ~|medium gold pile|~": {
 				"Category": ["InsidePOH Primary"],
-				"Items": ["Small pedestal*", "Marble block*", "Golf leaf*", "Furniture plans: Medium gold pile"],
+				"Items": ["Small stone pedestal*", "Marble block*", "Golf leaf*", "Furniture plans: Medium gold pile"],
 				"Objects": ["Furniture workbench"],
 				"Level": 70,
 				"Primary": true,
@@ -14394,7 +14402,7 @@
 				"Primary": true,
 				"Priority": 20
 			},
-			"Construct a ~|huge pedestal (mahogany)|~": {
+			"Construct a ~|huge mahogany pedestal|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Mahogany plank*", "Gold leaf*"],
 				"Objects": ["Furniture workbench"],
@@ -14718,11 +14726,19 @@
 			},
 			"Construct a ~|large gold pile|~": {
 				"Category": ["InsidePOH Primary"],
-				"Items": ["Small pedestal*", "Marble block*", "Gold leaf*", "Furniture plans: Large gold pile"],
+				"Items": ["Small stone pedestal*", "Marble block*", "Gold leaf*", "Furniture plans: Large gold pile"],
 				"Objects": ["Furniture workbench"],
 				"Level": 80,
 				"Primary": true,
 				"Priority": 14
+			},
+			"Construct a ~|small marble pedestal|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Marble block*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 15
 			},
 			"Build a medium dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
@@ -14890,13 +14906,21 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Construct a ~|large marble pedestal|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Marble block*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 83,
+				"Primary": true,
+				"Priority": 4
+			},
 			"Construct a ~|mahogany telescope|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Mahogany plank*", "Molten glass*"],
 				"Objects": ["Furniture workbench"],
 				"Level": 84,
 				"Primary": true,
-				"Priority": 4
+				"Priority": 1
 			},
 			"Construct a ~|mahogany treasure chest|~": {
 				"Category": ["InsidePOH Primary"],
@@ -14904,7 +14928,7 @@
 				"Objects": ["Furniture workbench"],
 				"Level": 84,
 				"Primary": true,
-				"Priority": 5
+				"Priority": 2
 			},
 			"Construct a ~|greater portal nexus|~": {
 				"Category": ["InsidePOH Primary"],
@@ -14913,7 +14937,7 @@
 				"Level": 84,
 				"Output Object": "Greater portal nexus",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 3
 			},
 			"Construct a ~|Bob rug (patterned)|~": {
 				"Category": ["InsidePOH Primary"],
@@ -14921,7 +14945,7 @@
 				"Objects": ["Furniture workbench"],
 				"Level": 84,
 				"Primary": true,
-				"Priority": 7
+				"Priority": 4
 			},
 			"Construct a ~|terracotta hydrangea pot|~": {
 				"Category": ["InsidePOH Primary"],
@@ -14929,7 +14953,7 @@
 				"Objects": ["Furniture workbench"],
 				"Level": 84,
 				"Primary": true,
-				"Priority": 8
+				"Priority": 5
 			},
 			"Construct a ~|flower planter#stone, hydrangeas|~": {
 				"Category": ["InsidePOH Primary"],
@@ -14937,7 +14961,7 @@
 				"Objects": ["Furniture workbench"],
 				"Level": 84,
 				"Primary": true,
-				"Priority": 9
+				"Priority": 6
 			},
 			"Upgrade the ~|spirit pig machine|~ to (tier 3)": {
 				"Items": ["Teak plank", "Mithril bar", "Nails[+]"],
@@ -15035,6 +15059,14 @@
 				"Level": 86,
 				"Primary": true,
 				"Priority": 4
+			},
+			"Construct a ~|huge marble pedestal|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Marble block*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 86,
+				"Primary": true,
+				"Priority": 5
 			},
 			"Construct a ~|mahogany gilded armour case|~": {
 				"Category": ["InsidePOH Primary"],
@@ -15143,7 +15175,7 @@
 			},
 			"Construct a ~|huge gold pile|~": {
 				"Category": ["InsidePOH Primary"],
-				"Items": ["Small pedestal*", "Marble block*", "Gold leaf*", "Furniture plans: Huge gold pile"],
+				"Items": ["Small stone pedestal*", "Marble block*", "Gold leaf*", "Furniture plans: Huge gold pile"],
 				"Objects": ["Furniture workbench"],
 				"Level": 90,
 				"Primary": true,
@@ -30672,7 +30704,7 @@
 				"Level": 45,
 				"Primary": false,
 				"Skills": {
-					"Ranged": 40
+					"Ranged": 45
 				},
 				"Priority": 1
 			},
@@ -30681,7 +30713,7 @@
 				"Level": 45,
 				"Primary": false,
 				"Skills": {
-					"Ranged": 80
+					"Ranged": 85
 				},
 				"Priority": 2
 			},
@@ -30690,7 +30722,7 @@
 				"Level": 45,
 				"Primary": false,
 				"Skills": {
-					"Ranged": 90
+					"Ranged": 95
 				},
 				"Priority": 3,
 				"Not F2P": true
@@ -57758,17 +57790,6 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|maple longbow (sighted)|~": {
-				"Items": ["Maple longbow (sighted)"],
-				"Level": 40,
-				"Primary": false,
-				"Skills": {
-					"Dungeoneering": 45
-				},
-				"Priority": 21,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Enter the ~|Ranging Guild|~": {
 				"Chunks": ["10549"],
 				"Level": 40,
@@ -57825,6 +57846,17 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
+			},
+			"Wield a ~|maple longbow (sighted)|~": {
+				"Items": ["Maple longbow (sighted)"],
+				"Level": 45,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 45
+				},
+				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true
 			},
 			"Wield ~|Zanik's crossbow|~": {
 				"Items": ["Zanik's crossbow"],
@@ -58487,7 +58519,7 @@
 			},
 			"Wield a ~|black chinchompa|~": {
 				"Items": ["Black chinchompa"],
-				"Level": 55,
+				"Level": 65,
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
@@ -59132,17 +59164,6 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|magic longbow (sighted)|~": {
-				"Items": ["Magic longbow (sighted)"],
-				"Level": 80,
-				"Primary": false,
-				"Skills": {
-					"Dungeoneering": 45
-				},
-				"Priority": 23,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Wield a ~|shadow glaive|~": {
 				"Items": ["Shadow glaive"],
 				"Level": 85,
@@ -59215,11 +59236,22 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Wield a ~|magic longbow (sighted)|~": {
+				"Items": ["Magic longbow (sighted)"],
+				"Level": 85,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 45
+				},
+				"Priority": 10,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Use the ~|Death's Swiftness|~ ability": {
 				"Chunks": ["Guthixian ruins"],
 				"Level": 85,
 				"Primary": false,
-				"Priority": 7,
+				"Priority": 1000,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -59231,7 +59263,7 @@
 				},
 				"Level": 85,
 				"Primary": false,
-				"Priority": 8,
+				"Priority": 1001,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -59240,7 +59272,7 @@
 				"Items": ["Superior scrimshaw of ranging"],
 				"Level": 85,
 				"Primary": false,
-				"Priority": 9,
+				"Priority": 1002,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -59255,7 +59287,7 @@
 					"Necromancy": 85
 				},
 				"Primary": false,
-				"Priority": 10,
+				"Priority": 1003,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -59558,18 +59590,6 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield an ~|elder longbow (sighted)|~": {
-				"Items": ["Elder longbow (sighted)"],
-				"Level": 90,
-				"Primary": false,
-				"Skills": {
-					"Dungeoneering": 45
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Balls of wool"],
@@ -59705,6 +59725,18 @@
 				"Level": 95,
 				"Primary": false,
 				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Wield an ~|elder longbow (sighted)|~": {
+				"Items": ["Elder longbow (sighted)"],
+				"Level": 95,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 45
+				},
+				"Priority": 4,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -145538,7 +145570,7 @@
 				"Items": ["AllPavosaurusRex[+]"]
 			},
 			"Start ~|Player-Owned Port|~ by getting a ports skill to level 90": {
-				"Chunks": ["Player-Owned Port"],
+				"Objects": ["Port portal"],
 				"Label": "Unlock Ports",
 				"Not F2P": true				
 			},
@@ -147562,10 +147594,22 @@
 				"Items": ["Arch-Glacor core"],
 				"Not F2P": true
 			},
+			"(Boss Trophies) Obtain ~|Astellarn's head|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Astellarn's head"],
+				"Not F2P": true
+			},
 			"(Boss Trophies) Obtain the ~|Barrows chest|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Barrows chest"],
+				"Not F2P": true
+			},
+			"(Boss Trophies) Obtain the ~|Rise of the Six chest|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Rise of the Six chest"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Beastmaster Durzag's head|~": {
@@ -147580,6 +147624,12 @@
 				"Items": ["Black Stone Dragon's head"],
 				"Not F2P": true
 			},
+			"(Boss Trophies) Obtain the ~|Chaos Elemental's head|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Chaos Elemental's head"],
+				"Not F2P": true
+			},
 			"(Boss Trophies) Obtain ~|Zilyana's wings|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
@@ -147592,6 +147642,12 @@
 				"Items": ["Corporeal Beast's head"],
 				"Not F2P": true
 			},
+			"(Boss Trophies) Obtain the ~|Crassian Leviathan's head|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Crassian Leviathan's head"],
+				"Not F2P": true
+			},
 			"(Boss Trophies) Obtain ~|Croesus' head|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Cosmetics"],
 				"Label": "Untracked Skilling Uniques",
@@ -147602,6 +147658,12 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Dagannoth King heads"],
+				"Not F2P": true
+			},
+			"(Boss Trophies) Obtain ~|Flesh-hatcher Mhekarnahz's eye|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Flesh-hatcher Mhekarnahz's eye"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|The Gate of Elidinis (trophy)|~": {
@@ -147646,6 +147708,12 @@
 				"Items": ["Hermod's helmet"],
 				"Not F2P": true
 			},
+			"(Boss Trophies) Obtain ~|Ivar's head|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ivar's head"],
+				"Not F2P": true
+			},
 			"(Boss Trophies) Obtain ~|Kalphite King's head|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
@@ -147656,6 +147724,12 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Kerapac's time-torn Staff of Armadyl"],
+				"Not F2P": true
+			},
+			"(Boss Trophies) Obtain ~|Kezalam's head|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Kezalam's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Kree'arra's head|~": {
@@ -147682,6 +147756,18 @@
 				"Items": ["Soul obelisk (trophy)"],
 				"Not F2P": true
 			},
+			"(Boss Trophies) Obtain ~|Masuta's head|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Masuta's head"],
+				"Not F2P": true
+			},
+			"(Boss Trophies) Obtain ~|Nakatra's mosaic|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Nakatra's mosaic"],
+				"Not F2P": true
+			},
 			"(Boss Trophies) Obtain ~|Nex's wings|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
@@ -147704,6 +147790,12 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Raksha's head"],
+				"Not F2P": true
+			},
+			"(Boss Trophies) Obtain ~|Rasial's crown|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Rasial's crown"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Orikalka's head|~": {
@@ -147730,16 +147822,34 @@
 				"Items": ["Osseous' skull"],
 				"Not F2P": true
 			},
+			"(Boss Trophies) Obtain the ~|Sanctum Guardian's head|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Sanctum Guardian's head"],
+				"Not F2P": true
+			},
 			"(Boss Trophies) Obtain ~|Seiryu's horns|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Seiryu's horns"],
 				"Not F2P": true
 			},
+			"(Boss Trophies) Obtain ~|Silverquill's head|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Silverquill's head"],
+				"Not F2P": true
+			},
 			"(Boss Trophies) Obtain ~|Solak's core|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Solak's core"],
+				"Not F2P": true
+			},
+			"(Boss Trophies) Obtain ~|Taraket's head|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Taraket's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Telos' sword|~": {
@@ -147764,6 +147874,18 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["TzTok-Jad's head"],
+				"Not F2P": true
+			},
+			"(Boss Trophies) Obtain ~|Verak Lith's head|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Verak Lith's head"],
+				"Not F2P": true
+			},
+			"(Boss Trophies) Obtain ~|Vermyx's head|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Vermyx's head"],
 				"Not F2P": true
 			},
 			"(Boss Trophies) Obtain ~|Gorvek's head|~": {
@@ -162168,6 +162290,9 @@
 				}
 			},
 			"Player-Owned Port": {
+				"Tasks": {
+					"Start ~|Player-Owned Port|~ by getting a ports skill to level 90": "Extra"
+				},
 				"UnlocksArea": true
 			},
 			"Chaos Tunnels": {
@@ -213671,7 +213796,7 @@
 				},
 				"3": {
 					"Object": {
-						"Log balance (Highweald Forest)": 1
+						"Log balance (Highweald Forest waterfall)#Lower": 1
 					}
 				}
 			},
@@ -213684,7 +213809,7 @@
 						"Tree": 9,
 						"Tin rock": 3,
 						"Iron rock": 3,
-						"Log balance (Highweald Forest)": 1
+						"Log balance (Highweald Forest waterfall)#Upper": 1
 					},
 					"Spawn": {
 						"Steel pickaxe": 1
@@ -213701,7 +213826,7 @@
 				"3": {
 					"Object": {
 						"Tree": 1,
-						"Log balance (Highweald Forest)": 1 
+						"Log balance (Highweald Forest waterfall)#Upper": 1 
 					}
 				},
 				"4": {},
@@ -221669,7 +221794,7 @@
 				"Zombie (Stronghold of Security)": 52,
 				"Giant rat": 10,
 				"Catablepon": 26,
-				"Giant spider": 45,
+				"Giant spider#Stronghold of Security": 45,
 				"Spider": 35,
 				"Scorpion": 8,
 				"Ankou": 32,
@@ -243316,6 +243441,9 @@
 			"Onyx dust": {
 				"5-25": "925/1000"
 			},
+			"Astellarn's head": {
+				"1": "1/128"
+			},
 			"DragonkinLaboratoryAlchablesDropTable+": {
 				"1": "340/1000"
 			},
@@ -244541,6 +244669,9 @@
 			},
 			"Inert adrenaline crystal": {
 				"6-10 (noted)": "1/11"
+			},
+			"Rise of the Six chest": {
+				"1": "1/128"
 			}
 		},
 		"Bat": {
@@ -248600,6 +248731,9 @@
 			"Ribs of chaos": {
 				"1": "1/2500"
 			},
+			"Chaos Elemental's head": {
+				"1": "1/128"
+			},
 			"Swordfish": {
 				"10": "18/129"
 			},
@@ -250940,6 +251074,9 @@
 			},
 			"Water talisman": {
 				"65-115 (noted)": "100/1000"
+			},
+			"Crassian Leviathan's head": {
+				"1": "1/128"
 			},
 			"ShadowReefAlchablesDropTable+": {
 				"1": "250/1000"
@@ -257450,6 +257587,9 @@
 			"Mhekarnahz's eye": {
 				"1": "1/800"
 			},
+			"Flesh-hatcher Mhekarnahz's eye": {
+				"1": "1/128"
+			},
 			"Gold charm": {
 				"8": "Common"
 			},
@@ -260402,6 +260542,11 @@
 			},
 			"Spirit ruby": {
 				"1": "1/1000"
+			}
+		},
+		"Giant spider#Stronghold of Security": {
+			"Spider egg (unchecked)": {
+				"1": "1/1480"
 			}
 		},
 		"Giant wasp": {
@@ -267702,6 +267847,9 @@
 			"Ivar's loincloth": {
 				"1": "1/1250"
 			},
+			"Ivar's head": {
+				"1": "1/128"
+			},
 			"Giant Champion's scroll": {
 				"1": "1/5000"
 			},
@@ -269939,6 +270087,9 @@
 			},
 			"Scripture of Amascut": {
 				"1": "1/180"
+			},
+			"Kezalam's head": {
+				"1": "1/128"
 			}
 		},
 		"Kezalam, the Wanderer (Hard Mode)": {
@@ -270038,6 +270189,9 @@
 			},
 			"Scripture of Amascut": {
 				"1": "1/160"
+			},
+			"Kezalam's head": {
+				"1": "1/128"
 			}
 		},
 		"Khazard Guard": {
@@ -272523,6 +272677,9 @@
 			"Onyx dust": {
 				"10-30": "98/100"
 			},
+			"Masuta's head": {
+				"1": "1/128"
+			},
 			"TempleOfAminishiAlchablesDropTable+": {
 				"1": "340/1000"
 			},
@@ -274238,6 +274395,9 @@
 			},
 			"Ode to Deceit": {
 				"1": "1/100"
+			},
+			"Nakatra's mosaic": {
+				"1": "1/128"
 			}
 		},
 		"Nakatra, Devourer Eternal (Hard Mode)": {
@@ -274352,6 +274512,9 @@
 			},
 			"Devourer aura (Sanctum of Rebirth)": {
 				"1": "Always"
+			},
+			"Nakatra's mosaic": {
+				"1": "1/128"
 			}
 		},
 		"Narf": {
@@ -277537,6 +277700,9 @@
 			},
 			"Miso's collar": {
 				"1": "1/1500"
+			},
+			"Rasial's crown": {
+				"1": "1/128"
 			}
 		},
 		"Rat": {
@@ -281164,6 +281330,9 @@
 			},
 			"Silverquill's blood-filled cyst": {
 				"1": "1/1000"
+			},
+			"Silverquill's head": {
+				"1": "1/128"
 			}
 		},
 		"Sir Carl": {
@@ -285074,6 +285243,9 @@
 			"Reinforced dragon bones": {
 				"28-37 (noted)": "150/1000"
 			},
+			"Taraket's head": {
+				"1": "1/128"
+			},
 			"ShadowReefAlchablesDropTable+": {
 				"1": "250/1000"
 			},
@@ -285406,6 +285578,9 @@
 			},
 			"Fishy treat": {
 				"1": "5/100"
+			},
+			"Sanctum Guardian's head": {
+				"1": "1/128"
 			},
 			"TempleOfAminishiAlchablesDropTable+": {
 				"1": "340/1000"
@@ -289173,6 +289348,9 @@
 			"Onyx dust": {
 				"10-30": "925/1000"
 			},
+			"Verak Lith's head": {
+				"1": "1/128"
+			},
 			"DragonkinLaboratoryAlchablesDropTable+": {
 				"1": "340/1000"
 			},
@@ -289337,6 +289515,9 @@
 			},
 			"Scripture of Amascut": {
 				"1": "1/180"
+			},
+			"Vermyx's head": {
+				"1": "1/128"
 			}
 		},
 		"Vermyx, Brood Mother (Hard Mode)": {
@@ -289436,6 +289617,9 @@
 			},
 			"Scripture of Amascut": {
 				"1": "1/160"
+			},
+			"Vermyx's head": {
+				"1": "1/128"
 			}
 		},
 		"Vindicta": {
@@ -299217,6 +299401,11 @@
 			"Rodney's Independent Trading Co": {
 				"13111": [{
 					"Build the tier 2 ~|Kitchen (Fort Forinthry)|~": "Construction"
+				}]
+			},
+			"Sarah's Farming Shop": {
+				"12083-1": [{
+					"Members only": "Nonskill"
 				}]
 			},
 			"Sawmill Co. - A 'G.H.A' Subsidiary": {
@@ -375311,7 +375500,7 @@
 			"melee_damage": 0,
 			"armour": 0,
 			"requirements": {
-				"Ranged": 90
+				"Ranged": 95
 			},
 			"type": "Longbow",
 			"speed": 5,
@@ -385418,7 +385607,7 @@
 			"melee_damage": 0,
 			"armour": 0,
 			"requirements": {
-				"Ranged": 80
+				"Ranged": 85
 			},
 			"type": "Longbow",
 			"speed": 5,
@@ -385675,7 +385864,7 @@
 			"melee_damage": 0,
 			"armour": 0,
 			"requirements": {
-				"Ranged": 40
+				"Ranged": 45
 			},
 			"type": "Longbow",
 			"speed": 5,
