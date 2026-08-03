@@ -110056,10 +110056,11 @@
 			},
 			"~|Falador Achievements#Easy|~ Amulet of Weedspeak": {
 				"Description": "Buy a Farming amulet from Sarah on the farm north of Port Sarim.",
-				"Chunks": ["12083-1"],
+				"Shops": ["Sarah's Farming Shop"],
 				"BaseQuest": "Falador Achievements",
 				"Category": ["Show Diary Tasks"],
-				"RuneScore": 5
+				"RuneScore": 5,
+				"Not F2P": true
 			},
 			"~|Falador Achievements#Easy|~ The Good Stuff": {
 				"Description": "Buy a stat-boosting beer from a waitress in the Rising Sun tavern.",
