@@ -128207,7 +128207,7 @@
 				"Description": "Unlock all upgrades from Sydekix's Shop.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["13107-1"],
-				"Items": ["Plant Power (Tier 4)", "Bountiful Harvest", "Bountiful Harvest 2", "Speedy Growth", "Quick-cense", "Makes-cense", "Buckets All the Way Down", "Honorary Druid"],
+				"Shops": ["Sydekix's Shop of Balance"],
 				"Skills": {
 					"Farming": 110
 				},
@@ -153903,7 +153903,7 @@
 			"Unlock ~|Sasha|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
-				"Items": ["Sasha"]
+				"Shops": ["Herby Werby Reward Shop"]
 			},
 			"Unlock both ~|phoenix egglings|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
@@ -153913,7 +153913,7 @@
 			"Unlock the ~|Sneakerpeeper|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
-				"Items": ["Sneakerpeeper"]
+				"Shops": ["Sneakerpeeper"]
 			},
 			"Unlock ~|Frosty|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
@@ -153951,8 +153951,8 @@
 			"Unlock ~|Tiny Death|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
-				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
+				"Shops": ["Death's Store"],
+				"Items": ["Reaper points"],
 				"Not F2P": true
 			},
 			"Unlock the ~|Mysterious Chicken|~": {
@@ -153978,63 +153978,63 @@
 				"Label": "Follower Pets",
 				"Priority": 9,
 				"Set": "Anima Creature",
-				"Items": ["Anima Pet - Tier 1"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Unlock the ~|animist|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
 				"Priority": 8,
 				"Set": "Anima Creature",
-				"Items": ["Anima Pet - Tier 2"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Unlock the ~|animagu|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
 				"Priority": 7,
 				"Set": "Anima Creature",
-				"Items": ["Anima Pet - Tier 3"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Unlock the ~|animawhal|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
 				"Priority": 6,
 				"Set": "Anima Creature",
-				"Items": ["Anima Pet - Tier 4"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Unlock the ~|animaroo|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
 				"Priority": 5,
 				"Set": "Anima Creature",
-				"Items": ["Anima Pet - Tier 5"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Unlock the ~|animaraptor|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
 				"Priority": 4,
 				"Set": "Anima Creature",
-				"Items": ["Anima Pet - Tier 6"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Unlock the ~|animasaur|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
 				"Priority": 3,
 				"Set": "Anima Creature",
-				"Items": ["Anima Pet - Tier 7"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Unlock the ~|animasaurus|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
 				"Priority": 2,
 				"Set": "Anima Creature",
-				"Items": ["Anima Pet - Tier 8"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Unlock the ~|animasaurus rex|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
 				"Priority": 1,
 				"Set": "Anima Creature",
-				"Items": ["Anima Pet - Tier 9"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Unlock the ~|abyssal hound|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
@@ -154044,27 +154044,30 @@
 			"Unlock ~|Jeffy|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
-				"Items": ["Jeffy"]
+				"Shops": ["The Effigy Incubator Reward Shop"]
 			},
 			"Unlock ~|Geffy|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
-				"Items": ["Geffy"]
+				"Items": ["The Effigy Incubator Reward Shop"]
 			},
 			"Unlock ~|Leffy|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
-				"Items": ["Leffy"]
+				"Items": ["The Effigy Incubator Reward Shop"]
 			},
 			"Unlock ~|Seffy|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
-				"Items": ["Seffy"]
+				"Items": ["The Effigy Incubator Reward Shop"]
 			},
 			"Unlock ~|Trevor|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
-				"Items": ["Trevor"]
+				"Shops": ["Farmers' Market[+]"],
+				"Tasks": {
+					"~|Skills achievements#Farming|~ Ever So Clever":" Diary"
+				}
 			},
 			"Unlock ~|Chomper|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
@@ -156040,12 +156043,14 @@
 			"Unlock the ~|Retro Primal Armour Set|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
-				"Items": ["Retro primal armour set"]
+				"Shops": ["Daemonheim Rewards"],
+				"Not F2P": true
 			},
 			"Unlock the ~|Retro Celestial Robes Set|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
-				"Items": ["Retro celestial robes set"]
+				"Shops": ["Daemonheim Rewards"],
+				"Not F2P": true
 			},
 			"Unlock the Helmet piece of the ~|Kethsi (override)|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
@@ -156075,17 +156080,17 @@
 			"Unlock the ~|Tuska (Saradomin) spear|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
-				"Items": ["Saradomin Spear override"]
+				"Shops": ["Raid Rewards"]
 			},
 			"Unlock the ~|Tuska (Armadyl) spear|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
-				"Items": ["Armadyl Spear override"]
+				"Shops": ["Raid Rewards"]
 			},
 			"Unlock the ~|Tuska (Zamorak) spear|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
-				"Items": ["Zamorak Spear override"]
+				"Shops": ["Raid Rewards"]
 			},
 			"Unlock the ~|Tuska (Godless) spear|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
@@ -156095,12 +156100,22 @@
 			"Unlock the ~|calibration device|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
-				"Items": ["Calibration Device"]
+				"Shops": ["Raid Rewards"]
+			},
+			"Unlock the three tiers of the ~|Tuska emote|~": {
+				"Category": ["Permanent Unlockables", "Cosmetics"],
+				"Label": "Cosmetic Overrides",
+				"Shops": ["Raid Rewards"]
+			},
+			"Unlock the ~|Tuska storm teleport|~": {
+				"Category": ["Permanent Unlockables", "Cosmetics"],
+				"Label": "Cosmetic Overrides",
+				"Shops": ["Raid Rewards"]
 			},
 			"Unlock the ~|Death Scythe|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
-				"Chunks": ["Death's Office"],
+				"Shops": ["Death's Store"],
 				"Items": ["Reaper points"],
 				"Not F2P": true
 			},
@@ -156124,17 +156139,17 @@
 			"Unlock the ~|necturion outfit|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
-				"Items": ["Necturion Outfit"]
+				"Shops": ["Artisans' Workshop Reward Shop"]
 			},
 			"Unlock the ~|invictum outfit|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
-				"Items": ["Invictum Outfit"]
+				"Shops": ["Artisans' Workshop Reward Shop"]
 			},
 			"Unlock the ~|aetherium outfit|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
-				"Items": ["Aetherium Outfit"]
+				"Shops": ["Artisans' Workshop Reward Shop"]
 			},
 			"Unlock the ~|shard of havoc weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
@@ -156169,7 +156184,7 @@
 			"Unlock the ~|Abyssal Knight (override)|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
-				"Items": ["Abyssal Knights' armour override"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Unlock the ~|devourer aura (Sanctum of Rebirth)|~ override": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
@@ -156517,17 +156532,17 @@
 			"Obtain the ~|the Abyssal Knight|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'The Abyssal Knight' title"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Obtain the ~|Animaniac|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'Animaniac' title"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Obtain the ~|Abyss Diver|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'Abyss Diver' title"]
+				"Shops": ["Shattered Worlds Reward Shop"]
 			},
 			"Obtain the ~|The Cabin Boy/Girl|~ title": {
 				"Category": ["Titles", "Timegated"],
@@ -156586,22 +156601,22 @@
 			"Obtain the ~|the Powerful|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'the Powerful' title"]
+				"Shops": ["Raid Rewards"]
 			},
 			"Obtain the ~|the Virtuous|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'the Virtuous' title"]
+				"Shops": ["Raid Rewards"]
 			},
 			"Obtain the ~|the Eternal|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'the Eternal' title"]
+				"Shops": ["Raid Rewards"]
 			},
 			"Obtain the ~|the Boundless|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'the Boundless' title"]
+				"Shops": ["Raid Rewards"]
 			},
 			"Obtain the ~|the Naabe|~ title": {
 				"Category": ["Titles"],
@@ -156683,7 +156698,7 @@
 			"Obtain the ~|the Druid/Druidess|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["Honorary Druid"]
+				"Items": ["Sydekix's Shop of Balance"]
 			},
 			"Obtain the ~|of the Ruination|~ title": {
 				"Category": ["Titles"],
@@ -156693,27 +156708,27 @@
 			"Obtain the ~|the Master Fisherman/Fisherwoman|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'The Master Fisherman/Fisherwoman' title"]
+				"Shops": ["Prifddinas Waterfall Fishing Shop"]
 			},
 			"Obtain the ~|Novice Baiter|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["Ranked 'Baiter' title"]
+				"Shops": ["Hunter Mark Shop"]
 			},
 			"Obtain the ~|Apprentice Baiter|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["Ranked 'Baiter' title"]
+				"Shops": ["Hunter Mark Shop"]
 			},
 			"Obtain the ~|Expert Baiter|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["Ranked 'Baiter' title"]
+				"Shops": ["Hunter Mark Shop"]
 			},
 			"Obtain the ~|Vety Good Baiter|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["Ranked 'Baiter' title"]
+				"Shops": ["Hunter Mark Shop"]
 			},
 			"Obtain the ~|the Detective|~ title": {
 				"Category": ["Titles"],
@@ -157799,7 +157814,7 @@
 			"Obtain the ~|Stargazer (title)|~": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["Stargazer (title)"]
+				"Shops": ["Shooting Star Reward Shop"]
 			},
 			"Obtain the gold ~|Slayer Master (title)|~": {
 				"Category": ["Titles"],
@@ -158338,7 +158353,7 @@
 			"Obtain the ~|the Spirit Wolf|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'the Spirit Wolf' title"]
+				"Shops": ["Shrine of the Spirit Wolves"]
 			},
 			"Obtain the frozen and gold ~|the Frozen|~ titles": {
 				"Category": ["Titles", "Speedrunning"],
@@ -301712,10 +301727,6 @@
 			"Gold dwarf multicannon": true,
 			"Royale cannon": true,
 			"Sword Polishing Kit": true,
-			"Luminite injector": true,
-			"Necturion Outfit": true,
-			"Invictum Outfit": true,
-			"Aetherium Outfit": true,
 			"Ceremonial sword": true
 		},
 		"Aubury's Rune Shop": {
@@ -302834,7 +302845,6 @@
 			"Meilyr potion recipe": true,
 			"Scroll of quick teleportation": true,
 			"Scroll of gathering": true,
-			"Retro primal armour set": true,
 			"Scroll of excavating": true,
 			"Occultist's undead necklace": true,
 			"Occultist's revival necklace": true,
@@ -302843,7 +302853,6 @@
 			"Ferret pet (yellow)": true,
 			"Ferret pet (orange)": true,
 			"Ferret pet (red)": true,
-			"Retro celestial robes": true,
 			"Chaotic grimoire": true,
 			"Torn chaotic page": true,
 			"Gravite guard": true,
@@ -302932,12 +302941,7 @@
 			"Team-35 cape": true,
 			"Team-45 cape": true
 		},
-		"The Effigy Incubator Reward Shop": {
-			"Jeffy": true,
-			"Geffy": true,
-			"Leffy": true,
-			"Seffy": true
-		},
+		"The Effigy Incubator Reward Shop": {},
 		"Elnock's Backup Supply": {
 			"Impling jar": true
 		},
@@ -303024,9 +303028,6 @@
 			"Supreme growth potion (woody)": true,
 			"Master farmer outfit blueprint": true,
 			"Master farmer fragment pack": true,
-			"Trevor the magical zygomite": true,
-			"Farm deeds (+titles)": true,
-			"Status icons": true,
 			"Harvest potion": true,
 			"Anachronia Dinosaur Farm teleport": true,
 			"Furniture plans: Flower planter (level 24)": true,
@@ -303046,10 +303047,8 @@
 			"Supreme growth potion (woody)": true,
 			"Master farmer outfit blueprint": true,
 			"Master farmer fragment pack": true,
-			"Trevor the magical zygomite": true,
 			"Herbicide": true,
 			"Seedicide": true,
-			"Status icons": true,
 			"Harvest potion": true,
 			"Anachronia Dinosaur Farm teleport": true,
 			"Furniture plans: Stone planter": true
@@ -303612,10 +303611,8 @@
 			"Small Firemaking lamp": true,
 			"Ancient seed": true,
 			"Herb bag": true,
-			"Herb bag upgrade": true,
 			"Totem of the Abyss top": true,
-			"Totem of Crystal base": true,
-			"Sasha": true
+			"Totem of Crystal base": true
 		},
 		"Hickton's Archery Emporium": {
 			"Bronze bolts": true,
@@ -304994,8 +304991,7 @@
 			"Hermit crab coral": true,
 			"Hermit crab nautilus": true,
 			"Hermit crab shell": true,
-			"Crystal rod unlock": true,
-			"'The Master Fisherman/Fisherwoman' title": true
+			"Crystal rod unlock": true
 		},
 		"Proselyte Temple Knight Armoury": {
 			"Initiate sallet": true,
@@ -305102,20 +305098,7 @@
 			"Mazcab teleport codex": true,
 			"Mazcab ability codex": true,
 			"Tuska's Wrath ability codex": true,
-			"Liberation of Mazcab reroll token": true,
-			"Saradomin Spear override": true,
-			"Armadyl Spear override": true,
-			"Zamorak Spear override": true,
-			"Godless Spear override": true,
-			"Calibration Device": true,
-			"Tuska emote tier 1": true,
-			"Tuska emote tier 2": true,
-			"Tuska emote tier 3": true,
-			"Tuska storm teleport": true,
-			"'the Powerful' title": true,
-			"'the Boundless' title": true,
-			"'the Virtuous' title": true,
-			"'the Eternal' title": true
+			"Liberation of Mazcab reroll token": true
 		},
 		"Ranael's Super Skirt Store": {
 			"Bronze plateskirt": true,
@@ -305525,19 +305508,6 @@
 			"Bladed Dive ability": true,
 			"Abyssal Slayer Contract": true,
 			"Huge XP lamp (Slayer) (Shattered Worlds)": true,
-			"Abyssal Knights' armour override": true,
-			"'The Abyssal Knight' title": true,
-			"'Animaniac' title": true,
-			"'Abyss Diver' title": true,
-			"Anima Pet - Tier 1": true,
-			"Anima Pet - Tier 2": true,
-			"Anima Pet - Tier 3": true,
-			"Anima Pet - Tier 4": true,
-			"Anima Pet - Tier 5": true,
-			"Anima Pet - Tier 6": true,
-			"Anima Pet - Tier 7": true,
-			"Anima Pet - Tier 8": true,
-			"Anima Pet - Tier 9": true,
 			"Spirit of Battle": true,
 			"Mask of the Troll": true,
 			"Mask of Broken Fingers": true,
@@ -305577,7 +305547,6 @@
 		},
 		"Shooting Star Reward Shop": {
 			"Portable telescope": true,
-			"Stargazer (title)": true,
 			"Star sprite (pet)": true,
 			"Shooting Star teleport token": true,
 			"Bundle of gems": true,
@@ -305595,8 +305564,7 @@
 			"Shaman's moccasins": true,
 			"Shaman's hand wraps": true,
 			"Shaman's headdress add-on": true,
-			"Fang of Mohegan": true,
-			"'the Spirit Wolf' title": true
+			"Fang of Mohegan": true
 		},
 		"Sigmund the Merchant (shop)": {
 			"Tinderbox": true,
@@ -305821,7 +305789,6 @@
 			"Farmer's hat add-on": true,
 			"Sand seed": true,
 			"Patch bomb": true,
-			"Honorary Druid": true,
 			"Furniture plans: Small ceramic flower pot": true,
 			"Furniture plans: Ceramic flower pot": true,
 			"Furniture plans: Stacked ceramic flower pots (level 8)": true,
