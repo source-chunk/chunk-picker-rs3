@@ -19536,7 +19536,7 @@
 				"Not F2P": true,
 				"Partial": true
 			},
-			"Blow a ~|beer glass|~" : {
+			"Blow a ~|beer glass|~": {
 				"Items": ["Molten glass*"],
 				"Level": 1,
 				"Output": "Beer glass",
@@ -44473,9 +44473,9 @@
 				"Priority": 2
 			},
 			"Access ~|Puro-Puro|~": {
-				"Chunks" : ["CropCircle[+]"],
-				"Level" : 17,
-				"Primary" : false,
+				"Chunks": ["CropCircle[+]"],
+				"Level": 17,
+				"Primary": false,
 				"Priority": 3
 			},
 			"Catch a ~|gold spirit moth|~ with a net": {
@@ -66812,7 +66812,7 @@
 				"Partial": true
 			},
 			"Forge a ~|masterwork 2h sword|~": {
-				"Items": ["Masterwork sword hilt*", " Sharpened masterwork blade*"],
+				"Items": ["Masterwork sword hilt*", "Sharpened masterwork blade*"],
 				"Level": 110,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Unsharpened masterwork blade",
@@ -92863,7 +92863,7 @@
 					"Build the tier 1 ~|Town Hall (Fort Forinthry)|~": "Construction",
 					"Build the tier 1 ~|Workshop (Fort Forinthry)|~": "Construction",
 					"Build the tier 1 ~|Chapel (Fort Forinthry)|~": "Construction",
-					"Build the tier 1 ~|Command Centre|~" : "Construction"
+					"Build the tier 1 ~|Command Centre|~": "Construction"
 				},
 				"Not F2P": true,
 				"NoBoost": true
@@ -98943,7 +98943,7 @@
 					"Runecrafting": 250,
 					"Magic": 250
 				},
-				"Reward": ["Air talisman", "Mind rune"]
+				"Reward": ["Air talisman", "Mind rune", "First tower hat", "First tower robe top", "First tower robe bottom"]
 			},
 			"~|Rune Mythos|~ 1": {
 				"BaseQuest": "Rune Mythos",
@@ -105891,7 +105891,7 @@
 				"Chunks": ["Dungeon of Disorder"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Eyes in Their Stars|~ 2b": "Quest",
-					"Archaeology Mystery: ~|Eyes in Their Stars|~ 2a" : "Quest"
+					"Archaeology Mystery: ~|Eyes in Their Stars|~ 2a": "Quest"
 				},
 				"QuestPoints": 0,
 				"XpReward": {
@@ -154066,7 +154066,7 @@
 				"Label": "Follower Pets",
 				"Shops": ["Farmers' Market[+]"],
 				"Tasks": {
-					"~|Skills achievements#Farming|~ Ever So Clever":" Diary"
+					"~|Skills achievements#Farming|~ Ever So Clever": "Diary"
 				}
 			},
 			"Unlock ~|Chomper|~": {
@@ -163943,7 +163943,7 @@
 					"~|Soul Searching|~ Complete the quest": "Quest"
 				}
 			},
-			"Grand Library of Menaphos" : {
+			"Grand Library of Menaphos": {
 				"UnlocksArea": true
 			},
 			"Temple Trekking Routes": {
@@ -163971,7 +163971,7 @@
 					"~|A Clockwork Syringe|~ Complete the quest": "Quest"
 				}
 			},
-			"Chinchompa cave" : {
+			"Chinchompa cave": {
 				"UnlocksArea": true
 			},
 			"Daemonheim - Depths excavation site": {
@@ -166233,7 +166233,7 @@
 			"Black Knights' Fortress Entry (The Death of Chivalry)*": {
 				"Chunks": ["12086"],
 				"Tasks": {
-					"~|The Death of Chivalry|~ 1" : "Quest"
+					"~|The Death of Chivalry|~ 1": "Quest"
 				}
 			},
 			"Obtain Ugthanki dung*": {
@@ -193793,7 +193793,6 @@
 				"Snake": 3,
 				"Monkey": 4,
 				"Pirate": 17,
-				"Grip": 1,
 				"Pirate Guard": 7
 			},
 			"NPC": {
@@ -204614,7 +204613,8 @@
 			"Monster": {
 				"Zemouregal & Vorkath (Story Mode)": 1,
 				"Zemouregal & Vorkath": 1,
-				"Zemouregal & Vorkath (Hard Mode)": 1
+				"Zemouregal & Vorkath (Hard Mode)": 1,
+				"Fetid zombie": 7
 			},
 			"NPC": {
 				"Copperpot": 1,
@@ -204662,7 +204662,7 @@
 						"Will o' the wisp": 10
 					},
 					"Monster": {
-						"Fetid zombie": 10,
+						"Fetid zombie": 6,
 						"Bound skeleton": 10,
 						"Demon Boss (Wilderness)": 1
 					},
@@ -226630,7 +226630,7 @@
 				"Archaeology professor#Orthen": 3
 			},
 			"Object": {
-				" Material cache (carbon black)": 1,
+				"Material cache (carbon black)": 1,
 				"Material cache (orgone)": 1,
 				"Aughra remains": 1,
 				"Moksha device": 1
@@ -241624,7 +241624,7 @@
 				"1": "Always"
 			},
 			"Amascut's crown": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Anagami (Temple of Aminishi)": {
@@ -242833,7 +242833,7 @@
 				"15": "370/1000"
 			},
 			"Araxxor's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Arch-Glacor": {
@@ -242931,7 +242931,7 @@
 				"1": "3/10"
 			},
 			"Arch-Glacor core": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Arch-Glacor (Hard Mode)": {
@@ -243011,7 +243011,7 @@
 				"1": "3/10"
 			},
 			"Arch-Glacor core": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Archer (Ardougne)": {
@@ -243458,7 +243458,7 @@
 				"5-25": "925/1000"
 			},
 			"Astellarn's head": {
-				"1": "1/128"
+				"1": "1/50"
 			},
 			"DragonkinLaboratoryAlchablesDropTable+": {
 				"1": "340/1000"
@@ -244637,7 +244637,7 @@
 				"1": "1/1000"
 			},
 			"Barrows chest": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Barrows: Rise of the Six": {
@@ -244687,7 +244687,7 @@
 				"6-10 (noted)": "1/11"
 			},
 			"Rise of the Six chest": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Bat": {
@@ -244881,7 +244881,7 @@
 				"10-20": "376.7/1000"
 			},
 			"Beastmaster Durzag's head": {
-				"1": "1/128"
+				"1": "1/50"
 			}
 		},
 		"Bedabin nomad fighter": {
@@ -246270,7 +246270,7 @@
 				"1": "1/150"
 			},
 			"Black Stone Dragon's head": {
-				"1": "1/128"
+				"1": "1/50"
 			}
 		},
 		"Black unicorn": {
@@ -248748,7 +248748,7 @@
 				"1": "1/2500"
 			},
 			"Chaos Elemental's head": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Swordfish": {
 				"10": "18/129"
@@ -250265,7 +250265,7 @@
 				"1": "1/128"
 			},
 			"Zilyana's wings": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Saradomin rug": {
 				"1": "1/512"
@@ -250409,7 +250409,7 @@
 				"1": "161.242/1000"
 			},
 			"Zilyana's wings": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Saradomin rug": {
 				"1": "1/512"
@@ -250605,7 +250605,7 @@
 				"1": "10/512"
 			},
 			"Corporeal Beast's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Corpse archer": {
@@ -251092,7 +251092,7 @@
 				"65-115 (noted)": "100/1000"
 			},
 			"Crassian Leviathan's head": {
-				"1": "1/128"
+				"1": "1/50"
 			},
 			"ShadowReefAlchablesDropTable+": {
 				"1": "250/1000"
@@ -251612,7 +251612,7 @@
 				"1": "1/100"
 			},
 			"Croesus' head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Cruor": {
@@ -252567,7 +252567,7 @@
 				"1": "1/150"
 			},
 			"Dagannoth King heads": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Dagannoth Rex": {
@@ -252661,7 +252661,7 @@
 				"1": "1/150"
 			},
 			"Dagannoth King heads": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Dagannoth Supreme": {
@@ -252758,7 +252758,7 @@
 				"1": "1/150"
 			},
 			"Dagannoth King heads": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Dagannoth fledgeling": {
@@ -257604,7 +257604,7 @@
 				"1": "1/800"
 			},
 			"Flesh-hatcher Mhekarnahz's eye": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Gold charm": {
 				"8": "Common"
@@ -258542,7 +258542,7 @@
 				"1": "Very rare"
 			},
 			"The Gate of Elidinis (trophy)": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"General Graardor": {
@@ -258683,7 +258683,7 @@
 				"1": "1/100"
 			},
 			"General Graardor's head": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Bandos rug": {
 				"1": "1/512"
@@ -258827,7 +258827,7 @@
 				"1": "1/100"
 			},
 			"General Graardor's head": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Bandos rug": {
 				"1": "1/512"
@@ -260073,9 +260073,6 @@
 			"Dragon 2h sword": {
 				"1": "1/520"
 			},
-			"Long, sharp claws": {
-				"1": "1/4"
-			},
 			"Long bone": {
 				"1": "1/400"
 			},
@@ -260098,7 +260095,7 @@
 				"8 (noted) (F2P)": "12/128"
 			},
 			"Giant mole's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Giant mole (Hard Mode)": {
@@ -260184,7 +260181,7 @@
 				"14 (noted) (F2P)": "12/128"
 			},
 			"Giant mole's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Giant rat": {
@@ -263137,7 +263134,7 @@
 				"1-3": "6/64"
 			},
 			"Gregorovic's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Gregorovic (Hard Mode)": {
@@ -264358,7 +264355,7 @@
 				"1": "1/200"
 			},
 			"Har-Aken's head": {
-				"1": "1/128"
+				"1": "1/10"
 			}
 		},
 		"Hardened Zombie": {
@@ -264789,7 +264786,7 @@
 				"1-3": "6/64"
 			},
 			"Helwyr's head": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Seren rug": {
 				"1": "1/512"
@@ -264875,7 +264872,7 @@
 				"1-3": "6/64"
 			},
 			"Helwyr's head": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Seren rug": {
 				"1": "1/512"
@@ -265002,7 +264999,7 @@
 				"1": "1/2000"
 			},
 			"Hermod's helmet": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Hero": {
@@ -267864,7 +267861,7 @@
 				"1": "1/1250"
 			},
 			"Ivar's head": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Giant Champion's scroll": {
 				"1": "1/5000"
@@ -269076,7 +269073,7 @@
 				"1": "1/128"
 			},
 			"K'ril Tsutsaroth shoulder guard": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Zamorak rug": {
 				"1": "1/512"
@@ -269195,7 +269192,7 @@
 				"1": "1/128"
 			},
 			"K'ril Tsutsaroth shoulder guard": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Zamorak rug": {
 				"1": "1/512"
@@ -269585,7 +269582,7 @@
 				"1": "1/50"
 			},
 			"Kalphite King's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Kalphite Queen": {
@@ -269641,7 +269638,7 @@
 				"30-50 (noted)": "1/128"
 			},
 			"Kalphite queen head": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Sealed clue scroll (hard)": {
 				"1": "10/1280"
@@ -269917,7 +269914,7 @@
 				"1": "1/3000"
 			},
 			"Kerapac's time-torn Staff of Armadyl": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Kerapac, the bound (Hard Mode)": {
@@ -270003,7 +270000,7 @@
 				"1": "1/1500"
 			},
 			"Kerapac's time-torn Staff of Armadyl": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Kezalam, the Wanderer": {
@@ -270105,7 +270102,7 @@
 				"1": "1/180"
 			},
 			"Kezalam's head": {
-				"1": "1/128"
+				"1": "1/50"
 			}
 		},
 		"Kezalam, the Wanderer (Hard Mode)": {
@@ -270207,7 +270204,7 @@
 				"1": "1/160"
 			},
 			"Kezalam's head": {
-				"1": "1/128"
+				"1": "1/50"
 			}
 		},
 		"Khazard Guard": {
@@ -270332,7 +270329,7 @@
 				"1": "1/4"
 			},
 			"King black dragon head": {
-				"1": "10/1280"
+				"1": "1/500"
 			},
 			"Black dragon egg (unchecked)": {
 				"1": "1/2000"
@@ -270697,7 +270694,7 @@
 				"1": "2/128"
 			},
 			"Kree'arra's head": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Armadyl rug": {
 				"1": "1/512"
@@ -270852,7 +270849,7 @@
 				"1": "2/128"
 			},
 			"Kree'arra's head": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Armadyl rug": {
 				"1": "1/512"
@@ -272694,7 +272691,7 @@
 				"10-30": "98/100"
 			},
 			"Masuta's head": {
-				"1": "1/128"
+				"1": "1/50"
 			},
 			"TempleOfAminishiAlchablesDropTable+": {
 				"1": "340/1000"
@@ -274413,7 +274410,7 @@
 				"1": "1/100"
 			},
 			"Nakatra's mosaic": {
-				"1": "1/128"
+				"1": "1/50"
 			}
 		},
 		"Nakatra, Devourer Eternal (Hard Mode)": {
@@ -274530,7 +274527,7 @@
 				"1": "Always"
 			},
 			"Nakatra's mosaic": {
-				"1": "1/128"
+				"1": "1/50"
 			}
 		},
 		"Narf": {
@@ -275244,7 +275241,7 @@
 				"1": "1/50"
 			},
 			"Nex's wings": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Nex, Angel of Death": {
@@ -275385,7 +275382,7 @@
 				"1": "1/180"
 			},
 			"Nex's elemental crystals": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Nikita": {
@@ -276155,7 +276152,7 @@
 				"1": "1/150"
 			},
 			"Orikalka's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Ork": {
@@ -276440,7 +276437,7 @@
 				"1": "1/150"
 			},
 			"Osseous' skull": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Othainian": {
@@ -277314,7 +277311,7 @@
 				"1": "1/150"
 			},
 			"Pthentraken's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Pyrefiend (Soul Wars)": {
@@ -277478,7 +277475,7 @@
 				"1": "4/109"
 			},
 			"Queen Black Dragon's shackles": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Quetzathog": {
@@ -277611,7 +277608,7 @@
 				"1": "1/1000"
 			},
 			"Raksha's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Ram": {
@@ -277718,7 +277715,7 @@
 				"1": "1/1500"
 			},
 			"Rasial's crown": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Rat": {
@@ -277834,7 +277831,7 @@
 				"1": "1/150"
 			},
 			"Rathis's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Ravenous ghoul": {
@@ -280434,7 +280431,7 @@
 				"1": "1/150"
 			},
 			"Seiryu's horns": {
-				"1": "1/128"
+				"1": "1/50"
 			}
 		},
 		"Seren archer": {
@@ -281348,7 +281345,7 @@
 				"1": "1/1000"
 			},
 			"Silverquill's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Sir Carl": {
@@ -284134,7 +284131,7 @@
 				"20": "360/1000"
 			},
 			"Solak's core": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Soldier (Yanille)": {
@@ -285260,7 +285257,7 @@
 				"28-37 (noted)": "150/1000"
 			},
 			"Taraket's head": {
-				"1": "1/128"
+				"1": "1/50"
 			},
 			"ShadowReefAlchablesDropTable+": {
 				"1": "250/1000"
@@ -285399,7 +285396,7 @@
 				"1": "1/700"
 			},
 			"Telos' sword": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Tenacious toucan": {
@@ -285575,7 +285572,7 @@
 				"1": "1/150"
 			},
 			"Head of the Ambassador": {
-				"1": "1/128"
+				"1": "1/50"
 			}
 		},
 		"The Sanctum Guardian": {
@@ -285596,7 +285593,7 @@
 				"1": "5/100"
 			},
 			"Sanctum Guardian's head": {
-				"1": "1/128"
+				"1": "1/50"
 			},
 			"TempleOfAminishiAlchablesDropTable+": {
 				"1": "340/1000"
@@ -287491,7 +287488,7 @@
 				"1": "1/64"
 			},
 			"Wings of the Twin Furies": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Zamorak rug": {
 				"1": "1/512"
@@ -287580,7 +287577,7 @@
 				"1": "1/64"
 			},
 			"Wings of the Twin Furies": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Zamorak rug": {
 				"1": "1/512"
@@ -287962,7 +287959,7 @@
 				"1": "Always"
 			},
 			"TzKal-Zuk's helmet": {
-				"1": "1/128"
+				"1": "1/25"
 			}
 		},
 		"TzKal-Zuk (Hard Mode)": {
@@ -288053,7 +288050,7 @@
 				"1": "Always"
 			},
 			"TzKal-Zuk's helmet": {
-				"1": "1/128"
+				"1": "1/25"
 			}
 		},
 		"TzTok-Jad": {
@@ -288064,7 +288061,7 @@
 				"1": "Always"
 			},
 			"TzTok-Jad's head": {
-				"1": "1/128"
+				"1": "1/10"
 			},
 			"TzHaar egg": {
 				"1": "1/200"
@@ -289365,7 +289362,7 @@
 				"10-30": "925/1000"
 			},
 			"Verak Lith's head": {
-				"1": "1/128"
+				"1": "1/50"
 			},
 			"DragonkinLaboratoryAlchablesDropTable+": {
 				"1": "340/1000"
@@ -289533,7 +289530,7 @@
 				"1": "1/180"
 			},
 			"Vermyx's head": {
-				"1": "1/128"
+				"1": "1/50"
 			}
 		},
 		"Vermyx, Brood Mother (Hard Mode)": {
@@ -289635,7 +289632,7 @@
 				"1": "1/160"
 			},
 			"Vermyx's head": {
-				"1": "1/128"
+				"1": "1/50"
 			}
 		},
 		"Vindicta": {
@@ -289717,7 +289714,7 @@
 				"1": "Always"
 			},
 			"Gorvek's head": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Zaros rug": {
 				"1": "1/512"
@@ -289805,7 +289802,7 @@
 				"1": "Always"
 			},
 			"Gorvek's head": {
-				"1": "1/128"
+				"1": "1/500"
 			},
 			"Furniture plans: Zaros rug": {
 				"1": "1/512"
@@ -289914,7 +289911,7 @@
 				"5": "15.8/1000"
 			},
 			"Vorago's arm": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Vorago (Hard Mode)": {
@@ -289986,7 +289983,7 @@
 				"5": "15.8/1000"
 			},
 			"Vorago's arm": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Vulture": {
@@ -292605,7 +292602,7 @@
 				"20": "20/1000"
 			},
 			"Yakamaru's head": {
-				"1": "1/128"
+				"1": "1/50"
 			}
 		},
 		"Yeti": {
@@ -293432,7 +293429,7 @@
 				"1": "1/500"
 			},
 			"Zamorak's Edict runes": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Zamorakian cultist": {
@@ -293714,7 +293711,7 @@
 				"1": "1/1000"
 			},
 			"Vorkath's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Zemouregal & Vorkath (Hard Mode)": {
@@ -293797,7 +293794,7 @@
 				"1": "1/1000"
 			},
 			"Vorkath's head": {
-				"1": "1/128"
+				"1": "1/500"
 			}
 		},
 		"Zogre": {
@@ -297722,6 +297719,12 @@
 			}],
 			"Furniture plans: Beehive^": [{
 				"Members only": "Nonskill"
+			}],
+			"First tower robe top^": [{
+				"Members onky": "Nonskill"
+			}],
+			"First tower robe bottom^": [{
+				"Members onky": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -335594,7 +335597,7 @@
 					"1": "1/150"
 				},
 				"Soul obelisk (trophy)": {
-					"1": "1/128"
+					"1": "1/500"
 				}
 			},
 			"Throwing muspah": {
@@ -377410,7 +377413,7 @@
 			"prayer": 2,
 			"accuracy": 0
 		},
-		"First tower hat (blue)": {
+		"First tower hat": {
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
@@ -377425,52 +377428,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"First tower hat (green)": {
-			"ranged_damage": 0,
-			"requirements": {},
-			"class": "magic",
-			"lp": 100,
-			"tier": 10,
-			"speed": 0,
-			"type": "Tank armour",
-			"armour": 40.4,
-			"slot": "head",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"First tower hat (grey)": {
-			"ranged_damage": 0,
-			"requirements": {},
-			"class": "magic",
-			"lp": 100,
-			"tier": 10,
-			"speed": 0,
-			"type": "Tank armour",
-			"armour": 40.4,
-			"slot": "head",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"First tower hat (red)": {
-			"ranged_damage": 0,
-			"requirements": {},
-			"class": "magic",
-			"lp": 100,
-			"tier": 10,
-			"speed": 0,
-			"type": "Tank armour",
-			"armour": 40.4,
-			"slot": "head",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"First tower robe bottom (blue)": {
+		"First tower robe bottom": {
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
@@ -377485,97 +377443,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"First tower robe bottom (green)": {
-			"ranged_damage": 0,
-			"requirements": {},
-			"class": "magic",
-			"lp": 150,
-			"tier": 10,
-			"speed": 0,
-			"type": "Tank armour",
-			"armour": 44.4,
-			"slot": "legs",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"First tower robe bottom (grey)": {
-			"ranged_damage": 0,
-			"requirements": {},
-			"class": "magic",
-			"lp": 150,
-			"tier": 10,
-			"speed": 0,
-			"type": "Tank armour",
-			"armour": 44.4,
-			"slot": "legs",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"First tower robe bottom (red)": {
-			"ranged_damage": 0,
-			"requirements": {},
-			"class": "magic",
-			"lp": 150,
-			"tier": 10,
-			"speed": 0,
-			"type": "Tank armour",
-			"armour": 44.4,
-			"slot": "legs",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"First tower robe top (blue)": {
-			"ranged_damage": 0,
-			"requirements": {},
-			"class": "magic",
-			"lp": 150,
-			"tier": 10,
-			"speed": 0,
-			"type": "Tank armour",
-			"armour": 46.4,
-			"slot": "torso",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"First tower robe top (green)": {
-			"ranged_damage": 0,
-			"requirements": {},
-			"class": "magic",
-			"lp": 150,
-			"tier": 10,
-			"speed": 0,
-			"type": "Tank armour",
-			"armour": 46.4,
-			"slot": "torso",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"First tower robe top (grey)": {
-			"ranged_damage": 0,
-			"requirements": {},
-			"class": "magic",
-			"lp": 150,
-			"tier": 10,
-			"speed": 0,
-			"type": "Tank armour",
-			"armour": 46.4,
-			"slot": "torso",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"First tower robe top (red)": {
+		"First tower robe top": {
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
