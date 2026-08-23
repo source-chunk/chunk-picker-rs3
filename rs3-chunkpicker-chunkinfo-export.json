@@ -11392,6 +11392,14 @@
 				"Primary": true,
 				"Priority": 5
 			},
+			"Construct a ~|garden bench|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Oak plank*", "Iron bar*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 26,
+				"Primary": true,
+				"Priority": 1
+			},
 			"Train Construction in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Chunks": ["Dungeons of Daemonheim"],
@@ -18581,7 +18589,8 @@
 				"Level": 66,
 				"Output": "Ghostly sole",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Make ~|tuna and corn|~": {
 				"Items": ["Chopped tuna*", "Cooked sweetcorn*"],
@@ -77607,8 +77616,8 @@
 				"Reward": ["Moonlight mead (m)"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 1": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 1": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to the mysterious ghost near Glarial's tombstone",
 				"Chunks": ["10037-1"],
 				"Tasks": {
@@ -77619,158 +77628,158 @@
 				"Reward": ["Ghostly robe top"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2a1": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2a1": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Rennard west of the Pirates' Hideout",
 				"Chunks": ["12093"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 1": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 1": "Quest"
 				},
 				"Reward": ["Ghostly gloves"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2a2": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2a2": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Kharim at the Chaos Temple",
 				"Chunks": ["11835"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 2a1": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 2a1": "Quest"
 				},
 				"Reward": ["Ghostly boots"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2a3": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2a3": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Lennissa on Entrana",
 				"Chunks": ["11316"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 2a2": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 2a2": "Quest"
 				},
 				"Reward": ["Ghostly robe bottom"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2a4": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2a4": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Dhalak in the Wizards' tower",
 				"Chunks": ["12337-1"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 2a3": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 2a3": "Quest"
 				},
 				"Reward": ["Ghostly hood"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2a5": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2a5": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Viggora in the Rogues' Castle",
 				"Chunks": ["13117"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 2a4": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 2a4": "Quest"
 				},
 				"Reward": ["Ghostly cloak"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2b1": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2b1": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Rennard outside Fat Tony's pizza shop while skulled",
 				"Chunks": ["12342-1", "12089"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 1": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 1": "Quest"
 				},
 				"Reward": ["Ghostly gloves"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2b2": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2b2": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Kharim at the Graveyard of Shadows",
 				"Chunks": ["12857"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 2b1": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 2b1": "Quest"
 				},
 				"Reward": ["Ghostly boots"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2b3": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2b3": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Lennissa in Port Sarim",
 				"Chunks": ["12082-1"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 2b2": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 2b2": "Quest"
 				},
 				"Reward": ["Ghostly robe bottom"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2b4": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2b4": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Dhalak in the Wizards' Tower",
 				"Chunks": ["12337-1"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 2b3": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 2b3": "Quest"
 				},
 				"Reward": ["Ghostly hood"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2b5": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2b5": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Viggora in the Slayer Tower",
 				"Chunks": ["13623"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 2b4": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 2b4": "Quest"
 				},
 				"Reward": ["Ghostly cloak"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2c1": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2c1": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Rennard in The Big Heist Lodge",
 				"Chunks": ["12590-1"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 1": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 1": "Quest"
 				},
 				"Reward": ["Ghostly gloves"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2c2": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2c2": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Kharim at the end of the Lava Maze",
 				"Chunks": ["12092-5"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 2c1": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 2c1": "Quest"
 				},
 				"Reward": ["Ghostly boots"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2c3": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2c3": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Lennissa at the Gnomeball field",
 				"Chunks": ["9526-1"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 2c2": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 2c2": "Quest"
 				},
 				"Reward": ["Ghostly robe bottom"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2c4": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2c4": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Dhalak in the Falador Party Room",
 				"Chunks": ["12084-1"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 2c3": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 2c3": "Quest"
 				},
 				"Reward": ["Ghostly hood"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ 2c5": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ 2c5": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Description": "Speak to Viggora in the Edgeville Dungeon",
 				"Chunks": ["Edgeville Dungeon"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ 2c4": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ 2c4": "Quest"
 				},
 				"Reward": ["Ghostly cloak"],
 				"Not F2P": true
 			},
-			"~|The Curse of Zaros (miniquest)|~ Complete the miniquest": {
-				"BaseQuest": "The Curse of Zaros (miniquest)",
+			"~|The Curse of the Empty Lord (miniquest)|~ Complete the miniquest": {
+				"BaseQuest": "The Curse of the Empty Lord (miniquest)",
 				"Chunks": ["10037-1"],
 				"Tasks": {
 					"TheCurseOfZarosFinal[+]": "Quest"
@@ -84907,7 +84916,7 @@
 				"Description": "Talk to the ghost of General Khazard",
 				"Chunks": ["10808-1"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ Complete the miniquest": "Quest",
+					"~|The Curse of the Empty Lord (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Fight Arena|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
@@ -98884,6 +98893,7 @@
 					"Runecrafting": 300,
 					"Magic": 300
 				},
+				"Reward": ["First tower robe top", "First tower robe bottom"],
 				"Not F2P": true
 			},
 			"~|Rune Mysteries|~ 1": {
@@ -98943,7 +98953,7 @@
 					"Runecrafting": 250,
 					"Magic": 250
 				},
-				"Reward": ["Air talisman", "Mind rune", "First tower hat", "First tower robe top", "First tower robe bottom"]
+				"Reward": ["Air talisman", "Mind rune", "First tower hat"]
 			},
 			"~|Rune Mythos|~ 1": {
 				"BaseQuest": "Rune Mythos",
@@ -115464,7 +115474,7 @@
 				"Description": "Catch a ghostly impling while wearing a full set of ghostly robes",
 				"Chunks": ["City of Um"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ Complete the miniquest": "Quest",
+					"~|The Curse of the Empty Lord (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Underworld Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
 				"Skills": {
@@ -115527,7 +115537,8 @@
 				},
 				"BaseQuest": "Underworld Achievements",
 				"Category": ["Show Diary Tasks"],
-				"RuneScore": 15
+				"RuneScore": 15,
+				"Not F2P": true
 			},
 			"~|Underworld Achievements#Hard|~ Necro Necronium": {
 				"Description": "Smelt a necronium bar at the smithy in the City of Um",
@@ -124209,7 +124220,7 @@
 					"~|Benedict's World Tour (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Boric's Task III (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Civil War III (miniquest)|~ Complete the miniquest": "Quest",
-					"~|The Curse of Zaros (miniquest)|~ Complete the miniquest": "Quest",
+					"~|The Curse of the Empty Lord (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Final Destination (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Desert Slayer Dungeon (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Doric's Task VIII (miniquest)|~ Complete the miniquest": "Quest",
@@ -127312,7 +127323,7 @@
 					"~|Benedict's World Tour (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Boric's Task III (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Civil War III (miniquest)|~ Complete the miniquest": "Quest",
-					"~|The Curse of Zaros (miniquest)|~ Complete the miniquest": "Quest",
+					"~|The Curse of the Empty Lord (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Final Destination (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Desert Slayer Dungeon (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Doric's Task VIII (miniquest)|~ Complete the miniquest": "Quest",
@@ -130196,7 +130207,7 @@
 				"BaseQuest": "Skills achievements",
 				"Chunks": ["Kharid-et - Barracks excavation site"],
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ Complete the miniquest": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ Complete the miniquest": "Quest"
 				},
 				"RuneScore": 25,
 				"Not F2P": true
@@ -160978,6 +160989,9 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Enhanced yaktwee stick"],
+				"Requirements": {
+					"Hunter": 72
+				},
 				"Not F2P": true
 			},
 			"Obtain a ~|hunter's headwear|~": {
@@ -163149,9 +163163,6 @@
 			},
 			"Mogre Camp": {
 				"Items": ["Fishbowl helmet", "Diving apparatus"],
-				"UnlocksArea": true
-			},
-			"Chemist's Laboratory": {
 				"UnlocksArea": true
 			},
 			"Melzar's Maze": {
@@ -167196,12 +167207,12 @@
 				"Kudos": 10,
 				"Not F2P": true
 			},
-			"The Curse of Zaros kudos": {
+			"The Curse of the Empty Lord kudos": {
 				"NPCs": ["Historian Minas"],
 				"Chunks": ["13109-3"],
 				"Kudos": 10,
 				"Tasks": {
-					"~|The Curse of Zaros (miniquest)|~ Complete the miniquest": "Quest"
+					"~|The Curse of the Empty Lord (miniquest)|~ Complete the miniquest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -189026,7 +189037,7 @@
 						"Rasolo the Wandering Merchant": true
 					},
 					"Quest": {
-						"The Curse of Zaros (miniquest)": "first",
+						"The Curse of the Empty Lord (miniquest)": "first",
 						"Desert Treasure": "step",
 						"Waterfall Quest": "step"
 					},
@@ -196412,7 +196423,6 @@
 			"Connect": {
 				"6473": true,
 				"11670": true,
-				"17751": true,
 				"7503": true,
 				"61": true
 			},
@@ -224231,21 +224241,6 @@
 				"Recipe for Disaster: Freeing Pirate Pete": "step"
 			}
 		},
-		"Chemist's Laboratory": {
-			"Object": {
-				"Crate": 1,
-				"Crates": 2,
-				"Component box": 1,
-				"Furnace": 1,
-				"Furnace vent": 1,
-				"Flywheel": 1,
-				"Flywheel brake": 1,
-				"Sample hopper": 1
-			},
-			"Connect": {
-				"11570": true
-			}
-		},
 		"Melzar's Maze": {
 			"Object": {
 				"Chest": 1,
@@ -237706,7 +237701,7 @@
 			"BodyAccess[+]": ["Access the body rune temple with a talisman*", "Access the body rune temple through the abyss*"],
 			"ChaosAccess[+]": ["Access the chaos rune temple with a talisman*", "Access the chaos rune temple through the abyss*"],
 			"CosmicAccess[+]": ["Access the cosmic rune temple with a talisman*", "Access the cosmic rune temple through the abyss*"],
-			"TheCurseOfZarosFinal[+]": ["~|The Curse of Zaros (miniquest)|~ 2a5", "~|The Curse of Zaros (miniquest)|~ 2b5", "~|The Curse of Zaros (miniquest)|~ 2c5"],
+			"TheCurseOfZarosFinal[+]": ["~|The Curse of the Empty Lord (miniquest)|~ 2a5", "~|The Curse of the Empty Lord (miniquest)|~ 2b5", "~|The Curse of the Empty Lord (miniquest)|~ 2c5"],
 			"DeathAccess[+]": ["Access the death rune temple with a talisman*", "Access the death rune temple through the abyss*"],
 			"DeviousMindsEntranaEnter[+]": ["Enter the law altar through the Abyss*", "Enter the law altar using a wicked hood teleport*"],
 			"EarthAccess[+]": ["Access the earth rune temple with a talisman*", "Access the earth rune temple through the abyss*"],
@@ -238072,7 +238067,7 @@
 			"BodyAccess[+]": "Any way to access the body rune temple",
 			"ChaosAccess[+]": "Any way to access the chaos rune temple",
 			"CosmicAccess[+]": "Any way to access the cosmic rune temple",
-			"TheCurseOfZarosFinal[+]": "Any final step in the 'The Curse of Zaros' sequence",
+			"TheCurseOfZarosFinal[+]": "Any final step in the 'The Curse of the Empty Lord' sequence",
 			"DeathAccess[+]": "Any way to access the death rune temple",
 			"DeviousMindsEntranaEnter[+]": "Enter the Law altar using any legal way for the 'Devious Minds' quest",
 			"EarthAccess[+]": "Any way to access the earth rune temple",
@@ -295498,7 +295493,7 @@
 		"Civil War I (miniquest)": "11828, 12599, WildernessDemonChunks[+]",
 		"Civil War II (miniquest)": "12599, 12342",
 		"Civil War III (miniquest)": "12599, 13107, 11828",
-		"The Curse of Zaros (miniquest)": "10037, CurseOfZaros1[+], CurseOfZaros2[+], CurseOfZaros3[+], CurseOfZaros4[+], CurseOfZaros5[+]",
+		"The Curse of the Empty Lord (miniquest)": "10037, CurseOfZaros1[+], CurseOfZaros2[+], CurseOfZaros3[+], CurseOfZaros4[+], CurseOfZaros5[+]",
 		"Damage Control (miniquest)": "15134, 17694, 17950, 17693, 17949",
 		"Desert Slayer Dungeon (miniquest)": "Pollnivneach Slayer Dungeon",
 		"Doric's Task I (miniquest)": "11829, 12084",
@@ -297719,12 +297714,6 @@
 			}],
 			"Furniture plans: Beehive^": [{
 				"Members only": "Nonskill"
-			}],
-			"First tower robe top^": [{
-				"Members onky": "Nonskill"
-			}],
-			"First tower robe bottom^": [{
-				"Members onky": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -299710,6 +299699,11 @@
 			"Wizard Rinsit's Runecrafting Shop": {
 				"12337-1": [{
 					"Members only": "Nonskill"
+				}]
+			},
+			"Yaktwee's Invizzy Critters Stall^Enhanced yaktwee stick": {
+				"9524-1": [{
+					"Catch a ~|charm sprite|~": "Hunter"
 				}]
 			},
 			"Yrsa's Accoutrements": {
