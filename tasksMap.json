@@ -1330,6 +1330,8 @@
   "Construct a ~|small mahogany pedestal|~": "t_121132",
   "Construct a ~|wall mount|~": "t_121133",
   "Construct a ~|small gold pile|~": "t_121134",
+  "Construct a ~|Miscellania table|~": "t_122721",
+  "Construct a ~|ports table|~": "t_122722",
   "Build a large pen in your ~|player-owned farm|~": "t_1378",
   "Build a second large pen in your ~|player-owned farm|~": "t_1379",
   "Make ~|refined mahogany planks|~ at the sawmill in Fort Forinthry": "t_1382",
@@ -13689,6 +13691,7 @@
   "(Furniture Plans) Unlock ~|furniture plans: Seren altar|~": "t_121434",
   "(Furniture Plans) Unlock ~|furniture plans: Zamorak altar|~": "t_121435",
   "(Furniture Plans) Unlock ~|furniture plans: Zaros altar|~": "t_121436",
+  "(Furniture Plans) Unlock ~|furniture plans: Ports table|~": "t_122723",
   "(Floor Plans) Unlock ~|floor plans: Temple tile|~": "t_122108",
   "(Floor Plans) Unlock ~|floor plans: Terracotta paving|~": "t_122109",
   "(Asgarnia & Misthalin) Obtain a ~|goblin mail|~": "t_12329",
@@ -91096,6 +91099,7 @@
   "Ports Reward Shop: ~|Pearls|~": "t_118066",
   "Ports Reward Shop: ~|Koi scales|~": "t_118067",
   "Ports Reward Shop: ~|Ancient bones|~": "t_118068",
+  "Ports Reward Shop: ~|Furniture plans: Ports table|~": "t_122724",
   "Postie Pete's Post Office: ~|Postie Pete's hat|~": "t_51240",
   "Postie Pete's Post Office: ~|Parcel Pete's hat|~": "t_51241",
   "Postie Pete's Post Office: ~|'Postie' title scroll|~": "t_51242",
@@ -92649,5 +92653,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 122721
+  "currentNextIndex": 122725
 }

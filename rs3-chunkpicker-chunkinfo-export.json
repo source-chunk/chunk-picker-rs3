@@ -13277,6 +13277,25 @@
 				"Primary": true,
 				"Priority": 12
 			},
+			"Construct a ~|Miscellania table|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Plank*", "Steel nails*"],
+				"Objects": ["Furniture workbench"],
+				"Tasks": {
+					"~|Royal Trouble|~ Complete the quest": "Quest"
+				},
+				"Level": 60,
+				"Primary": true,
+				"Priority": 13
+			},
+			"Construct a ~|ports table|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Plank*", "Steel nails*", "Furniture plans: Ports table"],
+				"Objects": ["Furniture workbench"],
+				"Level": 60,
+				"Primary": true,
+				"Priority": 14
+			},
 			"Build a large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
 				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
@@ -141075,6 +141094,11 @@
 				"Category": ["Collection Log", "Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Zaros altar"]
+			},
+			"(Furniture Plans) Unlock ~|furniture plans: Ports table|~": {
+				"Category": ["Collection Log", "Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Furniture plans: Ports table"]
 			},
 			"(Floor Plans) Unlock ~|floor plans: Temple tile|~": {
 				"Category": ["Collection Log", "Skilling Collection Log"],
@@ -305025,7 +305049,8 @@
 			"Chi": true,
 			"Pearls": true,
 			"Koi scales": true,
-			"Ancient bones": true
+			"Ancient bones": true,
+			"Furniture plans: Ports table": true
 		},
 		"Postie Pete's Post Office": {
 			"Postie Pete's hat": true,
