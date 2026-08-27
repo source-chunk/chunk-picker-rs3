@@ -526,7 +526,7 @@ let ruleNames = {
     "Show Quest Tasks Complete": "Show Quest Tasks only when the whole quest is completable",
     "Show Diary Tasks Complete": "Show Area Tasks achievements only when the whole area tasks tier (easy, medium, etc.) is completable",
     "Show Diary Tasks Any": "Show all Area Tasks achievements possible, regardless of tier<span class='rule-asterisk noscroll'>*</span>",
-    "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must fletch yew logs into an unstrung shieldbow rather than arrow shafts)<span class='rule-asterisk noscroll'>*</span>",
+    "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must fletch yew logs into an unstrung longbow rather than arrow shafts)<span class='rule-asterisk noscroll'>*</span>",
     "BIS Skilling": "Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Pickaxe of Life and Death, Elite skilling outfits, Seed bag, etc.)",
     "BIS Skilling Consumables": "Must also obtain best-in-slot/quality-of-life charged or degrading items for skilling (scrimshaws, skillchompa, etc.)",
     "BIS Skilling Relics": "Must also obtain best-in-slot/quality-of-life Archaeology relics for skilling",
