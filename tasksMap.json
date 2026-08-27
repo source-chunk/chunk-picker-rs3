@@ -7177,6 +7177,7 @@
   "Chop with a ~|dwarven army axe|~": "t_6994",
   "Chop an ~|evil tree (normal)|~": "t_7036",
   "Cut a ~|Kharidian cactus (healthy)|~": "t_7037",
+  "Cut ~|trees|~ around Wendlewick": "t_122720",
   "Hand in a Woodcutting-related ~|City Quest|~ item": "t_120859",
   "Complete a ~|decorated woodcutting urn|~": "t_7033",
   "Complete an ~|exquisite woodcutting urn|~": "t_7034",
@@ -10077,7 +10078,6 @@
   "~|Succession|~ Complete the quest": "t_9731",
   "~|Summer's End|~ 1": "t_9732",
   "~|Summer's End|~ 2": "t_9733",
-  "~|Summer's End|~ 3": "t_9734",
   "~|Summer's End|~ Complete the quest": "t_9735",
   "~|Swan Song|~ 1": "t_9736",
   "~|Swan Song|~ 2": "t_9737",
@@ -92649,5 +92649,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 122720
+  "currentNextIndex": 122721
 }

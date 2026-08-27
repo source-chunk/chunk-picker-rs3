@@ -47668,6 +47668,7 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 93,
 				"Primary": true,
+				"Output Object": ["Automatic hide tanner"],
 				"Priority": 1
 			},
 			"Create an ~|enhanced pyro-matic|~": {
@@ -71695,6 +71696,13 @@
 				"Primary": true,
 				"Priority": 7
 			},
+			"Cut ~|trees|~ around Wendlewick": {
+				"Level": 1,
+				"Chunks": ["West Havenhythe[+]"],
+				"Output": "Oaken key",
+				"Primary": true,
+				"Priority": 1000
+			},
 			"Hand in a Woodcutting-related ~|City Quest|~ item": {
 				"Category": ["Secondary Primary"],
 				"Items": ["City Quest Woodcutting Item[+]*"],
@@ -76314,7 +76322,8 @@
 				"Description": "Enter the portal to your player-owned house",
 				"Chunks": ["Player-owned house"],
 				"Tasks": {
-					"~|Rocking Out|~ Complete the quest": "Quest"
+					"~|Rocking Out|~ Complete the quest": "Quest",
+					"~|There's No Place Like Home...|~ Complete the quest": "Quest"
 				},
 				"Skills": {
 					"Construction": 62,
@@ -100855,28 +100864,18 @@
 			},
 			"~|Summer's End|~ 2": {
 				"BaseQuest": "Summer's End",
-				"Description": "Collapse the northern cave in the real world (instanced)",
-				"Chunks": ["Spirit Realm Summer's Farm"],
+				"Description": "Collapse the northern cave in the real world (instanced), then return to the spirit realm and defeat the Spirit Beast",
+				"Chunks": ["12854"],
 				"Tasks": {
 					"~|Summer's End|~ 1": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|Summer's End|~ 3": {
-				"BaseQuest": "Summer's End",
-				"Description": "Return to the Spirit Realm and lure the Spirit Beast to the cave, then defeat it",
-				"Chunks": ["Spirit Realm Summer's Farm"],
-				"Items": ["BlueCharmPouch[+]"],
-				"Tasks": {
-					"~|Summer's End|~ 2": "Quest"
-				},
-				"Not F2P": true
-			},
 			"~|Summer's End|~ Complete the quest": {
 				"BaseQuest": "Summer's End",
-				"Chunks": ["Spirit Realm Summer's Farm"],
+				"Chunks": ["12854"],
 				"Tasks": {
-					"~|Summer's End|~ 3": "Quest"
+					"~|Summer's End|~ 2": "Quest"
 				},
 				"QuestPoints": 1,
 				"XpReward": {
@@ -105623,6 +105622,9 @@
 			"~|You Are It|~ 1": {
 				"BaseQuest": "You Are It",
 				"Description": "Chop a specific tree in McGrubor's Wood",
+				"Tasks": {
+					"~|There's No Place Like Home...|~ Complete the quest": "Quest"
+				},
 				"Chunks": ["10550"],
 				"Not F2P": true
 			},
@@ -111422,6 +111424,7 @@
 			"~|Karamja Achievements#Medium|~ I'm a Lumberjack and I'm Okay": {
 				"Description": "Cut a log from a teak tree.",
 				"Objects": ["Teak"],
+				"Chunks": ["Karamja teak[+]"],
 				"Skills": {
 					"Woodcutting": 35
 				},
@@ -111435,6 +111438,7 @@
 			"~|Karamja Achievements#Medium|~ I Sleep All Night and I Work All Day": {
 				"Description": "Cut a log from a mahogany tree.",
 				"Objects": ["Mahogany"],
+				"Chunks": ["Karamja mahogany[+]"],
 				"Skills": {
 					"Woodcutting": 60
 				},
@@ -165181,6 +165185,51 @@
 				"Items": ["Apex hide"],
 				"NPCs": ["Tanner[+]"],
 				"Output": "Apex leather"
+			},
+			"Tan snakeskin from snake hide using an automatic hide tanner*": {
+				"Items": ["Snake hide"],
+				"Objects": ["Automatic hide tanner"],
+				"Output": "Snakeskin"
+			},
+			"Tan snakeskin from snake hide (swamp) using an automatic hide tanner*": {
+				"Items": ["Snake hide (swamp)"],
+				"Objects": ["Automatic hide tanner"],
+				"Output": "Snakeskin"
+			},
+			"Tan green dragon leather using an automatic hide tanner*": {
+				"Items": ["Green dragonhide"],
+				"Objects": ["Automatic hide tanner"],
+				"Output": "Green dragon leather"
+			},
+			"Tan blue dragon leather using an automatic hide tanner*": {
+				"Items": ["Blue dragonhide"],
+				"Objects": ["Automatic hide tanner"],
+				"Output": "Blue dragon leather"
+			},
+			"Tan red dragon leather using an automatic hide tanner*": {
+				"Items": ["Red dragonhide"],
+				"Objects": ["Automatic hide tanner"],
+				"Output": "Red dragon leather"
+			},
+			"Tan black dragon leather using an automatic hide tanner*": {
+				"Items": ["Black dragonhide"],
+				"Objects": ["Automatic hide tanner"],
+				"Output": "Black dragon leather"
+			},
+			"Tan royal dragon leather using an automatic hide tanner*": {
+				"Items": ["Royal dragonhide"],
+				"Objects": ["Automatic hide tanner"],
+				"Output": "Royal dragon leather"
+			},
+			"Tan dinosaur leather using an automatic hide tanner*": {
+				"Items": ["Dinosaur hide"],
+				"Objects": ["Automatic hide tanner"],
+				"Output": "Dinosaur leather"
+			},
+			"Tan undead dragon leather using an automatic hide tanner*": {
+				"Items": ["Undead dragonhide"],
+				"Objects": ["Automatic hide tanner"],
+				"Output": "Undead dragon leather"
 			},
 			"Cure yak-hide*": {
 				"Items": ["Yak-hide"],
@@ -236444,6 +236493,8 @@
 			"HardHideyHoles[+]": ["12856", "10293", "10040", "13099", "12090", "11569-1", "11065-1", "11318-2", "11310-1"],
 			"HighwaymanChunks[+]": ["11571-1", "11827", "12083-1"],
 			"Kandarin safes[+]": ["10032-1", "10291", "10547-1", "10806-2"],
+			"Karamja mahogany[+]": ["11312", "11565-1", "11054"],
+			"Karamja teak[+]": ["11312", "11309-1", "11565-1", "11568-2", "11569-1"],
 			"Kharidian safes[+]": ["12329-1", "12330", "12585", "12843-1", "13105", "13358-1", "13613"],
 			"LarryChunks[+]": ["10810-1", "10291"],
 			"LumbridgeSwampChunks[+]": ["12849", "12593"],
@@ -236481,6 +236532,7 @@
 			"Tirannwn[+]": ["8754-1", "8754-2", "8754-3", "8753-1", "8753-2", "8753-3", "9010-1", "9010-2", "9010-3", "9009-1", "9009-2"],
 			"VibrantOrBetterWisps[+]": ["9516", "13879", "Freneskae#The Elder Halls", "13619-1", "15159", "13097-1", "9007"],
 			"WarbandsChunks[+]": ["12088", "13114", "12347-1"],
+			"West Havenhythe[+]": ["16438", "16436-1", "16435-1", "16434", "16694-1", "16693-1", "16992", "16691-1", "16690-1", "16690-2", "16689-1", "16950-1", "16950-2", "16950-3", "16949-1", "16948", "16947", "16946-1", "16946-2", "16945-1", "16944", "17206-1", "17206-2", "17205-1", "17205-2", "17205-3", "17204", "17203-1", "17203-2", "17202", "17201", "17200-1", "17200-2", "17460-2", "17459-1", "17459-2", "17458", "17457-1"],
 			"WildernessBloodwoodTreeChunks[+]": ["12093", "12856", "13116"],
 			"WildernessDemonChunks[+]": ["13368-1", "13369-1", "12857", "12601", "12345", "12090", "13371", "13115", "12347-2", "11836", "12348-2", "12604-1", "12860", "13116", "13372-1", "12861", "12605", "12349", "12093", "Lava Maze Dungeon", "Forinthry Dungeon", "Edgeville Dungeon"],
 			"WildernessEntranceChunks[+]": ["13368-1", "13111", "12855", "12599", "12343-1", "1287", "11831-1", "12605", "12349", "13372-1", "12088", "13113", "11834", "11833-1", "11832-1", "12603-1", "12861", "13117", "12116", "11837", "11581-3", "13371", "Edgeville Dungeon"],
@@ -297714,6 +297766,24 @@
 			}],
 			"Furniture plans: Beehive^": [{
 				"Members only": "Nonskill"
+			}],
+			"Firemaker's tabard^": [{
+				"~|The Firemaker's Curse|~ Complete the quest": "Quest"
+			}],
+			"Firemaker's trousers^": [{
+				"~|The Firemaker's Curse|~ Complete the quest": "Quest"
+			}],
+			"Firemaker's skirt^": [{
+				"~|The Firemaker's Curse|~ Complete the quest": "Quest"
+			}],
+			"Perfect blue dragon scale (God Emissaries)^": [{
+				"~|God Emissaries Combat|~ 6": "Quest"
+			}],
+			"Demon horn (God Emissaries)^": [{
+				"~|God Emissaries Combat|~ 6": "Quest"
+			}],
+			"Jogre talisman^": [{
+				"~|God Emissaries Combat|~ 6": "Quest"
 			}]
 		},
 		"Monsters": {
@@ -344317,6 +344387,9 @@
 					"1": "Common"
 				},
 				"Firemaker's skirt": {
+					"1": "Common"
+				},
+				"Firemaker's trousers": {
 					"1": "Common"
 				},
 				"Clown hat": {
