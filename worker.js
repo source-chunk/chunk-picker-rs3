@@ -795,15 +795,15 @@ let calcChallenges = function(chunks, baseChunkData) {
                                     let calcedQuantity;
                                     if (dropTables[drop][item].split('@')[1].includes(' (noted)')) {
                                         if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
-                                            calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted) (F2P)';
+                                            calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted) (F2P)';
                                         } else {
-                                            calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted)';
+                                            calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted)';
                                         }
                                     } else {
                                         if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
-                                            calcedQuantity = dropTables[drop][item].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
+                                            calcedQuantity = dropTables[drop][item].split('@')[1].split(' (F2P)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (F2P)')[0] : dropTables[drop][item].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
                                         } else {
-                                            calcedQuantity = dropTables[drop][item].split('@')[1] * quantity;
+                                            calcedQuantity = dropTables[drop][item].split('@')[1].includes('-') ? dropTables[drop][item].split('@')[1] : dropTables[drop][item].split('@')[1] * quantity;
                                         }
                                     }
                                     let droprate = parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '') * dropTables[drop][item].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1] * dropTables[drop][item].split('@')[0].split('/')[1].replaceAll('~', ''));
@@ -2490,15 +2490,15 @@ let calcChallenges = function(chunks, baseChunkData) {
                                         let calcedQuantity;
                                         if (dropTables[drop][item].split('@')[1].includes(' (noted)')) {
                                             if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
-                                                calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted) (F2P)';
+                                                calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted) (F2P)';
                                             } else {
-                                                calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted)';
+                                                calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted)';
                                             }
                                         } else {
                                             if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
-                                                calcedQuantity = dropTables[drop][item].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
+                                                calcedQuantity = dropTables[drop][item].split('@')[1].split(' (F2P)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (F2P)')[0] : dropTables[drop][item].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
                                             } else {
-                                                calcedQuantity = dropTables[drop][item].split('@')[1] * quantity;
+                                                calcedQuantity = dropTables[drop][item].split('@')[1].includes('-') ? dropTables[drop][item].split('@')[1] : dropTables[drop][item].split('@')[1] * quantity;
                                             }
                                         }
                                         let droprate = parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '') * dropTables[drop][item].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1] * dropTables[drop][item].split('@')[0].split('/')[1].replaceAll('~', ''));
@@ -3186,7 +3186,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                                 } else if (((chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/').length < 2 || ((parseFloat(chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/')[1]) <= (parseFloat(rareDropNum.split('/')[0].replaceAll('~', '')) / parseFloat(rareDropNum.split('/')[1]))))) || chunkInfo['challenges'][skill][challenge]['ForcedSecondary']) && (isNaN(parseFloat(chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/')[1])) || (highestDropRate * (parseFloat(chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/')[1]))) > (parseFloat(rareDropNum.split('/')[0].replaceAll('~', '')) / parseFloat(rareDropNum.split('/')[1])))) {
                                     outputs[item][challenge] = 'secondary-' + skill;
                                 }
-                                !!outputs[item] && !!outputs[item][challenge] && Object.keys(chunkInfo['skillItems'][skill][output][item]).forEach((quantityDrop) => {
+                                !!outputs[item] && !!outputs[item][challenge] && !!chunkInfo['challenges'][skill][challenge]['Source'] && chunkInfo['challenges'][skill][challenge]['Source'] === 'drop' && Object.keys(chunkInfo['skillItems'][skill][output][item]).forEach((quantityDrop) => {
                                     let skillExtra = `-${skill}`;
                                     if (!dropRatesGlobal[output + skillExtra]) {
                                         dropRatesGlobal[output + skillExtra] = {};
@@ -5194,15 +5194,15 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                             let calcedQuantity;
                             if (dropTables[item][drop].split('@')[1].includes(' (noted)')) {
                                 if (dropTables[item][drop].split('@')[1].includes(' (F2P)')) {
-                                    calcedQuantity = dropTables[item][drop].split('@')[1].split(' (noted)')[0] * quantityDrop + ' (noted) (F2P)';
+                                    calcedQuantity = (dropTables[item][drop].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[item][drop].split('@')[1].split(' (noted)')[0] : dropTables[item][drop].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted) (F2P)';
                                 } else {
-                                    calcedQuantity = dropTables[item][drop].split('@')[1].split(' (noted)')[0] * quantityDrop + ' (noted)';
+                                    calcedQuantity = (dropTables[item][drop].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[item][drop].split('@')[1].split(' (noted)')[0] : dropTables[item][drop].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted)';
                                 }
                             } else {
                                 if (dropTables[item][drop].split('@')[1].includes(' (F2P)')) {
-                                    calcedQuantity = dropTables[item][drop].split('@')[1].split(' (F2P)')[0] * quantityDrop + ' (F2P)';
+                                    calcedQuantity = dropTables[item][drop].split('@')[1].split(' (F2P)')[0].includes('-') ? dropTables[item][drop].split('@')[1].split(' (F2P)')[0] : dropTables[item][drop].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
                                 } else {
-                                    calcedQuantity = dropTables[item][drop].split('@')[1] * quantityDrop;
+                                    calcedQuantity = dropTables[item][drop].split('@')[1].includes('-') ? dropTables[item][drop].split('@')[1] : dropTables[item][drop].split('@')[1] * quantity;
                                 }
                             }
                             let droprate = parseFloat(dropTables[item][drop].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(dropTables[item][drop].split('@')[0].split('/')[1]);
@@ -10263,12 +10263,11 @@ let gatherChunksInfo = function(chunksIn) {
                                         let calcedQuantity;
                                         if (dropTables[drop][item].split('@')[1].includes(' (noted)')) {
                                             if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
-                                                calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted) (F2P)';
+                                                calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted) (F2P)';
                                             } else {
-                                                calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted)';
+                                                calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted)';
                                             }
                                         } else {
-                                            (dropTables[drop][item].split('@')[1].includes('-') ? dropTables[drop][item].split('@')[1] : dropTables[drop][item].split('@')[1] * quantity)
                                             if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
                                                 calcedQuantity = dropTables[drop][item].split('@')[1].split(' (F2P)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (F2P)')[0] : dropTables[drop][item].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
                                             } else {
@@ -10354,15 +10353,15 @@ let gatherChunksInfo = function(chunksIn) {
                                         let calcedQuantity;
                                         if (dropTables[drop][item].split('@')[1].includes(' (noted)')) {
                                             if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
-                                                calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted) (F2P)';
+                                                calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted) (F2P)';
                                             } else {
-                                                calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted)';
+                                                calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted)';
                                             }
                                         } else {
                                             if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
-                                                calcedQuantity = dropTables[drop][item].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
+                                                calcedQuantity = dropTables[drop][item].split('@')[1].split(' (F2P)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (F2P)')[0] : dropTables[drop][item].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
                                             } else {
-                                                calcedQuantity = dropTables[drop][item].split('@')[1] * quantity;
+                                                calcedQuantity = dropTables[drop][item].split('@')[1].includes('-') ? dropTables[drop][item].split('@')[1] : dropTables[drop][item].split('@')[1] * quantity;
                                             }
                                         }
                                         let droprate = parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '') * dropTables[drop][item].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1] * dropTables[drop][item].split('@')[0].split('/')[1].replaceAll('~', ''));
@@ -10481,12 +10480,11 @@ let gatherChunksInfo = function(chunksIn) {
                                     let calcedQuantity;
                                     if (dropTables[drop][item].split('@')[1].includes(' (noted)')) {
                                         if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
-                                            calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted) (F2P)';
+                                            calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted) (F2P)';
                                         } else {
-                                            calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted)';
+                                            calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted)';
                                         }
                                     } else {
-                                        (dropTables[drop][item].split('@')[1].includes('-') ? dropTables[drop][item].split('@')[1] : dropTables[drop][item].split('@')[1] * quantity)
                                         if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
                                             calcedQuantity = dropTables[drop][item].split('@')[1].split(' (F2P)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (F2P)')[0] : dropTables[drop][item].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
                                         } else {
@@ -10572,15 +10570,15 @@ let gatherChunksInfo = function(chunksIn) {
                                     let calcedQuantity;
                                     if (dropTables[drop][item].split('@')[1].includes(' (noted)')) {
                                         if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
-                                            calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted) (F2P)';
+                                            calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted) (F2P)';
                                         } else {
-                                            calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted)';
+                                            calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted)';
                                         }
                                     } else {
                                         if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
-                                            calcedQuantity = dropTables[drop][item].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
+                                            calcedQuantity = dropTables[drop][item].split('@')[1].split(' (F2P)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (F2P)')[0] : dropTables[drop][item].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
                                         } else {
-                                            calcedQuantity = dropTables[drop][item].split('@')[1] * quantity;
+                                            calcedQuantity = dropTables[drop][item].split('@')[1].includes('-') ? dropTables[drop][item].split('@')[1] : dropTables[drop][item].split('@')[1] * quantity;
                                         }
                                     }
                                     let droprate = parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '') * dropTables[drop][item].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1] * dropTables[drop][item].split('@')[0].split('/')[1].replaceAll('~', ''));
@@ -10720,15 +10718,15 @@ let gatherChunksInfo = function(chunksIn) {
                             let calcedQuantity;
                             if (dropTables[drop][item].split('@')[1].includes(' (noted)')) {
                                 if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
-                                    calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted) (F2P)';
+                                    calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted) (F2P)';
                                 } else {
-                                    calcedQuantity = dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity + ' (noted)';
+                                    calcedQuantity = (dropTables[drop][item].split('@')[1].split(' (noted)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (noted)')[0] : dropTables[drop][item].split('@')[1].split(' (noted)')[0] * quantity) + ' (noted)';
                                 }
                             } else {
                                 if (dropTables[drop][item].split('@')[1].includes(' (F2P)')) {
-                                    calcedQuantity = dropTables[drop][item].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
+                                    calcedQuantity = dropTables[drop][item].split('@')[1].split(' (F2P)')[0].includes('-') ? dropTables[drop][item].split('@')[1].split(' (F2P)')[0] : dropTables[drop][item].split('@')[1].split(' (F2P)')[0] * quantity + ' (F2P)';
                                 } else {
-                                    calcedQuantity = dropTables[drop][item].split('@')[1] * quantity;
+                                    calcedQuantity = dropTables[drop][item].split('@')[1].includes('-') ? dropTables[drop][item].split('@')[1] : dropTables[drop][item].split('@')[1] * quantity;
                                 }
                             }
                             let droprate = parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '') * dropTables[drop][item].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1] * dropTables[drop][item].split('@')[0].split('/')[1].replaceAll('~', ''));

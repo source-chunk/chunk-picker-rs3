@@ -1610,7 +1610,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.9.63';
+let currentVersion = '6.9.65';
 let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.48';
 let updateLevel = 'unconnected-areas, shopsPlus';
@@ -1760,7 +1760,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.9.63";
+mapImg.src = "runescape_world_map.png?v=6.9.65";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3689,7 +3689,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.9.63");
+        myWorker = new Worker("./worker.js?v=6.9.65");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage({
             type: 'current',
@@ -4047,8 +4047,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.9.63");
-let myWorker2 = new Worker("./worker.js?v=6.9.63");
+let myWorker = new Worker("./worker.js?v=6.9.65");
+let myWorker2 = new Worker("./worker.js?v=6.9.65");
 let workerOnMessage = function(e) {
     if (e.data.type === 'reload') {
         window.location.reload();
@@ -7215,7 +7215,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.9.63");
+    myWorker2 = new Worker("./worker.js?v=6.9.65");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage({
         type: 'future',
@@ -9507,9 +9507,7 @@ let openHighest2 = function(notScrollTop) {
         }
         combatStyles.push('Quests');
         combatStyles.push('Diaries');
-        if (rules['Show Skill Tasks']) {
-            combatStyles.push('Slayer');
-        }
+        combatStyles.push('Slayer');
         combatStyles.push('Clues'); //TEMP (missing clue tasks)
         //combatStyles.push('Shooting Stars'); //TEMP (missing shooting star locations)
         $('.highest2-title').empty();
