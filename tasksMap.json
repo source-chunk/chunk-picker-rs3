@@ -4106,6 +4106,8 @@
   "Feather ~|orikalkum bolts|~": "t_121874",
   "Fletch ~|ruby bolt tips|~": "t_4107",
   "Tip ~|ruby bolts|~": "t_4108",
+  "Fletch a ~|dragon crossbow (unstrung)|~": "t_4210",
+  "String a ~|dragon crossbow|~": "t_4211",
   "Fletch ~|diamond bolt tips|~": "t_4111",
   "Tip ~|diamond bolts|~": "t_4112",
   "Tip ~|havensilver bolts + 2|~": "t_118603",
@@ -4213,10 +4215,6 @@
   "Fletch ~|bakriminel bolt shafts|~": "t_4207",
   "Tip ~|bakriminel bolts|~": "t_4208",
   "Tip ~|emerald bakriminel bolts|~": "t_4209",
-  "Fletch a ~|dragon crossbow (unstrung)|~": "t_4210",
-  "String a ~|dragon crossbow|~": "t_4211",
-  "String a ~|dragon 2h crossbow|~": "t_4212",
-  "String an ~|off-hand dragon crossbow|~": "t_4213",
   "Tip ~|red topaz bakriminel bolts|~": "t_4214",
   "Feather ~|dragon darts|~": "t_4215",
   "Feather ~|off-hand dragon darts|~": "t_4216",
@@ -13239,6 +13237,7 @@
   "~|Activities achievements#Minigames|~ Claymation": "t_120004",
   "~|Activities achievements#Minigames|~ Conquest Adore": "t_120005",
   "~|Activities achievements#Minigames|~ Disowned": "t_120006",
+  "~|Activities achievements#Minigames|~ Going Down With the Ship": "t_122725",
   "~|Activities achievements#Minigames|~ How Many Games?": "t_120007",
   "~|Activities achievements#Minigames|~ It's Not Called Surging Tombs": "t_120008",
   "~|Activities achievements#Minigames|~ Little Leaguer": "t_12114",
@@ -17354,6 +17353,7 @@
   "Obtain a ~|batwing wand|~": "t_15429",
   "Obtain a ~|beacon ring|~": "t_15430",
   "Obtain a ~|beginner wand|~": "t_15431",
+  "Obtain a ~|Ben's spare hat|~": "t_122726",
   "Obtain a ~|berserk blood essence|~": "t_15432",
   "Obtain a ~|berserker helm|~": "t_15433",
   "Obtain a ~|berserker necklace|~": "t_15434",
@@ -92653,5 +92653,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 122725
+  "currentNextIndex": 122727
 }

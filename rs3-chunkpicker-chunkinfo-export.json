@@ -1442,7 +1442,8 @@
 				},
 				"Primary": false,
 				"Priority": 1,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Complete a lap of the ~|Hefin agility course|~": {
 				"Chunks": ["8501-1", "8757"],
@@ -2120,7 +2121,8 @@
 				"Priority": 3,
 				"NoBoost": true,
 				"NoPet": true,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			}
 		},
 		"Archaeology": {
@@ -10458,7 +10460,8 @@
 			    "Primary": false,
 				"NoBoost": true,
 			    "Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			}
 		},
 		"Construction": {
@@ -15997,7 +16000,8 @@
 				"Output": "Construction master cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 1000
+				"Priority": 1000,
+				"Allow Virtual": true
 			}
 		},
 		"Cooking": {
@@ -19375,7 +19379,8 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			},
 			"Make a ~|primal starter|~": {
 				"Items": ["Raw oculi apoterrasaur meat*", "Rainbow sweetcorn*", "Cannonball cabbage*", "Sweet potato*"],
@@ -25962,7 +25967,8 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -28921,7 +28927,8 @@
 				"Priority": 3,
 				"NoPet": true,
 				"NoBoost": true,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			},
 			"Grow a ~|prickly pear|~": {
 				"Items": ["Prickly pear seed"],
@@ -30396,7 +30403,8 @@
 				"Output": "Divination master cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 1000
+				"Priority": 1000,
+				"Allow Virtual": true
 			}
 		},
 		"Dungeoneering": {
@@ -37557,7 +37565,8 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			},
 			"Carestyle a zygomite with ~|accidental fletching and firemaking|~": {
 				"Chunks": ["14915-1"],
@@ -37819,6 +37828,7 @@
 				"Primary": true,
 				"Output": "Raw mackerel",
 				"Priority": 1,
+				"Not F2P": true,
 				"Not F2P": true
 			},
 			"Catch junk while ~|big net fishing|~": {
@@ -38244,7 +38254,8 @@
 				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Output": "Raw shark loot",
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Catch shark with the ~|Fishing Trawler|~": {
 				"Category": ["Minigame"],
@@ -38590,7 +38601,8 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 1000,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			}
 		},
 		"Fletching": {
@@ -39653,7 +39665,7 @@
 			},
 			"Feather ~|orikalkum bolts|~": {
 				"Items": ["Orikalkum bolts (unf)*", "Feather[+]*"],
-				"Level": 53,
+				"Level": 63,
 				"Output": "Orikalkum bolts",
 				"Primary": true,
 				"Priority": 4
@@ -39672,6 +39684,21 @@
 				"Output": "Ruby bolts",
 				"Primary": true,
 				"Priority": 6
+			},
+			"Fletch a ~|dragon crossbow (unstrung)|~": {
+				"Items": ["Mahogany stock*", "Dragon limbs*"],
+				"Level": 63,
+				"Output": "Dragon crossbow (unstrung)",
+				"Primary": true,
+				"Priority": 7,
+				"Partial": true
+			},
+			"String a ~|dragon crossbow|~": {
+				"Items": ["Dragon crossbow (unstrung)*", "Crossbow string*"],
+				"Level": 63,
+				"Output": "Dragon cbows",
+				"Primary": true,
+				"Priority": 8
 			},
 			"Fletch ~|diamond bolt tips|~": {
 				"Items": ["Diamond*"],
@@ -40572,35 +40599,6 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Fletch a ~|dragon crossbow (unstrung)|~": {
-				"Items": ["Magic stock*", "Dragon limbs*"],
-				"Level": 94,
-				"Output": "Dragon crossbow (unstrung)",
-				"Primary": true,
-				"Priority": 1,
-				"Partial": true
-			},
-			"String a ~|dragon crossbow|~": {
-				"Items": ["Dragon crossbow (unstrung)*", "Crossbow string*"],
-				"Level": 94,
-				"Output": "Dragon crossbow",
-				"Primary": true,
-				"Priority": 2
-			},
-			"String a ~|dragon 2h crossbow|~": {
-				"Items": ["Dragon crossbow (unstrung)*", "Crossbow string*"],
-				"Level": 94,
-				"Output": "Dragon 2h crossbow",
-				"Primary": true,
-				"Priority": 3
-			},
-			"String an ~|off-hand dragon crossbow|~": {
-				"Items": ["Dragon crossbow (unstrung)*", "Crossbow string*"],
-				"Level": 94,
-				"Output": "Off-hand dragon crossbow",
-				"Primary": true,
-				"Priority": 4
-			},
 			"Tip ~|red topaz bakriminel bolts|~": {
 				"Items": ["Bakriminel bolts*", "Topaz bolt tips*"],
 				"Level": 94,
@@ -40841,7 +40839,8 @@
 				"NoBoost": true,
 				"Primary": false,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			},
 			"Carestyle a zygomite with ~|accidental fletching and firemaking|~": {
 				"Chunks": ["14915-1"],
@@ -46613,7 +46612,8 @@
 				"Output": "Hunter master cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 3
+				"Priority": 3,
+				"Allow Virtual": true
 			}
 		},
 		"Invention": {
@@ -49140,7 +49140,8 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			}
 		},
 		"Magic": {
@@ -56540,7 +56541,8 @@
 				"Priority": 3,
 				"NoPet": true,
 				"NoBoost": true,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			}
 		},
 		"Ranged": {
@@ -61670,7 +61672,8 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			}
 		},
 		"Slayer": {
@@ -66865,7 +66868,8 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			}
 		},
 		"Strength": {
@@ -67351,7 +67355,8 @@
 					"~|Barbarian Training|~ 2b4a2": "Quest"
 				},
 				"Output": "Raw shark",
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Catch a ~|raw baron shark|~ barehanded": {
 				"Items": ["Juju fishing potion"],
@@ -67365,7 +67370,8 @@
 					"~|Barbarian Training|~ 2b4a2": "Quest"
 				},
 				"Output": "Raw baron shark",
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
 				"Chunks": ["Dorgesh-Kaan Agility Course"],
@@ -69771,7 +69777,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Allow Virtual": true
 			}
 		},
 		"Thieving": {
@@ -72504,7 +72511,8 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Allow Virtual": true
 			}
 		},
 		"Quest": {
@@ -105538,6 +105546,7 @@
 				"XpReward": {
 					"Magic": 3500
 				},
+				"Reward": ["Ben's spare hat"],
 				"Not F2P": true
 			},
 			"~|Wolf Whistle|~ 1": {
@@ -111040,7 +111049,8 @@
 				},
 				"BaseQuest": "Fremennik Achievements",
 				"Category": ["Show Diary Tasks"],
-				"RuneScore": 15
+				"RuneScore": 15,
+				"Not F2P": true
 			},
 			"~|Fremennik Achievements#Hard|~ Easy As Pie": {
 				"Description": "Bake a pie using Magic.",
@@ -115664,7 +115674,8 @@
 				},
 				"BaseQuest": "Underworld Achievements",
 				"Category": ["Show Diary Tasks"],
-				"RuneScore": 25
+				"RuneScore": 25,
+				"Not F2P": true
 			},
 			"~|Underworld Achievements#Elite|~ He's My Berry Pie": {
 				"Description": "Give a blueberry pie to Thalmund in the City of Um",
@@ -137285,6 +137296,18 @@
 				"RuneScore": 40,
 				"Not F2P": true
 			},
+			"~|Activities achievements#Minigames|~ Going Down With the Ship": {
+				"Category": ["Misc achievements", "Minigame", "Group Content"],
+				"Description": "Let the ship take on 8 leaks before patching them up fully and successfully completing Fishing Trawler.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Skills": {
+					"Fishing": 15
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
 			"~|Activities achievements#Minigames|~ How Many Games?": {
 				"Category": ["Misc achievements", "Minigame", "Group Content"],
 				"Description": "Show a full set of profound armour to Lanthus. That's what you get for being a Supreme.",
@@ -137480,6 +137503,7 @@
 					"~|Activities achievements#Minigames|~ Claymation": "Diary",
 					"~|Activities achievements#Minigames|~ Conquest Adore": "Diary",
 					"~|Activities achievements#Minigames|~ Disowned": "Diary",
+					"~|Activities achievements#Minigames|~ Going Down With the Ship": "Diary",
 					"~|Activities achievements#Minigames|~ How Many Games?": "Diary",
 					"~|Activities achievements#Minigames|~ It's Not Called Surging Tombs": "Diary",
 					"~|Activities achievements#Minigames|~ Little Leaguer": "Diary",
@@ -142848,6 +142872,7 @@
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Dragon 2h sword"],
+				"AllowedSources": ["Chaos Elemental", "Exiled Kalphite Queen", "Kalphite Queen", "Giant mole", "Giant mole (Hard Mode)"],
 				"NonShop": true
 			},
 			"(Chaos Elemental) Obtain a ~|corrupt dragon helm|~": {
@@ -143405,6 +143430,7 @@
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Dragon 2h sword"],
+				"AllowedSources": ["Chaos Elemental", "Exiled Kalphite Queen", "Kalphite Queen", "Giant mole", "Giant mole (Hard Mode)"],
 				"NonShop": true
 			},
 			"(Giant mole) Obtain a ~|clingy mole|~": {
@@ -143581,6 +143607,7 @@
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Dragon 2h sword"],
+				"AllowedSources": ["Chaos Elemental", "Exiled Kalphite Queen", "Kalphite Queen", "Giant mole", "Giant mole (Hard Mode)"],
 				"NonShop": true
 			},
 			"(Kalphite Queen) Obtain a ~|kalphite queen head|~": {
@@ -165706,6 +165733,9 @@
 			"Get Queen Mab's Moonstone from the Fairy Queen*": {
 				"NPCs": ["Fairy Queen"],
 				"Items": ["King Oberon's moonschroom spores"],
+				"Tasks": {
+					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest"
+				},
 				"Output": "Queen Mab's Moonstone"
 			},
 			"Get the Ring of Solomon from Armadyl*": {
@@ -220282,7 +220312,7 @@
                 "Wire": 1,
                 "Tools": 1,
                 "Forge": 1,
-				"Furnace (Dorgesh)": 1
+				"Furnace": 1
 			},
 			"Quest": {
 				"Another Slice of H.A.M.": "first",
@@ -236232,7 +236262,7 @@
 			"RuneArmour[+]": "Any piece of rune armour",
 			"RunecrafterRobe[+]": "Any piece of runecrafter robes",
 			"RunecraftingPotion[+]": "Any runecrafting potion",
-			"RuneEssence[+]": "Any essence to can be used to craft F2P runes",
+			"RuneEssence[+]": "Any essence that can be used to craft F2P runes",
 			"RuneHatchet[+]": "Any hatchet of a tier higher or equal to rune",
             "Runepick[+]": "Any rune pickaxe",
 			"RunePouch[+]": "Any pouch that the spell repair rune pouch can be cast upon",
@@ -236774,7 +236804,7 @@
 			"CopperOrTin[+]": ["Copper rock", "Tin rock"],
 			"Cooking object[+]": ["Fire", "Cooking range", "Range", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire", "Oven (City of Um)", "Grill"],
 			"Cooking range[+]": ["Cooking range", "Range", "Stove", "Clay oven", "Oven (City of Um)", "Grill"],
-			"CraftingFurnace[+]": ["Furnace", "Furnace (Dorgesh)", "Fremennik Furnace"],
+			"CraftingFurnace[+]": ["Furnace", "Fremennik Furnace"],
 			"CurePatch[+]": ["Allotment", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
 			"Drakolith rock[+]": ["Drakolith rock", "Drakolith vein"],
 			"FarmingPatch[+]": ["Allotment", "Flower patch", "Herb patch", "Potato patch", "Hops patch", "Bush patch", "Tree patch", "Fruit tree patch", "Mushroom patch", "Cactus patch", "Spirit tree patch", "Evil turnip patch", "Nightshade patch", "Calquat patch", "Elder tree patch", "Crystal tree patch", "Vine herb patch", "Vine bush patch", "Vine flower patch", "Fertile soil (patch)", "Money tree patch", "Jade vine patch"],
@@ -297811,6 +297841,9 @@
 			}],
 			"Jogre talisman^": [{
 				"~|God Emissaries Combat|~ 6": "Quest"
+			}],
+			"Oaken key^": [{
+				"Members only": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -316716,6 +316749,17 @@
 					"1": "Always"
 				},
 				"Off-hand orikalkum crossbow": {
+					"1": "Always"
+				}
+			},
+			"Dragon cbows": {
+				"Dragon crossbow": {
+					"1": "Always"
+				},
+				"Dragon 2h crossbow": {
+					"1": "Always"
+				},
+				"Off-hand dragon crossbow": {
 					"1": "Always"
 				}
 			},
@@ -362607,6 +362651,22 @@
 			"attack_range": 8,
 			"class": "magic",
 			"accuracy": 732
+		},
+		"Ben's spare hat": {
+			"formatted_name": "Ben's spare hat",
+			"ranged_damage": 0,
+			"requirements": {},
+			"class": "magic",
+			"lp": 300,
+			"tier": 30,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 90.8,
+			"slot": "head",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
 		},
 		"Berserk blood essence": {
 			"ranged_damage": 0,
