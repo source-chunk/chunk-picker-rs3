@@ -4588,7 +4588,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                         chunkInfo['challenges'][skill][name]['ShopsDetails'].push(shop);
                     }
                 } else {
-                    if (shop) {
+                    if (!shops[shop]) {
                         validChallenge = false;
                         wrongThings.push(shop);
                         nonValids[name] = wrongThings;
