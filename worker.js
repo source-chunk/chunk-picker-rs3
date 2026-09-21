@@ -9627,7 +9627,7 @@ let calcBIS = function(completedOnly) {
                 delete bestEquipment['weapon'];
             }
         }); */
-        rules['Show Best in Slot 1H and 2H'] && !!savedWeaponBis && Object.keys(savedWeaponBis).filter(slot => !!savedWeaponBis[slot]).forEach((slot) => {
+        rules['Show Best in Slot 1H and 2H'] && !!savedWeaponBis && Object.keys(savedWeaponBis).filter(slot => !!savedWeaponBis[slot] && !bestEquipment[slot]).forEach((slot) => {
             if (slot === 'ammo (2h)' && !savedWeaponBis['ammo']) {
                 bestEquipment['ammo'] = savedWeaponBis['ammo (2h)'];
             } else {
