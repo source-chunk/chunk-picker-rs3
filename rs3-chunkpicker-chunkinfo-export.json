@@ -6419,7 +6419,8 @@
 			},
 			"Create a ~|golem framework|~": {
 				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+					"Complete the ~|Archaeology tutorial|~": "Archaeology",
+					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
 				"Items": ["Golem heart", "Golem instruction", "Historic components", "Tensile parts", "Classic components", "Enhancing components"],
 				"Objects": ["Inventor's workbench"],
@@ -15570,6 +15571,9 @@
 				"Category": ["Skillcape"],
 				"NPCs": ["Estate agent"],
 				"Level": 99,
+				"Tasks": {
+					"~|There's No Place Like Home...|~ Complete the quest": "Quest"
+				},
 				"Output": "Construction cape",
 				"Primary": false,
 				"NoBoost": true,
@@ -15996,12 +16000,14 @@
 			"Buy the ~|Construction master cape|~": {
 				"Category": ["Master skillcape"],
 				"NPCs": ["Estate agent"],
+				"Tasks": {
+					"~|There's No Place Like Home...|~ Complete the quest": "Quest"
+				},
 				"Level": 120,
 				"Output": "Construction master cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 1000,
-				"Allow Virtual": true
+				"Priority": 1000
 			}
 		},
 		"Cooking": {
@@ -20966,6 +20972,16 @@
 				"Priority": 6,
 				"Not F2P": true
 			},
+			"Craft a ~|silver bolts (unf)|~": {
+				"Items": ["Silver bar*", "Bolt mould"],
+				"Level": 20,
+				"Output": "Silver bolts (unf)",
+				"Objects": ["CraftingFurnace[+]"],
+				"Primary": true,
+				"Priority": 7,
+				"Not F2P": true,
+				"Partial": true
+			},
 			"Craft ~|spider silk boots|~": {
 				"Items": ["Spider silk*", "Thread*"],
 				"Level": 21,
@@ -20973,23 +20989,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Craft a ~|silver bolts (unf)|~": {
-				"Items": ["Silver bar*", "Bolt mould"],
-				"Level": 21,
-				"Output": "Silver bolts (unf)",
-				"Objects": ["CraftingFurnace[+]"],
-				"Primary": true,
-				"Priority": 2,
-				"Not F2P": true,
-				"Partial": true
-			},
 			"Craft an ~|empty sack|~": {
 				"Items": ["Jute fibre*"],
 				"Level": 21,
 				"Output": "Empty sack",
 				"Objects": ["Loom"],
 				"Primary": true,
-				"Priority": 3,
+				"Priority": 2,
 				"Not F2P": true
 			},
 			"Craft a ~|spider silk hood|~": {
@@ -29917,7 +29923,8 @@
 			},
 			"Create a ~|golem framework|~": {
 				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+					"Complete the ~|Archaeology tutorial|~": "Archaeology",
+					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["Howl's Workshop"],
 				"Items": ["Golem heart*", "Golem instruction*", "Historic components*", "Tensile parts*", "Classic components*", "Enhancing components*"],
@@ -38994,21 +39001,6 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Fletch a ~|blurite crossbow (unstrung)|~": {
-				"Items": ["Oak stock*", "Blurite limbs*"],
-				"Level": 13,
-				"Output": "Blurite crossbow (unstrung)",
-				"Primary": true,
-				"Priority": 6,
-				"Partial": true
-			},
-			"String a ~|blurite crossbow|~": {
-				"Items": ["Blurite crossbow (unstrung)*", "Crossbow string*"],
-				"Level": 13,
-				"Output": "Blurite cbows",
-				"Primary": true,
-				"Priority": 7
-			},
 			"Fletch an ~|oak longbow (unstrung)|~": {
 				"Items": ["Oak logs*"],
 				"Level": 15,
@@ -39030,6 +39022,21 @@
 				"Output": "Blurite bolts",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Fletch a ~|blurite crossbow (unstrung)|~": {
+				"Items": ["Oak stock*", "Blurite limbs*"],
+				"Level": 16,
+				"Output": "Blurite crossbow (unstrung)",
+				"Primary": true,
+				"Priority": 2,
+				"Partial": true
+			},
+			"String a ~|blurite crossbow|~": {
+				"Items": ["Blurite crossbow (unstrung)*", "Crossbow string*"],
+				"Level": 16,
+				"Output": "Blurite cbows",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Fletch ~|iron brutals|~": {
 				"Items": ["Iron nails*", "Flighted ogre arrow*"],
@@ -39158,19 +39165,19 @@
 				"Priority": 1,
 				"Partial": true
 			},
-			"Fletch an ~|unstrung comp bow|~": {
+			"Fletch an ~|unstrung ogre composite bow|~": {
 				"Items": ["Achey tree logs*", "Wolf bones*"],
 				"Level": 30,
-				"Output": "Unstrung comp bow",
+				"Output": "Unstrung ogre composite bow",
 				"Primary": true,
 				"Priority": 2,
 				"Not F2P": true,
 				"Partial": true
 			},
-			"String a ~|comp ogre bow|~": {
-				"Items": ["Unstrung comp bow*", "Bowstring*"],
+			"String an ~|ogre composite bow|~": {
+				"Items": ["Unstrung ogre composite bow*", "Bowstring*"],
 				"Level": 30,
-				"Output": "Comp ogre bow",
+				"Output": "Ogre composite bow",
 				"Primary": true,
 				"Priority": 3,
 				"Not F2P": true
@@ -39452,7 +39459,7 @@
 				"Priority": 1000
 			},
 			"Tip ~|barbed bolts|~": {
-				"Items": ["Bronze bolts*", "Barb bolttips*"],
+				"Items": ["Bronze bolts*", "Barbed bolt tips*"],
 				"Level": 51,
 				"Output": "Barbed bolts",
 				"Primary": true,
@@ -39632,6 +39639,14 @@
 				"Primary": true,
 				"Priority": 6
 			},
+			"Tip ~|dragon arrows|~": {
+				"Items": ["Headless shaft*", "Dragon arrowheads*"],
+				"Level": 60,
+				"Output": "Dragon arrow",
+				"Primary": true,
+				"Priority": 7,
+				"Not F2P": true
+			},
 			"Fletch ~|adamant brutals|~": {
 				"Items": ["Adamant nails*", "Flighted ogre arrow*"],
 				"Level": 62,
@@ -39798,20 +39813,12 @@
 				"Not F2P": true,
 				"Partial": true
 			},
-			"String a ~|blisterwood stake-thrower crossbow|~": {
-				"Items": ["Blisterwood stake-thrower crossbow (unstrung)*", "Crossbow string*"],
-				"Level": 70,
-				"Output": "Blisterwood stake-thrower crossbow",
-				"Primary": true,
-				"Priority": 6,
-				"Not F2P": true
-			},
 			"Fletch a ~|blisterwood wand|~": {
 				"Items": ["Blisterwood logs*"],
 				"Level": 70,
 				"Output": "Blisterwood wand",
 				"Primary": true,
-				"Priority": 7,
+				"Priority": 6,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood sickle|~": {
@@ -39819,7 +39826,7 @@
 				"Level": 70,
 				"Output": "Blisterwood sickle",
 				"Primary": true,
-				"Priority": 8,
+				"Priority": 7,
 				"Not F2P": true
 			},
 			"Fletch an ~|off-hand blisterwood sickle|~": {
@@ -39827,7 +39834,7 @@
 				"Level": 70,
 				"Output": "Off-hand blisterwood sickle",
 				"Primary": true,
-				"Priority": 9,
+				"Priority": 8,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood stake|~": {
@@ -39835,7 +39842,7 @@
 				"Level": 70,
 				"Output": "Blisterwood stake",
 				"Primary": true,
-				"Priority": 10,
+				"Priority": 9,
 				"Not F2P": true
 			},
 			"Fletch an ~|off-hand blisterwood stake|~": {
@@ -39843,7 +39850,7 @@
 				"Level": 70,
 				"Output": "Off-hand blisterwood stake",
 				"Primary": true,
-				"Priority": 11,
+				"Priority": 10,
 				"Not F2P": true
 			},
 			"Fletch ~|blisterwood stakes (ammo)|~": {
@@ -39851,7 +39858,7 @@
 				"Level": 70,
 				"Output": "Blisterwood stakes (ammo)",
 				"Primary": true,
-				"Priority": 12,
+				"Priority": 11,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood orb|~": {
@@ -39859,7 +39866,7 @@
 				"Level": 70,
 				"Output": "Blisterwood orb",
 				"Primary": true,
-				"Priority": 13,
+				"Priority": 12,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood polearm|~": {
@@ -39867,7 +39874,7 @@
 				"Level": 70,
 				"Output": "Blisterwood polearm",
 				"Primary": true,
-				"Priority": 14,
+				"Priority": 13,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood staff|~": {
@@ -39875,7 +39882,7 @@
 				"Level": 70,
 				"Output": "Blisterwood staff",
 				"Primary": true,
-				"Priority": 15,
+				"Priority": 14,
 				"Not F2P": true
 			},
 			"Fletch a ~|yew wood box|~": {
@@ -39883,7 +39890,7 @@
 				"Level": 70,
 				"Output": "Yew wood box",
 				"Primary": true,
-				"Priority": 16,
+				"Priority": 15,
 				"Not F2P": true
 			},
 			"Tip ~|necronium arrows|~": {
@@ -39891,19 +39898,26 @@
 				"Level": 70,
 				"Output": "Necronium arrow",
 				"Primary": true,
+				"Priority": 16
+			},
+			"Tip ~|dark arrows|~": {
+				"Items": ["Headless shaft*", "Dark arrowheads*"],
+				"Level": 70,
+				"Output": "Dark arrow",
+				"Primary": true,
 				"Priority": 17
 			},
-			"Fletch ~|dragon bolt tips|~": {
+			"Fletch ~|dragonstone bolt tips|~": {
 				"Items": ["Dragonstone*"],
 				"Level": 71,
-				"Output": "Dragon bolt tips",
+				"Output": "Dragonstone bolt tips",
 				"Primary": true,
 				"Priority": 1,
 				"Not F2P": true,
 				"Partial": true
 			},
 			"Tip ~|dragon bolts|~": {
-				"Items": ["Rune bolts*", "Dragon bolt tips*"],
+				"Items": ["Rune bolts*", "Dragonstone bolt tips*"],
 				"Level": 71,
 				"Output": "Dragon bolts",
 				"Primary": true,
@@ -39936,7 +39950,7 @@
 			},
 			"Feather ~|necronium bolts|~": {
 				"Items": ["Necronium bolts (unf)*", "Feather[+]*"],
-				"Level": 53,
+				"Level": 73,
 				"Output": "Necronium bolts",
 				"Primary": true,
 				"Priority": 4
@@ -39956,6 +39970,14 @@
 				"Output": "Onyx bolts",
 				"Primary": true,
 				"Priority": 6,
+				"Not F2P": true
+			},
+			"String a ~|blisterwood stake-thrower crossbow|~": {
+				"Items": ["Blisterwood stake-thrower crossbow (unstrung)*", "Crossbow string*"],
+				"Level": 73,
+				"Output": "Blisterwood stake-thrower crossbow",
+				"Primary": true,
+				"Priority": 7,
 				"Not F2P": true
 			},
 			"Fletch a ~|yew longbow (unstrung)|~": {
@@ -40090,7 +40112,8 @@
 				"Output": "Magic stock",
 				"Primary": true,
 				"Priority": 1,
-				"Partial": true
+				"Partial": true,
+				"Not F2P": true
 			},
 			"Fletch a ~|bane crossbow (unstrung)|~": {
 				"Items": ["Magic stock*", "Bane limbs*"],
@@ -40145,7 +40168,8 @@
 				"Output": "Magic longbow (unstrung)",
 				"Primary": true,
 				"Priority": 1,
-				"Partial": true
+				"Partial": true,
+				"Not F2P": true
 			},
 			"String a ~|magic longbow|~": {
 				"Items": ["Magic longbow (unstrung)*", "Bowstring*"],
@@ -40267,21 +40291,13 @@
 				"Partial": true,
 				"Priority": 3
 			},
-			"Tip ~|dragon arrows|~": {
-				"Items": ["Headless shaft*", "Dragon arrowheads*"],
-				"Level": 90,
-				"Output": "Dragon arrow",
-				"Primary": true,
-				"Priority": 4,
-				"Not F2P": true
-			},
 			"Create a ~|tree-shaking scrimshaw|~": {
 				"Items": ["Ancient bones*"],
 				"Level": 90,
 				"Objects": ["Scrimshaw Crafter"],
 				"Output": "Tree-shaking scrimshaw",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 4
 			},
 			"Create a ~|superior tree-shaking scrimshaw|~": {
 				"Items": ["Ancient bones*"],
@@ -40289,7 +40305,7 @@
 				"Objects": ["Scrimshaw Crafter"],
 				"Output": "Superior tree-shaking scrimshaw",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 5
 			},
 			"Create a ~|gem-finding scrimshaw|~": {
 				"Items": ["Ancient bones*"],
@@ -40297,7 +40313,7 @@
 				"Objects": ["Scrimshaw Crafter"],
 				"Output": "Gem-finding scrimshaw",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 6
 			},
 			"Create a ~|superior gem-finding scrimshaw|~": {
 				"Items": ["Ancient bones*"],
@@ -40305,7 +40321,7 @@
 				"Objects": ["Scrimshaw Crafter"],
 				"Output": "Superior gem-finding scrimshaw",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 7
 			},
 			"Create a ~|casket-salvaging scrimshaw|~": {
 				"Items": ["Ancient bones*"],
@@ -40313,7 +40329,7 @@
 				"Objects": ["Scrimshaw Crafter"],
 				"Output": "Casket-salvaging scrimshaw",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 8
 			},
 			"Create a ~|superior casket-salvaging scrimshaw|~": {
 				"Items": ["Ancient bones*"],
@@ -40321,7 +40337,7 @@
 				"Objects": ["Scrimshaw Crafter"],
 				"Output": "Superior casket-salvaging scrimshaw",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 9
 			},
 			"Create an ~|energy-gathering scrimshaw|~": {
 				"Items": ["Ancient bones*", "Energy-gathering scrimshaw scroll"],
@@ -40329,7 +40345,7 @@
 				"Objects": ["Scrimshaw Crafter"],
 				"Output": "Energy-gathering scrimshaw",
 				"Primary": true,
-				"Priority": 11
+				"Priority": 10
 			},
 			"Create a ~|superior energy-gathering scrimshaw|~": {
 				"Items": ["Ancient bones*", "Energy-gathering scrimshaw scroll"],
@@ -40337,14 +40353,14 @@
 				"Objects": ["Scrimshaw Crafter"],
 				"Output": "Superior energy-gathering scrimshaw",
 				"Primary": true,
-				"Priority": 12
+				"Priority": 11
 			},
 			"Fletch ~|ascension bolts|~": {
 				"Items": ["Ascension shard*"],
 				"Level": 90,
 				"Output": "Ascension bolts",
 				"Primary": true,
-				"Priority": 13,
+				"Priority": 12,
 				"Not F2P": true
 			},
 			"Fletch an ~|elder shortbow (unstrung)|~": {
@@ -40352,7 +40368,7 @@
 				"Level": 90,
 				"Output": "Elder shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 14,
+				"Priority": 13,
 				"Not F2P": true,
 				"Partial": true
 			},
@@ -40361,7 +40377,7 @@
 				"Level": 90,
 				"Output": "Elder shortbow",
 				"Primary": true,
-				"Priority": 15,
+				"Priority": 14,
 				"Not F2P": true
 			},
 			"Tip ~|elder rune arrows|~": {
@@ -40369,7 +40385,7 @@
 				"Level": 90,
 				"Output": "Elder rune arrow",
 				"Primary": true,
-				"Priority": 16
+				"Priority": 15
 			},
 			"Tip ~|sapphire bakriminel bolts|~": {
 				"Items": ["Bakriminel bolts*", "Sapphire bolt tips*"],
@@ -40685,40 +40701,33 @@
 				"Priority": 10,
 				"Not F2P": true
 			},
-			"Tip ~|dark arrows|~": {
-				"Items": ["Headless shaft*", "Dark arrowheads*"],
-				"Level": 95,
-				"Output": "Dark arrow",
-				"Primary": true,
-				"Priority": 11
-			},
 			"Fletch ~|stalker arrows|~": {
 				"Items": ["Dark arrow*", "Stalker essence*"],
 				"Level": 95,
 				"Output": "Stalker arrow",
 				"Primary": true,
-				"Priority": 12
+				"Priority": 11
 			},
 			"Tip ~|ruby bakriminel bolts|~": {
 				"Items": ["Bakriminel bolts*", "Ruby bolt tips*"],
 				"Level": 95,
 				"Output": "Ruby bakriminel bolts",
 				"Primary": true,
-				"Priority": 13
+				"Priority": 12
 			},
 			"Tip ~|splintering arrows|~": {
 				"Items": ["Elder headless shaft*", "Splintering arrow tips*"],
 				"Level": 95,
 				"Output": "Splintering arrows",
 				"Primary": true,
-				"Priority": 14
+				"Priority": 13
 			},
 			"Tip ~|deathspore arrows|~": {
 				"Items": ["Elder headless shaft*", "Deathspore arrow tips*"],
 				"Level": 95,
 				"Output": "Deathspore arrows",
 				"Primary": true,
-				"Priority": 15
+				"Priority": 14
 			},
 			"Bundle ~|bamboo|~": {
 				"Items": ["Bamboo[+]*"],
@@ -40749,7 +40758,7 @@
 				"Priority": 4
 			},
 			"Tip ~|dragonstone bakriminel bolts|~": {
-				"Items": ["Bakriminel bolts*", "Dragon bolt tips*"],
+				"Items": ["Bakriminel bolts*", "Dragonstone bolt tips*"],
 				"Level": 97,
 				"Output": "Dragonstone bakriminel bolts",
 				"Primary": true,
@@ -47553,7 +47562,8 @@
 			},
 			"Create a ~|golem framework|~": {
 				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+					"Complete the ~|Archaeology tutorial|~": "Archaeology",
+					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
 				"Items": ["Golem heart*", "Golem instruction*", "Historic components*", "Tensile parts*", "Classic components*", "Enhancing components*"],
 				"Objects": ["Inventor's workbench"],
@@ -51706,6 +51716,25 @@
 				"Priority": 4,
 				"Not F2P": true
 			},
+			"Use the ~|Sunshine|~ ability": {
+				"Chunks": ["Guthixian ruins"],
+				"Level": 76,
+				"Primary": false,
+				"Priority": 11,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Use the ~|Greater Sunshine|~ ability": {
+				"Items": ["Greater Sunshine ability codex"],
+				"Tasks": {
+					"Use the ~|Sunshine|~ ability": "Magic"
+				},
+				"Level": 76,
+				"Primary": false,
+				"Priority": 12,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Cast ~|Superglass Make|~": {
 				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Fire rune[+]*", "Air rune[+]*", "GlassSecondary[+]*"],
@@ -52553,25 +52582,6 @@
 				"Level": 85,
 				"Primary": false,
 				"Priority": 10,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Use the ~|Sunshine|~ ability": {
-				"Chunks": ["Guthixian ruins"],
-				"Level": 85,
-				"Primary": false,
-				"Priority": 11,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Use the ~|Greater Sunshine|~ ability": {
-				"Items": ["Greater Sunshine ability codex"],
-				"Tasks": {
-					"Use the ~|Sunshine|~ ability": "Magic"
-				},
-				"Level": 85,
-				"Primary": false,
-				"Priority": 12,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -57392,8 +57402,8 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|comp ogre bow|~": {
-				"Items": ["Comp ogre bow"],
+			"Wield an ~|ogre composite bow|~": {
+				"Items": ["Ogre composite bow"],
 				"Level": 30,
 				"Primary": false,
 				"Priority": 2,
@@ -58933,6 +58943,27 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Use the ~|Death's Swiftness|~ ability": {
+				"Chunks": ["Guthixian ruins"],
+				"Level": 76,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Use the ~|Greater Death's Swiftness|~ ability": {
+				"Items": ["Greater Death's Swiftness ability codex"],
+				"Tasks": {
+					"Use the ~|greater Death's Swiftness|~ ability": "Magic"
+				},
+				"Level": 76,
+				"Primary": false,
+				"Priority": 1001,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
 			"Wield the ~|Sunspear (ranged)|~": {
 				"Items": ["Sunspear (ranged)"],
 				"Level": 78,
@@ -59277,27 +59308,6 @@
 				"Priority": 10,
 				"NoPet": true,
 				"NoBoost": true
-			},
-			"Use the ~|Death's Swiftness|~ ability": {
-				"Chunks": ["Guthixian ruins"],
-				"Level": 85,
-				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Use the ~|Greater Death's Swiftness|~ ability": {
-				"Items": ["Greater Death's Swiftness ability codex"],
-				"Tasks": {
-					"Use the ~|greater Death's Swiftness|~ ability": "Magic"
-				},
-				"Level": 85,
-				"Primary": false,
-				"Priority": 1001,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
 			},
 			"Equip a ~|superior scrimshaw of ranging|~": {
 				"Items": ["Superior scrimshaw of ranging"],
@@ -102466,7 +102476,7 @@
 			"~|TokTz-Ket-Dill|~ 6": {
 				"BaseQuest": "TokTz-Ket-Dill",
 				"Description": "Repair the tunnels and defeat the TokTz-Ket-Dill, then speak to the TzHaar",
-				"Chunks": ["TzHaar Caves"],
+				"Chunks": ["TzHaar City"],
 				"Tasks": {
 					"~|TokTz-Ket-Dill|~ 5": "Quest"
 				},
@@ -116546,7 +116556,7 @@
 				"Category": ["Show Diary Tasks"],
 				"RuneScore": 25
 			},
-			"~|Varrock Achievements#Elite|~ A Bolt from the Blue": {
+			"~|Varrock Achievements#Elite|~ A Bolt from the Bane": {
 				"Description": "Smith and fletch 10 bane bolts at once within Varrock.",
 				"Chunks": ["12853-1"],
 				"Items": ["Bane bar", "Feather[+]"],
@@ -116586,7 +116596,7 @@
 					"~|Varrock Achievements#Elite|~ Mind Your Back": "Diary",
 					"~|Varrock Achievements#Elite|~ Red, Red Pies of Summer": "Diary",
 					"~|Varrock Achievements#Elite|~ Splitting Headache": "Diary",
-					"~|Varrock Achievements#Elite|~ A Bolt from the Blue": "Diary",
+					"~|Varrock Achievements#Elite|~ A Bolt from the Bane": "Diary",
 					"~|Varrock Achievements#Elite|~ A Ton of Earth": "Diary"
 				},
 				"Reward": ["Varrock armour 4"],
@@ -140359,7 +140369,7 @@
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Requirements": {
-					"Magic": 85
+					"Magic": 76
 				},
 				"Tasks": {
 					"~|The World Wakes|~ Complete the quest": "Quest"
@@ -140369,7 +140379,7 @@
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Requirements": {
-					"Magic": 85
+					"Magic": 76
 				},
 				"Tasks": {
 					"~|The World Wakes|~ Complete the quest": "Quest"
@@ -140657,7 +140667,7 @@
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Requirements": {
-					"Ranged": 85
+					"Ranged": 76
 				},
 				"Tasks": {
 					"~|The World Wakes|~ Complete the quest": "Quest"
@@ -140667,7 +140677,7 @@
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Requirements": {
-					"Ranged": 85
+					"Ranged": 76
 				},
 				"Tasks": {
 					"~|The World Wakes|~ Complete the quest": "Quest"
@@ -141559,42 +141569,50 @@
 			"(Karamja) Obtain a ~|Toktz-mej-tal|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Toktz-mej-tal"]
+				"Items": ["Toktz-mej-tal"],
+				"AllowedSources": ["TzHaar-Mej", "TokHaar-Mej (Fight Cauldron)"]
 			},
 			"(Karamja) Obtain a ~|Toktz-xil-ul|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Toktz-xil-ul"]
+				"Items": ["Toktz-xil-ul"],
+				"AllowedSources": ["TzHaar-Xil", "TokHaar-Xil (Fight Cauldron)"]
 			},
 			"(Karamja) Obtain a ~|Toktz-xil-ak|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Toktz-xil-ak"]
+				"Items": ["Toktz-xil-ak"],
+				"AllowedSources": ["TzHaar-Xil", "TokHaar-Xil (Fight Cauldron)"]
 			},
 			"(Karamja) Obtain a ~|Toktz-xil-ek|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Toktz-xil-ek"]
+				"Items": ["Toktz-xil-ek"],
+				"AllowedSources": ["TzHaar-Xil", "TokHaar-Xil (Fight Cauldron)"]
 			},
 			"(Karamja) Obtain a ~|TzHaar-Ket-Om|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["TzHaar-Ket-Om"]
+				"Items": ["TzHaar-Ket-Om"],
+				"AllowedSources": ["TzHaar-Ket", "TokHaar-Ket Champion"]
 			},
 			"(Karamja) Obtain a ~|Toktz-ket-xil|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Toktz-ket-xil"]
+				"Items": ["Toktz-ket-xil"],
+				"AllowedSources": ["TzHaar-Ket", "TokHaar-Ket (Fight Cauldron)"]
 			},
 			"(Karamja) Obtain an ~|obsidian cape|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Obsidian cape"]
+				"Items": ["Obsidian cape"],
+				"AllowedSources": ["TzHaar-Mej", "TzHaar-Xil", "TzHaar-Ket", "TokHaar-Hur (Fight Cauldron)"]
 			},
 			"(Karamja) Obtain a ~|ring of stone|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Ring of stone"]
+				"Items": ["Ring of stone"],
+				"AllowedSources": ["TzHaar-Xil", "TzHaar-Ket", "TzHaar-Mej", "TzHaar-Hur"]
 			},
 			"(Karamja) Obtain a ~|gemstone hauberk|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -154429,7 +154447,7 @@
 				"Shops": ["Daemonheim Rewards"],
 				"Items": ["Dungeoneering token*"],
 				"Tasks": {
-					"~|Impressing the Locals|~ Complete the quest": "Quest"
+					"~|Curse of the Black Stone|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -157112,7 +157130,7 @@
 			"Obtain the ~|the Master|~ title": {
 				"Category": ["Titles", "Group Content"],
 				"Label": "Titles",
-				"Monsters": ["AnyBoss[+]"]
+				"Monsters": ["AnyGroupableBoss[+]"]
 			},
 			"Obtain the ~|of Guthix|~ title": {
 				"Category": ["Titles"],
@@ -163027,9 +163045,6 @@
 				"UnlocksArea": true
 			},
 			"Sophanem Dungeon": {
-				"UnlocksArea": true
-			},
-			"TzHaar Caves": {
 				"UnlocksArea": true
 			},
 			"Witchaven Dungeon": {
@@ -191834,7 +191849,8 @@
 				"Lensa (Rellekka)": 1,
 				"Jennella": 1,
 				"Market Guard (Fremennik)": 5,
-				"Warrior (Rellekka)": 12
+				"Warrior (Rellekka)": 12,
+				"Chick (monster)": 2
 			},
 			"NPC": {
 				"Olaf the Bard": 1,
@@ -196851,7 +196867,8 @@
 			"Monster": {
 				"Cow#Burthorpe": 7,
 				"Chicken": 6,
-				"Rabbit (Burthorpe)": 33
+				"Rabbit (Burthorpe)": 33,
+				"Chick (monster)": 1
 			},
 			"Connect": {
 				"6473": true,
@@ -199045,7 +199062,8 @@
 						"Highwayman": 1,
 						"Hollowtoof": 1,
 						"Goblin Raider#Farm": 1,
-						"Rooster": 1
+						"Rooster": 1,
+						"Chick (monster)": 2
 					},
 					"NPC": {
 						"Dog": 1,
@@ -202883,7 +202901,8 @@
 						"Calf": 4,
 						"Hollowtoof": 1,
 						"Goblin Raider#Forest": 1,
-						"Drake": 1
+						"Drake": 1,
+						"Chick (monster)": 1
 					},
 					"NPC": {
 						"Seth Groats": 1,
@@ -213824,7 +213843,7 @@
 			"Monster": {
 				"Chicken": 4,
 				"Rooster": 1,
-				"Chick": 2,
+				"Chick (monster)": 2,
 				"Calf": 2,
 				"Cow": 4,
 				"Bull": 1
@@ -213916,6 +213935,9 @@
 					},
 					"Quest": {
 						"Hearts of Adventure": "step"
+					},
+					"Connect": {
+						"36": true
 					}
 				},
 				"2": {
@@ -215128,7 +215150,7 @@
 			},
 			"Monster": {
 				"Chicken": 2,
-				"Chick": 1,
+				"Chick (monster)": 1,
 				"Fox": 1
 			},
 			"Spawn": {
@@ -219381,8 +219403,11 @@
 				"Fight Cave": 2,
 				"Sulphur pit": 2,
 				"TzHaar City": 2,
-				"Silver rock": 8,
-				"Gold rock": 6,
+				"Silver rock": 4,
+				"Gold rock": 3,
+				"Coal rock": 8,
+				"Mithril rock": 3,
+				"Adamantite rock": 2,
 				"Small obelisk": 2,
 				"Library": 2,
 				"Lava Furnace": 2,
@@ -219445,8 +219470,7 @@
 				"11313": true,
 				"17744": true,
 				"17745": true,
-				"18002": true,
-				"18258": true
+				"18002": true
 			},
 			"Clue": {
 				"master": 1
@@ -223205,64 +223229,6 @@
 			},
 			"Quest": {
 				"Contact!": "step"
-			}
-		},
-		"TzHaar Caves": {
-			"Object": {
-				"Fight Cave": 2,
-				"Sulphur pit": 68,
-				"Viewing orb": 1,
-				"Cave exit": 1,
-				"Lava forge": 1,
-				"Small obelisk": 1,
-				"Bookcase": 64,
-				"Skeleton": 1,
-				"Chasm": 12,
-				"Stepping stone": 4,
-				"Collapsed tunnel": 3,
-				"Cave-in": 9,
-				"Rock": 1,
-				"Tunnel": 2,
-				"Coal rock": 16,
-				"Mithril rock": 6,
-				"Adamantite rock": 4
-			},
-			"NPC": {
-				"TzHaar-Hur-Brekt": 2,
-				"TzHaar-Ket-Jok": 2,
-				"TzHaar-Xil-Mor": 2,
-				"TzHaar-Mej-Kol": 2,
-				"TzHaar-Hur-Klag": 2,
-				"TzHaar-Mej-Jal": 1,
-				"TzHaar-Hur-Zuh": 1,
-				"TzHaar-Hur-Tel": 1,
-				"TzHaar-Hur-Lek": 1,
-				"TzHaar-Hur-Roh": 1,
-				"TzHaar-Ket": 7,
-				"TzHaar-Mej-Lor": 1,
-				"TzHaar-Mej": 2,
-				"TzHaar-Hur": 2,
-				"TzHaar-Xil": 2,
-				"TzHaar-Mej-Malk": 1,
-				"TzHaar-Xil-Tog": 1,
-				"TzHaar-Hur-Frok": 1,
-				"TzHaar-Ket-Grol": 1,
-				"TzHaar-Ket-Rok": 1,
-				"TzHaar-Ket-Lurk": 1
-			},
-			"Monster": {
-				"TzHaar-Mej": 11,
-				"TzHaar-Hur": 17,
-				"TzHaar-Xil": 16,
-				"TzHaar-Ket": 21,
-				"Lava monster": 2,
-				"Fire monster": 2
-			},
-			"Connect": {
-				"18255": true
-			},
-			"Quest": {
-				"TokTz-Ket-Dill": "step"
 			}
 		},
 		"Witchaven Dungeon": {
@@ -228248,7 +228214,8 @@
 				"13107": true,
 				"13879": true,
 				"14131": true,
-				"14391": true
+				"14391": true,
+				"16949": true
 			}
 		},
 		"Effigy Incubator": {
@@ -228735,35 +228702,35 @@
 			},
 			"Ogre arrow": {
 				"Ogre bow": true,
-				"Comp ogre bow": true
+				"Ogre composite bow": true
 			},
 			"Bronze brutal": {
 				"Ogre bow": true,
-				"Comp ogre bow": true
+				"Ogre composite bow": true
 			},
 			"Iron brutal": {
 				"Ogre bow": true,
-				"Comp ogre bow": true
+				"Ogre composite bow": true
 			},
 			"Steel brutal": {
 				"Ogre bow": true,
-				"Comp ogre bow": true
+				"Ogre composite bow": true
 			},
 			"Black brutal": {
 				"Ogre bow": true,
-				"Comp ogre bow": true
+				"Ogre composite bow": true
 			},
 			"Mithril brutal": {
 				"Ogre bow": true,
-				"Comp ogre bow": true
+				"Ogre composite bow": true
 			},
 			"Adamant brutal": {
 				"Ogre bow": true,
-				"Comp ogre bow": true
+				"Ogre composite bow": true
 			},
 			"Rune brutal": {
 				"Ogre bow": true,
-				"Comp ogre bow": true
+				"Ogre composite bow": true
 			},
 			"Coral bolts": {
 				"Coral crossbow": true
@@ -236887,6 +236854,7 @@
 		},
 		"monstersPlus": {
 			"AnyBoss[+]": ["Amascut, the Devourer", "The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows: Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Flesh-hatcher Mhekarnahz", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant mole", "Gregorovic", "Har-Aken", "Helwyr", "Hermod, the Spirit of War", "Ivar, King of Bones", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Legiones", "The Magister", "Nex", "Nex, Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rasial, the First Necromancer", "Rex Matriarchs", "Seiryu the Azure Serpent", "Silverquill, the Dreadhog", "Solak, Guardian of the Grove", "Telos, the Warden", "Twin Furies", "TzKal-Zuk", "TzTok-Jad", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
+			"AnyGroupableBoss[+]": ["Amascut, the Devourer", "The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows: Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Flesh-hatcher Mhekarnahz", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant mole", "Gregorovic", "Helwyr", "Ivar, King of Bones", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Nex", "Nex, Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rex Matriarchs", "Seiryu the Azure Serpent", "Silverquill, the Dreadhog", "Solak, Guardian of the Grove", "Telos, the Warden", "Twin Furies", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
 			"AnyDemon[+]": ["Abyssal beast", "Abyssal demon", "Abyssal savage", "Balfrug Kreeyath", "Black demon", "Gargoyle", "Greater demon", "Greater demon ash lord", "Greater demon berserker", "Greater demon brute", "Greater demon pyromancer", "Greater demon sage", "Greater demon savage", "Imp", "Imp scavenger", "K'ril Tsutsaroth", "Kal'gerion demon", "Lesser demon", "Ripper Demon", "Tormented demon", "Tstanon Karlak", "Zakl'n Gritch"],
 			"AnyDragon[+]": ["Adamant dragon", "Astellarn", "Baby blue dragon", "Baby red dragon", "Black dragon", "Black stone dragon", "Blue dragon", "Bronze dragon", "Brutal green dragon", "Celestial dragon", "Dragonstone dragon", "Frost dragon", "Green dragon", "Hydrix dragon", "Iron dragon", "King Black Dragon", "Mithril dragon", "Nodon artificer", "Nodon guard", "Nodon hunter", "Onyx dragon", "Queen Black Dragon", "Rune dragon", "Steel dragon", "Verak Lith"],
 			"AnyUndead[+]": ["Aberrant spectre", "Ahrim the Blighted", "Akrisae the Doomed", "Animated spade", "Ankou", "Armoured phantom", "Armoured zombie", "Banshee", "Bloated monstrosity", "Bound skeleton", "Corpse archer", "Corpse carrier", "Corpse mage", "Corpse spider", "Crawling corpse torso", "Crawling hand", "Dharok the Wretched", "Dragith Nurn", "Edimmu", "Fetid zombie", "Ghast", "Ghost", "Ghostly troll bruiser", "Ghostly troll thrower", "Guthan the Infested", "Karil the Tainted", "Linza the Disgraced", "Magic axe", "Monkey Zombie", "Mummy (Jaldraocht Pyramid)", "Mummy (Ullek)", "Phantom sorcerer", "Phantom wizard", "Possessed pickaxe", "Revenant cyclops", "Revenant dark beast", "Revenant demon", "Revenant dragon", "Revenant goblin", "Revenant hellhound", "Revenant hobgoblin", "Revenant icefiend", "Revenant imp", "Revenant knight", "Revenant ork", "Revenant pyrefiend", "Revenant vampyre", "Revenant werewolf", "Risen ghost", "Shade", "Shadow warrior", "Skeletal Wyvern", "Skeletal hand", "Skeleton#Armed", "Skeleton#Unarmed", "Skeleton Mage", "Skeleton knight", "Skoblin", "Skogre", "Small scarab", "Spiritual mage", "Spiritual ranger", "Spiritual warrior", "Taraket the Necromancer", "Torag the Corrupted", "Tormented wraith", "Undead chicken", "Undead cow", "Undead pekin", "Undead troll", "Verac the Defiled", "Wight", "Wight ranger", "Zogre", "Zombie#Level 12", "Zombie#Level 22", "Zombie#Level 29", "Zombie hand", "Zombie knight", "Zombie pirate", "Zombie swab", "Zombie warrior"],
@@ -238335,7 +238303,7 @@
 				"Duckling": true,
 				"Duck": true,
 				"Drake": true,
-				"Chick": true,
+				"Chick (monster)": true,
 				"Chicken": true,
 				"Seagull": true,
 				"Undead chicken": true,
@@ -249603,7 +249571,7 @@
 				"1": "3/20"
 			}
 		},
-		"Chick": {
+		"Chick (monster)": {
 			"Bones": {
 				"1": "Always"
 			}
@@ -253227,9 +253195,11 @@
 			"Nature rune": {
 				"4": "7/128"
 			},
+			"Law rune": {
+				"3": "1/128"
+			},
 			"Chaos rune": {
-				"3": "1/128",
-				"5": "6/128"
+				"4": "6/128"
 			},
 			"Air rune": {
 				"10": "3/128",
@@ -253297,9 +253267,11 @@
 			"Nature rune": {
 				"4": "7/128"
 			},
+			"Law rune": {
+				"3": "1/128"
+			},
 			"Chaos rune": {
-				"3": "1/128",
-				"5": "6/128"
+				"4": "6/128"
 			},
 			"Air rune": {
 				"10": "3/128",
@@ -257686,7 +257658,7 @@
 			"Fire talisman": {
 				"4-9": "Common"
 			},
-			"Dragon bolt tips": {
+			"Dragonstone bolt tips": {
 				"15-50": "Common"
 			},
 			"Adamant arrowheads": {
@@ -267902,58 +267874,58 @@
 				"1": "Always"
 			},
 			"Grimy harralander": {
-				"1-3": "Common"
+				"1-3": "7/128"
 			},
 			"Grimy ranarr": {
-				"1-3": "Common"
+				"1-3": "11/128"
 			},
 			"Grimy toadflax": {
-				"1-3": "Common"
+				"1-3": "9/128"
 			},
 			"Toadflax seed": {
-				"2": "Common"
+				"2": "8/128"
 			},
 			"Harralander seed": {
-				"2": "Common"
+				"2": "7/128"
 			},
 			"Ranarr seed": {
-				"2": "Common"
+				"1-2": "7/128"
 			},
 			"Big bones": {
-				"10 (noted)": "Common"
+				"10 (noted)": "6/128"
 			},
 			"Mithril stone spirit": {
-				"5": "Common"
+				"5": "10/128"
 			},
 			"Gold stone spirit": {
-				"5-10": "Common"
+				"10": "9/128"
 			},
 			"Willow logs": {
-				"4-10 (noted)": "Common"
+				"5-10 (noted)": "7/128"
 			},
 			"Death rune": {
-				"5-10": "Common"
+				"5-10": "7/128"
 			},
 			"Steel arrowheads": {
-				"10-20": "Common"
+				"10-20": "8/128"
 			},
 			"Maple plank": {
-				"5-10 (noted)": "Common"
+				"5-10 (noted)": "7/128"
 			},
 			"Limpwurt root": {
-				"3 (noted)": "Common"
+				"3 (noted)": "7/128"
 			},
 			"Snape grass": {
-				"3 (noted)": "Common"
+				"3 (noted)": "8/128"
 			},
 			"Earth battlestaff": {
-				"1": "Uncommon"
+				"1": "4/128"
 			},
 			"Rune chainbody": {
-				"1": "Uncommon"
+				"1": "4/128"
 			},
 			"Dragonstone amulet": {
-				"1": "Uncommon"
+				"1": "2/128"
 			},
 			"Bonecrusher maul": {
 				"1": "1/64"
@@ -269021,49 +268993,49 @@
 		},
 		"Juvenile boulder crab": {
 			"Limestone": {
-				"1": "Common"
+				"1": "33/128"
 			},
 			"Copper ore": {
-				"1-2": "Common"
+				"1-2": "7/128"
 			},
 			"Tin ore": {
-				"1": "Common"
+				"1": "7/128"
 			},
 			"Igneous geode": {
-				"1": "Uncommon"
+				"1": "2/128"
 			},
 			"Sedimentary geode": {
-				"1": "Uncommon"
+				"1": "2/128"
 			},
 			"Coins": {
-				"50-250": "Common"
+				"50-250": "19/128"
 			},
 			"Fishing bait": {
-				"5-10": "Common"
+				"5-10": "13/128"
 			},
 			"Wendlewick seed": {
-				"1": "Rare"
+				"1": "3/128"
 			},
 			"Raw sardine": {
-				"1-2": "Common"
+				"1-2": "12/128"
 			},
 			"Raw lobster": {
-				"1": "Uncommon"
+				"1": "6/128"
 			},
 			"Seaweed": {
-				"1-4": "Common"
+				"1-4": "12/128"
 			},
 			"Edible seaweed": {
-				"1": "Rare"
+				"1": "4/128"
 			},
 			"Empty oyster": {
-				"1": "Rare"
+				"1-2": "2/128"
 			},
 			"Oyster pearl": {
-				"1": "Rare"
+				"1": "3/128"
 			},
 			"Oyster": {
-				"1": "Rare"
+				"1": "3/128"
 			}
 		},
 		"K'ril Tsutsaroth": {
@@ -293707,7 +293679,7 @@
 			"Small plated necronium salvage": {
 				"1": "30/1000"
 			},
-			"Dragon bolt tips": {
+			"Dragonstone bolt tips": {
 				"52-78": "75/1000"
 			},
 			"Undead dragonhide": {
@@ -293784,7 +293756,7 @@
 			"Small plated necronium salvage": {
 				"1": "30/1000"
 			},
-			"Dragon bolt tips": {
+			"Dragonstone bolt tips": {
 				"52-78": "75/1000"
 			},
 			"Undead dragonhide": {
@@ -293867,7 +293839,7 @@
 			"Small plated necronium salvage": {
 				"3": "30/1000"
 			},
-			"Dragon bolt tips": {
+			"Dragonstone bolt tips": {
 				"52-78": "75/1000"
 			},
 			"Undead dragonhide": {
@@ -295560,7 +295532,7 @@
 		"That Old Black Magic: Hermy and Bass": "City of Um, Rasial's Citadel",
 		"There's No Place Like Home...": "11826, 11570",
 		"Throne of Miscellania": "10044, 10300",
-		"TokTz-Ket-Dill": "TzHaar City, 12854, TzHaar Caves",
+		"TokTz-Ket-Dill": "TzHaar City, 12854",
 		"Tomes of the Warlock": "City of Um, 10288, 12337, 12586, 12853, 12854, 13361, 13364",
 		"The Tourist Trap": "13104, 13103, Desert Mining Camp cave, 12591, 12847",
 		"Tower of Life": "10546, Tower of Life#Basement",
@@ -297844,6 +297816,15 @@
 			}],
 			"Oaken key^": [{
 				"Members only": "Nonskill"
+			}],
+			"Seaweed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Edible seaweed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Wendlewick seed^": [{
+				"Members only": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -299094,16 +299075,25 @@
 			"Coal rock": {
 				"13103": [{
 					"~|The Tourist Trap|~ 2": "Quest"
+				}],
+				"TzHaar City": [{
+					"~|TokTz-Ket-Dill|~ Complete the quest": "Quest"
 				}]
 			},
 			"Mithril rock": {
 				"Desert Mining Camp cave": [{
 					"~|The Tourist Trap|~ 7": "Quest"
+				}],
+				"TzHaar City": [{
+					"~|TokTz-Ket-Dill|~ Complete the quest": "Quest"
 				}]
 			},
 			"Adamantite rock": {
 				"Desert Mining Camp cave": [{
 					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				}],
+				"TzHaar City": [{
+					"~|TokTz-Ket-Dill|~ Complete the quest": "Quest"
 				}]
 			},
 			"Luminite vein": {
@@ -302767,7 +302757,7 @@
 			"Longbow": true,
 			"Oak longbow": true,
 			"Willow longbow": true,
-			"Comp ogre bow": true
+			"Ogre composite bow": true
 		},
 		"Darren's Wilderness Cape Shop": {
 			"Team-4 cape": true,
@@ -303760,7 +303750,7 @@
 			"Mithril arrowheads": true,
 			"Adamant arrowheads": true,
 			"Rune arrowheads": true,
-			"Comp ogre bow": true
+			"Ogre composite bow": true
 		},
 		"Honest Jimmy's House of Stuff": {
 			"Blue naval shirt": true,
@@ -305237,7 +305227,7 @@
 			"Adamant plateskirt": true
 		},
 		"Ranging Guild Ticket Exchange": {
-			"Barb bolttips": true,
+			"Barbed bolt tips": true,
 			"Studded body": true,
 			"Rune arrow": true,
 			"Studded leather coif": true,
@@ -306234,7 +306224,7 @@
 			"Relicym's balm (3)": true,
 			"Cooked chompy": true,
 			"Knife": true,
-			"Comp ogre bow": true
+			"Ogre composite bow": true
 		},
 		"Urist's Crafting Supplies": {
 			"Chisel": true,
@@ -320642,7 +320632,7 @@
 				"Dragon arrowheads": {
 					"100-500": "1/17"
 				},
-				"Dragon bolt tips": {
+				"Dragonstone bolt tips": {
 					"10-49": "1/17"
 				},
 				"Baby dragon bones": {
@@ -321153,7 +321143,7 @@
 				"Dragon arrowheads": {
 					"50-150": "2/28"
 				},
-				"Dragon bolt tips": {
+				"Dragonstone bolt tips": {
 					"50-70": "1/28"
 				},
 				"Dragon dart": {
@@ -325227,7 +325217,7 @@
 					"4500-5500": "184/1024",
 					"8000-9000": "125/1024"
 				},
-				"Dragon bolt tips": {
+				"Dragonstone bolt tips": {
 					"30": "25/1024"
 				},
 				"Dragon arrowheads": {
@@ -327884,7 +327874,7 @@
 				"Diamond": {
 					"1 (noted)": "12/128"
 				},
-				"Dragon bolt tips": {
+				"Dragonstone bolt tips": {
 					"12": "12/128"
 				},
 				"Emerald": {
@@ -327959,7 +327949,7 @@
 					"4000": "11/128",
 					"8000": "5/128"
 				},
-				"Dragon bolt tips": {
+				"Dragonstone bolt tips": {
 					"8": "12/128"
 				},
 				"Emerald bolt tips": {
@@ -328616,7 +328606,7 @@
 					"4500-5500": "184/1024",
 					"8000-9000": "125/1024"
 				},
-				"Dragon bolt tips": {
+				"Dragonstone bolt tips": {
 					"30": "25/1024"
 				},
 				"Dragon arrowheads": {
@@ -332400,7 +332390,7 @@
 				"Dragon dart tip": {
 					"20-30": "50/1024"
 				},
-				"Dragon bolt tips": {
+				"Dragonstone bolt tips": {
 					"50-100": "45/1024"
 				},
 				"RareDropTable+": {
@@ -333844,61 +333834,43 @@
 			},
 			"Sanguine crawler": {
 				"Coins": {
-					"250-600": "Common"
-				},
-				"Cabbage seed": {
-					"1-3": "Uncommon"
-				},
-				"Evil turnip seed": {
-					"1": "Uncommon"
-				},
-				"Onion seed": {
-					"1-3": "Uncommon"
-				},
-				"Potato seed": {
-					"1-4": "Uncommon"
-				},
-				"Sweetcorn seed": {
-					"1": "Uncommon"
-				},
-				"Tomato seed": {
-					"1": "Uncommon"
+					"500-600": "12/128"
 				},
 				"Earth rune": {
-					"5-7": "Common"
+					"5-7": "8/128"
 				},
 				"Law rune": {
-					"1-2": "Common"
+					"1-2": "7/128"
 				},
 				"Nature rune": {
-					"3-5": "Common"
+					"3-5": "5/128"
 				},
 				"Blood rune": {
-					"1-2": "Uncommon"
+					"1-2": "4/128"
 				},
 				"Congealed blood": {
-					"1-4": "Common"
+					"1-4": "7/128"
 				},
 				"Egg potato": {
-					"1": "Common"
+					"1": "12/128"
 				},
 				"Iron dart": {
-					"1-5": "Common"
+					"1-5": "9/128"
 				},
 				"Off-hand iron dart": {
-					"1-5": "Common"
+					"1-5": "9/128"
 				},
 				"Lobster": {
-					"1": "Common"
+					"1": "10/128"
 				},
 				"Oaken key": {
-					"1": "Uncommon"
+					"1": "1/128"
 				},
 				"Prayer potion (1)": {
-					"1": "Uncommon"
+					"1": "6/128"
 				},
 				"Sanguine matter": {
-					"1": "Uncommon"
+					"1": "1/20"
 				},
 				"Tainted seed": {
 					"1": "1/2500"
@@ -333907,25 +333879,37 @@
 					"1": "1/1000"
 				},
 				"Sealed clue scroll (easy)": {
-					"1": "1/64"
+					"1": "1/100"
 				},
 				"Gold charm": {
-					"1": "Common"
+					"1": "216/1000"
 				},
 				"Green charm": {
-					"1": "Common"
+					"1": "64/1000"
 				},
 				"Crimson charm": {
-					"1": "Uncommon"
+					"1": "35/1000"
 				},
 				"Blue charm": {
-					"1": "Rare"
+					"1": "5/1000"
+				},
+				"Spirit sapphire": {
+					"1": "5/1000"
+				},
+				"Spirit emerald": {
+					"1": "2/1000"
+				},
+				"Spirit ruby": {
+					"1": "1/1000"
 				},
 				"GemDropTable+": {
-					"1": "1/128"
+					"1": "8/128"
 				},
 				"HerbDropTable+": {
-					"1": "1/16"
+					"1": "14/128"
+				},
+				"AllotmentSeedDropTable+": {
+					"1": "16/128"
 				}
 			},
 			"Sanguine crawler (task)": {
@@ -334289,7 +334273,7 @@
 				"Dungeoneering token": {
 					"100": "15/128"
 				},
-				"Dragon bolt tips": {
+				"Dragonstone bolt tips": {
 					"8-13": "12/128"
 				},
 				"Bowstring": {
@@ -334934,7 +334918,7 @@
 				"Bowstring": {
 					"20 (noted)": "6/128"
 				},
-				"Dragon bolt tips": {
+				"Dragonstone bolt tips": {
 					"5-10": "12/128"
 				},
 				"Onyx bolt tips": {
@@ -335789,7 +335773,7 @@
 					"4500-5500": "184/1024",
 					"8000-9000": "125/1024"
 				},
-				"Dragon bolt tips": {
+				"Dragonstone bolt tips": {
 					"30": "25/1024"
 				},
 				"Dragon arrowheads": {
@@ -365277,18 +365261,18 @@
 			},
 			"class": "ranged",
 			"lp": 0,
-			"tier": 6,
+			"tier": 16,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
 			"is_consumable": true,
 			"melee_damage": 0,
 			"magic_damage": 0,
-			"ability_damage": 86.4,
+			"ability_damage": 230.4,
 			"style": "bolts",
 			"prayer": 0,
 			"accuracy": 0,
-			"auto_damage": 57.6
+			"auto_damage": 153.6
 		},
 		"Blurite crossbow": {
 			"ranged_damage": 0,
@@ -367878,7 +367862,7 @@
 			"prayer": 2,
 			"accuracy": 0
 		},
-		"Comp ogre bow": {
+		"Ogre composite bow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
@@ -418130,7 +418114,7 @@
 			"prayer": 3,
 			"accuracy": 0
 		},
-		"Zamorak robe (legs)": {
+		"Zamorak robe (bottom)": {
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
@@ -418139,7 +418123,7 @@
 			"speed": 0,
 			"type": "Tank armour",
 			"armour": 34.5,
-			"slot": "torso",
+			"slot": "legs",
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 3,
