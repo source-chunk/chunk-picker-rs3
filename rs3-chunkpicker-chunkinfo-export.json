@@ -157130,7 +157130,7 @@
 			"Obtain the ~|the Master|~ title": {
 				"Category": ["Titles", "Group Content"],
 				"Label": "Titles",
-				"Monsters": ["AnyBoss[+]"]
+				"Monsters": ["AnyGroupableBoss[+]"]
 			},
 			"Obtain the ~|of Guthix|~ title": {
 				"Category": ["Titles"],
@@ -236854,6 +236854,7 @@
 		},
 		"monstersPlus": {
 			"AnyBoss[+]": ["Amascut, the Devourer", "The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows: Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Flesh-hatcher Mhekarnahz", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant mole", "Gregorovic", "Har-Aken", "Helwyr", "Hermod, the Spirit of War", "Ivar, King of Bones", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Legiones", "The Magister", "Nex", "Nex, Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rasial, the First Necromancer", "Rex Matriarchs", "Seiryu the Azure Serpent", "Silverquill, the Dreadhog", "Solak, Guardian of the Grove", "Telos, the Warden", "Twin Furies", "TzKal-Zuk", "TzTok-Jad", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
+			"AnyGroupableBoss[+]": ["Amascut, the Devourer", "The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows: Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Flesh-hatcher Mhekarnahz", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant mole", "Gregorovic", "Helwyr", "Ivar, King of Bones", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Nex", "Nex, Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rex Matriarchs", "Seiryu the Azure Serpent", "Silverquill, the Dreadhog", "Solak, Guardian of the Grove", "Telos, the Warden", "Twin Furies", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
 			"AnyDemon[+]": ["Abyssal beast", "Abyssal demon", "Abyssal savage", "Balfrug Kreeyath", "Black demon", "Gargoyle", "Greater demon", "Greater demon ash lord", "Greater demon berserker", "Greater demon brute", "Greater demon pyromancer", "Greater demon sage", "Greater demon savage", "Imp", "Imp scavenger", "K'ril Tsutsaroth", "Kal'gerion demon", "Lesser demon", "Ripper Demon", "Tormented demon", "Tstanon Karlak", "Zakl'n Gritch"],
 			"AnyDragon[+]": ["Adamant dragon", "Astellarn", "Baby blue dragon", "Baby red dragon", "Black dragon", "Black stone dragon", "Blue dragon", "Bronze dragon", "Brutal green dragon", "Celestial dragon", "Dragonstone dragon", "Frost dragon", "Green dragon", "Hydrix dragon", "Iron dragon", "King Black Dragon", "Mithril dragon", "Nodon artificer", "Nodon guard", "Nodon hunter", "Onyx dragon", "Queen Black Dragon", "Rune dragon", "Steel dragon", "Verak Lith"],
 			"AnyUndead[+]": ["Aberrant spectre", "Ahrim the Blighted", "Akrisae the Doomed", "Animated spade", "Ankou", "Armoured phantom", "Armoured zombie", "Banshee", "Bloated monstrosity", "Bound skeleton", "Corpse archer", "Corpse carrier", "Corpse mage", "Corpse spider", "Crawling corpse torso", "Crawling hand", "Dharok the Wretched", "Dragith Nurn", "Edimmu", "Fetid zombie", "Ghast", "Ghost", "Ghostly troll bruiser", "Ghostly troll thrower", "Guthan the Infested", "Karil the Tainted", "Linza the Disgraced", "Magic axe", "Monkey Zombie", "Mummy (Jaldraocht Pyramid)", "Mummy (Ullek)", "Phantom sorcerer", "Phantom wizard", "Possessed pickaxe", "Revenant cyclops", "Revenant dark beast", "Revenant demon", "Revenant dragon", "Revenant goblin", "Revenant hellhound", "Revenant hobgoblin", "Revenant icefiend", "Revenant imp", "Revenant knight", "Revenant ork", "Revenant pyrefiend", "Revenant vampyre", "Revenant werewolf", "Risen ghost", "Shade", "Shadow warrior", "Skeletal Wyvern", "Skeletal hand", "Skeleton#Armed", "Skeleton#Unarmed", "Skeleton Mage", "Skeleton knight", "Skoblin", "Skogre", "Small scarab", "Spiritual mage", "Spiritual ranger", "Spiritual warrior", "Taraket the Necromancer", "Torag the Corrupted", "Tormented wraith", "Undead chicken", "Undead cow", "Undead pekin", "Undead troll", "Verac the Defiled", "Wight", "Wight ranger", "Zogre", "Zombie#Level 12", "Zombie#Level 22", "Zombie#Level 29", "Zombie hand", "Zombie knight", "Zombie pirate", "Zombie swab", "Zombie warrior"],
@@ -268992,49 +268993,49 @@
 		},
 		"Juvenile boulder crab": {
 			"Limestone": {
-				"1": "Common"
+				"1": "33/128"
 			},
 			"Copper ore": {
-				"1-2": "Common"
+				"1-2": "7/128"
 			},
 			"Tin ore": {
-				"1": "Common"
+				"1": "7/128"
 			},
 			"Igneous geode": {
-				"1": "Uncommon"
+				"1": "2/128"
 			},
 			"Sedimentary geode": {
-				"1": "Uncommon"
+				"1": "2/128"
 			},
 			"Coins": {
-				"50-250": "Common"
+				"50-250": "19/128"
 			},
 			"Fishing bait": {
-				"5-10": "Common"
+				"5-10": "13/128"
 			},
 			"Wendlewick seed": {
-				"1": "Rare"
+				"1": "3/128"
 			},
 			"Raw sardine": {
-				"1-2": "Common"
+				"1-2": "12/128"
 			},
 			"Raw lobster": {
-				"1": "Uncommon"
+				"1": "6/128"
 			},
 			"Seaweed": {
-				"1-4": "Common"
+				"1-4": "12/128"
 			},
 			"Edible seaweed": {
-				"1": "Rare"
+				"1": "4/128"
 			},
 			"Empty oyster": {
-				"1": "Rare"
+				"1-2": "2/128"
 			},
 			"Oyster pearl": {
-				"1": "Rare"
+				"1": "3/128"
 			},
 			"Oyster": {
-				"1": "Rare"
+				"1": "3/128"
 			}
 		},
 		"K'ril Tsutsaroth": {
@@ -297814,6 +297815,15 @@
 				"~|God Emissaries Combat|~ 6": "Quest"
 			}],
 			"Oaken key^": [{
+				"Members only": "Nonskill"
+			}],
+			"Seaweed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Edible seaweed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Wendlewick seed^": [{
 				"Members only": "Nonskill"
 			}]
 		},
