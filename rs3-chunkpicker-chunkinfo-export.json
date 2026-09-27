@@ -1377,13 +1377,15 @@
 				"Category": ["Minigame"],
 				"Level": 75,
 				"Chunks": ["Rogues' Den"],
+				"NPCs": ["Brian O'Richard"],
 				"SkillsNeeded": {
 					"Thieving": 75,
 					"Herblore": 50
 				},
 				"Primary": true,
 				"Priority": 4,
-				"NoPet": true
+				"NoPet": true,
+				"NoBoost": true
 			},
 			"Barehand catch a ~|ruby harvest|~ in Piscatoris": {
 				"NPCs": ["Ruby harvest"],
@@ -42332,12 +42334,14 @@
 				"Category": ["Minigame"],
 				"Level": 50,
 				"Chunks": ["Rogues' Den"],
+				"NPCs": ["Brian O'Richard"],
 				"SkillsNeeded": {
 					"Agility": 75,
 					"Thieving": 75
 				},
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"NoBoost": true
 			},
 			"Mix a ~|super antipoison mix|~": {
 				"Items": ["SuperAntipoisonPotion[+]*", "Caviar*"],
@@ -70740,14 +70744,15 @@
 				"Category": ["Minigame"],
 				"Level": 75,
 				"Chunks": ["Rogues' Den"],
-				"Output": "FlashPowder",
+				"NPCs": ["Brian O'Richard"],
 				"SkillsNeeded": {
 					"Agility": 75,
 					"Herblore": 50
 				},
 				"Primary": true,
 				"Priority": 1000,
-				"Hide drops": true
+				"Hide drops": true,
+				"NoBoost": true
 			},
 			"Get the pickpocket bonus from the ~|exoskeleton bracers|~": {
 				"Items": ["Exoskeleton bracers"],
@@ -148858,12 +148863,12 @@
 			"(Artisans' Workshop) Obtain any ~|rune ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword", "Elder rune bar"]
+				"Items": ["Ceremonial sword", "ElderruneOrPrimal[+]"]
 			},
 			"(Artisans' Workshop) Obtain any ~|off-hand rune ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword", "Elder rune bar"]
+				"Items": ["Ceremonial sword", "ElderruneOrPrimal[+]"]
 			},
 			"Obtain an ~|iron ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
@@ -149088,52 +149093,52 @@
 			"Obtain an ~|rune ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "ElderruneOrPrimal[+]"]
 			},
 			"Obtain an ~|off-hand rune ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "ElderruneOrPrimal[+]"]
 			},
 			"Obtain an ~|rune ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "ElderruneOrPrimal[+]"]
 			},
 			"Obtain an ~|off-hand rune ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "ElderruneOrPrimal[+]"]
 			},
 			"Obtain an ~|rune ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "ElderruneOrPrimal[+]"]
 			},
 			"Obtain an ~|off-hand rune ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "ElderruneOrPrimal[+]"]
 			},
 			"Obtain an ~|rune ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "ElderruneOrPrimal[+]"]
 			},
 			"Obtain an ~|off-hand rune ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "ElderruneOrPrimal[+]"]
 			},
 			"Obtain an ~|rune ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "ElderruneOrPrimal[+]"]
 			},
 			"Obtain an ~|off-hand rune ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "ElderruneOrPrimal[+]"]
 			},
 			"(Barbarian Assault) Obtain a ~|fighter hat|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -167862,6 +167867,16 @@
 				"Output": "Wisps of the Grove rewards",
 				"Not F2P": true
 			},
+			"Flash Powder Factory rewards*": {
+				"Category": ["Minigame"],
+				"Chunks": ["Rogues' Den"],
+				"NPCs": ["Brian O'Richard"],
+				"Tasks": {
+					"Complete the ~|flash powder factory|~ minigame": "Thieving"
+				},
+				"Output": "Flash Powder Factory rewards",
+				"Not F2P": true
+			},
 			"Read the aged journal": {
 				"Items": ["Aged journal"]
 			},
@@ -179142,6 +179157,9 @@
 				"Chunks": ["12082-1"],
 				"NPCs": ["Gudrik"],
 				"Output": "Pathfinder items"
+			},
+			"F2P Farmers": {
+				"Chunks": ["F2P Farmers[+]"]
 			}
 		}
 	},
@@ -213045,7 +213063,8 @@
 						"Fermenting vat": 1,
 						"Fishing spot (crayfish)": 1,
 						"Tree": 12,
-						"Oak": 2
+						"Oak": 2,
+						"Creeping ivy": 1
 					},
 					"NPC": {
 						"Villager (Wendlewick)": 12,
@@ -213105,7 +213124,7 @@
 		"16692": {
 			"Object": {
 				"Pottery oven": 1,
-				"Creeping ivy": 5,
+				"Creeping ivy": 4,
 				"Drafting table": 1,
 				"Pattern table": 1,
 				"Loom": 1,
@@ -236503,6 +236522,7 @@
 			"EnterTheAbyss3[+]": ["12853-1", "12337-1", "10547-1", "Brimstail's cave", "10288-1"],
 			"ErskineSlayerChunks[+]": ["Forinthry Dungeon", "12601", "13116", "12345", "12093", "12347-1", "12347-2", "12349", "12605", "13371", "12858", "13368-1", "13369-1", "Edgeville Dungeon", "13115", "12857", "12090", "11835", "12091-1", "12091-2", "11836"],
 			"Everlight[+]": ["14899-2", "14898", "15154", "14897", "15153", "14641-1"],
+			"F2P Farmers[+]": ["12595-1", "12851-1", "11573"],
 			"FairyTaleI2[+]": ["11574", "13105", "13362-3", "9265-1", "8755", "8757", "9012-1", "9781", "11062-1", "11317-1", "12596-1", "12854", "12594", "12083-1", "12082-1", "11060-1", "11058", "9777-2", "15942-3", "11828", "10547-1", "10548", "10290", "11056", "14391", "13622-2", "10300", "10551-1", "10288-1", "11570", "12851-1", "11821-1", "12587-2"],
 			"FaladorChunks[+]": ["11828", "12084-1", "12084-2"],
 			"FaladorGuardChunks[+]": ["11827", "11828", "12084-1"],
@@ -256961,10 +256981,10 @@
 				"1": "1/128"
 			},
 			"Chargebow": {
-				"1": "1/200"
+				"1 (F2P)": "1/200"
 			},
 			"Staff of air": {
-				"1": "1/200"
+				"1 (F2P)": "1/200"
 			},
 			"HerbDropTable+": {
 				"1": "11/128"
@@ -281358,64 +281378,64 @@
 				"1": "1/2"
 			},
 			"Oak wood spirit": {
-				"8": "Common"
+				"8": "10/128"
 			},
 			"Willow wood spirit": {
-				"8": "Common"
+				"8": "9/128"
 			},
 			"Acadia wood spirit": {
-				"4": "Common"
+				"4": "7/128"
 			},
 			"Teak wood spirit": {
-				"4": "Common"
+				"4": "7/128"
 			},
 			"Elemental anima stone": {
-				"5-10": "Common"
+				"5-10": "8/128"
 			},
 			"Sanguine matter": {
-				"1": "1/14"
+				"1": "10/128"
 			},
 			"Clean spirit weed": {
-				"2-3": "Common"
+				"2-3": "6/128"
 			},
 			"Blood rune": {
-				"10-15": "Common"
+				"10-15": "6/128"
 			},
 			"Emerald bolt tips": {
-				"10-14": "Common"
+				"10-15": "8/128"
 			},
 			"Sapphire bolt tips": {
-				"10-14": "Common"
+				"10-15": "8/128"
 			},
 			"Uncut ruby": {
-				"5-7 (noted)": "Common"
+				"5-7 (noted)": "9/128"
 			},
 			"Uncut diamond": {
-				"3-5 (noted)": "Common"
+				"3-5 (noted)": "7/128"
 			},
 			"Uncut dragonstone": {
-				"2-3 (noted)": "Uncommon"
+				"2-3 (noted)": "5/128"
 			},
 			"Congealed blood": {
-				"5": "1/33"
+				"5": "6/128"
 			},
 			"Dragonstone bracelet": {
-				"1": "1/33"
+				"1": "3/128"
 			},
 			"Ashes": {
-				"10 (noted)": "Common"
+				"10 (noted)": "8/128"
 			},
 			"Flax": {
-				"20-30 (noted)": "Common"
+				"20-30 (noted)": "8/128"
 			},
 			"Rune 2h crossbow": {
-				"1": "1/50"
+				"1": "3/128"
 			},
 			"Long bone": {
-				"1": "1/500"
+				"1": "1/400"
 			},
 			"Curved bone": {
-				"1": "1/5000"
+				"1": "1/5012.5"
 			},
 			"Silverquill's blood-filled cyst": {
 				"1": "1/1000"
@@ -297825,6 +297845,30 @@
 			}],
 			"Wendlewick seed^": [{
 				"Members only": "Nonskill"
+			}],
+			"Bronze arrow^Farmer": [{
+				"F2P Farmers": "Nonskill"
+			}],
+			"Bronze bolts^Farmer": [{
+				"F2P Farmers": "Nonskill"
+			}],
+			"Bronze med helm^Farmer": [{
+				"F2P Farmers": "Nonskill"
+			}],
+			"Iron dagger^Farmer": [{
+				"F2P Farmers": "Nonskill"
+			}],
+			"Iron off hand dagger^Farmer": [{
+				"F2P Farmers": "Nonskill"
+			}],
+			"Cabbage^Farmer": [{
+				"F2P Farmers": "Nonskill"
+			}],
+			"Chargebow^Farmer": [{
+				"F2P Farmers": "Nonskill"
+			}],
+			"Staff of air^Farmer": [{
+				"F2P Farmers": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -299349,6 +299393,11 @@
 			"Fishing Guild Shop": {
 				"10293": [{
 					"Enter the ~|Fishing Guild|~": "Fishing"
+				}]
+			},
+			"Flash Factory Reward Shop": {
+				"Rogues' Den": [{
+					"Complete the ~|flash powder factory|~ minigame": "Thieving"
 				}]
 			},
 			"Fremennik Fishmonger": {
@@ -303225,6 +303274,19 @@
 			"Fishing bait": true,
 			"Feather": true,
 			"Big fishing net": true
+		},
+		"Flash Factory Reward Shop": {
+			"Factory mask": true,
+			"Factory top": true,
+			"Factory trousers": true,
+			"Factory gloves": true,
+			"Factory boots": true,
+			"Botanist's mask": true,
+			"Botanist's top": true,
+			"Botanist's trousers": true,
+			"Botanist's gloves": true,
+			"Botanist's boots": true,
+			"Botanist's mask add-on": true
 		},
 		"Flosi's Fishmongers": {
 			"Raw salmon": true,
@@ -341835,56 +341897,6 @@
 					"1": "1/38"
 				}
 			},
-			"FlashPowder": {
-				"Factory mask": {
-					"1": "Common"
-				},
-				"Factory top": {
-					"1": "Common"
-				},
-				"Factory trousers": {
-					"1": "Common"
-				},
-				"Factory gloves": {
-					"1": "Common"
-				},
-				"Factory boots": {
-					"1": "Common"
-				},
-				"Botanist's mask": {
-					"1": "Common"
-				},
-				"Botanist's top": {
-					"1": "Common"
-				},
-				"Botanist's trousers": {
-					"1": "Common"
-				},
-				"Botanist's gloves": {
-					"1": "Common"
-				},
-				"Botanist's boots": {
-					"1": "Common"
-				},
-				"Botanist's mask add-on": {
-					"1": "Common"
-				},
-				"Rogue mask": {
-					"1": "1/500"
-				},
-				"Rogue top": {
-					"1": "1/500"
-				},
-				"Rogue trousers": {
-					"1": "1/500"
-				},
-				"Rogue gloves": {
-					"1": "1/500"
-				},
-				"Rogue boots": {
-					"1": "1/500"
-				}
-			},
 			"Crux Eqal Druid": {
 				"Coins": {
 					"40-60": "Always"
@@ -344607,6 +344619,23 @@
 			"Wisps of the Grove rewards": {
 				"Vinny": {
 					"1": "1/100"
+				}
+			},
+			"Flash Powder Factory rewards": {
+				"Rogue mask": {
+					"1": "1/500"
+				},
+				"Rogue top": {
+					"1": "1/500"
+				},
+				"Rogue trousers": {
+					"1": "1/500"
+				},
+				"Rogue gloves": {
+					"1": "1/500"
+				},
+				"Rogue boots": {
+					"1": "1/500"
 				}
 			},
 			"Oyster loot": {
