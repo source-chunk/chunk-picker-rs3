@@ -215428,6 +215428,9 @@
 				"Tunnel": 1
 			}
 		},
+		"18163": {
+			"Name": "Temple of Aminishi"
+		},
 		"18205": {
 			"Object": {
 				"Trunk": 2
@@ -215439,19 +215442,6 @@
 				"Trunk": 2
 			},
 			"Nickname": "North-East Gongdung"
-		},
-		"18033": {
-			"Object": {
-				"Tome": 1
-			},
-			"NPC": {
-				"Megan": 1,
-				"Mysterious body": 2,
-				"Primrose": 1
-			}
-		},
-		"18163": {
-			"Name": "Temple of Aminishi"
 		},
 		"18249": {
 			"Object": {
@@ -215515,42 +215505,6 @@
 				"Gail": 1,
 				"Primrose": 1
 			}
-		},
-		"18496": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Portal": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"18498": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Portal": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"18500": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Portal": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"18502": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Portal": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
 		},
 		"18504": {
 			"Object": {
@@ -215775,50 +215729,6 @@
 			},
 			"Name": "Temple of Aminishi"
 		},
-		"18750": {
-			"Object": {
-				"Spotlight machine": 1,
-				"Sound machine": 1,
-				"Prop machine": 1,
-				"Bench": 40
-			},
-			"Name": "Clan Citadel"
-		},
-		"18753": {
-			"Object": {
-				"Bench": 136,
-				"Altar": 1,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"18755": {
-			"Object": {
-				"Bench": 120,
-				"Altar": 1,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"18757": {
-			"Object": {
-				"Bench": 120,
-				"Altar": 1,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"18759": {
-			"Object": {
-				"Bench": 112,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
 		"18761": {
 			"Object": {
 				"Bench": 112,
@@ -215935,60 +215845,6 @@
 				"Shackle Platform": 1
 			},
 			"Name": "Temple of Aminishi"
-		},
-		"19006": {
-			"Object": {
-				"Spotlight machine": 1,
-				"Sound machine": 1,
-				"Prop machine": 1,
-				"Bench": 40
-			},
-			"Name": "Clan Citadel"
-		},
-		"19007": {
-			"Object": {
-				"Woodchip": 48,
-				"Stewing Pot": 26,
-				"Large Chopping Board": 26,
-				"Grill": 26
-			},
-			"Name": "Clan Citadel"
-		},
-		"19008": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Portal": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"19010": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Portal": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"19012": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Portal": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"19014": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Portal": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
 		},
 		"19016": {
 			"Object": {
@@ -216166,70 +216022,6 @@
 				"Peck": 1,
 				"Tunks": 1
 			}
-		},
-		"19260": {
-			"Object": {
-				"Portal": 3
-			},
-			"Name": "Clan Citadel"
-		},
-		"19261": {
-			"Object": {
-				"Portal": 3
-			},
-			"Name": "Clan Citadel"
-		},
-		"19262": {
-			"Object": {
-				"Spotlight machine": 1,
-				"Sound machine": 1,
-				"Prop machine": 1,
-				"Bench": 40
-			},
-			"Name": "Clan Citadel"
-		},
-		"19263": {
-			"Object": {
-				"Loom": 32,
-				"Ore container": 16,
-				"Precious Ore container": 8
-			},
-			"Name": "Clan Citadel"
-		},
-		"19265": {
-			"Object": {
-				"Bench": 136,
-				"Altar": 1,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"19267": {
-			"Object": {
-				"Bench": 120,
-				"Altar": 1,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"19269": {
-			"Object": {
-				"Bench": 120,
-				"Altar": 1,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"19271": {
-			"Object": {
-				"Bench": 112,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
 		},
 		"19273": {
 			"Object": {
