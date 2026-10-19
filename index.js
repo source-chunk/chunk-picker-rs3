@@ -428,7 +428,6 @@ let rules = {
     "Pets": false,
     "Kill X Amount": "1",
     "Rare Drop Amount": "1000",
-    "Manually Complete Tasks": false,
     "Every Drop": false,
     "HigherLander": false,
     "Secondary MTA": false,
@@ -570,7 +569,6 @@ let ruleNames = {
     "Smithing by Smelting": "Smelting ores into bars counts as a primary method for training Smithing",
     "Pets": "Must obtain pets for Collections and Unlocks tasks<span class='rule-asterisk noscroll'>*</span>",
     "Cosmetics": "Must obtain cosmetic items or overrides for Collections and Unlocks tasks<span class='rule-asterisk noscroll'>*</span>",
-    "Manually Complete Tasks": "<b class='noscroll'>For maps that allow manually choosing new chunks</b>, allow the ability to manually move completed active tasks",
     "Every Drop": "Must obtain every unique item drop from monsters (items that are dropped by multiple monsters only need to be obtained once)",
     "Every Drop Implings": "Allow drops from implings to also count towards these tasks",
     "Every Drop BGH": "Allow drops from Big Game Hunter to also count towards these tasks",
@@ -989,7 +987,6 @@ let ruleStructure = {
 		"Timegated": true,
 		"Kill X": ["Kill X Boss"],
         "Fill Stash": true,
-        "Manually Complete Tasks": true,
         "Skiller": true,
         "F2P": true
     }
@@ -1052,6 +1049,8 @@ let ruleTooltips = [
 	'partialProductsRuleTooltip'
 ];
 
+let ruleInnerTitles = {};
+
 let settings = {
     "highvis": false,
     "roll2": false,
@@ -1080,6 +1079,7 @@ let settings = {
     "defaultChunkinfo": 'monsters',
     "taskSearchbar": false,
 	"hideAchievements": false,
+    "manuallyCompleteTasks": false,
 };                                                                              // Current state of all settings
 
 let settingNames = {
@@ -1108,7 +1108,8 @@ let settingNames = {
     "unlockedBorderColor": "Change the color of the border surrounding your unlocked chunks",
     "defaultChunkinfo": 'Select the default tab when first opening the Chunk Info Panel',
     "taskSearchbar": "Show a searchbar at the top of your Active Tasks to allow filtering. Useful for maps with large task lists that have trouble finding specific tasks",
-	"hideAchievements": "Only show achievements in the Activity Info window that are required according to your ruleset"
+	"hideAchievements": "Only show achievements in the Activity Info window that are required according to your ruleset",
+    "manuallyCompleteTasks": "Allow the ability to manually move completed active tasks to the Completed Tasks tab (useful for accounts that choose their own chunks)",
 };                                                                              // Descriptions of the settings
 
 let settingStructure = {
@@ -1123,7 +1124,7 @@ let settingStructure = {
     "Information Panels": {
         "recent": true,
         "info": ["defaultChunkinfo"],
-        "chunkTasks": ["taskSidebar", "hideChecked", "taskSearchbar"],
+        "chunkTasks": ["taskSidebar", "hideChecked", "taskSearchbar", "manuallyCompleteTasks"],
         "topButtons": ["allTasks", "hideAchievements"]
     },
     "Warnings": {
@@ -1449,6 +1450,7 @@ let doableClueStepsModalOpen = false;
 let clueChunksModalOpen = false;
 let clipboardModalOpen = false;
 let customizeTopbarModalOpen = false;
+let revisionSyncModalOpen = false;
 let notesOpen = false;
 let notesEditing = false;
 let newTasksOpen = false;
@@ -1610,10 +1612,10 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.9.68';
+let currentVersion = '6.9.69';
 let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.48';
-let updateLevel = 'unconnected-areas, shopsPlus';
+let updateLevel = 'rule-rewording';
 
 // Patreon Test Server Data
 let onTestServer = false;
@@ -1711,6 +1713,8 @@ let searchDetailSortBy = 'Alphabetical';
 let searchDetailsParams = [];
 let recentFancyRollTimeout;
 let recentFancyRollTime = 0;
+let localRevision = -1;
+let saveTimeout = null;
 let searchActiveTasksFocused = false;
 let removeCanvasDarkness = false;
 let tasksMap = {};
@@ -1760,7 +1764,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.9.68";
+mapImg.src = "runescape_world_map.png?v=6.9.69";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -2659,7 +2663,7 @@ let handleMouseDown = function(e) {
 
 // Handles mouse move event
 let handleMouseMove = function(e) {
-    if ((e.button !== 0 && !e.touches) || atHome || inEntry || importMenuOpen || highscoreMenuOpen || helpMenuOpen || patchNotesOpen || manualModalOpen || detailsModalOpen || notesModalOpen || rulesModalOpen || settingsModalOpen || userTasksModalOpen || searchModalOpen || searchDetailsModalOpen || highestModalOpen || highest2ModalOpen || methodsModalOpen || completeModalOpen || addEquipmentModalOpen || stickerModalOpen || paintModalOpen || backlogSourcesModalOpen || chunkHistoryModalOpen || challengeAltsModalOpen || manualOuterModalOpen || monsterModalOpen || slayerLockedModalOpen || rollChunkModalOpen || questStepsModalOpen || friendsListModalOpen || friendsAddModalOpen || passiveSkillModalOpen || mapIntroOpen || xpRewardOpen || manualAreasModalOpen || chunkSectionsModalOpen || chunkSectionPickerModalOpen || slayerMasterInfoModalOpen || doableClueStepsModalOpen || clueChunksModalOpen || notesOpen || newTasksOpen || clipboardModalOpen || overlaysModalOpen || userTasksListModalOpen || userTaskDeleteConfirmationModalOpen || exitSandboxWarningModalOpen || mobileMenuOpen || mobileTasksOpen || mobileChunkMenuOpen || customizeTopbarModalOpen) {
+    if ((e.button !== 0 && !e.touches) || atHome || inEntry || importMenuOpen || highscoreMenuOpen || helpMenuOpen || patchNotesOpen || manualModalOpen || detailsModalOpen || notesModalOpen || rulesModalOpen || settingsModalOpen || userTasksModalOpen || searchModalOpen || searchDetailsModalOpen || highestModalOpen || highest2ModalOpen || methodsModalOpen || completeModalOpen || addEquipmentModalOpen || stickerModalOpen || paintModalOpen || backlogSourcesModalOpen || chunkHistoryModalOpen || challengeAltsModalOpen || manualOuterModalOpen || monsterModalOpen || slayerLockedModalOpen || rollChunkModalOpen || questStepsModalOpen || friendsListModalOpen || friendsAddModalOpen || passiveSkillModalOpen || mapIntroOpen || xpRewardOpen || manualAreasModalOpen || chunkSectionsModalOpen || chunkSectionPickerModalOpen || slayerMasterInfoModalOpen || doableClueStepsModalOpen || clueChunksModalOpen || notesOpen || newTasksOpen || clipboardModalOpen || overlaysModalOpen || userTasksListModalOpen || userTaskDeleteConfirmationModalOpen || exitSandboxWarningModalOpen || mobileMenuOpen || mobileTasksOpen || mobileChunkMenuOpen || customizeTopbarModalOpen || revisionSyncModalOpen) {
         drawCanvas();
         return;
     }
@@ -3689,7 +3693,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.9.68");
+        myWorker = new Worker("./worker.js?v=6.9.69");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage({
             type: 'current',
@@ -4047,8 +4051,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.9.68");
-let myWorker2 = new Worker("./worker.js?v=6.9.68");
+let myWorker = new Worker("./worker.js?v=6.9.69");
+let myWorker2 = new Worker("./worker.js?v=6.9.69");
 let workerOnMessage = function(e) {
     if (e.data.type === 'reload') {
         window.location.reload();
@@ -5163,7 +5167,7 @@ let unlockEntry = function() {
                     !isPicking && unpickOn && $('.unpick').css('opacity', 0).show();
                     $('.open-manual-outer-container').css('opacity', 0).show();
                     $('.dropdown-item-customize-topbar').css('opacity', 0).show();
-                    rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 0).show();
+                    settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 0).show();
                     $('#entry-menu').animate({ 'opacity': 0 });
                     myRef.child('mapCreationTimes/' + mid).once('value', function(snap) {
                         if (!snap.val()) {
@@ -5178,7 +5182,7 @@ let unlockEntry = function() {
                         !isPicking && unpickOn && $('.unpick').animate({ 'opacity': 1 });
                         $('.open-manual-outer-container').animate({ 'opacity': 1 });
                         $('.dropdown-item-customize-topbar').animate({ 'opacity': 1 });
-                        rules['Manually Complete Tasks'] && $('.open-complete-container').animate({ 'opacity': 1 });
+                        settings['manuallyCompleteTasks'] && $('.open-complete-container').animate({ 'opacity': 1 });
                         $('#unlock-entry').prop('disabled', false).text('Unlock');
                         locked = false;
                         inEntry = false;
@@ -5224,7 +5228,7 @@ let unlockEntry = function() {
                             !isPicking && unpickOn && $('.unpick').css('opacity', 0).show();
                             $('.open-manual-outer-container').css('opacity', 0).show();
                             $('.dropdown-item-customize-topbar').css('opacity', 0).show();
-                            rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 0).show();
+                            settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 0).show();
                             $('#entry-menu').animate({ 'opacity': 0 });
                             setTimeout(function() {
                                 $('#entry-menu').css('opacity', 1).hide();
@@ -5234,7 +5238,7 @@ let unlockEntry = function() {
                                 !isPicking && unpickOn && $('.unpick').animate({ 'opacity': 1 });
                                 $('.open-manual-outer-container').animate({ 'opacity': 1 });
                                 $('.dropdown-item-customize-topbar').animate({ 'opacity': 1 });
-                                rules['Manually Complete Tasks'] && $('.open-complete-container').animate({ 'opacity': 1 });
+                                settings['manuallyCompleteTasks'] && $('.open-complete-container').animate({ 'opacity': 1 });
                                 $('#unlock-entry').prop('disabled', false).text('Unlock');
                                 locked = false;
                                 inEntry = false;
@@ -5376,7 +5380,7 @@ let accessMap = function() {
                             recentOn && !settings['taskSidebar'] && $('.menu7').show();
                             $('.open-manual-outer-container').css('opacity', 1).show();
                             $('.dropdown-item-customize-topbar').css('opacity', 1).show();
-                            rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 1).show();
+                            settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 1).show();
                             setRecentLogin();
                             setupMap();
                             myRef.child('mapCreationTimes/' + mid).once('value', function(snap) {
@@ -5436,7 +5440,7 @@ let accessMap = function() {
                                     recentOn && !settings['taskSidebar'] && $('.menu7').show();
                                     $('.open-manual-outer-container').css('opacity', 1).show();
                                     $('.dropdown-item-customize-topbar').css('opacity', 1).show();
-                                    rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 1).show();
+                                    settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 1).show();
                                     setupMap();
                                 }).catch((error) => {
                                     $('.pin-err').css('visibility', 'visible');
@@ -5595,7 +5599,7 @@ let enableTestMode = async function(close, fromConfirm) {
             $('.open-manual-outer-container').css('opacity', 1).show();
             $('.dropdown-item-customize-topbar').css('opacity', 1).show();
             $('.open-checkoff-container').css('opacity', 1).show();
-            rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 1).show();
+            settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 1).show();
             $('.center').css('margin-top', '15px');
             $('.pick').css('opacity', 1).show();
             roll2On && $('.roll2').css('opacity', 1).show();
@@ -6126,7 +6130,7 @@ let setupMap = async function() {
             $('.open-manual-outer-container').css('opacity', 0).hide();
             $('.open-checkoff-container').css('opacity', 0).hide();
             $('.dropdown-item-customize-topbar').css('opacity', 0).hide();
-            rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 0).hide();
+            settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 0).hide();
             $('.pin.entry').focus();
         } else {
             $('.center').css('margin-top', '15px');
@@ -6140,7 +6144,7 @@ let setupMap = async function() {
             $('.open-manual-outer-container').css('opacity', 0).hide();
             $('.open-checkoff-container').css('opacity', 0).hide();
             $('.dropdown-item-customize-topbar').css('opacity', 0).hide();
-            rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 0).hide();
+            settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 0).hide();
             $('.center, #toggleIds, .toggleIds.text').css('opacity', 1).show();
             $('.pin.entry').focus();
         }
@@ -7215,7 +7219,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.9.68");
+    myWorker2 = new Worker("./worker.js?v=6.9.69");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage({
         type: 'future',
@@ -7404,7 +7408,7 @@ let calcFutureChallenges2 = function(valids, baseChunkDataLocal, localHighestOve
                 }
             }
             let challengeLabelLine = '';
-            if (skillNames.includes(skill) && !!chunkInfo['challenges'][skill][challenge]) {
+            if (skillNames.includes(skill) && !!chunkInfo['challenges'][skill][challenge] && chunkInfo['challenges'][skill][challenge].hasOwnProperty('Level')) {
                 challengeLabelLine = `[${chunkInfo['challenges'][skill][challenge]['Level']}] ${skill}: `;
             } else if (skill === 'BiS' || skill === 'Extra') {
                 challengeLabelLine = `[${chunkInfo['challenges'][skill][challenge]['Label']}]: `;
@@ -11906,6 +11910,12 @@ let showRules = function(isPage2) {
             let tooltipTarget = onMobile ? $(`.rules-data > div:not(.rules-content) .${tooltipTargetSelector}`) : $(`.rules-data > .rules-content .${tooltipTargetSelector}`);
             tooltipTarget.html(tooltip.generate(tooltipTargetSelector, '<i class="fa-solid fa-question-circle question-help"></i>', tooltipTargetSelector, onMobile ? 'bottom' : 'right'));
         });
+        Object.keys(ruleInnerTitles).forEach((ruleName) => {
+            const formattedRuleName = ruleName.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule';
+            const titleTarget = onMobile ? $(`.rules-data > div:not(.rules-content) .${formattedRuleName}`) : $(`.rules-data > .rules-content .${formattedRuleName}`);
+            const innerTitle = `<div class='rule-innertitle'>${ruleInnerTitles[ruleName]}</div>`;
+            $(innerTitle).insertBefore(titleTarget);
+        });
         $('#rulesModal').show();
         modalOutsideTime = Date.now();
     }
@@ -12589,8 +12599,6 @@ let checkOffRules = function(didRedo, startup) {
     }
     if (!startup) {
         calcCurrentChallengesCanvas(true);
-        rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 1).show();
-        !rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 0).hide();
         setData();
     }
 }
@@ -12644,6 +12652,8 @@ let checkOffSettings = function(didRedo, startup) {
     settings['hideChecked'] ? $(`.tasks-checkmark`).show() : $(`.tasks-checkmark`).hide();
     changeChallengeColor();
     if (!startup) {
+        settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 1).show();
+        !settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 0).hide();
         setData();
     }
     if (isPicking && !settings['randomStartAlways']) {
@@ -13168,6 +13178,7 @@ let loadData = async function(startup) {
         toggleTaskSidebar(settings['taskSidebar'], 'startup');
         toggleTaskSearchbar(settings['taskSearchbar'], 'startup');
         settings['hideChecked'] ? $(`.tasks-checkmark`).show() : $(`.tasks-checkmark`).hide();
+        settings['manuallyCompleteTasks'] && !viewOnly && !inEntry && !locked ? $('.open-complete-container').css('opacity', 1).show() : $('.open-complete-container').css('opacity', 0).hide();
     });
     myRef.child('recent').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'recent');
@@ -13270,6 +13281,13 @@ let loadData = async function(startup) {
         }
         if (recentFancyRollTime === 0) {
             loadData();
+        }
+    });
+    myRef.child('revision').once('value', function(snap) {
+        let snapDiff = preloadHelper(snap, 'revision');
+        if (snapDiff === false) return;
+        if (localRevision === -1) {
+            localRevision = !!snap.val() ? snap.val() : 0;
         }
     });
     myRef.child('chunkinfo/checkedChallenges').once('value', function(snap) {
@@ -13538,9 +13556,6 @@ let loadData = async function(startup) {
         });
         rulesModalOpen && showRules();
         chunkTasksOn && calcCurrentChallengesCanvas(true, !initialLoaded || recentlyTestMode, !viewOnly);
-        if (!startup) {
-            rules['Manually Complete Tasks'] && !viewOnly && !inEntry && !locked ? $('.open-complete-container').css('opacity', 1).show() : $('.open-complete-container').css('opacity', 0).hide();
-        }
         questFilterType = 'all';
         !initialLoaded && chunkTasksOn && setupCurrentChallengesFromSaved();
     });
@@ -13655,9 +13670,36 @@ let convertToIds = function(obj) {
     return translatedObj;
 }
 
+// Checks if the revision number is correct to prevent overlapping data writes
+let revisionSync = function() {
+    myRef.child('revision').transaction((revision) => {
+        if (revision === null) return null;
+        if (revision !== localRevision) return;
+        localRevision = revision + 1;
+        return revision + 1;
+    },
+    (error, committed) => {
+        if (!error && committed) {
+            setData(true);
+        } else {
+            modal.generate('revisionSyncModal', onMobile);
+            revisionSyncModalOpen = true;
+            $('#revisionSyncModal').show();
+        }
+    });
+}
+
 // Stores data in Firebase
-let setData = function() {
+let setData = function(doneDebouncing) {
     if (onTestServer || testMode || recentlyTestMode || !signedIn) {
+        return;
+    }
+    if (!doneDebouncing) {
+        clearTimeout(saveTimeout);
+
+        saveTimeout = setTimeout(() => {
+            revisionSync(skipCreatePluginOutput);
+        }, 500);
         return;
     }
     Object.keys(rules).forEach((rule) => {
@@ -13743,11 +13785,12 @@ let setData = function() {
             'newTasks': settings['newTasks'],
             'hideChecked': settings['hideChecked'],
             'shiftUnlock': settings['shiftUnlock'],
-            rollWarning: settings['rollWarning'],
-            info: chunkInfoOn,
+            'rollWarning': settings['rollWarning'],
+            'info': chunkInfoOn,
             'defaultChunkinfo': settings['defaultChunkinfo'],
             'taskSearchbar': settings['taskSearchbar'],
-			'hideAchievements': settings['hideAchievements']
+			'hideAchievements': settings['hideAchievements'],
+            'manuallyCompleteTasks': settings['manuallyCompleteTasks']
         }, //TEMP (highscore not enabled)
         chunkinfo: {
             checkedChallenges: encodeObject(convertToIds(checkedChallenges), true),
@@ -13784,6 +13827,7 @@ let setData = function() {
     };
     let databaseObject = JSON.parse(JSON.stringify(setSnap));
     delete databaseObject['chunkOrder'];
+    delete databaseObject['revision'];
     if (firebase.auth().currentUser) {
         myRef.child('test').set(null, (error) => {
             if (error) {
@@ -13903,7 +13947,7 @@ let changeLocked = function() {
                     !isPicking && unpickOn && $('.unpick').css('opacity', 0).show();
                     $('.open-manual-outer-container').css('opacity', 0).show();
                     $('.dropdown-item-customize-topbar').css('opacity', 0).show();
-                    rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 0).show();
+                    settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 0).show();
                     $('.lock-box').animate({ 'opacity': 0 });
                     setRecentLogin();
                     myRef.child('mapCreationTimes/' + mid).once('value', function(snap) {
@@ -13918,7 +13962,7 @@ let changeLocked = function() {
                         !isPicking && unpickOn && $('.unpick').animate({ 'opacity': 1 });
                         $('.open-manual-outer-container').animate({ 'opacity': 1 });
                         $('.dropdown-item-customize-topbar').animate({ 'opacity': 1 });
-                        rules['Manually Complete Tasks'] && $('.open-complete-container').animate({ 'opacity': 1 });
+                        settings['manuallyCompleteTasks'] && $('.open-complete-container').animate({ 'opacity': 1 });
                         $('#lock-unlock').prop('disabled', false).text('Unlock');
                         locked = false;
                         helpMenuOpenSoon && helpFunc();
@@ -13961,7 +14005,7 @@ let changeLocked = function() {
                             !isPicking && unpickOn && $('.unpick').css('opacity', 0).show();
                             $('.open-manual-outer-container').css('opacity', 0).show();
                             $('.dropdown-item-customize-topbar').css('opacity', 0).show();
-                            rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 0).show();
+                            settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 0).show();
                             $('.lock-box').animate({ 'opacity': 0 });
                             setTimeout(function() {
                                 $('.lock-box').css('opacity', 1).hide();
@@ -13970,7 +14014,7 @@ let changeLocked = function() {
                                 !isPicking && unpickOn && $('.unpick').animate({ 'opacity': 1 });
                                 $('.open-manual-outer-container').animate({ 'opacity': 1 });
                                 $('.dropdown-item-customize-topbar').animate({ 'opacity': 1 });
-                                rules['Manually Complete Tasks'] && $('.open-complete-container').animate({ 'opacity': 1 });
+                                settings['manuallyCompleteTasks'] && $('.open-complete-container').animate({ 'opacity': 1 });
                                 $('#lock-unlock').prop('disabled', false).text('Unlock');
                                 locked = false;
                                 helpMenuOpenSoon && helpFunc();

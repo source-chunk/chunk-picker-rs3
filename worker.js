@@ -305,7 +305,7 @@ onmessage = function(e) {
             unconnectedAreas
         } = eGlobal.data);
 
-        if (updateLevel !== 'unconnected-areas, shopsPlus') {
+        if (updateLevel !== 'rule-rewording') {
             postMessage({ type: 'reload' });
         }
 
