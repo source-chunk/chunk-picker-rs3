@@ -30018,7 +30018,7 @@
 				"Priority": 5
 			},
 			"Deposit memories at the ~|colossus murals|~": {
-				"Objects": ["Colossus mural", "Colossus remnants", "Bat mural", "Fox mural", "Millipede mural", "Spider mural", "Tree mural", "Unicorn mural", "Wolf mural"],
+				"Objects": ["Colossus remnants", "Bat mural", "Fox mural", "Millipede mural", "Spider mural", "Tree mural", "Unicorn mural", "Wolf mural"],
 				"NPCs": ["Aurriel"],
 				"Level": 77,
 				"Skills": {
@@ -41485,7 +41485,7 @@
 			"Fletch an ~|elemental totem|~": {
 				"Level": 105,
 				"Items": ["Petrified logs"],
-				"Objects": ["Totem log (logs)"],
+				"Objects": ["Totem log (wood)"],
 				"Output": "Totem reward bag",
 				"Primary": true,
 				"Priority": 4
@@ -49161,7 +49161,7 @@
 				"NPCs": ["Azur"],
 				"Level": 65,
 				"Primary": true,
-				"Output": "Essence vein+",
+				"Output": "Essence lump+",
 				"Priority": 2,
 				"Not F2P": true
 			},
@@ -49354,7 +49354,7 @@
 				"NPCs": ["Azur"],
 				"Level": 85,
 				"Primary": true,
-				"Output": "Essence deposit+",
+				"Output": "Essence chunk+",
 				"Priority": 2,
 				"Not F2P": true
 			},
@@ -49675,7 +49675,7 @@
 				"NPCs": ["Azur"],
 				"Level": 65,
 				"Primary": true,
-				"Output": "Large essence deposit+",
+				"Output": "Essence slab+",
 				"Priority": 2,
 				"Not F2P": true
 			},
@@ -157794,10 +157794,14 @@
 				"Chunks": ["18738-2"]
 			},
 			"Repair the ~|cactus patch|~ in Menaphos": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
 				"Chunks": ["12587-2"],
 				"Items": ["Acadia logs*"]
 			},
 			"Repair the ~|cactus patch|~ on Anachronia": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
 				"Chunks": ["15942-3"],
 				"Items": ["Magic logs*"]
 			},
@@ -215599,7 +215603,7 @@
 						"Tree": 24,
 						"Oak": 21,
 						"Stepping stones (South Wendlewick)": 1,
-						"Milipede mural": 1
+						"Millipede mural": 1
 					},
 					"Monster": {
 						"Unicorn": 1,
