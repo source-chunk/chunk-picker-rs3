@@ -390,7 +390,6 @@ let rules = {
     "BIS Skilling": false,
 	"BIS Skilling Consumables": false,
 	"BIS Skilling Relics": false,
-    "Collection Log": false,
 	"Boss Collection Log": false,
 	"Slayer Collection Log": false,
 	"Skilling Collection Log": false,
@@ -411,7 +410,6 @@ let rules = {
     "Secondary Primary Amount": "1",
     "RDT": false,
     "Crystal chests": false,
-    "Untracked Uniques": false,
     "Untracked Uniques Skilling": false,
     "Untracked Uniques Combat": false,
     "Untracked Uniques Minigames": false,
@@ -499,10 +497,10 @@ let rules = {
 let ruleNames = {
     "Skillcape": "Must obtain skillcapes<span class='rule-asterisk noscroll'>*</span>",
     "Rare Drop": "Chunk tasks can use drops more common than 1/X (not inclusive, set to 0 to include all drops)<span class='rareDropRuleTooltip'></span>",
-    "Pouch": "Using Runecrafting pouches count as chunk tasks",
+    "Pouch": "Using Runecrafting pouches counts as chunk tasks",
     "InsidePOH": "Constructing furniture on a workbench counts as a Construction skill task<span class='rule-asterisk noscroll'>*</span>",
-    "InsidePOH Primary": "...and counts as a primary training method for Construction<span class='rule-asterisk noscroll'>*</span>",
-    "Construction Milestone": "Miscellaneous player-owned house unlocks (e.g. House style, room shapes, etc) can count for chunk tasks",
+    "InsidePOH Primary": "...and counts as a primary Construction training<span class='rule-asterisk noscroll'>*</span>",
+    "Construction Milestone": "Miscellaneous player-owned house unlocks (e.g. House style, room shapes, etc) count for chunk tasks",
     "Boss": "Killing a boss can be used for a chunk task (item on droptable, Slayer level to kill, etc.)",
     "Slayer Equipment": "Using Slayer equipment counts for chunk tasks",
     "Normal Farming": "Normal Farming",
@@ -514,8 +512,8 @@ let ruleNames = {
     "Show Quest Tasks": "Show Quest Tasks",
     "Show Diary Tasks": "Show Area Tasks achievements",
     "Show Best in Slot Tasks": "Show tasks for standard combat Best in Slot (Accuracy + Damage tier, secondarily Armour)",
-    "Show Best in Slot Prayer Tasks": "...and Prayer-boosting gear",
-    "Show Best in Slot Defensive Tasks": "...and for Tank gear (highest Armor + Health boost)",
+    "Show Best in Slot Prayer Tasks": "...and for Prayer-boosting gear",
+    "Show Best in Slot Defensive Tasks": "...and for Tank gear (highest Armour + Health boost)",
     "Show Best in Slot Melee Style Tasks": "...and split Melee into Stab/Slash/Crush",
     "Show Best in Slot 1H and 2H": "...and for both 2-handed and 1-handed/shield, rather than just the better of the two",
     "Show Best in Slot Shield": "...and for both off-hand weapons and shields, rather than just the better of the two",
@@ -524,35 +522,34 @@ let ruleNames = {
     "Show Diary Tasks Complete": "...only when all tasks of a given tier is completable (per Region)",
     "Show Diary Tasks Any": "...regardless of tier, instead of only the lowest incomplete tier<span class='rule-asterisk noscroll'>*</span>",
     "Highest Level": "Processing skill tasks require the highest level of processing, rather than the lowest<span class='rule-asterisk noscroll'>*</span><span class='highestLevelRuleTooltip'></span>",
-    "BIS Skilling": "Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Pickaxe of Life and Death, Elite skilling outfits, Seed bag, etc.)",
+    "BIS Skilling": "Must obtain items that are best-in-slot, or add quality-of-life, for skilling (e.g. Pickaxe of Life and Death, Elite skilling outfits, Seed bag, etc.)",
     "BIS Skilling Consumables": "...and charged or degrading skilling items (scrimshaws, skillchompa, etc.)",
     "BIS Skilling Relics": "...and Archaeology relics for skilling",
 	"Brawling Gloves": "...and every non-combat pair of brawling gloves",
 	"Hero Items": "Must obtain Hero Items as part of chunk tasks<span class='rule-asterisk noscroll'>†</span>",
-    "Collection Log": "Must obtain items on collection logs (Does nothing on its own)",
 	"Boss Collection Log": "Boss collection log<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Collection Log": "Slayer collection log<span class='rule-asterisk noscroll'>*</span>",
 	"Skilling Collection Log": "Skilling collection log (hidden)<span class='rule-asterisk noscroll'>*</span>",
 	"Archaeology Collections": "Must fill out all Archaeology collections<span class='rule-asterisk noscroll'>*</span>",
-	"Universal Tertiary": "Allow universal tertiary drops (mimic tokens, effigies, spirit gems) to count towards chunk tasks<span class='rule-asterisk noscroll'>†</span>",
+	"Universal Tertiary": "Universal tertiary drops (mimic tokens, effigies, spirit gems) count towards chunk tasks<span class='rule-asterisk noscroll'>†</span>",
 	"Breeding Log": "Breeding logs<span class='rule-asterisk noscroll'>*</span>",
-    "Minigame": "Items obtained from and actvities inside minigames to count towards chunk tasks",
-	"DnD": "Items obtained from and activities inside Distractions and Diversions to count towards chunk tasks<span class='rule-asterisk noscroll'>*</span>",
+    "Minigame": "Items obtained from and actvities inside minigames count towards chunk tasks",
+	"DnD": "Items obtained from and activities inside Distractions and Diversions count towards chunk tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Not Daily DnD": "...including Distractions and Diversions that reset less frequently than once a day<span class='rule-asterisk noscroll'>†</span>",
 	"DnD Flash Events": "...including Demon Flash Mobs and Goblin Raids<span class='rule-asterisk noscroll'>*</span>",
     "Shortcut Task": "Agility shortcuts count as an Agility skill task",
     "Shortcut": "...and as a primary Agility training method",
-    "Wield Crafted Items": "Crafted items count towaards chunks tasks<span class='rule-asterisk noscroll'>*</span><span class='wieldCraftedItemsRuleTooltip'></span>",
+    "Wield Crafted Items": "Crafted items count towards chunks tasks<span class='rule-asterisk noscroll'>*</span><span class='wieldCraftedItemsRuleTooltip'></span>",
     "Wield Crafted Items Override": "Require higher level processing skill tasks if the resulting item would be a BiS (may require longer calculation times)<span class='wieldCraftedItemsOverrideRuleTooltip'></span>",
     "Multi Step Processing": `Allow higher level processing of resources to enable other processing tasks <span class='rule-asterisk noscroll'>*</span><span class='multiStepProcessingRuleTooltip'></span>`,
-    "Puro-Puro": "Allow implings in underground areas (Puro-Puro, City of Um, etc.) and their drops to count towards chunk tasks",
+    "Puro-Puro": "Implings in underground areas (Puro-Puro, City of Um, etc.), and their drops, count towards chunk tasks",
     "Extra implings": "...including implings that have non-guaranteed spawns",
-    "Bakami": "Allow bakami and orokami and their drops to count towards chunk tasks",
+    "Bakami": "Bakami and orokami, and their drops, count towards chunk tasks",
     "Wandering implings": "Implings that randomly wander the world and their drops count towards chunk tasks <span class='rule-asterisk noscroll'>†</span>",
 	"Farming Primary": "Farming products (herbs, vegetables, etc.) count as primary item sources for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
-    "Secondary Primary": "Training methods can use drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training methods<span class='rule-asterisk noscroll'>*</span><span class='secondaryPrimaryRuleTooltip'></span>",
-    "RDT": "Items from the Rare Drop Table, the Gem Drop Table and the Wilderness Drop Table to count towards chunk tasks",
-    "Crystal chests": "Allow items from crystal chests, triskelion treasures or columbarium keys to count towards chunk tasks",
+    "Secondary Primary": "Training methods can use drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training<span class='rule-asterisk noscroll'>*</span><span class='secondaryPrimaryRuleTooltip'></span>",
+    "RDT": "Items from the Rare Drop Table, the Gem Drop Table and the Wilderness Drop Table count towards chunk tasks",
+    "Crystal chests": "Items from crystal chests, triskelion treasures or columbarium keys count towards chunk tasks",
     "Untracked Uniques Skilling": "Skilling uniques<span class='rule-asterisk noscroll'>*</span>",
     "Untracked Uniques Combat": "Combat uniques<span class='rule-asterisk noscroll'>*</span>",
     "Untracked Uniques Minigames": "Minigames and Distractions and Diversions uniques<span class='rule-asterisk noscroll'>*</span>",
@@ -562,8 +559,8 @@ let ruleNames = {
 	"Ports Scrolls": "Must complete every scroll in Player-Owned Port<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Souls": "Slayer Codex<span class='rule-asterisk noscroll'>*</span>",
     "Combat and Teleport Spells": "...including all spell types (otherwise only 'utility' spells like High Alchemy or Telegrab will count)",
-    "Primary Spawns": "Item spawns count as primary access to an item, and can be used as a primary way to train a skill if needed",
-    "Smithing by Smelting": "Smelting ores into bars counts as a primary method for training Smithing",
+    "Primary Spawns": "Item spawns count as primary access to an item, and can be used as primary training if needed",
+    "Smithing by Smelting": "Smelting ores into bars counts as a primary Smithing training",
     "Pets": "Must obtain pets for Collections and Unlocks tasks<span class='rule-asterisk noscroll'>*</span>",
     "Cosmetics": "Must obtain cosmetic items or overrides for Collections and Unlocks tasks<span class='rule-asterisk noscroll'>*</span>",
     "Every Drop": "Must obtain every unique item drop from monsters (items that are dropped by multiple monsters only need to be obtained once)",
@@ -571,7 +568,7 @@ let ruleNames = {
     "Every Drop BGH": "...including drops from Big Game Hunter",
     "Every Drop Thieving": "...including drops from Thieving",
     "HigherLander": "Accessing the intermediate and veteran landers for Pest Control are required tasks (only novice lander is required otherwise)",
-    "Secondary MTA": "Allow MTA to be required with secondary sources of nature/law/cosmic runes",
+    "Secondary MTA": "Require Mage Training Arena with secondary sources of nature/law/cosmic runes",
     "Skilling Pets": "Require skilling pets be obtained as soon as the relevant skill is trainable<span class='rule-asterisk noscroll'>†</span>",
     "Permanent Unlockables": "Require permanently unlockable options be unlocked (innate mastery, rope racks, etc.)<span class='rule-asterisk noscroll'>*</span>",
     "All Droptables": "Must obtain every drop from every unique monster's droptable (duplicates included, all quantities)<span class='rule-asterisk noscroll'>†</span>",
@@ -581,18 +578,18 @@ let ruleNames = {
     "All Shops": "Must buy every item from every shop within your chunks once <span class='rule-asterisk noscroll'>⁺</span>",
     "Quest Skill Reqs": "WIP - Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>⁺</span>",
 	"Boosting": "Skill boosts can be used for tasks",
-    "Token": "Token xp drops count as a primary training method<span class='rule-asterisk noscroll'>†</span>",
+    "Token": "Token xp drops count as primary training<span class='rule-asterisk noscroll'>†</span>",
 	"Master skillcape": "...including master skillcapes<span class='rule-asterisk noscroll'>†</span>",
-	"Cleaning Herbs": "Cleaning grimy herbs/making unfinished potions can count as chunk tasks",
-	"Cleaning Herbs Primary": "Cleaning herbs counts as a primary training method",
+	"Cleaning Herbs": "Cleaning grimy herbs/making unfinished potions count as chunk tasks",
+	"Cleaning Herbs Primary": "Cleaning herbs counts as primary training",
 	"Vinesweeper": "Vinesweeper",
-	"Ogleroot": "Vinesweeper to counts as primary Hunter training",
-	"Gnomeball": "Playing gnomeball to count as a primary Agility and Rainged training<span class='rule-asterisk noscroll'>*</span>",
-	"Daemonheim training": "Training methods in Daemonheim count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
-	"Daemonheim tasks": "Activities and items in Daemonheim can create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
+	"Ogleroot": "Vinesweeper counts as primary Hunter training",
+	"Gnomeball": "Playing gnomeball counts as a primary Agility and Ranged training<span class='rule-asterisk noscroll'>*</span>",
+	"Daemonheim training": "Training methods in Daemonheim count as primary training<span class='rule-asterisk noscroll'>*</span>",
+	"Daemonheim tasks": "Activities and items in Daemonheim count towards skill tasks<span class='rule-asterisk noscroll'>*</span>",
 	"PortSkills": "Require all trainable port skills to be trained up to 90<span class='rule-asterisk noscroll'>*</span>",
 	"Titles": "Must obtain all in-game earnable titles<span class='rule-asterisk noscroll'>*</span>",
-	"Uncharted": "Resources only available on uncharted islands can create skilling tasks",
+	"Uncharted": "Resources on Uncharted Isles count towards chunk tasks",
 	"Arc Log": "Arc Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Menaphos Log": "Menaphos Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Achievement": "Show Achievement Tasks",
@@ -602,28 +599,28 @@ let ruleNames = {
 	"Group Content": "Require content that is intended to be completed in a group",
 	"Unlock Abilities": "Must unlock all abilities and Necromancy incantations",
 	"Sigil Abilities": "... including Sigil abilities<span class='rule-asterisk noscroll'>*</span>",
-	"Abilities": "...including those unlocked through leveling (only from codexes otherwise)<span class='rule-asterisk noscroll'>†</span>",
+	"Abilities": "...including those unlocked through leveling (only from codices otherwise)<span class='rule-asterisk noscroll'>†</span>",
 	"Unlock Prayers": "Must unlock all prayers",
-	"Prayers": "...including those unlocked through leveling (only from codexes otherwise)<span class='rule-asterisk noscroll'>†</span>",
+	"Prayers": "...including those unlocked through leveling (only from codices otherwise)<span class='rule-asterisk noscroll'>†</span>",
 	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
 	"Shooting Stars": "Getting the level to mine all tiers of shooting stars counts as a Mining skill task<span class='rule-asterisk noscroll'>*</span>",
-	"Combat Mastery achievements": "Must complete Combat Mastery achievements when possible<span class='rule-asterisk noscroll'>*</span>",
+	"Combat Mastery achievements": "Must complete Combat Mastery achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Speed Killer Achievements": "...including Speed Killer achievements<span class='rule-asterisk noscroll'>†</span>",
 	"Combat Master+": "...including the Master and Grandmaster tier (only up to Elite otherwise)<span class='rule-asterisk noscroll'>†</span>",
 	"Misc Combat achievements": "...including Combat achievements that don't award CombatScore<span class='rule-asterisk noscroll'>*</span>",
-	"Menaphos Events": "Soul obelisks and corrupted scarabs in Menaphos count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
-	"Material Blueprints": "Count discovering material blueprints as a skilling task",
-	"Comp achievements": "Must complete Completionist achievements<span class='rule-asterisk noscroll'>*</span>",
+	"Menaphos Events": "Soul obelisks and corrupted scarabs in Menaphos count as primary training<span class='rule-asterisk noscroll'>*</span>",
+	"Material Blueprints": "Count discovering material blueprints as a skill task",
+	"Comp achievements": "Must complete Completionist Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Trim achievements": "...including Trimmed Completionist Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"MQC achievements": "Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Misc achievements": "Must complete achievements that are not already part of the above categories<span class='rule-asterisk noscroll'>*</span>",
 	"No RuneScore": "...including those that don't award RuneScore<span class='rule-asterisk noscroll'>†</span>",
 	"Level Up Achievements": "...including level-up achievements<span class='rule-asterisk noscroll'>†</span>",
-	"XP Lamps": "Using skills-specific experience lamps counts as a primary training method<span class='rule-asterisk noscroll'>*</span>",
-	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
-	"Hide Partial Products": "Exclude partial and unfinished products as a skilling task<span class='partialProductsRuleTooltip'></span>",
+	"XP Lamps": "Using skills-specific experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
+	"Slayer Contracts": "Completing Slayer contracts off-task counts as primary Slayer training",
+	"Hide Partial Products": "Don't show tasks for partial products<span class='partialProductsRuleTooltip'></span>",
 	"Timegated": "Require tasks that demand consistent engagement with a time-gated activity across multiple weeks (Player-Owned Port, Player-Owned Farm, etc.)<span class='rule-asterisk noscroll'>*</span>",
 	"Secondary Bird Nests": "Items from bird nests and geodes gotten through secondary methods (e.g. birdhouses, monster drops) count for chunk tasks",
 	"Speedrunning": "Require tasks that must be completed under a strict time limit (e.g. speedrunning tasks)<span class='rule-asterisk noscroll'>*</span>"
@@ -693,13 +690,11 @@ let rulePresets = {
         "Extra implings": true,
         "Farming Primary": true,
         "Secondary Primary Amount": "0",
-        "Collection Log": true,
 		"Boss Collection Log": true,
 		"Slayer Collection Log": true,
 		"Skilling Collection Log": true,
 		"Archaeology Collections": true,
 		"Breeding Log": true,
-        "Untracked Uniques": true,
         "Untracked Uniques Skilling": true,
         "Untracked Uniques Combat": true,
         "Untracked Uniques Minigames": true,
@@ -788,7 +783,6 @@ let rulePresets = {
 		"Skilling Collection Log": true,
 		"Archaeology Collections": true,
 		"Breeding Log": true,
-        "Untracked Uniques": true,
 		"Untracked Uniques Skilling": true,
         "Untracked Uniques Combat": true,
         "Untracked Uniques Minigames": true,
@@ -882,14 +876,13 @@ let ruleStructure = {
         "Highest Level": true,
         "Multi Step Processing": ["Hide Partial Products"],
         "Wield Crafted Items": ["Wield Crafted Items Override"],
-        "Boosting": true,
-		"XP Lamps": true,
+		"Token": true,
+        "Menaphos Events": true,
 		"Daemonheim training": true,
 		"Daemonheim tasks": true,
-		"PortSkills": true,
-		"Token": true,
-		"Menaphos Events": true,
-		"Uncharted": true
+		"Boosting": true,
+		"XP Lamps": true,
+		"PortSkills": true
     },
     "Agility": {
         "Shortcut Task": ["Shortcut"],
@@ -972,6 +965,7 @@ let ruleStructure = {
         "Rare Drop": ["KeyItem Bosses"],
         "RDT": true,
         "Crystal chests": true,
+		"Uncharted": true,
 		"Secondary Bird Nests": true,
 		"Universal Tertiary": true,
         "Primary Spawns": true,
@@ -999,8 +993,6 @@ let subRuleDefault = {
     "Show Quest Tasks": false,
     "Show Diary Tasks": false,
     "Show Best in Slot Tasks": false,
-    "Collection Log": true,
-	"Untracked Uniques": true,
     "Puro-Puro": false,
     "Spells": false,
     "Every Drop": false,
@@ -13412,7 +13404,11 @@ let loadData = async function(startup) {
         let snapDiff = preloadHelper(snap, 'rules');
         if (snapDiff === false) return;
         let rulesTemp = snap.val() || {};
-        // Rule extenders
+        
+		let collectionRule = !!(rulesTemp['Slayer Collection Log'] || rulesTemp['Boss Collection Log'] || rulesTemp['Skilling Collection Log'])
+		let untrackedUniquesRule = !!(rulesTemp['Untracked Uniques Skilling'] || rulesTemp['Untracked Uniques Combat'] || rulesTemp['Untracked Uniques Minigames'] || rulesTemp['Untracked Uniques Misc'])
+		
+		// Rule extenders
 
         if (!rulesTemp.hasOwnProperty('Show Diary Tasks Any')) {
             rulesTemp['Show Diary Tasks Any'] = rulesTemp.hasOwnProperty('Skillcape') ? rulesTemp['Skillcape'] : false;
@@ -13485,24 +13481,8 @@ let loadData = async function(startup) {
         }
 		
 		if (!rulesTemp.hasOwnProperty('Cosmetics')) {
-            rulesTemp['Cosmetics'] = (rulesTemp.hasOwnProperty('Collection Log') || rulesTemp.hasOwnProperty('Untracked Uniques')) ? (rulesTemp.hasOwnProperty('Collection Log') || rulesTemp.hasOwnProperty('Untracked Uniques')) : false;
+            rulesTemp['Cosmetics'] = (collectionRule || untrackedUniquesRule);
         }
-		
-		if (!rulesTemp.hasOwnProperty('Untracked Uniques Skilling')) {
-            rulesTemp['Untracked Uniques Skilling'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
-        }
-		
-		if (!rulesTemp.hasOwnProperty('Untracked Uniques Combat')) {
-            rulesTemp['Untracked Uniques Combat'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
-        }
-		
-		if (!rulesTemp.hasOwnProperty('Untracked Uniques Minigames')) {
-            rulesTemp['Untracked Uniques Minigames'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
-        }
-		
-		if (!rulesTemp.hasOwnProperty('Untracked Uniques Misc')) {
-            rulesTemp['Untracked Uniques Misc'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
-		}
 		
 		if (!rulesTemp.hasOwnProperty('Every Drop Thieving')) {
             rulesTemp['Every Drop Thieving'] = rulesTemp.hasOwnProperty('Every Drop') ? rulesTemp['Every Drop'] : false;
