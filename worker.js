@@ -1,4 +1,4 @@
-importScripts('https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js');
+"use strict";
 let nonValids = {};
 let globalValids;
 let eGlobal;
@@ -150,10 +150,11 @@ let itemsPlus;
 let shopsPlus;
 let mixPlus;
 let npcsPlus;
+let tasksPlus;
 let tools;
 let elementalRunes;
 let manualTasks;
-let completeChallenges;
+let completedChallenges;
 let backlog;
 let rareDropNum;
 let universalPrimary;
@@ -162,6 +163,7 @@ let rangedItems;
 let boneItems;
 let highestCurrent;
 let dropTables;
+let possibleAreas;
 let questPointTotal;
 let combatScoreTotal;
 let runeScoreTotal;
@@ -212,6 +214,8 @@ let globalValidsBoosts = {};
 let bringAlongTasks = {};
 let globalEveryDropAltMap = {};
 let unconnectedAreas;
+let extraOutputItems;
+let telegrabTask;
 let nonDiaryAchievements = ['Combat Mastery achievements', 'Combat achievements', 'Completionist achievements', 'Skills achievements', 'Exploration achievements', 'Activities achievements'];
 let highestSkillLevels = {
     "Slayer": 120,
@@ -305,7 +309,7 @@ onmessage = function(e) {
             unconnectedAreas
         } = eGlobal.data);
 
-        if (updateLevel !== 'rule-rewording') {
+        if (updateLevel !== 'tasks-plugin') {
             postMessage({ type: 'reload' });
         }
 
@@ -736,7 +740,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                         } else {
                             if (!!baseChunkData['items'][drop]) {
                                 if (chunkInfo['skillItems']['Slayer'].hasOwnProperty(monster)) {
-                                    let re = new RegExp(`/Slay .*\~|${monster}|\~/`,"gm");
+                                    let re = new RegExp(`/Slay .*\~|${monster}|\~.*/`,"gm");
                                     let slayerTaskName = (!!baseChunkData['items'][drop] && Object.keys(baseChunkData['items'][drop]).find(value => re.test(value))) || (!!newValids['Slayer'] && Object.keys(newValids['Slayer']).find(value => re.test(value))) || "";
                                     delete baseChunkData['items'][drop][slayerTaskName];
                                     if (newValids.hasOwnProperty('Slayer') && newValids['Slayer'].hasOwnProperty(slayerTaskName)) {
@@ -1643,7 +1647,7 @@ let calcChallenges = function(chunks, baseChunkData) {
         Object.keys(newValids).filter((skill) => { return skill !== 'BiS' }).forEach((skill) => {
             let skillIsPrimary = checkPrimaryMethod(skill, newValids, baseChunkData);
             if (!skillIsPrimary && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] <= 1)) {
-                tempValidsSkill = {};
+                let tempValidsSkill = {};
                 !!newValids[skill] && Object.keys(newValids[skill]).filter(task => { return newValids[skill][task] === 1 }).forEach((task) => {
                     tempValidsSkill[task] = newValids[skill][task];
                 });
@@ -2463,7 +2467,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                             } else {
                                 if (!!baseChunkData['items'][drop]) {
                                     if (chunkInfo['skillItems']['Slayer'].hasOwnProperty(monster)) {
-                                        let re = new RegExp(`/Slay .*\~|${monster}|\~/`,"gm");
+                                        let re = new RegExp(`/Slay .*\~|${monster}|\~.*/`,"gm");
                                         let slayerTaskName = (!!baseChunkData['items'][drop] && Object.keys(baseChunkData['items'][drop]).find(value => re.test(value))) || (!!newValids['Slayer'] && Object.keys(newValids['Slayer']).find(value => re.test(value))) || "";
                                         delete baseChunkData['items'][drop][slayerTaskName];
                                         if (newValids.hasOwnProperty('Slayer') && newValids['Slayer'].hasOwnProperty(slayerTaskName)) {
@@ -3765,7 +3769,7 @@ let calcChallenges = function(chunks, baseChunkData) {
             'elite': true,
             'master': true
         };
-        !!chunkInfo['challenges']['Nonskill'] && Object.keys(chunkInfo['challenges']['Nonskill']).filter((task) => { return !!chunkInfo['challenges']['Nonskill'][task] && chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('ClueTier') && !newValids.hasOwnProperty('Nonskill') || !newValids['Nonskill'].hasOwnProperty(task) }).forEach((task) => {
+        !!chunkInfo['challenges']['Nonskill'] && Object.keys(chunkInfo['challenges']['Nonskill']).filter((task) => { return !!chunkInfo['challenges']['Nonskill'][task] && chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('ClueTier') && (!newValids.hasOwnProperty('Nonskill') || !newValids['Nonskill'].hasOwnProperty(task)) }).forEach((task) => {
             clueTasksPossible[chunkInfo['challenges']['Nonskill'][task]['ClueTier']] = false;
         });
         !!baseChunkData && !!baseChunkData['items'] && Object.keys(baseChunkData['items']).filter(item => { return Object.keys(baseChunkData['items'][item]).length === 0 }).forEach((item) => {
@@ -3856,6 +3860,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
     let npcs = {...baseChunkData['npcs']};
 	let shops = {...baseChunkData['shops']}
     let valids = {};
+    let wrongThings = [];
     extraOutputItems = {};
     multiTasks = {};
     craftedBisOverride = {};
@@ -4025,7 +4030,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
 					nonValids[name] = wrongThings;
 					return;
 				}
-				if((skill == "Archaeology" || skill == "Necormancy" || skill == "Construction") && chunkInfo['challenges'][skill][name]['Level'] > 20) {
+				if((skill == "Archaeology" || skill == "Necromancy" || skill == "Construction") && chunkInfo['challenges'][skill][name]['Level'] > 20) {
 					validChallenge = false;
 					wrongThings.push('F2P');
 					nonValids[name] = wrongThings;
@@ -4042,7 +4047,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
 					if(chunkInfo['challenges'][skill][name].hasOwnProperty(type))
 					{
 						Object.keys(chunkInfo['challenges'][skill][name][type]).forEach((subSkill) => {
-							if((subSkill == "Archaeology" || subSkill == "Necormancy" || subSkill == "Construction") && chunkInfo['challenges'][skill][name][type][subSkill] > 20) {
+							if((subSkill == "Archaeology" || subSkill == "Necromancy" || subSkill == "Construction") && chunkInfo['challenges'][skill][name][type][subSkill] > 20) {
 								validChallenge = false;
 								wrongThings.push('F2P');
 								nonValids[name] = wrongThings;
@@ -4676,7 +4681,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                     });
                     if (!tempValid) {
                         validChallenge = false;
-                        wrongThings.push(shops);
+                        wrongThings.push(shop);
                         nonValids[name] = wrongThings;
                         chunkInfo['challenges'][skill][name]['ShopsDetails'].push(shop);
                         return true;
@@ -4692,7 +4697,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                         return true;
                     } else {
                         chunkInfo['challenges'][skill][name]['ShopsDetails'].push(shop);
-                        (Object.keys(shop).filter((source) => { return !source.includes('secondary-') }).length > 0) && (secondary = false);
+                        (Object.keys(shops[shop]).filter((source) => { return !source.includes('secondary-') }).length > 0) && (secondary = false);
                     }
                 }
             });

@@ -1091,6 +1091,7 @@ let settings = {
     "chunkNeighboursOptions": { "neighbors": true, "walkableRollable": true, "autoWalkableRollable": false, "remove": false },
     "defaultChunkinfo": 'monsters',
     "taskSearchbar": false,
+    "generatePluginData": false,
 	"hideAchievements": false,
     "manuallyCompleteTasks": false,
 };                                                                              // Current state of all settings
@@ -1121,6 +1122,7 @@ let settingNames = {
     "unlockedBorderColor": "Change the color of the border surrounding your unlocked chunks",
     "defaultChunkinfo": 'Select the default tab when first opening the Chunk Info Panel',
     "taskSearchbar": "Show a searchbar at the top of your Active Tasks to allow filtering. Useful for maps with large task lists that have trouble finding specific tasks",
+    "generatePluginData": "Opt-in to generate data used in the Chunk Tasks plugin",
 	"hideAchievements": "Only show achievements in the Activity Info window that are required according to your ruleset",
     "manuallyCompleteTasks": "Allow the ability to manually move completed active tasks to the Completed Tasks tab (useful for accounts that choose their own chunks)",
 };                                                                              // Descriptions of the settings
@@ -1157,7 +1159,8 @@ let settingStructure = {
     },
     "Miscellaneous": {
         "startingChunk": true,
-        "newTasks": true
+        "newTasks": true,
+        "generatePluginData": true
     }
 };                                                                              // Structure of the settings
 
@@ -1312,6 +1315,7 @@ let areasStructure = {};
 let highestCurrent = {};
 let savedChunks = {};
 let chunkNotes = null;
+let doesPluginOutputExist = false;
 
 let universalPrimary = {
     "Slayer": ["Primary[+]"],
@@ -1610,6 +1614,8 @@ let chunkInfoOpen = false;
 let detailsStack = [];
 let touchTime = 0;
 let listOfTasksPlugin = [];
+let listOfTasksSaved = [];
+let forceUpdatePluginOutput = false;
 let activeTasks = {};
 let mobileChunkId = 0;
 let sidebarHidden = false;
@@ -1625,10 +1631,10 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.9.69.1';
+let currentVersion = '6.9.69.2';
 let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.48';
-let updateLevel = 'rule-rewording';
+let updateLevel = 'tasks-plugin';
 
 // Patreon Test Server Data
 let onTestServer = false;
@@ -1726,6 +1732,7 @@ let searchDetailSortBy = 'Alphabetical';
 let searchDetailsParams = [];
 let recentFancyRollTimeout;
 let recentFancyRollTime = 0;
+let createdPOF = undefined;
 let localRevision = -1;
 let saveTimeout = null;
 let searchActiveTasksFocused = false;
@@ -1777,7 +1784,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.9.69.1";
+mapImg.src = "runescape_world_map.png?v=6.9.69.2";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3706,7 +3713,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.9.69.1");
+        myWorker = new Worker("./worker.js?v=6.9.69.2");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage({
             type: 'current',
@@ -4064,8 +4071,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.9.69.1");
-let myWorker2 = new Worker("./worker.js?v=6.9.69.1");
+let myWorker = new Worker("./worker.js?v=6.9.69.2");
+let myWorker2 = new Worker("./worker.js?v=6.9.69.2");
 let workerOnMessage = function(e) {
     if (e.data.type === 'reload') {
         window.location.reload();
@@ -5204,6 +5211,7 @@ let unlockEntry = function() {
                         mapIntroOpenSoon && openMapIntroModal(justStartingChunkSet);
                         unlockChallenges();
                         setRecentLogin();
+                        !doesPluginOutputExist && setData();
                     }, 500);
                 }).catch((error) => {
                     $('.pin.entry').addClass('animated shake wrong').select();
@@ -5395,6 +5403,7 @@ let accessMap = function() {
                             $('.dropdown-item-customize-topbar').css('opacity', 1).show();
                             settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 1).show();
                             setRecentLogin();
+                            !doesPluginOutputExist && setData();
                             setupMap();
                             myRef.child('mapCreationTimes/' + mid).once('value', function(snap) {
                                 if (!snap.val()) {
@@ -5916,6 +5925,14 @@ let toggleChunkTasks = function(value, extra) {
 let toggleTaskSearchbar = function(value, extra) {
     value ? $('#searchActiveTasks').show() : $('#searchActiveTasks').hide();
     extra !== 'startup' && !locked && setData();
+}
+
+// Toggles generate pluginOutput variable
+let togglePluginDataGeneration = function(value, extra) {
+    if (extra !== 'startup' && value && !isGeneratingPluginData) {
+        createPluginOutput();
+    }
+    isGeneratingPluginData = value;
 }
 
 // Toggles the top buttons
@@ -6809,7 +6826,7 @@ let setupCurrentChallenges = function(tempChallengeArr, noDisplay, noClear) {
         if ((!backlog['Diary'] || (!backlog['Diary'].hasOwnProperty(challenge) && !backlog['Diary'].hasOwnProperty(challenge.replaceAll('#', '/')))) && (!completedChallenges['Diary'] || (!completedChallenges['Diary'][challenge] && !completedChallenges['Diary'][challenge.replaceAll('#', '/')])) && globalValids['Diary'][challenge] && (!rules['Show Diary Tasks Complete'] || chunkInfo['challenges']['Diary'][challenge].hasOwnProperty('ManualShow'))) {
             let taskEl = `<div class="challenge diary-challenge noscroll clickable ${'Diary-' + challenge.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge'} ${(!!checkedChallenges['Diary'] && !!checkedChallenges['Diary'][challenge]) && 'hide-backlog'} ${!activeSubTabs['diary'] ? 'stay-hidden' : ''}" onclick="showDetails('${encodeRFC5987ValueChars(challenge)}', 'Diary', 'current')"><label class="checkbox noscroll ${(!testMode && (viewOnly || inEntry || locked)) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${(!!checkedChallenges['Diary'] && !!checkedChallenges['Diary'][challenge]) ? "checked" : ''} class='noscroll' onclick="checkOffChallenge('Diary', '${encodeRFC5987ValueChars(challenge)}')" ${(!testMode && (viewOnly || inEntry || locked)) ? "disabled" : ''}><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll"><b class="noscroll">[Achievement] <span class="inner noscroll"><a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(challenge.split('~')[1].split('|').join(''))}" target="_blank">${challenge.split('~')[1].split('|').join('')}</a></b>: <a href='javascript:openQuestSteps("Diary", "${encodeRFC5987ValueChars(challenge)}")' class='internal-link noscroll'>${challenge.split('~')[2]}</a></span></span></label></span> <span class="burger noscroll${!testMode && (viewOnly || inEntry || locked) ? ' hidden-burger' : ''}" onclick="openActiveContextMenu('${encodeRFC5987ValueChars(challenge)}', 'Diary')"><i class="fa-solid fa-sliders-h noscroll"></i></span></div>`;
             !!favoriteTasks['Diary'] && favoriteTasks['Diary'].hasOwnProperty(challenge) ? favoriteTasksArr.push(taskEl.replaceAll('diary-challenge', 'favorite-challenge')) : challengeArr.push(taskEl);
-            listOfTasks.push({ [challenge]: 'Diary', prefix: `[Achievement]` });
+            listOfTasks.push({ [challenge]: 'Diary', prefix: `[Diary]` });
             if (!!favoriteTasks['Diary'] && favoriteTasks['Diary'].hasOwnProperty(challenge)) {
                 if (!activeTasks['Favorite']) {
                     activeTasks['Favorite'] = {};
@@ -6999,6 +7016,7 @@ let setupCurrentChallengesFromSaved = function() {
     if (!activeTasks) {
         return;
     }
+    listOfTasksSaved = [];
     challengeArr = [];
     if (activeTasks.hasOwnProperty('Favorite')) {
         challengeArr.push(`<div class="marker marker-favorite noscroll" onclick="expandActive('favorite')"><i class="expand-button fa-solid ${activeSubTabs['favorite'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">Favorited Tasks</span></div>`);
@@ -7063,14 +7081,17 @@ let setupCurrentChallengesFromSaved = function() {
             level = activeTasks[skill][skillTask];
             boost = 0;
         }
+        listOfTasksSaved.push({ [skillTask]: skill, prefix: `[${(boost > 0 ? (((level - boost) <= 0 ? 1 : (level - boost)) + '] (+' + boost + ')') : level + ']')} ${skill}:` });
         challengeArr.push(`<div class="challenge skill-challenge noscroll clickable ${skill + '-challenge'} ${(!!checkedChallenges[skill] && !!checkedChallenges[skill][skillTask]) ? "hide-backlog" : ''} ${!activeSubTabs['skill'] ? 'stay-hidden' : ''}"><label class="checkbox noscroll checkbox--disabled"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${(!!checkedChallenges[skill] && !!checkedChallenges[skill][skillTask]) ? "checked" : ''} class='noscroll' disabled><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll"><b class="noscroll">[${(boost > 0 ? (((level - boost) <= 0 ? 1 : (level - boost)) + '] (+' + boost + ')') : level + ']')} <span class="inner noscroll">${skill}</b>: ${decodeQueryParam(skillTask.split('~')[0])}<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(skillTask.split('|')[1])}" target="_blank">${decodeQueryParam(skillTask.split('~')[1].split('|').join(''))}</a>${decodeQueryParam(skillTask.split('~')[2])}</span></span></label></div>`);
     });
     !!activeTasks['BiS'] && Object.keys(activeTasks['BiS']).length > 0 && challengeArr.push(`<div class="marker marker-bis noscroll" onclick="expandActive('bis')"><i class="expand-button fa-solid ${activeSubTabs['bis'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">BiS Tasks</span></div>`);
     !!activeTasks['BiS'] && Object.keys(activeTasks['BiS']).forEach((challenge) => {
+        listOfTasksSaved.push({ [challenge]: 'BiS', prefix: `[${$(`<span>${activeTasks['BiS'][challenge]}</span>`).text()}]` });
         challengeArr.push(`<div class="challenge bis-challenge noscroll clickable ${'BiS-' + challenge.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge'} ${(!!checkedChallenges['BiS'] && !!checkedChallenges['BiS'][challenge]) && 'hide-backlog'} ${!activeSubTabs['bis'] ? 'stay-hidden' : ''}"><label class="checkbox noscroll checkbox--disabled"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${(!!checkedChallenges['BiS'] && !!checkedChallenges['BiS'][challenge]) ? "checked" : ''} class='noscroll' disabled><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll"><b class="noscroll">[${activeTasks['BiS'][challenge]}]</b> <span class="inner noscroll">${challenge.split('~')[0]}<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl((challenge.split('|')[1]))}" target="_blank">${challenge.split('~')[1].split('|').join('')}</a>${challenge.split('~')[2]}</span></span></label></span></div>`);
     });
     !!activeTasks['Quest'] && Object.keys(activeTasks['Quest']).length > 0 && challengeArr.push(`<div class="marker marker-quest noscroll" onclick="expandActive('quest')"><i class="expand-button fa-solid ${activeSubTabs['quest'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">Quest Tasks</span></div>`);
     !!activeTasks['Quest'] && Object.keys(activeTasks['Quest']).sort(function(a, b) { return a.replaceAll(/ /g, '_').replaceAll(/\|/g, '').replaceAll(/~/g, '').replaceAll(/%/g, '').replaceAll(/\(/g, '').replaceAll(/\)/g, '').replaceAll(/'/g, '').replaceAll(/\./g, '').replaceAll(/\:/g, '').replaceAll(/\//g, '').replaceAll('A_', '').replaceAll('The_', '').localeCompare(b.replaceAll(/ /g, '_').replaceAll(/\|/g, '').replaceAll(/~/g, '').replaceAll(/%/g, '').replaceAll(/\(/g, '').replaceAll(/\)/g, '').replaceAll(/'/g, '').replaceAll(/\./g, '').replaceAll(/\:/g, '').replaceAll(/\//g, '').replaceAll('A_', '').replaceAll('The_', '')) }).forEach((challenge) => {
+        listOfTasksSaved.push({ [challenge]: 'Quest', prefix: `[Quest]` });
         if (!!chunkInfo['challenges']['Quest'][challenge] && chunkInfo['challenges']['Quest'][challenge].hasOwnProperty('QuestPoints')) {
             challengeArr.push(`<div class="challenge quest-challenge noscroll clickable ${'Quest-' + challenge.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge'} ${(!!checkedChallenges['Quest'] && !!checkedChallenges['Quest'][challenge]) && 'hide-backlog'} ${!activeSubTabs['quest'] ? 'stay-hidden' : ''}"><label class="checkbox noscroll checkbox--disabled"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${(!!checkedChallenges['Quest'] && !!checkedChallenges['Quest'][challenge]) ? "checked" : ''} class='noscroll' disabled><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll"><b class="noscroll">[Quest] <span class="inner noscroll"><a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(challenge.split('~')[1].split('|').join(''))}" target="_blank">${challenge.split('~')[1].split('|').join('')}</a></b>: ${challenge.split('~')[2].substring(1)}</span></span></label></span></div>`);
         } else {
@@ -7079,12 +7100,14 @@ let setupCurrentChallengesFromSaved = function() {
     });
     !!activeTasks['Diary'] && Object.keys(activeTasks['Diary']).length > 0  && challengeArr.push(`<div class="marker marker-diary noscroll" onclick="expandActive('diary')"><i class="expand-button fa-solid ${activeSubTabs['diary'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">Achievement Tasks</span></div>`);
     !!activeTasks['Diary'] && Object.keys(activeTasks['Diary']).forEach((challenge) => {
+        listOfTasksSaved.push({ [challenge]: 'Diary', prefix: `[Diary]` });
         challengeArr.push(`<div class="challenge diary-challenge noscroll clickable ${'Diary-' + challenge.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge'} ${(!!checkedChallenges['Diary'] && !!checkedChallenges['Diary'][challenge]) && 'hide-backlog'} ${!activeSubTabs['diary'] ? 'stay-hidden' : ''}"><label class="checkbox noscroll checkbox--disabled"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${(!!checkedChallenges['Diary'] && !!checkedChallenges['Diary'][challenge]) ? "checked" : ''} class='noscroll' disabled><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll"><b class="noscroll">[Achievement] <span class="inner noscroll"><a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(challenge.split('~')[1].split('|').join(''))}" target="_blank">${challenge.split('~')[1].split('|').join('')}</a></b>: ${challenge.split('~')[2]}</span></span></label></span></div>`);
     });
     let doneSubMarker = {};
     subCheckboxNames = {};
     !!activeTasks['Extra'] && Object.keys(activeTasks['Extra']).length > 0 && challengeArr.push(`<div class="marker marker-extra noscroll" onclick="expandActive('extra')"><i class="expand-button fa-solid ${activeSubTabs['extra'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">Other Tasks</span></div>`);
     !!activeTasks['Extra'] && Object.keys(activeTasks['Extra']).sort(function(a, b) { return (activeTasks['Extra'][a] + a).split(/\([0-9]/)[0].localeCompare((activeTasks['Extra'][b] + b).split(/\([0-9]/)[0]) }).forEach((challenge) => {
+        listOfTasksSaved.push({ [challenge]: 'Extra', prefix: `${(!!activeTasks['Extra'][challenge] ? ('[' + activeTasks['Extra'][challenge] + ']') : '')}` });
         if (activeTasks['Extra'][challenge] === 'Kill X') {
             challengeArr.push(`<div class="challenge extra-challenge noscroll clickable ${'Extra-' + challenge.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge'} ${(!!checkedChallenges['Extra'] && !!checkedChallenges['Extra'][challenge]) && 'hide-backlog'} ${!activeSubTabs['extra'] ? 'stay-hidden' : ''}"><label class="checkbox noscroll checkbox--disabled"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${(!!checkedChallenges['Extra'] && !!checkedChallenges['Extra'][challenge]) ? "checked" : ''} class='noscroll' disabled><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll"><b class="noscroll">[${activeTasks['Extra'][challenge]}]</b> <span class="inner noscroll">${challenge.split('~')[0].replaceAll(' X ', ' ' + (rules['Kill X Amount'] || 'X') + ' ')}<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(challenge.split('~')[1].split('|').join(''))}" target="_blank">${challenge.split('~')[1].split('|').join('')}</a>${challenge.split('~')[2]}</span></span></label></span></div>`);
         } else if (activeTasks['Extra'][challenge] === 'All Droptables') {
@@ -7232,7 +7255,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.9.69.1");
+    myWorker2 = new Worker("./worker.js?v=6.9.69.2");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage({
         type: 'future',
@@ -10524,12 +10547,14 @@ let checkOffAllTask = function(skill, task, i) {
     }
     let completedNum = checkedAllTasks.hasOwnProperty(skill) ? Math.min(Object.keys(checkedAllTasks[skill]).filter(task => globalValids[skill].hasOwnProperty(task) && ((!backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task)) && !(rules["Hide Partial Products"] && !!chunkInfo['challenges'][skill][task]["Partial"]))).length, Object.keys(globalValids[skill]).filter(task => (!backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task)) && !(rules["Hide Partial Products"] && !!chunkInfo['challenges'][skill][task]["Partial"])).length) : 0;
 	$('.methods-topbar').html(`${skill} Tasks <span class='noscroll ${Object.keys(globalValids[skill]).filter(task => (!backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task)) && !(rules["Hide Partial Products"] && !!chunkInfo['challenges'][skill][task]["Partial"])).length > completedNum ? 'yellow' : 'green'}'>(${completedNum}/${Object.keys(globalValids[skill]).filter(task => (!backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task)) && !(rules["Hide Partial Products"] && !!chunkInfo['challenges'][skill][task]["Partial"])).length})</span><i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeMethods()"></i>`);
-	if(toggleState)
-		$('.methods-data')[0].getElementsByClassName('skill-method').item(i).classList.add('highlighted')
-	else
-		$('.methods-data')[0].getElementsByClassName('skill-method').item(i).classList.remove('highlighted')
+	if (toggleState) {
+		$('.methods-data')[0].getElementsByClassName('skill-method').item(i).classList.add('highlighted');
+    } else {
+		$('.methods-data')[0].getElementsByClassName('skill-method').item(i).classList.remove('highlighted');
+    }
 	$(`.${skill}-tasks-button`).removeClass('yellow green').addClass(Object.keys(globalValids[skill]).filter(task => (!backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task)) && !(rules["Hide Partial Products"] && !!chunkInfo['challenges'][skill][task]["Partial"])).length > completedNum ? 'yellow' : 'green');
     $(`.${skill}-tasks-button > span`).text(`(${completedNum}/${Object.keys(globalValids[skill]).filter(task => (!backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task)) && !(rules["Hide Partial Products"] && !!chunkInfo['challenges'][skill][task]["Partial"])).length})`);
+    forceUpdatePluginOutput = true;
     setData();
 }
 
@@ -11392,6 +11417,7 @@ let checkOffAltChallenge = function(skill, chal, originalChallenge) {
     } else {
         !!chunkInfo['challenges'][skill][originalChallenge] && (altChallenges[skill][chunkInfo['challenges'][skill][originalChallenge]['Level'] - (globalValidsBoosts.hasOwnProperty(skill) && globalValidsBoosts[skill].hasOwnProperty(originalChallenge) ? globalValidsBoosts[skill][originalChallenge] : 0)] = chal);
     }
+    forceUpdatePluginOutput = true;
     setupCurrentChallenges(tempChallengeArrSaved, false, true);
     setData();
 }
@@ -12542,6 +12568,7 @@ let checkOffChallenge = function(skill, line, skip) {
         if (!skip) {
             $('.panel-active .challenge:has(input:checked)').addClass('hide-backlog');
             $('.panel-active .challenge:not(:has(input:checked))').removeClass('hide-backlog');
+            forceUpdatePluginOutput = true;
             setupCurrentChallenges(tempChallengeArrSaved, true);
             changeChallengeColor();
             setData();
@@ -12662,6 +12689,7 @@ let checkOffSettings = function(didRedo, startup) {
     toggleTaskSidebar(settings['taskSidebar'], startup);
     toggleHiddenTasks(settings['hideChecked'] && actuallyHideChecked);
     toggleTaskSearchbar(settings['taskSearchbar'], startup);
+    togglePluginDataGeneration(settings['generatePluginData'], startup);
     settings['hideChecked'] ? $(`.tasks-checkmark`).show() : $(`.tasks-checkmark`).hide();
     changeChallengeColor();
     if (!startup) {
@@ -13190,6 +13218,7 @@ let loadData = async function(startup) {
         toggleTopButtons(settings['topButtons'], 'startup');
         toggleTaskSidebar(settings['taskSidebar'], 'startup');
         toggleTaskSearchbar(settings['taskSearchbar'], 'startup');
+        togglePluginDataGeneration(settings['generatePluginData'], 'startup');
         settings['hideChecked'] ? $(`.tasks-checkmark`).show() : $(`.tasks-checkmark`).hide();
         settings['manuallyCompleteTasks'] && !viewOnly && !inEntry && !locked ? $('.open-complete-container').css('opacity', 1).show() : $('.open-complete-container').css('opacity', 0).hide();
     });
@@ -13296,12 +13325,22 @@ let loadData = async function(startup) {
             loadData();
         }
     });
+    myRef.child('createdPOF').once('value', function(snap) {
+        let snapDiff = preloadHelper(snap, 'createdPOF');
+        if (snapDiff === false) return;
+        createdPOF = !!snap.val() ? snap.val() : false;
+    });
     myRef.child('revision').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'revision');
         if (snapDiff === false) return;
         if (localRevision === -1) {
             localRevision = !!snap.val() ? snap.val() : 0;
         }
+    });
+    myRef.child('pluginOutput').once('value', function(snap) {
+        let snapDiff = preloadHelper(snap, 'pluginOutput');
+        if (snapDiff === false) return;
+        doesPluginOutputExist = !!snap.val() || false;
     });
     myRef.child('chunkinfo/checkedChallenges').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/checkedChallenges');
@@ -13662,6 +13701,67 @@ let setUsername = function(old) {
     });
 }
 
+// Generates the plugin output object
+let createPluginOutput = function() {
+    if (onTestServer || testMode || recentlyTestMode || !signedIn) {
+        return;
+    }
+    pluginOutput = [];
+    listOfTasksPlugin.forEach((el) => {
+        let name = Object.keys(el).filter((key) => key !== 'prefix')[0];
+        let skill = el[name];
+        let group;
+        if (skillNames.includes(skill)) {
+            group = 'SKILL';
+        } else if (skill === 'Quest' || skill === 'Diary' || skill === 'BiS') {
+            group = skill.toUpperCase();
+        } else {
+            group = 'OTHER';
+        }
+        let itemList = [];
+        if (!!chunkInfo['challenges'][skill] && !!chunkInfo['challenges'][skill][name]) {
+            chunkInfo['challenges'][skill][name].hasOwnProperty('ItemsDetails') && chunkInfo['challenges'][skill][name]['ItemsDetails'].forEach((item) => {
+                if (itemsPlus.hasOwnProperty(item.replaceAll(/\*/g, ''))) {
+                    itemsPlus[item.replaceAll(/\*/g, '')].forEach((plus) => {
+                        itemList.push(plus);
+                    });
+                } else {
+                    itemList.push(item.replaceAll(/\*/g, ''));
+                }
+            });
+            if (itemList.length === 0) itemList = null;
+            let skillsObj = {};
+            if (group === 'SKILL') {
+                skillsObj[skill.toUpperCase()] = chunkInfo['challenges'][skill][name]['Level'];
+            }
+            chunkInfo['challenges'][skill][name].hasOwnProperty('Skills') && Object.keys(chunkInfo['challenges'][skill][name]['Skills']).forEach((subSkill) => {
+                skillsObj[subSkill.toUpperCase()] = chunkInfo['challenges'][skill][name]['Skills'][subSkill];
+            });
+            if (Object.keys(skillsObj).length === 0) skillsObj = null;
+            let rowObj = {
+                name: name,
+                isComplete: checkedChallenges.hasOwnProperty(skill) && checkedChallenges[skill].hasOwnProperty(name),
+                taskGroup: group,
+                items: itemList,
+                output: chunkInfo['challenges'][skill][name]['Output'] || null,
+                skills: skillsObj,
+                prefix: el.prefix || ''
+            };
+            pluginOutput.push(rowObj);
+        }
+    });
+    if ((diff([...listOfTasksSaved].sort((a, b) => Object.keys(a)[0] < Object.keys(b)[0]), [...listOfTasksPlugin].sort((a, b) => Object.keys(a)[0] < Object.keys(b)[0])) || forceUpdatePluginOutput || (createdPOF === false)) && firebase.auth() && firebase.auth().currentUser && firebase.auth().currentUser.uid) {
+        listOfTasksSaved = JSON.parse(JSON.stringify(listOfTasksPlugin));
+        forceUpdatePluginOutput = false;
+        const userRef = firebase.storage().ref(`pluginOutputs/${firebase.auth().currentUser.uid}.json`);
+        userRef.putString(JSON.stringify(pluginOutput), 'raw', { contentType: 'application/json' });
+        if (!createdPOF) {
+            createdPOF = true;
+            setData(true);
+        }
+    }
+}
+
 // Converts given list of tasks into id-denotation
 let convertToIds = function(obj) {
     if (!obj) return obj;
@@ -13684,7 +13784,7 @@ let convertToIds = function(obj) {
 }
 
 // Checks if the revision number is correct to prevent overlapping data writes
-let revisionSync = function() {
+let revisionSync = function(skipCreatePluginOutput) {
     myRef.child('revision').transaction((revision) => {
         if (revision === null) return null;
         if (revision !== localRevision) return;
@@ -13693,7 +13793,7 @@ let revisionSync = function() {
     },
     (error, committed) => {
         if (!error && committed) {
-            setData(true);
+            setData(skipCreatePluginOutput, true);
         } else {
             modal.generate('revisionSyncModal', onMobile);
             revisionSyncModalOpen = true;
@@ -13703,7 +13803,7 @@ let revisionSync = function() {
 }
 
 // Stores data in Firebase
-let setData = function(doneDebouncing) {
+let setData = function(skipCreatePluginOutput, doneDebouncing) {
     if (onTestServer || testMode || recentlyTestMode || !signedIn) {
         return;
     }
@@ -13711,10 +13811,11 @@ let setData = function(doneDebouncing) {
         clearTimeout(saveTimeout);
 
         saveTimeout = setTimeout(() => {
-            revisionSync();
+            revisionSync(skipCreatePluginOutput);
         }, 500);
         return;
     }
+    settings['generatePluginData'] && !skipCreatePluginOutput && createPluginOutput();
     Object.keys(rules).forEach((rule) => {
         if (rules[rule] === undefined) {
             rules[rule] = false;
@@ -13802,6 +13903,7 @@ let setData = function(doneDebouncing) {
             'info': chunkInfoOn,
             'defaultChunkinfo': settings['defaultChunkinfo'],
             'taskSearchbar': settings['taskSearchbar'],
+            'generatePluginData': settings['generatePluginData'],
 			'hideAchievements': settings['hideAchievements'],
             'manuallyCompleteTasks': settings['manuallyCompleteTasks']
         }, //TEMP (highscore not enabled)
@@ -13837,6 +13939,7 @@ let setData = function(doneDebouncing) {
             painted
         },
         activeSubTabs,
+        createdPOF,
     };
     let databaseObject = JSON.parse(JSON.stringify(setSnap));
     delete databaseObject['chunkOrder'];
@@ -13963,6 +14066,7 @@ let changeLocked = function() {
                     settings['manuallyCompleteTasks'] && $('.open-complete-container').css('opacity', 0).show();
                     $('.lock-box').animate({ 'opacity': 0 });
                     setRecentLogin();
+                    !doesPluginOutputExist && setData();
                     myRef.child('mapCreationTimes/' + mid).once('value', function(snap) {
                         if (!snap.val()) {
                             databaseRef.child('mapCreationTimes/' + mid).set(new Date(userCredential.user.metadata.creationTime).getTime());
