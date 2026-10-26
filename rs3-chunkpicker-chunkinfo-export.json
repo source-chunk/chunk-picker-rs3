@@ -240973,7 +240973,7 @@
 			"Cave slimes": {
 				"Cave slime": true
 			},
-			"Celestial dragon": {
+			"Celestial dragons": {
 				"Celestial dragon": true,
 				"Elegorn the Celestial": true,
 				"Astellarn": true
@@ -241399,7 +241399,7 @@
 			"Iron dragons": {
 				"Iron dragon": true
 			},
-			"Jelly": {
+			"Jellies": {
 				"Jelly (Soul Wars)": true,
 				"Jelly": true
 			},
@@ -241439,7 +241439,7 @@
 				"Kurask": true,
 				"Kurask overlord": true
 			},
-			"Lava strykewyrm": {
+			"Lava strykewyrms": {
 				"Lava strykewyrm (Dragonkin Laboratory)": true,
 				"Engorged lava strykewyrm": true,
 				"Lava strykewyrm": true,
@@ -242023,6 +242023,9 @@
 				"Commander Zilyana": true,
 				"Commander Zilyana (Hard Mode)": true
 			},
+			"Corporeal Beast": {
+				"Corporeal Beast": true
+			},
 			"Croesus": {
 				"Croesus": true
 			},
@@ -242037,9 +242040,9 @@
 			"The Gate of Elidinis": {
 				"The Gate of Elidinis": true
 			},
-			"General Graador": {
-				"General Graador": true,
-				"General Graador (Hard Mode)": true
+			"General Graardor": {
+				"General Graardor": true,
+				"General Graardor (Hard Mode)": true
 			},
 			"The Ghrazi Blood Knights": {
 				"The Ghrazi Blood Knights": true
@@ -423400,7 +423403,7 @@
 				"CombatLevel": 100,
 				"Items": ["Key to the Crossing*"],
 				"Tasks": {
-					"~|Ichtlarin's Little Helper|~ 2": "Quest"
+					"~|Icthlarin's Little Helper|~ 2": "Quest"
 				},
 				"Weight": 1
 			},
@@ -423529,7 +423532,7 @@
 				"CombatLevel": 130,
 				"Weight": 1
 			},
-			"Zamouregal & Vorkath": {
+			"Zemouregal & Vorkath": {
 				"CombatLevel": 125,
 				"Tasks": {
 					"~|Battle of Forinthry|~ Complet the quest": "Quest"
@@ -423589,7 +423592,7 @@
 				},
 				"Weight": 10
 			},
-			"Celestial dragon": {
+			"Celestial dragons": {
 				"Tasks": {
 					"~|One of a Kind|~ Complete the quest": "Quest"
 				},
@@ -423757,7 +423760,7 @@
 				},
 				"Weight": 7
 			},
-			"Suqah": {
+			"Suqahs": {
 				"Tasks": {
 					"~|Lunar Diplomacy|~ 6": "Quest"
 				},
@@ -423870,7 +423873,7 @@
 			"Corrupted creatures": {
 				"Level": 98,
 				"Tasks": {
-					"~|Ichtlarin's Little Helper|~ 1": "Quest"
+					"~|Icthlarin's Little Helper|~ 1": "Quest"
 				},
 				"Weight": 10
 			},
@@ -424071,7 +424074,7 @@
 				"CombatLevel": 100,
 				"Weight": 8
 			},
-			"Sanguine werewolf": {
+			"Sanguine werewolves": {
 				"Level": 1,
 				"CombatLevel": 110,
 				"Tasks": {
@@ -424116,7 +424119,7 @@
 				},
 				"Weight": 9
 			},
-			"Suqah": {
+			"Suqahs": {
 				"Tasks": {
 					"~|Lunar Diplomacy|~ 6": "Quest"
 				},
@@ -424213,7 +424216,7 @@
 				"CombatLevel": 100,
 				"Weight": 8
 			},
-			"Celestial dragon": {
+			"Celestial dragons": {
 				"Tasks": {
 					"~|One of a Kind|~ Complete the quest": "Quest"
 				},
@@ -424417,7 +424420,7 @@
 				},
 				"Weight": 8
 			},
-			"Sanguine werewolf": {
+			"Sanguine werewolves": {
 				"Level": 1,
 				"CombatLevel": 110,
 				"Tasks": {
@@ -424435,7 +424438,7 @@
 			"Soul devourers": {
 				"Level": 105,
 				"Tasks": {
-					"~|Ichtlarin's Little Helper|~ 1": "Quest"
+					"~|Icthlarin's Little Helper|~ 1": "Quest"
 				},
 				"Weight": 12
 			},
@@ -424534,7 +424537,7 @@
 				"CombatLevel": 100,
 				"Weight": 8
 			},
-			"Celestial dragon": {
+			"Celestial dragons": {
 				"Tasks": {
 					"~|One of a Kind|~ Complete the quest": "Quest"
 				},
@@ -424749,7 +424752,7 @@
 				},
 				"Weight": 8
 			},
-			"Sanguine werewolf": {
+			"Sanguine werewolves": {
 				"Level": 1,
 				"CombatLevel": 110,
 				"Tasks": {
