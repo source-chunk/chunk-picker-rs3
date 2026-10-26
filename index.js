@@ -29,7 +29,7 @@ let zoom = 350;                                                                 
 let fontZoom = 16;                                                              // Font size zoom
 let labelZoom = 96;                                                             // Selected label font size zoom
 let scale = 30;                                                                 // Amount zoomed every 'zoom' action
-let fullSize = 2350;                                                            // Amount of chunks present
+let fullSize = 2303;                                                            // Amount of chunks present
 let rowSize = 47;                                                               // Amount of chunks per row
 let scrollLeft = 0;                                                             // Amount the board is scrolled left offscreen
 let prevScrollLeft = 0;                                                         // Amount the board was previously scrolled left offscreen
@@ -41,12 +41,12 @@ let chunkInfo = {};                                                             
 let infoLockedId = -1;                                                          // Id of chunk locked for info
 let userName = '';                                                              // Runescape Username of user
 
-let ratio = 6016 / 6400;                                                        // Image ratio
+let ratio = 6016 / 6272;                                                        // Image ratio
 let movedNum = 0;                                                               // Amount of times mouse is moved while dragging
 let selectedNum = 1;                                                            // Current index of selected chunks
 let unlockedChunks = 0;                                                         // Number of unlocked chunks
 let selectedChunks = 0;                                                         // Number of selected chunks
-let startingIndex = 7495;                                                       // Index to start chunk numbering at
+let startingIndex = 7494;                                                       // Index to start chunk numbering at
 let skip = 209;                                                                 // Number of indices to skip between columns for chunk numbering
 
 let prevValueMid = '';                                                          // Previous value of map id at login
@@ -152,6 +152,7 @@ let rulesPanelVis = {
     agility: false,
     combat: false,
     construction: false,
+	dungeoneering: false,
     farming: false,
 	fishing: false,
     herblore: false,
@@ -452,13 +453,11 @@ let rules = {
 	"Titles": false,
 	"DnD": false,
 	"DnD Flash Events": false,
-	"Not Daily DnD": false,
 	"Uncharted": false,
 	"Arc Log": false,
 	"Menaphos Log": false,
 	"Costume Room": false,
 	"Achievement": false,
-	"Multiple Pickpockets": false,
 	"Multiple Agility": false,
     "F2P": false,
 	"Hard Mode Bosses": false,
@@ -495,13 +494,13 @@ let rules = {
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
-    "Skillcape": "Must obtain skillcapes<span class='rule-asterisk noscroll'>*</span>",
+    "Skillcape": "Skillcapes count for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
     "Rare Drop": "Chunk tasks can use drops more common than 1/X (not inclusive, set to 0 to include all drops)<span class='rareDropRuleTooltip'></span>",
     "Pouch": "Using Runecrafting pouches counts as chunk tasks",
     "InsidePOH": "Constructing furniture on a workbench counts as a Construction skill task<span class='rule-asterisk noscroll'>*</span>",
     "InsidePOH Primary": "...and counts as a primary Construction training<span class='rule-asterisk noscroll'>*</span>",
     "Construction Milestone": "Miscellaneous player-owned house unlocks (e.g. House style, room shapes, etc) count for chunk tasks",
-    "Boss": "Killing a boss can be used for a chunk task (item on droptable, Slayer level to kill, etc.)",
+    "Boss": "Bosses and their drops count for chunk tasks",
     "Slayer Equipment": "Using Slayer equipment counts for chunk tasks",
     "Normal Farming": "Normal Farming",
     "Raking": "Raking<span class='rule-asterisk noscroll'>*</span>",
@@ -510,7 +509,7 @@ let ruleNames = {
     "Spells": "Casting spells counts as chunk tasks",
     "Show Skill Tasks": "Show Skill Tasks",
     "Show Quest Tasks": "Show Quest Tasks",
-    "Show Diary Tasks": "Show Area Tasks achievements",
+    "Show Diary Tasks": "Must complete Area Tasks achievements",
     "Show Best in Slot Tasks": "Show tasks for standard combat Best in Slot (Accuracy + Damage tier, secondarily Armour)",
     "Show Best in Slot Prayer Tasks": "...and for Prayer-boosting gear",
     "Show Best in Slot Defensive Tasks": "...and for Tank gear (highest Armour + Health boost)",
@@ -526,30 +525,29 @@ let ruleNames = {
     "BIS Skilling Consumables": "...and charged or degrading skilling items (scrimshaws, skillchompa, etc.)",
     "BIS Skilling Relics": "...and Archaeology relics for skilling",
 	"Brawling Gloves": "...and every non-combat pair of brawling gloves",
-	"Hero Items": "Must obtain Hero Items as part of chunk tasks<span class='rule-asterisk noscroll'>†</span>",
+	"Hero Items": "Hero items count for chunk tasks<span class='rule-asterisk noscroll'>†</span>",
 	"Boss Collection Log": "Boss collection log<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Collection Log": "Slayer collection log<span class='rule-asterisk noscroll'>*</span>",
 	"Skilling Collection Log": "Skilling collection log (hidden)<span class='rule-asterisk noscroll'>*</span>",
 	"Archaeology Collections": "Must fill out all Archaeology collections<span class='rule-asterisk noscroll'>*</span>",
-	"Universal Tertiary": "Universal tertiary drops (mimic tokens, effigies, spirit gems) count towards chunk tasks<span class='rule-asterisk noscroll'>†</span>",
+	"Universal Tertiary": "Universal drops (mimic tokens, effigies, spirit gems) count for chunk tasks<span class='rule-asterisk noscroll'>†</span>",
 	"Breeding Log": "Breeding logs<span class='rule-asterisk noscroll'>*</span>",
-    "Minigame": "Items obtained from and actvities inside minigames count towards chunk tasks",
-	"DnD": "Items obtained from and activities inside Distractions and Diversions count towards chunk tasks<span class='rule-asterisk noscroll'>*</span>",
-	"Not Daily DnD": "...including Distractions and Diversions that reset less frequently than once a day<span class='rule-asterisk noscroll'>†</span>",
+    "Minigame": "Minigames and their rewards count for chunk tasks",
+	"DnD": "Distractions and Diversions and their rewards count for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
 	"DnD Flash Events": "...including Demon Flash Mobs and Goblin Raids<span class='rule-asterisk noscroll'>*</span>",
     "Shortcut Task": "Agility shortcuts count as an Agility skill task",
     "Shortcut": "...and as a primary Agility training method",
-    "Wield Crafted Items": "Crafted items count towards chunks tasks<span class='rule-asterisk noscroll'>*</span><span class='wieldCraftedItemsRuleTooltip'></span>",
+    "Wield Crafted Items": "Crafted items count for chunks tasks<span class='rule-asterisk noscroll'>*</span><span class='wieldCraftedItemsRuleTooltip'></span>",
     "Wield Crafted Items Override": "Require higher level processing skill tasks if the resulting item would be a BiS (may require longer calculation times)<span class='wieldCraftedItemsOverrideRuleTooltip'></span>",
     "Multi Step Processing": `Allow higher level processing of resources to enable other processing tasks <span class='rule-asterisk noscroll'>*</span><span class='multiStepProcessingRuleTooltip'></span>`,
-    "Puro-Puro": "Implings in underground areas (Puro-Puro, City of Um, etc.), and their drops, count towards chunk tasks",
+    "Puro-Puro": "Implings in underground areas (Puro-Puro, City of Um, etc.), and their drops, count for chunk tasks",
     "Extra implings": "...including implings that have non-guaranteed spawns",
-    "Bakami": "Bakami and orokami, and their drops, count towards chunk tasks",
-    "Wandering implings": "Implings that randomly wander the world and their drops count towards chunk tasks <span class='rule-asterisk noscroll'>†</span>",
+    "Bakami": "Bakami and orokami, and their drops, count for chunk tasks",
+    "Wandering implings": "Implings that randomly wander the world and their drops count for chunk tasks <span class='rule-asterisk noscroll'>†</span>",
 	"Farming Primary": "Farming products (herbs, vegetables, etc.) count as primary item sources for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
     "Secondary Primary": "Training methods can use drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training<span class='rule-asterisk noscroll'>*</span><span class='secondaryPrimaryRuleTooltip'></span>",
-    "RDT": "Items from the Rare Drop Table, the Gem Drop Table and the Wilderness Drop Table count towards chunk tasks",
-    "Crystal chests": "Items from crystal chests, triskelion treasures or columbarium keys count towards chunk tasks",
+    "RDT": "Items from the Rare Drop Table, the Gem Drop Table and the Wilderness Drop Table count for chunk tasks",
+    "Crystal chests": "Items from crystal chests, triskelion treasures, columbarium keys or Raz's stash count for chunk tasks",
     "Untracked Uniques Skilling": "Skilling uniques<span class='rule-asterisk noscroll'>*</span>",
     "Untracked Uniques Combat": "Combat uniques<span class='rule-asterisk noscroll'>*</span>",
     "Untracked Uniques Minigames": "Minigames and Distractions and Diversions uniques<span class='rule-asterisk noscroll'>*</span>",
@@ -578,31 +576,31 @@ let ruleNames = {
     "All Shops": "Must buy every item from every shop within your chunks once <span class='rule-asterisk noscroll'>⁺</span>",
     "Quest Skill Reqs": "WIP - Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>⁺</span>",
 	"Boosting": "Skill boosts can be used for tasks",
-    "Token": "Token xp drops count as primary training<span class='rule-asterisk noscroll'>†</span>",
+    "Token": "Token XP (1 XP actions) counts as primary training<span class='rule-asterisk noscroll'>†</span>",
 	"Master skillcape": "...including master skillcapes<span class='rule-asterisk noscroll'>†</span>",
 	"Cleaning Herbs": "Cleaning grimy herbs/making unfinished potions count as chunk tasks",
-	"Cleaning Herbs Primary": "Cleaning herbs counts as primary training",
+	"Cleaning Herbs Primary": "...and as primary Herblore training",
 	"Vinesweeper": "Vinesweeper",
 	"Ogleroot": "Vinesweeper counts as primary Hunter training",
 	"Gnomeball": "Playing gnomeball counts as a primary Agility and Ranged training<span class='rule-asterisk noscroll'>*</span>",
-	"Daemonheim training": "Training methods in Daemonheim count as primary training<span class='rule-asterisk noscroll'>*</span>",
-	"Daemonheim tasks": "Activities and items in Daemonheim count towards skill tasks<span class='rule-asterisk noscroll'>*</span>",
-	"PortSkills": "Require all trainable port skills to be trained up to 90<span class='rule-asterisk noscroll'>*</span>",
+	"Daemonheim tasks": "Activities during Dungeoneering count as skill tasks<span class='rule-asterisk noscroll'>*</span>",
+	"Daemonheim training": "...and as primary training<span class='rule-asterisk noscroll'>*</span>",
+	"PortSkills": "Must unlock all adventurers in the player-owned port (otherwise only one is required)<span class='rule-asterisk noscroll'>*</span>",
 	"Titles": "Must obtain all in-game earnable titles<span class='rule-asterisk noscroll'>*</span>",
-	"Uncharted": "Resources on Uncharted Isles count towards chunk tasks",
+	"Uncharted": "Resources on Uncharted Isles count for chunk tasks",
 	"Arc Log": "Arc Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Menaphos Log": "Menaphos Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Achievement": "Show Achievement Tasks",
 	"Multiple Agility": "Require the Agility, and the related Skill, levels to get multiple loots from pickpocketing, fishing and hunting<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict tasks to only those doable in free-to-play",
 	"Hard Mode Bosses": "...including hard mode<span class='rule-asterisk noscroll'>*</span>",
-	"Group Content": "Require content that is intended to be completed in a group",
+	"Group Content": "Group content counts for chunk tasks",
 	"Unlock Abilities": "Must unlock all abilities and Necromancy incantations",
-	"Sigil Abilities": "... including Sigil abilities<span class='rule-asterisk noscroll'>*</span>",
+	"Sigil Abilities": "...including Sigil abilities<span class='rule-asterisk noscroll'>*</span>",
 	"Abilities": "...including those unlocked through leveling (only from codices otherwise)<span class='rule-asterisk noscroll'>†</span>",
 	"Unlock Prayers": "Must unlock all prayers",
 	"Prayers": "...including those unlocked through leveling (only from codices otherwise)<span class='rule-asterisk noscroll'>†</span>",
-	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
+	"PVP": "PvP-related content count for chunk tasks<span class='rule-asterisk noscroll'>†</span>",
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
 	"Shooting Stars": "Getting the level to mine all tiers of shooting stars counts as a Mining skill task<span class='rule-asterisk noscroll'>*</span>",
@@ -618,12 +616,12 @@ let ruleNames = {
 	"Misc achievements": "Must complete achievements that are not already part of the above categories<span class='rule-asterisk noscroll'>*</span>",
 	"No RuneScore": "...including those that don't award RuneScore<span class='rule-asterisk noscroll'>†</span>",
 	"Level Up Achievements": "...including level-up achievements<span class='rule-asterisk noscroll'>†</span>",
-	"XP Lamps": "Using skills-specific experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
+	"XP Lamps": "Using skill-specific experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as primary Slayer training",
 	"Hide Partial Products": "Don't show tasks for partial products<span class='partialProductsRuleTooltip'></span>",
-	"Timegated": "Require tasks that demand consistent engagement with a time-gated activity across multiple weeks (Player-Owned Port, Player-Owned Farm, etc.)<span class='rule-asterisk noscroll'>*</span>",
+	"Timegated": "Time-gated activities that require consistent engagement across multiple weeks count for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Secondary Bird Nests": "Items from bird nests and geodes gotten through secondary methods (e.g. birdhouses, monster drops) count for chunk tasks",
-	"Speedrunning": "Require tasks that must be completed under a strict time limit (e.g. speedrunning tasks)<span class='rule-asterisk noscroll'>*</span>"
+	"Speedrunning": "Activities that must be completed under a strict time limit count for chunk tasks<span class='rule-asterisk noscroll'>*</span>"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -651,7 +649,6 @@ let rulePresets = {
 		"Unlock Abilities": true,
         "Unlock Prayers": true,
 		"Material Blueprints": true,
-		"Achievement": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
 		"Uncharted": true,
@@ -765,7 +762,6 @@ let rulePresets = {
         "Highest Level": true,
         "Minigame": true,
         "DnD": true,
-		"Not Daily DnD": true,
         "DnD Flash Events": true,
         "Shortcut Task": true,
         "Shortcut": true,
@@ -852,7 +848,7 @@ let rulePresets = {
 let rulePresetFlavor = {
     "Vanilla Chunker": "The original ruleset",
     "Extreme Chunker": "Only worse, never better",
-    "Supreme Chunker": "More like Sup-meme!"
+    "Supreme Chunker": "Don't play this one"
 };                                                                              // Preset flavour text
 
 let ruleStructure = {
@@ -872,17 +868,10 @@ let ruleStructure = {
 	},
     "Overall Skill": {
         "Secondary Primary": true,
-		"Skillcape": ["Master skillcape"],
-        "Highest Level": true,
+		"Highest Level": true,
         "Multi Step Processing": ["Hide Partial Products"],
         "Wield Crafted Items": ["Wield Crafted Items Override"],
-		"Token": true,
-        "Menaphos Events": true,
-		"Daemonheim training": true,
-		"Daemonheim tasks": true,
-		"Boosting": true,
-		"XP Lamps": true,
-		"PortSkills": true
+		"Boosting": true
     },
     "Agility": {
         "Shortcut Task": ["Shortcut"],
@@ -897,6 +886,9 @@ let ruleStructure = {
         "InsidePOH": ["InsidePOH Primary"],
         "Construction Milestone": true
     },
+	"Dungeoneering": {
+		"Daemonheim tasks": ["Daemonheim training"],
+	},
     "Farming": {
         "Normal Farming": true,
         "Raking": true,
@@ -905,8 +897,7 @@ let ruleStructure = {
         "Farming Primary": true
     },
     "Herblore": {
-		"Cleaning Herbs": true,
-		"Cleaning Herbs Primary": true
+		"Cleaning Herbs": ["Cleaning Herbs Primary"]
     },
     "Hunter": {
 		"Puro-Puro": ["Extra implings"],
@@ -950,8 +941,7 @@ let ruleStructure = {
 		"Slayer Souls": true,
 		"Untracked Uniques Skilling": true, 
 		"Untracked Uniques Combat": true, 
-		"Untracked Uniques Minigames": true,
-		"Ceremonial Swords": true,
+		"Untracked Uniques Minigames": ["Ceremonial Swords"],
 		"Untracked Uniques Daemonheim": true, 
 		"Untracked Uniques Misc": true,
 		"Archaeology Collections": true,
@@ -961,31 +951,36 @@ let ruleStructure = {
 		"Pets": ["Skilling Pets"]
 	},
     "Item Sources": {
-        "Boss": ["Hard Mode Bosses"],
         "Rare Drop": ["KeyItem Bosses"],
-        "RDT": true,
+		"Boss": ["Hard Mode Bosses"],
+		"RDT": true,
         "Crystal chests": true,
-		"Uncharted": true,
 		"Secondary Bird Nests": true,
+		"Uncharted": true,
 		"Universal Tertiary": true,
-        "Primary Spawns": true,
-		"Every Drop": ["Every Drop Implings", "Every Drop Thieving", "Every Drop BGH"],
-        "All Droptables": true,
-        "All Shops": true
+        "Primary Spawns": true
     },
     "Miscellaneous": {
+		"Skillcape": ["Master skillcape"],
+		"Hero Items": true,
+        "Menaphos Events": true,
+		"XP Lamps": true,
+		"PortSkills": true,
+        "Group Content": true,
         "Minigame": true,
 		"DnD": ["DnD Flash Events"],
 		"PVP": true,
-		"Hero Items": true,
-		"Permanent Unlockables": true,
-		"Group Content": true,
 		"Speedrunning": true,
 		"Timegated": true,
+		"Token": true,
+		"Skiller": true,
+        "F2P": true,
+		"Permanent Unlockables": true,
+		"Fill Stash": true,
 		"Kill X": true,
-        "Fill Stash": true,
-        "Skiller": true,
-        "F2P": true
+		"Every Drop": ["Every Drop Implings", "Every Drop Thieving", "Every Drop BGH"],
+        "All Droptables": true,
+        "All Shops": true
     }
 };                                                                              // Structure of rules
 
@@ -1053,7 +1048,10 @@ let ruleInnerTitles = {
 	'Farming Primary': 'Other:',
 	'Boss Collection Log': 'Collection Logs:',
 	'Untracked Uniques Skilling': 'Untracked Uniques:',
-	'Archaeology Collections': 'Other:'
+	'Archaeology Collections': 'Other:',
+	'Skillcape': 'Specific content filters:',
+	'Group Content': 'Broad content filters:',
+	'Permanent Unlockables': 'Extra tasks:'
 };
 
 let settings = {
@@ -2261,16 +2259,16 @@ let drawCanvas = function(ctxIn = ctx) {
             ctxIn.textAlign = 'center';
             ctxIn.font = '900 ' + 36 + 'px "Font Awesome 6 Free"';
             ctxIn.fillStyle = 'white';
-            ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 4);
+            ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((71 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 4);
             ctxIn.font = '900 ' + 32 + 'px "Font Awesome 6 Free"';
             ctxIn.fillStyle = hoveredOverlayIds.includes(i) && !isHoveringOverlayMenu ? 'black' : overlayEl.color;
-            ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6);
+            ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((71 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6);
             if (selectedOverlayIds.length !== 0 && selectedOverlayIds.includes(i)) {
                 ctxIn.fillStyle = 'rgba(30, 30, 30, 0.5)';
-                ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6);
+                ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((71 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6);
             }
             ctxIn.beginPath();
-            ctxIn.arc((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 22, 5, 0, 2 * Math.PI, false);
+            ctxIn.arc((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((71 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 22, 5, 0, 2 * Math.PI, false);
             ctxIn.fillStyle = 'white';
             ctxIn.fill();
         }

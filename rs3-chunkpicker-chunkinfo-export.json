@@ -134,7 +134,7 @@
 			},
 			"Eggsperiment with ~|accidental fletching and firemaking|~": {
 				"Category": ["Token"],
-				"Chunks": ["14915-1"],
+				"Chunks": ["14658-1"],
 				"Level": 1,
 				"Skills": {
 					"Firemaking": 95
@@ -385,14 +385,14 @@
 				"Priority": 3
 			},
 			"Complete section A of the ~|Anachronia agility course|~": {
-				"Chunks": ["15426-1", "15426-2", "15426-3", "15427-2", "15427-3", "15682-2", "15682-3", "15683-1", "15683-2", "15683-3"],
+				"Chunks": ["15169-1", "15169-2", "15169-3", "15170-2", "15170-3", "15425-2", "15425-3", "15426-1", "15426-2", "15426-3"],
 				"Level": 30,
 				"Primary": true,
 				"Output": "AnachroniaCourse",
 				"Priority": 4
 			},
 			"Complete section G of the ~|Anachronia agility course|~": {
-				"Chunks": ["15684", "15941"],
+				"Chunks": ["15427", "15684"],
 				"Level": 30,
 				"Primary": true,
 				"Output": "AnachroniaCourse",
@@ -590,7 +590,7 @@
 				"NoPet": true
 			},
 			"Build the first tier of the spa in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Level": 40,
 				"Primary": false,
 				"Priority": 100
@@ -727,14 +727,14 @@
 				"Priority": 1
 			},
 			"Complete section B of the ~|Anachronia agility course|~": {
-				"Chunks": ["15681-2", "15936", "15937-1", "15937-2", "16192-1", "16193-1", "16193-5"],
+				"Chunks": ["15424-2", "15679", "15680-1", "15680-2", "15935-1", "15936-1", "15936-5"],
 				"Level": 50,
 				"Primary": true,
 				"Output": "AnachroniaCourse",
 				"Priority": 2
 			},
 			"Complete section F of the ~|Anachronia agility course|~": {
-				"Chunks": ["15941", "16197-1", "16453-2"],
+				"Chunks": ["15684", "15940-1", "16196-2"],
 				"Level": 50,
 				"Primary": true,
 				"Output": "AnachroniaCourse",
@@ -1228,14 +1228,14 @@
 				"Priority": 1
 			},
 			"Complete section C of the ~|Anachronia agility course|~": {
-				"Chunks": ["16193-1", "16193-3", "16194-1", "16194-2", "16194-4", "16450-1", "16450-2", "16450-3", "16450-5"],
+				"Chunks": ["15936-1", "15936-3", "15937-1", "15937-2", "15937-4", "16193-1", "16193-2", "16193-3", "16193-5"],
 				"Level": 70,
 				"Primary": true,
 				"Output": "AnachroniaCourse",
 				"Priority": 2
 			},
 			"Complete section E of the ~|Anachronia agility course|~": {
-				"Chunks": ["16453-2", "16453-3", "16708-2", "16708-3"],
+				"Chunks": ["16196-2", "16196-3", "16451-2", "16451-3"],
 				"Level": 70,
 				"Primary": true,
 				"Output": "AnachroniaCourse",
@@ -1304,7 +1304,7 @@
 				"NoPet": true
 			},
 			"Build the second tier of the spa in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Level": 70,
 				"Primary": false,
 				"Priority": 1003
@@ -1663,14 +1663,14 @@
 				"Priority": 2
 			},
 			"Complete section D of the ~|Anachronia agility course|~": {
-				"Chunks": ["16706-1", "16706-2", "16707-1", "16707-7", "16707-8", "16708-2", "16708-4", "16963-1", "16963-2"],
+				"Chunks": ["16449-1", "16449-2", "16450-1", "16450-7", "16450-8", "16451-2", "16451-4", "16706-1", "16706-2"],
 				"Level": 85,
 				"Primary": true,
 				"Output": "AnachroniaCourse",
 				"Priority": 3
 			},
 			"Complete the whole ~|Anachronia agility course|~": {
-				"Chunks": ["15426-1", "15426-2", "15426-3", "15427-2", "15427-3", "15681-2", "15682-2", "15682-3", "15683-1", "15683-2", "15683-3", "15684", "15936", "15937-1", "15937-2", "15941", "16192-1", "16193-1", "16193-3", "16193-5", "16194-1", "16194-2", "16194-4", "16197-1", "16450-1", "16450-2", "16450-3", "16450-5", "16453-2", "16453-3", "16706-1", "16706-2", "16707-1", "16707-7", "16707-8", "16708-2", "16708-3", "16708-4", "16963-1", "16963-2"],
+				"Chunks": ["15169-1", "15169-2", "15169-3", "15170-2", "15170-3", "15424-2", "15425-2", "15425-3", "15426-1", "15426-2", "15426-3", "15427", "15679", "15680-1", "15680-2", "15684", "15935-1", "15936-1", "15936-3", "15936-5", "15937-1", "15937-2", "15937-4", "15940-1", "16193-1", "16193-2", "16193-3", "16193-5", "16196-2", "16196-3", "16449-1", "16449-2", "16450-1", "16450-7", "16450-8", "16451-2", "16451-3", "16451-4", "16706-1", "16706-2"],
 				"Level": 85,
 				"Primary": true,
 				"Output": "Codex page",
@@ -1849,7 +1849,7 @@
 				"Priority": 1004
 			},
 			"Build the third tier of the spa in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Items": ["Essential oils*"],
 				"Level": 90,
 				"Primary": false,
@@ -4481,7 +4481,7 @@
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
-				"Chunks": ["16709-2"],
+				"Chunks": ["16452-2"],
 				"Objects": ["Research notes"],
 				"Level": 70,
 				"Primary": false,
@@ -5855,7 +5855,7 @@
 				"Tasks": {
 					"Become an ~|archaeology associate|~": "Archaeology"
 				},
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 1,
@@ -5929,7 +5929,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Chunks": ["15428-1"],
+				"Chunks": ["15171-1"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 12
@@ -5938,7 +5938,7 @@
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
-				"Chunks": ["15428-1"],
+				"Chunks": ["15171-1"],
 				"Objects": ["Research notes"],
 				"Level": 90,
 				"Primary": false,
@@ -5949,7 +5949,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Chunks": ["16454-1"],
+				"Chunks": ["16197-1"],
 				"Items": ["Ancient vis"],
 				"Level": 90,
 				"Skills": {
@@ -5962,7 +5962,7 @@
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
-				"Chunks": ["16454-1"],
+				"Chunks": ["16197-1"],
 				"Objects": ["Research notes"],
 				"Level": 90,
 				"Primary": false,
@@ -5973,7 +5973,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Chunks": ["16193-1"],
+				"Chunks": ["15936-1"],
 				"Items": ["Orthenglass"],
 				"Level": 90,
 				"Skills": {
@@ -5986,7 +5986,7 @@
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
-				"Chunks": ["16193-1"],
+				"Chunks": ["15936-1"],
 				"Objects": ["Research notes"],
 				"Level": 90,
 				"Primary": false,
@@ -5997,7 +5997,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Chunks": ["16704-1"],
+				"Chunks": ["16447-1"],
 				"Items": ["Quintessence"],
 				"Level": 90,
 				"Skills": {
@@ -6920,7 +6920,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Chunks": ["16963-1"],
+				"Chunks": ["16706-1"],
 				"Items": ["Orthenglass flask", "Dragon metal", "Clean arbuck", "Guarana", "Sweet honeycomb"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 102,
@@ -7052,7 +7052,7 @@
 			},
 			"Restore ~|Balarak's sash brush|~ after learning how to restore it": {
 				"Items": ["Balarak's sash brush head", "Balarak's sash brush handle", "Balarak's sash brush base", "Dragon metal", "Carbon black", "Softened fungal shafts", "Felt", "Draconic energy"],
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 103,
 				"Primary": true,
@@ -12195,7 +12195,7 @@
 				"NoBoost": true
 			},
 			"Build the first tier of the player lodge in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Level": 40,
 				"Primary": false,
 				"Priority": 1001
@@ -12577,7 +12577,7 @@
 				"Priority": 1
 			},
 			"Build a small dinosaur pen in your ~|Ranch out of Time|~": {
-				"Chunks": ["14916"],
+				"Chunks": ["14659"],
 				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 45,
 				"Tasks": {
@@ -13131,7 +13131,7 @@
 				"Priority": 100
 			},
 			"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": {
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 55,
 				"Tasks": {
@@ -13667,6 +13667,25 @@
 				"Output": "Stone planter",
 				"Priority": 10
 			},
+			"Construct a ~|small totem|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["'Perfect' petrified log*", "Teak plank*", "Furniture plans: Small totems"],
+				"Objects": ["Furniture workbench"],
+				"Level": 64,
+				"Primary": true,
+				"Priority": 11
+			},
+			"Construct an ~|opulent chaise longue|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Mahogany plank*", "Bolt of cloth*", "Gold leaf*", "Turian purple*"],
+				"Objects": ["Furniture workbench"],
+				"Tasks": {
+					"~|Heralds of Crimson|~ Complete the quest": "Quest"
+				},
+				"Level": 64,
+				"Primary": true,
+				"Priority": 12
+			},
 			"Build the tier 2 ~|Guardhouse|~": {
 				"Tasks": {
 					"Build the tier 1 ~|Guardhouse|~": "Construction"
@@ -13780,6 +13799,25 @@
 				"Level": 65,
 				"Primary": true,
 				"Priority": 14
+			},
+			"Construct a ~|bogwart (house)|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Bagged bogwart mycelium*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 65,
+				"Primary": true,
+				"Priority": 15
+			},
+			"Construct a ~|wolf statue (small)|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Essence lump*"],
+				"Objects": ["Furniture workbench"],
+				"Tasks": {
+					"~|Heralds of Crimson|~ Complete the quest": "Quest"
+				},
+				"Level": 64,
+				"Primary": true,
+				"Priority": 16
 			},
 			"Build a room with the terracotta paving ~|floor style|~": {
 				"Category": ["Construction Milestone"],
@@ -13968,6 +14006,14 @@
 				"Primary": true,
 				"Priority": 6
 			},
+			"Construct a ~|luminous mushroom|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Bagged luminous mycelium*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 68,
+				"Primary": true,
+				"Priority": 7
+			},
 			"Change your ~|house style|~ to dark stone": {
 				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
@@ -14102,7 +14148,7 @@
 				"Priority": 100
 			},
 			"Build the second tier of the player lodge in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Level": 70,
 				"Primary": false,
 				"Priority": 101
@@ -14243,6 +14289,14 @@
 				"Primary": true,
 				"Priority": 6
 			},
+			"Construct a ~|nightshade mushroom|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Bagged nightshade mycelium*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 71,
+				"Primary": true,
+				"Priority": 7
+			},
 			"Construct a ~|mermaid hunter diving suit|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Fishbowl*", "Bronze bar*", "Porthole*"],
@@ -14357,6 +14411,22 @@
 				"Output Object": "Portal nexus",
 				"Primary": true,
 				"Priority": 5
+			},
+			"Construct a ~|blue deathcap|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Bagged blue deathcap mycelium*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 74,
+				"Primary": true,
+				"Priority": 6
+			},
+			"Construct a ~|bog light (single)|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Bogolin glow orb*", "Mahogany plank*", "Furniture plans: Bog light (single)"],
+				"Objects": ["Furniture workbench"],
+				"Level": 74,
+				"Primary": true,
+				"Priority": 7
 			},
 			"Build the tier 3 ~|Workshop (Fort Forinthry)|~": {
 				"Tasks": {
@@ -14583,7 +14653,7 @@
 				"NoBoost": true
 			},
 			"Prepare stones at the stonemason in the ~|Dream of Iaia|~": {
-				"Chunks": ["Dream of Iaia", "15939-1"],
+				"Chunks": ["Dream of Iaia", "15682-1"],
 				"Level": 75,
 				"Output": "Dream of Iaia loot",
 				"Primary": true,
@@ -14672,6 +14742,22 @@
 				"Primary": true,
 				"Priority": 8
 			},
+			"Construct a ~|bog light (double)|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Bogolin glow orb*", "Mahogany plank*", "Furniture plans: Bog light (double)"],
+				"Objects": ["Furniture workbench"],
+				"Level": 76,
+				"Primary": true,
+				"Priority": 9
+			},
+			"Construct ~|morchella mushrooms (house)|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Bagged morchella mycelium*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 77,
+				"Primary": true,
+				"Priority": 1
+			},
 			"Build the tier 2 ~|Botanist's Workbench|~": {
 				"Tasks": {
 					"Build the tier 1 ~|Botanist's Workbench|~": "Construction"
@@ -14728,6 +14814,14 @@
 				"Level": 78,
 				"Primary": true,
 				"Priority": 7
+			},
+			"Construct a ~|bog light (triple)|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Bogolin glow orb*", "Mahogany plank*", "Furniture plans: Bog light (triple)"],
+				"Objects": ["Furniture workbench"],
+				"Level": 78,
+				"Primary": true,
+				"Priority": 8
 			},
 			"Construct a ~|ceramic iris pot|~": {
 				"Category": ["InsidePOH Primary"],
@@ -14861,8 +14955,16 @@
 				"Primary": true,
 				"Priority": 15
 			},
+			"Construct ~|marshtable mushrooms|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Bagged marshtable mycelium*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 16
+			},
 			"Build a medium dinosaur pen in your ~|Ranch out of Time|~": {
-				"Chunks": ["14916"],
+				"Chunks": ["14659"],
 				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 80,
 				"Skills": {
@@ -15042,6 +15144,14 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Construct ~|toad tongue mushrooms|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Bagged toad tongue mycelium*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 83,
+				"Primary": true,
+				"Priority": 5
+			},
 			"Construct a ~|mahogany telescope|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Mahogany plank*", "Molten glass*"],
@@ -15090,6 +15200,14 @@
 				"Level": 84,
 				"Primary": true,
 				"Priority": 6
+			},
+			"Construct a ~|medium totem|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["'Perfect' petrified log*", "Mahogany plank*", "Furniture plans: Medium totems"],
+				"Objects": ["Furniture workbench"],
+				"Level": 84,
+				"Primary": true,
+				"Priority": 7
 			},
 			"Upgrade the ~|spirit pig machine|~ to (tier 3)": {
 				"Items": ["Teak plank", "Mithril bar", "Nails[+]"],
@@ -15163,6 +15281,17 @@
 				"Primary": true,
 				"Priority": 7
 			},
+			"Construct a ~|wolf statue (medium)|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Essence chunk*"],
+				"Objects": ["Furniture workbench"],
+				"Tasks": {
+					"~|Heralds of Crimson|~ Complete the quest": "Quest"
+				},
+				"Level": 85,
+				"Primary": true,
+				"Priority": 8
+			},
 			"Construct a ~|mahogany toy box|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Mahogany plank*"],
@@ -15195,6 +15324,14 @@
 				"Level": 86,
 				"Primary": true,
 				"Priority": 5
+			},
+			"Construct ~|sourcap mushrooms|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Bagged sourcap mycelium*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 86,
+				"Primary": true,
+				"Priority": 6
 			},
 			"Construct a ~|mahogany gilded armour case|~": {
 				"Category": ["InsidePOH Primary"],
@@ -15243,6 +15380,14 @@
 				"Level": 88,
 				"Primary": true,
 				"Priority": 2
+			},
+			"Construct a ~|swamp brazier (furniture)|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Hardened knot*", "Magic logs*", "Iron bar*", "Furniture plans: Swamp brazier"],
+				"Objects": ["Furniture workbench"],
+				"Level": 88,
+				"Primary": true,
+				"Priority": 3
 			},
 			"Build a master ~|hidey-hole|~": {
 				"Chunks": ["MasterHideyHoles[+]"],
@@ -15310,7 +15455,7 @@
 				"Priority": 5
 			},
 			"Build the third tier of the player lodge in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Items": ["Dinosaur rib bone*"],
 				"Level": 90,
 				"Primary": false,
@@ -15333,7 +15478,7 @@
 				"Priority": 1000
 			},
 			"Build a large dinosaur pen in your ~|Ranch out of Time|~": {
-				"Chunks": ["14660"],
+				"Chunks": ["14403"],
 				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 90,
 				"Skills": {
@@ -15348,7 +15493,7 @@
 				"Priority": 102
 			},
 			"Build a second large dinosaur pen in your ~|Ranch out of Time|~": {
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 90,
 				"Skills": {
@@ -15756,6 +15901,15 @@
 				"Primary": true,
 				"Priority": 10
 			},
+			"Construct a ~|colossi statue|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Exalted essence slab*", "Colossal leg*"],
+				"NPCs": ["Azur"],
+				"Objects": ["Furniture workbench"],
+				"Level": 100,
+				"Primary": true,
+				"Priority": 11
+			},
 			"Construct an ~|eternal treasure chest|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Eternal plank*"],
@@ -15861,6 +16015,14 @@
 				"Primary": true,
 				"Priority": 5
 			},
+			"Construct a ~|large totem|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["'Perfect' petrified log*", "Eternal plank*", "Furniture plans: Large totems"],
+				"Objects": ["Furniture workbench"],
+				"Level": 104,
+				"Primary": true,
+				"Priority": 6
+			},
 			"Construct an ~|Armadyl altar (furniture)|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Marble block*", "Gold leaf*", "Magic stone*", "Stone of binding*", "Wings of War*", "Stormguard steel*", "Furniture plans: Armadyl altar"],
@@ -15925,6 +16087,17 @@
 				"Primary": true,
 				"Priority": 8
 			},
+			"Construct a ~|wolf statue (large)|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Essence slab*"],
+				"Objects": ["Furniture workbench"],
+				"Tasks": {
+					"~|Heralds of Crimson|~ Complete the quest": "Quest"
+				},
+				"Level": 105,
+				"Primary": true,
+				"Priority": 16
+			},
 			"Reinforce any building at ~|Fort Forinthry|~": {
 				"Tasks": {
 					"Fort construction[+]": "Construction"
@@ -15932,7 +16105,7 @@
 				"Items": ["Eternal frame*", "Stone wall segment*"],
 				"Level": 105,
 				"Primary": true,
-				"Priority": 9
+				"Priority": 100
 			},
 			"Construct ~|eternal gilded drawers|~": {
 				"Category": ["InsidePOH Primary"],
@@ -15949,6 +16122,14 @@
 				"Level": 106,
 				"Primary": true,
 				"Priority": 2
+			},
+			"Construct a ~|swamp brazier (green)|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Hardened knot*", "Eternal magic logs*", "Iron bar*", "Furniture plans: Swamp brazier (green)"],
+				"Objects": ["Furniture workbench"],
+				"Level": 106,
+				"Primary": true,
+				"Priority": 3
 			},
 			"Construct an ~|eternal gilded dresser|~": {
 				"Category": ["InsidePOH Primary"],
@@ -23466,7 +23647,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Chunks": ["16193-1"],
+				"Chunks": ["15936-1"],
 				"Items": ["Orthenglass"],
 				"Level": 70,
 				"Skills": {
@@ -23690,7 +23871,7 @@
 				"Priority": 20
 			},
 			"Dye leather at the tannery in the ~|Dream of Iaia|~": {
-				"Chunks": ["Dream of Iaia", "15939-1"],
+				"Chunks": ["Dream of Iaia", "15682-1"],
 				"Level": 75,
 				"Output": "Dream of Iaia loot",
 				"Primary": true,
@@ -29877,7 +30058,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Chunks": ["16704-1"],
+				"Chunks": ["16447-1"],
 				"Items": ["Quintessence"],
 				"Level": 70,
 				"Skills": {
@@ -31894,7 +32075,7 @@
 			},
 			"Seggragate dinosaur eggs with ~|accidental fletching and firemaking": {
 				"Category": ["Token"],
-				"Chunks": ["14915-1"],
+				"Chunks": ["14658-1"],
 				"Level": 1,
 				"Skills": {
 					"Firemaking": 87
@@ -32964,7 +33145,7 @@
 				"Priority": 12
 			},
 			"Build a small dinosaur pen in your ~|Ranch out of Time|~": {
-				"Chunks": ["14916"],
+				"Chunks": ["14659"],
 				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 42,
 				"Skills": {
@@ -32979,7 +33160,7 @@
 				"Priority": 14
 			},
 			"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": {
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 42,
 				"Tasks": {
@@ -33920,7 +34101,7 @@
 				"Priority": 6
 			},
 			"Build a medium dinosaur pen in your ~|Ranch out of Time|~": {
-				"Chunks": ["14916"],
+				"Chunks": ["14659"],
 				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 76,
 				"Skills": {
@@ -34986,7 +35167,7 @@
 				"Priority": 7
 			},
 			"Build a large dinosaur pen in your ~|Ranch out of Time|~": {
-				"Chunks": ["14660"],
+				"Chunks": ["14403"],
 				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 98,
 				"Skills": {
@@ -35242,7 +35423,7 @@
 				"Priority": 1
 			},
 			"Build a second large dinosaur pen in your ~|Ranch out of Time|~": {
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Shops": ["Farmers' Market (Anachronia)"],
 				"Level": 104,
 				"Skills": {
@@ -37891,7 +38072,7 @@
 				"Allow Virtual": true
 			},
 			"Carestyle a zygomite with ~|accidental fletching and firemaking|~": {
-				"Chunks": ["14915-1"],
+				"Chunks": ["14658-1"],
 				"Level": 82,
 				"Skills": {
 					"Fletching": 82
@@ -37904,7 +38085,7 @@
 				"Priority": 3
 			},
 			"Seggragate dinosaur eggs with ~|accidental fletching and firemaking": {
-				"Chunks": ["14915-1"],
+				"Chunks": ["14658-1"],
 				"Level": 87,
 				"Skills": {
 					"Farming": 1
@@ -37917,7 +38098,7 @@
 				"Priority": 2
 			},
 			"Eggsperiment with ~|accidental fletching and firemaking|~": {
-				"Chunks": ["14915-1"],
+				"Chunks": ["14658-1"],
 				"Level": 95,
 				"Skills": {
 					"Agility": 1
@@ -38631,7 +38812,7 @@
 				"Priority": 1
 			},
 			"Feed fish at the fishery in the ~|Dream of Iaia|~": {
-				"Chunks": ["Dream of Iaia", "15939-1"],
+				"Chunks": ["Dream of Iaia", "15682-1"],
 				"Level": 75,
 				"Output": "Dream of Iaia loot",
 				"Primary": true,
@@ -40396,7 +40577,7 @@
 				"Not F2P": true
 			},
 			"Fletch logs at the fletcher's hut in the ~|Dream of Iaia|~": {
-				"Chunks": ["Dream of Iaia", "15939-1"],
+				"Chunks": ["Dream of Iaia", "15682-1"],
 				"Level": 75,
 				"Output": "Dream of Iaia loot",
 				"Primary": true,
@@ -41258,7 +41439,7 @@
 				"Allow Virtual": true
 			},
 			"Carestyle a zygomite with ~|accidental fletching and firemaking|~": {
-				"Chunks": ["14915-1"],
+				"Chunks": ["14658-1"],
 				"Level": 82,
 				"Skills": {
 					"Firemaking": 82
@@ -43595,7 +43776,7 @@
 				"Priority": 10
 			},
 			"Mix tinctures at the apothecary in the ~|Dream of Iaia|~": {
-				"Chunks": ["Dream of Iaia", "15939-1"],
+				"Chunks": ["Dream of Iaia", "15682-1"],
 				"Level": 75,
 				"Output": "Dream of Iaia loot",
 				"Primary": true,
@@ -45328,7 +45509,7 @@
 				"Priority": 1
 			},
 			"Build the first tier of the hunter lodge in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Level": 40,
 				"Primary": false,
 				"Priority": 2
@@ -45852,7 +46033,7 @@
 				"Priority": 3
 			},
 			"Build the second tier of the hunter lodge in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Level": 70,
 				"Primary": false,
 				"Priority": 4
@@ -46018,7 +46199,7 @@
 				"Priority": 5
 			},
 			"Build traps at the hunting lodge in the ~|Dream of Iaia|~": {
-				"Chunks": ["Dream of Iaia", "15939-1"],
+				"Chunks": ["Dream of Iaia", "15682-1"],
 				"Level": 75,
 				"Output": "Dream of Iaia loot",
 				"Primary": true,
@@ -46582,7 +46763,7 @@
 				"Priority": 11
 			},
 			"Build the third tier of the hunter lodge in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Items": ["Reinforced dinosaur pelt*"],
 				"Level": 90,
 				"Primary": false,
@@ -52211,7 +52392,7 @@
 			},
 			"Cast ~|North-western Anachronia Teleport|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
-				"Chunks": ["15430"],
+				"Chunks": ["15173"],
 				"Items": ["Nature rune*", "Law rune*", "Time rune*"],
 				"Level": 75,
 				"Primary": true,
@@ -52393,7 +52574,7 @@
 			},
 			"Cast ~|Eastern Anachronia Teleport|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
-				"Chunks": ["16451"],
+				"Chunks": ["16194"],
 				"Items": ["Nature rune*", "Law rune*", "Time rune*"],
 				"Level": 78,
 				"Primary": true,
@@ -61490,7 +61671,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Chunks": ["16454-1"],
+				"Chunks": ["16197-1"],
 				"Items": ["Ancient vis"],
 				"Level": 70,
 				"Skills": {
@@ -62016,7 +62197,7 @@
 				"Not F2P": true
 			},
 			"Anchor the ~|time altar|~": {
-				"Chunks": ["15430"],
+				"Chunks": ["15173"],
 				"Items": ["Enchanted key"],
 				"Level": 100,
 				"Primary": false,
@@ -62346,7 +62527,7 @@
 			},
 			"Buy and use a slayer lamp using ~|Hunter Marks|~": {
 				"Category": ["XP Lamps"],
-				"Chunks": ["15683-1"],
+				"Chunks": ["15426-1"],
 				"Items": ["Medium Slayer lamp (Hunter Marks)*"],
 				"Level": 1,
 				"Primary": true,
@@ -63167,7 +63348,7 @@
 				"NoPet": true
 			},
 			"Build the first tier of the slayer lodge in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Level": 40,
 				"Primary": false,
 				"Priority": 4,
@@ -63478,7 +63659,7 @@
 				"NoPet": true
 			},
 			"Build the second tier of the slayer lodge in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Level": 70,
 				"Primary": false,
 				"Priority": 3,
@@ -63947,7 +64128,7 @@
 				"NoPet": true
 			},
 			"Build the third tier of the slayer lodge in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Items": ["Dinosaur tooth"],
 				"Level": 90,
 				"Primary": false,
@@ -72089,7 +72270,7 @@
 			},
 			"Enter the ~|Asuran Arsenal|~": {
 				"Level": 108,
-				"Chunks": ["16960-3"],
+				"Chunks": ["16703-3"],
 				"Output": "Asuran Arsenal loot",
 				"Primary": true,
 				"Priority": 1,
@@ -79888,7 +80069,7 @@
 			"~|Desperate Creatures|~ 2": {
 				"BaseQuest": "Desperate Creatures",
 				"Description": "Find the four flower specimen in western Anachronia",
-				"Chunks": ["15426-1", "15171", "15172-3"],
+				"Chunks": ["15169-1", "14914", "14915-3"],
 				"Tasks": {
 					"~|Desperate Creatures|~ 1": "Quest"
 				},
@@ -79906,7 +80087,7 @@
 			"~|Desperate Creatures|~ 4": {
 				"BaseQuest": "Desperate Creatures",
 				"Description": "Find the four shrubbery specimen near the Anachronia Base Camp, then return to The Curator",
-				"Chunks": ["15940-2", "15939-1", "15683-1", "11575-1", "15939-4"],
+				"Chunks": ["15683-2", "15682-1", "15426-1", "11575-1", "15682-4"],
 				"Tasks": {
 					"~|Desperate Creatures|~ 3": "Quest"
 				},
@@ -79915,7 +80096,7 @@
 			"~|Desperate Creatures|~ 5": {
 				"BaseQuest": "Desperate Creatures",
 				"Description": "Find four fungi specimen in south-eastern Anachronia, then return to The Curator",
-				"Chunks": ["16449-1", "16193-1", "16193-3", "11575-1"],
+				"Chunks": ["16192-1", "15936-1", "15936-3", "11575-1"],
 				"Tasks": {
 					"~|Desperate Creatures|~ 4": "Quest"
 				},
@@ -79924,7 +80105,7 @@
 			"~|Desperate Creatures|~ 6": {
 				"BaseQuest": "Desperate Creatures",
 				"Description": "Find the four insect specimen in eastern Anachronia, then return to The Curator",
-				"Chunks": ["11575-1", "16451", "16708-1", "16964-1"],
+				"Chunks": ["11575-1", "16194", "16451-1", "16707-1"],
 				"Tasks": {
 					"~|Desperate Creatures|~ 5": "Quest"
 				},
@@ -79933,7 +80114,7 @@
 			"~|Desperate Creatures|~ 7": {
 				"BaseQuest": "Desperate Creatures",
 				"Description": "Find the four frog specimen in central Anachronia, then return to The Curator",
-				"Chunks": ["11575-1", "16195-1"],
+				"Chunks": ["11575-1", "15938-1"],
 				"Tasks": {
 					"~|Desperate Creatures|~ 6": "Quest"
 				},
@@ -79975,7 +80156,7 @@
 			"~|Desperate Measures|~ 2": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Speak to Mr Mordaut on Anachronia",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Tasks": {
 					"~|Desperate Measures|~ 1": "Quest"
 				},
@@ -79984,7 +80165,7 @@
 			"~|Desperate Measures|~ 3": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Speak to Thok or Charos and play through Thok's story",
-				"Chunks": ["15684"],
+				"Chunks": ["15427"],
 				"Tasks": {
 					"~|Desperate Measures|~ 2": "Quest"
 				},
@@ -79993,7 +80174,7 @@
 			"~|Desperate Measures|~ 4": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Excavate and restore the dragonkin device and return to Charos, then excavate and restore the dragonkin tablet and return to Charos again",
-				"Chunks": ["15684"],
+				"Chunks": ["15427"],
 				"Objects": ["Archaeologist's workbench"],
 				"Items": ["Orthenglass"],
 				"Tasks": {
@@ -80004,7 +80185,7 @@
 			"~|Desperate Measures|~ 5": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Talk to Hannibus at the Player Owned Ranch",
-				"Chunks": ["14916"],
+				"Chunks": ["14659"],
 				"Tasks": {
 					"~|Desperate Measures|~ 4": "Quest"
 				},
@@ -80013,7 +80194,7 @@
 			"~|Desperate Measures|~ 6": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Enter the Dragonkin ruins in north-eastern Anachronia, and play through both dream sequences, then fight Kerapac",
-				"Chunks": ["16709-2"],
+				"Chunks": ["16452-2"],
 				"Tasks": {
 					"~|Desperate Measures|~ 5": "Quest"
 				},
@@ -80058,7 +80239,7 @@
 			"~|Desperate Measures|~ 11": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Speak to Charos at the Anachronia base camp and defend the camp from the dinosaurs, then speak to Charos again",
-				"Chunks": ["15683-1"],
+				"Chunks": ["15426-1"],
 				"Tasks": {
 					"~|Desperate Measures|~ 10": "Quest"
 				},
@@ -80067,7 +80248,7 @@
 			"~|Desperate Measures|~ 12": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Speak to Charos near the entrance of Kerapac's laboratory and use the Measure near him",
-				"Chunks": ["15684"],
+				"Chunks": ["15427"],
 				"Tasks": {
 					"~|Desperate Measures|~ 11": "Quest"
 				},
@@ -80076,7 +80257,7 @@
 			"~|Desperate Measures|~ 13": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Use the Measure near Charos at the camouflaged jadinkos",
-				"Chunks": ["15941"],
+				"Chunks": ["15684"],
 				"Tasks": {
 					"~|Desperate Measures|~ 12": "Quest"
 				},
@@ -80085,7 +80266,7 @@
 			"~|Desperate Measures|~ 14": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Use the Measure near Charos by the luminous snagglers",
-				"Chunks": ["15172-2"],
+				"Chunks": ["14915-2"],
 				"Tasks": {
 					"~|Desperate Measures|~ 13": "Quest"
 				},
@@ -80094,7 +80275,7 @@
 			"~|Desperate Measures|~ 15": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Use the Measure near Charos at the crypt of Vanarus",
-				"Chunks": ["15428-1"],
+				"Chunks": ["15171-1"],
 				"Tasks": {
 					"~|Desperate Measures|~ 14": "Quest"
 				},
@@ -80103,7 +80284,7 @@
 			"~|Desperate Measures|~ 16": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Speak to Charos north of the base camp",
-				"Chunks": ["15684"],
+				"Chunks": ["15427"],
 				"Tasks": {
 					"~|Desperate Measures|~ 15": "Quest"
 				},
@@ -80112,7 +80293,7 @@
 			"~|Desperate Measures|~ 17": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Enter Kerapac's laboratory and destroy it",
-				"Chunks": ["15684"],
+				"Chunks": ["15427"],
 				"Tasks": {
 					"~|Desperate Measures|~ 16": "Quest"
 				},
@@ -84132,7 +84313,7 @@
 			"~|Father and Son (miniquest)|~ 1": {
 				"BaseQuest": "Father and Son (miniquest)",
 				"Description": "Speak to Irwinsson in the Anachronia base camp",
-				"Chunks": ["15683-1"],
+				"Chunks": ["15426-1"],
 				"Not F2P": true
 			},
 			"~|Father and Son (miniquest)|~ 2": {
@@ -84147,7 +84328,7 @@
 			"~|Father and Son (miniquest)|~ 3": {
 				"BaseQuest": "Father and Son (miniquest)",
 				"Description": "Give Sigli's bow to Irwinsson",
-				"Chunks": ["15683-1"],
+				"Chunks": ["15426-1"],
 				"Tasks": {
 					"~|Father and Son (miniquest)|~ 2": "Quest"
 				},
@@ -84155,7 +84336,7 @@
 			},
 			"~|Father and Son (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Father and Son (miniquest)",
-				"Chunks": ["15683-1"],
+				"Chunks": ["15426-1"],
 				"Tasks": {
 					"~|Father and Son (miniquest)|~ 3": "Quest"
 				},
@@ -87804,13 +87985,13 @@
 			"~|Helping Laniakea (miniquest)|~ 1": {
 				"BaseQuest": "Helping Laniakea (miniquest)",
 				"Description": "Speak to Laniakea at the Anachronia base camp",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Not F2P": true
 			},
 			"~|Helping Laniakea (miniquest)|~ 2a": {
 				"BaseQuest": "Helping Laniakea (miniquest)",
 				"Description": "Obtain the old spring",
-				"Chunks": ["15425-1"],
+				"Chunks": ["15168-1"],
 				"Tasks": {
 					"~|Helping Laniakea (miniquest)|~ 1": "Quest"
 				},
@@ -87819,7 +88000,7 @@
 			"~|Helping Laniakea (miniquest)|~ 2b": {
 				"BaseQuest": "Helping Laniakea (miniquest)",
 				"Description": "Obtain the shimmering feather",
-				"Chunks": ["15935"],
+				"Chunks": ["15678"],
 				"Tasks": {
 					"~|Helping Laniakea (miniquest)|~ 1": "Quest"
 				},
@@ -87828,7 +88009,7 @@
 			"~|Helping Laniakea (miniquest)|~ 2c1": {
 				"BaseQuest": "Helping Laniakea (miniquest)",
 				"Description": "Obtain a block of stone",
-				"Chunks": ["16703"],
+				"Chunks": ["16446"],
 				"Tasks": {
 					"~|Helping Laniakea (miniquest)|~ 1": "Quest"
 				},
@@ -87837,7 +88018,7 @@
 			"~|Helping Laniakea (miniquest)|~ 2c2": {
 				"BaseQuest": "Helping Laniakea (miniquest)",
 				"Description": "Obtain the immaculate jungle stick",
-				"Chunks": ["15683-1"],
+				"Chunks": ["15426-1"],
 				"Tasks": {
 					"~|Helping Laniakea (miniquest)|~ 2c1": "Quest"
 				},
@@ -87846,7 +88027,7 @@
 			"~|Helping Laniakea (miniquest)|~ 2d": {
 				"BaseQuest": "Helping Laniakea (miniquest)",
 				"Description": "Obtain the jungle vine",
-				"Chunks": ["16708-1"],
+				"Chunks": ["16451-1"],
 				"Tasks": {
 					"~|Helping Laniakea (miniquest)|~ 1": "Quest"
 				},
@@ -87855,7 +88036,7 @@
 			"~|Helping Laniakea (miniquest)|~ 2e1": {
 				"BaseQuest": "Helping Laniakea (miniquest)",
 				"Description": "Obtain the ancient arbuck",
-				"Chunks": ["16453-2"],
+				"Chunks": ["16196-2"],
 				"Tasks": {
 					"~|Helping Laniakea (miniquest)|~ 1": "Quest"
 				},
@@ -87885,7 +88066,7 @@
 			"~|Helping Laniakea (miniquest)|~ 4": {
 				"BaseQuest": "Helping Laniakea (miniquest)",
 				"Description": "Catch a fugu at the strange fishing spot",
-				"Chunks": ["15172-1"],
+				"Chunks": ["14915-1"],
 				"Tasks": {
 					"~|Helping Laniakea (miniquest)|~ 3": "Quest"
 				},
@@ -87894,7 +88075,7 @@
 			"~|Helping Laniakea (miniquest)|~ 5": {
 				"BaseQuest": "Helping Laniakea (miniquest)",
 				"Description": "Return to Laniakea",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Tasks": {
 					"~|Helping Laniakea (miniquest)|~ 4": "Quest"
 				},
@@ -87902,7 +88083,7 @@
 			},
 			"~|Helping Laniakea (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Helping Laniakea (miniquest)",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Tasks": {
 					"~|Helping Laniakea (miniquest)|~ 5": "Quest"
 				},
@@ -95689,7 +95870,7 @@
 			"~|Osseous Rex|~ 1": {
 				"BaseQuest": "Osseous Rex",
 				"Description": "Speak to the 'calm' archaeologist in the Anachronia base camp",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Skills": {
 					"Archaeology": 30,
 					"Necromancy": 70
@@ -97584,7 +97765,7 @@
 			"~|Raksha, the Shadow Colossus|~ 1": {
 				"BaseQuest": "Raksha, the Shadow Colossus",
 				"Description": "Speak to Laniakea on Anachronia, then siphon the anima pools and enter the ruins",
-				"Chunks": ["16704-1"],
+				"Chunks": ["16447-1"],
 				"Not F2P": true
 			},
 			"~|Raksha, the Shadow Colossus|~ 2": {
@@ -100960,7 +101141,7 @@
 			"~|Sins of the Father|~ 1": {
 				"BaseQuest": "Sins of the Father",
 				"Description": "Speak to Mr Mordaut at the Anachronia base camp",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Tasks": {
 					"~|Desperate Measures|~ Complete the quest": "Quest"
 				},
@@ -100970,7 +101151,7 @@
 			"~|Sins of the Father|~ 2": {
 				"BaseQuest": "Sins of the Father",
 				"Description": "Speak to Eliza and Alpheus",
-				"Chunks": ["15683-1"],
+				"Chunks": ["15426-1"],
 				"Tasks": {
 					"~|Sins of the Father|~ 1": "Quest"
 				},
@@ -107952,7 +108133,7 @@
 			"Archaeology Mystery: ~|Crypt o' Zoology|~ 2": {
 				"BaseQuest": "Crypt o' Zoology",
 				"Description": "Speak to Mr Mordaut on Anachronia",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Crypt o' Zoology|~ 1": "Quest"
 				},
@@ -107960,7 +108141,7 @@
 			},
 			"Archaeology Mystery: ~|Crypt o' Zoology|~ Complete the mystery": {
 				"BaseQuest": "Crypt o' Zoology",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Crypt o' Zoology|~ 2": "Quest"
 				},
@@ -107973,7 +108154,7 @@
 			"Archaeology Mystery: ~|Teleport Node On|~ 1": {
 				"BaseQuest": "Teleport Node On",
 				"Description": "Activate the teleportation device at the Crypt of Varanus",
-				"Chunks": ["15428-1"],
+				"Chunks": ["15171-1"],
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
@@ -107985,7 +108166,7 @@
 			"Archaeology Mystery: ~|Teleport Node On|~ 2": {
 				"BaseQuest": "Teleport Node On",
 				"Description": "Activate the teleportation device at the Observation Outpost",
-				"Chunks": ["16454-1"],
+				"Chunks": ["16197-1"],
 				"Items": ["Ancient vis"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Teleport Node On|~ 1": "Quest",
@@ -108000,7 +108181,7 @@
 			"Archaeology Mystery: ~|Teleport Node On|~ 3": {
 				"BaseQuest": "Teleport Node On",
 				"Description": "Activate the teleportation device at the Moksha Ritual Site",
-				"Chunks": ["16193-1"],
+				"Chunks": ["15936-1"],
 				"Items": ["Orthenglass"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Teleport Node On|~ 2": "Quest",
@@ -108016,7 +108197,7 @@
 			"Archaeology Mystery: ~|Teleport Node On|~ 4": {
 				"BaseQuest": "Teleport Node On",
 				"Description": "Activate the teleportation device at the Xolo City",
-				"Chunks": ["16704-1"],
+				"Chunks": ["16447-1"],
 				"Items": ["Quintessence"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Teleport Node On|~ 3": "Quest",
@@ -108030,7 +108211,7 @@
 			},
 			"Archaeology Mystery: ~|Teleport Node On|~ Complete the mystery": {
 				"BaseQuest": "Teleport Node On",
-				"Chunks": ["16704-1"],
+				"Chunks": ["16447-1"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Teleport Node On|~ 4": "Quest"
 				},
@@ -108061,7 +108242,7 @@
 			"Archaeology Mystery: ~|Know Thy Measure|~ 3": {
 				"BaseQuest": "Know Thy Measure",
 				"Description": "Solve the pylon puzzles at the Moksha Ritual Site",
-				"Chunks": ["16193-1"],
+				"Chunks": ["15936-1"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Know Thy Measure|~ 2": "Quest"
 				},
@@ -108309,7 +108490,7 @@
 			"Archaeology Mystery: ~|Death Watch|~ 2": {
 				"BaseQuest": "Death Watch",
 				"Description": "Speak to Mr Mordaut on Anachronia",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Death Watch|~ 1": "Quest"
 				},
@@ -108317,7 +108498,7 @@
 			},
 			"Archaeology Mystery: ~|Death Watch|~ Complete the mystery": {
 				"BaseQuest": "Death Watch",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Death Watch|~ 2": "Quest"
 				},
@@ -108442,7 +108623,7 @@
 			"Archaeology Mystery: ~|Free Your Mind|~ 2": {
 				"BaseQuest": "Free Your Mind",
 				"Description": "Speak to Mr Mordaut on Anachronia",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Free Your Mind|~ 1": "Quest"
 				},
@@ -108450,7 +108631,7 @@
 			},
 			"Archaeology Mystery: ~|Free Your Mind|~ Complete the mystery": {
 				"BaseQuest": "Free Your Mind",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Free Your Mind|~ 2": "Quest"
 				},
@@ -108608,7 +108789,7 @@
 			"Archaeology Mystery: ~|Fragmented Memories|~ 3": {
 				"BaseQuest": "Fragmented Memories",
 				"Description": "Catch a tranquil yellow salamander",
-				"Chunks": ["15936"],
+				"Chunks": ["15679"],
 				"Items": ["Rope", "Small fishing net", "Singing bowl"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Fragmented Memories|~ 2": "Quest"
@@ -108681,7 +108862,7 @@
 			"Archaeology Mystery: ~|I Am Become Death|~ 2": {
 				"BaseQuest": "I Am Become Death",
 				"Description": "Speak to Mr Mordaut on Anachronia",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Tasks": {
 					"Archaeology Mystery: ~|I Am Become Death|~ 1": "Quest"
 				},
@@ -108689,7 +108870,7 @@
 			},
 			"Archaeology Mystery: ~|I Am Become Death|~ Complete the mystery": {
 				"BaseQuest": "I Am Become Death",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Tasks": {
 					"Archaeology Mystery: ~|I Am Become Death|~ 2": "Quest"
 				},
@@ -108702,7 +108883,7 @@
 			"Archaeology Mystery: ~|Mysterious City|~ 1": {
 				"BaseQuest": "Mysterious City",
 				"Description": "Study the entrance of the Xolo City",
-				"Chunks": ["16704-1"],
+				"Chunks": ["16447-1"],
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
@@ -108711,7 +108892,7 @@
 			"Archaeology Mystery: ~|Mysterious City|~ 2": {
 				"BaseQuest": "Mysterious City",
 				"Description": "Insert a restored lingam stone into the entrance to the Xolo City",
-				"Chunks": ["16704-1"],
+				"Chunks": ["16447-1"],
 				"Items": ["Lingam stone"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Mysterious City|~ 1": "Quest",
@@ -123743,7 +123924,7 @@
 				"Description": "Reunite Irwinsson with his lost compass.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Compass arrow"],
-				"Chunks": ["15683-1", "15170-1"],
+				"Chunks": ["15426-1", "14913-1"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
@@ -124138,7 +124319,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "After Extinction quest, 'eggs'plore Prehistoric Potterington's (sunny)-side-(up) hustle.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["14916", "14915-1", "15170-1"],
+				"Chunks": ["14659", "14658-1", "14913-1"],
 				"Items": ["ResonantAnima[+]"],
 				"Skills": {
 					"Firemaking": 95,
@@ -126556,7 +126737,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Help Bill (near the mystical tree on the west coast of Anachronia) realise his 'pot'ential.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["15170-1", "14915-1", "14916"],
+				"Chunks": ["14913-1", "14658-1", "14659"],
 				"Items": ["Plant pot (empty)"],
 				"Skills": {
 					"Firemaking": 95
@@ -126823,7 +127004,7 @@
 				"Description": "Unlock all researchers.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Ceremonial unicorn ornament", "Zarosian training dummy", "Opulent wine goblet", "AnyTotem[+]", "Golem instruction", "Ourg megahitter"],
-				"Chunks": ["13365-1", "15683-1", "13110-1", "12591"],
+				"Chunks": ["13365-1", "15426-1", "13110-1", "12591"],
 				"Tasks": {
 					"Become an ~|archaeology guildmaster|~": "Archaeology",
 					"~|The Dig Site|~ Complete the quest": "Quest",
@@ -127166,7 +127347,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Observe all the large dragonkin statues around Anachronia.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["15426-4", "15684", "16709-2", "16963-1", "16704-1"],
+				"Chunks": ["15169-4", "15427", "16452-2", "16706-1", "16447-1"],
 				"RuneScore": 5,
 				"Not F2P": true
 			},
@@ -128250,7 +128431,7 @@
 				"Category": ["Comp achievements", "Timegated"],
 				"Description": "Purchase the following upgrades from the Anachronia farmers' market reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["14916"],
+				"Chunks": ["14659"],
 				"Skills": {
 					"Farming": 104
 				},
@@ -128271,7 +128452,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "After Extinction quest, 'eggs'plore Prehistoric Potterington's (sunny)-side-(up) hustle.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["14916", "14915-1", "15170-1"],
+				"Chunks": ["14659", "14658-1", "14913-1"],
 				"Items": ["ResonantAnima[+]"],
 				"Skills": {
 					"Firemaking": 95,
@@ -129788,7 +129969,7 @@
 				"Category": ["Comp achievements", "Trim achievements", "Breeding Log"],
 				"Description": "Complete the Ranch Out of Time breeding log.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["14916", "14660"],
+				"Chunks": ["14659", "14403"],
 				"Items": [
 					"AllJadinkos[+]x10",
 					"AllVaranusaurs[+]x3",
@@ -131533,7 +131714,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Contribute all items to the collection.",
 				"BaseQuest": "Skills achievements",
-				"Chunks": ["16709-2"],
+				"Chunks": ["16452-2"],
 				"Items": ["Orthenglass"],
 				"Requirements": {
 					"Archaeology": 90
@@ -133892,7 +134073,7 @@
 					"11833-1",
 					"13106-1",
 					"13362-3",
-					"15942-3",
+					"15685-3",
 					"12587-2",
 					"13622-2",
 					"8752-2",
@@ -136234,7 +136415,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Activate the lodestone in Anachronia.",
 				"BaseQuest": "Exploration achievements",
-				"Chunks": ["15683-1"],
+				"Chunks": ["15426-1"],
 				"Not F2P": true,
 				"RuneScore": 5
 			},
@@ -136311,7 +136492,7 @@
 				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Complete the Anachronia agility course in under 7 minutes.",
 				"BaseQuest": "Exploration achievements",
-				"Chunks": ["15426-1", "15426-2", "15426-3", "15427-2", "15427-3", "15681-2", "15682-2", "15682-3", "15683-1", "15683-2", "15683-3", "15684", "15936", "15937-1", "15937-2", "15941", "16192-1", "16193-1", "16193-3", "16193-5", "16194-1", "16194-2", "16194-4", "16197-1", "16450-1", "16450-2", "16450-3", "16450-5", "16453-2", "16453-3", "16706-1", "16706-2", "16707-1", "16707-7", "16707-8", "16708-2", "16708-3", "16708-4", "16963-1", "16963-2"],
+				"Chunks": ["15169-1", "15169-2", "15169-3", "15170-2", "15170-3", "15424-2", "15425-2", "15425-3", "15426-1", "15426-2", "15426-3", "15427", "15679", "15680-1", "15680-2", "15684", "15935-1", "15936-1", "15936-3", "15936-5", "15937-1", "15937-2", "15937-4", "15940-1", "16193-1", "16193-2", "16193-3", "16193-5", "16196-2", "16196-3", "16449-1", "16449-2", "16450-1", "16450-7", "16450-8", "16451-2", "16451-3", "16451-4", "16706-1", "16706-2"],
 				"Skills": {
 					"Agility": 85
 				},
@@ -136322,7 +136503,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Surge under the spine on Anachronia",
 				"BaseQuest": "Exploration achievements",
-				"Chunks": ["16453-1"],
+				"Chunks": ["16196-1"],
 				"Skills": {
 					"Agility": 5
 				},
@@ -136334,7 +136515,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Complete a lap going in each direction on the Anachronia agility course.",
 				"BaseQuest": "Exploration achievements",
-				"Chunks": ["15426-1", "15426-2", "15426-3", "15427-2", "15427-3", "15681-2", "15682-2", "15682-3", "15683-1", "15683-2", "15683-3", "15684", "15936", "15937-1", "15937-2", "15941", "16192-1", "16193-1", "16193-3", "16193-5", "16194-1", "16194-2", "16194-4", "16197-1", "16450-1", "16450-2", "16450-3", "16450-5", "16453-2", "16453-3", "16706-1", "16706-2", "16707-1", "16707-7", "16707-8", "16708-2", "16708-3", "16708-4", "16963-1", "16963-2"],
+				"Chunks": ["15169-1", "15169-2", "15169-3", "15170-2", "15170-3", "15424-2", "15425-2", "15425-3", "15426-1", "15426-2", "15426-3", "15427", "15679", "15680-1", "15680-2", "15684", "15935-1", "15936-1", "15936-3", "15936-5", "15937-1", "15937-2", "15937-4", "15940-1", "16193-1", "16193-2", "16193-3", "16193-5", "16196-2", "16196-3", "16449-1", "16449-2", "16450-1", "16450-7", "16450-8", "16451-2", "16451-3", "16451-4", "16706-1", "16706-2"],
 				"Skills": {
 					"Agility": 85
 				},
@@ -136368,7 +136549,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Use a potato on the ancient Zygomite elder.",
 				"BaseQuest": "Exploration achievements",
-				"Chunks": ["16453-2"],
+				"Chunks": ["16196-2"],
 				"Items": ["Raw potato"],
 				"RuneScore": 5,
 				"Not F2P": true
@@ -137842,7 +138023,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "After Extinction quest, ask Prehistoric Potterington at the Anachronia dinosaur farm about zygomites.",
 				"BaseQuest": "Activities achievements",
-				"Chunks": ["14916"],
+				"Chunks": ["14659"],
 				"Tasks": {
 					"~|Extinction|~ Complete the quest": "Quest"
 				},
@@ -137853,7 +138034,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Help Galgalar the ilujanka near the incubator south of the Anachronia dinosaur farm.",
 				"BaseQuest": "Activities achievements",
-				"Chunks": ["14915-1"],
+				"Chunks": ["14658-1"],
 				"Skills": {
 					"Firemaking": 87
 				},
@@ -137867,7 +138048,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Help Ben the ancient zygomite near the mystical tree south of the Anachronia dinosaur farm.",
 				"BaseQuest": "Activities achievements",
-				"Chunks": ["14916", "14915-1"],
+				"Chunks": ["14659", "14658-1"],
 				"Items": ["Tempered fungal shaft"],
 				"Tasks": {
 					"~|Extinction|~ Complete the quest": "Quest"
@@ -137879,7 +138060,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Help Bill the ancient zygomite near the mystical tree on the west coast of Anachronia.",
 				"BaseQuest": "Activities achievements",
-				"Chunks": ["14916", "15170-1"],
+				"Chunks": ["14659", "14913-1"],
 				"Items": ["Dinosaur 'propellant'"],
 				"Skills": {
 					"Firemaking": 95
@@ -137894,7 +138075,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Help Salusan the ilujanka near the mystical tree on the west coast of Anachronia",
 				"BaseQuest": "Activities achievements",
-				"Chunks": ["15170-1"],
+				"Chunks": ["14913-1"],
 				"Items": ["Dinarrow", "ResonantAnima[+]"],
 				"Skills": {
 					"Fletching": 95
@@ -137910,7 +138091,7 @@
 				"Category": ["Misc achievements", "No RuneScore"],
 				"Description": "Show an elder god arrow to Prehistoric Potterington",
 				"BaseQuest": "Activities achievements",
-				"Chunks": ["14916", "14915-1", "15170-1"],
+				"Chunks": ["14659", "14658-1", "14913-1"],
 				"Items": ["Dinarrow", "ResonantAnima[+]"],
 				"Skills": {
 					"Firemaking": 95,
@@ -137925,7 +138106,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Use Potterington Blend #102 Fertiliser or dinosaur 'propellant' on Prehistoric Potterington.",
 				"BaseQuest": "Activities achievements",
-				"Chunks": ["14916"],
+				"Chunks": ["14659"],
 				"Items": ["Dinosaur 'propellant'"],
 				"Tasks": {
 					"~|Extinction|~ Complete the quest": "Quest"
@@ -137937,7 +138118,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Find an unchecked egg in the pile of dinosaur eggs south of Anachronia dinosaur farm.",
 				"BaseQuest": "Activities achievements",
-				"Chunks": ["14915-1"],
+				"Chunks": ["14658-1"],
 				"Skills": {
 					"Firemaking": 87
 				},
@@ -137951,7 +138132,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Find an unchecked zygomite while carestyling south of Anachronia dinosaur farm.",
 				"BaseQuest": "Activities achievements",
-				"Chunks": ["14915-1"],
+				"Chunks": ["14658-1"],
 				"Skills": {
 					"Firemaking": 82,
 					"Fletching": 82
@@ -142571,6 +142752,51 @@
 				"Label": "Skilling Collection Log",
 				"Items": ["Furniture plans: Ports table"]
 			},
+			"(Furniture Plans) Unlock ~|furniture plans: Small totems|~": {
+				"Category": ["Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Furniture plans: Small totems"]
+			},
+			"(Furniture Plans) Unlock ~|furniture plans: Medium totems|~": {
+				"Category": ["Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Furniture plans: Medium totems"]
+			},
+			"(Furniture Plans) Unlock ~|furniture plans: Large totems|~": {
+				"Category": ["Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Furniture plans: Large totems"]
+			},
+			"(Furniture Plans) Unlock ~|furniture plans: Mossy totems|~": {
+				"Category": ["Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Furniture plans: Mossy totems"]
+			},
+			"(Furniture Plans) Unlock ~|furniture plans: Bog light (single)|~": {
+				"Category": ["Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Furniture plans: Bog light (single)"]
+			},
+			"(Furniture Plans) Unlock ~|furniture plans: Bog light (double)|~": {
+				"Category": ["Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Furniture plans: Bog light (double)"]
+			},
+			"(Furniture Plans) Unlock ~|furniture plans: Bog light (triple)|~": {
+				"Category": ["Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Furniture plans: Bog light (triple)"]
+			},
+			"(Furniture Plans) Unlock ~|furniture plans: Swamp brazier|~": {
+				"Category": ["Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Furniture plans: Swamp brazier"]
+			},
+			"(Furniture Plans) Unlock ~|furniture plans: Swamp brazier (green)|~": {
+				"Category": ["Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Furniture plans: Swamp brazier (green)"]
+			},
 			"(Floor Plans) Unlock ~|floor plans: Temple tile|~": {
 				"Category": ["Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
@@ -142590,6 +142816,11 @@
 				"Category": ["Skilling Collection Log"],
 				"Label": "Skilling Collection Log",
 				"Items": ["Bogolin sogtorch"]
+			},
+			"(Fenmoor Totems) Obtain ~|Hawthorn's hatchet|~": {
+				"Category": ["Skilling Collection Log", "Hero Items"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Hawthorn's hatchet"]
 			},
 			"(Asgarnia & Misthalin) Obtain a ~|goblin mail|~": {
 				"Category": ["Slayer Collection Log"],
@@ -146779,391 +147010,391 @@
 			"(Frogs) Breed a ~|common green frog|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Common green frog (unchecked)"]
 			},
 			"(Frogs) Breed a ~|phantasmal poison frog|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Phantasmal poison frog (unchecked)"]
 			},
 			"(Frogs) Breed a ~|sky-blue poison frog|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Sky-blue poison frog (unchecked)"]
 			},
 			"(Frogs) Breed a ~|golden poison frog|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Golden poison frog (unchecked)"]
 			},
 			"(Frogs) Breed a ~|cactoad|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllFrogs[+]"]
 			},
 			"(Salamanders) Breed a ~|green salamander|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Green salamander (unchecked)"]
 			},
 			"(Salamanders) Breed a ~|orange salamander|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Orange salamander (unchecked)"]
 			},
 			"(Salamanders) Breed a ~|red salamander|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Red salamander (unchecked)"]
 			},
 			"(Salamanders) Breed a ~|black salamander|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Black salamander (unchecked)"]
 			},
 			"(Salamanders) Breed a ~|wytchfire salamander|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllSalamanders[+]"]
 			},
 			"(Jadinkos) Breed an ~|amphibious jadinko|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Amphibious jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed an ~|aquatic jadinko|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Aquatic jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|camouflaged jadinko|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Camouflaged jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|cannibal jadinko|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Cannibal jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|carrion jadinko|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Carrion jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|common jadinko|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Common jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|diseased jadinko|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Diseased jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|draconic jadinko|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Draconic jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|igneous jadinko|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Igneous jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|shadow jadinko|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Shadow jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|luminous jadinko|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllJadinkos[+]"]
 			},
 			"(Varanusaurs) Breed a ~|feral dinosaur|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Feral dinosaur (unchecked)"]
 			},
 			"(Varanusaurs) Breed a ~|venomous dinosaur|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Venomous dinosaur (unchecked)"]
 			},
 			"(Varanusaurs) Breed a ~|ripper dinosaur|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Ripper dinosaur (unchecked)"]
 			},
 			"(Varanusaurs) Breed a ~|hypnotic dinosaur|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllVaranusaurs[+]"]
 			},
 			"(Brutish Dinosaurs) Breed a ~|brutish dinosaur|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Brutish dinosaur (unchecked)"]
 			},
 			"(Brutish Dinosaurs) Breed a ~|beach dinosaur|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Beach dinosaur (unchecked)"]
 			},
 			"(Brutish Dinosaurs) Breed a ~|forest dinosaur|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Forest dinosaur (unchecked)"]
 			},
 			"(Brutish Dinosaurs) Breed a ~|magnificent dinosaur|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllBrutishDinosaurs[+]"]
 			},
 			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Arcane apoterrasaur (unchecked)"]
 			},
 			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur natura|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Arcane apoterrasaur natura (unchecked)"]
 			},
 			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur iratum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Arcane apoterrasaur iratum (unchecked)"]
 			},
 			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur lucidum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllArcaneApoterrasaurs[+]"]
 			},
 			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Spicati apoterrasaur (unchecked)"]
 			},
 			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur tilia|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Spicati apoterrasaur tilia (unchecked)"]
 			},
 			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur purpura|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Spicati apoterrasaur purpura (unchecked)"]
 			},
 			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur lucidum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllSpicatiApoterrasaurs[+]"]
 			},
 			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Oculi apoterrasaur (unchecked)"]
 			},
 			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur oceanum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Oculi apoterrasaur oceanum (unchecked)"]
 			},
 			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur glacies|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Oculi apoterrasaur glacies (unchecked)"]
 			},
 			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur lucidum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllOculiApoterrasaurs[+]"]
 			},
 			"(Scimitops) Breed a ~|scimitops|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Scimitops (unchecked)"]
 			},
 			"(Scimitops) Breed a ~|scimitops palus|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Scimitops palus (unchecked)"]
 			},
 			"(Scimitops) Breed a ~|scimitops blavum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Scimitops blavum (unchecked)"]
 			},
 			"(Scimitops) Breed a ~|scimitops lucidum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllScimitops[+]"]
 			},
 			"(Asciatops) Breed a ~|asciatops|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Asciatops (unchecked)"]
 			},
 			"(Asciatops) Breed a ~|asciatops acta|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Asciatops acta (unchecked)"]
 			},
 			"(Asciatops) Breed a ~|asciatops aurum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Asciatops aurum (unchecked)"]
 			},
 			"(Asciatops) Breed a ~|asciatops lucidum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllAsciatops[+]"]
 			},
 			"(Malletops) Breed a ~|malletops|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Malletops (unchecked)"]
 			},
 			"(Malletops) Breed a ~|malletops palus|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Malletops palus (unchecked)"]
 			},
 			"(Malletops) Breed a ~|malletops purpura|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Malletops purpura (unchecked)"]
 			},
 			"(Malletops) Breed a ~|malletops lucidum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllMalletops[+]"]
 			},
 			"(Bagrada Rex) Breed a ~|bagrada rex|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Bagrada rex (unchecked)"]
 			},
 			"(Bagrada Rex) Breed a ~|bagrada nemus|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Bagrada nemus (unchecked)"]
 			},
 			"(Bagrada Rex) Breed a ~|bagrada purpura|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Bagrada purpura (unchecked)"]
 			},
 			"(Bagrada Rex) Breed a ~|bagrada lucidum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllBagradaRex[+]"]
 			},
 			"(Corbicula Rex) Breed a ~|corbicula rex|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Corbicula rex (unchecked)"]
 			},
 			"(Corbicula Rex) Breed a ~|corbicula gelum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Corbicula gelum (unchecked)"]
 			},
 			"(Corbicula Rex) Breed a ~|corbicula malum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Corbicula malum (unchecked)"]
 			},
 			"(Corbicula Rex) Breed a ~|corbicula lucidum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllCorbiculaRex[+]"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus rex|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Pavosaurus rex (unchecked)"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus nemus|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Pavosaurus nemus (unchecked)"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus desertum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["Pavosaurus desertum (unchecked)"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus lucidum|~": {
 				"Category": ["Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
-				"Chunks": ["14659"],
+				"Chunks": ["14402"],
 				"Items": ["AllPavosaurusRex[+]"]
 			},
 			"Start ~|Player-Owned Port|~ by getting a ports skill to level 90": {
@@ -156349,7 +156580,7 @@
 			"Unlock the ~|slayer helmet stand|~": {
 				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Items": ["Dinosaur tooth"],
 				"Requirements": {
 					"Slayer": 90
@@ -156358,7 +156589,7 @@
 			"Unlock the ~|skillcape rack|~": {
 				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["15939-1"],
+				"Chunks": ["15682-1"],
 				"Items": ["Dinosaur rib bone"],
 				"Requirements": {
 					"Construction": 90
@@ -157160,7 +157391,7 @@
 				"Tasks": {
 					"Become an ~|archaeology associate|~": "Archaeology"
 				},
-				"Chunks": ["15428-1"],
+				"Chunks": ["15171-1"],
 				"Requirements": {
 					"Archaeology": 70
 				}
@@ -157171,7 +157402,7 @@
 				"Tasks": {
 					"Complete the ~|Incomplete Portal Network I|~ research": "Archaeology"
 				},
-				"Chunks": ["16454-1"],
+				"Chunks": ["16197-1"],
 				"Items": ["Ancient vis"],
 				"Requirements": {
 					"Runecrafting": 70,
@@ -157184,7 +157415,7 @@
 				"Tasks": {
 					"Complete the ~|Incomplete Portal Network II|~ research": "Archaeology"
 				},
-				"Chunks": ["16193-1"],
+				"Chunks": ["15936-1"],
 				"Items": ["Orthenglass"],
 				"Requirements": {
 					"Crafting": 70,
@@ -157197,7 +157428,7 @@
 				"Tasks": {
 					"Complete the ~|Incomplete Portal Network III|~ research": "Archaeology"
 				},
-				"Chunks": ["16704-1"],
+				"Chunks": ["16447-1"],
 				"Items": ["Quintessence"],
 				"Requirements": {
 					"Divination": 70,
@@ -157802,7 +158033,7 @@
 			"Repair the ~|cactus patch|~ on Anachronia": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["15942-3"],
+				"Chunks": ["15685-3"],
 				"Items": ["Magic logs*"]
 			},
 			"Unlock the ~|Warrior of Het armour|~": {
@@ -159237,7 +159468,7 @@
 			"Obtain the ~|Old Mc|~ title": {
 				"Category": ["Titles", "Breeding Log"],
 				"Label": "Titles",
-				"Chunks": ["10548", "14916", "14660"],
+				"Chunks": ["10548", "14659", "14403"],
 				"Items": [
 					"AllChickens[+]x4",
 					"AllRabbits[+]x3",
@@ -163951,7 +164182,7 @@
 			"(Giles) Complete ~|Desperate for Artefacts|~*": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
-				"Chunks": ["16709-2"],
+				"Chunks": ["16452-2"],
 				"Items": ["Orthenglass"],
 				"Requirements": {
 					"Archaeology": 90
@@ -166653,74 +166884,114 @@
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"15426-1 to 15426-2": {
-				"Sections": ["15426-1", "15426-2"],
+			"15169-1 to 15169-2": {
+				"Sections": ["15169-1", "15169-2"],
 				"Tasks": {
 					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"15246-3 to 15682-2": {
-				"Sections": ["15246-3", "15682-2"],
+			"15246-3 to 15425-2": {
+				"Sections": ["15246-3", "15425-2"],
 				"Tasks": {
 					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"15427-2 to 15427-3": {
-				"Sections": ["15427-2", "15427-3"],
+			"15170-2 to 15170-3": {
+				"Sections": ["15170-2", "15170-3"],
 				"Tasks": {
 					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"15681-2 to 15682-3": {
-				"Sections": ["15681-2", "15682-3"],
+			"15424-2 to 15425-3": {
+				"Sections": ["15424-2", "15425-3"],
 				"Tasks": {
 					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"15681-2 to 15937-1": {
-				"Sections": ["15681-2", "15937-1"],
+			"15424-2 to 15680-1": {
+				"Sections": ["15424-2", "15680-1"],
 				"Tasks": {
 					"Cross a novice obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"15682-2 to 15682-3": {
-				"Sections": ["15681-2", "15682-3"],
+			"15425-2 to 15425-3": {
+				"Sections": ["15424-2", "15425-3"],
 				"Tasks": {
 					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"15683-1 to 15683-2": {
-				"Sections": ["15681-1", "15682-2"],
+			"15426-1 to 15426-2": {
+				"Sections": ["15424-1", "15425-2"],
 				"Tasks": {
 					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"15683-2 to 15683-3": {
-				"Sections": ["15683-2", "15683-3"],
+			"15426-2 to 15426-3": {
+				"Sections": ["15426-2", "15426-3"],
 				"Tasks": {
 					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"15684 to 15941": {
-				"Sections": ["15684", "15941"],
+			"15427 to 15684": {
+				"Sections": ["15427", "15684"],
 				"Tasks": {
 					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15680-1 to 15680-2": {
+				"Sections": ["15680-1", "15680-2"],
+				"Tasks": {
+					"Cross a novice obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15936-1 to 15936-5": {
+				"Sections": ["15936-1", "15936-5"],
+				"Tasks": {
+					"Cross a novice obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15936-1 to 15936-3": {
+				"Sections": ["15936-1", "15936-3"],
+				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15936-3 to 15937-4": {
+				"Sections": ["15936-3", "15937-4"],
+				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15937-1 to 15937-4": {
+				"Sections": ["15937-1", "15937-4"],
+				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
@@ -166728,15 +166999,23 @@
 			"15937-1 to 15937-2": {
 				"Sections": ["15937-1", "15937-2"],
 				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15940-1 to 16196-2": {
+				"Sections": ["15940-1", "16196-2"],
+				"Tasks": {
 					"Cross a novice obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"16193-1 to 16193-5": {
-				"Sections": ["16193-1", "16193-5"],
+			"16193-2 to 16193-3": {
+				"Sections": ["16193-2", "16193-3"],
 				"Tasks": {
-					"Cross a novice obstacle in the ~|Anachronia agility course|~": "Agility"
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
@@ -166749,112 +167028,64 @@
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"16193-3 to 16194-4": {
-				"Sections": ["16193-3", "16194-4"],
+			"16193-1 to 16193-5": {
+				"Sections": ["16193-1", "16193-5"],
 				"Tasks": {
 					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"16194-1 to 16194-4": {
-				"Sections": ["16194-1", "16194-4"],
+			"16196-2 to 16196-3": {
+				"Sections": ["16196-2", "16196-3"],
 				"Tasks": {
 					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"16194-1 to 16194-2": {
-				"Sections": ["16194-1", "16194-2"],
-				"Tasks": {
-					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
-				},
-				"ConnectsSections": true,
-				"Not F2P": true
-			},
-			"16197-1 to 16453-2": {
-				"Sections": ["16197-1", "16453-2"],
-				"Tasks": {
-					"Cross a novice obstacle in the ~|Anachronia agility course|~": "Agility"
-				},
-				"ConnectsSections": true,
-				"Not F2P": true
-			},
-			"16450-2 to 16450-3": {
-				"Sections": ["16450-2", "16450-3"],
-				"Tasks": {
-					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
-				},
-				"ConnectsSections": true,
-				"Not F2P": true
-			},
-			"16450-1 to 16450-3": {
-				"Sections": ["16450-1", "16450-3"],
-				"Tasks": {
-					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
-				},
-				"ConnectsSections": true,
-				"Not F2P": true
-			},
-			"16450-1 to 16450-5": {
-				"Sections": ["16450-1", "16450-5"],
-				"Tasks": {
-					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
-				},
-				"ConnectsSections": true,
-				"Not F2P": true
-			},
-			"16453-2 to 16453-3": {
-				"Sections": ["16453-2", "16453-3"],
-				"Tasks": {
-					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
-				},
-				"ConnectsSections": true,
-				"Not F2P": true
-			},
-			"16706-1 to 16706-2": {
-				"Sections": ["16706-1", "16706-2"],
+			"16449-1 to 16449-2": {
+				"Sections": ["16449-1", "16449-2"],
 				"Tasks": {
 					"Cross an obstacle on the east side of the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"16706-2 to 16707-7": {
-				"Sections": ["16706-2", "16707-7"],
+			"16449-2 to 16450-7": {
+				"Sections": ["16449-2", "16450-7"],
 				"Tasks": {
 					"Cross an obstacle on the east side of the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"16707-7 to 16707-8": {
-				"Sections": ["16707-7", "16707-8"],
+			"16450-7 to 16450-8": {
+				"Sections": ["16450-7", "16450-8"],
 				"Tasks": {
 					"Cross an obstacle on the east side of the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"16707-1 to 16708-4": {
-				"Sections": ["16707-1", "16708-4"],
+			"16450-1 to 16451-4": {
+				"Sections": ["16450-1", "16451-4"],
 				"Tasks": {
 					"Cross an obstacle on the east side of the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"16708-2 to 16708-3": {
-				"Sections": ["16708-2", "16708-3"],
+			"16451-2 to 16451-3": {
+				"Sections": ["16451-2", "16451-3"],
 				"Tasks": {
 					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"16708-2 to 16708-4": {
-				"Sections": ["16708-2", "16708-4"],
+			"16451-2 to 16451-4": {
+				"Sections": ["16451-2", "16451-4"],
 				"Tasks": {
 					"Cross an obstacle on the east side of the ~|Anachronia agility course|~": "Agility"
 				},
@@ -166877,8 +167108,8 @@
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"16963-1 to 16963-2": {
-				"Sections": ["16963-1", "16963-2"],
+			"16706-1 to 16706-2": {
+				"Sections": ["16706-1", "16706-2"],
 				"Tasks": {
 					"Cross an obstacle on the east side of the ~|Anachronia agility course|~": "Agility"
 				},
@@ -168925,7 +169156,7 @@
 				"NPCs": ["Wise Old Man"]
 			},
 			"Complete the archaeology collection ~|'Desperate for Artefacts'|~*": {
-				"Chunks": ["16709-2"],
+				"Chunks": ["16452-2"],
 				"Items": ["Orthenglass"],
 				"Skills": {
 					"Archaeology": 90
@@ -169883,7 +170114,7 @@
 				"Output": "Totem of Vitality top"
 			},
 			"Obtain the ~|Remototem top|~*": {
-				"Chunks": ["14916"],
+				"Chunks": ["14659"],
 				"Tasks": {
 					"Unlock the Anachronia Base Camp": "Nonskill",
 					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
@@ -170040,7 +170271,7 @@
 				"NoBoost": true
 			},
 			"Gain entry to ~|Xolo City|~": {
-				"Chunks": ["15683-1", "Observation Outpost", "16193-1", "16704-1", "15936"],
+				"Chunks": ["15426-1", "Observation Outpost", "15936-1", "16447-1", "15679"],
 				"Items": ["Small fishing net", "Rope", "Orgone*", "Carbon black*", "Compass rose*", "Dragon metal*"],
 				"Objects": ["Archaeologist's workbench"],
 				"Skills": {
@@ -170460,7 +170691,7 @@
 				}
 			},
 			"Unlock the Anachronia Base Camp": {
-				"Chunks": ["15683-1", "15939-1"]
+				"Chunks": ["15426-1", "15682-1"]
 			},
 			"Open an oyster": {
 				"Items": ["Oyster"],
@@ -170656,7 +170887,7 @@
 				"Items": ["Acadia logs*"]
 			},
 			"Repair the Anachronia cactus patch": {
-				"Chunks": ["15942-3"],
+				"Chunks": ["15685-3"],
 				"Items": ["Magic logs*"]
 			},
 			"Open a bundle of gems": {
@@ -186780,9 +187011,6 @@
 						"Tar": 3,
 						"Tree": 33
 					},
-					"Monster": {
-						"Demon Boss": 1
-					},
 					"Quest": {
 						"Mourning's End Part I": "step",
 						"Regicide": "step"
@@ -190920,8 +191148,7 @@
 						"Tree": 32
 					},
 					"Monster": {
-						"Ogre": 8,
-						"Demon Boss": 1
+						"Ogre": 8
 					},
 					"NPC": {
 						"Guard": 14,
@@ -191864,8 +192091,7 @@
 			"Monster": {
 				"Wolf": 6,
 				"Ogre": 7,
-				"Ogre chieftain": 1,
-				"Demon Boss": 1
+				"Ogre chieftain": 1
 			},
 			"NPC": {
 				"Swamp toad": 8,
@@ -200254,7 +200480,7 @@
 					"Monster": {
 						"Green dragon": 3,
 						"Green dragon#Wilderness": 1,
-						"Demon Boss (Wilderness)": 1
+						"Demon Boss": 1
 					},
 					"Clue": {
 						"elite": 2
@@ -200322,7 +200548,7 @@
 			"Monster": {
 				"Skeleton#Armed": 2,
 				"Ghost (Spirit of Summer)": 6,
-				"Demon Boss (Wilderness)": 1,
+				"Demon Boss": 1,
 				"Dark beast": 1
 			},
 			"NPC": {
@@ -201129,8 +201355,7 @@
 				"Guard (Edgeville)": 3,
 				"Dwarf": 4,
 				"Ram": 1,
-				"Monk (Edgeville Monastery)": 6,
-				"Demon Boss": 1
+				"Monk (Edgeville Monastery)": 6
 			},
 			"NPC": {
 				"Kharid Scorpion": 1,
@@ -203773,7 +203998,7 @@
 			"Connect": {
 				"10307": true,
 				"11422": true,
-				"15687": true
+				"25430": true
 			},
 			"Quest": {
 				"Evil Dave's Big Day Out": "step",
@@ -204359,8 +204584,7 @@
 			"Monster": {
 				"Crocodile#Level 77": 6,
 				"Jackal": 13,
-				"Vulture": 3,
-				"Demon Boss": 1
+				"Vulture": 3
 			},
 			"NPC": {
 				"Rug merchant": 1,
@@ -205277,7 +205501,7 @@
 				"Abyssal demon": 17,
 				"Zombie#Level 22": 10,
 				"Zombie#Level 29": 11,
-				"Demon Boss (Wilderness)": 1
+				"Demon Boss": 1
 			},
 			"NPC": {
 				"Will o' the wisp": 4,
@@ -205307,7 +205531,7 @@
 				"Rat": 3,
 				"Deadly red spider": 11,
 				"Gargoyle": 11,
-				"Demon Boss (Wilderness)": 1
+				"Demon Boss": 1
 			},
 			"Connect": {
 				"11842": true
@@ -206269,8 +206493,7 @@
 					},
 					"Monster": {
 						"Scorpion": 9,
-						"Imp": 1,
-						"Demon Boss": 1
+						"Imp": 1
 					},
 					"Shop": {
 						"Sydekix's Shop of Balance": true,
@@ -206647,7 +206870,7 @@
 					"Monster": {
 						"Fetid zombie": 6,
 						"Bound skeleton": 10,
-						"Demon Boss (Wilderness)": 1
+						"Demon Boss": 1
 					},
 					"Connect": {
 						"22": true
@@ -207849,7 +208072,7 @@
 						"Green dragon#Wilderness": 1,
 						"Waterfiend": 4,
 						"Waterfiend#Wilderness": 1,
-						"Demon Boss (Wilderness)": 1
+						"Demon Boss": 1
 					},
 					"Quest": {
 						"Enchanted Key": "step"
@@ -208253,9 +208476,6 @@
 			"NPC": {
 				"Golden warbler": 4,
 				"Orange salamander": 11
-			},
-			"Monster": {
-				"Demon Boss": 1
 			},
 			"Clue": {
 				"elite": 11
@@ -210355,11 +210575,7 @@
 					},
 					"NPC": {
 						"Will o' the wisp": 2
-					},
-					"Monster": {
-						"Demon Boss": 1
 					}
-					
 				},
 				"2": {
 					"Object": {
@@ -210451,6 +210667,21 @@
 				"elite": 2
 			},
 			"Nickname": "Alice's Farm"
+		},
+		"14402": {
+			"Object": {
+				"Dinosaur breeding pen": 1,
+				"Large dinosaur paddock": 1,
+				"Trough": 2
+			},
+			"Nickname": "Dinosaur Farm South"
+		},
+		"14403": {
+			"Object": {
+				"Large dinosaur paddock": 1,
+				"Trough": 1
+			},
+			"Nickname": "Dinosaur Farm North"
 		},
 		"14406": {
 			"Object": {
@@ -210956,20 +211187,57 @@
 			},
 			"Nickname": "Ectofuntus"
 		},
+		"14658": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bank chest": 1,
+						"Mystical tree": 1
+					},
+					"NPC": {
+						"Ben": 1,
+						"Scruffy zygomite": 3
+					}
+				},
+				"2": {}
+			},
+			"Nickname": "Dinosaur Farm Entrance"
+		},
 		"14659": {
 			"Object": {
-				"Dinosaur breeding pen": 1,
-				"Large dinosaur paddock": 1,
-				"Trough": 2
+				"Advertisement board": 1,
+				"Medium dinosaur paddock": 1,
+				"Small dinosaur paddock": 1,
+				"Storm barn": 1,
+				"Manure mound": 1,
+				"Stile": 2
 			},
-			"Nickname": "Dinosaur Farm South"
-		},
-		"14660": {
-			"Object": {
-				"Large dinosaur paddock": 1,
-				"Trough": 1
+			"NPC": {
+				"Anphi (frog collector)": 1,
+				"Daya (bagrada rex buyer)": 1,
+				"Doric (scimitops handler)": 1,
+				"Evil Dave (asciatops buyer)": 1,
+				"General Bentnoze (brutish dinosaur buyer)": 1,
+				"Glout (arcane associate)": 1,
+				"Irwinsson (rex rider)": 1,
+				"Laniakea (varanusaurs dinosaur buyer)": 1,
+				"mesalina (malletops master)": 1,
+				"Odd Billy (bird fancier)": 1,
+				"Papa Mambo (jadinko jailer)": 1,
+				"Prehistoric Potterington": 1,
+				"Steven (salamander commander)": 1,
+				"Thok (rex wrangler)": 1,
+				"Wizard Ilona (spicati selector)": 1
 			},
-			"Nickname": "Dinosaur Farm North"
+			"Connect": {
+			},
+			"Shop": {
+				"Farmers' Market (Anachronia)": true
+			},
+			"Quest": {
+				"Desperate Measures": "step"
+			},
+			"Nickname": "Dinosaur Farm East"
 		},
 		"14671": {
 			"Object": {
@@ -211455,57 +211723,148 @@
 			},
 			"Nickname": "The Adventerous"
 		},
-		"14915": {
+		"14911": {
+			"Nickname": "Anachronia Peninsula West Corner"
+		},
+		"14912": {
+			"Sections": {
+				"1": {
+					"Spawn": {
+						"Olivia (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"Spawn": {
+						"Mac (Ancient zygomite)": 1
+					}
+				}
+			},
+			"Nickname": "Anachronia West Excavation Site"
+		},
+		"14913": {
 			"Sections": {
 				"1": {
 					"Object": {
-						"Bank chest": 1,
-						"Mystical tree": 1
+						"Damaged backpack": 1,
+						"Message in a bottle": 1,
+						"Mystical tree": 1,
+						"Red vine blossom": 1
 					},
 					"NPC": {
-						"Ben": 1,
-						"Scruffy zygomite": 3
+						"Aquatic jadinko (Anachronia)": 5,
+						"Bill": 1
 					}
 				},
-				"2": {}
+				"2": {
+					"Object": {
+						"Material cache (orgone)": 2
+					},
+					"NPC": {
+						"Pawya (Anachronia)": 4
+					}
+				}
 			},
-			"Nickname": "Dinosaur Farm Entrance"
+			"Nickname": "Anachronia West Beach"
 		},
-		"14916": {
+		"14914": {
 			"Object": {
-				"Advertisement board": 1,
-				"Medium dinosaur paddock": 1,
-				"Small dinosaur paddock": 1,
-				"Storm barn": 1,
-				"Manure mound": 1,
-				"Stile": 2
+				"Totem pedestal": 1
 			},
 			"NPC": {
-				"Anphi (frog collector)": 1,
-				"Daya (bagrada rex buyer)": 1,
-				"Doric (scimitops handler)": 1,
-				"Evil Dave (asciatops buyer)": 1,
-				"General Bentnoze (brutish dinosaur buyer)": 1,
-				"Glout (arcane associate)": 1,
-				"Irwinsson (rex rider)": 1,
-				"Laniakea (varanusaurs dinosaur buyer)": 1,
-				"mesalina (malletops master)": 1,
-				"Odd Billy (bird fancier)": 1,
-				"Papa Mambo (jadinko jailer)": 1,
-				"Prehistoric Potterington": 1,
-				"Steven (salamander commander)": 1,
-				"Thok (rex wrangler)": 1,
-				"Wizard Ilona (spicati selector)": 1
-			},
-			"Connect": {
-			},
-			"Shop": {
-				"Farmers' Market (Anachronia)": true
+				"Black warlock (Anachronia)": 3,
+				"Ruby harvest (Anachronia)": 3
 			},
 			"Quest": {
-				"Desperate Measures": "step"
+				"Desperate Creatures": "step"
 			},
-			"Nickname": "Dinosaur Farm East"
+			"Nickname": "Anachronia Western Totem"
+		},
+		"14915": {
+			"Sections": {
+				"1": {
+					"Monster": {
+						"Luminous snaggler": 8
+					}
+				},
+				"2": {
+					"Quest": {
+						"Desperate Measures": "step"
+					}
+				},
+				"3": {
+					"Spawn": {
+						"Dennis (Ancient zygomite)": 1
+					},
+					"Quest": {
+						"Desperate Creatures": "step"
+					}
+				},
+				"4": {
+					"Objects": {
+						"Strange fishing spot": 1
+					},
+					"Quest": {
+						"Helping Laniakea (miniquest)": "step"
+					}
+				}
+			},
+			"Nickname": "Anachronia Luminous Snagglers"
+		},
+		"14916": {
+			"Sections": {
+				"1": {},
+				"2": {
+					"Spawn": {
+						"Charlie (Ancient zygomite)": 1
+					}
+				}
+			},
+			"Nickname": "Anachronia North-Western Cliffs"
+		},
+		"14917": {
+			"Object": {
+				"Drop": 1,
+				"First chest": 1,
+				"Second Chest": 1,
+				"Final Chest": 1
+			},
+			"NPC": {
+				"Ilfeen": 1,
+				"Commander Zilyana": 1,
+				"General Graardor": 1,
+				"K'ril Tsutsaroth": 1,
+				"Flight Kilisa": 1,
+				"Flockleader Geerin": 1,
+				"Ahrim the Blighted": 1,
+				"Dharok the Wretched": 1,
+				"Guthan the Infested": 1,
+				"Karil the Tainted": 1,
+				"Torag the Corrupted": 1,
+				"Verac the Defiled": 1,
+				"Akrisae the Doomed": 1,
+				"Akthanakos": 1,
+				"Azzanadra": 1,
+				"Wahisietel": 1,
+				"Enakhra": 1,
+				"Zemouregal": 1,
+				"Hazeel": 1,
+				"Kharshai": 1,
+				"Icthlarin": 2,
+				"Sliske": 1,
+				"Armadyl": 1,
+				"Bandos": 1,
+				"Saradomin": 1,
+				"Zamorak": 1,
+				"Rift": 1
+			},
+			"Name": "Empyrean Citadel"
+		},
+		"14918": {
+			"Object": {
+				"Shadow Caster": 4,
+				"Viewing panel": 1
+			},
+			"Name": "Empyrean Citadel"
 		},
 		"14917": {
 			"Object": {
@@ -212151,148 +212510,147 @@
 			},
 			"Nickname": "Dragontooth Island"
 		},
+		"15166": {
+			"Nickname": "Anachronia Western Peninsula Tip"
+		},
+		"15167": {
+			"Object": {
+				"Flower": 2
+			},
+			"Spawn": {
+				"Dee (Ancient zygomite)": 1
+			},
+			"Nickname": "Anachronia Western Peninsula"
+		},
 		"15168": {
-			"Nickname": "Anachronia Peninsula West Corner"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Crate": 1,
+						"The Stormbreaker": 1,
+						"Crashed star": 1
+					},
+					"NPC": {
+						"Hermit crab (Anachronia)": 1
+					},
+					"Spawn": {
+						"Frank (Ancient zygomite)": 1
+					},
+					"Quest": {
+						"Helping Laniakea (miniquest)": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Dragonkin statue": 1
+					}
+				}
+			},
+			"Nickname": "Anachronia Stormbreaker Landing"
 		},
 		"15169": {
 			"Sections": {
 				"1": {
-					"Spawn": {
-						"Olivia (Ancient zygomite)": 1
-					}
-				},
-				"2": {
-					"Spawn": {
-						"Mac (Ancient zygomite)": 1
-					}
-				}
-			},
-			"Nickname": "Anachronia West Excavation Site"
-		},
-		"15170": {
-			"Sections": {
-				"1": {
 					"Object": {
-						"Damaged backpack": 1,
-						"Message in a bottle": 1,
-						"Mystical tree": 1,
-						"Red vine blossom": 1
+						"Dragonkin statue": 1,
+						"Light animica rock": 3,
+						"Vines (Anachronia Agility Course)": 1
 					},
-					"NPC": {
-						"Aquatic jadinko (Anachronia)": 5,
-						"Bill": 1
-					}
-				},
-				"2": {
-					"Object": {
-						"Material cache (orgone)": 2
-					},
-					"NPC": {
-						"Pawya (Anachronia)": 4
-					}
-				}
-			},
-			"Nickname": "Anachronia West Beach"
-		},
-		"15171": {
-			"Object": {
-				"Totem pedestal": 1
-			},
-			"NPC": {
-				"Black warlock (Anachronia)": 3,
-				"Ruby harvest (Anachronia)": 3
-			},
-			"Quest": {
-				"Desperate Creatures": "step"
-			},
-			"Nickname": "Anachronia Western Totem"
-		},
-		"15172": {
-			"Sections": {
-				"1": {
-					"Monster": {
-						"Luminous snaggler": 8
-					}
-				},
-				"2": {
-					"Quest": {
-						"Desperate Measures": "step"
-					}
-				},
-				"3": {
 					"Spawn": {
-						"Dennis (Ancient zygomite)": 1
+						"Dank (Ancient zygomite)": 1,
+						"Opie (Ancient zygomite)": 1
 					},
 					"Quest": {
 						"Desperate Creatures": "step"
 					}
 				},
+				"2": {},
+				"3": {},
 				"4": {
-					"Objects": {
-						"Strange fishing spot": 1
+					"Spawn": {
+						"Cricket (Ancient zygomite)": 1
+					}
+				}
+			},
+			"Nickname": "Anachronia South-West Mine"
+		},
+		"15170": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bait box": 1,
+						"Bait pad": 1,
+						"Bank chest": 1,
+						"Root (Anachronia Agility Course)#Level 30": 1
+					},
+					"NPC": {
+						"Arcane apoterrasaur": 1,
+						"Golden warbler (Anachronia)": 4,
+						"Ruby harvest (Anachronia)": 7
+					}
+				},
+				"2": {
+					"Object": {
+						"Root (Anachronia Agility Course)#Level 30": 1
+					}
+				},
+				"3": {},
+				"4": {}
+			},
+			"Nickname": "Arcane Apoterrasaur Hunting Ground"
+		},
+		"15171": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Adamantite rock": 5,
+						"Flower": 1,
+						"Luminite rock": 4,
+						"Orthen teleportation device": 1
+					},
+					"NPC": {
+						"Archaeologist (excavation sites)": 3,
+						"Ruby harvest (Anachronia)": 3
+					},
+					"Spawn": {
+						"Rami (Ancient zygomite)": 1
+					},
+					"Connect": {
+						"17": true
 					},
 					"Quest": {
-						"Helping Laniakea (miniquest)": "step"
+						"Desperate Measures": "step",
+						"Teleport Node On": "first"
 					}
-				}
+				},
+				"2": {}
 			},
-			"Nickname": "Anachronia Luminous Snagglers"
+			"Nickname": "Crypt of Varanus"
 		},
-		"15173": {
+		"15172": {
 			"Sections": {
 				"1": {},
-				"2": {
-					"Spawn": {
-						"Charlie (Ancient zygomite)": 1
-					}
-				}
+				"2": {}
 			},
-			"Nickname": "Anachronia North-Western Cliffs"
+			"Nickname": "West Anachronia Volcano Pass"
 		},
-		"15174": {
+		"15173": {
 			"Object": {
-				"Drop": 1,
-				"First chest": 1,
-				"Second Chest": 1,
-				"Final Chest": 1
+				"Flower": 2,
+				"Green vine blossom": 2,
+				"Mysterious Ruins": 1
 			},
 			"NPC": {
-				"Ilfeen": 1,
-				"Commander Zilyana": 1,
-				"General Graardor": 1,
-				"K'ril Tsutsaroth": 1,
-				"Flight Kilisa": 1,
-				"Flockleader Geerin": 1,
-				"Ahrim the Blighted": 1,
-				"Dharok the Wretched": 1,
-				"Guthan the Infested": 1,
-				"Karil the Tainted": 1,
-				"Torag the Corrupted": 1,
-				"Verac the Defiled": 1,
-				"Akrisae the Doomed": 1,
-				"Akthanakos": 1,
-				"Azzanadra": 1,
-				"Wahisietel": 1,
-				"Enakhra": 1,
-				"Zemouregal": 1,
-				"Hazeel": 1,
-				"Kharshai": 1,
-				"Icthlarin": 2,
-				"Sliske": 1,
-				"Armadyl": 1,
-				"Bandos": 1,
-				"Saradomin": 1,
-				"Zamorak": 1,
-				"Rift": 1
+				"Cannibal jadinko (Anachronia)": 17
 			},
-			"Name": "Empyrean Citadel"
-		},
-		"15175": {
-			"Object": {
-				"Shadow Caster": 4,
-				"Viewing panel": 1
+			"Spawn": {
+				"Abel (Ancient zygomite)": 1,
+				"John (Ancient zygomite)": 1	
 			},
-			"Name": "Empyrean Citadel"
+			"Connect": {
+				"40": true
+			},
+			"Nickname": "Cannibal Jadinko Hunting Spot"
 		},
 		"15176": {
 			"Object": {
@@ -212607,147 +212965,164 @@
 			},
 			"Nickname": "Hooded Pirate coast"
 		},
-		"15423": {
-			"Nickname": "Anachronia Western Peninsula Tip"
-		},
-		"15424": {
+		"15422": {
 			"Object": {
-				"Flower": 2
+				"Flower": 1
 			},
 			"Spawn": {
-				"Dee (Ancient zygomite)": 1
+				"Tig (Ancient zygomite)": 1
 			},
-			"Nickname": "Anachronia Western Peninsula"
+			"Nickname": "Anachronia Western Peninsula Tig"
+		},
+		"15423": {
+			"Nickname": "Anachronia Southern Bay Entrance"
+		},
+		"15424": {
+			"Sections": {
+				"1": {
+					"Spawn": {
+						"Pete (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Cliff face (Anachronia Agility Course)#Level 50": 1
+					}
+				},
+				"3": {
+					"Spawn": {
+						"Travis (Ancient zygomite)": 1
+					}
+				}
+			},
+			"Nickname": "Anachronia Agility Course Section B Start"
 		},
 		"15425": {
 			"Sections": {
 				"1": {
 					"Object": {
-						"Crate": 1,
-						"The Stormbreaker": 1,
-						"Crashed star": 1
+						"Bait box": 1,
+						"Bait pad": 1
 					},
 					"NPC": {
-						"Hermit crab (Anachronia)": 1
+						"Bagrada rex": 1,
+						"Draconic jadinko (Anachronia)": 5
 					},
 					"Spawn": {
-						"Frank (Ancient zygomite)": 1
-					},
-					"Quest": {
-						"Helping Laniakea (miniquest)": "step"
+						"Edd (Ancient zygomite)": 1
 					}
 				},
 				"2": {
+					"Spawn": {
+						"Happy (Ancient zygomite)": 1
+					},
 					"Object": {
-						"Dragonkin statue": 1
+						"Cliff face (Anachronia Agility Course": 1
 					}
-				}
+				},
+				"3": {
+					"Object": {
+						"Cliff face (Anachronia Agility Course": 1,
+						"Tree (Anachronia Agility Course": 1
+					}
+				},
+				"4": {}
 			},
-			"Nickname": "Anachronia Stormbreaker Landing"
+			"Nickname": "Bagrada Rex Hunting Ground"
 		},
 		"15426": {
 			"Sections": {
 				"1": {
 					"Object": {
-						"Dragonkin statue": 1,
-						"Light animica rock": 3,
-						"Vines (Anachronia Agility Course)": 1
-					},
-					"Spawn": {
-						"Dank (Ancient zygomite)": 1,
-						"Opie (Ancient zygomite)": 1
-					},
-					"Quest": {
-						"Desperate Creatures": "step"
-					}
-				},
-				"2": {},
-				"3": {},
-				"4": {
-					"Spawn": {
-						"Cricket (Ancient zygomite)": 1
-					}
-				}
-			},
-			"Nickname": "Anachronia South-West Mine"
-		},
-		"15427": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Bait box": 1,
-						"Bait pad": 1,
-						"Bank chest": 1,
-						"Root (Anachronia Agility Course)#Level 30": 1
+						"Spa pool": 1,
+						"Small obelisk (Anachronia)": 1,
+						"Temple wall (Anachronia Agility Course)": 1
 					},
 					"NPC": {
-						"Arcane apoterrasaur": 1,
-						"Golden warbler (Anachronia)": 4,
-						"Ruby harvest (Anachronia)": 7
+						"Alpheus": 1,
+						"Eliza": 1,
+						"Guard": 3,
+						"Irwinsson": 1,
+						"Rune store assistant": 1,
+						"Gem store assistant": 1
+					},
+					"Shop": {
+						"Hunter Mark Shop": true,
+						"Hunter Supply Shop": true,
+						"Rune Shop (Anachronia)": true,
+						"Gem Shop (Anachronia)": true
+					},
+					"Quest": {
+						"Desperate Creatures": "step",
+						"Desperate Measures": "step",
+						"Extinction": "step",
+						"Father and Son (miniquest)": "first",
+						"Helping Laniakea (miniquest)": "step"
 					}
 				},
 				"2": {
 					"Object": {
-						"Root (Anachronia Agility Course)#Level 30": 1
+						"Cliff face (Anachronia Agility Course)#Level 30": 2,
+						"Vines (Anachronia Agility Course)": 1,
+						"Temple wall (Anachronia Agility Course)": 1
 					}
 				},
-				"3": {},
-				"4": {}
+				"3": {
+					"Object": {
+						"Vines (Anachronia Agility Course)": 1
+					}
+				},
+				"4": {
+					"Spawn": {
+						"Bobby (Ancient zygomite)": 1
+					}
+				},
+				"5": {},
+				"6": {
+					"Object": {
+						"Spa pool": 1
+					}
+				}
 			},
-			"Nickname": "Arcane Apoterrasaur Hunting Ground"
+			"Nickname": "Anachronia Base Camp Entrance"
+		},
+		"15427": {
+			"Object": {
+				"Cave entrance (Anachronia Agility Course)": 1,
+				"Cliff face (Anachronia Agility Course)#Level 30": 2,
+				"Ruined temple (Anachronia Agility Course)#Level 30": 1,
+				"Skillcape rack": 1
+			},
+			"NPC": {
+				"Guard": 1,
+				"Igneous jadinko (Anachronia)": 5
+			},
+			"Quest": {
+				"Desperate Measures": "step",
+				"Sins of the Father": "step"
+			},
+			"Connect": {
+				"37": true
+			},
+			"Nickname": "North Base Camp"
 		},
 		"15428": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Adamantite rock": 5,
-						"Flower": 1,
-						"Luminite rock": 4,
-						"Orthen teleportation device": 1
-					},
-					"NPC": {
-						"Archaeologist (excavation sites)": 3,
-						"Ruby harvest (Anachronia)": 3
-					},
-					"Spawn": {
-						"Rami (Ancient zygomite)": 1
-					},
-					"Connect": {
-						"17": true
-					},
-					"Quest": {
-						"Desperate Measures": "step",
-						"Teleport Node On": "first"
-					}
-				},
-				"2": {}
-			},
-			"Nickname": "Crypt of Varanus"
+			"Nickname": "East Anachronia Volcano"
 		},
 		"15429": {
 			"Sections": {
-				"1": {},
+				"1": {
+					"Monster": {
+						"Venomous dinosaur": 9
+					},
+					"Spawn": {
+						"James (Ancient zygomite)": 1,
+						"Jerry (Ancient zygomite)": 1
+					}
+				},
 				"2": {}
 			},
-			"Nickname": "West Anachronia Volcano Pass"
-		},
-		"15430": {
-			"Object": {
-				"Flower": 2,
-				"Green vine blossom": 2,
-				"Mysterious Ruins": 1
-			},
-			"NPC": {
-				"Cannibal jadinko (Anachronia)": 17
-			},
-			"Spawn": {
-				"Abel (Ancient zygomite)": 1,
-				"John (Ancient zygomite)": 1	
-			},
-			"Connect": {
-				"40": true
-			},
-			"Nickname": "Cannibal Jadinko Hunting Spot"
+			"Nickname": "North Anachronia Pass"
 		},
 		"15433": {
 			"Object": {
@@ -212914,171 +213289,214 @@
 			},
 			"Nickname": "Tortle Hunter Area"
 		},
+		"15678": {
+			"NPC": {
+				"Strange bird": 1
+			},
+			"Quest": {
+				"Helping Laniakea (miniquest)": "step"
+			},
+			"Nickname": "Strange Bird Peninsula"
+		},
 		"15679": {
 			"Object": {
-				"Flower": 1
+				"Flower": 1,
+				"Plank (Anachronia Agility Course)": 1,
+				"Ruined temple (Anachronia Agility Course)#Level 50": 1,
+				"Ruins (Anachronia Agility Course)#Level 50": 1
+			},
+			"NPC": {
+				"Yellow salamander": 7
 			},
 			"Spawn": {
-				"Tig (Ancient zygomite)": 1
+				"Wayne (Ancient zygomite)": 1
 			},
-			"Nickname": "Anachronia Western Peninsula Tig"
+			"Quest": {
+				"Fragmented Memories": "step"
+			},
+			"Nickname": "Anachronia Yellow Salamander hunting Area"
 		},
 		"15680": {
-			"Nickname": "Anachronia Southern Bay Entrance"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bait box": 1,
+						"Bait pad": 1,
+						"Ruined column (Anachronia Agility Course)": 1
+					},
+					"NPC": {
+						"Scimitops": 1
+					},
+					"Spawn": {
+						"Beverly (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Ruined column (Anachronia Agility Course)": 1
+					}
+				},
+				"3": {}
+			},
+			"Nickname": "Scimitops Hunting Ground"
 		},
 		"15681": {
 			"Sections": {
 				"1": {
 					"Spawn": {
-						"Pete (Ancient zygomite)": 1
+						"June (Ancient zygomite)": 1,
+						"Nero (Ancient zygomite)": 1
+					},
+					"NPC": {
+						"Common jadinko (Anachronia)": 5
 					}
 				},
 				"2": {
-					"Object": {
-						"Cliff face (Anachronia Agility Course)#Level 50": 1
+					"NPC": {
+						"Common jadinko (Anachronia)": 4
 					}
 				},
 				"3": {
 					"Spawn": {
-						"Travis (Ancient zygomite)": 1
+						"Pat (Ancient zygomite)": 1
 					}
-				}
+				},
+				"4": {}
 			},
-			"Nickname": "Anachronia Agility Course Section B Start"
+			"Nickname": "West Common Jadinko Hunting Spot"
 		},
 		"15682": {
 			"Sections": {
 				"1": {
 					"Object": {
+						"Archaeologist's workbench": 1,
 						"Bait box": 1,
-						"Bait pad": 1
+						"Bank chest": 1,
+						"Material storage container": 1,
+						"Orthen teleportation device": 1,
+						"Rex skeleton (incomplete)": 1,
+						"Study lectern": 1
 					},
 					"NPC": {
-						"Bagrada rex": 1,
-						"Draconic jadinko (Anachronia)": 5
+						"Armour store assistant": 1,
+						"General store assistant": 1,
+						"Giles": 1,
+						"Guard": 1,
+						"Laniakea": 1,
+						"Mr Mordaut": 1,
+						"Sharrigan": 1,
+						"Weapon store assistant": 1
 					},
-					"Spawn": {
-						"Edd (Ancient zygomite)": 1
-					}
-				},
-				"2": {
-					"Spawn": {
-						"Happy (Ancient zygomite)": 1
+					"Shop": {
+						"Armour Shop (Anachronia)": true,
+						"Slayer Equipment": true,
+						"Slayer Rewards": true,
+						"Survival Shop": true,
+						"Weapon Shop (Anachronia)": true
 					},
-					"Object": {
-						"Cliff face (Anachronia Agility Course": 1
+					"Quest": {
+						"Desperate Creatures": "step",
+						"Desperate Measures": "step",
+						"Helping Laniakea (miniquest)": "first",
+						"Sins of the Father": "first",
+						"Crypt o' Zoology": "first",
+						"Death Watch": "first",
+						"Free Your Mind": "first",
+						"I Am Become Death": "step",
+						"Osseous Rex": "first"
 					}
 				},
-				"3": {
-					"Object": {
-						"Cliff face (Anachronia Agility Course": 1,
-						"Tree (Anachronia Agility Course": 1
-					}
-				},
-				"4": {}
+				"2": {},
+				"3": {},
+				"4": {},
+				"5": {}
 			},
-			"Nickname": "Bagrada Rex Hunting Ground"
+			"Nickname": "Anachronia Base Camp"
 		},
 		"15683": {
 			"Sections": {
 				"1": {
 					"Object": {
-						"Spa pool": 1,
-						"Small obelisk (Anachronia)": 1,
-						"Temple wall (Anachronia Agility Course)": 1
+						"Bait box": 1,
+						"Bait pad": 1,
+						"Flower": 1
 					},
 					"NPC": {
-						"Alpheus": 1,
-						"Eliza": 1,
-						"Guard": 3,
-						"Irwinsson": 1,
-						"Rune store assistant": 1,
-						"Gem store assistant": 1
+						"Malletops": 1
 					},
-					"Shop": {
-						"Hunter Mark Shop": true,
-						"Hunter Supply Shop": true,
-						"Rune Shop (Anachronia)": true,
-						"Gem Shop (Anachronia)": true
+					"Spawn": {
+						"Howard (Ancient zygomite)": 1
 					},
 					"Quest": {
-						"Desperate Creatures": "step",
-						"Desperate Measures": "step",
-						"Extinction": "step",
-						"Father and Son (miniquest)": "first",
-						"Helping Laniakea (miniquest)": "step"
-					}
-				},
-				"2": {
-					"Object": {
-						"Cliff face (Anachronia Agility Course)#Level 30": 2,
-						"Vines (Anachronia Agility Course)": 1,
-						"Temple wall (Anachronia Agility Course)": 1
-					}
-				},
-				"3": {
-					"Object": {
-						"Vines (Anachronia Agility Course)": 1
-					}
-				},
-				"4": {
-					"Spawn": {
-						"Bobby (Ancient zygomite)": 1
-					}
-				},
-				"5": {},
-				"6": {
-					"Object": {
-						"Spa pool": 1
-					}
-				}
-			},
-			"Nickname": "Anachronia Base Camp Entrance"
-		},
-		"15684": {
-			"Object": {
-				"Cave entrance (Anachronia Agility Course)": 1,
-				"Cliff face (Anachronia Agility Course)#Level 30": 2,
-				"Ruined temple (Anachronia Agility Course)#Level 30": 1,
-				"Skillcape rack": 1
-			},
-			"NPC": {
-				"Guard": 1,
-				"Igneous jadinko (Anachronia)": 5
-			},
-			"Quest": {
-				"Desperate Measures": "step",
-				"Sins of the Father": "step"
-			},
-			"Connect": {
-				"37": true
-			},
-			"Nickname": "North Base Camp"
-		},
-		"15685": {
-			"Nickname": "East Anachronia Volcano"
-		},
-		"15686": {
-			"Sections": {
-				"1": {
-					"Monster": {
-						"Venomous dinosaur": 9
-					},
-					"Spawn": {
-						"James (Ancient zygomite)": 1,
-						"Jerry (Ancient zygomite)": 1
+						"Desperate Creatures": "step"
 					}
 				},
 				"2": {}
 			},
-			"Nickname": "North Anachronia Pass"
+			"Nickname": "Malletops Hunting Grounds"
 		},
-		"15687": {
+		"15684": {
 			"Object": {
-				"Bench": 56,
-				"Podium": 1
+				"Cave entrance (Anachronia Agility Course)": 1,
+				"Flower": 3,
+				"Green vine blossom": 2,
+				"Roots (Anachronia Agility Course": 1,
+				"Ruined temple (Anachronia Agility Course": 3
 			},
-			"Name": "Clan Citadel"
+			"NPC": {
+				"Camouflaged jadinko (Anachronia)": 11
+			},
+			"Spawn": {
+				"Totem of Crystal middle": 1,
+				"Bernadette (Ancient zygomite)": 1,
+				"Noel (Ancient zygomite)": 1,
+				"Raj (Ancient zygomite)": 1
+			},
+			"Quest": {
+				"Desperate Measures": "step"
+			},
+			"Nickname": "Camouflaged Jadinko Hunting Spot"
+		},
+		"15685": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Material cache (orthenglass)": 1
+					},
+					"Monster": {
+						"Feral Dinosaur": 2
+					}
+				},
+				"2": {},
+				"3": {
+					"Object": {
+						"Cactus patch": 1
+					},
+					"NPC": {
+						"Goob": 1,
+						"Tool leprechaun": 1
+					},
+					"Shop": {
+						"Farmer's Supplies": true
+					},
+					"Connect": {
+						"6473": true
+					}
+				},
+				"4": {}
+			},
+			"Nickname": "Anachronia North Excavation Site"
+		},
+		"15686": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Totem pedestal": 1
+					}
+				},
+				"2": {}
+			},
+			"Nickname": "Anachronia Northern Totem"
 		},
 		"15688": {
 			"Object": {
@@ -213269,128 +213687,137 @@
 			"Nickname": "Whale's Maw Dock"
 		},
 		"15935": {
-			"NPC": {
-				"Strange bird": 1
+			"Sections": {
+				"1": {},
+				"2": {}
 			},
-			"Quest": {
-				"Helping Laniakea (miniquest)": "step"
-			},
-			"Nickname": "Strange Bird Peninsula"
+			"Nickname": "Carrion Jadinko West Hunting Spot"
 		},
 		"15936": {
-			"Object": {
-				"Flower": 1,
-				"Plank (Anachronia Agility Course)": 1,
-				"Ruined temple (Anachronia Agility Course)#Level 50": 1,
-				"Ruins (Anachronia Agility Course)#Level 50": 1
+			"Sections": {
+				"1": {
+					"Object": {
+						"Flower": 1,
+						"Rubble": 1,
+						"Ruins (Anachronia Agility Course)#Level 50": 1,
+						"Vines (Anachronia Agility Course)": 1
+					},
+					"NPC": {
+						"Black warlock": 3,
+						"Grenwall (Anachronia)": 4
+					},
+					"Spawn": {
+						"Totem of the Abyss base": 1,
+						"Morty (Ancient zygomite)": 1
+					},
+					"Connect": {
+						"20": true
+					},
+					"Quest": {
+						"Desperate Creatures": "step",
+						"Teleport Node On": "step",
+						"Know Thy Measure": "step"
+					}
+				},
+				"2": {},
+				"3": {
+					"Object": {
+						"Vines (Anachronia Agility Course)": 2
+					}
+				},
+				"4": {},
+				"5": {
+					"Object": {
+						"Ruins (Anachronia Agility Course)#Level 50": 1
+					}
+				}
 			},
-			"NPC": {
-				"Yellow salamander": 7
-			},
-			"Spawn": {
-				"Wayne (Ancient zygomite)": 1
-			},
-			"Quest": {
-				"Fragmented Memories": "step"
-			},
-			"Nickname": "Anachronia Yellow Salamander hunting Area"
+			"Nickname": "Moksha Ritual Site"
 		},
 		"15937": {
 			"Sections": {
 				"1": {
 					"Object": {
 						"Bait box": 1,
-						"Bait pad": 1,
-						"Ruined column (Anachronia Agility Course)": 1
+						"Bait pad": 1,	
+						"Rock (Anachronia Agility Course)": 1,
+						"Root (Anachronia Agility Course)#Level 70": 1
 					},
 					"NPC": {
-						"Scimitops": 1
+						"Diseased jadinko (Anachronia)": 8,
+						"Spicati apoterrasaur": 1
 					},
 					"Spawn": {
-						"Beverly (Ancient zygomite)": 1
+						"Dabby (Ancient zygomite)": 1
 					}
 				},
 				"2": {
 					"Object": {
-						"Ruined column (Anachronia Agility Course)": 1
+						"Rock (Anachronia Agility Course)": 1
 					}
 				},
-				"3": {}
+				"3": {},
+				"4": {
+					"Object": {
+						"Root (Anachronia Agility Course)#Level 70": 1
+					}
+				},
+				"5": {}
 			},
-			"Nickname": "Scimitops Hunting Ground"
+			"Nickname": "Spicati Apoterrasaur Hunting Ground"
 		},
 		"15938": {
 			"Sections": {
 				"1": {
-					"Spawn": {
-						"June (Ancient zygomite)": 1,
-						"Nero (Ancient zygomite)": 1
+					"Object": {
+						"Fishing spot (lure, bait)": 2,
+						"Fishing spot (cage, harpoon)": 3,
+						"Red vine blossom": 1,
+						"Teleportation device": 1,
+						"Crashed star": 1
 					},
 					"NPC": {
-						"Common jadinko (Anachronia)": 5
+						"Aquatic jadinko (Anachronia)": 5,
+						"Bruce": 1,
+						"Clint": 1,
+						"Natasha": 1,
+						"Scott": 1,
+						"Stan": 1,
+						"Steve": 1,
+						"Tony": 1
+					},
+					"Connect": {
+						"1": true
+					},
+					"Quest": {
+						"Desperate Creatures": "step"
 					}
 				},
-				"2": {
-					"NPC": {
-						"Common jadinko (Anachronia)": 4
-					}
-				},
-				"3": {
-					"Spawn": {
-						"Pat (Ancient zygomite)": 1
-					}
-				},
-				"4": {}
+				"2": {},
+				"3": {}
 			},
-			"Nickname": "West Common Jadinko Hunting Spot"
+			"Nickname": "Anachronia Spirit Grove"
 		},
 		"15939": {
 			"Sections": {
 				"1": {
-					"Object": {
-						"Archaeologist's workbench": 1,
-						"Bait box": 1,
-						"Bank chest": 1,
-						"Material storage container": 1,
-						"Orthen teleportation device": 1,
-						"Rex skeleton (incomplete)": 1,
-						"Study lectern": 1
-					},
 					"NPC": {
-						"Armour store assistant": 1,
-						"General store assistant": 1,
-						"Giles": 1,
-						"Guard": 1,
-						"Laniakea": 1,
-						"Mr Mordaut": 1,
-						"Sharrigan": 1,
-						"Weapon store assistant": 1
+						"Amphibious jadinko (Anachronia)": 5
 					},
-					"Shop": {
-						"Armour Shop (Anachronia)": true,
-						"Slayer Equipment": true,
-						"Slayer Rewards": true,
-						"Survival Shop": true,
-						"Weapon Shop (Anachronia)": true
-					},
-					"Quest": {
-						"Desperate Creatures": "step",
-						"Desperate Measures": "step",
-						"Helping Laniakea (miniquest)": "first",
-						"Sins of the Father": "first",
-						"Crypt o' Zoology": "first",
-						"Death Watch": "first",
-						"Free Your Mind": "first",
-						"I Am Become Death": "step",
-						"Osseous Rex": "first"
+					"Spawn": {
+						"Clay (Ancient zygomite)": 1,
+						"Nate (Ancient zygomite)": 1,
+						"Stuart (Ancient zygomite)": 1
 					}
 				},
-				"2": {},
-				"3": {},
-				"4": {},
-				"5": {}
+				"2": {
+					"NPC": {
+						"Amphibious jadinko (Anachronia)": 5
+					}
+				},
+				"3": {}
 			},
-			"Nickname": "Anachronia Base Camp"
+			"Nickname": "Anachronia Spirit Grove River"
 		},
 		"15940": {
 			"Sections": {
@@ -213398,84 +213825,49 @@
 					"Object": {
 						"Bait box": 1,
 						"Bait pad": 1,
-						"Flower": 1
+						"Ruined temple (Anachronia Agility Course)#Level 50": 5
 					},
 					"NPC": {
-						"Malletops": 1
-					},
-					"Spawn": {
-						"Howard (Ancient zygomite)": 1
-					},
-					"Quest": {
-						"Desperate Creatures": "step"
+						"Grenwall (Anachronia)": 5,
+						"Pavosaurus rex": 1
 					}
 				},
-				"2": {}
+				"2": {
+					"Spawn": {
+						"Jenny (Ancient zygomite)": 1
+					}
+				},
+				"3": {}
 			},
-			"Nickname": "Malletops Hunting Grounds"
+			"Nickname": "Pavosaurus Rex Hunting Ground"
 		},
 		"15941": {
-			"Object": {
-				"Cave entrance (Anachronia Agility Course)": 1,
-				"Flower": 3,
-				"Green vine blossom": 2,
-				"Roots (Anachronia Agility Course": 1,
-				"Ruined temple (Anachronia Agility Course": 3
+			"Sections": {
+				"1": {
+					"Monster": {
+						"Feral Dinosaur": 6
+					}
+				},
+				"2": {
+					"Monster": {
+						"Brutish dinosaur": 5
+					},
+					"Spawn": {
+						"Juice (Ancient zygomite)": 1
+					}
+				},
+				"3": {},
+				"4": {
+					"Spawn": {
+						"Carter (Ancient zygomite)": 1
+					}
+				},
+				"5": {}
 			},
-			"NPC": {
-				"Camouflaged jadinko (Anachronia)": 11
-			},
-			"Spawn": {
-				"Totem of Crystal middle": 1,
-				"Bernadette (Ancient zygomite)": 1,
-				"Noel (Ancient zygomite)": 1,
-				"Raj (Ancient zygomite)": 1
-			},
-			"Quest": {
-				"Desperate Measures": "step"
-			},
-			"Nickname": "Camouflaged Jadinko Hunting Spot"
+			"Nickname": "Anachronia Brutish Dinosaurs"
 		},
 		"15942": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Material cache (orthenglass)": 1
-					},
-					"Monster": {
-						"Feral Dinosaur": 2
-					}
-				},
-				"2": {},
-				"3": {
-					"Object": {
-						"Cactus patch": 1
-					},
-					"NPC": {
-						"Goob": 1,
-						"Tool leprechaun": 1
-					},
-					"Shop": {
-						"Farmer's Supplies": true
-					},
-					"Connect": {
-						"6473": true
-					}
-				},
-				"4": {}
-			},
-			"Nickname": "Anachronia North Excavation Site"
-		},
-		"15943": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Totem pedestal": 1
-					}
-				},
-				"2": {}
-			},
-			"Nickname": "Anachronia Northern Totem"
+			"Nickname": "OBservation Outpost Pass"
 		},
 		"15944": {
 			"Object": {
@@ -213813,198 +214205,208 @@
 		"16180": {
 			"Nickname": "North of Wendlewick Dock"
 		},
-		"16191": {
-			"Object": {
-				"Loom": 32,
-				"Ore container": 14,
-				"Precious Ore container": 6,
-				"Ore Container": 2,
-				"Precious Ore Container": 2
-			},
-			"Name": "Clan Citadel"
-		},
-		"16192": {
-			"Sections": {
-				"1": {},
-				"2": {}
-			},
-			"Nickname": "Carrion Jadinko West Hunting Spot"
-		},
-		"16193": {
+		"16190": {
 			"Sections": {
 				"1": {
-					"Object": {
-						"Flower": 1,
-						"Rubble": 1,
-						"Ruins (Anachronia Agility Course)#Level 50": 1,
-						"Vines (Anachronia Agility Course)": 1
-					},
 					"NPC": {
-						"Black warlock": 3,
-						"Grenwall (Anachronia)": 4
-					},
-					"Spawn": {
-						"Totem of the Abyss base": 1,
-						"Morty (Ancient zygomite)": 1
-					},
-					"Connect": {
-						"20": true
-					},
-					"Quest": {
-						"Desperate Creatures": "step",
-						"Teleport Node On": "step",
-						"Know Thy Measure": "step"
-					}
-				},
-				"2": {},
-				"3": {
-					"Object": {
-						"Vines (Anachronia Agility Course)": 2
-					}
-				},
-				"4": {},
-				"5": {
-					"Object": {
-						"Ruins (Anachronia Agility Course)#Level 50": 1
-					}
-				}
-			},
-			"Nickname": "Moksha Ritual Site"
-		},
-		"16194": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Bait box": 1,
-						"Bait pad": 1,	
-						"Rock (Anachronia Agility Course)": 1,
-						"Root (Anachronia Agility Course)#Level 70": 1
-					},
-					"NPC": {
-						"Diseased jadinko (Anachronia)": 8,
-						"Spicati apoterrasaur": 1
-					},
-					"Spawn": {
-						"Dabby (Ancient zygomite)": 1
+						"Black warlock (Anachronia)": 3
 					}
 				},
 				"2": {
-					"Object": {
-						"Rock (Anachronia Agility Course)": 1
+					"Spawn": {
+						"Liam (Ancient zygomite)": 1
 					}
-				},
-				"3": {},
-				"4": {
-					"Object": {
-						"Root (Anachronia Agility Course)#Level 70": 1
-					}
-				},
-				"5": {}
+				}
 			},
-			"Nickname": "Spicati Apoterrasaur Hunting Ground"
+			"Nickname": "Anachronia South-West Cliffs"
 		},
-		"16195": {
+		"16191": {
 			"Sections": {
 				"1": {
 					"Object": {
-						"Fishing spot (lure, bait)": 2,
-						"Fishing spot (cage, harpoon)": 3,
-						"Red vine blossom": 1,
-						"Teleportation device": 1,
+						"Dark animica rock": 4,
+						"Door": 1,
 						"Crashed star": 1
 					},
-					"NPC": {
-						"Aquatic jadinko (Anachronia)": 5,
-						"Bruce": 1,
-						"Clint": 1,
-						"Natasha": 1,
-						"Scott": 1,
-						"Stan": 1,
-						"Steve": 1,
-						"Tony": 1
+					"Monster": {
+						"Devil's snare": 5
 					},
+					"NPC": {
+						"Black warlock (Anachronia)": 7,
+						"Carrion jadinko (Anachronia)": 7
+					}
+				},
+				"2": {
 					"Connect": {
-						"1": true
+						"22828": true
+					}
+				}
+			},
+			"Nickname": "Anachronia Swamp Mine"
+		},
+		"16192": {
+			"Sections": {
+				"1": {
+					"Monster": {
+						"Ripper dinosaur": 1
+					},
+					"Spawn": {
+						"Dave (Ancient zygomite)": 1
 					},
 					"Quest": {
 						"Desperate Creatures": "step"
 					}
 				},
-				"2": {},
-				"3": {}
+				"2": {
+					"Spawn": {
+						"Eddy (Ancient zygomite)": 1
+					}
+				},
+				"3": {
+					"Spawn": {
+						"Barry (Ancient zygomite)": 1
+					}
+				}
 			},
-			"Nickname": "Anachronia Spirit Grove"
+			"Nickname": "Anachronia Swamp"
 		},
-		"16196": {
+		"16193": {
 			"Sections": {
 				"1": {
-					"NPC": {
-						"Amphibious jadinko (Anachronia)": 5
+					"Monster": {
+						"Lampenflora": 11
 					},
-					"Spawn": {
-						"Clay (Ancient zygomite)": 1,
-						"Nate (Ancient zygomite)": 1,
-						"Stuart (Ancient zygomite)": 1
+					"NPC": {
+						"Asciatops": 1
+					},
+					"Object": {
+						"Bait box": 1,
+						"Bait pad": 1,
+						"Block (Anachronia Agility Course)": 1,
+						"Ruins (Anachronia Agility Course)#Level 70": 1
 					}
 				},
 				"2": {
-					"NPC": {
-						"Amphibious jadinko (Anachronia)": 5
+					"Object": {
+						"Bones (Anachronia Agility Course)#Level 70": 1
 					}
 				},
-				"3": {}
+				"3": {
+					"Object": {
+						"Bones (Anachronia Agility Course)#Level 70": 1,
+						"Ruins (Anachronia Agility Course)#Level 70": 1,
+						"Vines (Anachronia Agility Course)": 1
+					}
+				},
+				"4": {
+					"Spawn": {
+						"Chris (Ancient zygomite)": 1
+					}
+				},
+				"5": {
+					"Object": {
+						"Block (Anachronia Agility Course)": 1
+					}
+				}
 			},
-			"Nickname": "Anachronia Spirit Grove River"
+			"Nickname": "Asciatops Hunting Ground"
 		},
-		"16197": {
+		"16194": {
+			"Object": {
+				"Flower": 1
+			},
+			"NPC": {
+				"Golden poison frog": 4,
+				"Phantasmal poison frog": 5,
+				"Sky-blue poison frog": 6
+			},
+			"Spawn": {
+				"Richard (Ancient zygomite)": 1
+			},
+			"Quest": {
+				"Desperate Creatures": "step"
+			},
+			"Nickname": "Poison Frog Area"
+		},
+		"16195": {
 			"Sections": {
 				"1": {
 					"Object": {
 						"Bait box": 1,
-						"Bait pad": 1,
-						"Ruined temple (Anachronia Agility Course)#Level 50": 5
+						"Bait pad": 1
+					},
+					"Monster": {
+						"Liverworts": 8
 					},
 					"NPC": {
-						"Grenwall (Anachronia)": 5,
-						"Pavosaurus rex": 1
+						"Oculi apoterrasaur": 1
 					}
 				},
+				"2": {},
+				"3": {}
+			},
+			"Nickname": "Oculi Apoterrasaur Hunting Ground"
+		},
+		"16196": {
+			"Sections": {
+				"1": {},
 				"2": {
-					"Spawn": {
-						"Jenny (Ancient zygomite)": 1
+					"Object": {
+						"Bones (Anachronia Agility Course)#Level 50": 1,
+						"Cliff face (Anachronia Agility Course)#Level 70": 1,
+						"Ruined temple (Anachronia Agility Course)#Level 70": 1,
+						"Spine (Anachronia Agility Course)": 1,
+						"Tree roots": 1
+					},
+					"NPC": {
+						"Ancient zygomite elder": 1
+					},
+					"Shop": {
+						"Herby Werby Reward Shop": true
+					},
+					"Quest": {
+						"Helping Laniakea (miniquest)": "step"
+					},
+					"Connect": {
+						"22310": true
+					}
+				},
+				"3": {
+					"Object": {
+						"Ruined temple (Anachronia Agility Course)#Level 70": 1
+					}
+				}
+			},
+			"Nickname": "Herby Werby Entrance"
+		},
+		"16197": {
+			
+			
+			
+			
+			"Sections": {
+				"1": {},
+				"2": {
+					"Object": {
+						"Door": 1,
+						"Orthen teleportation device": 1
+					},
+					"NPC": {
+						"Archaeologist (excavation sites)": 2
+					},
+					"Connect": {
+						"18": true
+					},
+					"Quest": {
+						"Teleport Node On": "step"
 					}
 				},
 				"3": {}
 			},
-			"Nickname": "Pavosaurus Rex Hunting Ground"
+			"Nickname": "Observation Outpost"
 		},
 		"16198": {
-			"Sections": {
-				"1": {
-					"Monster": {
-						"Feral Dinosaur": 6
-					}
-				},
-				"2": {
-					"Monster": {
-						"Brutish dinosaur": 5
-					},
-					"Spawn": {
-						"Juice (Ancient zygomite)": 1
-					}
-				},
-				"3": {},
-				"4": {
-					"Spawn": {
-						"Carter (Ancient zygomite)": 1
-					}
-				},
-				"5": {}
-			},
-			"Nickname": "Anachronia Brutish Dinosaurs"
-		},
-		"16199": {
-			"Nickname": "OBservation Outpost Pass"
+			"Nickname": "A Single Tile North of the Observation Outpost"
 		},
 		"16200": {
 			"Object": {
@@ -214317,208 +214719,216 @@
 			},
 			"Nickname": "Precarious Outhouse"
 		},
+		"16446": {
+			"Object": {
+				"Flower": 1
+			},
+			"Spawn": {
+				"Mary (Ancient zygomite)": 1
+			},
+			"Quest": {
+				"Helping Laniakea (miniquest)": "step"
+			},
+			"Nickname": "Anachronia South-East Cliffs"
+		},
 		"16447": {
 			"Sections": {
 				"1": {
+					"Object": {
+						"Deposit box": 1,
+						"Door": 1,
+						"Dragonkin statue": 1,
+						"Orthen telportation device": 1
+					},
 					"NPC": {
-						"Black warlock (Anachronia)": 3
+						"Archaeologist (excavation sites)": 4,
+						"Igneous jadinko (Anachronia)": 4,
+						"Laniakea": 1
+					},
+					"Shop": {
+						"Slayer Equipment": true,
+						"Slayer Rewards": true
+					},
+					"Spawn": {
+						"Totem of Navigation top": 1,
+						"Ruth (Ancient zygomite)": 1,
+						"Ed (Ancient zygomite)": 1
+					},
+					"Connect": {
+						"19": true
+					},
+					"Quest": {
+						"Raksha, the Shadow Colossus": "first",
+						"Teleport Node On": "step",
+						"Mysterious City": "first"
 					}
 				},
-				"2": {
-					"Spawn": {
-						"Liam (Ancient zygomite)": 1
-					}
-				}
+				"2": {}
 			},
-			"Nickname": "Anachronia South-West Cliffs"
+			"Nickname": "Xolo City Ruins"
 		},
 		"16448": {
 			"Sections": {
 				"1": {
 					"Object": {
-						"Dark animica rock": 4,
-						"Door": 1,
-						"Crashed star": 1
+						"Fishing spot (cage, harpoon)": 2,
+						"Fishing spot (big fishing net, harpoon)": 3
 					},
 					"Monster": {
-						"Devil's snare": 5
-					},
-					"NPC": {
-						"Black warlock (Anachronia)": 7,
-						"Carrion jadinko (Anachronia)": 7
+						"Ripper dinosaurs": 5
 					}
 				},
 				"2": {
-					"Connect": {
-						"22828": true
+					"Object": {
+						"Totem pedestal": 1
 					}
 				}
 			},
-			"Nickname": "Anachronia Swamp Mine"
+			"Nickname": "Anachronia South-Eastern Totem"
 		},
 		"16449": {
 			"Sections": {
 				"1": {
-					"Monster": {
-						"Ripper dinosaur": 1
+					"Object": {
+						"Vines (Anachronia Agility Course)": 1
 					},
 					"Spawn": {
-						"Dave (Ancient zygomite)": 1
-					},
-					"Quest": {
-						"Desperate Creatures": "step"
+						"Rick (Ancient zygomite)": 1
 					}
 				},
 				"2": {
+					"Object": {
+						"Roots (Anachronia Agility Course)#Level 85": 1,
+						"Vines (Anachronia Agility Course)": 1
+					},
 					"Spawn": {
-						"Eddy (Ancient zygomite)": 1
+						"Taylor (Ancient zygomite)": 1
 					}
 				},
 				"3": {
-					"Spawn": {
-						"Barry (Ancient zygomite)": 1
+					"Monster": {
+						"Devil's snare": 3
 					}
 				}
 			},
-			"Nickname": "Anachronia Swamp"
+			"Nickname": "Anachronia Agility Course Section D Start"
 		},
 		"16450": {
-			"Sections": {
-				"1": {
-					"Monster": {
-						"Lampenflora": 11
-					},
-					"NPC": {
-						"Asciatops": 1
-					},
-					"Object": {
-						"Bait box": 1,
-						"Bait pad": 1,
-						"Block (Anachronia Agility Course)": 1,
-						"Ruins (Anachronia Agility Course)#Level 70": 1
-					}
-				},
-				"2": {
-					"Object": {
-						"Bones (Anachronia Agility Course)#Level 70": 1
-					}
-				},
-				"3": {
-					"Object": {
-						"Bones (Anachronia Agility Course)#Level 70": 1,
-						"Ruins (Anachronia Agility Course)#Level 70": 1,
-						"Vines (Anachronia Agility Course)": 1
-					}
-				},
-				"4": {
-					"Spawn": {
-						"Chris (Ancient zygomite)": 1
-					}
-				},
-				"5": {
-					"Object": {
-						"Block (Anachronia Agility Course)": 1
-					}
-				}
-			},
-			"Nickname": "Asciatops Hunting Ground"
-		},
-		"16451": {
-			"Object": {
-				"Flower": 1
-			},
-			"NPC": {
-				"Golden poison frog": 4,
-				"Phantasmal poison frog": 5,
-				"Sky-blue poison frog": 6
-			},
-			"Spawn": {
-				"Richard (Ancient zygomite)": 1
-			},
-			"Quest": {
-				"Desperate Creatures": "step"
-			},
-			"Nickname": "Poison Frog Area"
-		},
-		"16452": {
 			"Sections": {
 				"1": {
 					"Object": {
 						"Bait box": 1,
 						"Bait pad": 1
 					},
-					"Monster": {
-						"Liverworts": 8
-					},
 					"NPC": {
-						"Oculi apoterrasaur": 1
+						"Corbicula rex": 1
+					},
+					"Spawn": {
+						"Beth (Ancient zygomite)": 1
 					}
 				},
 				"2": {},
-				"3": {}
-			},
-			"Nickname": "Oculi Apoterrasaur Hunting Ground"
-		},
-		"16453": {
-			"Sections": {
-				"1": {},
-				"2": {
+				"3": {},
+				"4": {},
+				"5": {},
+				"6": {},
+				"7": {
 					"Object": {
-						"Bones (Anachronia Agility Course)#Level 50": 1,
-						"Cliff face (Anachronia Agility Course)#Level 70": 1,
-						"Ruined temple (Anachronia Agility Course)#Level 70": 1,
-						"Spine (Anachronia Agility Course)": 1,
-						"Tree roots": 1
+						"Big block (Anachronia Agility Course)": 1,
+						"Roots (Anachronia Agility Course)#Level 85": 1
 					},
-					"NPC": {
-						"Ancient zygomite elder": 1
+					"Spawn": {
+						"Jessica (Ancient zygomite)": 1
+					}
+				},
+				"8": {
+					"Object": {
+						"Big block (Anachronia Agility Course)": 1
 					},
-					"Shop": {
-						"Herby Werby Reward Shop": true
+					"Spawn": {
+						"Summer (Ancient zygomite)": 1
+					}
+				},
+				"9": {}
+			},
+			"Nickname": "Corbicula Rex Hunting Ground"
+		},
+		"16451": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Fertile soil (patch)": 1,
+						"Overgrown Idol (Anachronia)": 1
+					},
+					"Spawn": {
+						"Tara (Ancient zygomite)": 1
 					},
 					"Quest": {
+						"Desperate Creatures": "step",
 						"Helping Laniakea (miniquest)": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Overgrown Idol (Anachronia)": 1,
+						"Roots (Anachronia Agility Course)#Level 70": 1,
+						"Vines (Anachronia Agility Course)": 3
 					},
-					"Connect": {
-						"22310": true
+					"Spawn": {
+						"Jax (Ancient zygomite)": 1
 					}
 				},
 				"3": {
 					"Object": {
-						"Ruined temple (Anachronia Agility Course)#Level 70": 1
+						"Vines (Anachronia Agility Course)": 1,
+						"Roots (Anachronia Agility Course)#Level 70": 1
+					},
+					"Spawn": {
+						"Gemma (Ancient zygomite)": 1
+					}
+				},
+				"4": {
+					"Object": {
+						"Vines (Anachronia Agility Course)": 1
 					}
 				}
 			},
-			"Nickname": "Herby Werby Entrance"
+			"Nickname": "Anachronia East River"
 		},
-		"16454": {
-			
-			
-			
-			
+		"16452": {
 			"Sections": {
-				"1": {},
-				"2": {
+				"1": {
 					"Object": {
-						"Door": 1,
-						"Orthen teleportation device": 1
+						"Drakolith rock": 6,
+						"Orichalcite rock": 5
 					},
 					"NPC": {
-						"Archaeologist (excavation sites)": 2
+						"Golden warbler (Anachronia)": 5
 					},
-					"Connect": {
-						"18": true
+					"Spawn": {
+						"Chibs (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"NPC": {
+						"Diseased jadinko (Anachronia)": 1
 					},
 					"Quest": {
-						"Teleport Node On": "step"
+						"Desperate Measures": "step"
 					}
 				},
 				"3": {}
 			},
-			"Nickname": "Observation Outpost"
+			"Nickname": "Anachronia Canyon Mine"
 		},
-		"16455": {
-			"Nickname": "A Single Tile North of the Observation Outpost"
+		"16453": {
+			"Object": {
+				"Flower": 1
+			},
+			"Spawn": {
+				"Jeremy (Ancient zygomite)": 1
+			},
+			"Nickname": "Anachronia North-East Coast"
 		},
 		"16456": {
 			"Object": {
@@ -215088,222 +215498,105 @@
 			"Name": "Clan Citadel"
 		},
 		"16703": {
-			"Object": {
-				"Flower": 1
+			"Sections": {
+				"1": {},
+				"2": {},
+				"3": {
+					"Connect": {
+						"48": true
+					}
+				}
 			},
-			"Spawn": {
-				"Mary (Ancient zygomite)": 1
-			},
-			"Quest": {
-				"Helping Laniakea (miniquest)": "step"
-			},
-			"Nickname": "Anachronia South-East Cliffs"
+			"Nickname": "Asuran Arsenal Entrance"
 		},
 		"16704": {
 			"Sections": {
 				"1": {
-					"Object": {
-						"Deposit box": 1,
-						"Door": 1,
-						"Dragonkin statue": 1,
-						"Orthen telportation device": 1
-					},
-					"NPC": {
-						"Archaeologist (excavation sites)": 4,
-						"Igneous jadinko (Anachronia)": 4,
-						"Laniakea": 1
-					},
-					"Shop": {
-						"Slayer Equipment": true,
-						"Slayer Rewards": true
+					"Monster": {
+						"Devil's snare": 4
 					},
 					"Spawn": {
-						"Totem of Navigation top": 1,
-						"Ruth (Ancient zygomite)": 1,
-						"Ed (Ancient zygomite)": 1
-					},
-					"Connect": {
-						"19": true
-					},
-					"Quest": {
-						"Raksha, the Shadow Colossus": "first",
-						"Teleport Node On": "step",
-						"Mysterious City": "first"
+						"Amy (Ancient zygomite)": 1
 					}
 				},
-				"2": {}
+				"2": {
+					"Spawn": {
+						"Sheldon (Ancient zygomite)": 1
+					}
+				}
 			},
-			"Nickname": "Xolo City Ruins"
+			"Nickname": "South Anachronia Isle"
 		},
 		"16705": {
 			"Sections": {
 				"1": {
-					"Object": {
-						"Fishing spot (cage, harpoon)": 2,
-						"Fishing spot (big fishing net, harpoon)": 3
-					},
-					"Monster": {
-						"Ripper dinosaurs": 5
+					"NPC": {
+						"Shadow jadinko (Anachronia)": 7
 					}
 				},
 				"2": {
-					"Object": {
-						"Totem pedestal": 1
+					"Monster": {
+						"Devil's snare": 2
 					}
 				}
 			},
-			"Nickname": "Anachronia South-Eastern Totem"
+			"Nickname": "Shadow Jadinko Hunting Spot"
 		},
 		"16706": {
 			"Sections": {
 				"1": {
 					"Object": {
-						"Vines (Anachronia Agility Course)": 1
+						"Dragonkin statue": 1,
+						"Flower": 1,
+						"Sunken column (Anachronia Agility Course)": 1
 					},
 					"Spawn": {
-						"Rick (Ancient zygomite)": 1
+						"Penny (Ancient zygomite)": 1
 					}
 				},
 				"2": {
 					"Object": {
-						"Roots (Anachronia Agility Course)#Level 85": 1,
-						"Vines (Anachronia Agility Course)": 1
-					},
-					"Spawn": {
-						"Taylor (Ancient zygomite)": 1
-					}
-				},
-				"3": {
-					"Monster": {
-						"Devil's snare": 3
+						"Sunken column (Anachronia Agility Course)": 1
 					}
 				}
 			},
-			"Nickname": "Anachronia Agility Course Section D Start"
+			"Nickname": "Kindra Counsil Meeting Pool"
 		},
 		"16707": {
 			"Sections": {
 				"1": {
-					"Object": {
-						"Bait box": 1,
-						"Bait pad": 1
-					},
 					"NPC": {
-						"Corbicula rex": 1
+						"Common jadinko (Anachronia)": 6
 					},
-					"Spawn": {
-						"Beth (Ancient zygomite)": 1
+					"Quest": {
+						"Desperate Creatures": "step"
 					}
 				},
-				"2": {},
-				"3": {},
-				"4": {},
-				"5": {},
-				"6": {},
-				"7": {
-					"Object": {
-						"Big block (Anachronia Agility Course)": 1,
-						"Roots (Anachronia Agility Course)#Level 85": 1
-					},
-					"Spawn": {
-						"Jessica (Ancient zygomite)": 1
-					}
-				},
-				"8": {
-					"Object": {
-						"Big block (Anachronia Agility Course)": 1
-					},
-					"Spawn": {
-						"Summer (Ancient zygomite)": 1
-					}
-				},
-				"9": {}
+				"2": {}
 			},
-			"Nickname": "Corbicula Rex Hunting Ground"
+			"Nickname": "East Common Jadinko Hunting Spot"
 		},
 		"16708": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Fertile soil (patch)": 1,
-						"Overgrown Idol (Anachronia)": 1
-					},
-					"Spawn": {
-						"Tara (Ancient zygomite)": 1
-					},
-					"Quest": {
-						"Desperate Creatures": "step",
-						"Helping Laniakea (miniquest)": "step"
-					}
-				},
-				"2": {
-					"Object": {
-						"Overgrown Idol (Anachronia)": 1,
-						"Roots (Anachronia Agility Course)#Level 70": 1,
-						"Vines (Anachronia Agility Course)": 3
-					},
-					"Spawn": {
-						"Jax (Ancient zygomite)": 1
-					}
-				},
-				"3": {
-					"Object": {
-						"Vines (Anachronia Agility Course)": 1,
-						"Roots (Anachronia Agility Course)#Level 70": 1
-					},
-					"Spawn": {
-						"Gemma (Ancient zygomite)": 1
-					}
-				},
-				"4": {
-					"Object": {
-						"Vines (Anachronia Agility Course)": 1
-					}
-				}
-			},
-			"Nickname": "Anachronia East River"
-		},
-		"16709": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Drakolith rock": 6,
-						"Orichalcite rock": 5
-					},
-					"NPC": {
-						"Golden warbler (Anachronia)": 5
-					},
-					"Spawn": {
-						"Chibs (Ancient zygomite)": 1
-					}
-				},
-				"2": {
-					"NPC": {
-						"Diseased jadinko (Anachronia)": 1
-					},
-					"Quest": {
-						"Desperate Measures": "step"
-					}
-				},
-				"3": {}
-			},
-			"Nickname": "Anachronia Canyon Mine"
-		},
-		"16710": {
 			"Object": {
-				"Flower": 1
+				"Door": 1,
+				"Dragonkin statue": 1,
+				"Flower": 1,
+				"Rubble": 1
+			},
+			"NPC": {
+				"Diseased jadinko (Anachronia)": 3
 			},
 			"Spawn": {
-				"Jeremy (Ancient zygomite)": 1
+				"Totem of Intimidation top": 1,
+				"Leonard (Ancient zygomite)": 1
 			},
-			"Nickname": "Anachronia North-East Coast"
+			"Nickname": "Anachronia North-East Isles"
 		},
-		"16711": {
-			"Object": {
-				"Bench": 56,
-				"Podium": 1
+		"16709": {
+			"NPC": {
+				"Diseased jadinko (Anachronia)": 3
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia North-East Corner"
 		},
 		"16712": {
 			"Object": {
@@ -215851,123 +216144,6 @@
 			"Object": {
 				"Bench": 134,
 				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"16959": {
-			"Object": {
-				"Woodchip": 48,
-				"Stewing Pot": 26,
-				"Large Chopping Board": 26,
-				"Grill": 26
-			},
-			"Name": "Clan Citadel"
-		},
-		"16960": {
-			"Sections": {
-				"1": {},
-				"2": {},
-				"3": {
-					"Connect": {
-						"48": true
-					}
-				}
-			},
-			"Nickname": "Asuran Arsenal Entrance"
-		},
-		"16961": {
-			"Sections": {
-				"1": {
-					"Monster": {
-						"Devil's snare": 4
-					},
-					"Spawn": {
-						"Amy (Ancient zygomite)": 1
-					}
-				},
-				"2": {
-					"Spawn": {
-						"Sheldon (Ancient zygomite)": 1
-					}
-				}
-			},
-			"Nickname": "South Anachronia Isle"
-		},
-		"16962": {
-			"Sections": {
-				"1": {
-					"NPC": {
-						"Shadow jadinko (Anachronia)": 7
-					}
-				},
-				"2": {
-					"Monster": {
-						"Devil's snare": 2
-					}
-				}
-			},
-			"Nickname": "Shadow Jadinko Hunting Spot"
-		},
-		"16963": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Dragonkin statue": 1,
-						"Flower": 1,
-						"Sunken column (Anachronia Agility Course)": 1
-					},
-					"Spawn": {
-						"Penny (Ancient zygomite)": 1
-					}
-				},
-				"2": {
-					"Object": {
-						"Sunken column (Anachronia Agility Course)": 1
-					}
-				}
-			},
-			"Nickname": "Kindra Counsil Meeting Pool"
-		},
-		"16964": {
-			"Sections": {
-				"1": {
-					"NPC": {
-						"Common jadinko (Anachronia)": 6
-					},
-					"Quest": {
-						"Desperate Creatures": "step"
-					}
-				},
-				"2": {}
-			},
-			"Name": "East Common Jadinko Hunting Spot"
-		},
-		"16965": {
-			"Object": {
-				"Door": 1,
-				"Dragonkin statue": 1,
-				"Flower": 1,
-				"Rubble": 1
-			},
-			"NPC": {
-				"Diseased jadinko (Anachronia)": 3
-			},
-			"Spawn": {
-				"Totem of Intimidation top": 1,
-				"Leonard (Ancient zygomite)": 1
-			},
-			"Nickname": "Anachronia North-East Isles"
-		},
-		"16966": {
-			"NPC": {
-				"Diseased jadinko (Anachronia)": 3
-			},
-			"Nickname": "Anachronia North-East Corner"
-		},
-		"16967": {
-			"Object": {
-				"Bench": 56,
-				"Lever": 1
 			},
 			"Name": "Clan Citadel"
 		},
@@ -217416,6 +217592,9 @@
 					"NPC": {
 						"Gumscales": 1,
 						"Creekjoints": 1
+					},
+					"Shop": {
+						"Creekjoint's Boggy Builds": true
 					}
 				},
 				"2": {
@@ -217441,7 +217620,11 @@
 						"Mushroom patch": 1
 					},
 					"NPC": {
-						"Muckthumb": 1
+						"Muckthumb": 1,
+						"Sneechbelly": 1
+					},
+					"Shop": {
+						"Spore Decisions": true
 					}
 				},
 				"2": {
@@ -221285,6 +221468,13 @@
 				"Woman": 2
 			}
 		},
+		"25430": {
+			"Object": {
+				"Bench": 56,
+				"Podium": 1
+			},
+			"Name": "Clan Citadel"
+		},
 		"Zanaris": {
 			"Object": {
 				"Tree": 29,
@@ -223666,7 +223856,7 @@
 				"13362": true,
 				"13622": true,
 				"14391": true,
-				"15942": true,
+				"15685": true,
 				"16690": true,
 				"23": true
 			}
@@ -228865,7 +229055,7 @@
 				"Dragonkin coffin": 1
 			},
 			"Connect": {
-				"15428": true
+				"15171": true
 			}
 		},
 		"Observation Outpost": {
@@ -228883,7 +229073,7 @@
 				"Materials cart": 1
 			},
 			"Connect": {
-				"16454": true
+				"16197": true
 			},
 			"Quest": {
 				"Know Thy Measure": "first"
@@ -228898,7 +229088,7 @@
 				"Saurthen debris": 6
 			},
 			"Connect": {
-				"16704": true
+				"16447": true
 			},
 			"Quest": {
 				"Mysterious City": "step"
@@ -228915,7 +229105,7 @@
 				"Moksha device": 1
 			},
 			"Connect": {
-				"16193": true
+				"15936": true
 			},
 			"Quest": {
 				"Know Thy Measure": "step",
@@ -229906,7 +230096,7 @@
 				"Raksha, the Shadow Colossus": 1
 			},
 			"Connect": {
-				"16704": true
+				"16447": true
 			},
 			"Quest": {
 				"Raksha, the Shadow Colossus": "step"
@@ -229934,7 +230124,7 @@
 				"Soap": 1
 			},
 			"Connect": {
-				"16453": true
+				"16196": true
 			}
 		},
 		"Lair of the Rex Matriarchs": {
@@ -229948,7 +230138,7 @@
 				"Osseous Rex": "step"
 			},
 			"Connect": {
-				"16195": true
+				"15938": true
 			}
 		},
 		"Temple of Aminishi": {
@@ -230445,7 +230635,7 @@
 			},
 			"Connect": {
 				"38": true,
-				"15684": true
+				"15427": true
 			}
 		},
 		"Dream of Iaia": {
@@ -230470,7 +230660,7 @@
 				"Portal": 1
 			},
 			"Connect": {
-				"15430": true
+				"15173": true
 			}
 		},
 		"Senntisten Asylum": {
@@ -230620,7 +230810,7 @@
 				"Handholds (Asuran Arsenal)": 1
 			},
 			"Connect": {
-				"16960": true
+				"16703": true
 			}
 		},
 		"Aminishi Spirit Realm": {
@@ -238746,10 +238936,10 @@
 			"Filled Ushabti[+]": "Any ushabti that has a captured soul"
 		},
 		"chunksPlus": {
-			"AnachroniaRockChunk[+]": ["16709-1", "16448-1", "15426-1", "15425-1", "15428-1", "16195-1"],
+			"AnachroniaRockChunk[+]": ["16452-1", "16191-1", "15169-1", "15168-1", "15171-1", "15938-1"],
 			"AnyMenaphosChunk[+]": ["12587-1", "12587-2", "12587-3", "12843-1", "12843-2", "12586", "12841-1", "12841-3"],
 			"AnyMenaphosCatLocation[+]": ["12330", "12587-1", "12843-1", "12841-1"],
-			"AnyTotemChunk[+]": ["15943-1", "15171", "16705-2"],
+			"AnyTotemChunk[+]": ["15686-1", "14914", "16448-2"],
 			"ArchDigSite[+]": ["9516", "10549", "Star Lodge", "13361-1", "14898", "13626-1", "13882-1", "Senntisten", "Vault of Varanus", "Observation Outpost"],
 			"ArdougneGuardChunks[+]": ["10547-1", "10291", "10292"],
 			"Asgarnian safes[+]": ["11575-1", "11828", "12082-1", "12084-1", "12087-3"],
@@ -238758,7 +238948,7 @@
 			"Candle seller[+]": [
 				"11061",
 				"16436-1",
-				"15939-1",
+				"15682-1",
 				"Keldagrim",
 				"11056",
 				"11310-1"
@@ -238791,7 +238981,7 @@
 			"ErskineSlayerChunks[+]": ["Forinthry Dungeon", "12601", "13116", "12345", "12093", "12347-1", "12347-2", "12349", "12605", "13371", "12858", "13368-1", "13369-1", "Edgeville Dungeon", "13115", "12857", "12090", "11835", "12091-1", "12091-2", "11836"],
 			"Everlight[+]": ["14899-2", "14898", "15154", "14897", "15153", "14641-1"],
 			"F2P Farmers[+]": ["12595-1", "12851-1", "11573"],
-			"FairyTaleI2[+]": ["11574", "13105", "13362-3", "9265-1", "8755", "8757", "9012-1", "9781", "11062-1", "11317-1", "12596-1", "12854", "12594", "12083-1", "12082-1", "11060-1", "11058", "9777-2", "15942-3", "11828", "10547-1", "10548", "10290", "11056", "14391", "13622-2", "10300", "10551-1", "10288-1", "11570", "12851-1", "11821-1", "12587-2"],
+			"FairyTaleI2[+]": ["11574", "13105", "13362-3", "9265-1", "8755", "8757", "9012-1", "9781", "11062-1", "11317-1", "12596-1", "12854", "12594", "12083-1", "12082-1", "11060-1", "11058", "9777-2", "15685-3", "11828", "10547-1", "10548", "10290", "11056", "14391", "13622-2", "10300", "10551-1", "10288-1", "11570", "12851-1", "11821-1", "12587-2"],
 			"FaladorChunks[+]": ["11828", "12084-1", "12084-2"],
 			"FaladorGuardChunks[+]": ["11827", "11828", "12084-1"],
 			"FarmRaids[+]": ["12339", "12851-1", "12083-1", "11573"],
@@ -238812,7 +239002,7 @@
 			"LumbridgeSwampChunks[+]": ["12849", "12593"],
 			"Lunar/Ancients[+]": ["8508", "Jaldraocht Pyramid"],
 			"MasterHideyHoles[+]": ["TzHaar City", "9524-1", "15134", "13623", "14646-1", "Grand Library of Menaphos", "Invention Guild", "9053", "12594", "12086", "8757"],
-			"TheMeasureChunks[+]": ["15939-1", "Freneskae#The Elder Halls"],			
+			"TheMeasureChunks[+]": ["15682-1", "Freneskae#The Elder Halls"],			
 			"MagesGnomeRestaurant[+]": ["12337-1", "10288-1"],
 			"MediumHideyHoles[+]": ["13878-1", "13879", "12341-1", "11056", "9776", "10039", "9781", "10288-1", "9777-3", "10036-1", "13365-1", "13104-2"],
 			"MineRaids[+]": ["Burthorpe Mine", "11826", "12849", "12596-1"],
@@ -238822,7 +239012,7 @@
 			"MorytaniaChunks[+]": ["13623", "13621", "13620-1", "13620-2", "13619-2", "13879", "13878-1", "13878-2", "13878-3", "13877-1", "13877-2", "13877-3", "13876-1", "13876-2", "13875-1", "13875-2", "13875-3", "13875-4", "13874-1", "13874-2", "13874-3", "13873-1", "14135", "14134", "14133-1", "14133-2", "14133-3", "14131", "14130-1", "14130-2", "14130-3", "14130-4", "14129", "14391", "14390", "14389-1", "14647-1", "14646-2", "14646-3", "14645-1", "14644-1", "14643", "14642-1", "14642-2"],
 			"MournerChunks[+]": ["9266-2", "9267-1", "9523", "9524-2"],
 			"MysteriousStatueChunks[+]": ["10806-1", "10292", "10546-1", "10801"],
-			"Orthen[+]": ["15428-1", "16454-1", "16193-1", "16704-1"],
+			"Orthen[+]": ["15171-1", "16197-1", "15936-1", "16447-1"],
 			"Pet shop[+]": ["10288-1", "11573"],
 			"PoisonWasteChunks[+]": ["8752-1", "8752-4", "9008-1"],
 			"PrayerAltarChunks[+]": ["11828", "10290", "10806-1", "12854", "Underground Pass", "10035-1", "10291", "12850-1", "Sunken Tutorial Island", "11825-1", "11574", "11575-1", "13617-1", "12086", "11316", "Goblin Temple", "8757", "8755", "9265-1", "Jaldraocht Pyramid", "12331-1", "13622-1", "13098-1", "10803", "Nature Grotto", "War's Retreat", "Senntisten Temple", "God Wars Dungeon", "Kharid-et - Barracks excavation site", "14388-1", "12087-3", "11830-1", "12852", "12856", "11835", "Yanille Agility Dungeon", "9778-1", "9012-1", "11056", "11051-1", "Uzer Mastaba", "8508", "13613", "11829-1", "7995"],
@@ -238835,7 +239025,7 @@
 			"SeerChunk[+]": ["10806-1", "11062-1", "11061", "11317-1"],
 			"SeersVillageYews[+]": ["10806-1", "11061"],
 			"SenntistenChunks[+]": ["13364", "13365-1"],
-			"SlayerMasterChunks[+]": ["8755", "Ancient Cavern", "11310-1", "12342-1", "11575-1", "13111", "13878-1", "Zanaris", "12093", "12850-1", "16704-1"],
+			"SlayerMasterChunks[+]": ["8755", "Ancient Cavern", "11310-1", "12342-1", "11575-1", "13111", "13878-1", "Zanaris", "12093", "12850-1", "16447-1"],
 			"SolusLocation[+]": ["11569-1", "10032-1", "10547-1", "12596-1", "Dorgesh-Kaan mine", "9782-1", "13623", "11057", "13106-1", "10553", "Lumbridge Swamp Caves", "11830-1", "10550", "9776", "12338-1", "9778-1", "12337-1"],
 			"SoulObelisks[+]": ["12843-1", "12586", "12587-1", "12585"],
 			"StrangeChunks[+]": ["11570", "11830-1", "12081-1", "12083-1", "12085-1", "12339", "12341-1", "12851-1", "12852", "12854", "13107-1", "13363"],
@@ -240124,6 +240314,7 @@
 			"EdgeDungeonAccess[+]": ["Access the Edgeville dungeon through Edgeville*", "Access the edgeville dungeon through the Varrock sewers*"],
 			"Elite Dungeon Access[+]": ["Group Content enabled", "Hard Mode Bosses"],
 			"EmissarySkill1[+]": ["Emissary eggs", "Emissary bronze 2h swords"],
+			"Fletch a Fenmoor totem[+]": ["Fletch a ~|toad totem|~", "Fletch a ~|mollusc totem|~", "Fletch an ~|elemental totem|~"],
 			"FireAccess[+]": ["Access the fire rune temple with a talisman*", "Access the fire rune temple through the abyss*"],
 			"Access the God Wars Dungeon[+]": ["Slide past the boulder leading up to the God Wars Dungeon", "Lift the boulder leading up to the God Wars Dungeon"],
 			"HazeelCultFinal[+]": ["~|Hazeel Cult|~ 3a", "~|Hazeel Cult|~ 6b"],
@@ -240555,6 +240746,7 @@
 			"EarthAccess[+]": "Any way to access the earth rune temple",
 			"EdgeDungeonAccess[+]": "Any way to access the Edgeville Dungeon",
 			"EmissarySkill1[+]": "Be able to either make scrambled eggs or smith bronze 2h swords",
+			"Fletch a Fenmoor totem[+]": "Fletch any type of totem in Fenmoor",
 			"FireAccess[+]": "Any way to access the fire rune temple",
 			"HazeelCultFinal[+]": "Side with either the cult or the Carnilleans",
 			"HeroesQuestCandlestick[+]": "Obtain the candlestick through either gang",
@@ -256009,126 +256201,6 @@
 			}
 		},
 		"Demon Boss": {
-			"Infernal ashes": {
-				"1": "Always"
-			},
-			"Accursed ashes": {
-				"1": "Always"
-			},
-			"Coal stone spirit": {
-				"80": "5/64"
-			},
-			"Coins": {
-				"20000": "4/64"
-			},
-			"Demon claw": {
-				"3-8 (noted)": "6/64"
-			},
-			"Dragon longsword": {
-				"1": "2/64"
-			},
-			"Grimy avantoe": {
-				"8 (noted)": "5/64"
-			},
-			"Grimy irit": {
-				"14 (noted)": "5/64"
-			},
-			"Grimy lantadyme": {
-				"5 (noted)": "4/64"
-			},
-			"Huge plated rune salvage": {
-				"1": "4/64"
-			},
-			"Infernal ashes": {
-				"30 (noted)": "2/64"
-			},
-			"Lantadyme seed": {
-				"2": "2/64"
-			},
-			"Large plated rune salvage": {
-				"1": "4/64"
-			},
-			"Maple logs": {
-				"200 (noted)": "3/64"
-			},
-			"Mithril stone spirit": {
-				"20": "4/64",
-				"40": "4/64"
-			},
-			"RareDropTable+": {
-				"1": "1/64"
-			},
-			"Uncut ruby": {
-				"10 (noted)": "4/64"
-			},
-			"Yew logs": {
-				"60 (noted)": "5/64"
-			},
-			"Demon slayer circlet": {
-				"1": "1/210"
-			},
-			"Demon slayer torso": {
-				"1": "1/210"
-			},
-			"Demon slayer skirt": {
-				"1": "1/210"
-			},
-			"Demon slayer gloves": {
-				"1": "1/210"
-			},
-			"Demon slayer boots": {
-				"1": "1/210"
-			},
-			"Demon slayer crossbow": {
-				"1": "1/210"
-			},
-			"Off-hand demon slayer crossbow": {
-				"1": "1/210"
-			},
-			"Demonic title scroll (terrifying)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (shattering)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (rending)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (pestilent)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (obscured)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (infernal)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (glorious)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (frostborn)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (corrupting)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (blazing)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (castellan)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (deacon)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (executioner)": {
-				"1": "1/100"
-			},
-			"Demonic title scroll (general)": {
-				"1": "1/100"
-			}
-		},
-		"Demon Boss (Wilderness)": {
 			"Infernal ashes": {
 				"5": "Always",
 				"60 (noted)": "3/64" 
@@ -298024,8 +298096,8 @@
 		"Defender of Varrock": "12854, 13109, 12853, Chaos Temple Dungeon, 11825, Camdozaal",
 		"Demon Slayer": "12854, 12852",
 		"Desert Treasure": "12591, 13364, 12590, 12846, 13878, Draynor Sewers, 11316, 14133, 12845, 11322, 11323, 13102, Smoke Dungeon, 10037, Shadow Dungeon, Jaldraocht Pyramid",
-		"Desperate Creatures": "11575, 15426, 15171, 15172, 15940, 15939, 15683, 16449, 16193, 16451, 16708, 16964, 16195",
-		"Desperate Measures": "11575, 15939, 15684, 14916, 16709, 8761, 13356, 15683, 15941, 15172, 15428",
+		"Desperate Creatures": "11575, 15169, 14914, 14915, 15683, 15682, 15426, 16192, 15936, 16194, 16451, 16707, 15938",
+		"Desperate Measures": "11575, 15682, 15427, 14659, 16452, 8761, 13356, 15426, 15684, 14915, 15171",
 		"Desperate Times": "11575, 8761, 10550, 13365, 12087, 11831, 12854, 8761",
 		"Devious Minds": "13622, 11829, 11316, 11828",
 		"Diamond in the Rough": "13105, 13104, 12848, Kalphite Nursery",
@@ -298056,7 +298128,7 @@
 		"Enlightened Journey": "11060, 11573",
 		"Ernest the Chicken": "12340",
 		"Evil Dave's Big Day Out": "12342, 12598, 11571, 11828, 13104, 13103",
-		"Extinction": "13365, Senntisten, 15683, 9268",
+		"Extinction": "13365, Senntisten, 15426, 9268",
 		"Eye of Het I": "13106, 13362",
 		"Eye of Het II": "13106, 13363, Senntisten",
 		"The Eyes of Glouphrie": "Brimstail's cave, 10544, 9782, 9527, 9781",
@@ -298158,7 +298230,7 @@
 		"One Piercing Note": "13617",
 		"One Small Favour": "11310, 11054, 12082, 12338, H.A.M. Cave, 12851, 12853, 12597, 12341, Dwarven Mine, 11573, 11318, 11061, 10806, Goblin Cave, 10547, 10545, 10542, 10030",
 		"One of a Kind": "Mr Mordaut's Office, 11575, MysteriousStatueChunks[+]x2, 11060, Forinthry Dungeon, Brimhaven Dungeon, Grotworm Lair 3, Dragontooth Island resource dungeon, King Black Dragon's Lair, 13881",
-		"Osseous Rex": "15939, Lair of the Rex Matriarchs",
+		"Osseous Rex": "15682, Lair of the Rex Matriarchs",
 		"Our Man in the North": "12587, Grand Library of Menaphos, 12586, 13358, Uzer Mastaba, 13105, 13106",
 		"The Path of Glouphrie": "10033, Gnome Village Dungeon, Yewnock's cave, 9782, 9264, 10544, Poison Waste Slayer Dungeon",
 		"Perils of Ice Mountain": "12085, 11829, 12086, 11830, Dwarven Mine",
@@ -298173,7 +298245,7 @@
 		"The Prisoner of Glouphrie": "Gnome Village Dungeon, 10033, 9778, Caverns under Arandar, 9521, 9265, Arposandra",
 		"Quiet Before the Swarm": "11828, 10537, 12082, Temple Knight training ground",
 		"Rag and Bone Man": "13366",
-		"Raksha, the Shadow Colossus": "16704, Orthen Oubliette",
+		"Raksha, the Shadow Colossus": "16447, Orthen Oubliette",
 		"Rat Catchers": "12597, Varrock Sewers, 10291, 13109, 13108, Keldagrim, 12082, 13358",
 		"Recipe for Disaster: Another Cook's Quest": "12850",
 		"Recipe for Disaster: Freeing the Mountain Dwarf": "12850, 11828, Dwarven Tunnel",
@@ -298211,7 +298283,7 @@
 		"Sheep Herder": "10291, 10292",
 		"Shield of Arrav": "12854, 12853, Phoenix Gang Hideout, 12852, 12596",
 		"Shilo Village": "11566, 11056, 11054, 11568, Cairn Island Dungeon",
-		"Sins of the Father": "15939, 15684, Effigy Incubator",
+		"Sins of the Father": "15682, 15427, Effigy Incubator",
 		"Sliske's Endgame": "12338, Death's Office, 11828, 11827, 12087, 8756, 13357",
 		"The Slug Menace": "11828, 10803, Witchaven Dungeon, 9780, 11059, Air Rune Temple, Water Rune Temple, Fire Rune Temple, Earth Rune Temple, Mind Rune Temple",
 		"Smoking Kills": "13358, Tomb of Catolax, Pollnivneach Slayer Dungeon",
@@ -298297,7 +298369,7 @@
 		"Doric's Task VIII (miniquest)": "11829, 11828",
 		"Enter the Abyss (miniquest)": "12343, 12852, EnterTheAbyss3[+]x3",
 		"Eye for an Eye (miniquest)": "17175, 17176, 16919, 16920",
-		"Father and Son (miniquest)": "15683, 10553",
+		"Father and Son (miniquest)": "15426, 10553",
 		"Final Destination (miniquest)": "17694, 17693, 17950",
 		"Finding Tali": "16948, 17206",
 		"Flag Fall (miniquest)": "15134",
@@ -298308,7 +298380,7 @@
 		"A Guild of Our Own (miniquest)": "Thieves' Guild, 10547, 12851",
 		"Harbinger (miniquest)": "16919, 14884",
 		"Head of the Family (miniquest)": "15390, 16154, 15389, 15134, 15649, 16153",
-		"Helping Laniakea (miniquest)": "15939, 15425, 15935, 16703, 15683, 16708, 16453, 15172",
+		"Helping Laniakea (miniquest)": "15682, 15168, 15678, 16446, 15426, 16451, 16196, 14915",
 		"Hopespear's Will (miniquest)": "Goblin Temple, Yu'biusk",
 		"The Hunt for Surok (miniquest)": "13110, Tunnel of Chaos",
 		"In Memory of the Myreque (miniquest)": "13879",
@@ -298379,27 +298451,27 @@
 		"Inside You There Are Two Wolves": "17717",
 		"The Final Revolution": "17717",
 		"Forge War!": "9516",
-		"Crypt o' Zoology": "15939",
-		"Teleport Node On": "15428, 16454, 16193, 16704",
-		"Know Thy Measure": "Observation Outpost, 16193, Moksha Ritual Site",
+		"Crypt o' Zoology": "15682",
+		"Teleport Node On": "15171, 16197, 15936, 16447",
+		"Know Thy Measure": "Observation Outpost, 15936, Moksha Ritual Site",
 		"The Epic of Hebe": "14642",
 		"Howl's Floating Workshop": "Stormguard Citadel, Howl's Workshop",
 		"Writings on the Walls": "Kharid-et - Carcerem excavation site, Dungeon of Disorder, Underwater Cave Excavation Site, Stormguard Citadel, Thalmund's Forge, 13364",
 		"You Have Chosen...": "Warforge Crucible, 9516, Bandos's Sanctum",
-		"Death Watch": "15939",
+		"Death Watch": "15682",
 		"A New Age": "13625, 7729, Daemonheim - Depths excavation site",
 		"The Everlight": "11828, 14897, 15154",
 		"Hallowed Be...": "14897, Underwater Cave Excavation Site, 14898",
-		"Free Your Mind": "15939",
+		"Free Your Mind": "15682",
 		"Decimation": "13361",
 		"The Forgotten Prisoner": "Kharid-et - Carcerem excavation site",
 		"Shadow Fall": "13361",
 		"The Vault of Shadows (mystery)": "13361",
-		"Fragmented Memories": "Moksha Ritual Site, 15936",
+		"Fragmented Memories": "Moksha Ritual Site, 15679",
 		"Heart of the Forge": "9516",
-		"I Am Become Death": "15939",
+		"I Am Become Death": "15682",
 		"A New Form": "13625",
-		"Mysterious City": "16704, Xolo City, 13364",
+		"Mysterious City": "16447, Xolo City, 13364",
 		"break3": "",
 		"God Emissaries Combat": "10032, 13106",
 		"God Emissaries Skilling": "10547, 11826, 12338, 12853",
@@ -300700,48 +300772,6 @@
 				}]
 			},
 			"Demon Boss": {
-				"10036-1": [{
-					"Flash Events enabled": "Nonskill"
-				}, {
-					"Members only": "Nonskill"
-				}],
-				"9008-1": [{
-					"Flash Events enabled": "Nonskill"
-				}, {
-					"Members only": "Nonskill"
-				}],
-				"10286": [{
-					"Flash Events enabled": "Nonskill"
-				}, {
-					"Members only": "Nonskill"
-				}],
-				"12086": [{
-					"Flash Events enabled": "Nonskill"
-				}, {
-					"Members only": "Nonskill"
-				}],
-				"12844": [{
-					"Flash Events enabled": "Nonskill"
-				}, {
-					"Members only": "Nonskill"
-				}],
-				"13616": [{
-					"Flash Events enabled": "Nonskill"
-				}, {
-					"Members only": "Nonskill"
-				}],
-				"13107-1": [{
-					"Flash Events enabled": "Nonskill"
-				}, {
-					"Members only": "Nonskill"
-				}],
-				"14389-1": [{
-					"Flash Events enabled": "Nonskill"
-				}, {
-					"Members only": "Nonskill"
-				}]
-			},
-			"Demon Boss (Wilderness)": {
 				"11832-1": [{
 					"Flash Events enabled": "Nonskill"
 				}, {
@@ -301582,7 +301612,7 @@
 				"12587-2": [{
 					"Repair the Menaphos cactus patch": "Nonskill"
 				}],
-				"15942-3": [{
+				"15685-3": [{
 					"Repair the Anachronia cactus patch": "Nonskill"
 				}]
 			},
@@ -302048,6 +302078,11 @@
 					"Enter the ~|Crafting Guild|~": "Crafting"
 				}]
 			},
+			"Creekjoint's Boggy Builds": {
+				"18226-1": [{
+					"Fletch a Fenmoor totem[+]": "Fletching"
+				}]
+			},
 			"Daemonheim Rewards": {
 				"13625-1": [{
 					"Access Daemonheim Rewards": "Nonskill"
@@ -302113,7 +302148,7 @@
 				}]
 			},
 			"Farmers' Market (Anachronia)": {
-				"14916": [{
+				"14659": [{
 					"Unlock the Anachronia Base Camp": "Nonskill"
 				}, {
 					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
@@ -302187,7 +302222,7 @@
 				}]
 			},
 			"Herby Werby Reward Shop": {
-				"16453-2": [{
+				"16196-2": [{
 					"Non-Daily DnD": "Nonskill"
 				}]
 			},
@@ -302197,7 +302232,7 @@
 				}]
 			},
 			"Hunter Mark Shop": {
-				"15683-1": [{
+				"15426-1": [{
 					"Find Hunter Marks": "Nonskill"
 				}]
 			},
@@ -302394,10 +302429,10 @@
 				"13878-1": [{
 					"~|Smoking Kills|~ Complete the quest": "Quest"
 				}],
-				"15939-1": [{
+				"15682-1": [{
 					"~|Smoking Kills|~ Complete the quest": "Quest"
 				}],
-				"16704-1": [{
+				"16447-1": [{
 					"~|Smoking Kills|~ Complete the quest": "Quest"
 				}],
 				"11310-1": [{
@@ -302441,10 +302476,10 @@
 				"13878-1": [{
 					"~|Smoking Kills|~ Complete the quest": "Quest"
 				}],
-				"15939-1": [{
+				"15682-1": [{
 					"~|Smoking Kills|~ Complete the quest": "Quest"
 				}],
-				"16704-1": [{
+				"16447-1": [{
 					"~|Smoking Kills|~ Complete the quest": "Quest"
 				}],
 				"11310-1": [{
@@ -302485,10 +302520,10 @@
 				"13878-1": [{
 					"Obtain slayer points": "Nonskill"
 				}],
-				"15939-1": [{
+				"15682-1": [{
 					"Obtain slayer points": "Nonskill"
 				}],
-				"16704-1": [{
+				"16447-1": [{
 					"Obtain slayer points": "Nonskill"
 				}],
 				"11310-1": [{
@@ -302730,9 +302765,9 @@
 	},
 	"mapOverlays": {
 		"Shooting Stars": [
-			{ "color": "#800080", "x": 4043, "y": 4309 },
-			{ "color": "#800080", "x": 3868, "y": 4205 },
-			{ "color": "#800080", "x": 4137, "y": 4155 },
+			{ "color": "#800080", "x": 3979, "y": 4245 },
+			{ "color": "#800080", "x": 3804, "y": 4141 },
+			{ "color": "#800080", "x": 4073, "y": 4091 },
 			{ "color": "#0000FF", "x": 2945, "y": 3272 },
 			{ "color": "#0000FF", "x": 3037, "y": 3347 },
 			{ "color": "#0000FF", "x": 2917, "y": 3497 },
@@ -302921,14 +302956,6 @@
 			{ "color": "#556B2F", "x": 3179, "y": 3370 }
 		],
 		"Demon Flash Mobs": [
-			{ "color": "#DC143C", "x": 2541, "y": 3355 },
-			{ "color": "#DC143C", "x": 2260, "y": 3135 },
-			{ "color": "#DC143C", "x": 2583, "y": 2973 },
-			{ "color": "#DC143C", "x": 3065, "y": 3469 },
-			{ "color": "#DC143C", "x": 3202, "y": 2845 },
-			{ "color": "#DC143C", "x": 3438, "y": 3097 },
-			{ "color": "#DC143C", "x": 3622, "y": 3431 },
-			{ "color": "#DC143C", "x": 3325, "y": 3287 },
 			{ "color": "#8B0000", "x": 2992, "y": 3592 },
 			{ "color": "#8B0000", "x": 3293, "y": 3642 },
 			{ "color": "#8B0000", "x": 3347, "y": 3660 },
@@ -305351,6 +305378,17 @@
 			"Thread": true,
 			"Ball of wool": true,
 			"Glassblowing pipe": true
+		},
+		"Creekjoint's Boggy Builds": {
+			"Furniture plans: Small totems": true,
+			"Furniture plans: Medium totems": true,
+			"Furniture plans: Large totems": true,
+			"Furniture plans: Mossy totems": true,
+			"Furniture plans: Bog light (single)": true,
+			"Furniture plans: Bog light (double)": true,
+			"Furniture plans: Bog light (triple)": true,
+			"Furniture plans: Swamp brazier": true,
+			"Furniture plans: Swamp brazier (green)": true
 		},
 		"Crossbow Shop (Dwarven Mine)": {
 			"Bronze bolts": true,
@@ -308656,6 +308694,16 @@
 			"Basic ritual candle": true,
 			"Basic ghostly ink": true,
 			"Weak necroplasm": true
+		},
+		"Spore Decisions": {
+			"Bagged bogwart mycelium": true,
+			"Bagged luminous mycelium": true,
+			"Bagged nightshade mycelium": true,
+			"Bagged blue deathcap mycelium": true,
+			"Bagged morchella mycelium": true,
+			"Bagged marshtable mycelium": true,
+			"Bagged toad tongue mycelium": true,
+			"Bagged sourcap mycelium": true
 		},
 		"Stankers' Bronze Pickaxes": {
 			"Poison chalice": true,
@@ -319952,6 +320000,15 @@
 				},
 				"Fen-orb": {
 					"1": "1/128"
+				},
+				"'Perfect' petrified log": {
+					"1": "1/48"
+				},
+				"Bogolin glow orb": {
+					"1": "1/48"
+				},
+				"Hardened knot": {
+					"1": "1/48"
 				},
 				"Bogolin sogtorch": {
 					"1": "1/200"
@@ -354487,6 +354544,17 @@
 				"14135"
 			]
 		},
+		"14402": {
+			"0": [
+				"14403"
+			]
+		},
+		"14403": {
+			"0": [
+				"14659",
+				"14402"
+			]
+		},
 		"14637": {
 			"0": [
 				"14638-1"
@@ -354587,15 +354655,19 @@
 				"14646-2"
 			]
 		},
-		"14659": {
-			"0": [
-				"14660"
+		"14658": {
+			"1": [
+				"14659"
+			],
+			"2": [
+				"14659"
 			]
 		},
-		"14660": {
+		"14659": {
 			"0": [
-				"14916",
-				"14659"
+				"14403",
+				"14658-1",
+				"14658-2"
 			]
 		},
 		"14878": {
@@ -354664,19 +354736,63 @@
 				"14646-1"
 			]
 		},
-		"14915": {
+		"14911": {
+			"0": [
+				"14912-1",
+				"14912-2",
+				"15167"
+			]
+		},
+		"14912": {
 			"1": [
-				"14916"
+				"14913-2",
+				"15168-2",
+				"14911"
 			],
 			"2": [
-				"14916"
+				"14911"
+			]
+		},
+		"14913": {
+			"1": [
+				"15169-1"
+			],
+			"2": [
+				"15169-1",
+				"14912-1"
+			]
+		},
+		"14914": {
+			"0": [
+				"14915-1",
+				"14915-3",
+				"15170-1"
+			]
+		},
+		"14915": {
+			"1": [
+				"14914",
+				"14916-2"
+			],
+			"2": [
+				"15171-1",
+				"15171-2"
+			],
+			"3": [
+				"14914"
+			],
+			"4": [
+				"14916-1"
 			]
 		},
 		"14916": {
-			"0": [
-				"14660",
-				"14915-1",
-				"14915-2"
+			"1": [
+				"15172-1",
+				"14915-4"
+			],
+			"2": [
+				"15172-2",
+				"14915-1"
 			]
 		},
 		"15133": {
@@ -354737,63 +354853,90 @@
 		"15159": {
 			"0": []
 		},
-		"15168": {
+		"15166": {
 			"0": [
+				"15167",
+				"15422"
+			]
+		},
+		"15167": {
+			"0": [
+				"15166",
+				"14911"
+			]
+		},
+		"15168": {
+			"1": [
 				"15169-1",
-				"15169-2",
-				"15424"
+				"15424-1"
+			],
+			"2": [
+				"15169-4",
+				"14912-1"
 			]
 		},
 		"15169": {
 			"1": [
+				"15170-1",
 				"15170-2",
-				"15425-2",
-				"15168"
+				"15170-4",
+				"15425-4",
+				"15168-1",
+				"14913-1",
+				"14913-2"
 			],
 			"2": [
-				"15168"
+				"15425-2"
+			],
+			"3": [
+				"15425-2"
+			],
+			"4": [
+				"15168-2"
 			]
 		},
 		"15170": {
 			"1": [
-				"15426-1"
+				"15171-2",
+				"15169-1",
+				"14914"
 			],
 			"2": [
 				"15426-1",
 				"15169-1"
+			],
+			"3": [
+				"15426-3"
+			],
+			"4": [
+				"15169-1",
+				"14914"
 			]
 		},
 		"15171": {
-			"0": [
-				"15172-1",
-				"15172-3",
-				"15427-1"
+			"1": [
+				"14915-2"
+			],
+			"2": [
+				"15170-1",
+				"14915-2"
 			]
 		},
 		"15172": {
 			"1": [
-				"15171",
-				"15173-2"
+				"15173",
+				"14916-1"
 			],
 			"2": [
-				"15428-1",
-				"15428-2"
-			],
-			"3": [
-				"15171"
-			],
-			"4": [
-				"15173-1"
+				"15173",
+				"14916-2"
 			]
 		},
 		"15173": {
-			"1": [
+			"0": [
 				"15429-1",
-				"15172-4"
-			],
-			"2": [
-				"15429-2",
-				"15172-1"
+				"15172-1",
+				"15172-2"
 			]
 		},
 		"15389": {
@@ -354828,90 +354971,81 @@
 				"15151-1"
 			]
 		},
+		"15422": {
+			"0": [
+				"15166"
+			]
+		},
 		"15423": {
 			"0": [
-				"15424",
+				"15424-1",
+				"15424-3",
 				"15679"
 			]
 		},
 		"15424": {
-			"0": [
+			"1": [
 				"15423",
-				"15168"
+				"15168-1"
+			],
+			"2": [
+				"15425-1",
+				"15680-3",
+				"15680-2"
+			],
+			"3": [
+				"15423"
 			]
 		},
 		"15425": {
 			"1": [
-				"15426-1",
-				"15681-1"
+				"15681-1",
+				"15424-2"
 			],
-			"2": [
+			"2": [],
+			"3": [],
+			"4": [
 				"15426-4",
 				"15169-1"
 			]
 		},
 		"15426": {
 			"1": [
-				"15427-1",
-				"15427-2",
-				"15427-4",
+				"15427",
+				"15682-1",
 				"15682-4",
-				"15425-1",
-				"15170-1",
+				"15682-3",
 				"15170-2"
 			],
-			"2": [
-				"15682-2"
-			],
+			"2": [],
 			"3": [
-				"15682-2"
+				"15170-3"
 			],
 			"4": [
-				"15425-2"
+				"15425-4"
+			],
+			"5": [
+				"15682-4"
+			],
+			"6": [
+				"15682-4"
 			]
 		},
 		"15427": {
-			"1": [
-				"15428-2",
-				"15426-1",
-				"15171"
-			],
-			"2": [
+			"0": [
 				"15683-1",
+				"15683-2",
 				"15426-1"
-			],
-			"3": [
-				"15683-3"
-			],
-			"4": [
-				"15426-1",
-				"15171"
-			]
-		},
-		"15428": {
-			"1": [
-				"15172-2"
-			],
-			"2": [
-				"15427-1",
-				"15172-2"
 			]
 		},
 		"15429": {
 			"1": [
-				"15430",
-				"15173-1"
+				"15685-1",
+				"15685-2",
+				"15173"
 			],
 			"2": [
-				"15430",
-				"15173-2"
-			]
-		},
-		"15430": {
-			"0": [
-				"15686-1",
-				"15429-1",
-				"15429-2"
+				"15685-1"
 			]
 		},
 		"15649": {
@@ -354919,81 +355053,128 @@
 				"15905"
 			]
 		},
+		"15678": {
+			"0": [
+				"15679"
+			]
+		},
 		"15679": {
 			"0": [
+				"15680-2",
+				"15935-1",
+				"15678",
 				"15423"
 			]
 		},
 		"15680": {
-			"0": [
+			"1": [
 				"15681-1",
-				"15681-3",
-				"15936"
+				"15681-2",
+				"15936-1",
+				"15936-2",
+				"15936-4"
+			],
+			"2": [
+				"15679",
+				"15424-2"
+			],
+			"3": [
+				"15681-1",
+				"15424-2"
 			]
 		},
 		"15681": {
 			"1": [
-				"15680",
+				"15682-5",
+				"15937-5",
+				"15680-1",
+				"15680-3",
 				"15425-1"
 			],
 			"2": [
-				"15682-1",
-				"15937-3",
-				"15937-2"
+				"16937-1"
 			],
 			"3": [
-				"15680"
+				"15937-1"
+			],
+			"4": [
+				"15682-2",
+				"15682-3"
 			]
 		},
 		"15682": {
 			"1": [
-				"15938-1",
-				"15681-2"
-			],
-			"2": [],
-			"3": [],
-			"4": [
-				"15683-4",
+				"15683-2",
 				"15426-1"
+			],
+			"2": [
+				"15938-2",
+				"15681-4"
+			],
+			"3": [
+				"15681-4",
+				"15426-1"
+			],
+			"4": [
+				"15683-2",
+				"15426-1",
+				"15426-5",
+				"15426-6"
+			],
+			"5": [
+				"15681-1",
+				"15938-1"
 			]
 		},
 		"15683": {
 			"1": [
 				"15684",
 				"15939-1",
-				"15939-4",
-				"15939-3",
-				"15427-2"
+				"15939-2",
+				"15427"
 			],
-			"2": [],
-			"3": [
-				"15427-3"
-			],
-			"4": [
-				"15682-4"
-			],
-			"5": [
-				"15939-4"
-			],
-			"6": [
-				"15939-4"
+			"2": [
+				"15682-1",
+				"15682-4",
+				"15427"
 			]
 		},
 		"15684": {
 			"0": [
+				"15685-1",
+				"15685-4",
 				"15940-1",
-				"15940-2",
 				"15683-1"
+			]
+		},
+		"15685": {
+			"1": [
+				"15941-1",
+				"15941-4",
+				"15684",
+				"15429-1",
+				"15429-2"
+			],
+			"2": [
+				"15686-2",
+				"15941-2",
+				"15429-1"
+			],
+			"3": [
+				"15686-1"
+			],
+			"4": [
+				"15684"
 			]
 		},
 		"15686": {
 			"1": [
-				"15942-1",
-				"15942-2",
-				"15430"
+				"15942",
+				"15685-3"
 			],
 			"2": [
-				"15942-1"
+				"15942",
+				"15685-2"
 			]
 		},
 		"15905": {
@@ -355003,127 +355184,138 @@
 			]
 		},
 		"15935": {
-			"0": [
-				"15936"
+			"1": [
+				"15936-1",
+				"15936-5",
+				"15679"
+			],
+			"2": [
+				"16191-1"
 			]
 		},
 		"15936": {
-			"0": [
-				"15937-2",
+			"1": [
 				"16192-1",
-				"15935",
-				"15680"
+				"15935-1",
+				"15680-1"
+			],
+			"2": [
+				"15937-3",
+				"16192-1",
+				"15680-1"
+			],
+			"3": [
+				"15937-3",
+				"16192-1"
+			],
+			"4": [
+				"15937-1",
+				"15680-1"
+			],
+			"5": [
+				"15935-1"
 			]
 		},
 		"15937": {
 			"1": [
-				"15938-1",
-				"15938-2",
-				"16193-1",
-				"16193-2",
-				"16193-4"
+				"15936-4",
+				"15681-3"
 			],
 			"2": [
-				"15936",
-				"15681-2"
+				"16193-2"
 			],
 			"3": [
+				"16193-2",
+				"15936-2",
+				"15936-3"
+			],
+			"4": [],
+			"5": [
 				"15938-1",
-				"15681-2"
+				"15681-1"
 			]
 		},
 		"15938": {
 			"1": [
-				"15939-5",
-				"16194-5",
-				"15937-1",
-				"15937-3",
-				"15682-1"
+				"15939-1",
+				"15939-3",
+				"16194",
+				"15937-5",
+				"15682-5"
 			],
 			"2": [
-				"16937-1"
+				"15939-2",
+				"15682-2"
 			],
 			"3": [
-				"16194-1"
-			],
-			"4": [
-				"15939-2",
-				"15939-3"
+				"15939-1",
+				"16194"
 			]
 		},
 		"15939": {
 			"1": [
-				"15940-2",
+				"15940-1",
+				"15940-3",
+				"16195-1",
+				"16195-2",
+				"15938-3",
+				"15938-1",
 				"15683-1"
 			],
 			"2": [
-				"16195-2",
-				"15938-4"
+				"15938-2"
 			],
 			"3": [
-				"15938-4",
-				"15683-1"
-			],
-			"4": [
-				"15940-2",
-				"15683-1",
-				"15683-5",
-				"15683-6"
-			],
-			"5": [
-				"15938-1",
-				"16195-1"
+				"15938-1"
 			]
 		},
 		"15940": {
 			"1": [
-				"15941",
-				"16196-1",
-				"16196-2",
+				"15941-1",
+				"15941-4",
+				"15941-5",
+				"15939-1",
 				"15684"
 			],
 			"2": [
-				"15939-1",
-				"15939-4",
-				"15684"
+				"15941-1",
+				"16196-1"
+			],
+			"3": [
+				"16196-1",
+				"15939-1"
 			]
 		},
 		"15941": {
-			"0": [
-				"15942-1",
-				"15942-4",
-				"16197-1",
+			"1": [
+				"16197-3",
+				"15940-1",
+				"15940-2",
+				"15685-1"
+			],
+			"2": [
+				"15942",
+				"16197-2",
+				"15685-2"
+			],
+			"3": [
+				"15942",
+				"16197-1"
+			],
+			"4": [
+				"15940-1",
+				"15685-1"
+			],
+			"5": [
 				"15940-1"
 			]
 		},
 		"15942": {
-			"1": [
-				"16198-1",
-				"16198-4",
-				"15941",
+			"0": [
+				"15941-2",
+				"15941-3",
 				"15686-1",
 				"15686-2"
-			],
-			"2": [
-				"15943-2",
-				"16198-2",
-				"15686-1"
-			],
-			"3": [
-				"15943-1"
-			],
-			"4": [
-				"15941"
-			]
-		},
-		"15943": {
-			"1": [
-				"16199",
-				"15942-3"
-			],
-			"2": [
-				"16199",
-				"15942-2"
 			]
 		},
 		"16153": {
@@ -355168,139 +355360,129 @@
 				"16179-2"
 			]
 		},
+		"16190": {
+			"1": [
+				"16191-1",
+				"16446"
+			],
+			"2": [
+				"16191-1"
+			]
+		},
+		"16191": {
+			"1": [
+				"16192-1",
+				"16447-2",
+				"16190-1",
+				"16190-2",
+				"15935-2"
+			],
+			"2": [
+				"16447-1"
+			]
+		},
 		"16192": {
 			"1": [
-				"16193-1",
-				"16193-5",
-				"15936"
+				"16193-2",
+				"16448-1",
+				"16191-1",
+				"15936-1",
+				"15936-2",
+				"15936-3"
 			],
 			"2": [
 				"16448-1"
+			],
+			"3": [
+				"16193-1",
+				"16448-2"
 			]
 		},
 		"16193": {
 			"1": [
+				"16194",
 				"16449-1",
-				"16192-1",
-				"15937-1"
+				"16449-3",
+				"16192-3"
 			],
 			"2": [
-				"16194-3",
-				"16449-1",
-				"15937-1"
+				"16541",
+				"16192-1",
+				"15937-2"
 			],
-			"3": [
-				"16194-3",
-				"16449-1"
-			],
+			"3": [],
 			"4": [
-				"16194-1",
-				"15937-1"
+				"16194"
 			],
 			"5": [
-				"16192-1"
+				"16449-1"
 			]
 		},
 		"16194": {
-			"1": [
-				"16193-4",
-				"15938-3"
-			],
-			"2": [
-				"16450-2"
-			],
-			"3": [
-				"16450-2",
-				"16193-2",
-				"16193-3"
-			],
-			"4": [],
-			"5": [
+			"0": [
 				"16195-1",
-				"15938-1"
+				"16450-2",
+				"16450-3",
+				"16450-4",
+				"16193-1",
+				"16193-2",
+				"15938-1",
+				"15938-3"
 			]
 		},
 		"16195": {
 			"1": [
 				"16196-1",
-				"16196-3",
-				"16451",
-				"16194-5",
-				"15939-5"
+				"16196-2",
+				"16451-1",
+				"16194",
+				"15939-1"
 			],
 			"2": [
-				"16196-2",
-				"15939-2"
+				"16196-1",
+				"15939-1"
 			],
 			"3": [
-				"16196-1",
-				"16451"
+				"16196-3"
 			]
 		},
 		"16196": {
 			"1": [
-				"16197-1",
 				"16197-3",
+				"16197-2",
 				"16452-1",
-				"16452-2",
-				"16195-3",
 				"16195-1",
-				"15940-1"
+				"16195-2",
+				"15940-2",
+				"15940-3"
 			],
 			"2": [
-				"16195-2"
+				"16452-3",
+				"16195-1"
 			],
 			"3": [
-				"16195-1"
+				"16452-3",
+				"16195-3"
 			]
 		},
 		"16197": {
 			"1": [
-				"16198-1",
-				"16198-4",
-				"16198-5",
-				"16196-1",
-				"15941"
+				"16198",
+				"15941-3"
 			],
 			"2": [
-				"16198-1",
-				"16453-1"
+				"16453",
+				"16196-1",
+				"15941-2"
 			],
 			"3": [
-				"16453-1",
-				"16196-1"
+				"16196-1",
+				"15941-1"
 			]
 		},
 		"16198": {
-			"1": [
-				"16454-3",
-				"16197-1",
-				"16197-2",
-				"15942-1"
-			],
-			"2": [
-				"16199",
-				"16454-2",
-				"15942-2"
-			],
-			"3": [
-				"16199",
-				"16454-1"
-			],
-			"4": [
-				"16197-1",
-				"15942-1"
-			],
-			"5": [
-				"16197-1"
-			]
-		},
-		"16199": {
 			"0": [
-				"16198-2",
-				"16198-3",
-				"15943-1",
-				"15943-2"
+				"16197-1"
 			]
 		},
 		"16409": {
@@ -355372,129 +355554,118 @@
 				"16694-1"
 			]
 		},
+		"16446": {
+			"0": [
+				"16447-1",
+				"16190-1"
+			]
+		},
 		"16447": {
 			"1": [
 				"16448-1",
-				"16703"
+				"16703-2",
+				"16703-3",
+				"16446",
+				"16191-2"
 			],
 			"2": [
-				"16448-1"
+				"16448-1",
+				"16191-1"
 			]
 		},
 		"16448": {
 			"1": [
-				"16449-1",
-				"16704-2",
+				"16704-1",
 				"16447-1",
-				"16447-2",
+				"16192-1",
 				"16192-2"
 			],
 			"2": [
-				"16704-1"
+				"16192-3"
 			]
 		},
 		"16449": {
 			"1": [
-				"16450-2",
-				"16705-1",
-				"16448-1",
 				"16193-1",
-				"16193-2",
-				"16193-3"
+				"16193-5"
 			],
 			"2": [
 				"16705-1"
 			],
 			"3": [
-				"16450-1",
-				"16705-2"
+				"16450-4",
+				"16450-5",
+				"16450-6",
+				"16705-2",
+				"16193-1"
 			]
 		},
 		"16450": {
 			"1": [
-				"16451",
-				"16706-1",
-				"16706-3",
-				"16449-3"
+				"16706-2"
 			],
 			"2": [
-				"16541",
-				"16449-1",
-				"16194-2"
+				"16451-1",
+				"16194"
 			],
-			"3": [],
+			"3": [
+				"16194"
+			],
 			"4": [
-				"16451"
+				"16449-3",
+				"16194"
 			],
 			"5": [
+				"16449-3"
+			],
+			"6": [
+				"16706-1",
+				"16449-3"
+			],
+			"7": [],
+			"8": [
 				"16706-1"
+			],
+			"9": [
+				"16451-2"
 			]
 		},
 		"16451": {
-			"0": [
+			"1": [
 				"16452-1",
+				"16707-1",
 				"16707-2",
-				"16707-3",
-				"16707-4",
-				"16450-1",
 				"16450-2",
-				"16195-1",
-				"16195-3"
-			]
+				"16195-1"
+			],
+			"2": [
+				"16450-9"
+			],
+			"3": [
+				"16452-3"
+			],
+			"4": []
 		},
 		"16452": {
 			"1": [
-				"16453-1",
-				"16453-2",
-				"16708-1",
-				"16451",
+				"16451-1",
 				"16196-1"
 			],
 			"2": [
-				"16453-1",
-				"16196-1"
+				"16453",
+				"16708"
 			],
 			"3": [
-				"16453-3"
+				"16451-3",
+				"16196-2",
+				"16196-3"
 			]
 		},
 		"16453": {
-			"1": [
-				"16454-3",
-				"16454-2",
-				"16709-1",
-				"16452-1",
-				"16452-2",
-				"16197-2",
-				"16197-3"
-			],
-			"2": [
-				"16709-3",
-				"16452-1"
-			],
-			"3": [
-				"16709-3",
-				"16452-3"
-			]
-		},
-		"16454": {
-			"1": [
-				"16455",
-				"16198-3"
-			],
-			"2": [
-				"16710",
-				"16453-1",
-				"16198-2"
-			],
-			"3": [
-				"16453-1",
-				"16198-1"
-			]
-		},
-		"16455": {
 			"0": [
-				"16454-1"
+				"16709",
+				"16452-2",
+				"16545-2"
 			]
 		},
 		"16666": {
@@ -355588,117 +355759,69 @@
 			]
 		},
 		"16703": {
-			"0": [
+			"1": [
 				"16704-1",
+				"16704-2"
+			],
+			"2": [
+				"16704-1",
+				"16447-1"
+			],
+			"3": [
 				"16447-1"
 			]
 		},
 		"16704": {
 			"1": [
-				"16705-1",
-				"16960-2",
-				"16960-3",
-				"16703",
-				"16448-2"
+				"16705-2",
+				"16703-1",
+				"16703-2",
+				"16448-1"
 			],
 			"2": [
-				"16705-1",
-				"16448-1"
+				"16703-1"
 			]
 		},
 		"16705": {
 			"1": [
-				"16961-1",
-				"16704-1",
-				"16449-1",
+				"16706-1",
 				"16449-2"
 			],
 			"2": [
+				"16704-1",
 				"16449-3"
 			]
 		},
 		"16706": {
 			"1": [
-				"16450-1",
-				"16450-5"
+				"16705-1",
+				"16450-8",
+				"16450-6"
 			],
 			"2": [
-				"16962-1"
-			],
-			"3": [
-				"16707-4",
-				"16707-5",
-				"16707-6",
-				"16962-2",
+				"16707-1",
 				"16450-1"
 			]
 		},
 		"16707": {
 			"1": [
-				"16963-2"
+				"16706-2",
+				"16451-1"
 			],
 			"2": [
-				"16708-1",
-				"16451"
-			],
-			"3": [
-				"16451"
-			],
-			"4": [
-				"16706-3",
-				"16451"
-			],
-			"5": [
-				"16706-3"
-			],
-			"6": [
-				"16963-1",
-				"16706-3"
-			],
-			"7": [],
-			"8": [
-				"16963-1"
-			],
-			"9": [
-				"16708-2"
+				"16451-1"
 			]
 		},
 		"16708": {
-			"1": [
-				"16709-1",
-				"16964-1",
-				"16964-2",
-				"16707-2",
-				"16452-1"
-			],
-			"2": [
-				"16707-9"
-			],
-			"3": [
-				"16709-3"
-			],
-			"4": []
-		},
-		"16709": {
-			"1": [
-				"16708-1",
-				"16453-1"
-			],
-			"2": [
-				"16710",
-				"16965"
-			],
-			"3": [
-				"16708-3",
-				"16453-2",
-				"16453-3"
+			"0": [
+				"16709",
+				"16452-2"
 			]
 		},
-		"16710": {
+		"16709": {
 			"0": [
-				"16966",
-				"16709-2",
-				"16545-2"
+				"16708",
+				"19710"
 			]
 		},
 		"16919": {
@@ -355825,72 +355948,7 @@
 				"16949-2"
 			]
 		},
-		"16960": {
-			"1": [
-				"16961-1",
-				"16961-2"
-			],
-			"2": [
-				"16961-1",
-				"16704-1"
-			],
-			"3": [
-				"16704-1"
-			]
-		},
-		"16961": {
-			"1": [
-				"16962-2",
-				"16960-1",
-				"16960-2",
-				"16705-1"
-			],
-			"2": [
-				"16960-1"
-			]
-		},
-		"16962": {
-			"1": [
-				"16963-1",
-				"16706-2"
-			],
-			"2": [
-				"16961-1",
-				"16706-3"
-			]
-		},
-		"16963": {
-			"1": [
-				"16962-1",
-				"16707-8",
-				"16707-6"
-			],
-			"2": [
-				"16964-1",
-				"16707-1"
-			]
-		},
-		"16964": {
-			"1": [
-				"16963-2",
-				"16708-1"
-			],
-			"2": [
-				"16708-1"
-			]
-		},
-		"16965": {
-			"0": [
-				"16966",
-				"16709-2"
-			]
-		},
-		"16966": {
-			"0": [
-				"16965",
-				"19710"
-			]
-		},
+		
 		"17175": {
 			"1": [
 				"17176-1",
@@ -357164,9 +357222,9 @@
 			"Zamorak mix (2)": true
 		}
 	},
-	"walkableChunks": ["7472", "7473", "7474", "7727", "7728", "7729", "7730", "7984", "7985", "7986", "7995", "8252", "8253", "8493", "8496", "8497", "8498", "8499", "8500", "8501", "8508", "8509", "8748", "8749", "8751", " 8752", "8753", "8754", "8755", "8756", "8757", "8760", "8761", "8763", "9001", "9005", "9007", "9008", "9009", "9010", "9011", "9012", "9013", "9014", "9015", "9016", "9017", "9263", "9264", "9265", "9266", "9267", "9268", "9269","9270", "9271", "9272", "9273", "9275", "9276", "9278", "9279", "9515", "9516", "9517", "9519", "9520", "9521", "9522", "9523", "9524", "9525", "9526", "9527", "9528", "9531", "9532", "9769", "9770", "9771", "9722", "9773", "9774", "9775", "9776", "9777", "9778", "9779", "9780", "9781", "9782", "9783", "9790", "9791", "10025", "10026", "10028", "10029", "10030", "10031", "10032", "10033", "10034", "10035", "10036", "10037", "10038", "10039", " 10040", "10042", "10043", "10044", "10046", "10047", "10284", "10285", "10286", "10287", "10288", "10289", "10290", "10291", "10292", "10293", "10294", "10295", "10296", "10297", "10300", "10536", "10537", "10542", "10543", "10544", "10545", "10546", "10547", "10548", "10549", "10550", "10551", "10552", "10553", "10554", "10556", "10558", "10559", "10794", "10795", "10801", "10802", "10803", "10804", "10805", "10806", "10807", "10808", "10809", "10810", "10811", "10812", "10814", "11050", "11051", "11053", "11054", "11055", "11056", "11057", "11058", "11059", "11060", "11061", "11062", "11063", "11064", "11065", "11066", "11067", "11068", "11304", "11309", "11310", "11311", "11312", "11313", "11314", "11315", "11316", "11317", "11318", "11319", "11320", "11321", "11322", "11323", "11324", "11325", "11562", "11565", "11566", "11567", "11568", "11569", "11570", "11571", "11572", "11573", "11574", "11575", "11576", "11577", "11578", "11579", "11580", "11581", "11821", "11822", "11823", "11824", "11825", "11826", "11827", "11828", "11829", "11830", "11831", "11832", "11833", "11834", "11835", "11836", "11837", "12073", "12076", "12077", "12078", "12080", "12081", "12082", "12083", "12084", "12085", "12086", "12087", "12088", "12089", "12090", "12091", "12092", "12093", "12329", "12330", "12331", "12332", "12333", "12334", "12335", "12336", "12337", "12338", "12339", "12340", "12341", "12342", "12343", "12344", "12345", "12346", "12347", "12348", "12349", "12584", "12585", "12586", "12587", "12588", "12589", "12590", "12591", "12592", "12593", "12594", "12595", "12596", "12597", "12598", "12599", "12600", "12601", "12602", "12603", "12604", "12605", "12840", "12841", "12842", "12843", "12845", "12846", "12847", "12848", "12849", "12850", "12851", "12852", "12853", "12854", "12855", "12856", "12857", "12858", "12859", "12860", "12861", "13097", "13098", "13099", "13100", "13101", "13102", "13103", "13104", "13105", "13106", "13107", "13108", "13109", "13110", "13111", "13112", "13113", "13114", "13115", "13116", "13117", "13118", "13353", "13354", "13355", "13356", "13357", "13358", "13359", "13360", "13361", "13362", "13363", "13364", "13365", "13366", "13367 ", "13368", "13369", "13370", "13371", "13372", "13373", "13374", "13610", "13611", "13612", "13613", "13614", "13615", "13616", "13617", "13618", "13619", "13620", "13621", "13622", "13623", "13624", "13625", "13626", "13627", "13629", "13630", "13869", "13870", "13871", "13872", "13873", "13874", "13875", "13876", "13877", "13878", "13879", "13880", "13881", "13882", "13883", "14129", "14130", "14131", "14132", "14133", "14134", "14135", "14382", "14383", "14385", "14386", "14387", "14388", "14389", "14390", "14391", "14637", "14638", "14639", " 14641", "14642", "14643", "14644", "14645", "14646", "14647", "14659", "14660", "14878", "14883", "14884", "14893", "14894", "14895", "14896", "14897", "14898", "14899", "14915", "14916", "15133", "15134", "15135", "15139", "15140", "15148", "15149", "15150", "15151", "15153", "15154", "15155", "15159", "15168", "15169", "15170", "15171", "15172", "15173", "15389", "15390", "15391", "15423", "15424", "15425", "15426", "15427", "15428", "15429", "15430", "15649", "15679", "15680", "15681", "15682", "15683", "15684", "15685", "15686", "15649", "15935", "15936", "15937", "15938", "15939", "15940", "15941", "15942", "15943", "16153", "16154", "16155", "16161", "16179", "16180", "16192", "16193", "16194", "16195", "16196", "16197", "16198", "16199", "16409", "16410", "16411", "16434", "16435", "16436", "16437", "16438", "16447", "16448", "16449", "16450", "16451", "16452", "16453", "16454", "16455", "16666", "16667", "16668", "16689", "16690", "16691", "16692", "16693", "16694", "16703", "16704", "16705", "16706", "16707", "16708", "16709", "16710", "16919", "16920", "16923", "16924", "16944", "16945", "16946", "16947", "16948", "16949", "16950", "16960", "16961", "16962", "16963", "16964", "16965", "16966", "17175", "17176", "17200", "17201", "17202", "17203", "17204", "17205", "17206", "17457", "17458", "17459", "17460", "17461", "17462", "17693", "17694", "17715", "17716", "17717", "17718", "17949", "17950", "18205", "18206"],
+	"walkableChunks": ["7472", "7473", "7474", "7727", "7728", "7729", "7730", "7984", "7985", "7986", "7995", "8252", "8253", "8493", "8496", "8497", "8498", "8499", "8500", "8501", "8508", "8509", "8748", "8749", "8751", " 8752", "8753", "8754", "8755", "8756", "8757", "8760", "8761", "8763", "9001", "9005", "9007", "9008", "9009", "9010", "9011", "9012", "9013", "9014", "9015", "9016", "9017", "9263", "9264", "9265", "9266", "9267", "9268", "9269","9270", "9271", "9272", "9273", "9275", "9276", "9278", "9279", "9515", "9516", "9517", "9519", "9520", "9521", "9522", "9523", "9524", "9525", "9526", "9527", "9528", "9531", "9532", "9769", "9770", "9771", "9722", "9773", "9774", "9775", "9776", "9777", "9778", "9779", "9780", "9781", "9782", "9783", "9790", "9791", "10025", "10026", "10028", "10029", "10030", "10031", "10032", "10033", "10034", "10035", "10036", "10037", "10038", "10039", " 10040", "10042", "10043", "10044", "10046", "10047", "10284", "10285", "10286", "10287", "10288", "10289", "10290", "10291", "10292", "10293", "10294", "10295", "10296", "10297", "10300", "10536", "10537", "10542", "10543", "10544", "10545", "10546", "10547", "10548", "10549", "10550", "10551", "10552", "10553", "10554", "10556", "10558", "10559", "10794", "10795", "10801", "10802", "10803", "10804", "10805", "10806", "10807", "10808", "10809", "10810", "10811", "10812", "10814", "11050", "11051", "11053", "11054", "11055", "11056", "11057", "11058", "11059", "11060", "11061", "11062", "11063", "11064", "11065", "11066", "11067", "11068", "11304", "11309", "11310", "11311", "11312", "11313", "11314", "11315", "11316", "11317", "11318", "11319", "11320", "11321", "11322", "11323", "11324", "11325", "11562", "11565", "11566", "11567", "11568", "11569", "11570", "11571", "11572", "11573", "11574", "11575", "11576", "11577", "11578", "11579", "11580", "11581", "11821", "11822", "11823", "11824", "11825", "11826", "11827", "11828", "11829", "11830", "11831", "11832", "11833", "11834", "11835", "11836", "11837", "12073", "12076", "12077", "12078", "12080", "12081", "12082", "12083", "12084", "12085", "12086", "12087", "12088", "12089", "12090", "12091", "12092", "12093", "12329", "12330", "12331", "12332", "12333", "12334", "12335", "12336", "12337", "12338", "12339", "12340", "12341", "12342", "12343", "12344", "12345", "12346", "12347", "12348", "12349", "12584", "12585", "12586", "12587", "12588", "12589", "12590", "12591", "12592", "12593", "12594", "12595", "12596", "12597", "12598", "12599", "12600", "12601", "12602", "12603", "12604", "12605", "12840", "12841", "12842", "12843", "12845", "12846", "12847", "12848", "12849", "12850", "12851", "12852", "12853", "12854", "12855", "12856", "12857", "12858", "12859", "12860", "12861", "13097", "13098", "13099", "13100", "13101", "13102", "13103", "13104", "13105", "13106", "13107", "13108", "13109", "13110", "13111", "13112", "13113", "13114", "13115", "13116", "13117", "13118", "13353", "13354", "13355", "13356", "13357", "13358", "13359", "13360", "13361", "13362", "13363", "13364", "13365", "13366", "13367 ", "13368", "13369", "13370", "13371", "13372", "13373", "13374", "13610", "13611", "13612", "13613", "13614", "13615", "13616", "13617", "13618", "13619", "13620", "13621", "13622", "13623", "13624", "13625", "13626", "13627", "13629", "13630", "13869", "13870", "13871", "13872", "13873", "13874", "13875", "13876", "13877", "13878", "13879", "13880", "13881", "13882", "13883", "14129", "14130", "14131", "14132", "14133", "14134", "14135", "14382", "14383", "14385", "14386", "14387", "14388", "14389", "14390", "14391", "14637", "14638", "14639", " 14641", "14642", "14643", "14644", "14645", "14646", "14647", "14402", "14403", "14878", "14883", "14884", "14893", "14894", "14895", "14896", "14897", "14898", "14899", "14658", "14659", "15133", "15134", "15135", "15139", "15140", "15148", "15149", "15150", "15151", "15153", "15154", "15155", "15159", "14911", "14912", "14913", "14914", "14915", "14916", "15389", "15390", "15391", "15166", "15167", "15168", "15169", "15170", "15171", "15172", "15173", "15649", "15422", "15423", "15424", "15425", "15426", "15427", "15428", "15429", "15649", "15678", "15679", "15680", "15681", "15682", "15683", "15684", "15685", "15686", "16153", "16154", "16155", "16161", "16179", "16180", "15935", "15936", "15937", "15938", "15939", "15940", "15941", "15942", "16409", "16410", "16411", "16434", "16435", "16436", "16437", "16438", "16190", "16191", "16192", "16193", "16194", "16195", "16196", "16197", "16198", "16666", "16667", "16668", "16689", "16690", "16691", "16692", "16693", "16694", "16446", "16447", "16448", "16449", "16450", "16451", "16452", "16453", "16919", "16920", "16923", "16924", "16944", "16945", "16946", "16947", "16948", "16949", "16950", "16703", "16704", "16705", "16706", "16707", "16708", "16709", "17175", "17176", "17200", "17201", "17202", "17203", "17204", "17205", "17206", "17457", "17458", "17459", "17460", "17461", "17462", "17693", "17694", "17715", "17716", "17717", "17718", "17949", "17950", "18205", "18206"],
 	"walkableChunksF2P": ["6769", "9770", "10025", "10026", "11313", "11314", "11315", "11317", "11318", "11319", "11320", "11569", "11570", "11571", "11572", "11573", "11574", "11575", "11824", "11825", "11826", "11827", "11828", "11829", "11830", "11831", "11832", "11833", "11834", "11835", "11836", "11837", "12080", "12081", "12082", "12083", "12084", "12085", "12086", "12087", "12088", "12089", "12090", "12091", "12092", "12093", "12336", "12337", "12338", "12339", "12340", "12341", "12342", "12343", "12344", "12345", "12346", "12347", "12348", "12349", "12592", "12593", "12594", "12595", "12596", "12597", "12598", "12599", "12600", "12601", "12602", "12603", "12604", "12605", "12849", "12850", "12851", "12852", "12853", "12854", "12855", "12856", "12857", "12858", "12859", "12860", "12861", "13104", "13105", "13106", "13107", "13108", "13109", "13110", "13111", "13112", "13113", "13114", "13115", "13116", "13117", "13360", "13361", "13362", "13363", "13364", "13365", "13366", "13367", "13368", "13369", "13370", "13371", "13372", "13373", "13617", "13618", "13619", "13620", "13622", "13624", "13625", "13626", "13627", "13880", "13881", "13882", "13883", "16179", "16180", "16434", "16435", "16436", "16437", "16438", "16689", "16690", "16691", "16692", "16693", "16694", "16944", "16945", "16946", "16947", "16948", "16949", "16950", "17200", "17201", "17202", "17203", "17204", "17205", "17206", "17456", "17457", "17458", "17459", "17460", "17461", "17462"],
-	"unnotingChunks": ["8253", "8500", "8748", "8755", "8756", "8757", "9011", "9015", "92651", "92731", "9275", "9516", "9531", "9776", "9781", "9782", "10028", "10039", "10288", "10292", "10293", "10300", "10537", "10545", "10547", "10548", "10804", "10806", "11061", "11310", "11317", "11319", "11575", "11826", "11828", "11834", "11836", "12084", "12088", "12089", "12335", "12338", "12342", "12347", "12586", "12593", "12594", "12597", "12598", "12841", "12843", "12850", "12852", "12853", "12854", "12856", "12860", "13104", "13105", "13111", "13363", "13364", "13372", "13613", "13626", "13874", "13878", "14388", "14638", "14642", "14646", "15134", "15939", "16692", "16179", "17175", "17716", "Dominion Tower", "Sophanem Dungeon", "Dorgesh-Kaan", "Mage arena cave", "War's Retreat", "Mazcab", "Gamers' Grotto", "Invention Guild", "TzHaar City", "Keldagrim", "Ourania Cave", "City of Um"],
+	"unnotingChunks": ["8253", "8500", "8748", "8755", "8756", "8757", "9011", "9015", "92651", "92731", "9275", "9516", "9531", "9776", "9781", "9782", "10028", "10039", "10288", "10292", "10293", "10300", "10537", "10545", "10547", "10548", "10804", "10806", "11061", "11310", "11317", "11319", "11575", "11826", "11828", "11834", "11836", "12084", "12088", "12089", "12335", "12338", "12342", "12347", "12586", "12593", "12594", "12597", "12598", "12841", "12843", "12850", "12852", "12853", "12854", "12856", "12860", "13104", "13105", "13111", "13363", "13364", "13372", "13613", "13626", "13874", "13878", "14388", "14638", "14642", "14646", "15134", "15682", "16692", "16179", "17175", "17716", "Dominion Tower", "Sophanem Dungeon", "Dorgesh-Kaan", "Mage arena cave", "War's Retreat", "Mazcab", "Gamers' Grotto", "Invention Guild", "TzHaar City", "Keldagrim", "Ourania Cave", "City of Um"],
 	"rollingChunks": {},
 	"equipment": {
 		"Unarmed": {
