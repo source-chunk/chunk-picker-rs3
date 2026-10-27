@@ -40313,7 +40313,7 @@
 			},
 			"Fletch a ~|toad totem|~": {
 				"Level": 65,
-				"Items": ["Petrified roots[+]"],
+				"Items": ["Petrified roots[+]*"],
 				"Objects": ["Totem log (roots)"],
 				"Output": "Totem reward bag",
 				"Primary": true,
@@ -40823,7 +40823,7 @@
 			},
 			"Fletch a ~|mollusc totem|~": {
 				"Level": 85,
-				"Items": ["Petrified bark[+]"],
+				"Items": ["Petrified bark[+]*"],
 				"Objects": ["Totem log (bark)"],
 				"Output": "Totem reward bag",
 				"Primary": true,
@@ -41665,7 +41665,7 @@
 			},
 			"Fletch an ~|elemental totem|~": {
 				"Level": 105,
-				"Items": ["Petrified logs"],
+				"Items": ["Petrified logs*"],
 				"Objects": ["Totem log (wood)"],
 				"Output": "Totem reward bag",
 				"Primary": true,
@@ -181209,6 +181209,11 @@
 				"Items": ["Colossal leg"],
 				"NPCs": ["Azur"],
 				"Output": "Exalted essence"
+			},
+			"Fletch a Fenmoor totem": {
+				"Tasks": {
+					"Fletch a Fenmoor totem[+]": "Fletching"
+				}
 			}
 		}
 	},
@@ -302083,7 +302088,7 @@
 			},
 			"Creekjoint's Boggy Builds": {
 				"18226-1": [{
-					"Fletch a Fenmoor totem[+]": "Fletching"
+					"Fletch a Fenmoor totem": "Nonskill"
 				}]
 			},
 			"Daemonheim Rewards": {
