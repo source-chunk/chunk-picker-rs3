@@ -6375,6 +6375,7 @@
   "Craft a ~|masterwork staff|~": "t_6186",
   "Buy the ~|Runecrafting master cape|~": "t_6154",
   "Burst a ~|corrupted scarab (Menaphos)|~": "t_6187",
+  "Boost ~|Slayer|~": "t_123539",
   "Hand in a Slayer-related ~|City Quest|~ item": "t_120856",
   "Complete a monster-related ~|City Quest|~": "t_120857",
   "Buy and use a slayer lamp using ~|Hunter Marks|~": "t_6188",
@@ -93189,5 +93190,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 123539
+  "currentNextIndex": 123540
 }
