@@ -3209,14 +3209,14 @@ let calcChallenges = function(chunks, baseChunkData) {
                                         if (!dropRatesGlobal[thievingExtra + output]) {
                                             dropRatesGlobal[thievingExtra + output] = {};
                                         }
-                                        dropRatesGlobal[thievingExtra + output][item] = findFraction(parseFloat(chunkInfo['skillItems'][skill][output][item][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems'][skill][output][item][quantityDrop].split('/')[1]));
+                                        let droprate = parseFloat(chunkInfo['skillItems'][skill][output][item][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems'][skill][output][item][quantityDrop].split('/')[1]);
+                                        dropRatesGlobal[thievingExtra + output][item] = isNaN(droprate) ? chunkInfo['skillItems'][skill][output][item][quantityDrop] : findFraction(droprate);
                                         if (!dropTablesGlobal[thievingExtra + output]) {
                                             dropTablesGlobal[thievingExtra + output] = {};
                                         }
                                         if (!dropTablesGlobal[thievingExtra + output][item]) {
                                             dropTablesGlobal[thievingExtra + output][item] = {};
                                         }
-                                        let droprate = parseFloat(chunkInfo['skillItems'][skill][output][item][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems'][skill][output][item][quantityDrop].split('/')[1]);
                                         dropTablesGlobal[thievingExtra + output][item][quantityDrop] = isNaN(droprate) ? chunkInfo['skillItems'][skill][output][item][quantityDrop] : findFraction(droprate);
                                     });
                                 } else if (chunkInfo['skillItems'][skill][output][item][skillItemsItemSourceKeys[0]] === 'Always' || (parseInt(rareDropNum.split('/')[1]) > 50 && isNaN(chunkInfo['skillItems'][skill][output][item][skillItemsItemSourceKeys[0]].replaceAll('/', '').replaceAll('@', ''))) || ((parseFloat(chunkInfo['skillItems'][skill][output][item][skillItemsItemSourceKeys[0]].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems'][skill][output][item][skillItemsItemSourceKeys[0]].split('/')[1]) > rareDropNumCalced))) {
@@ -3627,6 +3627,35 @@ let calcChallenges = function(chunks, baseChunkData) {
                     }
                     baseChunkData['items'][reward][challenge] = 'secondary-' + skill;
                 });
+            });
+        });
+        !!chunkInfo['codeItems']['slayerUniques'] && Object.keys(chunkInfo['codeItems']['slayerUniques']).forEach((drop) => {
+            Object.keys(chunkInfo['codeItems']['slayerUniques'][drop]).forEach((monster) => {
+                if (!baseChunkData['items'][drop]) return;
+                let slayerTaskName = Object.keys(baseChunkData['items'][drop]).find((source) => source.toLowerCase().includes(monster.toLowerCase()));
+                if (!slayerTaskName) return;
+                let stillValid = true;
+                let tasksObj = chunkInfo['codeItems']['slayerUniques'][drop][monster]['Tasks'];
+                !!tasksObj && Object.keys(tasksObj).some(subTask => {
+                    if (!newValids.hasOwnProperty(tasksObj[subTask]) || !newValids[tasksObj[subTask]].hasOwnProperty(subTask)) {
+                        stillValid = false;
+                        return true;
+                    }
+                });
+                let selectedRate = stillValid ? 'OnTask' : 'OffTask';
+                if (chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate] === 'Always' || (secondaryPrimaryDenom > 50 && isNaN(chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate].replaceAll('/', '').replaceAll('@', ''))) || ((chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate].split('/').length <= 1 && secondaryPrimaryNumCalced < 1) || (!(chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate].split('/').length <= 1) && (parseFloat(chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate].split('/')[1].replaceAll('~', '')) >= secondaryPrimaryNumCalced)))) {
+                    baseChunkData['items'][drop][slayerTaskName] = 'primary-drop';
+                } else {
+                    baseChunkData['items'][drop][slayerTaskName] = 'secondary-drop';
+                }
+                if (!!dropRatesGlobal[monster] && dropRatesGlobal[monster].hasOwnProperty(drop)) {
+                    dropRatesGlobal[monster][drop] = (chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate].split('/').length <= 1) ? chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate] : findFraction(parseFloat(chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate].split('/')[1].replaceAll('~', '')));
+                }
+                if (!!dropTablesGlobal[monster] && !!dropTablesGlobal[monster][drop]) {
+                    Object.keys(dropTablesGlobal[monster][drop]).forEach((quantity) => {
+                        dropTablesGlobal[monster][drop][quantity] = (chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate].split('/').length <= 1) ? chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate] : findFraction(parseFloat(chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['codeItems']['slayerUniques'][drop][monster][selectedRate].split('/')[1].replaceAll('~', '')));
+                    });
+                }
             });
         });
         questPointTotal = 1;
