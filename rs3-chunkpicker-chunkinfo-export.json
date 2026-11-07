@@ -62498,6 +62498,12 @@
 				"Primary": true,
 				"Priority": 30
 			},
+			"Boost ~|Slayer|~": {
+				"Level": 1,
+				"Primary": false,
+				"Priority": 999,
+				"ManualInvalid": true
+			},
 			"Hand in a Slayer-related ~|City Quest|~ item": {
 				"Category": ["Secondary Primary"],
 				"Items": ["City Quest Slayer Item[+]*"],
@@ -232062,6 +232068,7 @@
 				"Forgotten painting piece (5)": "1/1@1"
 			}
 		},
+		"slayerUniques": {},
 		"tools": {},
 		"elementalRunes": ["Air rune", "Water rune", "Earth rune", "Fire rune"],
 		"elementalStaves": {
@@ -240810,6 +240817,7 @@
 			"GreaterEnsoulMaterial[+]": "Perofrm any 'Greater ensoul material' ritual"
 		},
 		"telegrabSpawns": {},
+		"droprateOverrides": {},
 		"rangedItems": {
 			"Chargebow": 1,
 			"Shortbow": 1,
