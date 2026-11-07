@@ -545,7 +545,7 @@ let ruleNames = {
     "Bakami": "Bakami and orokami, and their drops, count for chunk tasks",
     "Wandering implings": "Implings that randomly wander the world and their drops count for chunk tasks <span class='rule-asterisk noscroll'>†</span>",
 	"Farming Primary": "Farming products (herbs, vegetables, etc.) count as primary item sources for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
-    "Secondary Primary": "Training methods can use drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training<span class='rule-asterisk noscroll'>*</span><span class='secondaryPrimaryRuleTooltip'></span>",
+    "Secondary Primary": "Training methods using drops that are more common than 1/X (not inclusive, set to 0 to include all drops) count as primary training<span class='rule-asterisk noscroll'>*</span><span class='secondaryPrimaryRuleTooltip'></span>",
     "RDT": "Items from the Rare Drop Table, the Gem Drop Table and the Wilderness Drop Table count for chunk tasks",
     "Crystal chests": "Items from crystal chests, triskelion treasures, columbarium keys or Raz's stash count for chunk tasks",
     "Untracked Uniques Skilling": "Skilling uniques<span class='rule-asterisk noscroll'>*</span>",
@@ -3212,13 +3212,14 @@ let openRollChunkCanvas = async function(el, rand, sNum, rand2, sNum2, isUnpick)
     chosenFromCinematic = el[rand];
     elArr = shuffle(elArr);
     xCoord = Math.floor(parseInt(elArr[elArr.length - 1]) / 256) - 28;
-    yCoord = 72 - (parseInt(elArr[elArr.length - 1]) % 256);
+    yCoord = 71 - (parseInt(elArr[elArr.length - 1]) % 256);
+	//console.log("x: " + xCoord + ", y: " + yCoord);
     $('.roll-chunk-outer').append(`<div class='noscroll roll-chunk-inner roll-chunk-${elArr[elArr.length - 1]}'><span class='noscroll roll-chunk-num'><img class='noscroll' src='${'./resources/chunk_images/row-' + yCoord + '-column-' + xCoord + '.png'}'/></span></div>`);
     for (let i = 0; i < Math.ceil(numSlots / elArr.length); i++) {
         for (let j = 0; j < elArr.length; j++) {
             let num = elArr[j];
             xCoord = Math.floor(parseInt(elArr[j]) / 256) - 28;
-            yCoord = 72 - (parseInt(elArr[j]) % 256);
+            yCoord = 71 - (parseInt(elArr[j]) % 256);
             $('.roll-chunk-outer').append(`<div class='noscroll roll-chunk-inner roll-chunk-${num}'><span class='noscroll roll-chunk-num'><img class='noscroll' src='${'./resources/chunk_images/row-' + yCoord + '-column-' + xCoord + '.png'}'/></span></div>`);
             if (num === chosenFromCinematic && i + 1 >= Math.ceil(numSlots / elArr.length)) {
                 topNum = (-15.999 * ((i * elArr.length) + j)) + 'vh';
@@ -3226,7 +3227,7 @@ let openRollChunkCanvas = async function(el, rand, sNum, rand2, sNum2, isUnpick)
         };
     };
     xCoord = Math.floor(parseInt(elArr[0]) / 256) - 28;
-    yCoord = 72 - (parseInt(elArr[0]) % 256);
+    yCoord = 71 - (parseInt(elArr[0]) % 256);
     let randomDuration = (3 + Math.floor(Math.random() * 6)) * 1000;
     $('.roll-chunk-outer').append(`<div class='noscroll roll-chunk-inner roll-chunk-${elArr[0]}'><span class='noscroll roll-chunk-num'><img class='noscroll' src='${'./resources/chunk_images/row-' + yCoord + '-column-' + xCoord + '.png'}'/></span></div>`);
     setTimeout(function() {
@@ -3259,13 +3260,13 @@ let openRollChunkCanvas = async function(el, rand, sNum, rand2, sNum2, isUnpick)
         elArr = shuffle(elArr);
         let topNum2;
         xCoord = Math.floor(parseInt(elArr[elArr.length - 1]) / 256) - 28;
-        yCoord = 72 - (parseInt(elArr[elArr.length - 1]) % 256);
+        yCoord = 71 - (parseInt(elArr[elArr.length - 1]) % 256);
         $('.roll-chunk-outer2').append(`<div class='noscroll roll-chunk-inner roll-chunk-${elArr[elArr.length - 1]}'><span class='noscroll roll-chunk-num'><img class='noscroll' src='${'./resources/chunk_images/row-' + yCoord + '-column-' + xCoord + '.png'}'/></span></div>`);
         for (let i = 0; i < Math.ceil(numSlots / elArr.length); i++) {
             for (let j = 0; j < elArr.length; j++) {
                 let num = elArr[j];
                 xCoord = Math.floor(parseInt(elArr[j]) / 256) - 28;
-                yCoord = 72 - (parseInt(elArr[j]) % 256);
+                yCoord = 71 - (parseInt(elArr[j]) % 256);
                 $('.roll-chunk-outer2').append(`<div class='noscroll roll-chunk-inner roll-chunk-${num}'><span class='noscroll roll-chunk-num'><img class='noscroll' src='${'./resources/chunk_images/row-' + yCoord + '-column-' + xCoord + '.png'}'/></span></div>`);
                 if (num === chosenFromCinematic && i + 1 >= Math.ceil(numSlots / elArr.length)) {
                     topNum2 = (-15.998 * ((i * elArr.length) + j)) + 'vh';
@@ -3273,7 +3274,7 @@ let openRollChunkCanvas = async function(el, rand, sNum, rand2, sNum2, isUnpick)
             };
         };
         xCoord = Math.floor(parseInt(elArr[0]) / 256) - 28;
-        yCoord = 72 - (parseInt(elArr[0]) % 256);
+        yCoord = 71 - (parseInt(elArr[0]) % 256);
         let randomDuration = (3 + Math.floor(Math.random() * 6)) * 1000;
         $('.roll-chunk-outer2').append(`<div class='noscroll roll-chunk-inner roll-chunk-${elArr[0]}'><span class='noscroll roll-chunk-num'><img class='noscroll' src='${'./resources/chunk_images/row-' + yCoord + '-column-' + xCoord + '.png'}'/></span></div>`);
         setTimeout(function() {
