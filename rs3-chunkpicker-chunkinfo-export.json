@@ -63040,7 +63040,7 @@
 				"Output": "Crawling hand",
 				"NoPet": true
 			},
-			"Slay a ~|crawling hand|~ in Burthorpe": {
+			"Slay a ~|crawling hand#Burthorpe|~": {
 				"Level": 5,
 				"Monsters": ["Crawling hand#Burthorpe"],
 				"Primary": false,
@@ -63067,7 +63067,7 @@
 				"Output": "Zombie hand",
 				"NoPet": true
 			},
-			"Slay a level 6 ~|cave bug|~": {
+			"Slay a ~|cave bug#Level 6|~": {
 				"Level": 7,
 				"Monsters": ["Cave bug#Level 6"],
 				"Primary": false,
@@ -63076,7 +63076,7 @@
 				"Output": "Cave bug#Level 6",
 				"NoPet": true
 			},
-			"Slay a level 11 ~|cave bug|~": {
+			"Slay a ~|cave bug#Level 11|~": {
 				"Level": 7,
 				"Monsters": ["Cave bug#Level 11"],
 				"Primary": false,
@@ -63209,7 +63209,7 @@
 				"Output": "Pyrefiend",
 				"NoPet": true
 			},
-			"Slay a ~|pyrefiend|~ in the god wars dungeon": {
+			"Slay a ~|pyrefiend (God Wars Dungeon)|~": {
 				"Level": 30,
 				"Monsters": ["Pyrefiend (God Wars Dungeon)"],
 				"Primary": false,
@@ -63376,7 +63376,7 @@
 				"Output": "Bloodveld",
 				"NoPet": true
 			},
-			"Slay a ~|bloodveld|~ in the god wars dungeon": {
+			"Slay a ~|bloodveld (God Wars Dungeon)|~": {
 				"Level": 50,
 				"Monsters": ["Bloodveld (God Wars Dungeon)"],
 				"Primary": false,
@@ -63385,7 +63385,7 @@
 				"Output": "Bloodveld (God Wars Dungeon)",
 				"NoPet": true
 			},
-			"Slay a ~|bloodveld|~ in the heart of Gielinor": {
+			"Slay a ~|bloodveld (Heart of Gielinor)|~": {
 				"Level": 50,
 				"Monsters": ["Bloodveld (Heart of Gielinor)"],
 				"Primary": false,
@@ -63832,7 +63832,7 @@
 				"Output": "Abyssal demon",
 				"NoPet": true
 			},
-			"Slay an ~|abyssal demon|~ in the Heart of Gielinor": {
+			"Slay an ~|abyssal demon (Heart of Gielinor)|~": {
 				"Level": 85,
 				"Monsters": ["Abyssal demon (Heart of Gielinor)"],
 				"Primary": false,
@@ -169801,6 +169801,12 @@
 				},
 				"Not F2P": true
 			},
+			"Abyssal demon task": {
+				"Tasks": {
+					"Abyssal demon task[+]": "Nonskill"
+				},
+				"Not F2P": true
+			},
 			"Abyssal demon base task": {
 				"Tasks": {
 					"RaptorSumonaBetterMaster[+]": "Slayer"
@@ -240267,8 +240273,8 @@
 				"Trade floor guard"
 			],
 			"Cave Bug Souls[+]": [
-				"Cave Bug#Level 6",
-				"Cave Bug#Level 11"
+				"Cave bug#Level 6",
+				"Cave bug#Level 11"
 			],
 			"Crocodile Souls[+]": [
 				"Crocodile",
