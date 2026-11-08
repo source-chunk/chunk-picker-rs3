@@ -45485,6 +45485,9 @@
 				"Items": ["Bird snare"],
 				"NPCs": ["Wimpy bird"],
 				"Level": 39,
+				"Tasks": {
+					"~|As a First Resort|~ 14": "Quest"
+				},
 				"Output": "WimpyBird",
 				"Primary": true,
 				"Priority": 2
@@ -117411,7 +117414,8 @@
 				"Chunks": ["ChaosTunnelEntrance[+]"],
 				"BaseQuest": "Wilderness Achievements",
 				"Category": ["Show Diary Tasks"],
-				"RuneScore": 5
+				"RuneScore": 5,
+				"Not F2P": true
 			},
 			"~|Wilderness Achievements#Easy|~ Take a Potato Chip...and Eat it!": {
 				"Description": "View the recent wilderness kills on the death list noticeboard in Edgeville.",
@@ -169166,6 +169170,9 @@
 				"Not F2P": true
 			},
 			"Construction Contracts rewards": {
+				"Requirements": {
+					"Construction": 40
+				},
 				"Items": ["White candle", "Bolt of cloth", "Steel bar", "Plank[+]", "Nails[+]", "ConstructionMetalBar[+]"],
 				"Chunks": ["12338-1", "12850-1", "12853-1", "12342-1"],
 				"Not F2P": true
@@ -302636,7 +302643,7 @@
 				"10806-1": [{
 					"Construction Contracts rewards": "Nonskill"
 				}],
-				"10291": [{
+				"10547-1": [{
 					"Construction Contracts rewards": "Nonskill"
 				}],
 				"8500": [{
