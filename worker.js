@@ -315,7 +315,7 @@ onmessage = function(e) {
             unconnectedAreas
         } = eGlobal.data);
 
-        if (updateLevel !== 'task-optimization') {
+        if (updateLevel !== 'createdPOF-fix') {
             postMessage({ type: 'reload' });
         }
 
@@ -10202,7 +10202,7 @@ let gatherChunksInfo = function(chunksIn) {
 
     Object.keys(chunksIn).forEach((num) => {
         !!chunkInfo['chunks'][num] && !!chunkInfo['chunks'][num]['Sections'] && Object.keys(chunkInfo['chunks'][num]['Sections']).filter(section => !!unlockedSections[num] && unlockedSections[num][section]).forEach((section) => {
-            !!chunkInfo['chunks'][num]['Sections'][section] && !!chunkInfo['chunks'][num]['Sections'][section]['Monster'] && Object.keys(chunkInfo['chunks'][num]['Sections'][section]['Monster']).filter((monster) => !passedMonsters[monster] || chunkInfo['codeItems']['droprateOverrides'].hasOwnProperty(monster)).forEach((monster) => {
+            !!chunkInfo['chunks'][num]['Sections'][section] && !!chunkInfo['chunks'][num]['Sections'][section]['Monster'] && Object.keys(chunkInfo['chunks'][num]['Sections'][section]['Monster']).filter((monster) => !passedMonsters[monster] || (!!chunkInfo['codeItems']['droprateOverrides'] && chunkInfo['codeItems']['droprateOverrides'].hasOwnProperty(monster))).forEach((monster) => {
                 passedMonsters[monster] = true;
                 !rules['Skiller'] && !!chunkInfo['drops'][monster] && (!backloggedSources['monsters'] || !backloggedSources['monsters'][monster]) && Object.keys(chunkInfo['drops'][monster]).forEach((drop) => {
                     !!chunkInfo['drops'][monster][drop] && Object.keys(chunkInfo['drops'][monster][drop]).forEach((quantity) => {
@@ -10350,7 +10350,7 @@ let gatherChunksInfo = function(chunksIn) {
             });
         });
         if (rules['Puro-Puro'] || num !== 'Puro-Puro') {
-            !!chunkInfo['chunks'][num] && !!chunkInfo['chunks'][num]['Monster'] && Object.keys(chunkInfo['chunks'][num]['Monster']).filter((monster) => !passedMonsters[monster] || chunkInfo['codeItems']['droprateOverrides'].hasOwnProperty(monster)).forEach((monster) => {
+            !!chunkInfo['chunks'][num] && !!chunkInfo['chunks'][num]['Monster'] && Object.keys(chunkInfo['chunks'][num]['Monster']).filter((monster) => !passedMonsters[monster] || (!!chunkInfo['codeItems']['droprateOverrides'] && chunkInfo['codeItems']['droprateOverrides'].hasOwnProperty(monster))).forEach((monster) => {
                 passedMonsters[monster] = true;
                 !rules['Skiller'] && !!chunkInfo['drops'][monster] && (!backloggedSources['monsters'] || !backloggedSources['monsters'][monster]) && (!rules['KeyItem Bosses'] || !chunkInfo['codeItems']['keyMonsters'] || !chunkInfo['codeItems']['keyMonsters'].hasOwnProperty(monster)) && Object.keys(chunkInfo['drops'][monster]).forEach((drop) => {
                     !!chunkInfo['drops'][monster][drop] && Object.keys(chunkInfo['drops'][monster][drop]).forEach((quantity) => {
