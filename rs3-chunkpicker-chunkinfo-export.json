@@ -589,6 +589,14 @@
 				"Priority": 2,
 				"NoPet": true
 			},
+			"Cross the ~|balancing ledge (Yanille Agility Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["Yanille Agility Dungeon"],
+				"Level": 40,
+				"Primary": true,
+				"Priority": 3,
+				"NoPet": true
+			},
 			"Build the first tier of the spa in your ~|Anachronia base camp|~": {
 				"Chunks": ["15682-1"],
 				"Level": 40,
@@ -993,6 +1001,14 @@
 				"Output": "Cave goblin",
 				"Primary": false,
 				"Priority": 1000,
+				"NoPet": true
+			},
+			"Swing across the ~|monkeybars (Yanille Agility Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["Yanille Agility Dungeon"],
+				"Level": 57,
+				"Primary": true,
+				"Priority": 1,
 				"NoPet": true
 			},
 			"Cross the ~|weathered wall|~": {
@@ -45127,8 +45143,8 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Catch a ~|baby impling|~ in Puro-Puro": {
-				"Chunks": ["Puro-Puro"],
+			"Catch a ~|baby impling|~": {
+				"NPCs": ["Baby impling"],
 				"Items": ["Impling jar"],
 				"Level": 17,
 				"Output": "Baby impling",
@@ -45147,6 +45163,14 @@
 				"Level": 17,
 				"Primary": false,
 				"Priority": 3
+			},
+			"Catch a ~|baby impling|~ without a jar": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Impling spawns[+]"],
+				"Level": 22,
+				"Output": "Baby impling",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Catch a ~|gold spirit moth|~ with a net": {
 				"Objects": ["Hollow tree (Highweald Forest)"],
@@ -45191,8 +45215,8 @@
 				"Priority": 2,
 				"Not F2P": true
 			},
-			"Catch a ~|young impling|~ in Puro-Puro": {
-				"Chunks": ["Puro-Puro"],
+			"Catch a ~|young impling|~": {
+				"NPCs": ["Young impling"],
 				"Items": ["Impling jar"],
 				"Level": 22,
 				"Output": "Young impling",
@@ -45206,10 +45230,9 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Catch a ~|young impling|~ in the Al Kharid resource dungeon": {
+			"Catch a ~|young impling|~ without a jar": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
+				"Chunks": ["Impling spawns[+]"],
 				"Level": 22,
 				"Output": "Young impling",
 				"Primary": true,
@@ -45322,18 +45345,17 @@
 				"Priority": 1000,
 				"NoPet": true
 			},
-			"Catch a ~|gourmet impling|~ in Puro-Puro": {
-				"Chunks": ["Puro-Puro"],
+			"Catch a ~|gourmet impling|~": {
+				"NPCs": ["Gourmet impling"],
 				"Items": ["Impling jar"],
 				"Level": 28,
 				"Output": "Gourmet impling",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|gourmet impling|~ in the Al Kharid resource dungeon": {
+			"Catch a ~|gourmet impling|~ without a jar": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
+				"Chunks": ["Impling spawns[+]"],
 				"Level": 28,
 				"Output": "Gourmet impling",
 				"Primary": true,
@@ -45437,18 +45459,17 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch an ~|earth impling|~ in Puro-Puro": {
-				"Chunks": ["Puro-Puro"],
+			"Catch an ~|earth impling|~": {
+				"NPCs": ["Earth impling"],
 				"Items": ["Impling jar"],
 				"Level": 36,
 				"Output": "Earth impling",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|earth impling|~ in the Al Kharid resource dungeon": {
+			"Catch a ~|earth impling|~ without a jar": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
+				"Chunks": ["Impling spawns[+]"],
 				"Level": 36,
 				"Output": "Earth impling",
 				"Primary": true,
@@ -45538,18 +45559,17 @@
 				"Priority": 3,
 				"Not F2P": true
 			},
-			"Catch an ~|essence impling|~ in Puro-Puro": {
-				"Chunks": ["Puro-Puro"],
+			"Catch an ~|essence impling|~": {
+				"NPCS": ["Essence impling"],
 				"Items": ["Impling jar"],
 				"Level": 42,
 				"Output": "Essence impling",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch an ~|essence impling|~ in the Al Kharid resource dungeon": {
+			"Catch an ~|essence impling|~ without a jar": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
+				"Chunks": ["Impling spawns[+]"],
 				"Level": 42,
 				"Output": "Essence impling",
 				"Primary": true,
@@ -45675,18 +45695,17 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Catch an ~|eclectic impling|~ in Puro-Puro": {
-				"Chunks": ["Puro-Puro"],
+			"Catch an ~|eclectic impling|~": {
+				"NPCS": ["Eclectic impling"],
 				"Items": ["Impling jar"],
 				"Level": 50,
 				"Output": "Eclectic impling",
 				"Primary": true,
 				"Priority": 4
 			},
-			"Catch an ~|eclectic impling|~ in the Al Kharid resource dungeon": {
+			"Catch an ~|eclectic impling|~ without a jar": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
+				"Chunks": ["Impling spawns[+]"],
 				"Level": 50,
 				"Output": "Eclectic impling",
 				"Primary": true,
@@ -45764,19 +45783,18 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|spirit impling|~ in Puro-Puro": {
+			"Catch a ~|spirit impling|~": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Puro-Puro"],
+				"NPCS": ["Spirit impling"],
 				"Items": ["Impling jar"],
 				"Level": 54,
 				"Output": "Spirit impling",
 				"Primary": false,
 				"Priority": 1
 			},
-			"Catch a ~|spirit impling|~ in the Al Kharid resource dungeon": {
+			"Catch a ~|spirit impling|~ without a jar": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
+				"Chunks": ["Impling spawns[+]"],
 				"Level": 54,
 				"Output": "Spirit impling",
 				"Primary": true,
@@ -45837,19 +45855,18 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|nature impling|~ in Puro-Puro": {
+			"Catch a ~|nature impling|~": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Puro-Puro"],
+				"NPCS": ["Nature impling"],
 				"Items": ["Impling jar"],
 				"Level": 58,
 				"Output": "Nature impling",
 				"Primary": false,
 				"Priority": 1
 			},
-			"Catch a ~|nature impling|~ in the Al Kharid resource dungeon": {
+			"Catch a ~|nature impling|~ without a jar": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
+				"Chunks": ["Impling spawns[+]"],
 				"Level": 58,
 				"Output": "Nature impling",
 				"Primary": true,
@@ -45903,19 +45920,18 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|magpie impling|~ in Puro-Puro": {
+			"Catch a ~|magpie impling|~": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Puro-Puro"],
+				"NPCS": ["Magpie impling"],
 				"Items": ["Impling jar"],
 				"Level": 65,
 				"Output": "Magpie impling",
 				"Primary": false,
 				"Priority": 1
 			},
-			"Catch a ~|magpie impling|~ in the Al Kharid resource dungeon": {
+			"Catch a ~|magpie impling|~ without a jar": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
+				"Chunks": ["Impling spawns[+]"],
 				"Level": 65,
 				"Output": "Magpie impling",
 				"Primary": true,
@@ -46122,19 +46138,18 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|ninja impling|~ in Puro-Puro": {
+			"Catch a ~|ninja impling|~": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Puro-Puro"],
+				"NPCS": ["Ninja impling"],
 				"Items": ["Impling jar"],
 				"Level": 74,
 				"Output": "Ninja impling",
 				"Primary": false,
 				"Priority": 2
 			},
-			"Catch a ~|ninja impling|~ in the Al Kharid resource dungeon": {
+			"Catch a ~|ninja impling|~ without a jar": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
+				"Chunks": ["Impling spawns[+]"],
 				"Level": 74,
 				"Output": "Ninja impling",
 				"Primary": true,
@@ -46212,9 +46227,9 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|pirate impling|~ in Puro-Puro": {
+			"Catch a ~|pirate impling|~": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Puro-Puro"],
+				"NPCS": ["Pirate impling"],
 				"Items": ["Impling jar"],
 				"Tasks": {
 					"~|Rocking Out|~ Complete the quest": "Quest"
@@ -46224,9 +46239,9 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Catch a ~|pirate impling|~ in Puro-Puro after Pieces of Hate": {
+			"Catch a ~|pirate impling|~ after Pieces of Hate": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Puro-Puro"],
+				"NPCS": ["Pirate impling"],
 				"Items": ["Impling jar"],
 				"Level": 76,
 				"Tasks": {
@@ -46236,10 +46251,9 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Catch a ~|pirate impling|~ in the Al Kharid resource dungeon": {
+			"Catch a ~|pirate impling|~ without a jar": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
+				"Chunks": ["Impling spawns[+]"],
 				"Tasks": {
 					"~|Rocking Out|~ Complete the quest": "Quest"
 				},
@@ -46335,19 +46349,18 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|divine impling|~ in Puro-Puro": {
+			"Catch a ~|divine impling|~": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Puro-Puro"],
+				"NPCS": ["Divine impling"],
 				"Items": ["Impling jar"],
 				"Level": 79,
 				"Output": "Divine impling",
 				"Primary": false,
 				"Priority": 2
 			},
-			"Catch a ~|divine impling|~ in the Al Kharid resource dungeon": {
+			"Catch a ~|divine impling|~ without a jar": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
+				"Chunks": ["Impling spawns[+]"],
 				"Level": 79,
 				"Output": "Divine impling",
 				"Primary": true,
@@ -46462,19 +46475,18 @@
 				"Priority": 3,
 				"Not F2P": true
 			},
-			"Catch a ~|dragon impling|~ in Puro-Puro": {
+			"Catch a ~|dragon impling|~": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Puro-Puro"],
+				"NPCS": ["Dragon impling"],
 				"Items": ["Impling jar"],
 				"Level": 83,
 				"Output": "Dragon impling",
 				"Primary": false,
 				"Priority": 1
 			},
-			"Catch a ~|dragon impling|~ in the Al Kharid resource dungeon": {
+			"Catch a ~|dragon impling|~ without a jar": {
 				"Category": ["Extra implings"],
 				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
 				"Level": 83,
 				"Output": "Dragon impling",
 				"Primary": true,
@@ -46560,27 +46572,18 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Catch a ~|zombie impling|~ in Puro-Puro": {
+			"Catch a ~|zombie impling|~": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Puro-Puro"],
+				"NPCS": ["Zombie impling"],
 				"Items": ["Impling jar"],
 				"Level": 87,
 				"Output": "Zombie impling",
 				"Primary": false,
 				"Priority": 1
 			},
-			"Catch a ~|zombie impling|~ in Um": {
+			"Catch a ~|zombie impling|~ without a jar": {
 				"Category": ["Extra implings"],
-				"Chunks": ["City of Um"],
-				"Level": 87,
-				"Output": "Zombie impling",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Catch a ~|zombie impling|~ in the Al Kharid resource dungeon": {
-				"Category": ["Extra implings"],
-				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
+				"Chunks": ["Impling spawns zombie[+]"],
 				"Level": 87,
 				"Output": "Zombie impling",
 				"Primary": true,
@@ -46842,19 +46845,18 @@
 				},
 				"Priority": 9
 			},
-			"Catch a ~|kingly impling|~ in Puro-Puro": {
+			"Catch a ~|kingly impling|~": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Puro-Puro"],
+				"NPCS": ["Kingly impling"],
 				"Items": ["Impling jar"],
 				"Level": 91,
 				"Output": "Kingly impling",
 				"Primary": false,
 				"Priority": 1
 			},
-			"Catch a ~|kingly impling|~ in the Al Kharid resource dungeon": {
+			"Catch a ~|kingly impling|~ without a jar": {
 				"Category": ["Extra implings"],
 				"Chunks": ["Al Kharid resource dungeon"],
-				"Items": ["Impling jar"],
 				"Level": 91,
 				"Output": "Kingly impling",
 				"Primary": true,
@@ -46938,9 +46940,9 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Catch a ~|crystal impling|~ in Puro-Puro": {
+			"Catch a ~|crystal impling|~": {
 				"Category": ["Extra implings"],
-				"Chunks": ["Puro-Puro"],
+				"NPCS": ["Crystal impling"],
 				"Items": ["Impling jar"],
 				"Level": 95,
 				"Output": "Crystal impling",
@@ -64501,7 +64503,7 @@
 				"Output": "Ripper dinosaur",
 				"NoPet": true
 			},
-			"Slay ~|the magister|~": {
+			"Slay ~|The Magister|~": {
 				"Items": ["Key to the Crossing"],
 				"Level": 115,
 				"Monsters": ["The Magister"],
@@ -78594,7 +78596,8 @@
 				"Description": "Speak to Jones in the Fishing Guild",
 				"Chunks": ["10293"],
 				"Tasks": {
-					"~|Tower of Life|~ Complete the quest": "Quest"
+					"~|Tower of Life|~ Complete the quest": "Quest",
+					"Enter the ~|Fishing Guild|~": "Fishing"
 				},
 				"Skills": {
 					"Fishing": 70,
@@ -87718,7 +87721,7 @@
 			},
 			"~|Heralds of Crimson|~ 14": {
 				"BaseQuest": "Heralds of Crimson",
-				"Description": "Enter the Crimson Gate and defeat the Ghrazi Vampyres",
+				"Description": "Enter the Crimson Gate and defeat the Ghrazi Blood Knights",
 				"Chunks": ["18997-1"],
 				"Tasks": {
 					"~|Heralds of Crimson|~ 13": "Quest"
@@ -92401,8 +92404,8 @@
 			},
 			"~|The Mighty Fall|~ 2": {
 				"BaseQuest": "The Mighty Fall",
-				"Description": "Enter the Lumbridge Swamp Caves through the hollow tree and meet with the Bandosians",
-				"Chunks": ["12593", "Lumbridge Swamp Caves"],
+				"Description": "Meet with the Bandosians in the Lumbridge Swamp Caves",
+				"Chunks": ["Lumbridge Swamp Caves"],
 				"Tasks": {
 					"~|The Mighty Fall|~ 1": "Quest"
 				},
@@ -110007,7 +110010,7 @@
 			"~|Daemonheim Achievements#Hard|~ Healing Factor": {
 				"Description": "Use the Rapid Renewal prayer for 1 minute within a dungeon.",
 				"Chunks": ["Dungeons of Daemonheim"],
-				"Chunks": ["13625-1"],
+				"Items": ["Scroll of renewal"],
 				"Skills": {
 					"Dungeoneering": 65,
 					"Prayer": 65
@@ -111967,7 +111970,7 @@
 				"Description": "Jump the chasm in the Fremennik Slayer Dungeon to gain quick access to the pyrefiends.",
 				"Chunks": ["Fremennik Slayer Dungeon"],
 				"Skills": {
-					"Agility": 81
+					"Agility": 61
 				},
 				"Tasks": {
 					"~|Fremennik Achievements#Hard|~ Complete the Hard Achievements": "Diary"
@@ -117861,10 +117864,28 @@
 				"CombatScore": 1,
 				"RuneScore": 5
 			},
+			"~|Combat Mastery achievements#Easy|~ Don't Blink": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat the Flesh-hatcher Mhekarnahz without being hit by their 'Warped Strike', and 'Warped Shape' attacks.",
+				"Monsters": ["Flesh-hatcher Mhekarnahz"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 1,
+				"RuneScore": 5
+			},
 			"~|Combat Mastery achievements#Easy|~ eLeMeNtAl kIlL cHaOs III": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat the Chaos Elemental 25 times.",
 				"Monsters": ["Chaos Elemental"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 1,
+				"RuneScore": 5
+			},
+			"~|Combat Mastery achievements#Easy|~ Eyes On The Prize": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat the Flesh-hatcher Mhekarnahz without being stunned by their 'Warped Strike' attack.",
+				"Monsters": ["Flesh-hatcher Mhekarnahz"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 1,
@@ -117875,6 +117896,15 @@
 				"Description": "Defeat the King Black Dragon while using dragonfire protection to mitigate his attacks.",
 				"Items": ["DragonfireProtection[+]"],
 				"Monsters": ["King Black Dragon"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 1,
+				"RuneScore": 5
+			},
+			"~|Combat Mastery achievements#Easy|~ Flesh-hatcher Mhekarnahz Novice Speed Killer": {
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Description": "Defeat the Flesh-hatcher Mhekarnahz in less than 1:18.",
+				"Monsters": ["Flesh-hatcher Mhekarnahz"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 1,
@@ -118038,7 +118068,7 @@
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"ManualShow": true,
-				"CombatScoreNeeded": 22
+				"CombatScoreNeeded": 25
 			},
 			"~|Combat Mastery achievements#Medium|~ All Aboard": {
 				"Category": ["Combat Mastery achievements"],
@@ -118183,6 +118213,15 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Rathis solo after stopping her from healing during her 'Poison absorption' attack.",
 				"Monsters": ["Rathis"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 2,
+				"RuneScore": 10
+			},
+			"~|Combat Mastery achievements#Medium|~ Flesh-hatcher Mhekarnahz Beginner Speed Killer": {
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Description": "Defeat the Flesh-hatcher Mhekarnahz in less than 0:54.",
+				"Monsters": ["Flesh-hatcher Mhekarnahz"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 2,
@@ -118453,6 +118492,15 @@
 				"CombatScore": 2,
 				"RuneScore": 10
 			},
+			"~|Combat Mastery achievements#Medium|~ Nipped in the Bud": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat the Flesh-hatcher Mhekarnahz without allowing any of your Warped flesh sacs to hatch.",
+				"Monsters": ["Flesh-hatcher Mhekarnahz"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 2,
+				"RuneScore": 10
+			},
 			"~|Combat Mastery achievements#Medium|~ Permanent Exile": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat the exiled Kalphite Queen solo.",
@@ -118603,7 +118651,7 @@
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"ManualShow": true,
-				"CombatScoreNeeded": 142
+				"CombatScoreNeeded": 151
 			},
 			"~|Combat Mastery achievements#Hard|~ Aerial Pursuit": {
 				"Category": ["Combat Mastery achievements"],
@@ -120202,7 +120250,7 @@
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"ManualShow": true,
-				"CombatScoreNeeded": 661
+				"CombatScoreNeeded": 670
 			},
 			"~|Combat Mastery achievements#Elite|~ Akh Away Quickly": {
 				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
@@ -121915,7 +121963,7 @@
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"ManualShow": true,
-				"CombatScoreNeeded": 1401
+				"CombatScoreNeeded": 1410
 			},
 			"~|Combat Mastery achievements#Master|~ All Together, Now!": {
 				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
@@ -149295,8 +149343,11 @@
 					"~|Combat Mastery achievements#Easy|~ Around the Mound in Eighty Days": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Bug Swatter III": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Dagannoth for Everyone III": "Diary",
+					"~|Combat Mastery achievements#Easy|~ Don't Blink": "Diary",
 					"~|Combat Mastery achievements#Easy|~ eLeMeNtAl kIlL cHaOs III": "Diary",
+					"~|Combat Mastery achievements#Easy|~ Eyes On The Prize": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Feeling Flameproof": "Diary",
+					"~|Combat Mastery achievements#Easy|~ Flesh-hatcher Mhekarnahz Novice Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Giant Mole Novice Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Giant Mole (HM) Novice Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Hail to the Queen": "Diary",
@@ -149314,8 +149365,7 @@
 					"~|Combat Mastery achievements#Easy|~ Stunned and Done": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Three Heads Are Deader Than One II": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Whack a Mole II": "Diary",
-					"~|Combat Mastery achievements#Easy|~ Receive War's Blessing 1": "Diary",
-					"~|Combat Mastery achievements#Medium|~ All Aboard": "Diary"				
+					"~|Combat Mastery achievements#Easy|~ Receive War's Blessing 1": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -149338,6 +149388,7 @@
 					"~|Combat Mastery achievements#Medium|~ Double Swoop": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Fast and Furious II": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Feeling a Little Venomous Today": "Diary",
+					"~|Combat Mastery achievements#Medium|~ Flesh-hatcher Mhekarnahz Beginner Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Medium|~ The Floor is Larva!": "Diary",
 					"~|Combat Mastery achievements#Medium|~ General Graardor Beginner Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Medium|~ General Mayhem III": "Diary",
@@ -149367,6 +149418,7 @@
 					"~|Combat Mastery achievements#Medium|~ Living On a Prayer Switch": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Loot Pinata II": "Diary",
 					"~|Combat Mastery achievements#Medium|~ My Spirit of War Has No Pathetic Attacks": "Diary",
+					"~|Combat Mastery achievements#Medium|~ Nipped in the Bud": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Permanent Exile": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Queen Black Dragon Beginner Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Safety Dance": "Diary",
@@ -165072,7 +165124,10 @@
 				"UnlocksArea": true
 			},
 			"Stalker dungeon": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Dishonour among Thieves|~ Complete the quest": "Quest"
+				}
 			},
 			"Crypt of Varanus": {
 				"Tasks": {
@@ -167076,6 +167131,9 @@
 			"Loot the sinister chest*": {
 				"Chunks": ["Yanille Agility Dungeon"],
 				"Items": ["Sinister key"],
+				"Tasks": {
+					"Cross the ~|obstacle pipe (Yanille Agility dungeon)|~": "Agility"
+				},
 				"Output": "SinisterChest"
 			},
 			"Get a spottier cape made*": {
@@ -190331,6 +190389,9 @@
 					"Spawn": {
 						"Bones": 9
 					},
+					"Shop": {
+						"Dragon Inn": true
+					},
 					"Quest": {
 						"Bar Crawl (miniquest)": "step",
 						"God Emissaries Combat": "step",
@@ -192518,6 +192579,18 @@
 			},
 			"Name": "Yanille Agility Dungeon"
 		},
+		"103881": {
+			"Name": "Yanille Agility Dungeon#North entrance"
+		},
+		"103882": {
+			"Name": "Yanille Agility Dungeon#Chaos druid warriors"
+		},
+		"103883": {
+			"Name": "Yanille Agility Dungeon#South entrance"
+		},
+		"103884": {
+			"Name": "Yanille Agility Dungeon#Salarin the Twisted"
+		},
 		"10389": {
 			"Object": {
 				"Pile of rubble": 1,
@@ -193880,19 +193953,6 @@
 			}
 		},
 		"10794": {
-					"Object": {
-						"Jungle Tree": 13,
-						"Pineapple Plant": 1,
-						"Monkeybars": 1,
-						"Mango tree": 1,
-						"Fairy ring": 1,
-						"Mahogany": 2,
-						"Skull slope": 1,
-						"Fishing spot (big fishing net, harpoon)": 1
-					},
-					
-					
-			
 			"Sections": {
 				"1": {
 					"Object": {
@@ -207070,7 +207130,10 @@
 						"Kharidian cactus (healthy)": 5
 					},
 					"Monster": {
-						"Goat": 4
+						"Goat": 4,
+						"Desert lizard": 1,
+						"Lizard": 1,
+						"Small lizard": 1
 					},
 					"Clue": {
 						"elite": 4
@@ -207096,9 +207159,6 @@
 					"Spawn": {
 						"Shortbow": 1,
 						"Bronze arrow": 3
-					},
-					"Shop": {
-						"Dominion Tower Rewards": true
 					},
 					"Clue": {
 						"elite": 6
@@ -223732,6 +223792,16 @@
 				"Earth impling": 10,
 				"Essence impling": 6,
 				"Eclectic impling": 5,
+				"Spirit impling": 1,
+				"Nature impling": 1,
+				"Magpie impling": 1,
+				"Ninja impling": 1,
+				"Pirate impling": 1,
+				"Divine impling": 1,
+				"Dragon impling": 1,
+				"Zombie impling": 1,
+				"Kingly impling": 1,
+				"Crystal impling": 1,
 				"Elnock Inquisitor": 1,
 				"Immenizz": 1,
 				"Imp defender": 32
@@ -226858,6 +226928,11 @@
 				"Chaos druid warrior": 9,
 				"Salarin the Twisted": 1,
 				"Poison spider": 18
+			},
+			"Spawn": {
+				"Knife": 1,
+				"Lockpick": 1,
+				"Herring": 1
 			},
 			"Clue": {
 				"hard": 2
@@ -239521,7 +239596,7 @@
 			"CoolStoryBroChunks[+]": ["9275", "9531-1"],
 			"CorruptedEggSpawn[+]": ["12841-1", "12842", "12331-1", "12330", "13098-1", "13099"],
 			"CorruptedScarabs[+]": ["12587-1", "12843-1", "13098-1", "12586", "12585"],
-			"CropCircle[+]": ["9782-1", "10044-1", "10288-1", "10292", "11058", "11062-1", "11826", "11829-1", "12339", "12595", "12598", "12852", "14639"],
+			"CropCircle[+]": ["9782-1", "10044-1", "10288-1", "10292", "11058", "11062-1", "11826", "11829-1", "12339", "12595", "12598", "12852", "14639", "16947"],
 			"CreatureOfFenkenstrain1[+]": ["13878-1", "14135"],
 			"CursedEnergyRift[+]": ["12602", "12601"],
 			"CurseOfZaros1[+]": ["12093", "12089", "12342-1", "12590-1"],
@@ -239554,6 +239629,8 @@
 			"HH trout chunk[+]": ["17203-1", "17717-1"],
 			"HH tuna chunk[+]": ["16435-1", "16944"],
 			"HighwaymanChunks[+]": ["11571-1", "11827", "12083-1"],
+			"Impling spawns[+]": ["Al Kharid resource dungeon", "Gorajo resource dungeon"],
+			"Impling spawns zombie[+]": ["Al Kharid resource dungeon", "Gorajo resource dungeon", "City of Um"],
 			"Kandarin safes[+]": ["10032-1", "10291", "10547-1", "10806-2"],
 			"Karamja mahogany[+]": ["11312", "11565-1", "11054"],
 			"Karamja teak[+]": ["11312", "11309-1", "11565-1", "11568-2", "11569-1"],
@@ -239663,6 +239740,8 @@
 			"HH trout chunk[+]": "Any chunk in Havenhythe with a fishing spot (lure, bait)",
 			"HH tuna chunk[+]": "Any chunk in Havenhythe with a fishing spot (big fishing net, harpoon)",
 			"HighwaymanChunks[+]": "Any chunks in the south of Falador area that contain highwaymen",
+			"Impling spawns[+]": "Any underground area implings may spawn",
+			"Impling spawns zombie[+]": "Any underground area zombie implings may spawn",
 			"Kandarin safes[+]": "Any chunk in Kandarin with safes",
 			"Karamja mahogany[+]": "Any chunk in Karamja with a mahogany tree in it",
 			"Karamja teak[+]": "Any chunk in Karamja with a teak tree in it",
@@ -241348,6 +241427,16 @@
 			"GreaterEnsoulMaterial[+]": "Perofrm any 'Greater ensoul material' ritual"
 		},
 		"telegrabSpawns": {},
+		"keyMonsters": {
+			"Barrows: Rise of the Six": ["Barrows totem"],
+			"The Magister": ["Key to the Crossing"],
+			"Legio Primus": ["Ascension Keystone"],
+			"Legio Secundus": ["Ascension Keystone"],
+			"Legio Tertius": ["Ascension Keystone"],
+			"Legio Quartus": ["Ascension Keystone"],
+			"Legio Quintus": ["Ascension Keystone"],
+			"Legio Sextus": ["Ascension Keystone"]
+		},
 		"droprateOverrides": {},
 		"rangedItems": {
 			"Chargebow": 1,
@@ -244809,7 +244898,7 @@
 				"1-4": "Common"
 			},
 			"Key to the Crossing": {
-				"1": "Common"
+				"1": "1/16"
 			},
 			"Manuscript of Amascut": {
 				"1": "Common"
@@ -262490,13 +262579,13 @@
 				"5": "Common"
 			},
 			"Malachi's tooth": {
-				"1": "1/300"
+				"1": "1/375"
 			},
 			"Malachi's claw": {
-				"1": "1/300"
+				"1": "1/375"
 			},
 			"Invoke Arisen Flesh incantation codex": {
-				"1": "1/300"
+				"1": "1/750"
 			},
 			"Coins": {
 				"300000-650000": "Common"
@@ -262565,13 +262654,13 @@
 				"1": "Uncommon"
 			},
 			"Ghrazi Fauld": {
-				"1/1500": "Common"
+				"1": "1/300"
 			},
 			"Ghrazi weapons": {
 				"1": "1/500"
 			},
 			"ForgottenPaintingPiece+": {
-				"1": "1/128"
+				"1": "1/40"
 			}
 		},
 		"Giant Mimic": {
@@ -301234,6 +301323,14 @@
 			"Chaos druid": {
 				"Edgeville Dungeon": [{
 					"Members only": "Nonskill"
+				}],
+				"Yanille Agility Dungeon": [{
+					"Swing across the ~|monkeybars (Yanille Agility Dungeon)|~": "Agility"
+				}]
+			},
+			"Chaos druid warrior": {
+				"Yanille Agility Dungeon": [{
+					"Cross the ~|balancing ledge (Yanille Agility Dungeon)|~": "Agility"
 				}]
 			},
 			"Chompy bird": {
@@ -301593,6 +301690,11 @@
 					"~|Bringing Home the Bacon|~ Complete the quest": "Quest"
 				}]
 			},
+			"Poison spider": {
+				"Yanille Agility Dungeon": [{
+					"Cross the ~|balancing ledge (Yanille Agility Dungeon)|~": "Agility"
+				}]
+			},
 			"Rasial, the First Necromancer": {
 				"Rasial's Citadel": [{
 					"~|Alpha vs Omega|~ 2": "Quest"
@@ -301628,6 +301730,11 @@
 					"Members only": "Nonskill"
 				}]
 			},
+			"Salarin the Twisted": {
+				"Yanille Agility Dungeon": [{
+					"Cross the ~|pile of rubble|~": "Agility"
+				}]
+			},
 			"Scorpion": {
 				"Temple of Ikov": [{
 					"~|Temple of Ikov|~ 1": "Quest"
@@ -301653,6 +301760,9 @@
 			"Skeleton#Armed": {
 				"Temple of Ikov": [{
 					"~|Temple of Ikov|~ 1": "Quest"
+				}],
+				"Yanille Agility Dungeon": [{
+					"Cross the ~|obstacle pipe (Yanille Agility dungeon)|~": "Agility"
 				}]
 			},
 			"The Shaikahan": {
@@ -303285,6 +303395,11 @@
 			"Iron mace": {
 				"10547-1": [{
 					"Unlock the ~|Secure Chest|~ door at Ardougne Market": "Thieving"
+				}]
+			},
+			"Lockpick": {
+				"Yanille Agility Dungeon": [{
+					"Swing across the ~|monkeybars (Yanille Agility Dungeon)|~": "Agility"
 				}]
 			}
 		}
@@ -306210,9 +306325,6 @@
 			"Pirate leggings (orange)": true,
 			"Pirate boots": true,
 			"Eye patch": true
-		},
-		"Dominion Tower Rewards": {
-			"Dominion marker (stage 4)": true
 		},
 		"Dommik's Crafting Store": {
 			"Chisel": true,
