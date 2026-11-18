@@ -8756,7 +8756,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wear a piece of ~|Void Knight equipment|~": {
+			"Equip a piece of ~|Void Knight equipment|~": {
 				"Chunks": ["10537"],
 				"Level": 42,
 				"Skills": {
@@ -10205,7 +10205,7 @@
 		        "NoPet": true,
 		        "Priority": 3
 		    },
-		    "Wear a piece of ~|Void Knight equipment|~": {
+		    "Equip a piece of ~|Void Knight equipment|~": {
 		        "Chunks": ["10537"],
 		        "Level": 42,
 		        "Skills": {
@@ -25063,7 +25063,7 @@
 				"Priority": 24
 			},
 			"Craft an ~|Igneous Kal-Zuk|~": {
-				"Monsters": ["TzKal-Zuk (Hard Mode)"],
+				"Category": ["Hard Mode Bosses"],
 				"Items": ["Igneous Kal-Xil*", "Igneous Kal-Ket*", "Igneous Kal-Mej*"],
 				"Level": 90,
 				"Output": "Igneous Kal-Zuk",
@@ -27246,7 +27246,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wear a piece of ~|Void Knight equipment|~": {
+			"Equip a piece of ~|Void Knight equipment|~": {
 				"Chunks": ["10537"],
 				"Level": 42,
 				"Skills": {
@@ -31796,6 +31796,14 @@
 				"Priority": 5,
 				"Not F2P": true
 			},
+			"Enter the ~|Edimmu resource dungeon|~": {
+				"Chunks": ["8757"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 1,
+				"Not F2P": true,
+				"NoBoost": true
+			},
 			"Unlock ~|warped floors|~": {
 				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 95,
@@ -31856,14 +31864,6 @@
 				"Priority": 1,
 				"Output": "Ferret of Doom",
 				"Not F2P": true
-			},
-			"Enter the ~|Edimmu resource dungeon|~": {
-				"Chunks": ["8757"],
-				"Level": 115,
-				"Primary": false,
-				"Priority": 1,
-				"Not F2P": true,
-				"NoBoost": true
 			},
 			"Buy the ~|Dungeoneering master cape|~": {
 				"Category": ["Master skillcape"],
@@ -32827,6 +32827,15 @@
 				"Output": "Banana",
 				"Primary": false,
 				"Priority": 3
+			},
+			"Grow ~|snape grass|~": {
+				"Category": ["Normal Farming"],
+				"Items": ["Snape grass seed*"],
+				"Objects": ["Allotment"],
+				"Level": 34,
+				"Output": "Snape grass",
+				"Primary": false,
+				"Priority": 1
 			},
 			"Build a medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
@@ -34378,21 +34387,12 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Grow ~|snape grass|~": {
-				"Category": ["Normal Farming"],
-				"Items": ["Snape grass seed*"],
-				"Objects": ["Allotment"],
-				"Level": 80,
-				"Output": "Snape grass",
-				"Primary": false,
-				"Priority": 1
-			},
 			"Craft a ~|polypore staff|~": {
 				"Items": ["Polypore stick*", "Polypore spore*", "Fire rune*"],
 				"Level": 80,
 				"Output": "Polypore staff",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 1
 			},
 			"Grow a ~|grimy samaden|~": {
 				"Category": ["Normal Farming"],
@@ -34401,7 +34401,7 @@
 				"Level": 80,
 				"Output": "Grimy samaden",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 2
 			},
 			"Harvest a ~|shimmering honeycomb|~ from a beehive": {
 				"Category": ["Normal Farming"],
@@ -34410,7 +34410,7 @@
 				"Level": 80,
 				"Output": "Shimmering honeycomb",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 3
 			},
 			"Raise a ~|gloomshroom zygomite|~": {
 				"Category": ["Normal Farming"],
@@ -45560,7 +45560,7 @@
 				"Not F2P": true
 			},
 			"Catch an ~|essence impling|~": {
-				"NPCS": ["Essence impling"],
+				"NPCs": ["Essence impling"],
 				"Items": ["Impling jar"],
 				"Level": 42,
 				"Output": "Essence impling",
@@ -45696,7 +45696,7 @@
 				"Priority": 3
 			},
 			"Catch an ~|eclectic impling|~": {
-				"NPCS": ["Eclectic impling"],
+				"NPCs": ["Eclectic impling"],
 				"Items": ["Impling jar"],
 				"Level": 50,
 				"Output": "Eclectic impling",
@@ -45785,7 +45785,7 @@
 			},
 			"Catch a ~|spirit impling|~": {
 				"Category": ["Extra implings"],
-				"NPCS": ["Spirit impling"],
+				"NPCs": ["Spirit impling"],
 				"Items": ["Impling jar"],
 				"Level": 54,
 				"Output": "Spirit impling",
@@ -45857,7 +45857,7 @@
 			},
 			"Catch a ~|nature impling|~": {
 				"Category": ["Extra implings"],
-				"NPCS": ["Nature impling"],
+				"NPCs": ["Nature impling"],
 				"Items": ["Impling jar"],
 				"Level": 58,
 				"Output": "Nature impling",
@@ -45922,7 +45922,7 @@
 			},
 			"Catch a ~|magpie impling|~": {
 				"Category": ["Extra implings"],
-				"NPCS": ["Magpie impling"],
+				"NPCs": ["Magpie impling"],
 				"Items": ["Impling jar"],
 				"Level": 65,
 				"Output": "Magpie impling",
@@ -46140,7 +46140,7 @@
 			},
 			"Catch a ~|ninja impling|~": {
 				"Category": ["Extra implings"],
-				"NPCS": ["Ninja impling"],
+				"NPCs": ["Ninja impling"],
 				"Items": ["Impling jar"],
 				"Level": 74,
 				"Output": "Ninja impling",
@@ -46229,7 +46229,7 @@
 			},
 			"Catch a ~|pirate impling|~": {
 				"Category": ["Extra implings"],
-				"NPCS": ["Pirate impling"],
+				"NPCs": ["Pirate impling"],
 				"Items": ["Impling jar"],
 				"Tasks": {
 					"~|Rocking Out|~ Complete the quest": "Quest"
@@ -46241,7 +46241,7 @@
 			},
 			"Catch a ~|pirate impling|~ after Pieces of Hate": {
 				"Category": ["Extra implings"],
-				"NPCS": ["Pirate impling"],
+				"NPCs": ["Pirate impling"],
 				"Items": ["Impling jar"],
 				"Level": 76,
 				"Tasks": {
@@ -46351,7 +46351,7 @@
 			},
 			"Catch a ~|divine impling|~": {
 				"Category": ["Extra implings"],
-				"NPCS": ["Divine impling"],
+				"NPCs": ["Divine impling"],
 				"Items": ["Impling jar"],
 				"Level": 79,
 				"Output": "Divine impling",
@@ -46477,7 +46477,7 @@
 			},
 			"Catch a ~|dragon impling|~": {
 				"Category": ["Extra implings"],
-				"NPCS": ["Dragon impling"],
+				"NPCs": ["Dragon impling"],
 				"Items": ["Impling jar"],
 				"Level": 83,
 				"Output": "Dragon impling",
@@ -46574,7 +46574,7 @@
 			},
 			"Catch a ~|zombie impling|~": {
 				"Category": ["Extra implings"],
-				"NPCS": ["Zombie impling"],
+				"NPCs": ["Zombie impling"],
 				"Items": ["Impling jar"],
 				"Level": 87,
 				"Output": "Zombie impling",
@@ -46847,7 +46847,7 @@
 			},
 			"Catch a ~|kingly impling|~": {
 				"Category": ["Extra implings"],
-				"NPCS": ["Kingly impling"],
+				"NPCs": ["Kingly impling"],
 				"Items": ["Impling jar"],
 				"Level": 91,
 				"Output": "Kingly impling",
@@ -46942,7 +46942,7 @@
 			},
 			"Catch a ~|crystal impling|~": {
 				"Category": ["Extra implings"],
-				"NPCS": ["Crystal impling"],
+				"NPCs": ["Crystal impling"],
 				"Items": ["Impling jar"],
 				"Level": 95,
 				"Output": "Crystal impling",
@@ -50718,7 +50718,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Equip ~|void knight equipment|~": {
+			"Equip a piece of ~|Void Knight equipment|~": {
 				"Items": ["Voidequipment[+]"],
 				"Level": 42,
 				"Primary": false,
@@ -56358,7 +56358,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Equip a piece of ~|void knight equipment|~": {
+			"Equip a piece of ~|Void Knight equipment|~": {
 				"Items": ["Voidequipment[+]"],
 				"Level": 22,
 				"Primary": false,
@@ -58612,7 +58612,7 @@
 				"NoPet": true,
 				"Not F2P": true
 			},
-			"Equip a piece of ~|void knight equipment|~": {
+			"Equip a piece of ~|Void Knight equipment|~": {
 				"Items": ["Voidequipment[+]"],
 				"Level": 42,
 				"Primary": false,
@@ -63908,6 +63908,60 @@
 				"Output": "Corrupted scorpion",
 				"NoPet": true
 			},
+			"Slay ~|Legio Primus|~": {
+				"Level": 88,
+				"Monsters": ["Legio Primus"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Legio Primus",
+				"NoPet": true
+			},
+			"Slay ~|Legio Secundus|~": {
+				"Level": 88,
+				"Monsters": ["Legio Secundus"],
+				"Primary": false,
+				"Priority": 4,
+				"Source": "drop",
+				"Output": "Legio Secundus",
+				"NoPet": true
+			},
+			"Slay ~|Legio Tertius|~": {
+				"Level": 88,
+				"Monsters": ["Legio Tertius"],
+				"Primary": false,
+				"Priority": 5,
+				"Source": "drop",
+				"Output": "Legio Tertius",
+				"NoPet": true
+			},
+			"Slay ~|Legio Quartus|~": {
+				"Level": 88,
+				"Monsters": ["Legio Quartus"],
+				"Primary": false,
+				"Priority": 6,
+				"Source": "drop",
+				"Output": "Legio Quartus",
+				"NoPet": true
+			},
+			"Slay ~|Legio Quintus|~": {
+				"Level": 88,
+				"Monsters": ["Legio Quintus"],
+				"Primary": false,
+				"Priority": 7,
+				"Source": "drop",
+				"Output": "Legio Quintus",
+				"NoPet": true
+			},
+			"Slay ~|Legio Sextus|~": {
+				"Level": 88,
+				"Monsters": ["Legio Sextus"],
+				"Primary": false,
+				"Priority": 8,
+				"Source": "drop",
+				"Output": "Legio Sextus",
+				"NoPet": true
+			},
 			"Slay an ~|anagami|~": {
 				"Level": 90,
 				"Monsters": ["Anagami"],
@@ -64147,58 +64201,24 @@
 				"Output": "Ganodermic beast",
 				"NoPet": true
 			},
-			"Slay ~|Legio Primus|~": {
+			"Slay ~|The Magister|~": {
+				"Items": ["Key to the Crossing"],
 				"Level": 95,
-				"Monsters": ["Legio Primus"],
+				"Monsters": ["The Magister"],
 				"Primary": false,
 				"Priority": 5,
 				"Source": "drop",
-				"Output": "Legio Primus",
+				"Output": "The Magister",
 				"NoPet": true
 			},
-			"Slay ~|Legio Secundus|~": {
+			"Slay a ~|salawa akh|~": {
+				"Items": ["Feather of Ma'at"],
 				"Level": 95,
-				"Monsters": ["Legio Secundus"],
+				"Monsters": ["Salawa akh"],
 				"Primary": false,
 				"Priority": 6,
 				"Source": "drop",
-				"Output": "Legio Secundus",
-				"NoPet": true
-			},
-			"Slay ~|Legio Tertius|~": {
-				"Level": 95,
-				"Monsters": ["Legio Tertius"],
-				"Primary": false,
-				"Priority": 7,
-				"Source": "drop",
-				"Output": "Legio Tertius",
-				"NoPet": true
-			},
-			"Slay ~|Legio Quartus|~": {
-				"Level": 95,
-				"Monsters": ["Legio Quartus"],
-				"Primary": false,
-				"Priority": 8,
-				"Source": "drop",
-				"Output": "Legio Quartus",
-				"NoPet": true
-			},
-			"Slay ~|Legio Quintus|~": {
-				"Level": 95,
-				"Monsters": ["Legio Quintus"],
-				"Primary": false,
-				"Priority": 9,
-				"Source": "drop",
-				"Output": "Legio Quintus",
-				"NoPet": true
-			},
-			"Slay ~|Legio Sextus|~": {
-				"Level": 95,
-				"Monsters": ["Legio Sextus"],
-				"Primary": false,
-				"Priority": 10,
-				"Source": "drop",
-				"Output": "Legio Sextus",
+				"Output": "Salawa akh",
 				"NoPet": true
 			},
 			"Slay an ~|arhat|~": {
@@ -64338,9 +64358,19 @@
 				"Level": 100,
 				"Monsters": ["Corrupted kalphite marauder"],
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 22,
 				"Source": "drop",
 				"Output": "Corrupted kalphite marauder",
+				"NoPet": true
+			},
+			"Slay a ~|feline akh|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 100,
+				"Monsters": ["Feline akh"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Feline akh",
 				"NoPet": true
 			},
 			"Slay a ~|hydrix dragon|~": {
@@ -64399,14 +64429,14 @@
 				"Output": "Ravenous strigoi",
 				"NoPet": true
 			},
-			"Slay a ~|salawa akh|~": {
+			"Slay a ~|scarab akh|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 105,
-				"Monsters": ["Salawa akh"],
+				"Monsters": ["Scarab akh"],
 				"Primary": false,
 				"Priority": 1,
 				"Source": "drop",
-				"Output": "Salawa akh",
+				"Output": "Scarab akh",
 				"NoPet": true
 			},
 			"Slay a ~|venomous dinosaur|~": {
@@ -64427,16 +64457,6 @@
 				"Output": "Bulbous crawler",
 				"NoPet": true
 			},
-			"Slay a ~|feline akh|~": {
-				"Items": ["Feather of Ma'at"],
-				"Level": 107,
-				"Monsters": ["Feline akh"],
-				"Primary": false,
-				"Priority": 1,
-				"Source": "drop",
-				"Output": "Feline akh",
-				"NoPet": true
-			},
 			"Slay a ~|moss golem|~": {
 				"Level": 108,
 				"Monsters": ["Moss golem"],
@@ -64444,16 +64464,6 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Moss golem",
-				"NoPet": true
-			},
-			"Slay a ~|scarab akh|~": {
-				"Items": ["Feather of Ma'at"],
-				"Level": 109,
-				"Monsters": ["Scarab akh"],
-				"Primary": false,
-				"Priority": 1,
-				"Source": "drop",
-				"Output": "Scarab akh",
 				"NoPet": true
 			},
 			"Slay a ~|liverworts|~": {
@@ -64501,16 +64511,6 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Ripper dinosaur",
-				"NoPet": true
-			},
-			"Slay ~|The Magister|~": {
-				"Items": ["Key to the Crossing"],
-				"Level": 115,
-				"Monsters": ["The Magister"],
-				"Primary": false,
-				"Priority": 1,
-				"Source": "drop",
-				"Output": "The Magister",
 				"NoPet": true
 			},
 			"Slay an ~|imperial warrior akh|~": {
@@ -65912,7 +65912,6 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			
 			"Upgrade a ~|havensilver halberd|~ twice": {
 				"Items": ["Havensilver halberd*", "Havensilver bar", "Sanguine matter*"],
 				"Level": 60,
@@ -66014,6 +66013,15 @@
 				"Output": "t80 death skull weapon",
 				"Priority": 1
 			},
+			"Forge the ~|godsword blade|~": {
+				"Items": ["Godsword shard 1*", "Godsword shard 2*", "Godsword shard 3*"],
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Level": 75,
+				"Output": "Godsword blade",
+				"primary": true,
+				"Priority": 2,
+				"Partial": true
+			},
 			"Smelt a ~|bane bar|~": {
 				"Items": ["Banite ore*"],
 				"Level": 80,
@@ -66045,15 +66053,6 @@
 				"Output": "Tagga's corehammer",
 				"Primary": true,
 				"Priority": 4
-			},
-			"Forge the ~|godsword blade|~": {
-				"Items": ["Godsword shard 1*", "Godsword shard 2*", "Godsword shard 3*"],
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Level": 80,
-				"Output": "Godsword blade",
-				"primary": true,
-				"Priority": 5,
-				"Partial": true
 			},
 			"Unlock ~|Invention|~": {
 				"Chunks": ["Invention Guild"],
@@ -67430,7 +67429,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Equip ~|void knight equipment|~": {
+			"Equip a piece of ~|Void Knight equipment|~": {
 				"Items": ["Voidequipment[+]"],
 				"Level": 42,
 				"Primary": false,
@@ -69908,7 +69907,7 @@
 				"Items": ["Crimson charm*", "Yak-hide*", "Pouch*", "Spirit shards*"],
 				"Level": 96,
 				"Objects": ["Obelisk"],
-				"Output": "Pack yak pouch",
+				"Output": "Pack yak pouch loot",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -117920,9 +117919,9 @@
 				"RuneScore": 5
 			},
 			"~|Combat Mastery achievements#Easy|~ Giant Mole (HM) Novice Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the Giant mole in hard mode, solo, in less than 06:00.",
-				"Monsters": ["Giant mole (Hard Mode)"],
+				"Monsters": ["Giant mole"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 1,
@@ -118055,9 +118054,9 @@
 				"RuneScore": 5
 			},
 			"~|Combat Mastery achievements#Easy|~ Whack a Mole II": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the Giant mole in hard mode 10 times.",
-				"Monsters": ["Giant mole (Hard Mode)"],
+				"Monsters": ["Giant mole"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 1,
@@ -118300,9 +118299,9 @@
 				"RuneScore": 10
 			},
 			"~|Combat Mastery achievements#Medium|~ Giant Mole (HM) Beginner Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the Giant mole in hard mode, solo, in less than 05:00.",
-				"Monsters": ["Giant mole (Hard Mode)"],
+				"Monsters": ["Giant mole"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 2,
@@ -118700,7 +118699,7 @@
 			},
 			"~|Combat Mastery achievements#Hard|~ Araxxi Competent Speed Killer": {
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
-				"Description": "Defeat Araxxi solo in less than 05:00.",
+				"Description": "Defeat Araxxi solo in less than 04:45.",
 				"Monsters": ["Araxxi"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
@@ -118708,9 +118707,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Are You Graardone yet?": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat General Graardor in hard mode, solo, without being hit by damage reflected by his 'Graardor Protect' attack.",
-				"Monsters": ["General Graardor (Hard Mode)"],
+				"Monsters": ["General Graardor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -118798,18 +118797,18 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Between a Rock and a Graard-place": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat General Graardor in hard mode, solo, without taking damage from his 'Graardor Smash' attack.",
-				"Monsters": ["General Graardor (Hard Mode)"],
+				"Monsters": ["General Graardor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Birdstrike III": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kree'arra in hard mode 25 times.",
-				"Monsters": ["Kree'arra (Hard Mode)"],
+				"Monsters": ["Kree'arra"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -118817,7 +118816,7 @@
 			},
 			"~|Combat Mastery achievements#Hard|~ Black Stone Dragon Competent Speed Killer": {
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
-				"Description": "Defeat the Black Stone Dragon solo in less than 05:30.",
+				"Description": "Defeat the Black Stone Dragon solo in less than 05:00.",
 				"Monsters": ["Black Stone Dragon"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
@@ -118961,9 +118960,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Commander Zilyana (HM) Competent Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Commander Zilyana in hard mode, solo, in less than 01:15.",
-				"Monsters": ["Commander Zilyana (Hard Mode)"],
+				"Monsters": ["Commander Zilyana"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -119135,9 +119134,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ General Disaster III": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat General Graardor in hard mode 25 times.",
-				"Monsters": ["General Graardor (Hard Mode)"],
+				"Monsters": ["General Graardor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -119153,9 +119152,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ General Graardor (HM) Competent Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat General Graardor in hard mode, solo, in less than 00:45.",
-				"Monsters": ["General Graardor (Hard Mode)"],
+				"Monsters": ["General Graardor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -119189,18 +119188,18 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Gregorovic (HM) Competent Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Gregorovic in hard mode, solo, in less than 02:30.",
-				"Monsters": ["Gregorovic (Hard Mode)"],
+				"Monsters": ["Gregorovic"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Gregore-y III": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Gregorovic in hard mode 25 times.",
-				"Monsters": ["Gregorovic (Hard Mode)"],
+				"Monsters": ["Gregorovic"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -119279,18 +119278,18 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Helwyr (HM) Competent Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Helwyr in hard mode, solo, in less than 02:30.",
-				"Monsters": ["Helwyr (Hard Mode)"],
+				"Monsters": ["Helwyr"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Hel in a Handbasket III": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Helwyr in hard mode 25 times.",
-				"Monsters": ["Helwyr (Hard Mode)"],
+				"Monsters": ["Helwyr"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -119432,9 +119431,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Kill K'ril Vol 2 III": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat K'ril Tsutsaroth in hard mode 25 times.",
-				"Monsters": ["K'ril Tsutsaroth (Hard Mode)"],
+				"Monsters": ["K'ril Tsutsaroth"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -119450,9 +119449,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Kree'arra (HM) Competent Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kree'arra in hard mode, solo; in less than 01:00.",
-				"Monsters": ["Kree'arra (Hard Mode)"],
+				"Monsters": ["Kree'arra"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -119468,9 +119467,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ K'ril Tsutsaroth (HM) Competent Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat K'ril Tsutsaroth in hard mode, solo, in less than 00:45.",
-				"Monsters": ["K'ril Tsutsaroth (Hard Mode)"],
+				"Monsters": ["K'ril Tsutsaroth"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -119519,9 +119518,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Lightning Rod": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Commander Zilyana in hard mode, solo, without being hit by her 'Lightning' attack.",
-				"Monsters": ["Commander Zilyana (Hard Mode)"],
+				"Monsters": ["Commander Zilyana"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -119586,9 +119585,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ More Fast More Furious III": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Avaryss and Nymora in hard mode 25 times.",
-				"Monsters": ["Twin Furies (Hard Mode)"],
+				"Monsters": ["Twin Furies"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -119775,9 +119774,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Snowfall III": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the Arch-Glacor in hard mode 25 times.",
-				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"Monsters": ["Arch-Glacor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -119868,9 +119867,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Sunshine Through the Rain": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Commander Zilyana in hard mode, solo, whilst under the effects of her 'Lightning' attack and the Sunshine ability.",
-				"Monsters": ["Commander Zilyana (Hard Mode)"],
+				"Monsters": ["Commander Zilyana"],
 				"Tasks": {
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
@@ -120012,9 +120011,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Tsutsaroth-made Stalagmite": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat K'ril Tsutsaroth in hard mode, solo, without being hit by his 'Smash' attack.",
-				"Monsters": ["K'ril Tsutsaroth (Hard Mode)"],
+				"Monsters": ["K'ril Tsutsaroth"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -120030,9 +120029,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Twin Furies (HM) Competent Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Twin Furies in hard mode, solo, in less than 01:00.",
-				"Monsters": ["Twin Furies (Hard Mode)"],
+				"Monsters": ["Twin Furies"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -120093,9 +120092,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Vindicta & Gorvek (HM) Competent Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Vindicta & Gorvek solo in less than 03:30.",
-				"Monsters": ["Vindicta (Hard Mode)"],
+				"Monsters": ["Vindicta"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -120120,9 +120119,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Was That For Me?": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat K'ril Tsutsaroth in hard mode, solo, without being hit by his 'Charge' attack.",
-				"Monsters": ["K'ril Tsutsaroth (Hard Mode)"],
+				"Monsters": ["K'ril Tsutsaroth"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -120156,9 +120155,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Weather Forecast": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kree'arra in hard mode, solo, without being hit by his 'Vortex' attack.",
-				"Monsters": ["Kree'arra (Hard Mode)"],
+				"Monsters": ["Kree'arra"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -120210,9 +120209,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ You Wouldn't Like Me When I'm Angry": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat General Graardor in hard mode, solo, without taking damage from his 'Graardor Mad' attack.",
-				"Monsters": ["General Graardor (Hard Mode)"],
+				"Monsters": ["General Graardor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -120237,9 +120236,9 @@
 				"RuneScore": 15
 			},
 			"~|Combat Mastery achievements#Hard|~ Zillier Way To Die III": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Commander Zilyana in hard mode 25 times.",
-				"Monsters": ["Commander Zilyana (Hard Mode)"],
+				"Monsters": ["Commander Zilyana"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3,
@@ -120308,7 +120307,7 @@
 			},
 			"~|Combat Mastery achievements#Elite|~ Araxxi Elite Speed Killer": {
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
-				"Description": "Defeat Araxxi solo in less than 03:00.",
+				"Description": "Defeat Araxxi solo in less than 02:42.",
 				"Monsters": ["Araxxi"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
@@ -120316,9 +120315,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Arch-Glacor (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Arch-Glacor in hard mode at 500% or higher enrage in less than 05:00.",
-				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"Monsters": ["Arch-Glacor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120343,9 +120342,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Attack of the Clones III": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac in hard mode 25 times.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120416,7 +120415,7 @@
 			},
 			"~|Combat Mastery achievements#Elite|~ Black Stone Dragon Elite Speed Killer": {
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
-				"Description": "Defeat the Black Stone Dragon solo in less than 04:00.",
+				"Description": "Defeat the Black Stone Dragon solo in less than 03:30.",
 				"Monsters": ["Black Stone Dragon"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
@@ -120442,9 +120441,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Bouncing Around": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the Twin Furies in hard mode, solo, without being hit by their 'Lava Bomb' attack.",
-				"Monsters": ["Twin Furies (Hard Mode)"],
+				"Monsters": ["Twin Furies"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120532,9 +120531,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Commander Zilyana (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Commander Zilyana in hard mode, solo, in less than 00:42.",
-				"Monsters": ["Commander Zilyana (Hard Mode)"],
+				"Monsters": ["Commander Zilyana"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120605,9 +120604,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Definitely Can't Tocuh This": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac, the bound in hard mode without being hit by his 'Lightning Strike' attack.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120650,9 +120649,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Ex-Ex-Dragon III": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Zemouregal & Vorkath in hard mode 25 times.",
-				"Monsters": ["Zemouregal & Vorkath (Hard Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120668,18 +120667,18 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ The Floor is Poison": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Zemouregal & Vorkath in hard mode without taking damage from poison.",
-				"Monsters": ["Zemouregal & Vorkath (Hard Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ The Floor is Spiky": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Zemouregal & Vorkath in hard mode without taking damage from their 'Bone Spikes' attack.",
-				"Monsters": ["Zemouregal & Vorkath (Hard Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120722,9 +120721,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ General Graardor (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat General Graardor solo in less than 00:24.",
-				"Monsters": ["General Graardor (Hard Mode)"],
+				"Monsters": ["General Graardor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120758,9 +120757,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Gregorovic (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Gregorovic in hard mode in less than 01:48.",
-				"Monsters": ["Gregorovic (Hard Mode)"],
+				"Monsters": ["Gregorovic"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120803,18 +120802,18 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Helwyr (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Helwyr in hard mode in less than 01:30.",
-				"Monsters": ["Helwyr (Hard Mode)"],
+				"Monsters": ["Helwyr"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Here We Rago Again II": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode 10 times.",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120839,9 +120838,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ If I Could Turn Back Time... I Definitely Wouldn't": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac, the bound in hard mode without using the 'Warp Time' action ability.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120974,9 +120973,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Kerapac (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac, the bound in hard mode, solo, in less than 06:00.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120992,9 +120991,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Kezalam (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kezalam, the Wanderer in hard mode, solo, in less than 04:00.",
-				"Monsters": ["Kezalam, the Wanderer (Hard Mode)"],
+				"Monsters": ["Kezalam, the Wanderer"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121010,27 +121009,27 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Kree'arra (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kree'arra in hard mode, solo, in less than 00:30.",
-				"Monsters": ["Kree'arra (Hard Mode)"],
+				"Monsters": ["Kree'arra"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ K'ril Tsutsaroth (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat K'ril Tsutsaroth in hard mode, solo, in less than 00:27.",
-				"Monsters": ["K'ril Tsutsaroth (Hard Mode)"],
+				"Monsters": ["K'ril Tsutsaroth"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ I Lava This": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the Twin Furies in hard mode, solo, after dealing damage to the Twin Furies using their 'Blue Lava Bom' attack.",
-				"Monsters": ["Twin Furies (Hard Mode)"],
+				"Monsters": ["Twin Furies"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121187,7 +121186,7 @@
 			"~|Combat Mastery achievements#Elite|~ Nakatra (HM) Elite Speed Killer": {
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
 				"Description": "Defeat Nakatra, Devourer Eternal in hard mode in less than 05:00.",
-				"Monsters": ["Nakatra, Devourer Eternal (Hard Mode)"],
+				"Monsters": ["Nakatra, Devourer Eternal", "Hard Mode Bosses"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121275,9 +121274,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ One At a Time": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac, the bound in hard mode, without letting him jump more than once each phase from his 'Jumping Slam' attack.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121455,9 +121454,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Smashing Success": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode by personally using the Maul of Omens on him on any rotation.",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121491,9 +121490,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ A Song of Ice and Ire IV": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the Arch-Glacor at 500% enrage.",
-				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"Monsters": ["Arch-Glacor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121680,9 +121679,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Too Mushroom II": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Helwyr in hard mode, solo, without being hit by his 'Mushroom Explosion' attack.",
-				"Monsters": ["Helwyr (Hard Mode)"],
+				"Monsters": ["Helwyr"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121698,9 +121697,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Twin Furies (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Twin Furies solo in hard mode in less than 00:45.",
-				"Monsters": ["Twin Furies (Hard Mode)"],
+				"Monsters": ["Twin Furies"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121716,9 +121715,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ The Ultimate Tank Test": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac, the bound in hard mode without entering an echo's time thread.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121752,18 +121751,18 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Vermyx (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Vermyx, Brood Mother in hard mode in less than 02:30.",
-				"Monsters": ["Vermyx, Brood Mother (Hard Mode)"],
+				"Monsters": ["Vermyx, Brood Mother"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Vindicta & Gorvek (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Vindicta & Gorvek solo in less than 02:00.",
-				"Monsters": ["Vindicta (Hard Mode)"],
+				"Monsters": ["Vindicta"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121788,18 +121787,18 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Vorago (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode in less than 14:00.",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Vorago (HM) (trio)": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode in a team of three or fewer.",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121905,9 +121904,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ You Really Zuk II": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat TzKal-Zuk in hard mode 10 times.",
-				"Monsters": ["TzKal-Zuk (Hard Mode)"],
+				"Monsters": ["TzKal-Zuk"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121950,9 +121949,9 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Zemouregal & Vorkath (HM) Elite Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Zemouregal & Vorkath in less than 05:00.",
-				"Monsters": ["Zemouregal & Vorkath (Hard Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -122012,7 +122011,7 @@
 			},
 			"~|Combat Mastery achievements#Master|~ Araxxi Master Speed Killer": {
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
-				"Description": "Defeat Araxxi solo in less than 01:42.",
+				"Description": "Defeat Araxxi solo in less than 01:22.",
 				"Monsters": ["Araxxi"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
@@ -122038,9 +122037,9 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Arch-Glacor (HM) Master Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Arch-Glacor in hard mode at 1000 or higher enrage in less than 02:30.",
-				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"Monsters": ["Arch-Glacor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122074,9 +122073,9 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Before You Go Aken": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat TzKal-Zuk in hard mode in a single run without letting TzekHaar-Aken submerge in wave 17.",
-				"Monsters": ["TzKal-Zuk (Hard Mode)"],
+				"Monsters": ["TzKal-Zuk"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122084,7 +122083,7 @@
 			},
 			"~|Combat Mastery achievements#Master|~ Black Stone Dragon Master Speed Killer": {
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
-				"Description": "Defeat the Black Stone Dragon solo in less than 02:15.",
+				"Description": "Defeat the Black Stone Dragon solo in less than 01:45.",
 				"Monsters": ["Black Stone Dragon"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
@@ -122110,9 +122109,9 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Canon Event": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac, the bound in hard mode, solo with at least 3 active time threads.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122158,9 +122157,9 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Chill To The Bone I": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat the Arch-Glacor in hard mode for a 100 killstreak.",
-				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"Monsters": ["Arch-Glacor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122230,9 +122229,9 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Don't Go Ballistic": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Zemouregal & Vorkath in hard mode without using the ballista.",
-				"Monsters": ["Zemouregal & Vorkath (Hard Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122257,27 +122256,27 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ The Dragon Really Did Nothing Wrong": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Zemouregal in hard mode without killing Vorkath.",
-				"Monsters": ["Zemouregal & Vorkath (Hard Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Excuse Me, That's My Seat": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Complete a hardmode flawless run by defeating TzKal-Zuk in a single attempt after completing all of his challenges.",
-				"Monsters": ["TzKal-Zuk (Hard Mode)"],
+				"Monsters": ["TzKal-Zuk"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Flipping the Script": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat TzKal-Zuk in hard mode in a single run after defeating all Igneous minions in reverse order during his 'Infernal Rain' attack in wave 18.",
-				"Monsters": ["TzKal-Zuk (Hard Mode)"],
+				"Monsters": ["TzKal-Zuk"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122302,36 +122301,36 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Ful of Energy but Nowhere to Go": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat TzKal-Zuk in hard mode in a single run without moving after attacking the 'Conduit of Ful' in wave 18.",
-				"Monsters": ["TzKal-Zuk (Hard Mode)"],
+				"Monsters": ["TzKal-Zuk"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Gorilla Warfare": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Nakatra, Devourer Eternal in hard mode after defeating both Shadowsands gorilla akhs.",
-				"Monsters": ["Nakatra, Devourer Eternal (Hard Mode)"],
+				"Monsters": ["Nakatra, Devourer Eternal"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Healing Denied": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Nakatra, Devourer Eternal in hard mode without letting her heal Nefthys, the Split Soul.",
-				"Monsters": ["Nakatra, Devourer Eternal (Hard Mode)"],
+				"Monsters": ["Nakatra, Devourer Eternal"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Heatproof": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Zemouregal & Vorkath in hard mode without using any form of dragonfire protection.",
-				"Monsters": ["Zemouregal & Vorkath (Hard Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122356,9 +122355,9 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ I'm Watching You": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Zemouregal & Vorkath in hard mode without allowing Zemouregal to stun you.",
-				"Monsters": ["Zemouregal & Vorkath (Hard Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122383,27 +122382,27 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Kerapac (HM) Master Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac, the bound in hard mode, solo, in less than 03:00.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Kezalam (HM) Master Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Kezalam, the Wanderer in hard mode in less than 02:00.",
-				"Monsters": ["Kezalam, the Wanderer (Hard Mode)"],
+				"Monsters": ["Kezalam, the Wanderer"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Kezalam, the Wanderer (perfect)": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Kezalam, the Wanderer in hard mode while dealing with all of her special attacks properly.",
-				"Monsters": ["Kezalam, the Wanderer (Hard Mode)"],
+				"Monsters": ["Kezalam, the Wanderer"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122428,18 +122427,18 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Maul or Nothing": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode in a team size of 2 or fewer by personally using the Maul of Omens on him on every rotation.",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Nakatra, Devourer Eternal (HM) (perfect)": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Nakatra, Devourer Eternal while dealing with all of her special attacks properly.",
-				"Monsters": ["Nakatra, Devourer Eternal (Hard Mode)"],
+				"Monsters": ["Nakatra, Devourer Eternal"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122518,9 +122517,9 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Pruning the Timeline": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac, the bound in hard mode, solo after dealing with all echos of Kerapac within 9s of each other.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122635,9 +122634,9 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ A Song of Ice and Ire VII": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat the Arch-Glacor at 2,000% enrage",
-				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"Monsters": ["Arch-Glacor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122698,9 +122697,9 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Three Jads Don't Scare Me": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat TzKal-Zuk in hard mode in a single run without moving from the challenger's tile in wave 16.",
-				"Monsters": ["TzKal-Zuk (Hard Mode)"],
+				"Monsters": ["TzKal-Zuk"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122716,9 +122715,9 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ TzKal-Zuk (HM) Master Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat TzKal-Zuk in hard mode in less than 16:00.",
-				"Monsters": ["TzKal-Zuk (Hard Mode)"],
+				"Monsters": ["TzKal-Zuk"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122743,18 +122742,18 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Vermyx, Brood Mother (HM) (perfect)": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Vermyx, Brood Mother in hard mode while dealing with all her attacks properly.",
-				"Monsters": ["Vermyx, Brood Mother (Hard Mode)"],
+				"Monsters": ["Vermyx, Brood Mother"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Vermyx (HM) Master Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Vermyx, Brood Mother in hard mode in less than 01:21.",
-				"Monsters": ["Vermyx, Brood Mother (Hard Mode)"],
+				"Monsters": ["Vermyx, Brood Mother"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122779,18 +122778,18 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Vorago (HM) Master Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode in a team of 4 or fewer in less than 11:00.",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Vorago (HM) (duo)": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode in a team of two or fewer",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122824,9 +122823,9 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Working With Myself": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac, the bound in har mode, solo without letting any of your echoes die.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122878,9 +122877,9 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Zemouregal & Vorkath (HM) Master Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Zemouregal & Vorkath in hard mode in less than 02:45.",
-				"Monsters": ["Zemouregal & Vorkath (Hard Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122939,9 +122938,9 @@
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Arch-Glacor (HM) Grandmaster Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Arch-Glacor in hard mode at 3000% or more enrage in less than 05:30.",
-				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"Monsters": ["Arch-Glacor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
@@ -122976,7 +122975,7 @@
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Black Stone Dragon Grandmaster Speed Killer": {
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
-				"Description": "Defeat the Black Stone Dragon solo in less than 01:45.",
+				"Description": "Defeat the Black Stone Dragon solo in less than 01:24.",
 				"Monsters": ["Black Stone Dragon"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
@@ -123002,9 +123001,9 @@
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Chill To The Bone II": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat the Arch-Glacor in hard mode for a 200 killstreak.",
-				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"Monsters": ["Arch-Glacor"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
@@ -123020,27 +123019,27 @@
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Kerapac (HM) Grandmaster Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac, the bound in hard mode, solo, in less than 02:15.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Kerapac, the bound (perfect)": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac, the bound in hard mode, solo while dealing with all his special attacks properly.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Kerapac, the bound (unorthodox)": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac, the bound in hard mode, solo, while dealing with all his special attacks in an unorthodox way.",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
@@ -123056,18 +123055,18 @@
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Maul and Brawl": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode, solo, by personally using the Maul of Omens on him on every rotation.",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Nakatra (HM) Grandmaster Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Nakatra, Devourer Eternal in hard mode in less than 02:24.",
-				"Monsters": ["Nakatra, Devourer Eternal (Hard Mode)"],
+				"Monsters": ["Nakatra, Devourer Eternal"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
@@ -123146,9 +123145,9 @@
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Sanctum of Rebirth (perfect)": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Complete the Sanctum of Rebirth in hard mode in a single run without anyone dying or leaving while dealing with all of the special attacks of each boss properly.",
-				"Monsters": ["Vermyx, Brood Mother (Hard Mode)", "Kezalam, the Wanderer (Hard Mode)", "Nakatra, Devourer Eternal (Hard Mode)"],
+				"Monsters": ["Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
@@ -123209,9 +123208,9 @@
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ The True Iceborn": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat the Arch-Glacor at 4,000% enrage.",
-				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"Monsters": ["Arch-Glacor)"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
@@ -123227,9 +123226,9 @@
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ TzKal-Zuk (HM) Grandmaster Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat TzKal-Zuk in hard mode in less than 13:30.",
-				"Monsters": ["TzKal-Zuk (Hard Mode)"],
+				"Monsters": ["TzKal-Zuk"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
@@ -123254,36 +123253,36 @@
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Vorago (HM) Grandmaster Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode in a team of 4 or fewer in less than 09:30.",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Vorago (HM) (perfect)": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode while dealing with all his special attacks properly.",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Vorago (HM) (unorthodox)": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode while dealing with all his special attacks in an unorthodox way.",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Vorago (HM) (solo)": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode solo.",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
@@ -123335,9 +123334,9 @@
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Zemouregal & Vorkath (HM) Grandmaster Speed Killer": {
-				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Zemouregal & Vorkath in hard mode in less than 01:45.",
-				"Monsters": ["Zemouregal & Vorkath (Hard Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6,
@@ -128163,7 +128162,7 @@
 				"Chunks": ["8755"],
 				"Monsters": [
 					"Araxxi",
-					"Giant mole (Hard Mode)",
+					"Giant mole",
 					"Dagannoth Prime",
 					"Dagannoth Rex",
 					"Dagannoth Supreme",
@@ -129204,10 +129203,10 @@
 				"NoBoost": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ A Song of Ice and Ire II": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the Arch-Glacor at 100% enrage.",
 				"BaseQuest": "Completionist achievements",
-				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"Monsters": ["Arch-Glacor"],
 				"RuneScore": 5,
 				"Not F2P": true
 			},
@@ -138651,18 +138650,18 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Bosses (A-K)|~ I'm Feline It VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Amascut, the Devourer 100 times in enrage mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Amascut, the Devourer (Hard Mode)"],
+				"Monsters": ["Amascut, the Devourer)"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Combat achievements#Bosses (A-K)|~ Can't Stop Me Meow III": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Amascut, the Devourer at 1000% enrage.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Amascut, the Devourer (Hard Mode)"],
+				"Monsters": ["Amascut, the Devourer"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
@@ -138708,18 +138707,18 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Bosses (A-K)|~ Snowfall VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the Arch-Glacor 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"Monsters": ["Arch-Glacor"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Combat achievements#Bosses (A-K)|~ A Song of Ice and Ire VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the Arch-Glacor at 1,000% enrage.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"Monsters": ["Arch-Glacor"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -138829,10 +138828,10 @@
 				"RuneScore": 25
 			},
 			"~|Combat achievements#Bosses (A-K)|~ Whack a Mole VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the giant mole 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Giant mole (Hard Mode)"],
+				"Monsters": ["Giant mole"],
 				"RuneScore": 25
 			},
 			"~|Combat achievements#Bosses (A-K)|~ Hardly a Challenge VI": {
@@ -138900,10 +138899,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Bosses (A-K)|~ Attack of the Clones VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kerapac 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139074,10 +139073,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Bosses (L-Z)|~ Should've Wandered Somewhere Else VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kezalam,the Wanderer 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Kezalam,the Wanderer (Hard Mode)"],
+				"Monsters": ["Kezalam,the Wanderer"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139090,10 +139089,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Bosses (L-Z)|~ Splittin' Souls and Smashin' Skulls VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Nakatra, Devourer Eternal 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Nakatra, Devourer Eternal (Hard Mode)"],
+				"Monsters": ["Nakatra, Devourer Eternal"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139106,10 +139105,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Bosses (L-Z)|~ Get Your Heads in the Game VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Vermyx, Brood Mother 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Vermyx, Brood Mother (Hard Mode)"],
+				"Monsters": ["Vermyx, Brood Mother"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139163,10 +139162,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Bosses (L-Z)|~ You Really Zuk VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat TzKal-Zuk 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["TzKal-Zuk (Hard Mode)"],
+				"Monsters": ["TzKal-Zuk"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139196,10 +139195,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Bosses (L-Z)|~ Here We Rago Again VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139213,10 +139212,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Bosses (L-Z)|~ Maul's Fair in Love and War": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Vorago in hard mode by personally using the Maul of Omens on him on every rotation.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139229,10 +139228,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Bosses (L-Z)|~ Ex-Ex-Dragon VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Zemouregal & Vorkath 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Zemouregal & Vorkath (Hard Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139294,10 +139293,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#God Wars Dungeon|~ Zillier Way To Die VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Commander Zilyana 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Commander Zilyana (Hard Mode)"],
+				"Monsters": ["Commander Zilyana"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139319,10 +139318,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#God Wars Dungeon|~ General Disaster VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat General Graardor 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["General Graardor (Hard Mode)"],
+				"Monsters": ["General Graardor"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139343,10 +139342,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#God Wars Dungeon|~ Kill K'ril Vol 2 VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat K'ril Tsutsaroth 100 in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["K'ril Tsutsaroth (Hard Mode)"],
+				"Monsters": ["K'ril Tsutsaroth"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
@@ -139368,10 +139367,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#God Wars Dungeon|~ Birdstrike VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Kree'arra 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Kree'arra (Hard Mode)"],
+				"Monsters": ["Kree'arra"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139445,10 +139444,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Heart of Gielinor|~ Gregore-y VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Gregorovic 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Gregorovic (Hard Mode)"],
+				"Monsters": ["Gregorovic"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139461,10 +139460,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Heart of Gielinor|~ Hel in a Handbasket VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Helwyr 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Helwyr (Hard Mode)"],
+				"Monsters": ["Helwyr"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139486,10 +139485,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Heart of Gielinor|~ More Fast More Furious VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Avaryss and Nymora 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Twin Furies (Hard Mode)"],
+				"Monsters": ["Twin Furies"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -139511,10 +139510,10 @@
 				"Not F2P": true
 			},
 			"~|Combat achievements#Heart of Gielinor|~ Vindictive VI": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat Vindicta and Gorvec 100 times in hard mode.",
 				"BaseQuest": "Combat achievements",
-				"Monsters": ["Vindicta (Hard Mode)"],
+				"Monsters": ["Vindicta"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
@@ -144066,7 +144065,7 @@
 				"Category": ["Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Dragon 2h sword"],
-				"AllowedSources": ["Chaos Elemental", "Exiled Kalphite Queen", "Kalphite Queen", "Giant mole", "Giant mole (Hard Mode)"],
+				"AllowedSources": ["Chaos Elemental", "Exiled Kalphite Queen", "Kalphite Queen", "Giant mole"],
 				"NonShop": true
 			},
 			"(Chaos Elemental) Obtain a ~|corrupt dragon helm|~": {
@@ -144644,7 +144643,7 @@
 				"Category": ["Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Dragon 2h sword"],
-				"AllowedSources": ["Chaos Elemental", "Exiled Kalphite Queen", "Kalphite Queen", "Giant mole", "Giant mole (Hard Mode)"],
+				"AllowedSources": ["Chaos Elemental", "Exiled Kalphite Queen", "Kalphite Queen", "Giant mole"],
 				"NonShop": true
 			},
 			"(Giant mole) Obtain a ~|clingy mole|~": {
@@ -144821,7 +144820,7 @@
 				"Category": ["Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Dragon 2h sword"],
-				"AllowedSources": ["Chaos Elemental", "Exiled Kalphite Queen", "Kalphite Queen", "Giant mole", "Giant mole (Hard Mode)"],
+				"AllowedSources": ["Chaos Elemental", "Exiled Kalphite Queen", "Kalphite Queen", "Giant mole"],
 				"NonShop": true
 			},
 			"(Kalphite Queen) Obtain a ~|kalphite queen head|~": {
@@ -158584,24 +158583,24 @@
 				"Monsters": ["Telos, the Warden"]
 			},
 			"Obtain the base ~|the Iceborn|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Arch-Glacor (Hard Mode)"]
+				"Monsters": ["Arch-Glacor"]
 			},
 			"Obtain the bronze ~|the Iceborn|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Arch-Glacor (Hard Mode)"]
+				"Monsters": ["Arch-Glacor"]
 			},
 			"Obtain the silver ~|the Iceborn|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Arch-Glacor (Hard Mode)"]
+				"Monsters": ["Arch-Glacor"]
 			},
 			"Obtain the gold ~|the Iceborn|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Arch-Glacor (Hard Mode)"]
+				"Monsters": ["Arch-Glacor"]
 			},
 			"Obtain the base ~|Wrath of Chaos|~ title": {
 				"Category": ["Titles"],
@@ -158725,41 +158724,41 @@
 				}
 			},
 			"Obtain the ~|the Time Warped|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Grandmaster|~ Kerapac, the bound (perfect)": "Diary"
 				}
 			},
 			"Obtain the ~|Echo of|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Grandmaster|~ Kerapac, the bound (unorthodox)": "Diary"
 				}
 			},
 			"Obtain the ~|the UnprEDICTable|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Grandmaster|~ Zamorak, Lord of Chaos (unorthodox)": "Diary"
 				}
 			},
 			"Obtain the ~|the Devoured|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (unorthodox)": "Diary"
 				}
 			},
 			"Obtain the ~|Tumeken's Light|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Monsters": ["Kerapac, the bound"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (perfect)": "Diary"
 				}
@@ -159005,7 +159004,7 @@
 				"Items": ["Crystal acorn", "Golden rock (Shattered Heart)"],
 				"Monsters": [
 					"Araxxi",
-					"Giant mole (Hard Mode)",
+					"Giant mole",
 					"Dagannoth Prime",
 					"Dagannoth Rex",
 					"Dagannoth Supreme",
@@ -159062,7 +159061,7 @@
 				"Chunks": ["8755"],
 				"Monsters": [
 					"Araxxi",
-					"Giant mole (Hard Mode)",
+					"Giant mole",
 					"Dagannoth Prime",
 					"Dagannoth Rex",
 					"Dagannoth Supreme",
@@ -159265,9 +159264,9 @@
 				}
 			},
 			"Obtain the ~|Nakatra's Lament|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Nakatra, Devourer Eternal (Hard Mode)", "Vermyx, Brood Mother (Hard Mode)", "Kezalam, the Wanderer (Hard Mode)"],
+				"Monsters": ["Nakatra, Devourer Eternal", "Vermyx, Brood Mother", "Kezalam, the Wanderer"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Grandmaster|~ Sanctum of Rebirth (perfect)": "Diary"
 				}
@@ -159379,12 +159378,11 @@
 				]
 			},
 			"Obtain the ~|Insane Final Boss|~ title": {
-				"Category": ["Titles", "Pets"],
+				"Category": ["Titles", "Pets", "Hard Mode Bosses"],
 				"Label": "Titles",
 				"Monsters": [
 					"Amascut, the Devourer",
 					"Giant mole",
-					"Giant mole (Hard Mode)",
 					"Chaos Elemental",
 					"King Black Dragon",
 					"Queen Black Dragon",
@@ -159401,11 +159399,9 @@
 					"Raksha, the Shadow Colossus",
 					"Barrows: Rise of the Six",
 					"Zemouregal & Vorkath",
-					"Zemouregal & Vorkath (Hard Mode)",
 					"The Gate of Elidinis",
 					"Solak, Guardian of the Grove",
 					"Vorago",
-					"Vorago (Hard Mode)",
 					"Kalphite King",
 					"Kalphite Queen",
 					"Hermod, the Spirit of War",
@@ -159420,38 +159416,24 @@
 					"Taraket the Necromancer",
 					"The Ambassador",
 					"Kree'arra",
-					"Kree'arra (Hard Mode)",
 					"K'ril Tsutsaroth",
-					"K'ril Tsutsaroth (Hard Mode)",
 					"General Graardor",
-					"General Graardor (Hard Mode)",
 					"Commander Zilyana",
-					"Commander Zilyana (Hard Mode)",
 					"Nex",
 					"Nex: Angel of Death",
 					"Helwyr",
-					"Helwyr (Hard Mode)",
 					"Gregorovic",
-					"Gregorovic (Hard Mode)",
 					"Twin Furies",
-					"Twin Furies (Hard Mode)",
-					"Vindicta (Hard Mode)",
 					"Vindicta",
 					"Telos, the Warden",
 					"Arch-Glacor",
-					"Arch-Glacor (Hard Mode)",
 					"Croesus",
 					"Kerapac, the bound",
-					"Kerapac, the bound (Hard Mode)",
 					"TzKal-Zuk",
-					"TzKal-Zuk (Hard Mode)",
 					"Zamorak, Lord of Chaos",
 					"Vermyx, Brood Mother",
-					"Vermyx, Brood Mother (Hard Mode)",
 					"Kezalam, the Wanderer",
-					"Kezalam, the Wanderer (Hard Mode)",
 					"Nakatra, Devourer Eternal",
-					"Nakatra, Devourer Eternal (Hard Mode)",
 					"Beastmaster Durzag",
 					"Yakamaru",
 					"Flesh-hatcher Mhekarnahz",
@@ -159694,46 +159676,46 @@
 				}
 			},
 			"Obtain the ~|the Defeater|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Chunks": ["Vorago (Hard Mode)"],
+				"Chunks": ["Vorago"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Elite|~ Smashing Success": "Diary"
 				}
 			},
 			"Obtain the bronze ~|the Defeater|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Vorago (Hard Mode)"]
+				"Monsters": ["Vorago"]
 			},
 			"Obtain the silver ~|the Defeater|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Master|~ Maul or Nothing": "Diary"
 				}
 			},
 			"Obtain the gold ~|the Defeater|~ title": {
-				"Category": ["Titles", "Combat Master+"],
+				"Category": ["Titles", "Combat Master+", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Grandmaster|~ Maul and Brawl": "Diary"
 				}
 			},
 			"Obtain the ~|the Earthshaker|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Grandmaster|~ Vorago (HM) (perfect)": "Diary"
 				}
 			},
 			"Obtain the ~|the Bad Omen|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Vorago (Hard Mode)"],
+				"Monsters": ["Vorago"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Grandmaster|~ Vorago (HM) (unorthodox)": "Diary"
 				}
@@ -170122,6 +170104,62 @@
 			"Lava strykewyrm wilderness task": {
 				"Tasks": {
 					"Receive a slayer assignment from ~|Mandrith|~": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Automaton task": {
+				"Tasks": {
+					"SumonaBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Aquanite task": {
+				"Tasks": {
+					"SumonaBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Dark beast base task": {
+				"Tasks": {
+					"RaptorDuradelBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Dark beast wilderness task": {
+				"Chunks": ["Forinthry Dungeon", "11834", "11835", "12090"],
+				"Tasks": {
+					"Receive a slayer assignment from ~|Mandrith|~": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Dark beast task": {
+				"Tasks": {
+					"Dark beast task[+]": "Nonskill"
+				},
+				"Not F2P": true
+			},
+			"Gargoyle base task": {
+				"Tasks": {
+					"RaptorChaeldarBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Gargoyle wilderness task": {
+				"Chunks": ["12858"],
+				"Tasks": {
+					"Receive a slayer assignment from ~|Mandrith|~": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Gargoyle task": {
+				"Tasks": {
+					"Gargoyle task[+]": "Nonskill"
+				},
+				"Not F2P": true
+			},
+			"Mutated jadinko task": {
+				"Tasks": {
+					"SumonaBetterMaster[+]": "Slayer"
 				},
 				"Not F2P": true
 			},
@@ -206311,9 +206349,7 @@
 				"Sink": 1
 			},
 			"Monster": {
-				"Zemouregal & Vorkath (Story Mode)": 1,
 				"Zemouregal & Vorkath": 1,
-				"Zemouregal & Vorkath (Hard Mode)": 1,
 				"Fetid zombie": 7
 			},
 			"NPC": {
@@ -221504,7 +221540,6 @@
 				"Gorak (God Wars Dungeon)": 11,
 				"Spiritual ranger": 34,
 				"Kree'arra": 1,
-				"Kree'arra (Hard Mode)": 1,
 				"Wingman Skree": 1,
 				"Flockleader Geerin": 1,
 				"Flight Kilisa": 1,
@@ -221515,7 +221550,6 @@
 				"Hellhound (God Wars Dungeon)": 5,
 				"Imp (God Wars Dungeon)": 8,
 				"General Graardor": 1,
-				"General Graardor (Hard Mode)": 1,
 				"Sergeant Strongstack": 1,
 				"Sergeant Steelwill": 1,
 				"Sergeant Grimspike": 1,
@@ -221525,14 +221559,12 @@
 				"Hobgoblin (God Wars Dungeon)": 11,
 				"Goblin (God Wars Dungeon)": 16,
 				"Commander Zilyana": 1,
-				"Commander Zilyana (Hard Mode)": 1,
 				"Starlight": 1,
 				"Growler": 1,
 				"Bree": 1,
 				"Saradomin priest": 12,
 				"Knight of Saradomin": 15,
 				"K'ril Tsutsaroth": 1,
-				"K'ril Tsutsaroth (Hard Mode)": 1,
 				"Tstanon Karlak": 1,
 				"Zakl'n Gritch": 1,
 				"Balfrug Kreeyath": 1
@@ -222534,8 +222566,7 @@
 		},
 		"Borehole": {
 			"Monster": {
-				"Vorago": 1,
-				"Vorago (Hard Mode)": 1
+				"Vorago": 1
 			},
 			"Object": {
 				"Gap": 5,
@@ -223094,8 +223125,7 @@
 				"Surface tunnel": 1
 			},
 			"Monster": {
-				"Giant mole": 1,
-				"Giant mole (Hard Mode)": 1
+				"Giant mole": 1
 			},
 			"Connect": {
 				"11828": true
@@ -225531,11 +225561,9 @@
 				"Nodon enforcer": 1,
 				"Siege engine": 1,
 				"Kerapac, the bound": 1,
-				"Kerapac, the bound (Hard Mode)": 1,
 				"Glacor": 1,
 				"Glacyte": 32,
 				"Arch-Glacor": 1,
-				"Arch-Glacor (Hard Mode)": 1,
 				"Croesus": 1
 			},
 			"Connect": {
@@ -229233,13 +229261,9 @@
 				"Fallen champion": 2,
 				"Telos, the Warden": 1,
 				"Gregorovic": 1,
-				"Gregorovic (Hard Mode)": 1,
 				"Twin Furies": 1,
-				"Twin Furies (Hard Mode)": 1,
 				"Vindicta": 1,
-				"Vindicta (Hard Mode)": 1,
-				"Helwyr": 1,
-				"Helwyr (Hard Mode)": 1
+				"Helwyr": 1
 			},
 			"NPC": {
 				"Furies' Chosen": 1,
@@ -229982,11 +230006,8 @@
 		"Sanctum of Rebirth": {
 			"Monster": {
 				"Vermyx, Brood Mother": 1,
-				"Vermyx, Brood Mother (Hard Mode)": 1,
 				"Kezalam, the Wanderer": 1,
-				"Kezalam, the Wanderer (Hard Mode)": 1,
-				"Nakatra, Devourer Eternal": 1,
-				"Nakatra, Devourer Eternal (Hard Mode)": 1
+				"Nakatra, Devourer Eternal": 1
 			},
 			"Connect": {
 				"23": true
@@ -230235,7 +230256,6 @@
 				"TzekHaar-Mej": 6,
 				"TzekHaar-Hur": 14,
 				"TzKal-Zuk": 1,
-				"TzKal-Zuk (Hard Mode)": 1,
 				"TzekHaar-Kih (TzKal-Zuk)": 1,
 				"TzekHaar-Xil (TzKal-Zuk)": 1,
 				"TzekHaar-Tok-Xil": 1,
@@ -231561,8 +231581,8 @@
 			},
 			"Abyssal wand": {
 				"Abyssal demon": {
-					"OnTask": "1/6104",
-					"OffTask": "0",
+					"OnTask": "1/2048",
+					"OffTask": "1/6104",
 					"Tasks": {
 						"Abyssal demon task": "Nonskill"
 					}
@@ -231570,10 +231590,28 @@
 			},
 			"Abyssal orb": {
 				"Abyssal demon": {
-					"OnTask": "1/6104",
-					"OffTask": "0",
+					"OnTask": "1/2048",
+					"OffTask": "1/6104",
 					"Tasks": {
 						"Abyssal demon task": "Nonskill"
+					}
+				}
+			},
+			"Abyssal whip": {
+				"Abyssal demon": {
+					"OnTask": "1/512",
+					"OffTask": "1/1024",
+					"Tasks": {
+						"Abyssal demon task": "Nonskill"
+					}
+				}
+			},
+			"Amulet of ranging": {
+				"Aquanite": {
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
+					"Tasks": {
+						"Aquanite task": "Nonskill"
 					}
 				}
 			},
@@ -231602,14 +231640,14 @@
 			},
 			"Ascension grips": {
 				"Capsarius": {
-					"OnTask": "1/2300",
+					"OnTask": "1/1024",
 					"OffTask": "0",
 					"Tasks": {
 						"Order of Ascnsion task": "Nonskill"
 					}
 				},
 				"Gladius": {
-					"OnTask": "1/2650",
+					"OnTask": "1/1992",
 					"OffTask": "0",
 					"Tasks": {
 						"Order of Ascnsion task": "Nonskill"
@@ -231658,14 +231696,14 @@
 					}
 				},
 				"Rorarius": {
-					"OnTask": "1/3000",
+					"OnTask": "1/2056",
 					"OffTask": "0",
 					"Tasks": {
 						"Order of Ascnsion task": "Nonskill"
 					}
 				},
 				"Scutarius": {
-					"OnTask": "1/2056",
+					"OnTask": "1/500",
 					"OffTask": "0",
 					"Tasks": {
 						"Order of Ascnsion task": "Nonskill"
@@ -231683,29 +231721,29 @@
 			},
 			"Blast diffusion boots": {
 				"Devil's snare": {
-					"OnTask": "1/2500",
-					"OffTask": "1/10000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Vile bloom task": "Nonskill"
 					}
 				},
 				"Lampenflora": {
-					"OnTask": "1/4000",
-					"OffTask": "1/10000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Vile bloom task": "Nonskill"
 					}
 				},
 				"Liverworts": {
-					"OnTask": "1/2000",
-					"OffTask": "1/10000",
+					"OnTask": "1/256",
+					"OffTask": "1/512",
 					"Tasks": {
 						"Vile bloom task": "Nonskill"
 					}
 				},
 				"Luminous snaggler": {
-					"OnTask": "1/2000",
-					"OffTask": "1/10000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Vile bloom task": "Nonskill"
 					}
@@ -231713,29 +231751,29 @@
 			},
 			"Blowpipe fin": {
 				"Brutish dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Feral Dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/512",
+					"OffTask": "1/2048",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Ripper dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Venomous dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/512",
+					"OffTask": "1/2048",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
@@ -231743,29 +231781,29 @@
 			},
 			"Blowpipe feather": {
 				"Brutish dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Feral Dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/512",
+					"OffTask": "1/2048",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Ripper dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Venomous dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/512",
+					"OffTask": "1/2048",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
@@ -231773,29 +231811,29 @@
 			},
 			"Blowpipe chitin": {
 				"Brutish dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Feral Dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/512",
+					"OffTask": "1/2048",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Ripper dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Venomous dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/512",
+					"OffTask": "1/2048",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
@@ -231803,29 +231841,29 @@
 			},
 			"Bone blowpipe": {
 				"Brutish dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Feral Dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/512",
+					"OffTask": "1/2048",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Ripper dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Venomous dinosaur": {
-					"OnTask": "1/6000",
-					"OffTask": "1/20000",
+					"OnTask": "1/512",
+					"OffTask": "1/2048",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
@@ -231833,8 +231871,8 @@
 			},
 			"Camel staff": {
 				"Camel Warrior": {
-					"OnTask": "1/2000",
-					"OffTask": "1/10000",
+					"OnTask": "1/512",
+					"OffTask": "1/2048",
 					"Tasks": {
 						"Camel warrior task": "Nonskill"
 					}
@@ -231874,28 +231912,28 @@
 			},
 			"Corrupted gem": {
 				"Corrupted dust devil": {
-					"OnTask": "1/5000",
+					"OnTask": "1/3000",
 					"OffTask": "0",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted kalphite guardian": {
-					"OnTask": "1/5000",
+					"OnTask": "1/2000",
 					"OffTask": "0",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted kalphite marauder": {
-					"OnTask": "1/5000",
+					"OnTask": "1/2000",
 					"OffTask": "0",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted lizard": {
-					"OnTask": "1/5000",
+					"OnTask": "1/4000",
 					"OffTask": "0",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
@@ -231909,73 +231947,98 @@
 					}
 				},
 				"Corrupted scorpion": {
-					"OnTask": "1/5000",
+					"OnTask": "1/6000",
 					"OffTask": "0",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted worker": {
-					"OnTask": "1/5000",
+					"OnTask": "1/1000",
 					"OffTask": "0",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Crocodile akh": {
-					"OnTask": "1/5000",
+					"OnTask": "1/700",
 					"OffTask": "0",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Feline akh": {
-					"OnTask": "1/5000",
+					"OnTask": "1/900",
 					"OffTask": "0",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Gorilla akh": {
-					"OnTask": "1/5000",
+					"OnTask": "1/600",
 					"OffTask": "0",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Imperial mage akh": {
-					"OnTask": "1/5000",
+					"OnTask": "1/500",
 					"OffTask": "0",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Imperial ranger akh": {
-					"OnTask": "1/5000",
+					"OnTask": "1/500",
 					"OffTask": "0",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Imperial warrior akh": {
-					"OnTask": "1/5000",
+					"OnTask": "1/500",
 					"OffTask": "0",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Salawa akh": {
-					"OnTask": "1/5000",
+					"OnTask": "1/900",
 					"OffTask": "0",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Scarab akh": {
-					"OnTask": "1/5000",
+					"OnTask": "1/800",
 					"OffTask": "0",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
+					}
+				}
+			},
+			"Dark bow": {
+				"Dark beast": {
+					"OnTask": "1/512",
+					"OffTask": "1/1024",
+					"Tasks": {
+						"Dark beast task": "Nonskill"
+					}
+				}
+			},
+			"Draconic visage": {
+				"Onyx dragon": {
+					"OnTask": "1/1024",
+					"OffTask": "1/2048",
+					"Tasks": {
+						"Onyx dragon task": "Nonskill"
+					}
+				},
+				"Hydrix dragon": {
+					"OnTask": "1/1024",
+					"OffTask": "1/2048",
+					"Tasks": {
+						"Hydrix dragon task": "Nonskill"
 					}
 				}
 			},
@@ -231990,7 +232053,7 @@
 			},
 			"Gemstone boots": {
 				"Dragonstone dragon": {
-					"OnTask": "1/2000",
+					"OnTask": "1/1000",
 					"OffTask": "1/5000",
 					"Tasks": {
 						"Gemstone dragon base task": "Nonskill"
@@ -231999,7 +232062,7 @@
 			},
 			"Gemstone gauntlets": {
 				"Dragonstone dragon": {
-					"OnTask": "1/2000",
+					"OnTask": "1/1000",
 					"OffTask": "1/5000",
 					"Tasks": {
 						"Gemstone dragon base task": "Nonskill"
@@ -232008,7 +232071,7 @@
 			},
 			"Gemstone greaves": {
 				"Onyx dragon": {
-					"OnTask": "1/2000",
+					"OnTask": "1/850",
 					"OffTask": "1/5000",
 					"Tasks": {
 						"Onyx dragon task": "Nonskill"
@@ -232017,7 +232080,7 @@
 			},
 			"Gemstone hauberk": {
 				"Hydrix dragon": {
-					"OnTask": "1/1000",
+					"OnTask": "1/750",
 					"OffTask": "1/2500",
 					"Tasks": {
 						"Hydrix dragon task": "Nonskill"
@@ -232026,7 +232089,7 @@
 			},
 			"Gemstone helm": {
 				"Onyx dragon": {
-					"OnTask": "1/2000",
+					"OnTask": "1/850",
 					"OffTask": "1/5000",
 					"Tasks": {
 						"Onyx dragon task": "Nonskill"
@@ -232039,6 +232102,15 @@
 					"OffTask": "0",
 					"Tasks": {
 						"Rune dragon task": "Nonskill"
+					}
+				}
+			},
+			"Granite maul": {
+				"Gargoyle": {
+					"OnTask": "1/256",
+					"OffTask": "1/512",
+					"Tasks": {
+						"Gargoyle task": "Nonskill"
 					}
 				}
 			},
@@ -232078,106 +232150,106 @@
 			},
 			"Key to the Crossing": {
 				"Corrupted dust devil": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted kalphite guardian": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted kalphite marauder": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted lizard": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted scarab": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted scoprion": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted worker": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Crocodile akh": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Feline akh": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Gorilla akh": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Imperial mage akh": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Imperial rager akh": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Imperial warrior akh": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Salawa akh": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Scarab akh": {
-					"OnTask": "1/75",
-					"OffTask": "1/400",
+					"OnTask": "1/50",
+					"OffTask": "1/300",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
@@ -232185,106 +232257,106 @@
 			},
 			"Khopesh of the Kharidian": {
 				"Corrupted dust devil": {
-					"OnTask": "1/8000",
+					"OnTask": "1/4500",
 					"OffTask": "1/15000",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted kalphite guardian": {
-					"OnTask": "1/8000",
+					"OnTask": "1/3000",
 					"OffTask": "1/15000",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted kalphite marauder": {
-					"OnTask": "1/8000",
+					"OnTask": "1/3000",
 					"OffTask": "1/15000",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted lizard": {
-					"OnTask": "1/8000",
+					"OnTask": "1/6000",
 					"OffTask": "1/15000",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted scarab": {
-					"OnTask": "1/8000",
+					"OnTask": "1/7500",
 					"OffTask": "1/15000",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted scoprion": {
-					"OnTask": "1/8000",
+					"OnTask": "1/9000",
 					"OffTask": "1/15000",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Corrupted worker": {
-					"OnTask": "1/8000",
+					"OnTask": "1/1250",
 					"OffTask": "1/15000",
 					"Tasks": {
 						"Corrupted creature task": "Nonskill"
 					}
 				},
 				"Crocodile akh": {
-					"OnTask": "1/8000",
-					"OffTask": "1/15000",
+					"OnTask": "1/700",
+					"OffTask": "1/5000",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Feline akh": {
-					"OnTask": "1/8000",
-					"OffTask": "1/15000",
+					"OnTask": "1/900",
+					"OffTask": "1/5000",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Gorilla akh": {
-					"OnTask": "1/8000",
-					"OffTask": "1/15000",
+					"OnTask": "1/600",
+					"OffTask": "1/5000",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Imperial mage akh": {
-					"OnTask": "1/8000",
-					"OffTask": "1/15000",
+					"OnTask": "1/500",
+					"OffTask": "1/5000",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Imperial ranger akh": {
-					"OnTask": "1/8000",
-					"OffTask": "1/15000",
+					"OnTask": "1/500",
+					"OffTask": "1/5000",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Imperial warrior akh": {
-					"OnTask": "1/8000",
-					"OffTask": "1/15000",
+					"OnTask": "1/500",
+					"OffTask": "1/5000",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Salawa akh": {
-					"OnTask": "1/8000",
-					"OffTask": "1/15000",
+					"OnTask": "1/1000",
+					"OffTask": "1/5000",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
 				},
 				"Scarab akh": {
-					"OnTask": "1/8000",
-					"OffTask": "1/15000",
+					"OnTask": "1/800",
+					"OffTask": "1/5000",
 					"Tasks": {
 						"Soul devourer task": "Nonskill"
 					}
@@ -232301,29 +232373,29 @@
 			},
 			"Laceration boots": {
 				"Brutish dinosaur": {
-					"OnTask": "1/2000",
-					"OffTask": "1/8000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Feral Dinosaur": {
-					"OnTask": "1/3000",
-					"OffTask": "1/8000",
+					"OnTask": "1/512",
+					"OffTask": "1/2024",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Ripper dinosaur": {
-					"OnTask": "1/2000",
-					"OffTask": "1/8000",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
 				},
 				"Venomous dinosaur": {
-					"OnTask": "1/4000",
-					"OffTask": "1/8000",
+					"OnTask": "1/512",
+					"OffTask": "1/2024",
 					"Tasks": {
 						"Dinosaur task": "Nonskill"
 					}
@@ -232331,10 +232403,19 @@
 			},
 			"Nightmare gauntlets": {
 				"Nightmare": {
-					"OnTask": "1/2000",
-					"OffTask": "1/10000",
+					"OnTask": "1/1024",
+					"OffTask": "1/4096",
 					"Tasks": {
 						"Nightmare task": "Nonskill"
+					}
+				}
+			},
+			"Onyx": {
+				"Onyx dragon": {
+					"OnTask": "1/1024",
+					"OffTask": "1/7500",
+					"Tasks": {
+						"Onyx dragon task": "Nonskill"
 					}
 				}
 			},
@@ -232344,6 +232425,15 @@
 					"OffTask": "0",
 					"Tasks": {
 						"Ripper demon task": "Nonskill"
+					}
+				}
+			},
+			"Pneumatic gloves": {
+				"Automaton Tracer": {
+					"OnTask": "1/512",
+					"OffTask": "1/1024",
+					"Tasks": {
+						"Automaton task": "Nonskill"
 					}
 				}
 			},
@@ -232358,7 +232448,7 @@
 			},
 			"Raptor key part 1": {
 				"Wyvern": {
-					"OnTask": "1/256",
+					"OnTask": "1/100",
 					"OffTask": "0",
 					"Tasks": {
 						"Wyvern task": "Nonskill"
@@ -232367,7 +232457,7 @@
 			},
 			"Raptor key part 2": {
 				"Ripper Demon": {
-					"OnTask": "1/256",
+					"OnTask": "1/100",
 					"OffTask": "0",
 					"Tasks": {
 						"Ripper demon task": "Nonskill"
@@ -232376,7 +232466,7 @@
 			},
 			"Raptor key part 3": {
 				"Camel Warrior": {
-					"OnTask": "1/256",
+					"OnTask": "1/100",
 					"OffTask": "0",
 					"Tasks": {
 						"Camel warrior task": "Nonskill"
@@ -232385,7 +232475,7 @@
 			},
 			"Raptor key part 4": {
 				"Acheron mammoth": {
-					"OnTask": "1/256",
+					"OnTask": "1/100",
 					"OffTask": "0",
 					"Tasks": {
 						"Acheron mammoth task": "Nonskill"
@@ -232394,8 +232484,8 @@
 			},
 			"Razorback gauntlets": {
 				"Airut": {
-					"OnTask": "1/2056",
-					"OffTask": "0",
+					"OnTask": "1/256",
+					"OffTask": "1/2048",
 					"Tasks": {
 						"Airut task": "Nonskill"
 					}
@@ -232403,8 +232493,8 @@
 			},
 			"Ripper claw": {
 				"Ripper Demon": {
-					"OnTask": "1/1000",
-					"OffTask": "1/5000",
+					"OnTask": "1/256",
+					"OffTask": "1/5120",
 					"Tasks": {
 						"Ripper demon task": "Nonskill"
 					}
@@ -232412,8 +232502,8 @@
 			},
 			"Off-hand ripper claw": {
 				"Ripper Demon": {
-					"OnTask": "1/1000",
-					"OffTask": "1/5000",
+					"OnTask": "1/256",
+					"OffTask": "1/5120",
 					"Tasks": {
 						"Ripper demon task": "Nonskill"
 					}
@@ -232511,10 +232601,19 @@
 			},
 			"Staff of light": {
 				"Ice strykewyrm": {
-					"OnTask": "1/2000",
-					"OffTask": "1/512",
+					"OnTask": "1/256",
+					"OffTask": "1/1024",
 					"Tasks": {
 						"Ice strykewyrm task": "Nonskill"
+					}
+				}
+			},
+			"Static gloves": {
+				"Automaton Guardian": {
+					"OnTask": "1/512",
+					"OffTask": "1/1024",
+					"Tasks": {
+						"Automaton task": "Nonskill"
 					}
 				}
 			},
@@ -232556,6 +232655,15 @@
 					"OffTask": "1/1536",
 					"Tasks": {
 						"Lost Grove creature task": "Nonskill"
+					}
+				}
+			},
+			"Tracking gloves": {
+				"Automaton Generator": {
+					"OnTask": "1/512",
+					"OffTask": "1/1024",
+					"Tasks": {
+						"Automaton task": "Nonskill"
 					}
 				}
 			},
@@ -232615,7 +232723,7 @@
 			},
 			"Tuska's Wrath ability codex": {
 				"Airut": {
-					"OnTask": "1/400",
+					"OnTask": "1/256",
 					"OffTask": "1/1000",
 					"Tasks": {
 						"Airut task": "Nonskill"
@@ -232638,10 +232746,26 @@
 					}
 				}
 			},
+			"Whip vine": {
+				"Mutated jadinko guard": {
+					"OnTask": "1/1024",
+					"OffTask": "1/2048",
+					"Tasks": {
+						"Mutated jadinko task": "Nonskill"
+					}
+				},
+				"Mutated jadinko male": {
+					"OnTask": "1/256",
+					"OffTask": "1/512",
+					"Tasks": {
+						"Mutated jadinko task": "Nonskill"
+					}
+				}
+			},
 			"Wyrm heart": {
 				"Lava strykewyrm": {
-					"OnTask": "1/6128",
-					"OffTask": "1/12288",
+					"OnTask": "1/256",
+					"OffTask": "1/1280",
 					"Tasks": {
 						"Lava strykewyrm task": "Nonskill"
 					}
@@ -232649,8 +232773,8 @@
 			},
 			"Wyrm scalp": {
 				"Lava strykewyrm": {
-					"OnTask": "1/6128",
-					"OffTask": "1/12288",
+					"OnTask": "1/256",
+					"OffTask": "1/1280",
 					"Tasks": {
 						"Lava strykewyrm task": "Nonskill"
 					}
@@ -232658,8 +232782,8 @@
 			},
 			"Wyrm spike": {
 				"Lava strykewyrm": {
-					"OnTask": "1/6128",
-					"OffTask": "1/12288",
+					"OnTask": "1/256",
+					"OffTask": "1/1280",
 					"Tasks": {
 						"Lava strykewyrm task": "Nonskill"
 					}
@@ -232667,8 +232791,8 @@
 			},
 			"Wyvern crossbow": {
 				"Wyvern": {
-					"OnTask": "1/2000",
-					"OffTask": "1/10000",
+					"OnTask": "1/512",
+					"OffTask": "1/2048",
 					"Tasks": {
 						"Wyvern task": "Nonskill"
 					}
@@ -239616,7 +239740,7 @@
 			"ErskineSlayerChunks[+]": ["Forinthry Dungeon", "12601", "13116", "12345", "12093", "12347-1", "12347-2", "12349", "12605", "13371", "12858", "13368-1", "13369-1", "Edgeville Dungeon", "13115", "12857", "12090", "11835", "12091-1", "12091-2", "11836"],
 			"Everlight[+]": ["14899-2", "14898", "15154", "14897", "15153", "14641-1"],
 			"F2P Farmers[+]": ["12595-1", "12851-1", "11573"],
-			"FairyTaleI2[+]": ["11574", "13105", "13362-3", "9265-1", "8755", "8757", "9012-1", "9781-1", "11062-1", "11317-1", "12596-1", "12854", "12594", "12083-1", "12082-1", "11060-1", "11058", "9777-2", "15685-3", "11828", "10547-1", "10548", "10290", "11056", "14391", "13622-2", "10300", "10551-1", "10288-1", "11570", "12851-1", "11821-1", "12587-2"],
+			"FairyTaleI2[+]": ["11574", "13105", "13362-3", "9265-1", "8755", "8757", "9012-1", "9781-1", "11062-1", "11317-1", "12596-1", "12854", "12594", "12083-1", "12082-1", "11060-1", "11058", "9777-2", "15685-3", "11828", "10547-1", "10548", "10290", "11056", "14391", "13622-2", "10300", "10551-1", "10288-1", "11570", "12851-1", "11821-1", "12587-2", "16690-1", "16947"],
 			"FaladorChunks[+]": ["11828", "12084-1", "12084-2"],
 			"FaladorGuardChunks[+]": ["11827", "11828", "12084-1"],
 			"FarmRaids[+]": ["12339", "12851-1", "12083-1", "11573"],
@@ -240128,7 +240252,6 @@
 				"Iorwerth guard",
 				"Iorwerth scout",
 				"Kerapac, the bound",
-				"Kerapac, the bound (Hard Mode)",
 				"Lava strykewyrm",
 				"Legio Primus",
 				"Legio Secundus",
@@ -240146,8 +240269,7 @@
 				"Soulgazer",
 				"The Magister",
 				"Truthful shadow",
-				"Vorago",
-				"Vorago (Hard Mode)"
+				"Vorago"
 			],
 			"Monkey Souls[+]": [
 				"Monkey",
@@ -241066,7 +241188,7 @@
 				"Wield ~|Akrisae's war mace|~", 
 				"Wield an ~|animal staff|~", 
 				"Wield a ~|greater runic staff|~", 
-				"Equip ~|void knight equipment|~", 
+				"Equip a piece of ~|Void Knight equipment|~", 
 				"Wield a ~|slayer's staff|~",
 				"Wield a ~|lesser runic staff|~", 
 				"Wield a ~|runic staff|~"
@@ -241290,6 +241412,15 @@
 					"Receive a slayer assignment from ~|Morvran|~",
 					"Receive a slayer assignment from ~|Laniakea|~"
 			],
+			"RaptorChaeldarBetterMaster[+]": [
+					"Receive a slayer assignment from ~|The Raptor|~",
+					"Receive a slayer assignment from ~|Chaeldar|~",
+					"Receive a slayer assignment from ~|Sumona|~",
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
 			"SumonaKuradalBetterMaster[+]": [
 					"Receive a slayer assignment from ~|Chaeldar|~",
 					"Receive a slayer assignment from ~|Sumona|~",
@@ -241328,6 +241459,8 @@
 			"Abyssal lord task[+]": ["Abyssal demon base task", "Abyssal lord wilderness task"],
 			"Wyvern task[+]": ["Wyvern base task", "Wyvern wilderness task"],
 			"Acheron mammoth task[+]": ["Acheron mammoth base task", "Acheron mammoth wilderness task"],
+			"Dark beast task[+]": ["Dark beast base task", "Dark beast wilderness task"],
+			"Gargoyle task[+]": ["Gargoyle base task", "Gargoyle wilderness task"],
 			"Burn vyre corpse[+]": [
 				"Burn a vyre corpse using ~|teak pyre logs|~",
 				"Burn a vyre corpse using ~|arctic pyre logs|~",
@@ -242654,8 +242787,7 @@
 				"Araxxi": true
 			},
 			"Arch-Glacor": {
-				"Arch-Glacor": true,
-				"Arch-Glacor (Hard Mode)": true
+				"Arch-Glacor": true
 			},
 			"Barrows": {
 				"Barrows": true
@@ -242670,8 +242802,7 @@
 				"Chaos Elemental": true
 			},
 			"Commander Zilyana": {
-				"Commander Zilyana": true,
-				"Commander Zilyana (Hard Mode)": true
+				"Commander Zilyana": true
 			},
 			"Corporeal Beast": {
 				"Corporeal Beast": true
@@ -242691,26 +242822,22 @@
 				"The Gate of Elidinis": true
 			},
 			"General Graardor": {
-				"General Graardor": true,
-				"General Graardor (Hard Mode)": true
+				"General Graardor": true
 			},
 			"The Ghrazi Blood Knights": {
 				"The Ghrazi Blood Knights": true
 			},
 			"Giant mole": {
-				"Giant mole (Hard Mode)": true,
 				"Giant mole": true
 			},
 			"Gregorovic": {
-				"Gregorovic": true,
-				"Gregorovic (Hard Mode)": true
+				"Gregorovic": true
 			},
 			"Har-Aken": {
 				"Har-Aken": true
 			},
 			"Helwyr": {
-				"Helwyr": true,
-				"Helwyr (Hard Mode)": true
+				"Helwyr": true
 			},
 			"Hermod, the Spirit of War": {
 				"Hermod, the Spirit of War": true
@@ -242725,19 +242852,16 @@
 				"Kalphite Queen": true
 			},
 			"Kerapac, the bound": {
-				"Kerapac, the bound": true,
-				"Kerapac, the bound (Hard Mode)": true
+				"Kerapac, the bound": true
 			},
 			"King Black Dragon": {
 				"King Black Dragon": true
 			},
 			"Kree'arra": {
-				"Kree'arra": true,
-				"Kree'arra (Hard Mode)": true
+				"Kree'arra": true
 			},
 			"K'ril Tsutsaroth": {
-				"K'ril Tsutsaroth": true,
-				"K'ril Tsutsaroth (Hard Mode)": true
+				"K'ril Tsutsaroth": true
 			},
 			"Legiones": {
 				"Legio Primus": true,
@@ -242751,7 +242875,6 @@
 				"The Magister": true
 			},
 			"Nakatra, Devourer Eternal": {
-				"Nakatra, Devourer Eternal (Hard Mode)": true,
 				"Nakatra, Devourer Eternal": true
 			},
 			"Nex": {
@@ -242788,31 +242911,25 @@
 				"Telos, the Warden": true
 			},
 			"The Twin Furies": {
-				"Twin Furies": true,
-				"Twin Furies (Hard Mode)": true
+				"Twin Furies": true
 			},
 			"TzKal-Zuk": {
-				"TzKal-Zuk": true,
-				"TzKal-Zuk (Hard Mode)": true
+				"TzKal-Zuk": true
 			},
 			"TzTok-Jad": {
 				"TzTok-Jad": true
 			},
 			"Vindicta & Gorvek": {
-				"Vindicta": true,
-				"Vindicta (Hard Mode)": true
+				"Vindicta": true
 			},
 			"Vorago": {
-				"Vorago": true,
-				"Vorago (Hard Mode)": true
+				"Vorago": true
 			},
 			"Zamorak, Lord of Chaos": {
 				"Zamorak, Lord of Chaos": true
 			},
 			"Zemouregal & Vorkath": {
-				"Zemouregal & Vorkath (Story Mode)": true,
-				"Zemouregal & Vorkath": true,
-				"Zemouregal & Vorkath (Hard Mode)": true
+				"Zemouregal & Vorkath": true
 			}
 		},
 		"slayerTaskChunks": {},
@@ -246173,6 +246290,36 @@
 			}
 		},
 		"Arch-Glacor": {
+			"Water rune": {
+				"50 (0 mech)": "20/200"
+			},
+			"Ranarr seed": {
+				"1-2 (0 mech)": "10/200"
+			},
+			"Strawberry seed": {
+				"4-12 (0 mech)": "10/200"
+			},
+			"Uncut sapphire": {
+				"5-10 (0 mech)": "20/200"
+			},
+			"Tooth half of a key": {
+				"1 (0 mech)": "12/200"
+			},
+			"Loop half of a key": {
+				"1 (0 mech)": "12/200"
+			},
+			"Large blunt adamant salvage": {
+				"1-2 (0 mech)": "20/200"
+			},
+			"Huge spiky mithril salvage": {
+				"3-5 (0 mech)": "20/200"
+			},
+			"Runite stone spirit": {
+				"5-8 (0 mech)": "20/200"
+			},
+			"Tuna": {
+				"3-5 (0 mech)": "6/200"
+			},
 			"Banite stone spirit": {
 				"26-43": "48/200"
 			},
@@ -246260,6 +246407,18 @@
 			"Chaos die reroll token": {
 				"1": "30/7500"
 			},
+			"Gold charm": {
+				"1": "87/1000"
+			},
+			"Green charm": {
+				"1": "90/1000"
+			},
+			"Crimson charm": {
+				"1": "375/1000"
+			},
+			"Blue charm": {
+				"1": "377/1000"
+			},
 			"Glacor core": {
 				"1": "3/3000"
 			},
@@ -246268,86 +246427,12 @@
 			},
 			"Arch-Glacor core": {
 				"1": "1/500"
-			}
-		},
-		"Arch-Glacor (Hard Mode)": {
-			"Banite stone spirit": {
-				"20": "Common"
-			},
-			"Coins": {
-				"150000": "Common"
-			},
-			"Crushed nest": {
-				"20": "Common"
-			},
-			"Crystal key": {
-				"75": "Common"
-			},
-			"Glacor remnants": {
-				"188": "Common"
-			},
-			"Hydrix bolt tips": {
-				"10": "Uncommon"
-			},
-			"Medium blunt orikalkum salvage": {
-				"5": "Uncommon"
-			},
-			"Water rune": {
-				"40": "Common"
-			},
-			"Summoning focus": {
-				"37": "Common"
-			},
-			"Uncut dragonstone": {
-				"55": "Common"
-			},
-			"Water battlestaff": {
-				"200": "Common"
-			},
-			"Water talisman": {
-				"30": "Common"
-			},
-			"Onyx dust": {
-				"15": "Uncommon"
 			},
 			"Cannonball": {
-				"100": "Uncommon"
-			},
-			"Dark nilas": {
-				"2": "1/100"
-			},
-			"Leng artefact": {
-				"1": "1/1725"
-			},
-			"Scripture of Wen": {
-				"1": "1/1725"
-			},
-			"Uncut onyx": {
-				"1": "Rare"
-			},
-			"Resonant anima of Wen": {
-				"100-160": "Always"
-			},
-			"Manuscript of Wen": {
-				"2": "Common"
-			},
-			"Glacor core": {
-				"1": "3/1000"
+				"100 (HM)": "Uncommon"
 			},
 			"Frozen core of Leng": {
-				"1": "1/2732"
-			},
-			"Starved ancient effigy": {
-				"1": "3/256"
-			},
-			"Chaos die reroll token": {
-				"1": "1/100"
-			},
-			"The Journal of Fell Arnessen": {
-				"1": "3/10"
-			},
-			"Arch-Glacor core": {
-				"1": "1/500"
+				"1 (HM)": "1/2500"
 			}
 		},
 		"Archer (Ardougne)": {
@@ -247907,7 +247992,7 @@
 				"1-5": "1/14"
 			},
 			"Amulet of the forsaken": {
-				"1": "1/256"
+				"1": "1/240"
 			},
 			"Coins": {
 				"1-775": "280/1028"
@@ -247973,7 +248058,7 @@
 				"1": "1/1000"
 			},
 			"Barrows chest": {
-				"1": "1/500"
+				"1": "1/250"
 			}
 		},
 		"Barrows: Rise of the Six": {
@@ -249462,7 +249547,7 @@
 				"1": "1/200"
 			},
 			"Black dragon egg (unchecked)": {
-				"1": "1/2000"
+				"1": "1/1200"
 			},
 			"Draconic visage": {
 				"1": "1/10000"
@@ -250048,7 +250133,7 @@
 				"1": "1/200"
 			},
 			"Blue dragon egg (unchecked)": {
-				"1": "1/2000"
+				"1": "1/1200"
 			},
 			"Ferocious ring (5)": {
 				"1": "1/200"
@@ -253517,22 +253602,22 @@
 				"1": "1/384"
 			},
 			"Armadyl crossbow": {
-				"1": "1/768"
+				"1": "1/320"
 			},
 			"Off-hand Armadyl crossbow": {
-				"1": "1/768"
+				"1": "1/320"
 			},
 			"Saradomin's murmur": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Saradomin's hiss": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Saradomin's whisper": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Saradomin's hum": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Godsword shard 1": {
 				"1": "1/768"
@@ -253544,7 +253629,7 @@
 				"1": "1/768"
 			},
 			"Saradomin hilt": {
-				"1": "1/512"
+				"1": "1/384"
 			},
 			"RareDropTable+": {
 				"1": "1/100"
@@ -253586,7 +253671,7 @@
 				"1": "1/56.9"
 			},
 			"Auburn lock": {
-				"1": "1/5000"
+				"1": "1/2500"
 			},
 			"Sealed clue scroll (hard)": {
 				"1": "1/128"
@@ -253608,150 +253693,33 @@
 			},
 			"Furniture plans: Saradomin altar": {
 				"1": "1/512"
-			}
-		},
-		"Commander Zilyana (Hard Mode)": {
-			"Bones": {
-				"1": "Always"
-			},
-			"Saradomin sword": {
-				"1": "1/384"
-			},
-			"Armadyl crossbow": {
-				"1": "1/768"
-			},
-			"Off-hand Armadyl crossbow": {
-				"1": "1/768"
-			},
-			"Saradomin's murmur": {
-				"1": "1/384"
-			},
-			"Saradomin's hiss": {
-				"1": "1/384"
-			},
-			"Saradomin's whisper": {
-				"1": "1/384"
-			},
-			"Saradomin's hum": {
-				"1": "1/384"
-			},
-			"Godsword shard 1": {
-				"1": "1/768"
-			},
-			"Godsword shard 2": {
-				"1": "1/768"
-			},
-			"Godsword shard 3": {
-				"1": "1/768"
-			},
-			"Saradomin hilt": {
-				"1": "1/512"
-			},
-			"Super defence (3)": {
-				"3": "10/128"
-			},
-			"Super ranging potion (3)": {
-				"3": "10/128"
 			},
 			"Yew seed": {
-				"40-60": "10/128"
-			},
-			"Magic seed": {
-				"1": "2/128"
+				"1 (HM)": "10/128"
 			},
 			"Drakolith stone spirit": {
-				"3": "6/128"
+				"3 (HM)": "6/128"
 			},
 			"Orichalcite stone spirit": {
-				"3": "6/128"
-			},
-			"Large plated rune salvage": {
-				"2 (noted)": "8/128"
+				"3 (HM)": "6/128"
 			},
 			"Huge plated rune salvage": {
-				"2 (noted)": "8/128"
+				"2 (noted) (HM)": "8/128"
 			},
-			"Coins": {
-				"20100-20600": "1/256",
-				"10000-10500": "17/128",
-				"40000-45000": "12/128",
-				"70000-80000": "6/128",
-				"110000-120000": "4/128"
+			"Super super ranging potion (3)": {
+				"3 (HM)": "10/128"
 			},
 			"Uncut diamond": {
-				"20-30 (noted)": "8/128"
+				"20-30 (noted) (HM)": "8/128"
 			},
 			"Magic logs": {
-				"30-40 (noted)": "8/128"
+				"30-40 (noted) (HM)": "8/128"
 			},
 			"Grimy ranarr": {
-				"20-25 (noted)": "8/128"
-			},
-			"Unicorn horn": {
-				"40-60 (noted)": "6/128"
+				"20-25 (noted) (HM)": "6/128"
 			},
 			"Wine of Saradomin": {
-				"1-3 (noted)": "8/128"
-			},
-			"RareDropTable+": {
-				"1": "1/100"
-			},
-			"Warpriest of Saradomin helm": {
-				"1": "1/128"
-			},
-			"Warpriest of Saradomin cuirass": {
-				"1": "1/128"
-			},
-			"Warpriest of Saradomin greaves": {
-				"1": "1/128"
-			},
-			"Warpriest of Saradomin gauntlets": {
-				"1": "1/128"
-			},
-			"Warpriest of Saradomin boots": {
-				"1": "1/128"
-			},
-			"Warpriest of Saradomin cape": {
-				"1": "1/128"
-			},
-			"Zilyana's Notes": {
-				"1": "1/56.9"
-			},
-			"Auburn lock": {
-				"1": "1/1000"
-			},
-			"Sealed clue scroll (hard)": {
-				"1": "1/128"
-			},
-			"Sealed clue scroll (elite)": {
-				"1": "495/128000"
-			},
-			"Sealed clue scroll (master)": {
-				"1": "5/1280000"
-			},
-			"Starved ancient effigy": {
-				"1": "1/128"
-			},
-			"Gold charm": {
-				"1": "100.776/1000"
-			},
-			"Green charm": {
-				"1": "50.388/1000"
-			},
-			"Crimson charm": {
-				"1": "100.776/1000"
-			},
-			"Blue charm": {
-				"1": "161.242/1000"
-			},
-			"Zilyana's wings": {
-				"1": "1/500"
-			},
-			"Furniture plans: Saradomin rug": {
-				"1": "1/512"
-			},
-			"Furniture plans: Saradomin altar": {
-				"1": "1/512"
+				"1-3 (noted) (HM)": "8/128"
 			}
 		},
 		"Confused barbarian": {
@@ -253917,7 +253885,7 @@
 				"1": "6/128000"
 			},
 			"Corporeal bone": {
-				"1": "1/2500"
+				"1": "1/2000"
 			},
 			"Gold charm": {
 				"13": "238.524/1000"
@@ -254258,7 +254226,7 @@
 				"1": "1/200"
 			},
 			"Spider egg (unchecked)": {
-				"1": "1/1470"
+				"1": "1/500"
 			}
 		},
 		"Corruption beast": {
@@ -254882,28 +254850,28 @@
 				"1": "1/1000"
 			},
 			"Croesus foultorch": {
-				"1": "1/5400"
+				"1": "1/2500"
 			},
 			"Croesus sporehammer": {
-				"1": "1/5400"
+				"1": "1/2500"
 			},
 			"Croesus spore sack": {
-				"1": "1/5400"
+				"1": "1/2500"
 			},
 			"Cryptbloom helm (incomplete)": {
-				"1": "1/5400"
+				"1": "1/3000"
 			},
 			"Cryptbloom top (incomplete)": {
-				"1": "1/5400"
+				"1": "1/3000"
 			},
 			"Cryptbloom bottoms (incomplete)": {
-				"1": "1/5400"
+				"1": "1/3000"
 			},
 			"Cryptbloom gloves (incomplete)": {
-				"1": "1/5400"
+				"1": "1/3000"
 			},
 			"Cryptbloom boots (incomplete)": {
-				"1": "1/5400"
+				"1": "1/3000"
 			},
 			"Scripture of Bik": {
 				"1": "1/5400"
@@ -255894,7 +255862,7 @@
 				"1": "5/128000"
 			},
 			"Dagannoth egg": {
-				"1": "1/2500"
+				"1": "1/1500"
 			},
 			"GemDropTable+": {
 				"1": "8/128"
@@ -255988,7 +255956,7 @@
 				"1": "5/128000"
 			},
 			"Shrivelled dagannoth claw": {
-				"1": "1/2500"
+				"1": "1/1500"
 			},
 			"GemDropTable+": {
 				"1": "8/128"
@@ -256085,7 +256053,7 @@
 				"1": "5/128000"
 			},
 			"Dagannoth scale": {
-				"1": "1/2500"
+				"1": "1/1500"
 			},
 			"GemDropTable+": {
 				"1": "8/128"
@@ -256645,7 +256613,7 @@
 				"1": "Very rare"
 			},
 			"Spider egg (unchecked)": {
-				"1": "Very rare"
+				"1": "1/300"
 			},
 			"Nothing": {
 				"1": "720/1000"
@@ -259283,10 +259251,10 @@
 				"1": "Always"
 			},
 			"Dragon 2h sword": {
-				"1": "1/128"
+				"1": "1/64"
 			},
 			"Dragon chainbody": {
-				"1": "1/128"
+				"1": "1/64"
 			},
 			"Lava battlestaff": {
 				"4": "1/128"
@@ -259334,7 +259302,7 @@
 				"1": "1/128"
 			},
 			"Kalphite egg": {
-				"1": "1/2500"
+				"1": "1/1000"
 			},
 			"Sealed clue scroll (hard)": {
 				"1": "10/1280"
@@ -261642,16 +261610,16 @@
 		},
 		"The Gate of Elidinis": {
 			"Scripture of Elidinis": {
-				"1": "1/480"
+				"1": "1/256"
 			},
 			"Runic attuner": {
-				"1": "1/480"
+				"1": "1/256"
 			},
 			"Memory dowser": {
-				"1": "1/480"
+				"1": "1/256"
 			},
 			"Eclipsed Soul prayer codex": {
-				"1": "1/480"
+				"1": "1/256"
 			},
 			"Battlestaff": {
 				"20": "45/1000"
@@ -261756,7 +261724,7 @@
 				"1": "Very rare"
 			},
 			"Fragment of the Gate": {
-				"1": "1/1500"
+				"1": "1/1000"
 			},
 			"Divine Moon Guard and Lantern override token": {
 				"1": "Very rare"
@@ -261771,22 +261739,22 @@
 				"3 (noted)": "8/128"
 			},
 			"Bandos helmet": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Bandos chestplate": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Bandos tassets": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Bandos gloves": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Bandos boots": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Bandos warshield": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Godsword shard 1": {
 				"1": "1/768"
@@ -261798,7 +261766,7 @@
 				"1": "1/768"
 			},
 			"Bandos hilt": {
-				"1": "1/512"
+				"1": "1/384"
 			},
 			"Runite stone spirit": {
 				"3": "4/128"
@@ -261849,7 +261817,7 @@
 				"1": "5/128000"
 			},
 			"Decaying tooth": {
-				"1": "1/5000"
+				"1": "1/2500"
 			},
 			"Warpriest of Bandos helm": {
 				"1": "1/128"
@@ -261910,150 +261878,21 @@
 			},
 			"Furniture plans: Bandos altar": {
 				"1": "1/512"
-			}
-		},
-		"General Graardor (Hard Mode)": {
-			"Ourg bones (General Graardor)": {
-				"1": "Always",
-				"5 (noted)": "8/128"
 			},
-			"Bandos helmet": {
-				"1": "1/384"
+			"Dragon longsword": {
+				"1 (HM)": "4/128"
 			},
-			"Bandos chestplate": {
-				"1": "1/384"
-			},
-			"Bandos tassets": {
-				"1": "1/384"
-			},
-			"Bandos gloves": {
-				"1": "1/384"
-			},
-			"Bandos boots": {
-				"1": "1/384"
-			},
-			"Bandos warshield": {
-				"1": "1/384"
-			},
-			"Godsword shard 1": {
-				"1": "1/768"
-			},
-			"Godsword shard 2": {
-				"1": "1/768"
-			},
-			"Godsword shard 3": {
-				"1": "1/768"
-			},
-			"Bandos hilt": {
-				"1": "1/512"
-			},
-			"Snapdragon seed": {
-				"10-12": "16/128"
+			"Off-hand dragon longsword": {
+				"1 (HM)": "4/128"
 			},
 			"Yew seed": {
-				"1": "6/128"
+				"1 (HM)": "6/128"
 			},
-			"Runite stone spirit": {
-				"5": "6/128"
-			},
-			"Orichalcite stone spirit": {
-				"3": "8/128"
-			},
-			"Drakolith stone spirit": {
-				"3": "4/128"
-			},
-			"Large bladed rune salvage": {
-				"2 (noted)": "8/128"
-			},
-			"Huge plated rune salvage": {
-				"2 (noted)": "6/128"
-			},
-			"Coins": {
-				"20100-20600": "1/256",
-				"15500-16000": "25/128",
-				"40000-45000": "12/128",
-				"75000-80000": "6/128"
-			},
-			"Magic logs": {
-				"30-40 (noted)": "8/128"
+			"Large plated rune salvage": {
+				"2 (noted) (HM)": "6/128"
 			},
 			"Uncut dragonstone": {
-				"3-4 (noted)": "6/128"
-			},
-			"Femur bone": {
-				"1": "1/4"
-			},
-			"The Glory of General Graardor": {
-				"1": "1/56.9"
-			},
-			"Sealed clue scroll (hard)": {
-				"1": "10/1280"
-			},
-			"Sealed clue scroll (elite)": {
-				"1": "495/128000"
-			},
-			"Sealed clue scroll (master)": {
-				"1": "5/128000"
-			},
-			"Decaying tooth": {
-				"1": "1/1000"
-			},
-			"Warpriest of Bandos helm": {
-				"1": "1/128"
-			},
-			"Warpriest of Bandos cuirass": {
-				"1": "1/128"
-			},
-			"Warpriest of Bandos greaves": {
-				"1": "1/128"
-			},
-			"Warpriest of Bandos gauntlets": {
-				"1": "1/128"
-			},
-			"Warpriest of Bandos boots": {
-				"1": "1/128"
-			},
-			"Warpriest of Bandos cape": {
-				"1": "1/128"
-			},
-			"Spirit sapphire": {
-				"1": "5/2000"
-			},
-			"Spirit emerald": {
-				"1": "3/2000"
-			},
-			"Spirit ruby": {
-				"1": "2/2000"
-			},
-			"Starved ancient effigy": {
-				"1": "1/128"
-			},
-			"Mimic kill token": {
-				"1": "1/9376"
-			},
-			"Gold charm": {
-				"1": "101/1000"
-			},
-			"Green charm": {
-				"1": "50.4/1000"
-			},
-			"Crimson charm": {
-				"1": "101/1000"
-			},
-			"Blue charm": {
-				"1": "161/1000"
-			},
-			"RareDropTable+": {
-				"1": "1/100"
-			},
-			"General Graardor's head": {
-				"1": "1/500"
-			},
-			"Furniture plans: Bandos rug": {
-				"1": "1/512"
-			},
-			"Furniture plans: Bandos altar": {
-				"1": "1/512"
+				"3-4 (noted) (HM)": "6/128"
 			}
 		},
 		"General malpractitioner": {
@@ -263196,7 +263035,7 @@
 				"1": "Very rare"
 			},
 			"Spider egg (unchecked)": {
-				"1": "Very rare"
+				"1": "1/500"
 			},
 			"Nothing": {
 				"1": "860/1000"
@@ -263378,10 +263217,10 @@
 				"3-6": "46/520"
 			},
 			"Clingy mole": {
-				"2": "5/520"
+				"1": "1/50"
 			},
 			"Dragon 2h sword": {
-				"1": "1/520"
+				"1": "1/64"
 			},
 			"Long bone": {
 				"1": "1/400"
@@ -263390,7 +263229,7 @@
 				"1": "1/5000"
 			},
 			"Rotten fang": {
-				"1": "1/2500"
+				"1": "1/1000"
 			},
 			"Coal stone spirit": {
 				"40 (F2P)": "16/128"
@@ -263406,92 +263245,9 @@
 			},
 			"Giant mole's head": {
 				"1": "1/500"
-			}
-		},
-		"Giant mole (Hard Mode)": {
-			"Big bones": {
-				"1": "Always"
-			},
-			"Mole claw": {
-				"1": "Always"
-			},
-			"Mole skin": {
-				"3": "Always"
-			},
-			"Mole nose": {
-				"1": "Always"
-			},
-			"Coins": {
-				"17500-22500": "18/128"
-			},
-			"Coins": {
-				"25000-31000": "12/128"
-			},
-			"Red dragonhide": {
-				"6 (noted)": "6/128"
-			},
-			"Ranarr seed": {
-				"2": "14/128"
-			},
-			"Grapevine seed": {
-				"8": "12/128"
-			},
-			"Yew logs": {
-				"40 (noted)": "10/128"
-			},
-			"Iron stone spirit": {
-				"55": "16/128"
-			},
-			"Adamantite stone spirit": {
-				"40": "8/128"
-			},
-			"Pure essence": {
-				"900 (noted)": "14/128"
-			},
-			"Blood rune": {
-				"90": "14/128"
-			},
-			"Mystic cloth": {
-				"3 (noted)": "4/128"
 			},
 			"Ultra-growth potion (1)": {
-				"1": "3/52"
-			},
-			"Numbing root": {
-				"3-6": "1/52"
-			},
-			"Clingy mole": {
-				"1": "1/52"
-			},
-			"Dragon 2h sword": {
-				"1": "1/260"
-			},
-			"Long bone": {
-				"1": "1/400"
-			},
-			"Curved bone": {
-				"1": "1/5000"
-			},
-			"Rotten fang": {
-				"1": "1/500"
-			},
-			"Coal stone spirit": {
-				"60 (F2P)": "16/128"
-			},
-			"Nature rune": {
-				"60 (F2P)": "14/128"
-			},
-			"Limpwurt root": {
-				"20 (noted) (F2P)": "12/128"
-			},
-			"Uncut diamond": {
-				"9 (F2P)": "8/128"
-			},
-			"Grapes": {
-				"14 (noted) (F2P)": "12/128"
-			},
-			"Giant mole's head": {
-				"1": "1/500"
+				"1 (HM)": "30/520"
 			}
 		},
 		"Giant rat": {
@@ -263852,7 +263608,7 @@
 				"1": "1/200"
 			},
 			"Spider egg (unchecked)": {
-				"1": "1/1480"
+				"1": "1/500"
 			},
 			"Mimic kill token": {
 				"1": "1/9967"
@@ -263869,7 +263625,7 @@
 		},
 		"Giant spider#Stronghold of Security": {
 			"Spider egg (unchecked)": {
-				"1": "1/1480"
+				"1": "1/500"
 			}
 		},
 		"Giant wasp": {
@@ -266323,7 +266079,7 @@
 				"1": "1/200"
 			},
 			"Green dragon egg (unchecked)": {
-				"1": "1/2000"
+				"1": "1/1200"
 			},
 			"Gold charm": {
 				"1": "66.218/1000"
@@ -266426,7 +266182,7 @@
 				"1": "1/256"
 			},
 			"Crest of Sliske": {
-				"1": "1/256"
+				"1": "1/128"
 			},
 			"Sliskean essence": {
 				"1": "1/64"
@@ -266445,89 +266201,6 @@
 			},
 			"Gregorovic's head": {
 				"1": "1/500"
-			}
-		},
-		"Gregorovic (Hard Mode)": {
-			"Bones": {
-				"1": "always"
-			},
-			"Seal of the Faceless": {
-				"3": "always"
-			},
-			"Coins": {
-				"72000-96000": "6/64"
-			},
-			"Drakolith stone spirit": {
-				"18-30": "4/64"
-			},
-			"Orichalcite stone spirit": {
-				"18-30": "4/64"
-			},
-			"Phasmatite stone spirit": {
-				"18-30": "3/64"
-			},
-			"Necrite stone spirit": {
-				"18-30": "3/64"
-			},
-			"Uncut diamond": {
-				"21-26": "7/64"
-			},
-			"Uncut dragonstone": {
-				"9-14": "3/64"
-			},
-			"Medium plated rune salvage": {
-				"6-12 (noted)": "6/64"
-			},
-			"Large plated rune salvage": {
-				"6-12 (noted)": "3/64"
-			},
-			"Dwarf weed seed": {
-				"3-6": "5/64"
-			},
-			"Magic logs": {
-				"180-300": "5/64"
-			},
-			"Raw shark": {
-				"54-66": "7/64"
-			},
-			"Battlestaff": {
-				"60-72 (noted)": "8/64"
-			},
-			"Dormant anima core helm": {
-				"1": "1/179"
-			},
-			"Dormant anima core body": {
-				"1": "1/179"
-			},
-			"Dormant anima core legs": {
-				"1": "1/179"
-			},
-			"Shadow glaive": {
-				"1": "1/179"
-			},
-			"Off-hand shadow glaive": {
-				"1": "1/179"
-			},
-			"Crest of Sliske": {
-				"1": "1/179"
-			},
-			"Sliskean essence": {
-				"1": "1/44"
-			},
-			"Faceless mask": {
-				"1": "1/1000"
-			},
-			"Sigil piece (Sliske)": {
-				"1": "Always"
-			},
-			"RareDropTable+": {
-				"1": "1/64"
-			},
-			"Shark": {
-				"1-3": "Uncommon"
-			},
-			"Gregorovic's head": {
-				"1": "1/128"
 			}
 		},
 		"Grip": {
@@ -268078,99 +267751,13 @@
 				"1": "1/256"
 			},
 			"Crest of Seren": {
-				"1": "1/256"
+				"1": "1/128"
 			},
 			"Serenic essence": {
 				"1": "1/64"
 			},
 			"Twisted antler": {
 				"1": "1/2000"
-			},
-			"Sigil piece (Seren)": {
-				"1": "Always"
-			},
-			"RareDropTable+": {
-				"1": "1/64"
-			},
-			"Shark": {
-				"1-3": "6/64"
-			},
-			"Helwyr's head": {
-				"1": "1/500"
-			},
-			"Furniture plans: Seren rug": {
-				"1": "1/512"
-			},
-			"Furniture plans: Seren altar": {
-				"1": "1/512"
-			}
-		},
-		"Helwyr (Hard Mode)": {
-			"Bones": {
-				"1": "Always"
-			},
-			"Seal of the Cywir": {
-				"3": "Always"
-			},
-			"Drakolith stone spirit": {
-				"18-30": "4/64"
-			},
-			"Orichalcite stone spirit": {
-				"18-30": "4/64"
-			},
-			"Phasmatite stone spirit": {
-				"18-30": "3/64"
-			},
-			"Necrite stone spirit": {
-				"18-30": "3/64"
-			},
-			"Uncut diamond": {
-				"21-26 (noted)": "7/64"
-			},
-			"Uncut dragonstone": {
-				"9-14 (noted)": "3/64"
-			},
-			"Lantadyme seed": {
-				"9-13": "8/64"
-			},
-			"Dwarf weed seed": {
-				"3-6": "5/64"
-			},
-			"Magic logs": {
-				"175-350 (noted)": "5/64"
-			},
-			"Raw shark": {
-				"54-66 (noted)": "7/64"
-			},
-			"Large bladed rune salvage": {
-				"10-18 (noted)": "3/64"
-			},
-			"Crystal key": {
-				"2-4 (noted)": "6/64"
-			},
-			"Dormant anima core helm": {
-				"1": "1/179"
-			},
-			"Dormant anima core body": {
-				"1": "1/179"
-			},
-			"Dormant anima core legs": {
-				"1": "1/179"
-			},
-			"Wand of the Cywir elders": {
-				"1": "1/179"
-			},
-			"Orb of the Cywir elders": {
-				"1": "1/179"
-			},
-			"Crest of Seren": {
-				"1": "1/179"
-			},
-			"Serenic essence": {
-				"1": "1/44"
-			},
-			"Twisted antler": {
-				"1": "1/1000"
 			},
 			"Sigil piece (Seren)": {
 				"1": "Always"
@@ -271168,7 +270755,7 @@
 				"1": "1/64"
 			},
 			"Ivar's loincloth": {
-				"1": "1/1250"
+				"1": "1/500"
 			},
 			"Ivar's head": {
 				"1": "1/500"
@@ -272178,7 +271765,7 @@
 				"1": "Always"
 			},
 			"Spider egg (unchecked)": {
-				"1": "1/750"
+				"1": "1/250"
 			}
 		},
 		"Jungle spider#Jade Vine Maze": {
@@ -272192,7 +271779,7 @@
 				"3": "1/128"
 			},
 			"Spider egg (unchecked)": {
-				"1": "1/1064"
+				"1": "1/354"
 			},
 			"Earth rune": {
 				"1-15": "5/128"
@@ -272279,28 +271866,28 @@
 				"15-20 (noted)": "Uncommon"
 			},
 			"Hood of subjugation": {
-				"1": "1/512"
+				"1": "1/320"
 			},
 			"Garb of subjugation": {
-				"1": "1/512"
+				"1": "1/320"
 			},
 			"Gown of subjugation": {
-				"1": "1/512"
+				"1": "1/320"
 			},
 			"Gloves of subjugation": {
-				"1": "1/512"
+				"1": "1/320"
 			},
 			"Boots of subjugation": {
-				"1": "1/512"
+				"1": "1/320"
 			},
 			"Ward of subjugation": {
-				"1": "1/512"
+				"1": "1/320"
 			},
 			"Zamorakian spear": {
-				"1": "1/512"
+				"1": "1/384"
 			},
 			"Steam battlestaff": {
-				"1": "1/512"
+				"1": "1/64"
 			},
 			"Godsword shard 1": {
 				"1": "1/768"
@@ -272312,7 +271899,7 @@
 				"1": "1/768"
 			},
 			"Zamorak hilt": {
-				"1": "1/512"
+				"1": "1/384"
 			},
 			"Coins": {
 				"19500-21000": "30/128",
@@ -272377,7 +271964,7 @@
 				"1": "6/1280"
 			},
 			"Severed hoof": {
-				"1": "1/5000"
+				"1": "1/2500"
 			},
 			"Starved ancient effigy": {
 				"1": "1/128"
@@ -272390,125 +271977,21 @@
 			},
 			"Furniture plans: Zamorak altar": {
 				"1": "1/512"
-			}
-		},
-		"K'ril Tsutsaroth (Hard Mode)": {
-			"Infernal ashes": {
-				"1": "Always",
-				"15-20 (noted)": "12/128"
-			},
-			"Hood of subjugation": {
-				"1": "1/512"
-			},
-			"Garb of subjugation": {
-				"1": "1/512"
-			},
-			"Gown of subjugation": {
-				"1": "1/512"
-			},
-			"Gloves of subjugation": {
-				"1": "1/512"
-			},
-			"Boots of subjugation": {
-				"1": "1/512"
-			},
-			"Ward of subjugation": {
-				"1": "1/512"
-			},
-			"Zamorakian spear": {
-				"1": "1/512"
-			},
-			"Steam battlestaff": {
-				"1": "1/512"
-			},
-			"Godsword shard 1": {
-				"1": "1/768"
-			},
-			"Godsword shard 2": {
-				"1": "1/768"
-			},
-			"Godsword shard 3": {
-				"1": "1/768"
-			},
-			"Zamorak hilt": {
-				"1": "1/512"
-			},
-			"Coins": {
-				"15512-79980": "32/128",
-				"19501-21000": "3/256",
-				"20500-21000": "1/256"
-			},
-			"Lantadyme seed": {
-				"3": "12/128"
-			},
-			"Large plated rune salvage": {
-				"2 (noted)": "11/128"
 			},
 			"Huge plated rune salvage": {
-				"2 (noted)": "11/128"
-			},
-			"Orichalcite stone spirit": {
-				"4-6": "9/128"
-			},
-			"Wine of Zamorak": {
-				"30-44 (noted)": "8/128"
+				"2 (noted) (HM)": "11/128"
 			},
 			"Pure essence": {
-				"621-796 (noted)": "8/128"
-			},
-			"Super strength (3)": {
-				"3": "8/128"
+				"600-800 (HM)": "8/128"
 			},
 			"Dragon helm": {
-				"1": "8/128"
+				"1 (HM)": "8/128"
 			},
 			"Battlestaff": {
-				"8-10 (noted)": "8/128"
+				"8-10 (noted) (HM)": "8/128"
 			},
 			"Palm tree seed": {
-				"1": "5/128"
-			},
-			"Warpriest of Zamorak helm": {
-				"1": "1/128"
-			},
-			"Warpriest of Zamorak cuirass": {
-				"1": "1/128"
-			},
-			"Warpriest of Zamorak greaves": {
-				"1": "1/128"
-			},
-			"Warpriest of Zamorak gauntlets": {
-				"1": "1/128"
-			},
-			"Warpriest of Zamorak boots": {
-				"1": "1/128"
-			},
-			"Warpriest of Zamorak cape": {
-				"1": "1/128"
-			},
-			"Razulei's Tale": {
-				"1": "1/64"
-			},
-			"Sealed clue scroll (hard)": {
-				"1": "10/1280"
-			},
-			"Sealed clue scroll (elite)": {
-				"1": "6/1280"
-			},
-			"Severed hoof": {
-				"1": "1/1000"
-			},
-			"Starved ancient effigy": {
-				"1": "1/128"
-			},
-			"K'ril Tsutsaroth shoulder guard": {
-				"1": "1/500"
-			},
-			"Furniture plans: Zamorak rug": {
-				"1": "1/512"
-			},
-			"Furniture plans: Zamorak altar": {
-				"1": "1/512"
+				"1 (HM)": "5/128"
 			}
 		},
 		"Kal'gerion demon": {
@@ -272871,7 +272354,7 @@
 				"1": "1/50"
 			},
 			"Kalphite claw": {
-				"1": "1/2000"
+				"1": "1/1000"
 			},
 			"Gold charm": {
 				"20": "76.865/1000"
@@ -272900,10 +272383,10 @@
 				"1": "Always"
 			},
 			"Dragon chainbody": {
-				"1": "1/128"
+				"1": "1/64"
 			},
 			"Dragon 2h sword": {
-				"1": "1/256"
+				"1": "1/64"
 			},
 			"Lava battlestaff": {
 				"2": "1/128"
@@ -272960,7 +272443,7 @@
 				"1": "5/128000"
 			},
 			"Kalphite egg": {
-				"1": "1/2500"
+				"1": "1/1000"
 			},
 			"Bone fragments": {
 				"1": "1/150"
@@ -273225,92 +272708,15 @@
 			},
 			"Kerapac's time-torn Staff of Armadyl": {
 				"1": "1/500"
-			}
-		},
-		"Kerapac, the bound (Hard Mode)": {
-			"Coins": {
-				"250000-400000": "10/100"
-			},
-			"Cannonball": {
-				"450-900": "8/100"
-			},
-			"Hydrix bolt tips": {
-				"50-55": "6/100"
-			},
-			"Large plated orikalkum salvage": {
-				"5-6 (noted)": "8/100"
-			},
-			"Dragonkin bones": {
-				"40-70 (noted)": "10/100"
-			},
-			"Super magic potion (3)": {
-				"8-12 (noted)": "8/100"
-			},
-			"Royal dragonhide": {
-				"75-90 (noted)": "10/100"
-			},
-			"Soul rune": {
-				"100-250": "9/100"
-			},
-			"Uncut dragonstone": {
-				"30-52 (noted)": "10/100"
-			},
-			"Light animica stone spirit": {
-				"50-100": "5/100"
-			},
-			"Primal stone spirit": {
-				"20-32": "5/100"
-			},
-			"Fire battlestaff": {
-				"27-72 (noted)": "11/100"
-			},
-			"Kerapac's wrist wraps": {
-				"1": "449/259200"
-			},
-			"Greater Concentrated blast ability codex": {
-				"1": "449/259200"
-			},
-			"Scripture of Jas": {
-				"1": "449/259200"
-			},
-			"Fractured Armadyl symbol": {
-				"1": "1/450"
-			},
-			"Fractured stabilisation gem": {
-				"1": "1/450"
 			},
 			"Staff of Armadyl's fractured shaft": {
-				"1": "1/450"
+				"1 (HM)": "1/400"
 			},
-			"Resonant anima of Jas": {
-				"80-120": "Always"
+			"Fractured stabilisation gem": {
+				"1 (HM)": "1/400"
 			},
-			"Elder Trove (Jas, T1)": {
-				"1": "Common"
-			},
-			"Elder Trove (Jas, T2)": {
-				"1": "Common"
-			},
-			"Elder Trove (Jas, T3)": {
-				"1": "Common"
-			},
-			"Manuscript of Jas": {
-				"2": "1/7"
-			},
-			"Sealed clue scroll (elite)": {
-				"1": "1/100"
-			},
-			"Starved ancient effigy": {
-				"1": "1/256"
-			},
-			"Chaos die reroll token": {
-				"1": "1/256"
-			},
-			"Kerapac's mask piece": {
-				"1": "1/1500"
-			},
-			"Kerapac's time-torn Staff of Armadyl": {
-				"1": "1/500"
+			"Fractured Armadyl symbol": {
+				"1 (HM)": "1/400"
 			}
 		},
 		"Kezalam, the Wanderer": {
@@ -273356,8 +272762,8 @@
 			"Cannonball": {
 				"180-220": "65/1000"
 			},
-			"Water orb": {
-				"35-45": "65/1000"
+			"Fellstalk seed": {
+				"1-3": "65/1000"
 			},
 			"Water talisman": {
 				"80-100": "65/1000"
@@ -273365,7 +272771,7 @@
 			"Ghostly essence": {
 				"45-55": "60/1000"
 			},
-			"Molten glass": {
+			"Extreme necromancy (1)": {
 				"80-100": "60/1000"
 			},
 			"Potato cactus": {
@@ -273410,108 +272816,6 @@
 			},
 			"Scripture of Amascut": {
 				"1": "1/180"
-			},
-			"Kezalam's head": {
-				"1": "1/50"
-			}
-		},
-		"Kezalam, the Wanderer (Hard Mode)": {
-			"Sanctum of rebirth relic (common)": {
-				"9-11": "58/100"
-			},
-			"Sanctum of rebirth relic (uncommon)": {
-				"5": "40/100"
-			},
-			"Sanctum of rebirth relic (rare)": {
-				"1": "2/100"
-			},
-			"Water battlestaff": {
-				"22-28": "65/1000"
-			},
-			"Fire battlestaff": {
-				"22-28": "65/1000"
-			},
-			"Blood rune": {
-				"135-165": "60/1000"
-			},
-			"Soul rune": {
-				"90-110": "50/1000"
-			},
-			"Acadia wood spirit": {
-				"9-11": "55/2000"
-			},
-			"Elder wood spirit": {
-				"9-11": "55/2000"
-			},
-			"Uncut dragonstone": {
-				"18-22": "65/1000"
-			},
-			"Uncut moonstone": {
-				"1": "15/1000"
-			},
-			"Tiny blunt orikalkum salvage": {
-				"5": "55/1000"
-			},
-			"Small plated orikalkum salvage": {
-				"4": "50/1000"
-			},
-			"Cannonball": {
-				"180-220": "65/1000"
-			},
-			"Water orb": {
-				"35-45": "65/1000"
-			},
-			"Water talisman": {
-				"80-100": "65/1000"
-			},
-			"Ghostly essence": {
-				"45-55": "60/1000"
-			},
-			"Molten glass": {
-				"80-100": "60/1000"
-			},
-			"Potato cactus": {
-				"20-30": "55/1000"
-			},
-			"Summoning focus": {
-				"15-25": "50/1000"
-			},
-			"Onyx bolt tips": {
-				"70-90": "45/1000"
-			},
-			"Onyx dust": {
-				"54-66": "40/1000"
-			},
-			"Large blunt orikalkum salvage": {
-				"3": "1/333"
-			},
-			"Medium blunt orikalkum salvage": {
-				"2": "1/370"
-			},
-			"Vital spark": {
-				"1": "1/370",
-				"9-11": "1/833"
-			},
-			"Key to the Crossing": {
-				"1": "1/667"
-			},
-			"Coins": {
-				"900000-1100000": "1/833"
-			},
-			"Cursed Amascut sand": {
-				"1": "1/1111"
-			},
-			"The Beast of Darkness": {
-				"1": "1/16"
-			},
-			"Manuscript of Amascut": {
-				"1": "1/10"
-			},
-			"Divine Rage prayer codex": {
-				"1": "1/160"
-			},
-			"Scripture of Amascut": {
-				"1": "1/160"
 			},
 			"Kezalam's head": {
 				"1": "1/50"
@@ -273565,16 +272869,16 @@
 				"1": "Always"
 			},
 			"Dragon Rider gloves": {
-				"1": "1/2000"
+				"1": "1/100"
 			},
 			"Dragon Rider boots": {
-				"1": "1/2000"
+				"1": "1/100"
 			},
 			"Dragon kite ornament kit (or)": {
-				"1": "1/2000"
+				"1": "1/250"
 			},
 			"Dragon kite ornament kit (sp)": {
-				"1": "1/2000"
+				"1": "1/250"
 			},
 			"Dragon helm": {
 				"1": "1/100"
@@ -273642,16 +272946,16 @@
 				"1": "1/500"
 			},
 			"Black dragon egg (unchecked)": {
-				"1": "1/2000"
+				"1": "1/1200"
 			},
 			"Last riders": {
-				"1": "1/1000"
+				"1": "1/250"
 			},
 			"Draconic visage": {
-				"1": "1/5000"
+				"1": "1/256"
 			},
 			"King black dragon scale": {
-				"1": "1/2500"
+				"1": "1/1000"
 			},
 			"Bone fragments": {
 				"1": "1/150"
@@ -273869,22 +273173,22 @@
 				"1-15": "Always"
 			},
 			"Armadyl helmet": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Armadyl chestplate": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Armadyl chainskirt": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Armadyl gloves": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Armadyl boots": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Armadyl buckler": {
-				"1": "1/384"
+				"1": "1/320"
 			},
 			"Godsword shard 1": {
 				"1": "1/768"
@@ -273896,7 +273200,7 @@
 				"1": "1/768"
 			},
 			"Armadyl hilt": {
-				"1": "1/512"
+				"1": "1/384"
 			},
 			"Rune bolts": {
 				"20-25": "8/128"
@@ -273971,7 +273275,7 @@
 				"1": "1/64"
 			},
 			"Giant feather": {
-				"1": "1/5000"
+				"1": "1/2500"
 			},
 			"Gold charm": {
 				"1": "100.776/1000"
@@ -274011,161 +273315,24 @@
 			},
 			"Furniture plans: Armadyl altar": {
 				"1": "1/512"
-			}
-		},
-		"Kree'arra (Hard Mode)": {
-			"Big bones": {
-				"1": "Always"
-			},
-			"Feather": {
-				"1-16": "Always",
-				"3500-4000": "9/128"
-			},
-			"Armadyl helmet": {
-				"1": "1/384"
-			},
-			"Armadyl chestplate": {
-				"1": "1/384"
-			},
-			"Armadyl chainskirt": {
-				"1": "1/384"
-			},
-			"Armadyl gloves": {
-				"1": "1/384"
-			},
-			"Armadyl boots": {
-				"1": "1/384"
-			},
-			"Armadyl buckler": {
-				"1": "1/384"
-			},
-			"Godsword shard 1": {
-				"1": "1/768"
-			},
-			"Godsword shard 2": {
-				"1": "1/768"
-			},
-			"Godsword shard 3": {
-				"1": "1/768"
-			},
-			"Armadyl hilt": {
-				"1": "1/512"
-			},
-			"Rune arrow": {
-				"300": "12/128"
 			},
 			"Onyx bolts (e)": {
-				"10": "4/128"
-			},
-			"Dwarf weed seed": {
-				"3": "16/128"
+				"10 (HM)": "4/128"
 			},
 			"Torstol seed": {
-				"1": "4/128"
-			},
-			"Yew seed": {
-				"1": "10/128"
+				"1 (HM)": "4/128"
 			},
 			"Large plated rune salvage": {
-				"2 (noted)": "12/128"
+				"2 (noted) (HM)": "12/128"
 			},
 			"Huge plated rune salvage": {
-				"2 (noted)": "8/128"
-			},
-			"Coins": {
-				"19500-20000": "1/256",
-				"40000-45000": "15/128",
-				"75000-80000": "6/128"
-			},
-			"Crushed nest": {
-				"30-40 (noted)": "8/128"
+				"2 (noted) (HM)": "8/128"
 			},
 			"Rune arrowheads": {
-				"100": "6/128"
-			},
-			"Super ranging potion (3)": {
-				"3": "10/128"
-			},
-			"Super defence (3)": {
-				"3": "10/128"
+				"100 (HM)": "6/128"
 			},
 			"Black dragonhide": {
-				"122-125 (noted)": "7/128"
-			},
-			"Long bone": {
-				"1": "1/400"
-			},
-			"Curved bone": {
-				"1": "1/5000"
-			},
-			"Sealed clue scroll (hard)": {
-				"1": "10/1280"
-			},
-			"Sealed clue scroll (elite)": {
-				"1": "5/1280"
-			},
-			"Warpriest of Armadyl helm": {
-				"1": "1/768"
-			},
-			"Warpriest of Armadyl cuirass": {
-				"1": "1/768"
-			},
-			"Warpriest of Armadyl greaves": {
-				"1": "1/768"
-			},
-			"Warpriest of Armadyl boots": {
-				"1": "1/768"
-			},
-			"Warpriest of Armadyl gauntlets": {
-				"1": "1/768"
-			},
-			"Warpriest of Armadyl cape": {
-				"1": "1/768"
-			},
-			"Armadyl's Assault": {
-				"1": "1/64"
-			},
-			"Giant feather": {
-				"1": "1/1000"
-			},
-			"Gold charm": {
-				"1": "100.776/1000"
-			},
-			"Green charm": {
-				"1": "50.388/1000"
-			},
-			"Crimson charm": {
-				"1": "100.776/1000"
-			},
-			"Blue charm": {
-				"1": "161.242/1000"
-			},
-			"Starved ancient effigy": {
-				"1": "1/128"
-			},
-			"Mimic kill token": {
-				"1": "1/9420"
-			},
-			"Spirit sapphire": {
-				"1": "1/400"
-			},
-			"Spirit emerald": {
-				"1": "1/667"
-			},
-			"Spirit ruby": {
-				"1": "1/1000"
-			},
-			"RareDropTable+": {
-				"1": "2/128"
-			},
-			"Kree'arra's head": {
-				"1": "1/500"
-			},
-			"Furniture plans: Armadyl rug": {
-				"1": "1/512"
-			},
-			"Furniture plans: Armadyl altar": {
-				"1": "1/512"
+				"120-125 (noted) (HM)": "7/128"
 			}
 		},
 		"Ksenia": {
@@ -277655,8 +276822,8 @@
 			"Cannonball": {
 				"180-220": "65/1000"
 			},
-			"Water orb": {
-				"35-45": "65/1000"
+			"Fellstalk seed": {
+				"1-3": "65/1000"
 			},
 			"Water talisman": {
 				"80-100": "65/1000"
@@ -277664,8 +276831,8 @@
 			"Ghostly essence": {
 				"45-55": "60/1000"
 			},
-			"Molten glass": {
-				"80-100": "60/1000"
+			"Extreme necromancy (1)": {
+				"3-6": "60/1000"
 			},
 			"Potato cactus": {
 				"20-30": "55/1000"
@@ -277721,123 +276888,9 @@
 			},
 			"Nakatra's mosaic": {
 				"1": "1/50"
-			}
-		},
-		"Nakatra, Devourer Eternal (Hard Mode)": {
-			"Sanctum of rebirth relic (common)": {
-				"9-11": "58/100"
-			},
-			"Sanctum of rebirth relic (uncommon)": {
-				"5": "40/100"
-			},
-			"Sanctum of rebirth relic (rare)": {
-				"1": "2/100"
-			},
-			"Water battlestaff": {
-				"22-28": "65/1000"
-			},
-			"Fire battlestaff": {
-				"22-28": "65/1000"
-			},
-			"Blood rune": {
-				"135-165": "60/1000"
-			},
-			"Soul rune": {
-				"90-110": "50/1000"
-			},
-			"Acadia wood spirit": {
-				"9-11": "55/2000"
-			},
-			"Elder wood spirit": {
-				"9-11": "55/2000"
-			},
-			"Uncut dragonstone": {
-				"18-22": "65/1000"
-			},
-			"Uncut moonstone": {
-				"1": "15/1000"
-			},
-			"Tiny blunt orikalkum salvage": {
-				"5": "55/1000"
-			},
-			"Small plated orikalkum salvage": {
-				"4": "50/1000"
-			},
-			"Cannonball": {
-				"180-220": "65/1000"
-			},
-			"Water orb": {
-				"35-45": "65/1000"
-			},
-			"Water talisman": {
-				"80-100": "65/1000"
-			},
-			"Ghostly essence": {
-				"45-55": "60/1000"
-			},
-			"Molten glass": {
-				"80-100": "60/1000"
-			},
-			"Potato cactus": {
-				"20-30": "55/1000"
-			},
-			"Summoning focus": {
-				"15-25": "50/1000"
-			},
-			"Onyx bolt tips": {
-				"70-90": "45/1000"
-			},
-			"Onyx dust": {
-				"54-66": "40/1000"
-			},
-			"Large blunt orikalkum salvage": {
-				"3": "1/333"
-			},
-			"Medium blunt orikalkum salvage": {
-				"2": "1/370"
-			},
-			"Vital spark": {
-				"1": "1/370",
-				"9-11": "1/833"
-			},
-			"Key to the Crossing": {
-				"1": "1/667"
-			},
-			"Coins": {
-				"900000-1100000": "1/833"
-			},
-			"Cursed Amascut sand": {
-				"1": "1/1111"
-			},
-			"Death and Devourers": {
-				"1": "1/16"
-			},
-			"Manuscript of Amascut": {
-				"1": "1/10"
-			},
-			"Divine Rage prayer codex": {
-				"1": "1/160"
-			},
-			"Scripture of Amascut": {
-				"1": "1/160"
-			},
-			"Nefthys' Tooth": {
-				"1": "1/240"
-			},
-			"Roar of Awakening": {
-				"1": "1/80"
-			},
-			"Ode to Deceit": {
-				"1": "1/80"
 			},
 			"Shard of Genesis Essence": {
-				"1": "1/80"
-			},
-			"Devourer aura (Sanctum of Rebirth)": {
-				"1": "Always"
-			},
-			"Nakatra's mosaic": {
-				"1": "1/50"
+				"1 (HM)": "1/75"
 			}
 		},
 		"Narf": {
@@ -278565,10 +277618,10 @@
 				"1": "1/36"
 			},
 			"Wand of the praesul": {
-				"1": "1/10000"
+				"1": "1/595"
 			},
 			"Imperium core": {
-				"1": "1/10000"
+				"1": "1/595"
 			},
 			"Intricate smoke-shrouded chest": {
 				"1": "1/4096"
@@ -278671,7 +277724,7 @@
 				"3-5": "1/13"
 			},
 			"Blood tentacle": {
-				"1": "1/3000"
+				"1": "1/2500"
 			},
 			"Nothing": {
 				"25": "230/1000"
@@ -279450,7 +278503,7 @@
 				"5 (noted)": "1000/10000"
 			},
 			"Pristine Bagrada rex egg": {
-				"1": "1/2000"
+				"1": "1/1200"
 			},
 			"Sealed clue scroll (hard)": {
 				"1": "10/1280"
@@ -279741,7 +278794,7 @@
 				"1": "5/1280"
 			},
 			"Calcified heart": {
-				"1": "1/2000"
+				"1": "1/1200"
 			},
 			"RareDropTable+": {
 				"1": "1/150"
@@ -280609,7 +279662,7 @@
 				"5 (noted)": "1000/10000"
 			},
 			"Pristine Pavosaurus rex egg": {
-				"1": "1/2000"
+				"1": "1/1200"
 			},
 			"Sealed clue scroll (hard)": {
 				"1": "10/1280"
@@ -280764,7 +279817,7 @@
 				"1": "1/253"
 			},
 			"Queen Black Dragon scale": {
-				"1": "1/2500"
+				"1": "1/1000"
 			},
 			"Nothing": {
 				"3": "610/1000"
@@ -281129,7 +280182,7 @@
 				"5 (noted)": "1000/10000"
 			},
 			"Pristine Corbicula rex egg": {
-				"1": "1/2000"
+				"1": "1/1200"
 			},
 			"Sealed clue scroll (hard)": {
 				"1": "10/1280"
@@ -281328,7 +280381,7 @@
 				"1": "1/200"
 			},
 			"Red dragon egg (unchecked)": {
-				"1": "1/2000"
+				"1": "1/1200"
 			},
 			"Gold charm": {
 				"1": "180.95/1000"
@@ -284851,7 +283904,7 @@
 				"1": "1/5012.5"
 			},
 			"Silverquill's blood-filled cyst": {
-				"1": "1/1000"
+				"1": "1/500"
 			},
 			"Silverquill's head": {
 				"1": "1/500"
@@ -287598,10 +286651,10 @@
 				"1": "1/200"
 			},
 			"Blightbound crossbow": {
-				"1": "1/400"
+				"1": "1/200"
 			},
 			"Off-hand Blightbound crossbow": {
-				"1": "1/400"
+				"1": "1/200"
 			},
 			"Sealed clue scroll (elite)": {
 				"1": "1/100"
@@ -287622,7 +286675,7 @@
 				"1": "1/1000"
 			},
 			"Imbued bark shard": {
-				"1": "1/1200"
+				"1": "1/1000"
 			},
 			"Nothing": {
 				"20": "70/1000"
@@ -290940,7 +289993,7 @@
 				"1": "1/256"
 			},
 			"Crest of Zamorak": {
-				"1": "1/256"
+				"1": "1/128"
 			},
 			"Zamorakian essence": {
 				"1": "1/64"
@@ -290989,95 +290042,6 @@
 			},
 			"Nymora's braid": {
 				"1": "1/2000"
-			},
-			"Sigil piece (Zamorak)": {
-				"1": "Always"
-			},
-			"RareDropTable+": {
-				"1": "1/64"
-			},
-			"Wings of the Twin Furies": {
-				"1": "1/500"
-			},
-			"Furniture plans: Zamorak rug": {
-				"1": "1/512"
-			},
-			"Furniture plans: Zamorak altar": {
-				"1": "1/512"
-			}
-		},
-		"Twin Furies (Hard Mode)": {
-			"Seal of the Furies": {
-				"3": "Always"
-			},
-			"Dormant anima core helm": {
-				"1": "1/179"
-			},
-			"Dormant anima core body": {
-				"1": "1/179"
-			},
-			"Dormant anima core legs": {
-				"1": "1/179"
-			},
-			"Blade of Avaryss": {
-				"1": "1/179"
-			},
-			"Blade of Nymora": {
-				"1": "1/179"
-			},
-			"Crest of Zamorak": {
-				"1": "1/179"
-			},
-			"Zamorakian essence": {
-				"1": "1/44"
-			},
-			"Drakolith stone spirit": {
-				"18-30": "4/64"
-			},
-			"Orichalcite stone spirit": {
-				"18-30": "4/64"
-			},
-			"Phasmatite stone spirit": {
-				"18-30": "3/64"
-			},
-			"Necrite stone spirit": {
-				"18-30": "3/64"
-			},
-			"Uncut diamond": {
-				"21-26 (noted)": "7/64"
-			},
-			"Uncut dragonstone": {
-				"9-14 (noted)": "3/64"
-			},
-			"Raw shark": {
-				"54-66 (noted)": "7/64"
-			},
-			"Coins": {
-				"72000-96000": "6/64"
-			},
-			"Dwarf weed seed": {
-				"3-6": "5/64"
-			},
-			"Magic logs": {
-				"180-300 (noted)": "5/64"
-			},
-			"Wine of Zamorak": {
-				"21-36 (noted)": "8/64"
-			},
-			"Infernal ashes": {
-				"180-300 (noted)": "6/64"
-			},
-			"Large bladed rune salvage": {
-				"6-12 (noted)": "3/64"
-			},
-			"Shark": {
-				"1-3": "6/64"
-			},
-			"Avaryss' braid": {
-				"1": "1/1000"
-			},
-			"Nymora's braid": {
-				"1": "1/1000"
 			},
 			"Sigil piece (Zamorak)": {
 				"1": "Always"
@@ -291469,97 +290433,15 @@
 			},
 			"TzKal-Zuk's helmet": {
 				"1": "1/25"
-			}
-		},
-		"TzKal-Zuk (Hard Mode)": {
-			"Scripture of Ful": {
-				"1": "1/50"
-			},
-			"Magma Tempest ability codex": {
-				"1": "1/50"
-			},
-			"Alchemist's key": {
-				"18": "Common",
-				"24": "Common"
-			},
-			"Grimy kwuarm": {
-				"200": "Common",
-				"300": "Common"
-			},
-			"Onyx dust": {
-				"180": "Common",
-				"240": "Common"
-			},
-			"Uncut onyx": {
-				"1": "Common"
-			},
-			"Onyx bolt tips": {
-				"180": "Common",
-				"240": "Common"
-			},
-			"Huge bladed orikalkum salvage": {
-				"24": "Common",
-				"36": "Common"
-			},
-			"Elder wood spirit": {
-				"15-25": "Common"
-			},
-			"Wine of Saradomin": {
-				"28": "Common",
-				"36": "Common"
-			},
-			"Wine of Zamorak": {
-				"75": "Common",
-				"100": "Common"
-			},
-			"Irit seed": {
-				"18": "Common"
-			},
-			"Cadantine seed": {
-				"18": "Common"
-			},
-			"Hydrix bolt tips": {
-				"120": "Common",
-				"180": "Common"
-			},
-			"Resonant anima of Ful": {
-				"30-78": "Always"
-			},
-			"Elder Trove (Ful, T1)": {
-				"1": "Common"
-			},
-			"Elder Trove (Ful, T2)": {
-				"1": "Common"
-			},
-			"Elder Trove (Ful, T3)": {
-				"1": "Common"
-			},
-			"Manuscript of Ful": {
-				"1": "Uncommon"
-			},
-			"Igneous stone": {
-				"1": "Always"
 			},
 			"Obsidian blade": {
-				"1": "1/30"
+				"1 (HM)": "1/30"
 			},
 			"Magma core": {
-				"1": "1/30"
+				"1 (HM)": "1/30"
 			},
 			"Ancient hilt": {
-				"1": "1/30"
-			},
-			"Chaos die reroll token": {
-				"1": "10/70"
-			},
-			"TzKal-Zuk's armour piece": {
-				"1": "1/300"
-			},
-			"TzekHaarHighValueDropTable+": {
-				"1": "Always"
-			},
-			"TzKal-Zuk's helmet": {
-				"1": "1/25"
+				"1 (HM)": "1/30"
 			}
 		},
 		"TzTok-Jad": {
@@ -292983,8 +291865,8 @@
 			"Cannonball": {
 				"180-220": "65/1000"
 			},
-			"Water orb": {
-				"35-45": "65/1000"
+			"Fellstalk seed": {
+				"1-3": "65/1000"
 			},
 			"Water talisman": {
 				"80-100": "65/1000"
@@ -292992,8 +291874,8 @@
 			"Ghostly essence": {
 				"45-55": "60/1000"
 			},
-			"Molten glass": {
-				"80-100": "60/1000"
+			"Extreme necromancy (1)": {
+				"3-6": "60/1000"
 			},
 			"Potato cactus": {
 				"20-30": "55/1000"
@@ -293037,108 +291919,6 @@
 			},
 			"Scripture of Amascut": {
 				"1": "1/180"
-			},
-			"Vermyx's head": {
-				"1": "1/50"
-			}
-		},
-		"Vermyx, Brood Mother (Hard Mode)": {
-			"Sanctum of rebirth relic (common)": {
-				"9-11": "58/100"
-			},
-			"Sanctum of rebirth relic (uncommon)": {
-				"5": "40/100"
-			},
-			"Sanctum of rebirth relic (rare)": {
-				"1": "2/100"
-			},
-			"Water battlestaff": {
-				"22-28": "65/1000"
-			},
-			"Fire battlestaff": {
-				"22-28": "65/1000"
-			},
-			"Blood rune": {
-				"135-165": "60/1000"
-			},
-			"Soul rune": {
-				"90-110": "50/1000"
-			},
-			"Acadia wood spirit": {
-				"9-11": "55/2000"
-			},
-			"Elder wood spirit": {
-				"9-11": "55/2000"
-			},
-			"Uncut dragonstone": {
-				"18-22": "65/1000"
-			},
-			"Uncut moonstone": {
-				"1": "15/1000"
-			},
-			"Tiny blunt orikalkum salvage": {
-				"5": "55/1000"
-			},
-			"Small plated orikalkum salvage": {
-				"4": "50/1000"
-			},
-			"Cannonball": {
-				"180-220": "65/1000"
-			},
-			"Water orb": {
-				"35-45": "65/1000"
-			},
-			"Water talisman": {
-				"80-100": "65/1000"
-			},
-			"Ghostly essence": {
-				"45-55": "60/1000"
-			},
-			"Molten glass": {
-				"80-100": "60/1000"
-			},
-			"Potato cactus": {
-				"20-30": "55/1000"
-			},
-			"Summoning focus": {
-				"15-25": "50/1000"
-			},
-			"Onyx bolt tips": {
-				"70-90": "45/1000"
-			},
-			"Onyx dust": {
-				"54-66": "40/1000"
-			},
-			"Large blunt orikalkum salvage": {
-				"3": "1/333"
-			},
-			"Medium blunt orikalkum salvage": {
-				"2": "1/370"
-			},
-			"Vital spark": {
-				"1": "1/370",
-				"9-11": "1/833"
-			},
-			"Key to the Crossing": {
-				"1": "1/667"
-			},
-			"Coins": {
-				"900000-1100000": "1/833"
-			},
-			"Cursed Amascut sand": {
-				"1": "1/1111"
-			},
-			"The Brood Mother": {
-				"1": "1/16"
-			},
-			"Manuscript of Amascut": {
-				"1": "1/10"
-			},
-			"Divine Rage prayer codex": {
-				"1": "1/160"
-			},
-			"Scripture of Amascut": {
-				"1": "1/160"
 			},
 			"Vermyx's head": {
 				"1": "1/50"
@@ -293162,7 +291942,7 @@
 				"1": "1/256"
 			},
 			"Crest of Zaros": {
-				"1": "1/256"
+				"1": "1/128"
 			},
 			"Zarosian essence": {
 				"1": "1/64"
@@ -293232,94 +292012,6 @@
 				"1": "1/512"
 			}
 		},
-		"Vindicta (Hard Mode)": {
-			"Seal of the Dragon riders": {
-				"3": "Always",
-				"1-2": "Always"
-			},
-			"Dormant anima core helm": {
-				"1": "1/179"
-			},
-			"Dormant anima core body": {
-				"1": "1/179"
-			},
-			"Dormant anima core legs": {
-				"1": "1/179"
-			},
-			"Dragon Rider lance": {
-				"1": "1/179"
-			},
-			"Crest of Zaros": {
-				"1": "1/179"
-			},
-			"Zarosian essence": {
-				"1": "1/44"
-			},
-			"Drakolith stone spirit": {
-				"18-30": "4/64"
-			},
-			"Orichalcite stone spirit": {
-				"18-30": "4/64"
-			},
-			"Phasmatite stone spirit": {
-				"18-30": "3/64"
-			},
-			"Necrite stone spirit": {
-				"18-30": "3/64"
-			},
-			"Uncut diamond": {
-				"21-26 (noted)": "7/64"
-			},
-			"Uncut dragonstone": {
-				"9-14 (noted)": "3/64"
-			},
-			"Raw shark": {
-				"54-66 (noted)": "7/64"
-			},
-			"Coins": {
-				"72000-96000": "6/64"
-			},
-			"Dwarf weed seed": {
-				"3-6": "5/64"
-			},
-			"Magic logs": {
-				"180-300 (noted)": "5/64"
-			},
-			"Dragon bones": {
-				"1": "Always",
-				"180-300 (noted)": "5/64"
-			},
-			"Black dragonhide": {
-				"30-42 (noted)": "6/64"
-			},
-			"Large plated rune salvage": {
-				"9-14 (noted)": "3/64"
-			},
-			"Imbued blade slice": {
-				"1": "1/1000"
-			},
-			"Glimmering scale": {
-				"1": "1/1000"
-			},
-			"RareDropTable+": {
-				"1": "1/64"
-			},
-			"Shark": {
-				"1-3": "6/64"
-			},
-			"Sigil piece (Zaros)": {
-				"1": "Always"
-			},
-			"Gorvek's head": {
-				"1": "1/500"
-			},
-			"Furniture plans: Zaros rug": {
-				"1": "1/512"
-			},
-			"Furniture plans: Zaros altar": {
-				"1": "1/512"
-			}
-		},
 		"Volatile TzekHaar-Hur": {
 			"Resonant anima of Ful": {
 				"9-13": "Always"
@@ -293359,13 +292051,13 @@
 				"2": "4/5"
 			},
 			"Seismic wand": {
-				"1": "1/400"
+				"1": "1/120"
 			},
 			"Seismic singularity": {
-				"1": "1/400"
+				"1": "1/120"
 			},
 			"Ancient summoning stone": {
-				"1": "1/5000"
+				"1": "1/1000"
 			},
 			"Godly grapevine seed": {
 				"20-33": "1/11"
@@ -293421,78 +292113,9 @@
 			},
 			"Vorago's arm": {
 				"1": "1/500"
-			}
-		},
-		"Vorago (Hard Mode)": {
-			"Tectonic energy": {
-				"2": "4/5"
-			},
-			"Seismic wand": {
-				"1": "1/200"
-			},
-			"Seismic singularity": {
-				"1": "1/200"
-			},
-			"Ancient summoning stone": {
-				"1": "1/2500"
 			},
 			"Ancient artefact": {
-				"1": "1/5000"
-			},
-			"Godly grapevine seed": {
-				"40-53": "1/11"
-			},
-			"Raw rocktail": {
-				"125-185 (noted)": "1/11"
-			},
-			"Huge plated rune salvage": {
-				"8-12 (noted)": "1/11"
-			},
-			"Torstol seed": {
-				"6-9": "1/11",
-				"8-12": "1/11"
-			},
-			"Primal stone spirit": {
-				"29-41": "1/22"
-			},
-			"Black dragonhide": {
-				"75-115 (noted)": "1/11"
-			},
-			"Onyx bolts (e)": {
-				"60-95": "1/11"
-			},
-			"Magic logs": {
-				"135-190 (noted)": "1/11"
-			},
-			"Eternal magic wood spirit": {
-				"33-48": "1/22"
-			},
-			"Hydrix bolt tips": {
-				"50": "1/11"
-			},
-			"Crystal triskelion fragment 1": {
-				"1": "1/11"
-			},
-			"Crystal triskelion fragment 2": {
-				"1": "1/11"
-			},
-			"Crystal triskelion fragment 3": {
-				"1": "1/11"
-			},
-			"Gold charm": {
-				"5": "79/1000"
-			},
-			"Green charm": {
-				"5": "39.5/1000"
-			},
-			"Crimson charm": {
-				"5": "632/1000"
-			},
-			"Blue charm": {
-				"5": "15.8/1000"
-			},
-			"Vorago's arm": {
-				"1": "1/500"
+				"1 (HM)": "1/50"
 			}
 		},
 		"Vulture": {
@@ -295980,7 +294603,7 @@
 				"1": "Always"
 			},
 			"Fremennik yak (unchecked)": {
-				"1": "1/3000"
+				"1": "1/300"
 			}
 		},
 		"Yakamaru": {
@@ -297081,68 +295704,6 @@
 				"1": "1/512"
 			}
 		},
-		"Zemouregal & Vorkath (Story Mode)": {
-			"Congealed blood": {
-				"28-42": "75/1000"
-			},
-			"Coins": {
-				"56000-84000": "75/1000"
-			},
-			"Catalytic anima stone": {
-				"36-54": "75/1000"
-			},
-			"Dragon scale dust": {
-				"16-24": "50/1000"
-			},
-			"Bloodweed seed": {
-				"2": "20/1000"
-			},
-			"Frost dragon bones": {
-				"3": "75/1000"
-			},
-			"Banite stone spirit": {
-				"12-18": "50/1000"
-			},
-			"Cannonball": {
-				"68-102": "75/1000"
-			},
-			"Large blunt rune salvage": {
-				"4": "40/1000"
-			},
-			"Small plated necronium salvage": {
-				"1": "30/1000"
-			},
-			"Dragonstone bolt tips": {
-				"52-78": "75/1000"
-			},
-			"Undead dragonhide": {
-				"4-6": "115/1000"
-			},
-			"Blue dragonhide": {
-				"20-30": "75/1000"
-			},
-			"Avantoe seed": {
-				"3": "40/1000"
-			},
-			"Fellstalk seed": {
-				"3": "40/1000"
-			},
-			"Ghostly essence": {
-				"22-33": "25/1000"
-			},
-			"Elder wood spirit": {
-				"3": "45/1000"
-			},
-			"Black stone heart": {
-				"1": "4/1000"
-			},
-			"Onyx dust": {
-				"17-25": "15/1000"
-			},
-			"Draconic visage": {
-				"1": "1/1000"
-			}
-		},
 		"Zemouregal & Vorkath": {
 			"Invoke Lord of Bones incantation codex": {
 				"1": "1/249"
@@ -297221,89 +295782,9 @@
 			},
 			"Vorkath's head": {
 				"1": "1/500"
-			}
-		},
-		"Zemouregal & Vorkath (Hard Mode)": {
-			"Invoke Lord of Bones incantation codex": {
-				"1": "1/150"
-			},
-			"Vorkath's spike": {
-				"6-9": "1/15"
 			},
 			"Vorkath's scale": {
-				"1": "1/150"
-			},
-			"Vorkath's claw": {
-				"1": "1/1000"
-			},
-			"Zemouregal's nexus": {
-				"1": "Always"
-			},
-			"Vorkath Necromancy weapon override token": {
-				"1": "1/2500"
-			},
-			"Congealed blood": {
-				"84-126": "75/1000"
-			},
-			"Coins": {
-				"168000-252000": "75/1000"
-			},
-			"Catalytic anima stone": {
-				"108-162": "75/1000"
-			},
-			"Dragon scale dust": {
-				"48-72": "50/1000"
-			},
-			"Bloodweed seed": {
-				"4-6": "20/1000"
-			},
-			"Frost dragon bones": {
-				"8-12": "75/1000"
-			},
-			"Banite stone spirit": {
-				"12-18": "50/1000"
-			},
-			"Cannonball": {
-				"204-306": "75/1000"
-			},
-			"Large blunt rune salvage": {
-				"9-13": "40/1000"
-			},
-			"Small plated necronium salvage": {
-				"3": "30/1000"
-			},
-			"Dragonstone bolt tips": {
-				"52-78": "75/1000"
-			},
-			"Undead dragonhide": {
-				"9-13": "115/1000"
-			},
-			"Blue dragonhide": {
-				"60-90": "75/1000"
-			},
-			"Avantoe seed": {
-				"7-10": "35/1000"
-			},
-			"Fellstalk seed": {
-				"7-10": "35/1000"
-			},
-			"Ghostly essence": {
-				"67-100": "25/1000"
-			},
-			"Elder wood spirit": {
-				"8-12": "40/1000"
-			},
-			"Black stone heart": {
-				"1": "10/1000"
-			},
-			"Onyx dust": {
-				"60-90": "20/1000"
-			},
-			"Draconic visage": {
-				"1": "1/1000"
-			},
-			"Vorkath's head": {
-				"1": "1/500"
+				"1 (HM)": "1/150"
 			}
 		},
 		"Zogre": {
@@ -300536,9 +299017,6 @@
 			"Red dragonhide^Giant mole": [{
 				"Members only": "Nonskill"
 			}],
-			"Red dragonhide^Giant mole (Hard Mode)": [{
-				"Members only": "Nonskill"
-			}],
 			"Water rune^Minotaur": [{
 				"Members only": "Nonskill"
 			}],
@@ -300557,21 +299035,15 @@
 			"Mole claw^Giant mole": [{
 				"Members only": "Nonskill"
 			}],
-			"Mole nose^Giant mole": [{
+			"Mole nose^": [{
 				"Members only": "Nonskill"
 			}, {
 				"~|Falador Achievements#Elite|~ Complete the Elite Achievements": "Diary"
 			}],
-			"Ultra-growth potion^Giant mole (Hard Mode)": [{
-				"Members only": "Nonskill"
-			}],
-			"Mole claw^Giant mole (Hard Mode)": [{
+			"Ultra-growth potion (1)^": [{
 				"Members only": "Nonskill"
 			}, {
-				"~|Falador Achievements#Elite|~ Complete the Elite Achievements": "Diary"
-			}],
-			"Mole nose^Giant mole (Hard Mode)": [{
-				"Members only": "Nonskill"
+				"Hard Mode Bosses": "Nonskill"
 			}],
 			"Lady Grey's guitar^": [{
 				"~|That Old Black Magic: My One and Only Lute|~ 1": "Quest"
@@ -301240,6 +299712,117 @@
 			}],
 			"Furniture plans: Ports table^": [{
 				"Timegated content enabled": "Nonskill"
+			}],
+			"Cannonball^Arch-Glacor": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Frozen core of Leng^": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Yew seed^Commander Zilyana": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Drakolith stone spirit^Commander Zilyana": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Orichalcite stone spirit^Commander Zilyana": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Huge plated rune salvage^Commander Zilyana": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Super ranging potion (3)^Commander Zilyana": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Uncut diamond^Commander Zilyana": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Magic logs^Commander Zilyana": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Grimy ranarr^Commander Zilyana": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Wine of Saradomin^Commander Zilyana": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Dragon longsword^General Graardor": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Off-hand dragon longsword^General Graardor": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Yew seed^General Graardor": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Large plated rune salvage^General Graardor": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Uncut dragonstone^General Graardor": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Huge plated rune salvage^K'ril Tsutsaroth": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Pure essence^K'ril Tsutsaroth": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Dragon helm^K'ril Tsutsaroth": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Battlestaff^K'ril Tsutsaroth": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Palm tree seed^K'ril Tsutsaroth": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Staff of Armadyl's fractured shaft^": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Fractured stabilisation gem^": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Fractured Armadyl symbol^": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Onyx bolts (e)^Kree'arra": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Torstol seed^Kree'arra": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Large plated rune salvage^Kree'arra": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Huge plated rune salvage^Kree'arra": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Crushed nest^Kree'arra": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Rune arrowheads^Kree'arra": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Black dragonhide^Kree'arra": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Shard of Genesis Essence^Nakatra, Devourer Eternal": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Obsidian blade^": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Magma core^": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Ancient hilt^": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Ancient artefact^Vorago": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Vorkath's scale^Zemouregal & Vorkath": [{
+				"Hard Mode Bosses": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -301248,11 +299831,6 @@
 					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
 				}, {
 					"Group Content enabled": "Nonskill"
-				}]
-			},
-			"Arch-Glacor (Hard Mode)": {
-				"Senntisten": [{
-					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
 			"Automaton Generator": {
@@ -301349,13 +299927,6 @@
 					"~|Bar Crawl (miniquest)|~ Complete the miniquest": "Quest"
 				}]
 			},
-			"Commander Zilyana (Hard Mode)": {
-				"God Wars Dungeon": [{
-					"Hard Mode Bosses": "Nonskill"
-				}, {
-					"Cross the ~|rocky wall (God Wars Dungeon)|~": "Agility"
-				}]
-			},
 			"Commander Zilyana": {
 				"God Wars Dungeon": [{
 					"Cross the ~|rocky wall (God Wars Dungeon)|~": "Agility"
@@ -301431,13 +300002,6 @@
 					"Access the ~|Flesh-hatcher Mhekarnahz|~ dungeon": "Dungeoneering"
 				}]
 			},
-			"General Graardor (Hard Mode)": {
-				"God Wars Dungeon": [{
-					"Hard Mode Bosses": "Nonskill"
-				}, {
-					"Access the ~|Bandos' stronghold|~": "Strength"
-				}]
-			},
 			"General Graardor": {
 				"God Wars Dungeon": [{
 					"Access the ~|Bandos' stronghold|~": "Strength"
@@ -301463,11 +300027,6 @@
 			"Giant Lobster": {
 				"Witchaven Dungeon": [{
 					"~|The Slug Menace|~ 3": "Nonskill"
-				}]
-			},
-			"Giant mole (Hard Mode)": {
-				"Giant mole Lair": [{
-					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
 			"Glacor": {
@@ -301533,19 +300092,9 @@
 					"Members only": "Nonskill"
 				}]
 			},
-			"Gregorovic (Hard Mode)": {
-				"The Heart": [{
-					"Hard Mode Bosses": "Nonskill"
-				}]
-			},
 			"Guardian of Armadyl": {
 				"Temple of Ikov": [{
 					"~|Temple of Ikov|~ 1": "Quest"
-				}]
-			},
-			"Helwyr (Hard Mode)": {
-				"The Heart": [{
-					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
 			"Hollowtoof": {
@@ -301608,13 +300157,6 @@
 					"~|Stolen Hearts|~ Complete the quest": "Quest"
 				}]
 			},
-			"K'ril Tsutsaroth (Hard Mode)": {
-				"God Wars Dungeon": [{
-					"Hard Mode Bosses": "Nonskill"
-				}, {
-					"Access ~|Zamorak's Fortress|~ in the God Wars Dungeon": "Constitution"
-				}]
-			},
 			"K'ril Tsutsaroth": {
 				"God Wars Dungeon": [{
 					"Access ~|Zamorak's Fortress|~ in the God Wars Dungeon": "Constitution"
@@ -301628,21 +300170,6 @@
 			"Kalphite King": {
 				"Exiled Kalphite Hive": [{
 					"Group Content enabled": "Nonskill"
-				}]
-			},
-			"Kree'arra (Hard Mode)": {
-				"God Wars Dungeon": [{
-					"Hard Mode Bosses": "Nonskill"
-				}]
-			},
-			"Kerapac, the bound (Hard Mode)": {
-				"Senntisten": [{
-					"Hard Mode Bosses": "Nonskill"
-				}]
-			},
-			"Kezalam, the Wanderer (Hard Mode)": {
-				"Sanctum of Rebirth": [{
-					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
 			"Khazard commander": {
@@ -301668,11 +300195,6 @@
 			"Mogre": {
 				"11824": [{
 					"~|Mogre (lore activity)|~ Complete the lore activity": "Quest"
-				}]
-			},
-			"Nakatra, Devourer Eternal (Hard Mode)": {
-				"Sanctum of Rebirth": [{
-					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
 			"Nex, Angel of Death": {
@@ -301775,35 +300297,8 @@
 					"Members only": "Nonskill"
 				}]
 			},
-			"Twin Furies (Hard Mode)": {
-				"The Heart": [{
-					"Hard Mode Bosses": "Nonskill"
-				}]
-			},
-			"TzKal-Zuk (Hard Mode)": {
-				"Senntisten sewers": [{
-					"Hard Mode Bosses": "Nonskill"
-				}]
-			},
-			"Vermyx, Brood Mother (Hard Mode)": {
-				"Sanctum of Rebirth": [{
-					"Hard Mode Bosses": "Nonskill"
-				}]
-			},
-			"Vindicta (Hard Mode)": {
-				"The Heart": [{
-					"Hard Mode Bosses": "Nonskill"
-				}]
-			},
 			"Vorago": {
 				"Borehole": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
-			"Vorago (Hard Mode)": {
-				"Borehole": [{
-					"Hard Mode Bosses": "Nonskill"
-				}, {
 					"Group Content enabled": "Nonskill"
 				}]
 			},
@@ -301817,21 +300312,9 @@
 					"Group Content enabled": "Nonskill"
 				}]
 			},
-			"Zemouregal & Vorkath (Story Mode)": {
-				"13111": [{
-					"~|Battle of Forinthry|~ Complete the quest": "Quest"
-				}]
-			},
 			"Zemouregal & Vorkath": {
 				"13111": [{
 					"~|Battle of Forinthry|~ Complete the quest": "Quest"
-				}]
-			},
-			"Zemouregal & Vorkath (Hard Mode)": {
-				"13111": [{
-					"~|Battle of Forinthry|~ Complete the quest": "Quest"
-				}, {
-					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
 			"Zombie#Level 29": {
@@ -321246,7 +319729,7 @@
 					"1": "Always"
 				},
 				"Cobalt chinchompa (unchecked)": {
-					"1": "1/1500"
+					"1": "1/250"
 				}
 			},
 			"Gourmet impling": {
@@ -321563,7 +320046,7 @@
 					"1": "Always"
 				},
 				"Viridian chinchompa (unchecked)": {
-					"1": "1/1500"
+					"1": "1/250"
 				}
 			},
 			"DiseasedKebbit": {
@@ -321655,7 +320138,7 @@
 					"1": "Always"
 				},
 				"Grey chinchompa (unchecked)": {
-					"1": "1/1500"
+					"1": "1/250"
 				}
 			},
 			"Spirit impling": {
@@ -321956,7 +320439,7 @@
 					"1": "Always"
 				},
 				"Carnivorous chinchompa (unchecked)": {
-					"1": "1/1500"
+					"1": "1/250"
 				}
 			},
 			"Magpie impling": {
@@ -322045,7 +320528,7 @@
 					"1": "Always"
 				},
 				"Azure chinchompa (unchecked)": {
-					"1": "1/1500"
+					"1": "1/250"
 				}
 			},
 			"Ghost impling": {
@@ -322463,7 +320946,7 @@
 					"1-6": "Always"
 				},
 				"Volatile chinchompa (unchecked)": {
-					"1": "1/1500"
+					"1": "1/250"
 				}
 			},
 			"IgneousJadinko": {
@@ -322713,10 +321196,10 @@
 					"100-150": "Always"
 				},
 				"Damaged dinosaur hide": {
-					"1": "9/10"
+					"1": "5/6"
 				},
 				"Dinosaur hide": {
-					"1": "1/10"
+					"1": "1/6"
 				},
 				"Uncut ruby": {
 					"5 (noted)": "Common"
@@ -322832,10 +321315,10 @@
 					"100-150": "Always"
 				},
 				"Damaged dinosaur hide": {
-					"1": "9/10"
+					"1": "5/6"
 				},
 				"Dinosaur hide": {
-					"1": "1/10"
+					"1": "1/6"
 				},
 				"Uncut ruby": {
 					"5 (noted)": "Common"
@@ -322951,10 +321434,10 @@
 					"100-150": "Always"
 				},
 				"Damaged dinosaur hide": {
-					"1": "9/10"
+					"1": "5/6"
 				},
 				"Dinosaur hide": {
-					"1": "1/10"
+					"1": "1/6"
 				},
 				"Uncut ruby": {
 					"5 (noted)": "Common"
@@ -323816,10 +322299,10 @@
 					"100-150": "Always"
 				},
 				"Damaged dinosaur hide": {
-					"1": "9/10"
+					"1": "5/6"
 				},
 				"Dinosaur hide": {
-					"1": "1/10"
+					"1": "1/6"
 				},
 				"Uncut diamond": {
 					"5 (noted)": "Common"
@@ -324315,10 +322798,10 @@
 					"100-150": "Always"
 				},
 				"Damaged dinosaur hide": {
-					"1": "9/10"
+					"1": "5/6"
 				},
 				"Dinosaur hide": {
-					"1": "1/10"
+					"1": "1/6"
 				},
 				"Uncut diamond": {
 					"5 (noted)": "Common"
@@ -324488,7 +322971,7 @@
 					"1": "Always"
 				},
 				"Crimson chinchompa (unchecked)": {
-					"1": "1/1500"
+					"1": "1/250"
 				}
 			},
 			"Tortle": {
@@ -324631,10 +323114,10 @@
 					"100-150": "Always"
 				},
 				"Damaged dinosaur hide": {
-					"1": "9/10"
+					"1": "5/6"
 				},
 				"Dinosaur hide": {
-					"1": "1/10"
+					"1": "1/6"
 				},
 				"Uncut diamond": {
 					"5 (noted)": "Common"
@@ -324857,10 +323340,10 @@
 					"100-250": "Always"
 				},
 				"Damaged dinosaur hide": {
-					"1": "1/10"
+					"1": "5/6"
 				},
 				"Dinosaur hide": {
-					"1": "9/10"
+					"1": "1/6"
 				},
 				"Uncut dragonstone": {
 					"5 (noted)": "Common"
@@ -324923,7 +323406,7 @@
 					"1": "1/101"
 				},
 				"Tribal fin": {
-					"1": "1/1000"
+					"1": "1/256"
 				},
 				"Compass arrow": {
 					"1": "1/20"
@@ -325044,10 +323527,10 @@
 					"100-250": "Always"
 				},
 				"Damaged dinosaur hide": {
-					"1": "1/10"
+					"1": "5/6"
 				},
 				"Dinosaur hide": {
-					"1": "9/10"
+					"1": "1/6"
 				},
 				"Uncut dragonstone": {
 					"5 (noted)": "Common"
@@ -325110,7 +323593,7 @@
 					"1": "1/101"
 				},
 				"Volcanic fragments": {
-					"1": "1/1000"
+					"1": "1/256"
 				},
 				"Compass arrow": {
 					"1": "1/20"
@@ -325308,10 +323791,10 @@
 					"100-250": "Always"
 				},
 				"Damaged dinosaur hide": {
-					"1": "1/10"
+					"1": "5/6"
 				},
 				"Dinosaur hide": {
-					"1": "9/10"
+					"1": "1/6"
 				},
 				"Uncut dragonstone": {
 					"5 (noted)": "Common"
@@ -325374,7 +323857,7 @@
 					"1": "1/101"
 				},
 				"Superior long bone": {
-					"1": "1/1000"
+					"1": "1/256"
 				},
 				"Compass arrow": {
 					"1": "1/20"
@@ -325435,7 +323918,7 @@
 					"1": "Always"
 				},
 				"Crystal chinchompa (unchecked)": {
-					"1": "1/1500"
+					"1": "1/250"
 				}
 			},
 			"Dream of Iaia loot": {
@@ -332003,7 +330486,7 @@
 					"1": "6/100"
 				},
 				"Spider egg (unchecked)": {
-					"1": "1/750"
+					"1": "1/250"
 				}
 			},
 			"Force muspah": {
@@ -332890,7 +331373,7 @@
 				"Diamond bolt tips": {
 					"35-45": "12/128"
 				},
-				"Onyx bolt tips": {
+				"Hydrix bolt tips": {
 					"1": "8/128"
 				},
 				"Gold stone spirit": {
@@ -334086,7 +332569,7 @@
 					"1": "1/19"
 				},
 				"Ascension signet I": {
-					"1": "1/50"
+					"1": "1/30"
 				},
 				"Ascension Keystone": {
 					"1": "1/64"
@@ -334095,7 +332578,7 @@
 					"1": "1/2056"
 				},
 				"Corrupted Ascension signet I": {
-					"1": "1/1000"
+					"1": "1/750"
 				},
 				"Gold charm": {
 					"6": "189.884/1000"
@@ -334176,7 +332659,7 @@
 					"1": "1/19"
 				},
 				"Ascension signet IV": {
-					"1": "1/50"
+					"1": "1/30"
 				},
 				"Ascension Keystone": {
 					"1": "1/64"
@@ -334185,7 +332668,7 @@
 					"1": "1/2056"
 				},
 				"Corrupted Ascension signet IV": {
-					"1": "1/1000"
+					"1": "1/750"
 				},
 				"Gold charm": {
 					"6": "189.884/1000"
@@ -334266,7 +332749,7 @@
 					"1": "1/19"
 				},
 				"Ascension signet V": {
-					"1": "1/50"
+					"1": "1/30"
 				},
 				"Ascension Keystone": {
 					"1": "1/64"
@@ -334275,7 +332758,7 @@
 					"1": "1/2056"
 				},
 				"Corrupted Ascension signet V": {
-					"1": "1/1000"
+					"1": "1/750"
 				},
 				"Gold charm": {
 					"6": "189.884/1000"
@@ -334356,7 +332839,7 @@
 					"1": "1/19"
 				},
 				"Ascension signet II": {
-					"1": "1/50"
+					"1": "1/30"
 				},
 				"Ascension Keystone": {
 					"1": "1/64"
@@ -334365,7 +332848,7 @@
 					"1": "1/2056"
 				},
 				"Corrupted Ascension signet II": {
-					"1": "1/1000"
+					"1": "1/750"
 				},
 				"Gold charm": {
 					"6": "189.884/1000"
@@ -334446,7 +332929,7 @@
 					"1": "1/19"
 				},
 				"Ascension signet VI": {
-					"1": "1/50"
+					"1": "1/30"
 				},
 				"Ascension Keystone": {
 					"1": "1/64"
@@ -334455,7 +332938,7 @@
 					"1": "1/2056"
 				},
 				"Corrupted Ascension signet VI": {
-					"1": "1/1000"
+					"1": "1/750"
 				},
 				"Gold charm": {
 					"6": "189.884/1000"
@@ -334536,7 +333019,7 @@
 					"1": "1/19"
 				},
 				"Ascension signet III": {
-					"1": "1/50"
+					"1": "1/30"
 				},
 				"Ascension Keystone": {
 					"1": "1/64"
@@ -334545,7 +333028,7 @@
 					"1": "1/2056"
 				},
 				"Corrupted Ascension signet III": {
-					"1": "1/1000"
+					"1": "1/750"
 				},
 				"Gold charm": {
 					"6": "189.884/1000"
@@ -338978,13 +337461,13 @@
 			},
 			"The Magister": {
 				"Phylactery": {
-					"1": "1/18"
+					"1": "1/10"
 				},
 				"Key to the Crossing": {
 					"1": "1/128"
 				},
 				"Gloves of passage": {
-					"1": "1/500"
+					"1": "1/128"
 				},
 				"Dragon platelegs": {
 					"1": "2/128"
@@ -339062,7 +337545,7 @@
 					"1": "1/10"
 				},
 				"Soul fragment": {
-					"1": "1/1000"
+					"1": "1/500"
 				},
 				"Gold charm": {
 					"8": "189.884/1000"
@@ -342704,6 +341187,14 @@
 				},
 				"Pineapple": {
 					"1": "Common"
+				}
+			},
+			"Pack yak pouch loot": {
+				"Pack yak pouch": {
+					"1": "Always"
+				},
+				"Spirit yak (unchecked)": {
+					"1": "1/1000"
 				}
 			}
 		},
@@ -357665,7 +356156,7 @@
 				"Slayer": 80
 			},
 			"speed": 3,
-			"tier": 75,
+			"tier": 80,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -357787,7 +356278,7 @@
 				"Attack": 70
 			},
 			"speed": 3,
-			"tier": 70,
+			"tier": 75,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -369211,7 +367702,7 @@
 				"Ranged": 50
 			},
 			"speed": 3,
-			"tier": 50,
+			"tier": 70,
 			"lp": 0,
 			"attack_range": 6,
 			"class": "ranged",
@@ -373763,7 +372254,7 @@
 			},
 			"type": "Longbow",
 			"speed": 7,
-			"tier": 70,
+			"tier": 75,
 			"lp": 0,
 			"attack_range": 9,
 			"class": "ranged",
@@ -382802,7 +381293,7 @@
 				"Attack": 55
 			},
 			"speed": 5,
-			"tier": 55,
+			"tier": 65,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
