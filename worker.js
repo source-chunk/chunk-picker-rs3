@@ -4396,7 +4396,16 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                         let tempValid = false;
                         let tempTempValid = false;
                         let multiValid = false;
+                        let toolLevelValid = false;
                         itemsPlus[formattedItem].filter((plus) => { return (!!items[plus] || (items[plus + '*'] && !combatSkills.includes(skill))) && (!nameObj.hasOwnProperty('NonShop') || !nameObj['NonShop'] || !onlyShop(items[plus])) && hasAllowedSource(items[plus], nameObj['AllowedSources']) }).forEach((plus) => {
+                            if (!toolLevelValid && ((item === 'Hatchet[+]' && skill === 'Woodcutting') || (item === 'Pickaxe[+]' && skill === 'Mining') || (item === 'Mattock[+]' && skill === 'Archaeology')) && !!chunkInfo['toolLevels'] && chunkInfo['toolLevels'].hasOwnProperty(item) && chunkInfo['toolLevels'][item].hasOwnProperty(plus) && chunkInfo['toolLevels'][item][plus] > nameObj['Level'] && !checkPrimaryMethod(skill, valids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['toolLevels'][item][plus])) {
+                                if (!toolLevelChallenges[skill]) {
+                                    toolLevelChallenges[skill] = {};
+                                }
+                                toolLevelChallenges[skill][name] = false;
+                            } else {
+                                toolLevelValid = true;
+                            }
                             tempValid = true;
                             let plusAdjusted = plus;
                             if (items[plus + '*'] && !combatSkills.includes(skill)) {
@@ -4439,7 +4448,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                                 processingSource = true;
                             }
                         });
-                        (!tempTempValid) && (tempValid = false);
+                        (!tempTempValid || !toolLevelValid) && (tempValid = false);
                         if (!tempValid) {
                             validChallenge = false;
                             wrongThings.push(item);
