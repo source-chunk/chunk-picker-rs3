@@ -1625,7 +1625,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.10.9';
+let currentVersion = '6.10.10';
 let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.48';
 let updateLevel = 'createdPOF-fix';
@@ -1907,7 +1907,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.10.9";
+mapImg.src = "runescape_world_map.png?v=6.10.10";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3844,7 +3844,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.10.9");
+        myWorker = new Worker("./worker.js?v=6.10.10");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage({
             type: 'current',
@@ -4205,8 +4205,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.10.9");
-let myWorker2 = new Worker("./worker.js?v=6.10.9");
+let myWorker = new Worker("./worker.js?v=6.10.10");
+let myWorker2 = new Worker("./worker.js?v=6.10.10");
 let workerOnMessage = function(e) {
     if (e.data.type === 'reload') {
         window.location.reload();
@@ -7394,7 +7394,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.10.9");
+    myWorker2 = new Worker("./worker.js?v=6.10.10");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage({
         type: 'future',
@@ -8573,7 +8573,6 @@ let fixTitleTextSize = function(selector, originalSize) {
             resize_to_fit();
         }
     }
-    $(selector).innerHTML = this.value;
     $(selector).css('fontSize', originalSize);
     resize_to_fit();
 }
@@ -8596,7 +8595,7 @@ let openQuestSteps = function(skill, challenge) {
         let quest = skill === 'Diary' ? challenge.split('~')[1].split('|').join('').split('#')[0] : challenge.split('~')[1].split('|').join('');
         $('.quest-steps-title').html(`<a class='noscroll link' href="${"https://runescape.wiki/w/" + encodeForUrl(quest)}" target='_blank'>${quest}</a>`);
         $('.quest-steps-data').empty();
-        $('.quest-steps-data').append(`<div class='noscroll step step-header'><span class='noscroll step-table-header ${skill === 'Diary' ? 'diary-size' : ''}'>Step</span><span class='noscroll description-table-header ${skill === 'Diary' ? 'diary-size' : ''}'>Description</span>${skill === 'Diary' ? "<span class='noscroll achievement-score-table-header'><img class='noscroll skill-icon' src='./resources/RuneScore.png' /></span></span>" : ''}</div>`);
+        $('.quest-steps-data').append(`<div class='noscroll step step-header'><span class='noscroll step-table-header ${skill === 'Diary' ? 'diary-size' : ''}'>Step</span><span class='noscroll description-table-header ${skill === 'Diary' ? 'diary-size' : ''}'>Description</span>${skill === 'Diary' ? "<span class='noscroll achievement-score-table-header'><img class='noscroll skill-icon' title='Runescore' src='./resources/RuneScore.png' /></span></span>" : ''}</div>`);
         let savedLastLine = '';
         if (challenge.split('~').length > 2 && challenge.split('~')[2] === '') {
             if (skill === 'Diary') {
@@ -8624,7 +8623,7 @@ let openQuestSteps = function(skill, challenge) {
                     if (savedLastLine.length > 0 && line.split('|~')[0] !== savedLastLine.split('|~')[0]) {
                         $('.quest-steps-data').append('<hr class="quest-steps-hr" />');
                     }
-                    $('.quest-steps-data').append(`<div class='noscroll step${diaryProgress.hasOwnProperty(challenge.split('|')[1].split('#')[0]) && diaryProgress[challenge.split('|')[1].split('#')[0]]['allTasks'].includes(line) ? ' highlighted' : ''}${line === challenge ? ' extra-highlighted' : ''}'><span class='noscroll step-step diary-size'>${line.split('|~')[1]}</span><span class='noscroll step-description'>${chunkInfo['challenges'][skill][line]['Description']}</span><span class="quest-steps-info" onclick="showDetails('${encodeRFC5987ValueChars(line)}', '${skill}', '')"><i class="info-icon fa-solid fa-info-circle"></i></span></div>`);
+                    $('.quest-steps-data').append(`<div class='noscroll step${diaryProgress.hasOwnProperty(challenge.split('|')[1].split('#')[0]) && diaryProgress[challenge.split('|')[1].split('#')[0]]['allTasks'].includes(line) ? ' highlighted' : ''}${line === challenge ? ' extra-highlighted' : ''}'><span class='noscroll step-step diary-size'>${line.split('|~')[1]}</span><span class='noscroll step-description diary-size'>${chunkInfo['challenges'][skill][line]['Description']}</span><span class="quest-steps-info" onclick="showDetails('${encodeRFC5987ValueChars(line)}', '${skill}', '')"><i class="info-icon fa-solid fa-info-circle"></i></span><span class='step-achievement-score '>${chunkInfo['challenges'][skill][line].hasOwnProperty('RuneScore') ? chunkInfo['challenges'][skill][line]['RuneScore'] : '0'}</span></div>`);
                     savedLastLine = line;
                 });
             } else {
@@ -11424,6 +11423,7 @@ let showDetails = function(challenge, skill, dataType, isNested) {
                                     if (typeof baseChunkDataIn[type][element][source] === "boolean" || !skills.includes(baseChunkDataIn[type][element][source].split('-')[1])) {
                                         if (chunkInfo['chunks'].hasOwnProperty(source.split('-')[0])) {
                                             let realName = source.match(/^[0-9]+(-[0-9]+)?$/g) ? source.match(/^[0-9]+(-[0-9]+)?$/g)[0] : source;
+                                            let hoverText = '';
                                             if (source.match(/[0-9]+-[0-9]+/g)) {
                                                 realName = chunkInfo['chunks'][source.match(/[0-9]+/g)[0]]['Nickname'];
                                                 hoverText = source.match(/[0-9]+/g)[0] + ' - Section ' + source.split('-')[1];

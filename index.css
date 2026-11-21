@@ -6639,7 +6639,6 @@ input#searchChunks {
     text-align: center;
     border-left: solid 1px var(--color8);
     position: relative;
-    padding-right: 30px;
 }
 
 .skill-button2 > div {
@@ -8159,7 +8158,7 @@ input#searchMonsters {
 
 .quest-steps-info {
     font-size: 18px;
-    margin: 0px 5px;
+    width: 6%;
 }
 
 .step-table-header {
@@ -8175,7 +8174,7 @@ input#searchMonsters {
 }
 
 .description-table-header {
-    padding-left: 10px;
+    padding-left: 1%;
     font-size: 18px;
     font-weight: bold;
     width: 88%;
@@ -8183,12 +8182,12 @@ input#searchMonsters {
 }
 
 .description-table-header.diary-size {
-    width: 70%;
+    width: 68%;
 	padding-left: 1%;
 }
 
 .achievement-score-table-header {
-	width: 5%;
+	width: 7%;
     min-width: 25px;
     text-align: center;
     border-left: solid 1px var(--color8)
@@ -8202,25 +8201,26 @@ input#searchMonsters {
 
 .step-step.diary-size {
     width: 25%;
-    padding-right: 2%;
+    padding-right: 1%;
 }
 
 .step-description {
-    padding-left: 10px;
+    padding-left: 1%;
     font-size: 20px;
-    width: 88%;
+    width: 82%;
     border-left: solid 1px var(--color8);
 }
 
 .step-description.diary-size {
-    width: 70%;
+    width: 62%;
 	padding-left: 1%;
 }
 
 .step-achievement-score {
     font-size: 20px;
 	text-align: center;
-    width: 5%;
+    width: 7%;
+    min-width: 25px;
     border-left: solid 1px var(--color8);
 }
 
