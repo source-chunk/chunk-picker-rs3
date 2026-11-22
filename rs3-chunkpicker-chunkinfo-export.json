@@ -29631,7 +29631,7 @@
 			},
 			"Create an ~|inferior locator|~": {
 				"Items": ["Bright energy*", "InferiorDivine[+]*"],
-				"level": 24,
+				"Level": 24,
 				"Primary": true,
 				"Priority": 2
 			},
@@ -29783,7 +29783,7 @@
 			},
 			"Create a ~|poor locator|~": {
 				"Items": ["Sparkling energy*", "PoorDivine[+]*"],
-				"level": 41,
+				"Level": 41,
 				"Primary": true,
 				"Priority": 2
 			},
@@ -29941,7 +29941,7 @@
 			},
 			"Create a ~|good locator|~": {
 				"Items": ["Vibrant energy*", "GoodDivine[+]*"],
-				"level": 62,
+				"Level": 62,
 				"Primary": true,
 				"Priority": 2
 			},
@@ -30276,7 +30276,8 @@
 				"Level": 80,
 				"Skills": {
 					"Crafting": 80,
-					"Smithing": 80
+					"Smithing": 80,
+					"Invention": 1
 				},
 				"Primary": false,
 				"Priority": 102,
@@ -30313,7 +30314,7 @@
 			},
 			"Create a ~|superior locator|~": {
 				"Items": ["Brilliant energy*", "SuperiorDivine[+]*"],
-				"level": 81,
+				"Level": 81,
 				"Primary": true,
 				"Priority": 1
 			},
