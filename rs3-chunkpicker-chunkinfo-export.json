@@ -8757,7 +8757,7 @@
 				"NoBoost": true
 			},
 			"Equip a piece of ~|Void Knight equipment|~": {
-				"Chunks": ["10537"],
+				"Items": ["Voidequipment[+]"],
 				"Level": 42,
 				"Skills": {
 					"Magic": 42,
@@ -10206,7 +10206,7 @@
 		        "Priority": 3
 		    },
 		    "Equip a piece of ~|Void Knight equipment|~": {
-		        "Chunks": ["10537"],
+		        "Items": ["Voidequipment[+]"],
 		        "Level": 42,
 		        "Skills": {
 		            "Magic": 42,
@@ -27247,7 +27247,7 @@
 				"NoBoost": true
 			},
 			"Equip a piece of ~|Void Knight equipment|~": {
-				"Chunks": ["10537"],
+				"Items": ["Voidequipment[+]"],
 				"Level": 42,
 				"Skills": {
 					"Magic": 42,
@@ -233722,7 +233722,7 @@
 				"Fractured Staff of Armadyl",
 				"Flowers",
 				"Rubber chicken",
-				"Offhand rubber chicken",
+				"Off-hand rubber chicken",
 				"Ruinous maul",
 				"Off-hand ruinous rapier",
 				"Ruinous rapier",
@@ -233730,7 +233730,9 @@
 				"Off-hand ruinous crossbow",
 				"Ruinous staff",
 				"Ruinous guard",
-				"Ruinous lantern"
+				"Ruinous lantern",
+				"Malachi's tooth",
+				"Malachi's claw"
 			],
 			"AutomatonGloves[+]": [
 				"Pneumatic gloves",
@@ -299824,6 +299826,9 @@
 			}],
 			"Vorkath's scale^Zemouregal & Vorkath": [{
 				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Tortured soul essence^": [{
+				"~|Kili's Knowledge|~ VI (power)": "Quest"
 			}]
 		},
 		"Monsters": {
@@ -299877,6 +299882,11 @@
 			"Bork": {
 				"Chaos Tunnels": [{
 					"~|The Hunt for Surok (miniquest)|~ Complete the miniquest": "Quest"
+				}]
+			},
+			"Bound skeleton": {
+				"13112-1": [{
+					"Members only": "Nonskill"
 				}]
 			},
 			"Cave bug#Level 6": {
@@ -299996,6 +300006,14 @@
 			"Entranan firebird": {
 				"11316": [{
 					"~|Heroes' Quest|~ 2a1": "Quest"
+				}]
+			},
+			"Fetid zombie": {
+				"13111": [{
+					"Members only": "Nonskill"
+				}],
+				"13112-1": [{
+					"Members only": "Nonskill"
 				}]
 			},
 			"Flesh-hatcher Mhekarnahz": {
@@ -365151,7 +365169,8 @@
 				"Ranged": 65
 			},
 			"speed": 4,
-			"tier": 65,
+			"accuracy_tier": 65,
+			"damage_tier": 71,
 			"lp": 0,
 			"attack_range": 9,
 			"class": "ranged",
