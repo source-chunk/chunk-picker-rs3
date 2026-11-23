@@ -120471,6 +120471,15 @@
 				"CombatScore": 4,
 				"RuneScore": 25
 			},
+			"~|Combat Mastery achievements#Elite|~ Blood Eruption Preservation Society": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat the Ghrazi Blood Knights without allowing Blood Eruption to be removed by their 'Area Destruction' attack during phase 5.",
+				"Monsters": ["The Ghrazi Blood Knights"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4,
+				"RuneScore": 25
+			},
 			"~|Combat Mastery achievements#Elite|~ Bouncing Around": {
 				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the Twin Furies in hard mode, solo, without being hit by their 'Lava Bomb' attack.",
@@ -120580,6 +120589,15 @@
 				"CombatScore": 4,
 				"RuneScore": 25
 			},
+			"~|Combat Mastery achievements#Elite|~ Controlled Demolition": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat the Ghrazi Blood Knights after allowing each Blood Eruption to be removed by their 'Area Destruction' attack.",
+				"Monsters": ["The Ghrazi Blood Knights"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4,
+				"RuneScore": 25
+			},
 			"~|Combat Mastery achievements#Elite|~ Cormes and Goes": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Durzag without killing Cormes",
@@ -120611,6 +120629,15 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Disintegrate 12 crassian ritual keepers simultaneously during the Ambassador encounter.",
 				"Monsters": ["The Ambassador"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4,
+				"RuneScore": 25
+			},
+			"~|Combat Mastery achievements#Elite|~ Cross Your Prayers": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat the Ghrazi Blood Knights after using the correct protection prayer against all of their 'Cross Cut' attacks.",
+				"Monsters": ["The Ghrazi Blood Knights"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -120662,7 +120689,7 @@
 				"RuneScore": 25
 			},
 			"~|Combat Mastery achievements#Elite|~ Don't Give a Damn 'bout my Bat Reputation I": {
-				"Category": ["Combat Mastery achievements"],
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
 				"Description": "Defeat the Ghrazi Blood Knights at 500% enrage.",
 				"Monsters": ["The Ghrazi Blood Knights"],
 				"BaseQuest": "Combat Mastery achievements",
@@ -120764,6 +120791,15 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Vermyx, Brood Mother in hard mode 10 times.",
 				"Monsters": ["Vermyx, Brood Mother"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4,
+				"RuneScore": 25
+			},
+			"~|Combat Mastery achievements#Elite|~ Ghrazi Blood Knights (EM) Elite Speed Killer": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
+				"Description": "Defeat the Ghrazi Blood Knights at 500% or higher enrage in less than 05:30.",
+				"Monsters": ["The Ghrazi Blood Knights"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121066,6 +121102,15 @@
 				"CombatScore": 4,
 				"RuneScore": 25
 			},
+			"~|Combat Mastery achievements#Elite|~ The Last Drop": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat the Ghrazi Blood Knights after reaching 85 Exsanguinated stacks in phase 5 beflore cleansing.",
+				"Monsters": ["The Ghrazi Blood Knights"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4,
+				"RuneScore": 25
+			},
 			"~|Combat Mastery achievements#Elite|~ Let the Poison In": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Raksha, the Shadow Colossus without expelling any poisonous shadow energy from his 'Mind Flay' attack.",
@@ -121097,6 +121142,15 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Kerapac, the bound after being hit by all 3 waves of his 'Lightning Strik' attack within 3s of each other.",
 				"Monsters": ["Kerapac, the bound"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4,
+				"RuneScore": 25
+			},
+			"~|Combat Mastery achievements#Elite|~ Live and Let Grow": {
+				"Category": ["Combat Mastery achievements", "Group Content"],
+				"Description": "Defeat the Ghrazi Blood Knights after killing no more than two Sanguine Tumours during each preparation section of phase 3 with a team size of 2.",
+				"Monsters": ["The Ghrazi Blood Knights"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4,
@@ -121835,6 +121889,15 @@
 				"CombatScore": 4,
 				"RuneScore": 25
 			},
+			"~|Combat Mastery achievements#Elite|~ Wave and a Miss": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat the Ghrazi Blood Knights without anyone being hit by their 'Blood Diamond' or 'Blood Wave' attacks.",
+				"Monsters": ["The Ghrazi Blood Knights"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4,
+				"RuneScore": 25
+			},
 			"~|Combat Mastery achievements#Elite|~ Weave Come So Far 200": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Araxxi at 200% enrage.",
@@ -121993,7 +122056,7 @@
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"ManualShow": true,
-				"CombatScoreNeeded": 1410
+				"CombatScoreNeeded": 1450
 			},
 			"~|Combat Mastery achievements#Master|~ All Together, Now!": {
 				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
@@ -122251,7 +122314,7 @@
 				"RuneScore": 40
 			},
 			"~|Combat Mastery achievements#Master|~ Don't Give a Damn 'bout my Bat Reputation IV": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat the Ghrazi Blood Knights at 2000% enrage.",
 				"Monsters": ["The Ghrazi Blood Knights"],
 				"BaseQuest": "Combat Mastery achievements",
@@ -122340,6 +122403,15 @@
 				"CombatScore": 5,
 				"RuneScore": 40
 			},
+			"~|Combat Mastery achievements#Master|~ Ghrazi Blood Knights (EM) Master Speed Killer": {
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
+				"Description": "Defeat the Ghrazi Blood Knights at 1000% or higher enrage in less than 05:00.",
+				"Monsters": ["The Ghrazi Blood Knights"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5,
+				"RuneScore": 40
+			},
 			"~|Combat Mastery achievements#Master|~ Gorilla Warfare": {
 				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat Nakatra, Devourer Eternal in hard mode after defeating both Shadowsands gorilla akhs.",
@@ -122403,6 +122475,15 @@
 				"CombatScore": 5,
 				"RuneScore": 40
 			},
+			"~|Combat Mastery achievements#Master|~ Just the Right Distance": {
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
+				"Description": "Defeat the Ghrazi Blood Knights without anyone leaving the optimal Blood Bomb bounce distance at 2,000% or higher enrage.",
+				"Monsters": ["The Ghrazi Blood Knights"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5,
+				"RuneScore": 40
+			},
 			"~|Combat Mastery achievements#Master|~ Keeping a Healthy State of Mind": {
 				"Category": ["Combat Mastery achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove while his remaining conscience within his mind has at least 50% life points remaining.",
@@ -122443,6 +122524,15 @@
 				"Category": ["Combat Mastery achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove with at least 8 active Blightbound lashers",
 				"Monsters": ["Solak, Guardian of the Grove"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5,
+				"RuneScore": 40
+			},
+			"~|Combat Mastery achievements#Master|~ Long Distance Relationship": {
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
+				"Description": "Defeat the Ghrazi Blood Knights while being at least 10 tiles apart for every Blood Bomb bounce at 2,000% or higher enrange.",
+				"Monsters": ["The Ghrazi Blood Knights"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -122668,6 +122758,15 @@
 				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat the Arch-Glacor at 2,000% enrage",
 				"Monsters": ["Arch-Glacor"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5,
+				"RuneScore": 40
+			},
+			"~|Combat Mastery achievements#Master|~ Some Stacks Short of a Dozen": {
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses", "Group Content"],
+				"Description": "Defeat the Ghrazi Blood Knights without anyone gaining more than 12 Blood Challenge or Crimson Lament stacks in duo mode at 1,000% or higher enrage.",
+				"Monsters": ["The Ghrazi Blood Knights"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5,
@@ -123041,8 +123140,35 @@
 				"RuneScore": 50
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ Don't Give a Damn 'bout my Bat Reputation V": {
-				"Category": ["Combat Mastery achievements", "Combat Master+"],
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses"],
 				"Description": "Defeat the Ghrazi Blood Knights at 4000% enrage.",
+				"Monsters": ["The Ghrazi Blood Knights"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 6,
+				"RuneScore": 50
+			},
+			"~|Combat Mastery achievements#Grandmaster|~ Ghrazi Blood Knights (EM) Grandmaster Speed Killer": {
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses", "Group Content"],
+				"Description": "Defeat the Ghrazi Blood Knights at 2000% enrage or higher enrage in less than 04:45.",
+				"Monsters": ["The Ghrazi Blood Knights"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 6,
+				"RuneScore": 50
+			},
+			"~|Combat Mastery achievements#Grandmaster|~ The Ghrazi Blood Knights (perfect)": {
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses", "Group Content"],
+				"Description": "Defeat the Ghrazi Blood Knights at 2000% enrage or higher enrage in a team of 2 without anyone dying while dealing with all their special attacks properly.",
+				"Monsters": ["The Ghrazi Blood Knights"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 6,
+				"RuneScore": 50
+			},
+			"~|Combat Mastery achievements#Grandmaster|~ The Ghrazi Blood Knights (unorthodox)": {
+				"Category": ["Combat Mastery achievements", "Combat Master+", "Hard Mode Bosses", "Group Content"],
+				"Description": "Defeat the Ghrazi Blood Knights at 2000% enrage or higher enrage in a team of 2 without anyone dying while dealing with all their special attacks in an unorthodox way.",
 				"Monsters": ["The Ghrazi Blood Knights"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
@@ -126653,7 +126779,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Edimmu resource dungeon"],
 				"Skills": {
-					"Dungeoneering": 115
+					"Dungeoneering": 92
 				},
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
@@ -149670,6 +149796,7 @@
 					"~|Combat Mastery achievements#Elite|~ Black Stone Dragon Elite Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Bleed Tank": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Blessing Denied": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Blood Eruption Preservation Society": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Bouncing Around": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Bring the Roof Down, But Not On Me": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Calculated": "Diary",
@@ -149681,10 +149808,12 @@
 					"~|Combat Mastery achievements#Elite|~ Comeback kid": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Commander Zilyana (HM) Elite Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Conqueror of Chaos": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Controlled Demolition": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Cormes and Goes": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Coursing Through You": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Crassian Leviathan Elite Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Crawfish Boil": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Cross Your Prayers": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Day at the Aquarium": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Day at the Pound": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Definitely Can't Tocuh This": "Diary",
@@ -149701,6 +149830,7 @@
 					"~|Combat Mastery achievements#Elite|~ Gas Detector": "Diary",
 					"~|Combat Mastery achievements#Elite|~ General Graardor (HM) Elite Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Get Your Heads in the Game II": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Ghrazi Blood Knights (EM) Elite Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Gong Maintenance Expert": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Green Thumb": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Gregorovic (HM) Elite Speed Killer": "Diary",
@@ -149732,10 +149862,12 @@
 					"~|Combat Mastery achievements#Elite|~ Kree'arra (HM) Elite Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Elite|~ K'ril Tsutsaroth (HM) Elite Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Elite|~ I Lava This": "Diary",
+					"~|Combat Mastery achievements#Elite|~ The Last Drop": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Let the Poison In": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Lets Split Up": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Lets Stay Together": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Lightning Strikes Thrice": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Live and Let Grow": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Lord of Chaos": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Lumbridge Strikes Back": "Diary",
 					"~|Combat Mastery achievements#Elite|~ The Mighty Maul": "Diary",
@@ -149839,6 +149971,7 @@
 					"~|Combat Mastery achievements#Elite|~ Protector of the Sun God": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Scabaras Would Be Proud": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Step aside, Scarab": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Wave and a Miss": "Diary",
 					"~|Combat Mastery achievements#Elite|~ You Cat To Be Kitten Me Right Meow III": "Diary"
 				},
 				"Not F2P": true
@@ -149879,6 +150012,7 @@
 					"~|Combat Mastery achievements#Master|~ Flow State": "Diary",
 					"~|Combat Mastery achievements#Master|~ Fonts of All Knowledge II": "Diary",
 					"~|Combat Mastery achievements#Master|~ Ful of Energy but Nowhere to Go": "Diary",
+					"~|Combat Mastery achievements#Master|~ Ghrazi Blood Knights (EM) Master Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Master|~ Gorilla Warfare": "Diary",
 					"~|Combat Mastery achievements#Master|~ Healing Denied": "Diary",
 					"~|Combat Mastery achievements#Master|~ Heatproof": "Diary",
@@ -149886,11 +150020,13 @@
 					"~|Combat Mastery achievements#Master|~ Icy-them-coming": "Diary",
 					"~|Combat Mastery achievements#Master|~ I'm Watching You": "Diary",
 					"~|Combat Mastery achievements#Master|~ I wanted to show you this thing, but now you must die": "Diary",
+					"~|Combat Mastery achievements#Master|~ Just the Right Distance": "Diary",
 					"~|Combat Mastery achievements#Master|~ Keeping a Healthy State of Mind": "Diary",
 					"~|Combat Mastery achievements#Master|~ Kerapac (HM) Master Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Master|~ Kezalam (HM) Master Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Master|~ Kezalam, the Wanderer (perfect)": "Diary",
 					"~|Combat Mastery achievements#Master|~ Lashers are Friends Not Foes": "Diary",
+					"~|Combat Mastery achievements#Master|~ Long Distance Relationship": "Diary",
 					"~|Combat Mastery achievements#Master|~ Lord of CHaos (Silver)": "Diary",
 					"~|Combat Mastery achievements#Master|~ Maul or Nothing": "Diary",
 					"~|Combat Mastery achievements#Master|~ Nakatra, Devourer Eternal (HM) (perfect)": "Diary",
@@ -149913,6 +150049,7 @@
 					"~|Combat Mastery achievements#Master|~ Single Sigil Solutions": "Diary",
 					"~|Combat Mastery achievements#Master|~ Smoking area": "Diary",
 					"~|Combat Mastery achievements#Master|~ So icy": "Diary",
+					"~|Combat Mastery achievements#Master|~ Some Stacks Short of a Dozen": "Diary",
 					"~|Combat Mastery achievements#Master|~ Solak Master Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Master|~ A Song of Ice and Ire VII": "Diary",
 					"~|Combat Mastery achievements#Master|~ Stunlocked": "Diary",
@@ -150003,7 +150140,10 @@
 					"~|Combat Mastery achievements#Grandmaster|~ Zemouregal & Vorkath (HM) Grandmaster Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (EM) Grandmaster Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (perfect)": "Diary",
-					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (unorthodox)": "Diary"
+					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (unorthodox)": "Diary",
+					"~|Combat Mastery achievements#Grandmaster|~ Ghrazi Blood Knights (EM) Grandmaster Speed Killer": "Diary",
+					"~|Combat Mastery achievements#Grandmaster|~ The Ghrazi Blood Knights (perfect)": "Diary",
+					"~|Combat Mastery achievements#Grandmaster|~ The Ghrazi Blood Knights (unorthodox)": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -158579,19 +158719,39 @@
 				"Monsters": ["Amascut, the Devourer"]
 			},
 			"Obtain the bronze ~|God/Goddess of Destruction|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
 				"Monsters": ["Amascut, the Devourer"]
 			},
 			"Obtain the silver ~|God/Goddess of Destruction|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
 				"Monsters": ["Amascut, the Devourer"]
 			},
 			"Obtain the gold ~|God/Goddess of Destruction|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
 				"Monsters": ["Amascut, the Devourer"]
+			},
+			"Obtain the base ~|the Purifier|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["The Ghrazi Blood Knights"]
+			},
+			"Obtain the bronze ~|the Purifier|~ title": {
+				"Category": ["Titles", "Hard Mode Bosses"],
+				"Label": "Titles",
+				"Monsters": ["The Ghrazi Blood Knights"]
+			},
+			"Obtain the silver ~|the Purifier|~ title": {
+				"Category": ["Titles", "Hard Mode Bosses"],
+				"Label": "Titles",
+				"Monsters": ["The Ghrazi Blood Knights"]
+			},
+			"Obtain the gold ~|the Purifier|~ title": {
+				"Category": ["Titles", "Hard Mode Bosses"],
+				"Label": "Titles",
+				"Monsters": ["The Ghrazi Blood Knights"]
 			},
 			"Obtain the base ~|the Warden|~ title": {
 				"Category": ["Titles"],
@@ -158781,7 +158941,7 @@
 			"Obtain the ~|the Devoured|~ title": {
 				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Kerapac, the bound"],
+				"Monsters": ["Amascut, the Devourer"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (unorthodox)": "Diary"
 				}
@@ -158789,9 +158949,25 @@
 			"Obtain the ~|Tumeken's Light|~ title": {
 				"Category": ["Titles", "Hard Mode Bosses"],
 				"Label": "Titles",
-				"Monsters": ["Kerapac, the bound"],
+				"Monsters": ["Amascut, the Devourer"],
 				"Tasks": {
 					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (perfect)": "Diary"
+				}
+			},
+			"Obtain the ~|the Exsanguinated|~ title": {
+				"Category": ["Titles", "Hard Mode Bosses"],
+				"Label": "Titles",
+				"Monsters": ["The Ghrazi Blood Knights"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ The Ghrazi Blood Knights (unorthodox)": "Diary"
+				}
+			},
+			"Obtain the ~|the Bloodbane|~ title": {
+				"Category": ["Titles", "Hard Mode Bosses"],
+				"Label": "Titles",
+				"Monsters": ["The Ghrazi Blood Knights"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ The Ghrazi Blood Knights (perfect)": "Diary"
 				}
 			},
 			"Obtain the ~|the Daredevil|~ title": {
