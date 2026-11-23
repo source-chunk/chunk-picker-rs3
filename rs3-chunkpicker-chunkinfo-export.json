@@ -164221,7 +164221,10 @@
 				}
 			},
 			"ScapeRune": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				}
 			},
 			"Abbey of St. Elspeth Citharede Cellar": {
 				"UnlocksArea": true
@@ -164388,7 +164391,10 @@
 				}
 			},
 			"Enchanted valley": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				}
 			},
 			"Ancient Guthix Temple": {
 				"UnlocksArea": true,
@@ -164580,7 +164586,10 @@
 				"UnlocksArea": true
 			},
 			"Isle of Sann": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				}
 			},
 			"Cave (Burgh de Rott)": {
 				"UnlocksArea": true
@@ -164598,7 +164607,10 @@
 				"UnlocksArea": true
 			},
 			"Fairy Resistance Hideout": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				}
 			},
 			"Burthorpe Slayer Cave": {
 				"UnlocksArea": true
@@ -164654,7 +164666,10 @@
 				"UnlocksArea": true
 			},
 			"Gorak Plane": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				}
 			},
 			"Uzer Mastaba": {
 				"UnlocksArea": true,
@@ -164663,7 +164678,10 @@
 				}
 			},
 			"Cosmic Entity plane": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				}
 			},
 			"Shady grove": {
 				"UnlocksArea": true
@@ -164948,7 +164966,10 @@
 				"UnlocksArea": true
 			},
 			"Ork's Rift": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|A Fairy Tale III - Battle at Ork's Rift|~ 7": "Quest"
+				}
 			},
 			"Jaldraocht Pyramid": {
 				"Tasks": {
@@ -165289,6 +165310,9 @@
 				"UnlocksArea": true
 			},
 			"Naragun": {
+				"Tasks": {
+					"~|The World Wakes|~ Complete the quest": "Quest"
+				},
 				"UnlocksArea": true
 			},
 			"Mr Mordaut's Office": {
@@ -168266,7 +168290,7 @@
 			"Access Daemonheim Rewards": {
 				"Items": ["Dungeoneering token"]
 			},
-			"TzHaarcityunlockZan": {
+			"Fairy ring access": {
 				"Tasks": {
 					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
 				}
@@ -221282,7 +221306,6 @@
 				"8752": true,
 				"8770": true,
 				"9272": true,
-				"9282": true,
 				"9284": true,
 				"9519": true,
 				"9793": true,
@@ -224708,7 +224731,6 @@
 				"Spear": 2
 			},
 			"Connect": {
-				"9797": true,
 				"10834": true
 			},
 			"Quest": {
@@ -226909,10 +226931,12 @@
 				"Ivory Gromblod (cursed)": 12,
 				"Ivory Bre'egth (cursed)": 12
 			},
+			"Quest": {
+				"A Fairy Tale III - Battle at Ork's Rift": "step"
+			},
 			"Connect": {
 				"9541": true
-			},
-			"A Fairy Tale III - Battle at Ork's Rift": "step"
+			}
 		},
 		"Jaldraocht Pyramid": {
 			"Object": {
@@ -241495,7 +241519,7 @@
 				"Complete Trip to the East#Eastern Curiosities",
 				"Complete Trip to the East#Guardians of the World"
 			],
-			"TzHaarUnlock[+]": ["TzHaarcityunlockZan", "TzHaarcityunlockvol"],
+			"TzHaarUnlock[+]": ["Fairy ring access", "TzHaarcityunlockvol"],
 			"VarrockSewerAccess[+]": ["Access the Varrock sewers through the Varrock manhole*", "Access the Varrock sewer through the Edgeville dungeon*"],
 			"WaterAccess[+]": ["Access the water rune temple with a talisman*", "Access the water rune temple through the abyss*"],
 			"Yoink![+]": ["Easy Ardougne tasks ~|Yoink!|~ (Guard)*", "Easy Ardougne tasks ~|Yoink!|~ (Stall)*"],

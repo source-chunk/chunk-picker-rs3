@@ -324,7 +324,6 @@ let selectedOverlayClues = {
 };
 
 let unconnectedAreas = [
-    'Zanaris',
     'Puro-Puro',
     'Player-owned house',
     'Player-Owned Port',
