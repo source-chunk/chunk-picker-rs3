@@ -324,7 +324,6 @@ let selectedOverlayClues = {
 };
 
 let unconnectedAreas = [
-    'Zanaris',
     'Puro-Puro',
     'Player-owned house',
     'Player-Owned Port',
@@ -334,7 +333,6 @@ let unconnectedAreas = [
     'Sinkhole',
     'Chinchompa cave',
     'Rune Essence mine',
-    'Paterdomus',
     'Uncharted Isles'
 ];
 
