@@ -29190,8 +29190,8 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wear a piece of ~|trimmed masterwork melee armour|~": {
-				"Items": ["TrimmedmasterworkArmour[+]"],
+			"Wear a piece of ~|elite Dracolich armour|~": {
+				"Items": ["EliteDracolichArmour[+]"],
 				"Level": 92,
 				"Primary": false,
 				"Priority": 1,
@@ -29213,15 +29213,6 @@
 				"Level": 92,
 				"Primary": false,
 				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Wear a piece of ~|elite Dracolich armour|~": {
-				"Items": ["EliteDracolichArmour[+]"],
-				"Level": 92,
-				"Primary": false,
-				"Priority": 4,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -29298,6 +29289,15 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 5,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Wear a piece of ~|trimmed masterwork melee armour|~": {
+				"Items": ["TrimmedmasterworkArmour[+]"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 6,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -63526,6 +63526,15 @@
 				"Output": "'Rum'-pumped crab",
 				"NoPet": true
 			},
+			"Slay a ~|grifolaroo|~": {
+				"Level": 62,
+				"Monsters": ["Grifolaroo"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Grifolaroo",
+				"NoPet": true
+			},
 			"Slay a ~|spiritual ranger|~": {
 				"Level": 63,
 				"Monsters": ["Spiritual ranger"],
@@ -63581,6 +63590,15 @@
 				"Output": "Spiritual warrior",
 				"NoPet": true
 			},
+			"Slay a ~|grifolapine|~": {
+				"Level": 68,
+				"Monsters": ["Grifolapine"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Grifolapine",
+				"NoPet": true
+			},
 			"Slay a ~|kurask|~": {
 				"Items": ["BroadLeaf[+]"],
 				"Level": 70,
@@ -63633,6 +63651,24 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Gargoyle",
+				"NoPet": true
+			},
+			"Slay a ~|ganodermic runt|~": {
+				"Level": 75,
+				"Monsters": ["Ganodermic runt"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Ganodermic runt",
+				"NoPet": true
+			},
+			"Slay a ~|ganodermic beast|~": {
+				"Level": 75,
+				"Monsters": ["Ganodermic beast"],
+				"Primary": false,
+				"Priority": 4,
+				"Source": "drop",
+				"Output": "Ganodermic beast",
 				"NoPet": true
 			},
 			"Slay a ~|gargoyle|~ in the wilderness": {
@@ -63799,15 +63835,6 @@
 				"Output": "Scutarius",
 				"NoPet": true
 			},
-			"Slay a ~|grifolaroo|~": {
-				"Level": 82,
-				"Monsters": ["Grifolaroo"],
-				"Primary": false,
-				"Priority": 1,
-				"Source": "drop",
-				"Output": "Grifolaroo",
-				"NoPet": true
-			},
 			"Slay a ~|spiritual mage|~": {
 				"Level": 83,
 				"Monsters": ["Spiritual mage"],
@@ -63890,21 +63917,12 @@
 				"Output": "Elite Profane Scabarite",
 				"NoPet": true
 			},
-			"Slay a ~|grifolapine|~": {
-				"Level": 88,
-				"Monsters": ["Grifolapine"],
-				"Primary": false,
-				"Priority": 1,
-				"Source": "drop",
-				"Output": "Grifolapine",
-				"NoPet": true
-			},
 			"Slay a ~|corrupted scorpion|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 88,
 				"Monsters": ["Corrupted scorpion"],
 				"Primary": false,
-				"Priority": 2,
+				"Priority": 1,
 				"Source": "drop",
 				"Output": "Corrupted scorpion",
 				"NoPet": true
@@ -63913,7 +63931,7 @@
 				"Level": 88,
 				"Monsters": ["Legio Primus"],
 				"Primary": false,
-				"Priority": 3,
+				"Priority": 2,
 				"Source": "drop",
 				"Output": "Legio Primus",
 				"NoPet": true
@@ -63922,7 +63940,7 @@
 				"Level": 88,
 				"Monsters": ["Legio Secundus"],
 				"Primary": false,
-				"Priority": 4,
+				"Priority": 3,
 				"Source": "drop",
 				"Output": "Legio Secundus",
 				"NoPet": true
@@ -63931,7 +63949,7 @@
 				"Level": 88,
 				"Monsters": ["Legio Tertius"],
 				"Primary": false,
-				"Priority": 5,
+				"Priority": 4,
 				"Source": "drop",
 				"Output": "Legio Tertius",
 				"NoPet": true
@@ -63940,7 +63958,7 @@
 				"Level": 88,
 				"Monsters": ["Legio Quartus"],
 				"Primary": false,
-				"Priority": 6,
+				"Priority": 5,
 				"Source": "drop",
 				"Output": "Legio Quartus",
 				"NoPet": true
@@ -63949,7 +63967,7 @@
 				"Level": 88,
 				"Monsters": ["Legio Quintus"],
 				"Primary": false,
-				"Priority": 7,
+				"Priority": 6,
 				"Source": "drop",
 				"Output": "Legio Quintus",
 				"NoPet": true
@@ -63958,7 +63976,7 @@
 				"Level": 88,
 				"Monsters": ["Legio Sextus"],
 				"Primary": false,
-				"Priority": 8,
+				"Priority": 7,
 				"Source": "drop",
 				"Output": "Legio Sextus",
 				"NoPet": true
@@ -64184,30 +64202,12 @@
 				"Output": "Luminous snaggler",
 				"NoPet": true
 			},
-			"Slay a ~|ganodermic runt|~": {
-				"Level": 95,
-				"Monsters": ["Ganodermic runt"],
-				"Primary": false,
-				"Priority": 3,
-				"Source": "drop",
-				"Output": "Ganodermic runt",
-				"NoPet": true
-			},
-			"Slay a ~|ganodermic beast|~": {
-				"Level": 95,
-				"Monsters": ["Ganodermic beast"],
-				"Primary": false,
-				"Priority": 4,
-				"Source": "drop",
-				"Output": "Ganodermic beast",
-				"NoPet": true
-			},
 			"Slay ~|The Magister|~": {
 				"Items": ["Key to the Crossing"],
 				"Level": 95,
 				"Monsters": ["The Magister"],
 				"Primary": false,
-				"Priority": 5,
+				"Priority": 3,
 				"Source": "drop",
 				"Output": "The Magister",
 				"NoPet": true
@@ -64217,7 +64217,7 @@
 				"Level": 95,
 				"Monsters": ["Salawa akh"],
 				"Primary": false,
-				"Priority": 6,
+				"Priority": 4,
 				"Source": "drop",
 				"Output": "Salawa akh",
 				"NoPet": true
@@ -66556,7 +66556,7 @@
 			"Smelt a ~|glorious bar|~": {
 				"Items": ["Bronze bar*", "Iron bar*", "Steel bar*", "Mithril bar*", "Adamant bar*", "Rune bar*", "Orikalkum bar*", "Necronium bar*", "Bane bar*", "Elder rune bar*"],
 				"Level": 99,
-				"Objects": ["Furnace[+]"],
+				"Objects": ["Furnace[+]", "Forge"],
 				"Output": "Glorious bar",
 				"Primary": true,
 				"Priority": 2,
@@ -66664,7 +66664,7 @@
 				"Priority": 13,
 				"Partial": true
 			},
-			"Finish ~|masterwork|~": {
+			"Finish a piece of ~|masterwork melee armour|~": {
 				"Category": ["Multi Step Processing"],
 				"Items": ["Tin ore*", "Copper ore*", "Iron ore*", "Coal*", "Mithril ore*", "Adamantite ore*", "Runite ore*", "Luminite*", "Orichalcite ore*", "Drakolith*", "Necrite ore*", "Phasmatite*", "Banite ore*", "Light animica*", "Dark animica*", "Steel bar*", "Leather*"],
 				"Level": 99,
@@ -66675,14 +66675,6 @@
 				"Output": "MasterworkGear",
 				"Primary": true,
 				"Priority": 14
-			},
-			"Trim ~|masterwork|~": {
-				"Items": ["Masterwork melee armour trim*", "MasterworkArmour[+]*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "TrimmedMasterwork",
-				"Primary": true,
-				"Priority": 15
 			},
 			"Forge ~|masterwork rivets|~": {
 				"Items": ["Steel bar*"],
@@ -67043,13 +67035,59 @@
 				"Priority": 1,
 				"Partial": true
 			},
+			"Forge a ~|masterwork 2h sword|~": {
+				"Items": ["Masterwork sword hilt*", "Sharpened masterwork blade*"],
+				"Level": 110,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Tasks": {
+					"It Still Should Have Been Called Aetherium*": "Nonskill"
+				},
+				"Output": "Unsharpened masterwork blade",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Forge a piece of ~|trimmed masterwork melee armour|~": {
+				"Items": ["Masterwork melee armour trim*", "MasterworkArmour[+]*", "Primal masterwork armour piece*", "Primal masterwork rivets*"],
+				"Level": 110,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Tasks": {
+					"It Should Have Been Called Aetherium*": "Nonskill"
+				},
+				"Output": "TrimmedMasterwork",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Forge ~|primal masterwork rivets|~": {
+				"Items": ["Primal bar*"],
+				"Level": 110,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Tasks": {
+					"It Should Have Been Called Aetherium*": "Nonskill"
+				},
+				"Output": "Primal masterwork rivets",
+				"Primary": true,
+				"Priority": 100,
+				"Partial": true
+			},
+			"Forge a ~|primal masterwork armour piece|~": {
+				"Items": ["Primal bar*"],
+				"Level": 110,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Tasks": {
+					"It Should Have Been Called Aetherium*": "Nonskill"
+				},
+				"Output": "Primal masterwork armour piece",
+				"Primary": true,
+				"Priority": 100,
+				"Partial": true
+			},
 			"Forge a ~|masterwork sword pommel|~": {
 				"Items": ["Primed glorious bar*", "Gold bar*"],
 				"Level": 110,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Masterwork sword pommel",
 				"Primary": true,
-				"Priority": 2,
+				"Priority": 102,
 				"Partial": true
 			},
 			"Forge a ~|masterwork sword quillon|~": {
@@ -67058,7 +67096,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Masterwork sword quillon",
 				"Primary": true,
-				"Priority": 3,
+				"Priority": 103,
 				"Partial": true
 			},
 			"Forge a ~|unfinished masterwork blade|~": {
@@ -67067,7 +67105,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Unfinished masterwork blade",
 				"Primary": true,
-				"Priority": 4,
+				"Priority": 104,
 				"Partial": true
 			},
 			"Forge a ~|masterwork cross guard center piece|~": {
@@ -67076,7 +67114,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Masterwork cross guard center piece",
 				"Primary": true,
-				"Priority": 6,
+				"Priority": 106,
 				"Partial": true
 			},
 			"Forge a ~|masterwork sword cross guard|~": {
@@ -67085,7 +67123,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Masterwork sword cross guard",
 				"Primary": true,
-				"Priority": 7,
+				"Priority": 107,
 				"Partial": true
 			},
 			"Forge a ~|unwrapped masterwork sword grip|~": {
@@ -67094,7 +67132,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Unrapped masterwork sword grip",
 				"Primary": true,
-				"Priority": 8,
+				"Priority": 108,
 				"Partial": true
 			},
 			"Forge a ~|masterwork sword hilt|~": {
@@ -67103,7 +67141,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Masterwork sword hilt",
 				"Primary": true,
-				"Priority": 9,
+				"Priority": 109,
 				"Partial": true
 			},
 			"Forge a ~|shaped masterwork blade|~": {
@@ -67112,7 +67150,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Unfinished masterwork blade",
 				"Primary": true,
-				"Priority": 10,
+				"Priority": 110,
 				"Partial": true
 			},
 			"Forge a ~|unsharpened masterwork blade|~": {
@@ -67121,7 +67159,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Unsharpened masterwork blade",
 				"Primary": true,
-				"Priority": 11,
+				"Priority": 111,
 				"Partial": true
 			},
 			"Forge a ~|sharpened masterwork blade|~": {
@@ -67130,16 +67168,8 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Unsharpened masterwork blade",
 				"Primary": true,
-				"Priority": 12,
+				"Priority": 112,
 				"Partial": true
-			},
-			"Forge a ~|masterwork 2h sword|~": {
-				"Items": ["Masterwork sword hilt*", "Sharpened masterwork blade*"],
-				"Level": 110,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Unsharpened masterwork blade",
-				"Primary": true,
-				"Priority": 13
 			},
 			"Forge ~|masterwork sword trim|~": {
 				"Items": ["Elder rune bar*", "Kalphite essence*", "Demonic essence*"],
@@ -67147,7 +67177,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Masterwork sword trim",
 				"Primary": true,
-				"Priority": 14,
+				"Priority": 114,
 				"Partial": true
 			},
 			"Buy the ~|Smithing master cape|~": {
@@ -170042,6 +170072,12 @@
 				},
 				"Not F2P": true
 			},
+			"Cave horror task": {
+				"Tasks": {
+					"ChaeldarSumonaMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
 			"Desert strykewyrm task": {
 				"Tasks": {
 					"SumonaBetterMaster[+]": "Slayer"
@@ -231015,7 +231051,8 @@
 				"Sweetcorn seed": "6/200@1-2",
 				"Strawberry seed": "1/200@1",
 				"Watermelon seed": "1/200@1",
-				"Evil turnip seed": "3/200@1-4"
+				"Evil turnip seed": "3/200@1-4",
+				"Snape grass seed": "2/130@1/3"
 			},
 			"UncommonSeedDropTable+": {
 				"Limpwurt seed": "136/1024@1",
@@ -231044,14 +231081,14 @@
 				"Torstol seed": "1/1024@1"
 			},
 			"GeneralSeedDropTable+": {
-				"Potato seed": "368/1000@4",
+				"Potato seed": "351/1000@4",
 				"Onion seed": "276/1000@4",
 				"Cabbage seed": "184/1000@4",
 				"Tomato seed": "92/1000@3",
 				"Sweetcorn seed": "46/1000@3",
 				"Strawberry seed": "23/1000@2",
-				"Watermelon seed": "11/1000@2"
-				
+				"Watermelon seed": "11/1000@2",
+				"Snape grass seed": "17/1000@3"
 			},
 			"GeneralSeedDropTable2+": {
 				"Barley seed": "200/1000@4",
@@ -231717,6 +231754,22 @@
 					"OffTask": "1/512",
 					"Tasks": {
 						"Basilisk task": "Nonskill"
+					}
+				}
+			},
+			"Black mask": {
+				"Cave horror": {
+					"OnTask": "1/256",
+					"OffTask": "1/512",
+					"Tasks": {
+						"Cave horror task": "Nonskill"
+					}
+				},
+				"Unspeakable horror": {
+					"OnTask": "1/128",
+					"OffTask": "1/512",
+					"Tasks": {
+						"Cave horror task": "Nonskill"
 					}
 				}
 			},
@@ -254877,7 +254930,7 @@
 				"1": "1/3000"
 			},
 			"Scripture of Bik": {
-				"1": "1/5400"
+				"1": "1/2500"
 			},
 			"Croesus flakes": {
 				"8-13": "Always"
@@ -270705,6 +270758,9 @@
 			},
 			"Grimy toadflax": {
 				"1-3": "9/128"
+			},
+			"Snape grass seed": {
+				"2-3": "3/102"
 			},
 			"Toadflax seed": {
 				"2": "8/128"
@@ -308735,6 +308791,7 @@
 			"Law altar teleport": true,
 			"Death altar teleport": true,
 			"Blood altar teleport": true,
+			"Omni altar teleport": true,
 			"Hungry hood": true
 		},
 		"Wolf Wares": {
@@ -327287,6 +327344,9 @@
 				"Ranarr seed": {
 					"1": "Common"
 				},
+				"Snape grass seed": {
+					"30": "30/487"
+				},
 				"Teci": {
 					"2-5": "Very rare"
 				},
@@ -343054,6 +343114,9 @@
 				},
 				"Wendlewick seed": {
 					"1": "15/600"
+				},
+				"Snape grass seed": {
+					"1": "12/1000"
 				}
 			},
 			"Fish stall": {
@@ -416886,16 +416949,16 @@
 		"Trimmed masterwork melee boots": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Defence": 92
+				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
-			"tier": 92,
+			"lp": 475,
+			"tier": 95,
 			"speed": 0,
 			"type": "Power armour",
-			"armour": 114.3,
+			"armour": 138.2,
 			"slot": "feet",
-			"melee_damage": 14.3,
+			"melee_damage": 15.6,
 			"magic_damage": 0,
 			"prayer": 2,
 			"accuracy": 0
@@ -416903,16 +416966,16 @@
 		"Trimmed masterwork melee gloves": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Defence": 92
+				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
-			"tier": 92,
+			"lp": 475,
+			"tier": 95,
 			"speed": 0,
 			"type": "Power armour",
-			"armour": 114.3,
+			"armour": 138.2,
 			"slot": "hands",
-			"melee_damage": 14.3,
+			"melee_damage": 15.6,
 			"magic_damage": 0,
 			"prayer": 2,
 			"accuracy": 0
@@ -416920,16 +416983,16 @@
 		"Trimmed masterwork melee helm": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Defence": 92
+				"Defence": 99
 			},
 			"class": "melee",
 			"lp": 0,
-			"tier": 92,
-			"speed": 0,
+			"tier": 95,
+			"speed": 950,
 			"type": "Power armour",
-			"armour": 457.4,
+			"armour": 553,
 			"slot": "head",
-			"melee_damage": 23,
+			"melee_damage": 25,
 			"magic_damage": 0,
 			"prayer": 2,
 			"accuracy": 0
@@ -416937,16 +417000,16 @@
 		"Trimmed masterwork melee platebody": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Defence": 92
+				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
-			"tier": 92,
+			"lp": 1425,
+			"tier": 95,
 			"speed": 0,
 			"type": "Power armour",
-			"armour": 526,
+			"armour": 635.9,
 			"slot": "torso",
-			"melee_damage": 34.54,
+			"melee_damage": 37.5,
 			"magic_damage": 0,
 			"prayer": 3,
 			"accuracy": 0,
@@ -416955,16 +417018,16 @@
 		"Trimmed masterwork melee platelegs": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Defence": 92
+				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
-			"tier": 92,
+			"lp": 1425,
+			"tier": 95,
 			"speed": 0,
 			"type": "Power armour",
-			"armour": 503.1,
+			"armour": 608.3,
 			"slot": "legs",
-			"melee_damage": 31,
+			"melee_damage": 31.2,
 			"magic_damage": 0,
 			"prayer": 2,
 			"accuracy": 0,
