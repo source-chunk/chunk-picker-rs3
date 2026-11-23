@@ -151006,11 +151006,6 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Vanguard legs"]
 			},
-			"(Shattered Worlds) Obtain the ~|Spirit of Battle|~": {
-				"Category": ["Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Spirit of Battle"]
-			},
 			"(Shattered Worlds) Obtain a ~|Mask of the Troll|~": {
 				"Category": ["Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -230998,7 +230993,6 @@
 				"Off-hand Death Lotus dart": true,
 				"Elite Death Lotus dart": true,
 				"Off-hand Elite Death Lotus dart": true,
-				"Deathtouched dart": true,
 				"Bronze javelin": true,
 				"Iron javelin": true,
 				"Steel javelin": true,
@@ -231119,9 +231113,6 @@
 				"Large blunt necronium salvage": "1/87381@2 (noted)",
 				"Wine of Saradomin": "1/163840@14-16 (noted)",
 				"Starbloom flower seed": "1/52428@4",
-				"Distraction & Diversion reset token (daily)": "1/131072@1",
-				"Distraction & Diversion reset token (weekly)": "1/131072@1",
-				"Distraction & Diversion reset token (monthly)": "1/131072@1",
 				"Vecna skull": "1/133120@1"
 			},
 			"RareDropTable+": {
@@ -231173,9 +231164,6 @@
 				"Large blunt necronium salvage": "1/683@2 (noted)",
 				"Wine of Saradomin": "1/1280@14-16 (noted)",
 				"Starbloom flower seed": "1/410@1",
-				"Distraction & Diversion reset token (daily)": "1/1024@1",
-				"Distraction & Diversion reset token (weekly)": "1/1024@1",
-				"Distraction & Diversion reset token (monthly)": "1/1024@1",
 				"Vecna skull": "1/10400@1"
 			},
 			"SuperRareDropTable+": {
@@ -231213,9 +231201,6 @@
 				"Large blunt necronium salvage": "15/640@2 (noted)",
 				"Wine of Saradomin": "8/640@14-16 (noted)",
 				"Starbloom flower seed": "25/640@1",
-				"Distraction & Diversion reset token (daily)": "10/640@1",
-				"Distraction & Diversion reset token (weekly)": "10/640@1",
-				"Distraction & Diversion reset token (monthly)": "10/640@1",
 				"Vecna skull": "8/640@1",
 				"Coins": "8/640@7500-12500"
 			},
@@ -241816,7 +241801,6 @@
 			"Bronze dart": 1,
 			"Off-hand bronze dart": 1,
 			"Bronze javelin": 1,
-			"Deathtouched dart": 1,
 			"Bronze throwing axe": 1,
 			"Off-hand bronze throwing axe": 1,
 			"Bronze knife": 1,
@@ -305227,6 +305211,7 @@
 			"Chaotic maul warped dye kit": true,
 			"Chaotic crossbow frozen dye kit": true,
 			"Chaotic crossbow warped dye kit": true,
+			"Forsaken dye kit": true,
 			"Floor plans: Temple tile": true,
 			"Furniture plans: Ritual marker": true,
 			"Furniture plans: Tied ritual marker": true,
@@ -307860,7 +307845,6 @@
 			"Bladed Dive ability": true,
 			"Abyssal Slayer Contract": true,
 			"Huge XP lamp (Slayer) (Shattered Worlds)": true,
-			"Spirit of Battle": true,
 			"Mask of the Troll": true,
 			"Mask of Broken Fingers": true,
 			"Mask of Mourning": true,
@@ -325931,6 +325915,12 @@
 				},
 				"Slayer points": {
 					"22": "Always"
+				},
+				"Wilderness hilt": {
+					"1": "Common"
+				},
+				"Ancient warriors' equipment patch": {
+					"1": "Uncommon"
 				}
 			},
 			"'Rum'-pumped crab": {
@@ -373297,25 +373287,6 @@
 			"prayer": 3,
 			"accuracy": 0,
 			"has_passive": true
-		},
-		"Deathtouched dart": {
-			"ranged_damage": 0,
-			"slot": "main hand weapon",
-			"is_consumable": true,
-			"prayer": 0,
-			"style": "thrown",
-			"ability_damage": 48,
-			"magic_damage": 0,
-			"melee_damage": 0,
-			"armour": 0,
-			"requirements": {},
-			"speed": 3,
-			"tier": 5,
-			"lp": 0,
-			"attack_range": 4,
-			"class": "ranged",
-			"accuracy": 150,
-			"auto_damage": 48
 		},
 		"Deathwarden hood (tier 10)": {
 			"ranged_damage": 0,
