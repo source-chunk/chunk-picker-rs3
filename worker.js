@@ -1414,7 +1414,7 @@ let calcChallenges = function(chunks, baseChunkData) {
         });
         sortedTasksCache = {};
         sortedWorkTasksCache = {};
-        valids = newValids;
+        valids = structuredClone(newValids);
         [newValids, tempItemSkill, tempMultiStepSkill] = calcChallengesWork(chunks, baseChunkData, tempItemSkill);
         !!manualTasks && Object.keys(manualTasks).forEach((skill) => {
             skill !== 'BiS' && Object.keys(manualTasks[skill]).filter(challenge => !!chunkInfo['challenges'][skill] && !!chunkInfo['challenges'][skill][challenge]).forEach((challenge) => {
@@ -3824,7 +3824,7 @@ let calcChallenges = function(chunks, baseChunkData) {
         globalValids = {...newValids};
         //console.log(i);
     } while ((Object.keys(diff(valids, newValids) || {}).length !== 0 && i < 15) || i < 3);
-    valids = newValids;
+    valids = structuredClone(newValids);
     //console.log(baseChunkData);
     tempChunkData = baseChunkData;
     return valids;

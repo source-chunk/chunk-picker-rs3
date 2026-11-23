@@ -39,6 +39,7 @@ let prevScrollTop = 0;                                                          
 let clickX;                                                                     // Spot clicked x-value
 let clickY;                                                                     // Spot clicked y-value
 let chunkInfo = {};                                                             // Data of all chunk info
+let savedChunkInfo = {};                                                        // Copy of all chunk info
 let infoLockedId = -1;                                                          // Id of chunk locked for info
 let userName = '';                                                              // Runescape Username of user
 
@@ -1623,7 +1624,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.10.10';
+let currentVersion = '6.10.11';
 let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.48';
 let updateLevel = 'createdPOF-fix';
@@ -1905,7 +1906,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.10.10";
+mapImg.src = "runescape_world_map.png?v=6.10.11";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3842,13 +3843,13 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.10.10");
+        myWorker = new Worker("./worker.js?v=6.10.11");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage({
             type: 'current',
             chunks: tempChunks['unlocked'],
             rules,
-            chunkInfo,
+            chunkInfo: structuredClone(savedChunkInfo),
             skillNames,
             processingSkill,
             maybePrimary,
@@ -4203,8 +4204,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.10.10");
-let myWorker2 = new Worker("./worker.js?v=6.10.10");
+let myWorker = new Worker("./worker.js?v=6.10.11");
+let myWorker2 = new Worker("./worker.js?v=6.10.11");
 let workerOnMessage = function(e) {
     if (e.data.type === 'reload') {
         window.location.reload();
@@ -5501,7 +5502,7 @@ let accessMap = function() {
                     }, 1000);
                     return;
                 } else {
-                    databaseRef.child('mapids/' + mid).set(true);
+                    logError(`Error: '${mid}' not recorded as a taken mapId, but has existing map.`);
                 }
             });
         }
@@ -6314,11 +6315,8 @@ let setupMap = async function() {
         !mid && (mid = window.location.href.split('?')[1]);
         document.title = mid.split('-')[0].toUpperCase() + ' - Chunk Picker RS3';
         $('.toptitle2').text(mid.split('-')[0].toUpperCase());
-        if (mid === 'jvb') { // Chunky Boys
-            $('.toptitle2').text('(not a sponsor)');
-        }
         toggleChallengesPanel('active');
-        await loadData(true);
+        await loadData();
     }
 }
 
@@ -7392,13 +7390,13 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.10.10");
+    myWorker2 = new Worker("./worker.js?v=6.10.11");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage({
         type: 'future',
         chunks,
         rules,
-        chunkInfo,
+        chunkInfo: structuredClone(savedChunkInfo),
         skillNames,
         processingSkill,
         maybePrimary,
@@ -9923,7 +9921,7 @@ let checkSlayerLocked = function() {
             }
         });
         let slayerMethods = checkPrimaryMethod('Slayer', globalValids, baseChunkData, true);
-        if (Object.keys(slayerMethods).filter((name) => !name.includes('Receive a slayer assignment from ') && !name.includes('Reaper assignment') && name !== 'Passive Leveling' && name !== 'Quest Xp Rewards' && name !== 'Manually added skill').length > 0) {
+        if (Object.keys(slayerMethods).filter((name) => !name.includes('Receive a slayer assignment from ') && !name.includes('Reaper assignment') && (name !== 'Passive Leveling' || (passiveSkill.hasOwnProperty('Slayer') && passiveSkill['Slayer'] > slayerLocked['level'])) && name !== 'Quest Xp Rewards' && name !== 'Manually added skill').length > 0) {
             unlockSlayer();
             return;
         }
@@ -13069,7 +13067,7 @@ let checkMID = function(mid) {
                         atHome = false;
                         $('.background-img').hide();
                         inEntry = true && !viewOnly;
-                        databaseRef.child('mapids/' + mid).set(true);
+                        logError(`Error: '${mid}' not recorded as a taken mapId, but has existing map.`);
                     }
                 });
             }
@@ -13255,6 +13253,7 @@ let loadData = async function() {
     let [data, data2] = await jsonDataPromises;
     gotData = true;
     chunkInfo = data;
+    savedChunkInfo = structuredClone(data);
     highestOverall = {};
     globalValids = {};
     setCodeItems();
