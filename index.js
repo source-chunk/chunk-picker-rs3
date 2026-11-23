@@ -333,7 +333,6 @@ let unconnectedAreas = [
     'Sinkhole',
     'Chinchompa cave',
     'Rune Essence mine',
-    'Paterdomus',
     'Uncharted Isles'
 ];
 
