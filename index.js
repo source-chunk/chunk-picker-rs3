@@ -490,7 +490,8 @@ let rules = {
 	"Hide Partial Products": false,
 	"Timegated": false,
 	"Cosmetics": false,
-	"Secondary Bird Nests": false
+	"Secondary Bird Nests": false,
+	"Tutorial Toolbelt": false
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -621,7 +622,8 @@ let ruleNames = {
 	"Hide Partial Products": "Don't show tasks for partial products<span class='partialProductsRuleTooltip'></span>",
 	"Timegated": "Time-gated activities that require consistent engagement across multiple weeks count for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Secondary Bird Nests": "Items from bird nests and geodes gotten through secondary methods (e.g. birdhouses, monster drops) count for chunk tasks",
-	"Speedrunning": "Activities that must be completed under a strict time limit count for chunk tasks<span class='rule-asterisk noscroll'>*</span>"
+	"Speedrunning": "Activities that must be completed under a strict time limit count for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
+	"Tutorial Toolbelt": "Allow filling the toolbelt during the tutorial<span class='tutorialToolbeltRuleTooltip'></span>"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -867,7 +869,8 @@ let ruleStructure = {
 		"Misc achievements": ["Level Up Achievements", "No RuneScore"]
 	},
     "Overall Skill": {
-        "Secondary Primary": true,
+        "Tutorial Toolbelt": true,
+		"Secondary Primary": true,
 		"Highest Level": true,
         "Multi Step Processing": ["Hide Partial Products"],
         "Wield Crafted Items": ["Wield Crafted Items Override"],
@@ -1040,7 +1043,8 @@ let ruleTooltips = [
 	'wieldCraftedItemsRuleTooltip',
     'wieldCraftedItemsOverrideRuleTooltip',
     'rareDropRuleTooltip',
-    'secondaryPrimaryRuleTooltip'
+    'secondaryPrimaryRuleTooltip',
+    'tutorialToolbeltRuleTooltip'
 ];
 
 let ruleInnerTitles = {
