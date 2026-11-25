@@ -29354,9 +29354,6 @@
 				"Level": 2,
 				"Output": "Portent of restoration I",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 10
-				},
 				"Priority": 1
 			},
 			"Create a ~|portent of restoration I (Dungeoneering)|~ in Daemonheim": {
@@ -29427,9 +29424,6 @@
 				"Level": 15,
 				"Output": "Portent of restoration II",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 15
-				},
 				"Priority": 1
 			},
 			"Transmute copper ore to ~|iron ore|~": {
@@ -29537,9 +29531,6 @@
 				"Level": 25,
 				"Output": "Portent of restoration III",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 25
-				},
 				"Priority": 1
 			},
 			"Transmute uncut sapphire to ~|uncut emerald|~": {
@@ -29606,9 +29597,6 @@
 				"Level": 35,
 				"Output": "Portent of restoration IV",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 30
-				},
 				"Priority": 1
 			},
 			"Enter a ~|Guthixian cache|~": {
@@ -29703,9 +29691,6 @@
 				"Level": 45,
 				"Output": "Portent of restoration V",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 40
-				},
 				"Priority": 1
 			},
 			"Transmute raw tuna to ~|raw bass|~": {
@@ -29786,9 +29771,6 @@
 				"Level": 55,
 				"Output": "Portent of restoration VI",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 50
-				},
 				"Priority": 1
 			},
 			"Create a ~|attuned portent of restoration VI|~": {
@@ -29861,9 +29843,6 @@
 				"Level": 65,
 				"Output": "Portent of restoration VII",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 62
-				},
 				"Priority": 1
 			},
 			"Transmute runite ore to ~|drakolith|~": {
@@ -30049,9 +30028,6 @@
 				"Level": 75,
 				"Output": "Portent of restoration VIII",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 80
-				},
 				"Priority": 3
 			},
 			"Create a ~|boon of elder energy|~": {
@@ -30083,9 +30059,6 @@
 				"Level": 77,
 				"Output": "Portent of degradation I",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 80
-				},
 				"Priority": 2
 			},
 			"Create a ~|attuned portent of restoration VIII|~": {
@@ -30301,9 +30274,6 @@
 				"Level": 86,
 				"Output": "Portent of degradation II",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 88
-				},
 				"Priority": 1
 			},
 			"Transmute necrite ore to ~|banite ore|~": {
@@ -30325,9 +30295,6 @@
 				"Level": 86,
 				"Output": "Portent of restoration IX",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 88
-				},
 				"Priority": 4
 			},
 			"Create a ~|attuned portent of degradation II|~": {
@@ -30682,9 +30649,6 @@
 				"Level": 97,
 				"Output": "Portent of degradation III",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 93
-				},
 				"Priority": 2
 			},
 			"Create a ~|portent of restoration X|~": {
@@ -30692,9 +30656,6 @@
 				"Level": 97,
 				"Output": "Portent of restoration X",
 				"Primary": true,
-				"Skills": {
-					"Constitution": 95
-				},
 				"Priority": 3
 			},
 			"Transmute banite ore to ~|light animica|~": {
@@ -41977,9 +41938,6 @@
 				"Items": ["Vial of water*", "Duck food*"],
 				"Level": 1,
 				"Primary": true,
-				"Tasks": {
-					"~|Duck Quest|~ 3": "Quest"
-				},
 				"Output": "Duckspeak potion",
 				"Priority": 23
 			},
@@ -45176,7 +45134,7 @@
 			},
 			"Catch a ~|wild kebbit|~": {
 				"NPCs": ["Wild kebbit"],
-				"Items": ["Logs"],
+				"Items": ["Logs*", "Knife"],
 				"Level": 23,
 				"Output": "WildKebbit",
 				"Primary": true,
@@ -45339,7 +45297,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|spined larupia|~": {
-				"Items": ["Logs*", "Teasing stick"],
+				"Items": ["Logs*", "Teasing stick", "Knife"],
 				"NPCs": ["Spined larupia"],
 				"Level": 31,
 				"Output": "SpinedLarupia",
@@ -45381,7 +45339,7 @@
 			},
 			"Catch a ~|barb-tailed kebbit|~": {
 				"NPCs": ["Barb-tailed kebbit"],
-				"Items": ["Logs"],
+				"Items": ["Logs*", "Knife"],
 				"Level": 33,
 				"Output": "BarbKebbit",
 				"Primary": true,
@@ -45420,7 +45378,7 @@
 			},
 			"Catch a ~|prickly kebbit|~": {
 				"NPCs": ["Prickly kebbit"],
-				"Items": ["Logs"],
+				"Items": ["Logs*", "Knife"],
 				"Level": 37,
 				"Output": "PricklyKebbit",
 				"Primary": true,
@@ -45439,7 +45397,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|wimpy bird|~": {
-				"Items": ["Bird snare"],
+				"Items": ["Bird snare", "Smouldering tansymum"],
 				"NPCs": ["Wimpy bird"],
 				"Level": 39,
 				"Tasks": {
@@ -45471,7 +45429,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|horned graahk|~": {
-				"Items": ["Logs*", "Teasing stick"],
+				"Items": ["Logs*", "Teasing stick", "Knife"],
 				"NPCs": ["Horned graahk"],
 				"Level": 41,
 				"Output": "HornedGraahk",
@@ -45579,8 +45537,11 @@
 			},
 			"Catch a ~|diseased kebbit|~": {
 				"NPCs": ["Diseased kebbit"],
-				"Items": ["Logs", "Fever grass"],
+				"Items": ["Logs*", "Smouldering fever grass", "Knife"],
 				"Level": 48,
+				"Tasks": {
+					"~|As a First Resort|~ 14": "Quest"
+				},
 				"Output": "DiseasedKebbit",
 				"Primary": true,
 				"Priority": 1
@@ -45591,6 +45552,9 @@
 				"Level": 48,
 				"Skills": {
 					"Summoning": 10
+				},
+				"Tasks": {
+					"~|As a First Resort|~ 14": "Quest"
 				},
 				"Output": "Platypus",
 				"Primary": true,
@@ -45667,7 +45631,7 @@
 			},
 			"Catch a ~|sabre-toothed kebbit|~": {
 				"NPCs": ["Sabre-toothed kebbit"],
-				"Items": ["Logs"],
+				"Items": ["Logs*", "Teasing stick", "Knife"],
 				"Level": 51,
 				"Output": "SabreKebbit",
 				"Primary": true,
@@ -45675,7 +45639,7 @@
 			},
 			"Catch a ~|penguin|~ with a deadfall trap": {
 				"Chunks": ["10814"],
-				"Items": ["Logs"],
+				"Items": ["Logs*", "Knife"],
 				"NPCs": ["Penguin"],
 				"Level": 51,
 				"Output": "Penguin",
@@ -46054,7 +46018,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|plover bird|~": {
-				"Items": ["Logs"],
+				"Items": ["Logs*", "Knife"],
 				"NPCs": ["Plover bird"],
 				"Level": 73,
 				"Output": "PloverBird",
@@ -73012,7 +72976,7 @@
 				"BaseQuest": "All Fired Up",
 				"Description": "Place 20 logs in the beacon and light it, then talk to Blaze again",
 				"Chunks": ["13622-1"],
-				"Items": ["Logs[+]"],
+				"Items": ["Logs[+]", "Tinderbox"],
 				"Tasks": {
 					"~|All Fired Up|~ 2": "Quest"
 				},
@@ -73022,7 +72986,7 @@
 				"BaseQuest": "All Fired Up",
 				"Description": "Place 20 logs in the beacon by the Odd Old Man and light it",
 				"Chunks": ["13366-1"],
-				"Items": ["Logs[+]"],
+				"Items": ["Logs[+]", "Tinderbox"],
 				"Tasks": {
 					"~|All Fired Up|~ 3": "Quest"
 				},
@@ -73270,6 +73234,7 @@
 				"BaseQuest": "Animal Magnetism",
 				"Description": "Go to the Rimmington Mine and make a bar magnet",
 				"Chunks": ["11826"],
+				"Items": ["Hammer"],
 				"Tasks": {
 					"~|Animal Magnetism|~ 6": "Quest"
 				},
@@ -73288,6 +73253,7 @@
 				"BaseQuest": "Animal Magnetism",
 				"Description": "Try to cut down an attacking tree, and return to Ava",
 				"Chunks": ["12340-1"],
+				"Items": ["Hatchet[+]"],
 				"Tasks": {
 					"~|Animal Magnetism|~ 8": "Quest"
 				},
@@ -73450,6 +73416,7 @@
 				"BaseQuest": "As a First Resort",
 				"Description": "Light the fire pit and talk to Chargurr, then report back to Balnea in the bank",
 				"Chunks": ["10284-1", "10028"],
+				"Items": ["Tinderbox"],
 				"Tasks": {
 					"~|As a First Resort|~ 5": "Quest"
 				},
@@ -73535,7 +73502,7 @@
 				"BaseQuest": "As a First Resort",
 				"Description": "Catch the diseased kebbits inside Oo'glog",
 				"Chunks": ["10028"],
-				"Items": ["Logs","Fever grass"],
+				"Items": ["Logs","Smouldering fever grass", "Knife"],
 				"Tasks": {
 					"~|As a First Resort|~ 14": "Quest"
 				},
@@ -73545,7 +73512,7 @@
 				"BaseQuest": "As a First Resort",
 				"Description": "Catch the wimpy birds inside Oo'glog",
 				"Chunks": ["10028"],
-				"Items": ["Bird snare", "Tansymum"],
+				"Items": ["Bird snare", "Smouldering tansymum"],
 				"Tasks": {
 					"~|As a First Resort|~ 14": "Quest"
 				},
@@ -73555,7 +73522,7 @@
 				"BaseQuest": "As a First Resort",
 				"Description": "Move the platypodes inside Oo'glog",
 				"Chunks": ["10284-1", "10028"],
-				"Items": ["Box trap", "Lavender"],
+				"Items": ["Box trap", "Smouldering lavender"],
 				"Tasks": {
 					"~|As a First Resort|~ 14": "Quest"
 				},
@@ -73634,7 +73601,7 @@
 				"BaseQuest": "Azzanadra's Quest",
 				"Description": "Bless a silent bell at the Paterdomus mausoleum",
 				"Chunks": ["Paterdomus"],
-				"Items": ["Slayer bell"],
+				"Items": ["Slayer bell", "Knife"],
 				"Tasks": {
 					"~|Azzanadra's Quest|~ 4": "Quest"
 				},
@@ -73843,7 +73810,7 @@
 				"BaseQuest": "Back to my Roots",
 				"Description": "Navigate the vine maze and retrieve the jade vine root",
 				"Chunks": ["11566-1"],
-				"Items": ["Pot lid", "Plant pot", "Empty pot"],
+				"Items": ["Pot lid", "Plant pot", "Empty pot", "Machete"],
 				"Tasks": {
 					"~|Back to my Roots|~ 3": "Quest"
 				},
@@ -73852,6 +73819,7 @@
 			"~|Back to my Roots|~ 5": {
 				"BaseQuest": "Back to my Roots",
 				"Description": "Return to Horacio and kill the wild jade vine",
+				"Items": ["Hatchet[+]"],
 				"Chunks": ["10547-1"],
 				"Tasks": {
 					"~|Back to my Roots|~ 4": "Quest"
@@ -74165,7 +74133,7 @@
 			"~|Barbarian Training|~ 2a5": {
 				"BaseQuest": "Barbarian Training",
 				"Description": "Make any type of pyre ship using chewed bones",
-				"Items": ["PyreShipLog[+]", "Chewed bones"],
+				"Items": ["PyreShipLog[+]", "Chewed bones", "Tinderbox"],
 				"Chunks": ["10038-2"],
 				"Tasks": {
 					"~|Barbarian Training|~ 2a4": "Quest"
@@ -74212,6 +74180,7 @@
 			"~|Barbarian Training|~ 2b3": {
 				"BaseQuest": "Barbarian Training",
 				"Description": "Gut the leaping trout, then speak to Otto again",
+				"Items": ["Knife"],
 				"Chunks": ["10038-2"],
 				"Tasks": {
 					"~|Barbarian Training|~ 2b2": "Quest"
@@ -74285,7 +74254,7 @@
 				"BaseQuest": "Barbarian Training",
 				"Description": "Smith a steel spear",
 				"Chunks": ["10038-2"],
-				"Items": ["Steel bar", "Willow logs"],
+				"Items": ["Steel bar", "Willow logs", "Hammer"],
 				"Tasks": {
 					"~|Barbarian Training|~ 2b4a3": "Quest"
 				},
@@ -74307,7 +74276,7 @@
 				"BaseQuest": "Barbarian Training",
 				"Description": "Smith a steel hasta",
 				"Chunks": ["10038-2"],
-				"Items": ["Steel bar", "Willow logs"],
+				"Items": ["Steel bar", "Willow logs", "Hammer"],
 				"Tasks": {
 					"~|Barbarian Training|~ 2b4a5": "Quest"
 				},
@@ -74363,6 +74332,7 @@
 			"~|Battle of Forinthry|~ 2": {
 				"BaseQuest": "Battle of Forinthry",
 				"Description": "Defeat Zemouregal and Vorkath, then rebuild your fort and speak to Zemouregal in the prison",
+				"Items": ["Hammer", "Saw"],
 				"Chunks": ["13111"],
 				"Tasks": {
 					"~|Battle of Forinthry|~ 1": "Quest"
@@ -74448,7 +74418,8 @@
 			},
 			"~|Beneath Cursed Tides|~ 4": {
 				"BaseQuest": "Beneath Cursed Tides",
-				"Description": "Travel to Sunken Tutorial Island and defeat Hector Vivian",
+				"Description": "Travel to Sunken Tutorial Island, boil and defeat Hector Vivian",
+				"Items": ["Hammer", "Pickaxe[+]"],
 				"Chunks": ["Sunken Tutorial Island"],
 				"Tasks": {
 					"~|Beneath Cursed Tides|~ 3": "Quest"
@@ -74805,6 +74776,7 @@
 				"BaseQuest": "Between a Rock...",
 				"Description": "Gather the 3 pages from the Dwarven Mine",
 				"Chunks": ["Dwarven Mine"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Between a Rock...|~ 2": "Quest"
 				},
@@ -74891,6 +74863,7 @@
 				"BaseQuest": "Between a Rock...",
 				"Description": "Enter the mine, and defeat the Avatar",
 				"Chunks": ["Arzinian gold mine"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Between a Rock...|~ 8c": "Quest",
 					"~|Between a Rock...|~ 9": "Quest"
@@ -74935,7 +74908,7 @@
 			"~|Big Chompy Bird Hunting|~ 2": {
 				"BaseQuest": "Big Chompy Bird Hunting",
 				"Description": "Fletch some ogre arrows for Rantz",
-				"Items": ["Wolf bones", "Achey tree logs", "Feather"],
+				"Items": ["Wolf bones", "Achey tree logs"],
 				"Tasks": {
 					"~|Big Chompy Bird Hunting|~ 1": "Quest"
 				},
@@ -75409,7 +75382,7 @@
 				"BaseQuest": "Bogolin Dichromacy",
 				"Description": "Speak to Bloodnose, the sang-witch",
 				"Tasks": {
-					"~|Heralds of Chrimson|~ Complete the quest": "Quest"
+					"~|Heralds of Crimson|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["18737-1"],
 				"Not F2P": true
@@ -75532,6 +75505,7 @@
 				"BaseQuest": "Boric's Task II (miniquest)",
 				"Description": "Defeat the living rock brawler at the Legends' Guild mine",
 				"Chunks": ["10804"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Boric's Task II (miniquest)|~ 1": "Quest"
 				},
@@ -75541,6 +75515,7 @@
 				"BaseQuest": "Boric's Task II (miniquest)",
 				"Description": "Defeat the living rock brawler at the Al Kharid mine",
 				"Chunks": ["13107-1"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Boric's Task II (miniquest)|~ 1": "Quest"
 				},
@@ -75550,6 +75525,7 @@
 				"BaseQuest": "Boric's Task II (miniquest)",
 				"Description": "Defeat the living rock brawler at the Karamja gold mine",
 				"Chunks": ["10802-1"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Boric's Task II (miniquest)|~ 1": "Quest"
 				},
@@ -75559,6 +75535,7 @@
 				"BaseQuest": "Boric's Task II (miniquest)",
 				"Description": "Defeat the living rock brawler at the Lumbridge Swamp iron mine",
 				"Chunks": ["12593"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Boric's Task II (miniquest)|~ 1": "Quest"
 				},
@@ -75568,6 +75545,7 @@
 				"BaseQuest": "Boric's Task II (miniquest)",
 				"Description": "Defeat the living rock brawler at the Agility Pyramid adamant mine",
 				"Chunks": ["13100"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Boric's Task II (miniquest)|~ 1": "Quest"
 				},
@@ -75615,6 +75593,7 @@
 				"BaseQuest": "Boric's Task III (miniquest)",
 				"Description": "Mine 10 runite ore and 15 orichalcite ore in the Mining guild",
 				"Chunks": ["Dwarven Mine"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Boric's Task III (miniquest)|~ 1": "Quest"
 				},
@@ -75730,6 +75709,7 @@
 				"BaseQuest": "The Branches of Darkmeyer",
 				"Description": "Cut the Blisterwood tree",
 				"Chunks": ["14388-1", "14644-3"],
+				"Items": ["Hatchet[+]"],
 				"Tasks": {
 					"~|The Branches of Darkmeyer|~ 8": "Quest"
 				},
@@ -75746,8 +75726,9 @@
 			},
 			"~|The Branches of Darkmeyer|~ 11": {
 				"BaseQuest": "The Branches of Darkmeyer",
-				"Description": "Defeat Harold and Vanstrom Klause",
+				"Description": "Fletch blisterwood weapons and defeat Harold and Vanstrom Klause",
 				"Chunks": ["14388-1"],
+				"Items": ["Knife"],
 				"Tasks": {
 					"~|The Branches of Darkmeyer|~ 10": "Quest"
 				},
@@ -75795,6 +75776,7 @@
 				"BaseQuest": "Bringing Home the Bacon",
 				"Description": "Speak to Eli Bacon at Falador Farm and distract the bacon addicts",
 				"Chunks": ["12083-1"],
+				"Items": ["Hammer"],
 				"Skills": {
 					"Construction": 14,
 					"Farming": 14,
@@ -75825,6 +75807,7 @@
 				"BaseQuest": "Bringing Home the Bacon",
 				"Description": "Return to Eli in the storm cellar and build the pig machine",
 				"Chunks": ["Falador Farm storm cellar"],
+				"Items": ["Hammer", "Saw"],
 				"Tasks": {
 					"~|Bringing Home the Bacon|~ 3": "Quest"
 				},
@@ -75928,8 +75911,9 @@
 			},
 			"~|The Brink of Extinction|~ 2": {
 				"BaseQuest": "The Brink of Extinction",
-				"Description": "Meet with TokHaar-Hok in the Elder Kiln",
-				"Chunks": ["Fight Kiln"],
+				"Description": "Gather the TokKul of the champions and return to Mej-Jeh and Mej-Ak",
+				"Chunks": ["TzHaar City"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|The Brink of Extinction|~ 1": "Quest"
 				},
@@ -75937,8 +75921,8 @@
 			},
 			"~|The Brink of Extinction|~ 3": {
 				"BaseQuest": "The Brink of Extinction",
-				"Description": "Clear the first eight rooms leading up to the Fight Cauldron",
-				"Chunks": ["TzHaar City"],
+				"Description": "Meet with TokHaar-Hok in the Elder Kiln",
+				"Chunks": ["Fight Kiln"],
 				"Tasks": {
 					"~|The Brink of Extinction|~ 2": "Quest"
 				},
@@ -75946,8 +75930,8 @@
 			},
 			"~|The Brink of Extinction|~ 4": {
 				"BaseQuest": "The Brink of Extinction",
-				"Description": "Defeat TokHaar-Hok in the final room",
-				"Chunks": ["Fight Cauldron"],
+				"Description": "Clear the first eight rooms leading up to the Fight Cauldron",
+				"Chunks": ["TzHaar City"],
 				"Tasks": {
 					"~|The Brink of Extinction|~ 3": "Quest"
 				},
@@ -75955,8 +75939,8 @@
 			},
 			"~|The Brink of Extinction|~ 5": {
 				"BaseQuest": "The Brink of Extinction",
-				"Description": "Talk to TzHaar-Mej-Jeh at the main plaza",
-				"Chunks": ["TzHaar City"],
+				"Description": "Defeat TokHaar-Hok in the final room",
+				"Chunks": ["Fight Cauldron"],
 				"Tasks": {
 					"~|The Brink of Extinction|~ 4": "Quest"
 				},
@@ -75964,10 +75948,19 @@
 			},
 			"~|The Brink of Extinction|~ 6": {
 				"BaseQuest": "The Brink of Extinction",
+				"Description": "Talk to TzHaar-Mej-Jeh at the main plaza",
+				"Chunks": ["TzHaar City"],
+				"Tasks": {
+					"~|The Brink of Extinction|~ 5": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|The Brink of Extinction|~ 7": {
+				"BaseQuest": "The Brink of Extinction",
 				"Description": "Enter the Elder Kiln",
 				"Chunks": ["Fight Kiln"],
 				"Tasks": {
-					"~|The Brink of Extinction|~ 5": "Quest"
+					"~|The Brink of Extinction|~ 6": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -75975,7 +75968,7 @@
 				"BaseQuest": "The Brink of Extinction",
 				"Chunks": ["TzHaar City"],
 				"Tasks": {
-					"~|The Brink of Extinction|~ 6": "Quest"
+					"~|The Brink of Extinction|~ 7": "Quest"
 				},
 				"QuestPoints": 3,
 				"XpReward": {
@@ -76030,7 +76023,7 @@
 				"BaseQuest": "Buyers and Cellars",
 				"Description": "Speak to Father Urhney and light a fire outside his house, then steal the chalice",
 				"Chunks": ["12849"],
-				"Items": ["Logs"],
+				"Items": ["Logs", "Tinderbox"],
 				"Tasks": {
 					"~|Buyers and Cellars|~ 2": "Quest"
 				},
@@ -76196,7 +76189,7 @@
 				"Tasks": {
 					"~|Catapult Construction|~ 1": "Quest"
 				},
-				"Items": ["Mahogany plank", "Mithril nails"],
+				"Items": ["Mahogany plank", "Mithril nails", "Knife", "Hammer", "Saw"],
 				"Not F2P": true
 			},
 			"~|Catapult Construction|~ 3": {
@@ -76221,6 +76214,7 @@
 				"BaseQuest": "Catapult Construction",
 				"Description": "Repair and test the catapult",
 				"Chunks": ["8753-2"],
+				"Items": ["Knife", "Hammer", "Saw"],
 				"Tasks": {
 					"~|Catapult Construction|~ 4": "Quest"
 				},
@@ -76265,7 +76259,7 @@
 				"BaseQuest": "Chef's Assistant",
 				"Description": "Repair the dairy churn and speak to the couple again",
 				"Chunks": ["12084-1"],
-				"Items": ["Logs", "Steel bar"],
+				"Items": ["Logs", "Steel bar", "Hammer"],
 				"Tasks": {
 					"~|Chef's Assistant|~ 2": "Quest"
 				}
@@ -76933,7 +76927,7 @@
 				"BaseQuest": "Cold War",
 				"Description": "Travel to the Iceberg, build the hide, and talk to Larry",
 				"Chunks": ["10558"],
-				"Items": ["Oak plank", "Steel nails"],
+				"Items": ["Oak plank", "Steel nails", "Hammer", "Spade"],
 				"Tasks": {
 					"~|Cold War|~ 2": "Quest"
 				},
@@ -77272,6 +77266,7 @@
 				"BaseQuest": "Creature of Fenkenstrain",
 				"Description": "Dig up his grave",
 				"Chunks": ["14390"],
+				"Items": ["Spade"],
 				"Tasks": {
 					"~|Creature of Fenkenstrain|~ 2": "Quest"
 				},
@@ -77309,6 +77304,7 @@
 				"BaseQuest": "Creature of Fenkenstrain",
 				"Description": "Dig at the three graves",
 				"Chunks": ["13879"],
+				"Items": ["Spade"],
 				"Tasks": {
 					"~|Creature of Fenkenstrain|~ 6": "Quest"
 				},
@@ -77690,6 +77686,7 @@
 			"~|The Curse of Arrav|~ 2": {
 				"BaseQuest": "The Curse of Arrav",
 				"Description": "Head to Lamistard's tunnels in on Trollweiss Mountain",
+				"Items": ["Pickaxe[+]"],
 				"Chunks": ["Lamistard's Tunnels"],
 				"Tasks": {
 					"~|The Curse of Arrav|~ 1": "Quest"
@@ -77805,6 +77802,7 @@
 			"~|Curse of the Black Stone|~ 3": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Travel to Whale's Maw and talk to Sea Witch Kaula, then dig up the note from the Jade Spider",
+				"Items": ["Spade"],
 				"Chunks": ["15649"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 2": "Quest"
@@ -77869,6 +77867,7 @@
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Put the carved dragonstones in the fish fountain at Daemonheim, then enter Kerapac's Laboratory and talk to Hannibus",
 				"Chunks": ["13881"],
+				"Items": ["Uncut dragonstone", "Chisel"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 9": "Quest"
 				},
@@ -78366,7 +78365,7 @@
 				"BaseQuest": "The Darkness of Hallowvale",
 				"Description": "Repair the boat and chute",
 				"Chunks": ["14129"],
-				"Items": ["Plank", "Nails[+]"],
+				"Items": ["Plank", "Nails[+]", "Hammer"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ 1": "Quest"
 				},
@@ -78475,6 +78474,7 @@
 				"BaseQuest": "The Darkness of Hallowvale",
 				"Description": "Obtain the large ornate key",
 				"Chunks": ["14386-1"],
+				"Items": ["Knife"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ 13": "Quest"
 				},
@@ -78588,7 +78588,7 @@
 				"BaseQuest": "Dead and Buried",
 				"Description": "Build the first tier of the Ranger's Workroom, then speak to the Raptor",
 				"Chunks": ["13111"],
-				"Items": ["Acadia frame*", "Stone wall segment*"],
+				"Items": ["Acadia frame*", "Stone wall segment*", "Hammer", "Saw"],
 				"Tasks": {
 					"~|Dead and Buried|~ 1": "Quest"
 				},
@@ -78837,6 +78837,7 @@
 			"~|Death Plateau|~ 5": {
 				"BaseQuest": "Death Plateau",
 				"Description": "Head to the Death Plateau through Sabbot's Tunnel and kill The Map",
+				"Items": ["Pickaxe[+]"],
 				"Chunks": ["11320-3"],
 				"Tasks": {
 					"~|Death Plateau|~ 4": "Quest"
@@ -78880,6 +78881,7 @@
 				"BaseQuest": "The Death of Chivalry",
 				"Description": "Climb the Fortress and enter Captain Dulcin's office, then fix the ritual circle and enter the Saradominist crypt",
 				"Chunks": ["12087-3", "11831-2"],
+				"Items": ["Tinderbox"],
 				"Tasks": {
 					"~|The Death of Chivalry|~ 2": "Quest"
 				}
@@ -79066,7 +79068,7 @@
 			"~|Defender of Varrock|~ 5": {
 				"BaseQuest": "Defender of Varrock",
 				"Description": "Unearth the ruins of Camdozaal on Ice Mountain, enter them and talk to Ramarno",
-				"Items": ["Spade"],
+				"Items": ["Spade", "Pickaxe[+]"],
 				"Chunks": ["Camdozaal"],
 				"Tasks": {
 					"~|Defender of Varrock|~ 4": "Quest"
@@ -79348,7 +79350,7 @@
 			"~|Desert Treasure|~ 7a5": {
 				"BaseQuest": "Desert Treasure",
 				"Description": "Add the garlic powder and spice",
-				"Items": ["Garlic", "Spice"],
+				"Items": ["Garlic", "Spice", "Pestle and mortar"],
 				"Tasks": {
 					"~|Desert Treasure|~ 7a4": "Quest"
 				},
@@ -80254,6 +80256,7 @@
 				"BaseQuest": "The Dig Site",
 				"Description": "Open the chest for ammonium nitrate, then create a chemical compound, blow up the bricks and pick up the tablet",
 				"Chunks": ["Senntisten Temple"],
+				"Items": ["Pestle and mortar", "Tinderbox"],
 				"Tasks": {
 					"~|The Dig Site|~ 16": "Quest"
 				},
@@ -80719,7 +80722,7 @@
 				"BaseQuest": "Do No Evil",
 				"Description": "Build and stock the colony, then talk to the wise monkeys",
 				"Chunks": ["12846-2"],
-				"Items": ["Teak plank", "Bolt of cloth", "Rope", "Uncut sapphire", "Uncut emerald", "Uncut ruby", "Uncut diamond", "Banana", "Knife", "Waterskin (4)", "Desert shirt", "Desert robe", "Desert boots"],
+				"Items": ["Teak plank", "Bolt of cloth", "Rope", "Uncut sapphire", "Uncut emerald", "Uncut ruby", "Uncut diamond", "Banana", "Knife", "Waterskin (4)", "Desert shirt", "Desert robe", "Desert boots", "Hammer", "Saw"],
 				"Tasks": {
 					"~|Do No Evil|~ 11": "Quest"
 				},
@@ -80869,7 +80872,7 @@
 				"BaseQuest": "Doric's Task I (miniquest)",
 				"Description": "Smith an iron full helm + 1 on Doric's anvil",
 				"Chunks": ["11829-1"],
-				"Items": ["Iron bar"],
+				"Items": ["Iron bar", "Hammer"],
 				"Tasks": {
 					"~|Doric's Task I (miniquest)|~ 1": "Quest"
 				}
@@ -80910,7 +80913,7 @@
 				"BaseQuest": "Doric's Task II (miniquest)",
 				"Description": "Smith two steel chainbodies",
 				"Objects": ["Anvil[+]"],
-				"Items": ["Steel bar"],
+				"Items": ["Steel bar", "Hammer"],
 				"Tasks": {
 					"~|Doric's Task II (miniquest)|~ 1": "Quest"
 				}
@@ -80934,7 +80937,7 @@
 			"~|Doric's Task II (miniquest)|~ 5": {
 				"BaseQuest": "Doric's Task II (miniquest)",
 				"Description": "Smith a cannon repair part on Doric's anvil",
-				"Items": ["Bronze bar"],
+				"Items": ["Bronze bar", "Hammer"],
 				"Chunks": ["11829-1"],
 				"Tasks": {
 					"~|Doric's Task II (miniquest)|~ 4": "Quest"
@@ -80983,7 +80986,7 @@
 				"BaseQuest": "Doric's Task III (miniquest)",
 				"Description": "Smith a mithril longsword + 1 and a mithril warhammer + 1",
 				"Objects": ["Anvil[+]"],
-				"Items": ["Mithril bar"],
+				"Items": ["Mithril bar", "Hammer"],
 				"Tasks": {
 					"~|Doric's Task III (miniquest)|~ 2": "Quest"
 				}
@@ -81023,7 +81026,7 @@
 				"BaseQuest": "Doric's Task IV (miniquest)",
 				"Description": "Talk to Suak at the Artisans' Workshop, and make an adamant burial set, then talk to Suak again",
 				"Chunks": ["12084-1"],
-				"Items": ["Adamant bar"],
+				"Items": ["Adamant bar", "Hammer"],
 				"Tasks": {
 					"~|Doric's Task IV (miniquest)|~ 1": "Quest"
 				}
@@ -81064,7 +81067,7 @@
 				"BaseQuest": "Doric's Task V (miniquest)",
 				"Description": "Make three rune swords + 1 on any anvil, and four gnome platebodies on Doric's anvil",
 				"Chunks": ["11829-1"],
-				"Items": ["Steel platebody", "Rune bar"],
+				"Items": ["Steel platebody", "Rune bar", "Hammer"],
 				"Tasks": {
 					"~|Doric's Task V (miniquest)|~ 1": "Quest"
 				},
@@ -81108,7 +81111,7 @@
 				"BaseQuest": "Doric's Task VI (miniquest)",
 				"Description": "Smith an orikalkum warhammer + 3",
 				"Objects": ["Anvil[+]"],
-				"Items": ["Orikalkum bar"],
+				"Items": ["Orikalkum bar", "Hammer"],
 				"Tasks": {
 					"~|Doric's Task VI (miniquest)|~ 1": "Quest"
 				},
@@ -81152,6 +81155,7 @@
 				"BaseQuest": "Doric's Task VII (miniquest)",
 				"Description": "Talk to Supreme Commander Bisi and smith a first generation warhammer for Santiri, showing it to him at each step",
 				"Chunks": ["Keldagrim"],
+				"Items": ["Hammer"],
 				"Tasks": {
 					"~|Doric's Task VII (miniquest)|~ 1": "Quest"
 				},
@@ -81186,7 +81190,7 @@
 				"BaseQuest": "Doric's Task VIII (miniquest)",
 				"Description": "Smith five necronium 2h greataxes and put them in the weapons crate",
 				"Objects": ["Anvil[+]"],
-				"Items": ["Necronium 2h greataxe"],
+				"Items": ["Necronium bar", "Hammer"],
 				"Tasks": {
 					"~|Doric's Task VIII (miniquest)|~ 1": "Quest"
 				},
@@ -81290,7 +81294,7 @@
 				"BaseQuest": "Dragon Slayer",
 				"Description": "Talk to Klarense in Port Sarim to buy a boat and repair it",
 				"Chunks": ["12082-1"],
-				"Items": ["Plank", "Steel nails"],
+				"Items": ["Plank", "Steel nails", "Hammer"],
 				"Tasks": {
 					"~|Dragon Slayer|~ 4": "Quest"
 				}
@@ -81392,7 +81396,8 @@
 			"~|Dream Mentor|~ 6": {
 				"BaseQuest": "Dream Mentor",
 				"Description": "Create a Dream Potion",
-				"Items": ["Astral rune"],
+				"Objects": ["Anvil[+]"],
+				"Items": ["Astral rune", "Pestle and mortar", "Hammer"],
 				"Tasks": {
 					"~|Dream Mentor|~ 5": "Quest"
 				},
@@ -81401,6 +81406,7 @@
 			"~|Dream Mentor|~ 7": {
 				"BaseQuest": "Dream Mentor",
 				"Description": "Light Brazier and talk to Cyrisus. Defeat the four bosses",
+				"Items": ["Tinderbox"],
 				"Chunks": ["8253-2"],
 				"Tasks": {
 					"~|Dream Mentor|~ 6": "Quest"
@@ -81455,6 +81461,7 @@
 				"BaseQuest": "Druidic Ritual",
 				"Description": "Fish a stone fish and chip off the stone scales",
 				"Chunks": ["11573"],
+				"Items": ["Fishing rod", "Chisel"],
 				"Tasks": {
 					"~|Druidic Ritual|~ 2": "Quest"
 				}
@@ -81749,7 +81756,7 @@
 				"BaseQuest": "Eadgar's Ruse",
 				"Description": "Mix a troll potion",
 				"Chunks": ["11577-1"],
-				"Items": ["Ranarr potion (unfinished)"],
+				"Items": ["Grimy ranarr", "Vial of water"],
 				"Tasks": {
 					"~|Eadgar's Ruse|~ 8": "Quest"
 				},
@@ -82091,6 +82098,7 @@
 			"~|Elemental Workshop I|~ 2": {
 				"BaseQuest": "Elemental Workshop I",
 				"Description": "Obtain the key from the book",
+				"Items": ["Knife"],
 				"Tasks": {
 					"~|Elemental Workshop I|~ 1": "Quest"
 				},
@@ -82111,7 +82119,7 @@
 				"BaseQuest": "Elemental Workshop I",
 				"Description": "Mine an elemental ore, and smelt the bar",
 				"Chunks": ["Elemental Workshop First Floor"],
-				"Items": ["Coal"],
+				"Items": ["Coal", "Pickaxe[+]"],
 				"Tasks": {
 					"~|Elemental Workshop I|~ 3": "Quest"
 				},
@@ -82121,6 +82129,7 @@
 				"BaseQuest": "Elemental Workshop I",
 				"Description": "Create an elemental shield",
 				"Chunks": ["Elemental Workshop First Floor"],
+				"Items": ["Hammer"],
 				"Tasks": {
 					"~|Elemental Workshop I|~ 4": "Quest"
 				},
@@ -82158,6 +82167,7 @@
 				"BaseQuest": "Elemental Workshop II",
 				"Description": "Make a crane claw",
 				"Chunks": ["Elemental Workshop First Floor"],
+				"Items": ["Pickaxe[+]", "Hammer", "Coal"],
 				"Tasks": {
 					"~|Elemental Workshop II|~ 1": "Quest"
 				},
@@ -82167,6 +82177,7 @@
 				"BaseQuest": "Elemental Workshop II",
 				"Description": "Fix the machinery and smith a mind helmet",
 				"Chunks": ["Elemental Workshop Second Floor", "Elemental Workshop First Floor"],
+				"Items": ["Hammer"],
 				"Tasks": {
 					"~|Elemental Workshop II|~ 2": "Quest"
 				},
@@ -82203,7 +82214,7 @@
 			"~|Elemental Workshop III|~ 2": {
 				"BaseQuest": "Elemental Workshop III",
 				"Description": "Make a ragged elemental key and unlock the 'body' door",
-				"Items": ["Soft clay"],
+				"Items": ["Soft clay", "Pickaxe[+]", "Coal"],
 				"Chunks": ["Elemental Workshop First Floor", "Elemental Workshop Third Floor First Hallway"],
 				"Tasks": {
 					"~|Elemental Workshop III|~ 1": "Quest"
@@ -82223,6 +82234,7 @@
 				"BaseQuest": "Elemental Workshop III",
 				"Description": "Smith a body body",
 				"Chunks": ["Elemental Workshop First Floor"],
+				"Items": ["Hammer"],
 				"Tasks": {
 					"~|Elemental Workshop III|~ 3": "Quest"
 				},
@@ -82263,7 +82275,7 @@
 				"BaseQuest": "Elemental Workshop IV",
 				"Description": "Make a keyblade to unlock the deeper part of the workshop",
 				"Chunks": ["10806-1"],
-				"Items": ["Knife"],
+				"Items": ["Knife", "Pickaxe[+]", "Coal"],
 				"Tasks": {
 					"~|Elemental Workshop IV|~ 1": "Quest"
 				},
@@ -82273,7 +82285,7 @@
 				"BaseQuest": "Elemental Workshop IV",
 				"Description": "Infuse a cosmic bar and smith cosmic gloves",
 				"Chunks": ["Elemental Workshop Third Floor Second Hallway", "Elemental Workshop First Floor"],
-				"Items": ["Water rune", "Earth rune", "Air rune", "Fire rune"],
+				"Items": ["Water rune", "Earth rune", "Air rune", "Fire rune", "Hammer"],
 				"Tasks": {
 					"~|Elemental Workshop IV|~ 2": "Quest"
 				},
@@ -82284,6 +82296,7 @@
 				"BaseQuest": "Elemental Workshop IV",
 				"Description": "Command the automaton to infuse a chaos bar, and smith chaos boots",
 				"Chunks": ["Elemental Workshop Third Floor Second Hallway", "Elemental Workshop First Floor"],
+				"Items": ["Hammer", "Chisel"],
 				"Tasks": {
 					"~|Elemental Workshop IV|~ 3": "Quest"
 				},
@@ -82319,7 +82332,7 @@
 				"BaseQuest": "Enakhra's Lament",
 				"Description": "Talk to Lazim and chisel the sandstone base",
 				"Chunks": ["12589"],
-				"Items": ["Sandstone[+]"],
+				"Items": ["Sandstone[+]", "Chisel"],
 				"Tasks": {
 					"~|Enakhra's Lament|~ 1": "Quest"
 				},
@@ -82338,7 +82351,7 @@
 				"BaseQuest": "Enakhra's Lament",
 				"Description": "Talk to Lazim, then attach the sandstone to the base and chisel the body",
 				"Chunks": ["12589"],
-				"Items": ["Sandstone[+]"],
+				"Items": ["Sandstone[+]", "Chisel"],
 				"Tasks": {
 					"~|Enakhra's Lament|~ 3": "Quest"
 				},
@@ -82347,7 +82360,7 @@
 			"~|Enakhra's Lament|~ 5": {
 				"BaseQuest": "Enakhra's Lament",
 				"Description": "Create the statue's head and place it",
-				"Items": ["Granite (5kg)"],
+				"Items": ["Granite (5kg)", "Chisel"],
 				"Tasks": {
 					"~|Enakhra's Lament|~ 4": "Quest"
 				},
@@ -82366,7 +82379,7 @@
 				"BaseQuest": "Enakhra's Lament",
 				"Description": "Create a granite camel head",
 				"Chunks": ["Enakhra's Temple"],
-				"Items": ["Soft clay", "Granite (5kg)"],
+				"Items": ["Soft clay", "Granite (5kg)", "Chisel"],
 				"Tasks": {
 					"~|Enakhra's Lament|~ 6": "Quest"
 				},
@@ -82396,7 +82409,7 @@
 				"BaseQuest": "Enakhra's Lament",
 				"Description": "Solve the shadow room",
 				"Chunks": ["Enakhra's Temple"],
-				"Items": ["Logs", "Oak logs", "Willow logs", "Maple logs", "White candle", "Coal"],
+				"Items": ["Logs", "Oak logs", "Willow logs", "Maple logs", "White candle", "Coal", "Tinderbox"],
 				"Tasks": {
 					"~|Enakhra's Lament|~ 7": "Quest"
 				},
@@ -82596,7 +82609,7 @@
 				"BaseQuest": "Enlightened Journey",
 				"Description": "Fly the balloon to Taverley",
 				"Chunks": ["11573"],
-				"Items": ["Logs"],
+				"Items": ["Logs", "Tinderbox"],
 				"Tasks": {
 					"~|Enlightened Journey|~ 5a": "Quest",
 					"~|Enlightened Journey|~ 5b": "Quest",
@@ -83000,6 +83013,7 @@
 				"BaseQuest": "Eye of Het I",
 				"Description": "Clean the fallen masonry in Het's Oasis",
 				"Chunks": ["13362-1", "13362-2"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Eye of Het I|~ 1": "Quest"
 				},
@@ -83143,7 +83157,7 @@
 				"BaseQuest": "The Eyes of Glouphrie",
 				"Description": "Repair the machine. Unlock it and restart it.",
 				"Chunks": ["Brimstail's cave"],
-				"Items": ["Mud rune", "Bucket of sap", "Maple logs", "Oak logs"],
+				"Items": ["Mud rune", "Bucket of sap", "Maple logs", "Oak logs", "Hammer", "Saw", "Pestle and mortar"],
 				"Tasks": {
 					"~|The Eyes of Glouphrie|~ 3": "Quest"
 				},
@@ -83281,6 +83295,7 @@
 				"BaseQuest": "A Fairy Tale I - Growing Pains",
 				"Description": "Dig up the Draynor Skull",
 				"Chunks": ["12340-1"],
+				"Items": ["Spade"],
 				"Tasks": {
 					"~|A Fairy Tale I - Growing Pains|~ 6": "Quest"
 				},
@@ -83411,6 +83426,7 @@
 				"BaseQuest": "A Fairy Tale II - Cure a Queen",
 				"Description": "Kill a gorak and crush its claw (DIR)",
 				"Chunks": ["Gorak Plane"],
+				"Items": ["Pestle and mortar"],
 				"Tasks": {
 					"~|A Fairy Tale II - Cure a Queen|~ 8": "Quest"
 				},
@@ -83663,6 +83679,7 @@
 				"BaseQuest": "Family Crest",
 				"Description": "Mine two perfect gold ore",
 				"Chunks": ["Witchaven Dungeon"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Family Crest|~ 5": "Quest"
 				},
@@ -83682,6 +83699,7 @@
 				"Description": "Craft 1 of each necklace and ring",
 				"Items": ["Ruby"],
 				"Objects": ["Furnace[+]"],
+				"Items": ["Ring mould", "Necklace mould"],
 				"Tasks": {
 					"~|Family Crest|~ 7": "Quest"
 				},
@@ -83857,7 +83875,7 @@
 				"BaseQuest": "The Feud",
 				"Description": "Use the hot sauce on the trough and collect dung",
 				"Chunks": ["13358-1"],
-				"Items": ["Bucket"],
+				"Items": ["Bucket", "Spade"],
 				"Tasks": {
 					"~|The Feud|~ 5": "Quest"
 				},
@@ -84092,7 +84110,7 @@
 				"BaseQuest": "Fishing Contest",
 				"Description": "Talk to Bonzo and fish a giant carp, then talk to him again.",
 				"Chunks": ["10549"],
-				"Items": ["Red vine worm"],
+				"Items": ["Red vine worm", "Fishing rod"],
 				"Tasks": {
 					"~|Fishing Contest|~ 3": "Quest"
 				},
@@ -84198,6 +84216,7 @@
 				"BaseQuest": "Forgettable Tale of a Drunken Dwarf",
 				"Description": "Grow the Kelda seeds and harvest them",
 				"Chunks": ["Keldagrim"],
+				"Items": ["Rake", "Seed dibber"],
 				"Tasks": {
 					"~|Forgettable Tale of a Drunken Dwarf|~ 3": "Quest"
 				},
@@ -84374,6 +84393,7 @@
 				"BaseQuest": "The Fremennik Isles",
 				"Description": "Repair both bridges",
 				"Chunks": ["9276"],
+				"Items": ["Knife"],
 				"Tasks": {
 					"~|The Fremennik Isles|~ 7": "Quest"
 				},
@@ -84513,6 +84533,7 @@
 				"BaseQuest": "The Fremennik Trials",
 				"Description": "Put the cherry bomb in the pipe of the longhall",
 				"Chunks": ["10553"],
+				"Items": ["Tinderbox"],
 				"Tasks": {
 					"~|The Fremennik Trials|~ 2a3": "Quest"
 				},
@@ -84541,6 +84562,7 @@
 				"BaseQuest": "The Fremennik Trials",
 				"Description": "Chop a branch off the swaying tree and craft an unstrung lyre",
 				"Chunks": ["10808-1"],
+				"Items": ["Hatchet[+]"],
 				"Tasks": {
 					"~|The Fremennik Trials|~ 2b1": "Quest"
 				},
@@ -85141,7 +85163,7 @@
 				"BaseQuest": "Garden of Tranquility",
 				"Description": "Grow onions in the nearby allotment patch",
 				"Chunks": ["14391"],
-				"Items": ["Onion seed"],
+				"Items": ["Onion seed", "Seed dibber", "Rake"],
 				"Tasks": {
 					"~|Garden of Tranquility|~ 3a1": "Quest"
 				},
@@ -85151,7 +85173,7 @@
 				"BaseQuest": "Garden of Tranquility",
 				"Description": "Plant the orchid seeds",
 				"Chunks": ["12854"],
-				"Items": ["TranqGardenCompost[+]"],
+				"Items": ["TranqGardenCompost[+]", "Seed dibber", "Rake"],
 				"Tasks": {
 					"~|Garden of Tranquility|~ 3a2": "Quest"
 				},
@@ -85170,7 +85192,7 @@
 				"BaseQuest": "Garden of Tranquility",
 				"Description": "Grow cabbages in the nearby allotment patch",
 				"Chunks": ["10548"],
-				"Items": ["Cabbage seed"],
+				"Items": ["Cabbage seed", "Seed dibber", "Rake"],
 				"Tasks": {
 					"~|Garden of Tranquility|~ 3b1": "Quest"
 				},
@@ -85180,6 +85202,7 @@
 				"BaseQuest": "Garden of Tranquility",
 				"Description": "Plant the snowdrop seeds",
 				"Chunks": ["12854"],
+				"Items": ["Seed dibber", "Rake"],
 				"Tasks": {
 					"~|Garden of Tranquility|~ 3b2": "Quest"
 				},
@@ -85198,7 +85221,7 @@
 				"BaseQuest": "Garden of Tranquility",
 				"Description": "Grow marigold in the nearby flower patch",
 				"Chunks": ["12083-1"],
-				"Items": ["Marigold seed"],
+				"Items": ["Marigold seed", "Seed dibber", "Rake"],
 				"Tasks": {
 					"~|Garden of Tranquility|~ 3c1": "Quest"
 				},
@@ -85208,6 +85231,7 @@
 				"BaseQuest": "Garden of Tranquility",
 				"Description": "Plan the delphinium seeds",
 				"Chunks": ["12854"],
+				"Items": ["Seed dibber", "Rake"],
 				"Tasks": {
 					"~|Garden of Tranquility|~ 3c2": "Quest"
 				},
@@ -85226,7 +85250,7 @@
 				"BaseQuest": "Garden of Tranquility",
 				"Description": "Cut, plant and water a shoot of the white tree",
 				"Chunks": ["11830-3"],
-				"Items": ["Plant pot", "WateringCan[+]"],
+				"Items": ["Plant pot", "WateringCan[+]", "Secateurs"],
 				"Tasks": {
 					"~|Garden of Tranquility|~ 3d1": "Quest"
 				},
@@ -85236,6 +85260,7 @@
 				"BaseQuest": "Garden of Tranquility",
 				"Description": "Plant the white tree sapling",
 				"Chunks": ["12854"],
+				"Items": ["Seed dibber", "Rake", "Spade"],
 				"Tasks": {
 					"~|Garden of Tranquility|~ 3d2": "Quest"
 				},
@@ -85282,6 +85307,7 @@
 				"BaseQuest": "Garden of Tranquility",
 				"Description": "Plant the rose seeds",
 				"Chunks": ["12854"],
+				"Items": ["Seed dibber", "Rake"],
 				"Tasks": {
 					"~|Garden of Tranquility|~ 3e4": "Quest"
 				},
@@ -85327,7 +85353,7 @@
 			"~|Garden of Tranquility|~ 3f5": {
 				"BaseQuest": "Garden of Tranquility",
 				"Description": "Make a strengthened plant cure",
-				"Items": ["RuneEssence[+]", "Plant cure"],
+				"Items": ["RuneEssence[+]", "Plant cure", "Hammer", "Pestle and mortar"],
 				"Objects": ["Anvil[+]"],
 				"Tasks": {
 					"~|Garden of Tranquility|~ 3f4": "Quest"
@@ -85347,6 +85373,7 @@
 				"BaseQuest": "Garden of Tranquility",
 				"Description": "Plant the vine seeds",
 				"Chunks": ["12854"],
+				"Items": ["Seed dibber", "Rake"],
 				"Tasks": {
 					"~|Garden of Tranquility|~ 3f6": "Quest"
 				},
@@ -85631,7 +85658,7 @@
 			"~|Ghosts Ahoy|~ 5a1": {
 				"BaseQuest": "Ghosts Ahoy",
 				"Description": "Repair the model ship",
-				"Items": ["Thread", "Silk"],
+				"Items": ["Thread", "Silk", "Knife", "Needle"],
 				"Tasks": {
 					"~|Ghosts Ahoy|~ 4": "Quest"
 				},
@@ -85811,7 +85838,7 @@
 				"BaseQuest": "The Giant Dwarf",
 				"Description": "Fix the spinning machine",
 				"Chunks": ["Keldagrim"],
-				"Items": ["Coal", "Logs"],
+				"Items": ["Coal", "Logs", "Tinderbox"],
 				"Tasks": {
 					"~|The Giant Dwarf|~ 2": "Quest"
 				},
@@ -85950,6 +85977,7 @@
 				"BaseQuest": "Glorious Memories",
 				"Description": "Follow the directions to the Rellekka Hunter Area and inspect the footprints",
 				"Chunks": ["10811"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Glorious Memories|~ 5": "Quest"
 				},
@@ -86003,7 +86031,7 @@
 			"~|Glorious Memories|~ 12": {
 				"BaseQuest": "Glorious Memories",
 				"Description": "Brew the yeti curse cure",
-				"Items": ["Vial", "Clean irit", "Cosmic rune", "Earth rune[+]"],
+				"Items": ["Vial", "Clean irit", "Cosmic rune", "Earth rune[+]", "Pestle and mortar"],
 				"Tasks": {
 					"~|Glorious Memories|~ 11": "Quest"
 				},
@@ -86184,6 +86212,7 @@
 				"BaseQuest": "God Emissaries Skilling",
 				"Description": "Light bonfires (40 firemaking) or construct flags (40 crafting) in the Rimminton squire, Draynor marketplace, Varrock square and Ardougne marketplace",
 				"Chunks": ["10547-1", "11826", "12338-1", "12853-1"],
+				"Items": ["Tinderbox"],
 				"Tasks": {
 					"~|God Emissaries Skilling|~ 3": "Quest"
 				},				
@@ -86530,7 +86559,7 @@
 				"BaseQuest": "The Great Brain Robbery",
 				"Description": "Head to Harmony Island, and spy on the enemy. Report back to Brother Tranquility",
 				"Chunks": ["15148"],
-				"Items": ["Plank", "Nails[+]", "Fishbowl helmet", "Diving apparatus"],
+				"Items": ["Plank", "Nails[+]", "Fishbowl helmet", "Diving apparatus", "Hammer"],
 				"Tasks": {
 					"~|The Great Brain Robbery|~ 1": "Quest"
 				},
@@ -86578,7 +86607,7 @@
 				"BaseQuest": "The Great Brain Robbery",
 				"Description": "Build and fill the crate with wooden cats",
 				"Chunks": ["14135"],
-				"Items": ["Nails[+]", "Plank", "Oak plank", "Bear fur"],
+				"Items": ["Nails[+]", "Plank", "Oak plank", "Bear fur", "Hammer"],
 				"Tasks": {
 					"~|The Great Brain Robbery|~ 6": "Quest"
 				},
@@ -86686,7 +86715,7 @@
 				"BaseQuest": "Grim Tales",
 				"Description": "Plant the magic beans and kill Glod. Take the golden goblin to Sylas.",
 				"Chunks": ["11572-1"],
-				"Items": ["WateringCan[+]"],
+				"Items": ["WateringCan[+]", "Seed dibber"],
 				"Tasks": {
 					"~|Grim Tales|~ 2a2": "Quest",
 					"~|Grim Tales|~ 2b4": "Quest"
@@ -86698,6 +86727,7 @@
 				"BaseQuest": "Grim Tales",
 				"Description": "Shrink and cut down the beanstalk, then talk to Sylas.",
 				"Chunks": ["11572-1"],
+				"Items": ["Hatchet[+]"],
 				"Tasks": {
 					"~|Grim Tales|~ 3": "Quest"
 				},
@@ -86791,8 +86821,9 @@
 			},
 			"~|Gunnar's Ground|~ 2": {
 				"BaseQuest": "Gunnar's Ground",
-				"Description": "Get a gold ring from Jeffery in Edgeville",
+				"Description": "Get a gold ring from Jeffery in Edgeville and engrave it",
 				"Chunks": ["12342-1"],
+				"Items": ["Chisel"],
 				"Tasks": {
 					"~|Gunnar's Ground|~ 1": "Quest"
 				}
@@ -86964,6 +86995,7 @@
 				"BaseQuest": "Haunted Mine",
 				"Description": "Make your way through the abandoned mine and cut a salve shard.",
 				"Chunks": ["Abandoned Mine"],
+				"Items": ["Chisel"],
 				"Tasks": {
 					"~|Haunted Mine|~ 1": "Quest"
 				},
@@ -87341,6 +87373,7 @@
 				"BaseQuest": "Hearts of Sanguine",
 				"Description": "Return to Esther and figure out the right combination for an antisanguine potion",
 				"Chunks": ["16691-2"],
+				"Items": ["Pestle and mortar"],
 				"Tasks": {
 					"~|Hearts of Sanguine|~ 6a": "Quest",
 					"~|Hearts of Sanguine|~ 6b": "Quest",
@@ -87411,7 +87444,8 @@
 				"Tasks": {
 					"~|Hearts of Sanguine|~ 14": "Quest"
 				}
-			},"~|Hearts of Sanguine|~ Complete the quest": {
+			},
+			"~|Hearts of Sanguine|~ Complete the quest": {
 				"BaseQuest": "Hearts of Sanguine",
 				"Chunks": ["17203-1"],
 				"Tasks": {
@@ -87627,8 +87661,8 @@
 			"~|Heralds of Crimson|~ 3b3": {
 				"BaseQuest": "Heralds of Crimson",
 				"Description": "Smith a havensilver halberd and show it to Liat in Wendlewick, then report back to Zeke",
-				"Items": ["Maple logs", "Havensilver bar"],
-				"Objects": ["Forge[+]", "Anvil[+]", "Furnace[+]"],
+				"Items": ["Maple logs", "Havensilver bar", "Hammer"],
+				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Chunks": ["16692"],
 				"Tasks": {
 					"~|Heralds of Crimson|~ 3b2": "Quest"
@@ -87853,7 +87887,7 @@
 				"BaseQuest": "Hermit Permits",
 				"Description": "Craft a crab amulet and have the hermit enchant it into a crabulet",
 				"Chunks": ["Hermit Cave"],
-				"Items": ["Ball of wool"],
+				"Items": ["Ball of wool", "Chisel"],
 				"Tasks": {
 					"~|Hermit Permits|~ 4": "Quest"
 				},
@@ -88368,7 +88402,7 @@
 				"BaseQuest": "Horror from the Deep",
 				"Description": "Repair the bridge",
 				"Chunks": ["10296"],
-				"Items": ["Plank", "Steel nails"],
+				"Items": ["Plank", "Steel nails", "Hammer"],
 				"Tasks": {
 					"~|Horror from the Deep|~ 1": "Quest"
 				},
@@ -88388,7 +88422,7 @@
 				"BaseQuest": "Horror from the Deep",
 				"Description": "Repair the lighthouse and return to Larissa",
 				"Chunks": ["10040"],
-				"Items": ["Swamp tar", "Molten glass"],
+				"Items": ["Swamp tar", "Molten glass", "Tinderbox"],
 				"Tasks": {
 					"~|Horror from the Deep|~ 3": "Quest"
 				},
@@ -88530,7 +88564,7 @@
 				"BaseQuest": "Hunt for Red Raktuber",
 				"Description": "Bring the dwarves the materials for a penguin suit, then learn how to sabotage a submarine",
 				"Chunks": ["Penguin outpost"],
-				"Items": ["Plank", "Silk", "Thread"],
+				"Items": ["Plank", "Silk", "Thread", "Needle"],
 				"Tasks": {
 					"~|Hunt for Red Raktuber|~ 5": "Quest"
 				},
@@ -88590,6 +88624,7 @@
 				"BaseQuest": "The Hunt for Surok (miniquest)",
 				"Description": "Speak to Surok by the statue east of Varrock, then mine into the statue",
 				"Chunks": ["13110-1"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|What Lies Below|~ Complete the quest": "Quest"
 				},
@@ -88891,7 +88926,7 @@
 				"BaseQuest": "In Aid of the Myreque",
 				"Description": "Clear the pub cellar then talk to Razvan",
 				"Chunks": ["13874-2"],
-				"Items": ["Bucket"],
+				"Items": ["Bucket", "Pickaxe[+]"],
 				"Tasks": {
 					"~|In Aid of the Myreque|~ 2": "Quest"
 				},
@@ -88901,7 +88936,7 @@
 				"BaseQuest": "In Aid of the Myreque",
 				"Description": "Talk to Aurel and repair the shop",
 				"Chunks": ["13874-2"],
-				"Items": ["Plank", "Nails[+]"],
+				"Items": ["Plank", "Nails[+]", "Hammer"],
 				"Tasks": {
 					"~|In Aid of the Myreque|~ 3": "Quest"
 				},
@@ -88920,7 +88955,7 @@
 				"BaseQuest": "In Aid of the Myreque",
 				"Description": "Repair the bank then offer Cornelius the job. Talk to Razvan",
 				"Chunks": ["13874-2"],
-				"Items": ["Plank", "Swamp paste", "Nails[+]"],
+				"Items": ["Plank", "Swamp paste", "Nails[+]", "Hammer"],
 				"Tasks": {
 					"~|In Aid of the Myreque|~ 5": "Quest"
 				},
@@ -88930,7 +88965,7 @@
 				"BaseQuest": "In Aid of the Myreque",
 				"Description": "Repair the furnace",
 				"Chunks": ["14130-1"],
-				"Items": ["Steel bar", "Tinderbox", "Coal"],
+				"Items": ["Steel bar", "Tinderbox", "Coal", "Hammer", "Tinderbox"],
 				"Tasks": {
 					"~|In Aid of the Myreque|~ 6": "Quest"
 				},
@@ -88959,6 +88994,7 @@
 				"BaseQuest": "In Aid of the Myreque",
 				"Description": "Complete one of the treks with Ivan. Talk to Drezel and find Ivandis' grave location.",
 				"Chunks": ["13622-2", "Paterdomus"],
+				"Items": ["Hammer"],
 				"Tasks": {
 					"~|In Aid of the Myreque|~ 9": "Quest"
 				},
@@ -89186,6 +89222,7 @@
 				"BaseQuest": "In Pyre Need",
 				"Description": "Make your way through the Phoenix Lair and rebirth the Phoenix",
 				"Chunks": ["Phoenix Lair"],
+				"Items": ["Secateurs", "Knife", "Tinderbox"],
 				"Tasks": {
 					"~|In Pyre Need|~ 1": "Quest"
 				},
@@ -89252,7 +89289,7 @@
 				"BaseQuest": "In Search of the Myreque",
 				"Description": "Climb the tree, repair the bridge, and talk to Curpile Fyod",
 				"Chunks": ["13877-3"],
-				"Items": ["Plank", "Steel nails"],
+				"Items": ["Plank", "Steel nails", "Hammer"],
 				"Tasks": {
 					"~|In Search of the Myreque|~ 3": "Quest"
 				},
@@ -89586,8 +89623,9 @@
 			},
 			"~|Kennith's Concerns|~ 6": {
 				"BaseQuest": "Kennith's Concerns",
-				"Description": "Go to the Witchaven dungeon with Ezekiel and talk to Kimberly's parents",
+				"Description": "Make your way through the Witchaven dungeon with Ezekiel and talk to Kimberly's parents",
 				"Chunks": ["Witchaven Dungeon"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Kennith's Concerns|~ 5": "Quest"
 				},
@@ -89938,6 +89976,7 @@
 				"BaseQuest": "King of the Dwarves",
 				"Description": "Enter the Lava Flow Mine and rescue the miners",
 				"Chunks": ["Lava Flow Mine"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|King of the Dwarves|~ 1": "Quest"
 				},
@@ -90163,6 +90202,7 @@
 				"BaseQuest": "The Knight's Sword",
 				"Description": "Mine some blurite ore",
 				"Chunks": ["Asgarnian Ice Dungeon"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|The Knight's Sword|~ 5": "Quest"
 				}
@@ -90333,7 +90373,7 @@
 				"BaseQuest": "Land of the Goblins",
 				"Description": "Catch a whitefish",
 				"Chunks": ["10549"],
-				"Items": ["Slimy eel"],
+				"Items": ["Slimy eel", "Fishing rod"],
 				"Tasks": {
 					"~|Land of the Goblins|~ 6": "Quest"
 				},
@@ -90530,7 +90570,7 @@
 				"BaseQuest": "Legacy of Seergaze",
 				"Description": "Clear and repair the furnace in Meiyerditch",
 				"Chunks": ["14387-1"],
-				"Items": ["Coal"],
+				"Items": ["Coal", "Tinderbox"],
 				"Tasks": {
 					"~|Legacy of Seergaze|~ 8": "Quest"
 				},
@@ -90587,7 +90627,7 @@
 			"~|Legacy of Seergaze|~ 15": {
 				"BaseQuest": "Legacy of Seergaze",
 				"Description": "Make an Ivandis flail and return to Safalaan",
-				"Items": ["Air rune[+]", "Cosmic rune"],
+				"Items": ["Air rune[+]", "Cosmic rune", "Chisel"],
 				"Chunks": ["Meiyerditch Myreque base"],
 				"Tasks": {
 					"~|Legacy of Seergaze|~ 14": "Quest"
@@ -90617,7 +90657,7 @@
 				"BaseQuest": "Legacy of Seergaze",
 				"Description": "Cremate the vyre corpse and acquire the blood talisman",
 				"Chunks": ["Columbarium"],
-				"Items": ["VyrePyreLogs[+]"],
+				"Items": ["VyrePyreLogs[+]", "Tinderbox"],
 				"Tasks": {
 					"~|Legacy of Seergaze|~ 17": "Quest"
 				},
@@ -90670,7 +90710,7 @@
 				"BaseQuest": "Legends' Quest",
 				"Description": "Map the Kharazi Jungle",
 				"Chunks": ["11053-1", "11309-1", "11565-1"],
-				"Items": ["Charcoal", "Papyrus"],
+				"Items": ["Charcoal", "Papyrus", "Machete", "Hatchet[+]"],
 				"Tasks": {
 					"~|Legends' Quest|~ 1": "Quest"
 				},
@@ -90717,7 +90757,7 @@
 				"BaseQuest": "Legends' Quest",
 				"Description": "Obtain the binding book",
 				"Chunks": ["Viyeldi Caves"],
-				"Items": ["Lockpick", "Soul rune", "Mind rune", "Earth rune", "Law rune", "Sapphire", "Emerald", "Ruby", "Diamond", "Red topaz", "Jade", "Opal"],
+				"Items": ["Lockpick", "Soul rune", "Mind rune", "Earth rune", "Law rune", "Sapphire", "Emerald", "Ruby", "Diamond", "Red topaz", "Jade", "Opal", "Pickaxe[+]"],
 				"Tasks": {
 					"~|Legends' Quest|~ 6": "Quest"
 				},
@@ -90736,7 +90776,7 @@
 			"~|Legends' Quest|~ 9": {
 				"BaseQuest": "Legends' Quest",
 				"Description": "Create a gold bowl",
-				"Items": ["Gold bar"],
+				"Items": ["Gold bar", "Hammer"],
 				"Objects": ["Anvil[+]"],
 				"Tasks": {
 					"~|Legends' Quest|~ 8": "Quest"
@@ -90773,7 +90813,7 @@
 			"~|Legends' Quest|~ 13": {
 				"BaseQuest": "Legends' Quest",
 				"Description": "Create and drink the bravery potion",
-				"Items": ["Grimy ardrigal", "Clean snake weed", "Vial of water"],
+				"Items": ["Grimy ardrigal", "Grimy snake weed", "Vial of water"],
 				"Tasks": {
 					"~|Legends' Quest|~ 12": "Quest"
 				},
@@ -91214,6 +91254,7 @@
 				"BaseQuest": "Lost City",
 				"Description": "Obtain a dramen staff",
 				"Chunks": ["Entrana Dungeon"],
+				"Items": ["Hatchet[+]", "Knife"],
 				"Tasks": {
 					"~|Lost City|~ 2": "Quest"
 				},
@@ -91428,6 +91469,7 @@
 				"BaseQuest": "The Lost Tribe",
 				"Description": "Break through the hole in the wall",
 				"Chunks": ["Lumbridge Cellar"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|The Lost Tribe|~ 1": "Quest"
 				},
@@ -91556,6 +91598,7 @@
 				"BaseQuest": "Love Story",
 				"Description": "Speak to the Wise Old Man at the Rimmington house portal, then speak to him in Hengel and Anja's house and chip the teletab",
 				"Chunks": ["11826"],
+				"Items": ["Chisel"],
 				"Tasks": {
 					"~|Love Story|~ 2": "Quest"
 				},
@@ -91648,6 +91691,7 @@
 				"BaseQuest": "Lunar Diplomacy",
 				"Description": "Talk to Captain Bentley, then various crewmembers",
 				"Chunks": ["8763"],
+				"Items": ["Tinderbox", "Bullseye lantern (oil)"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ 3": "Quest"
 				},
@@ -91703,7 +91747,7 @@
 				"BaseQuest": "Lunar Diplomacy",
 				"Description": "Create the Waking Sleep potion and give it to the Oneiromancer",
 				"Chunks": ["8508"],
-				"Items": ["Clean guam", "Clean marrentill", "Suqah tooth"],
+				"Items": ["Clean guam", "Clean marrentill", "Suqah tooth", "Pestle and mortar"],
 				"Objects": ["WaterSource[+]"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ 9": "Quest"
@@ -91724,6 +91768,7 @@
 				"BaseQuest": "Lunar Diplomacy",
 				"Description": "Use the dramen staff on the Fire Altar",
 				"Chunks": ["Fire Rune Temple"],
+				"Items": ["Dramen staff"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ 11": "Quest"
 				},
@@ -91733,6 +91778,7 @@
 				"BaseQuest": "Lunar Diplomacy",
 				"Description": "Use the dramen staff on the Water Altar",
 				"Chunks": ["Water Rune Temple"],
+				"Items": ["Dramen staff"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ 12": "Quest"
 				},
@@ -91742,6 +91788,7 @@
 				"BaseQuest": "Lunar Diplomacy",
 				"Description": "Use the dramen staff on the Earth Altar",
 				"Chunks": ["Earth Rune Temple"],
+				"Items": ["Dramen staff"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ 13": "Quest"
 				},
@@ -91760,6 +91807,7 @@
 				"BaseQuest": "Lunar Diplomacy",
 				"Description": "Mine a piece of lunar ore",
 				"Chunks": ["Lunar Isle Mine"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ 15": "Quest"
 				},
@@ -91778,6 +91826,7 @@
 				"BaseQuest": "Lunar Diplomacy",
 				"Description": "Smith a lunar helm",
 				"Objects": ["Anvil[+]"],
+				"Items": ["Hammer"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ 16a2": "Quest"
 				},
@@ -91823,7 +91872,7 @@
 				"BaseQuest": "Lunar Diplomacy",
 				"Description": "Speak to Rimae Sirsalis, tan the hides, and craft the Lunar armour",
 				"Chunks": ["8253-2"],
-				"Items": ["Suqah hide", "Thread"],
+				"Items": ["Suqah hide", "Thread", "Needle"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ 15": "Quest"
 				},
@@ -91866,6 +91915,7 @@
 				"BaseQuest": "Lunar Diplomacy",
 				"Description": "Enter the Dream World and complete the tasks",
 				"Chunks": ["8253-2"],
+				"Items": ["Tinderbox"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ 17": "Quest"
 				},
@@ -91915,7 +91965,7 @@
 			"~|The Lute of Love|~ 3": {
 				"BaseQuest": "The Lute of Love",
 				"Description": "Fletch the lute",
-				"Items": ["Yew logs", "Maple logs"],
+				"Items": ["Yew logs", "Maple logs", "Knife"],
 				"Tasks": {
 					"~|The Lute of Love|~ 2": "Quest"
 				},
@@ -102860,7 +102910,6 @@
 					"Construction": 250
 				}
 			},
-			
 			"~|Thok It To 'Em (abridged saga)|~ 1": {
 				"BaseQuest": "Thok It To 'Em (abridged saga)",
 				"Description": "After finding the scribbled notes in Daemonheim, speak to Skaldrun",
@@ -162784,10 +162833,10 @@
 				"Items": ["Tellervo's lantern"],
 				"Not F2P": true
 			},
-			"Obtain a ~|shaman's headdres|~": {
+			"Obtain a ~|shaman's headdress|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Shaman's headdres"],
+				"Items": ["Shaman's headdress"],
 				"Not F2P": true
 			},
 			"Obtain a ~|shaman's poncho|~": {
@@ -162814,10 +162863,10 @@
 				"Items": ["Shaman's moccasins"],
 				"Not F2P": true
 			},
-			"Obtain a ~|shaman's headdres add-on|~": {
+			"Obtain a ~|shaman's headdress add-on|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Shaman's headdres add-on"],
+				"Items": ["Shaman's headdress add-on"],
 				"Not F2P": true
 			},
 			"Obtain a ~|diviner's headwear|~": {
@@ -167329,12 +167378,20 @@
 				"Items": ["Volatile tool"],
 				"Output": "Volatile clay butterfly net"
 			},
-			"Pick lavender*": {
-				"Objects": ["Lavender"],
-				"Output": "Lavender"
+			"Light smouldering lavender*": {
+				"Items": ["Lavender", "Tinderbox"],
+				"Output": "Smouldering lavender"
+			},
+			"Light smouldering tansymum*": {
+				"Items": ["Tansymum", "Tinderbox"],
+				"Output": "Smouldering tansymum"
+			},
+			"Light smouldering fever grass*": {
+				"Items": ["Fever grass*", "Tinderbox"],
+				"Output": "Smouldering fever grass"
 			},
 			"Light smouldering lavender*": {
-				"Items": ["Lavender"],
+				"Items": ["Lavender*", "Tinderbox"],
 				"Output": "Smouldering lavender"
 			},
 			"Open an eclectic impling*": {
@@ -167443,7 +167500,7 @@
 				"Output": "Black mushroom"
 			},
 			"Craft black mushroom ink*": {
-				"Items": ["Black mushroom"],
+				"Items": ["Black mushroom", "Pestle and mortar"],
 				"Output": "Black mushroom ink"
 			},
 			"Get the Seal of the Praefecus Praetorio from Soran*": {
@@ -168279,6 +168336,7 @@
 			},
 			"Dig up a red vine worm*": {
 				"Chunks": ["10550"],
+				"Items": ["Spade"],
 				"Output": "Red vine worm"
 			},
 			"Pick nettles*": {
@@ -229477,11 +229535,11 @@
 				"Boulder": 1,
 				"Crystal formation": 1,
 				"Bush": 1,
-				"Crate": 2
+				"Crate": 2,
+				"Floating crystals": 2
 			},
 			"NPC": {
 				"Tarddiad Firefly": 95,
-				"Floating crystals": 2,
 				"Angof": 1
 			},
 			"Connect": {

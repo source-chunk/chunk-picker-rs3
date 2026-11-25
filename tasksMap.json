@@ -7606,6 +7606,7 @@
   "~|The Brink of Extinction|~ 4": "t_7349",
   "~|The Brink of Extinction|~ 5": "t_7350",
   "~|The Brink of Extinction|~ 6": "t_7351",
+  "~|The Brink of Extinction|~ 7": "t_123683",
   "~|The Brink of Extinction|~ Complete the quest": "t_7352",
   "~|Broken Home|~ 1": "t_7353",
   "~|Broken Home|~ 2": "t_7354",
@@ -16882,12 +16883,12 @@
   "Obtain a ~|butterfly net|~": "t_14873",
   "Obtain the ~|hunter's Catalyst fragment|~": "t_14874",
   "Obtain ~|Tellervo's lantern|~": "t_118618",
-  "Obtain a ~|shaman's headdres|~": "t_14875",
+  "Obtain a ~|shaman's headdress|~": "t_14875",
   "Obtain a ~|shaman's poncho|~": "t_14876",
   "Obtain a ~|shaman's leggings|~": "t_14877",
   "Obtain a ~|shaman's hand wraps|~": "t_14878",
   "Obtain a ~|shaman's moccasins|~": "t_14879",
-  "Obtain a ~|shaman's headdres add-on|~": "t_14880",
+  "Obtain a ~|shaman's headdress add-on|~": "t_14880",
   "Obtain a ~|diviner's headwear|~": "t_14881",
   "Obtain a ~|diviner's robe|~": "t_14882",
   "Obtain a ~|diviner's legwear|~": "t_14883",
@@ -90469,5 +90470,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 123683
+  "currentNextIndex": 123684
 }
