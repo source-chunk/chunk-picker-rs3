@@ -92325,6 +92325,7 @@
 				"BaseQuest": "Maya Use Your Fish Farm?",
 				"Description": "Empty the lobster pool",
 				"Chunks": ["16179-1"],
+				"Items": ["Lobster pot"],
 				"Tasks": {
 					"~|Maya Use Your Fish Farm?|~ 4": "Quest"
 				},
@@ -92472,7 +92473,7 @@
 				"BaseQuest": "Merlin's Crystal",
 				"Description": "Summon Thrantax and free Merlin",
 				"Chunks": ["11062-1"],
-				"Items": ["Bat bones"],
+				"Items": ["Bat bones", "Tinderbox"],
 				"Tasks": {
 					"~|Merlin's Crystal|~ 4a": "Quest",
 					"~|Merlin's Crystal|~ 4b2": "Quest",
@@ -92618,6 +92619,7 @@
 				"BaseQuest": "Missing My Mummy",
 				"Description": "Place the canopic jars and the mummy in the tomb. Pray at the broken statues. Repair the chair and table near the sarcophagus. Kill the shadow in the east room.",
 				"Chunks": ["Uzer Mastaba"],
+				"Items": ["Hammer", "Saw"],
 				"Tasks": {
 					"~|Missing My Mummy|~ 4": "Quest"
 				},
@@ -92657,6 +92659,7 @@
 				"BaseQuest": "Missing My Mummy",
 				"Description": "Carve an ushabti out of the willow log",
 				"Chunks": ["Uzer Mastaba"],
+				"Items": ["Knife"],
 				"Tasks": {
 					"~|Missing My Mummy|~ 5d1": "Quest"
 				},
@@ -92724,6 +92727,7 @@
 				"BaseQuest": "Missing My Mummy",
 				"Description": "Give Ali Morrisane any sq'irkjuice",
 				"Chunks": ["13106-1", "Sorceress' Garden"],
+				"Items": ["Beer glass", "Pestle and mortar"],
 				"Tasks": {
 					"~|Missing My Mummy|~ 5f1": "Quest"
 				},
@@ -93267,6 +93271,7 @@
 				"BaseQuest": "Mountain Daughter",
 				"Description": "Mine a piece off the ancient rock",
 				"Chunks": ["11065-1"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Mountain Daughter|~ 3a3": "Quest"
 				},
@@ -93321,7 +93326,7 @@
 				"BaseQuest": "Mountain Daughter",
 				"Description": "Defeat the Kendal",
 				"Chunks": ["Mountain camp cave"],
-				"Items": ["Plank"],
+				"Items": ["Plank", "Hatchet[+]"],
 				"Tasks": {
 					"~|Mountain Daughter|~ 3a6": "Quest",
 					"~|Mountain Daughter|~ 3b3": "Quest"
@@ -93691,7 +93696,7 @@
 				"BaseQuest": "Murder on the Border",
 				"Description": "Build the kitchen",
 				"Chunks": ["13111"],
-				"Items": ["Willow frame", "Stone wall segment"],
+				"Items": ["Willow frame", "Stone wall segment", "Hammer", "Saw"],
 				"Tasks": {
 					"~|Murder on the Border|~ 1": "Quest"
 				},
@@ -93760,7 +93765,7 @@
 				"BaseQuest": "My Arm's Big Adventure",
 				"Description": "Obtain ugthanki dung",
 				"Chunks": ["13358-1"],
-				"Items": ["Bucket"],
+				"Items": ["Bucket", "Spade"],
 				"Tasks": {
 					"~|My Arm's Big Adventure|~ 3": "Quest"
 				},
@@ -94109,7 +94114,7 @@
 				"BaseQuest": "New Foundations",
 				"Description": "Build up the workshop",
 				"Chunks": ["13111"],
-				"Items": ["Wooden frame", "Stone wall segment"],
+				"Items": ["Wooden frame", "Stone wall segment", "Hammer", "Saw"],
 				"Tasks": {
 					"~|New Foundations|~ 2": "Quest"
 				},
@@ -94155,7 +94160,7 @@
 				"BaseQuest": "New Foundations",
 				"Description": "Build the walls and both gates",
 				"Chunks": ["13111", "13367-2"],
-				"Items": ["Plank", "Stone wall segment"],
+				"Items": ["Wooden frame", "Stone wall segment", "Hammer", "Saw"],
 				"Tasks": {
 					"~|New Foundations|~ 7": "Quest"
 				},
@@ -94201,10 +94206,29 @@
 			},
 			"~|Nomad's Elegy|~ 3": {
 				"BaseQuest": "Nomad's Elegy",
-				"Description": "Speak to Death, enter the Underworld and defeat Nomad several times. Good luck.",
+				"Description": "Speak to Death, enter the Underworld and recruit your passed friends.",
 				"Chunks": ["Death's Office"],
 				"Tasks": {
 					"~|Nomad's Elegy|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Nomad's Elegy|~ 4": {
+				"BaseQuest": "Nomad's Elegy",
+				"Description": "Build the battering ram.",
+				"Chunks": ["Death's Office"],
+				"Items": ["Pickaxe[+]", "Hatchet[+]", "Hammer"],
+				"Tasks": {
+					"~|Nomad's Elegy|~ 3": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Nomad's Elegy|~ 5": {
+				"BaseQuest": "Nomad's Elegy",
+				"Description": "Complete the siege and defeat Nomad several times. Good luck.",
+				"Chunks": ["Death's Office"],
+				"Tasks": {
+					"~|Nomad's Elegy|~ 4": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -94212,7 +94236,7 @@
 				"BaseQuest": "Nomad's Elegy",
 				"Chunks": ["Death's Office"],
 				"Tasks": {
-					"~|Nomad's Elegy|~ 3": "Quest"
+					"~|Nomad's Elegy|~ 5": "Quest"
 				},
 				"QuestPoints": 1,
 				"XpReward": {
@@ -94244,7 +94268,7 @@
 				"BaseQuest": "Nomad's Requiem",
 				"Description": "Investigate Nomad's tent, make your way to the Soul Obelisk and defeat Nomad",
 				"Chunks": ["Nomad's temple"],
-				"Items": ["Fire rune[+]", "Air rune[+]"],
+				"Items": ["Fire rune[+]", "Air rune[+]", "Pickaxe[+]"],
 				"Tasks": {
 					"~|Nomad's Requiem|~ 1": "Quest"
 				},
@@ -94404,6 +94428,7 @@
 				"BaseQuest": "Ode of the Devourer",
 				"Description": "Return to the Sanctum of Rebirth, cleanse the Gate of Elidinis and face the Devourer",
 				"Chunks": ["City of Um"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Ode of the Devourer|~ 5a2": "Quest",
 					"~|Ode of the Devourer|~ 5b": "Quest"
@@ -94453,6 +94478,7 @@
 				"BaseQuest": "Olaf's Quest",
 				"Description": "Chop down the windswept tree",
 				"Chunks": ["10810-1"],
+				"Items": ["Hatchet[+]"],
 				"Tasks": {
 					"~|Olaf's Quest|~ 1": "Quest"
 				},
@@ -94471,6 +94497,7 @@
 				"BaseQuest": "Olaf's Quest",
 				"Description": "Talk to Olaf and light his fire",
 				"Chunks": ["10810-1"],
+				"Items": ["Tinderbox"],
 				"Tasks": {
 					"~|Olaf's Quest|~ 3": "Quest"
 				},
@@ -94479,6 +94506,7 @@
 			"~|Olaf's Quest|~ 5": {
 				"BaseQuest": "Olaf's Quest",
 				"Description": "Obtain the treasure from the cave",
+				"Items": ["Spade"],
 				"Chunks": ["Brine Rat Cavern"],
 				"Tasks": {
 					"~|Olaf's Quest|~ 4": "Quest"
@@ -94803,6 +94831,7 @@
 				"BaseQuest": "One Foot in the Grave (miniquest)",
 				"Description": "Gather the other body parts belonging to Clarence's corpse from monsters in the jade vine maze",
 				"Chunks": ["11566-1"],
+				"Items": ["Machete"],
 				"Tasks": {
 					"~|One Foot in the Grave (miniquest)|~ 1": "Quest"
 				},
@@ -95123,7 +95152,7 @@
 				"BaseQuest": "One Small Favour",
 				"Description": "Repair the weather vane for the weather report",
 				"Chunks": ["10806-1"],
-				"Items": ["Bronze bar", "Iron bar", "Steel bar"],
+				"Items": ["Bronze bar", "Iron bar", "Steel bar", "Hammer"],
 				"Tasks": {
 					"~|One Small Favour|~ 26": "Quest"
 				},
@@ -95651,7 +95680,7 @@
 				"BaseQuest": "Perils of Ice Mountain",
 				"Description": "Repair the Oracle's tent, then speak to her",
 				"Chunks": ["12086"],
-				"Items": ["Plank[+]", "Nails[+]"],
+				"Items": ["Plank[+]", "Nails[+]", "Hammer"],
 				"Tasks": {
 					"~|Perils of Ice Mountain|~ 5": "Quest"
 				}
@@ -95708,6 +95737,7 @@
 				"BaseQuest": "Pharaoh's Folly",
 				"Description": "Escape the Shifting Tombs and talk to Ozan",
 				"Chunks": ["Shifting Tombs"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Pharaoh's Folly|~ 2": "Quest"
 				},
@@ -96099,7 +96129,7 @@
 				"BaseQuest": "Plague City",
 				"Description": "Enter the sewer",
 				"Chunks": ["10292"],
-				"Items": ["Bucket of water"],
+				"Items": ["Bucket of water", "Spade"],
 				"Tasks": {
 					"~|Plague City|~ 2": "Quest"
 				},
@@ -96339,7 +96369,7 @@
 				"BaseQuest": "Plague's End",
 				"Description": "Build the statue hotspot, climb upstairs and speak to Kelyn",
 				"Chunks": ["9265-1"],
-				"Items": ["Magic logs"],
+				"Items": ["Magic logs", "Hammer", "Saw"],
 				"Tasks": {
 					"~|Plague's End|~ 12a1": "Quest"
 				},
@@ -96349,6 +96379,7 @@
 				"BaseQuest": "Plague's End",
 				"Description": "Travel to the Well of Voyage, mine the cracked wall and kill the automatons",
 				"Chunks": ["Underground Pass"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Plague's End|~ 11": "Quest"
 				},
@@ -96358,7 +96389,7 @@
 				"BaseQuest": "Plague's End",
 				"Description": "Wake Lady Trahaearn",
 				"Chunks": ["Underground Pass"],
-				"Items": ["Rune bar"],
+				"Items": ["Rune bar", "Hammer"],
 				"Tasks": {
 					"~|Plague's End|~ 12b1": "Quest"
 				},
@@ -96378,7 +96409,7 @@
 				"BaseQuest": "Plague's End",
 				"Description": "Inspect the tree inside the dense forest, cut it down, then cure it",
 				"Chunks": ["8753-2"],
-				"Items": ["Plant cure"],
+				"Items": ["Plant cure", "Hatchet[+]"],
 				"Tasks": {
 					"~|Plague's End|~ 11": "Quest"
 				},
@@ -96496,6 +96527,7 @@
 			"~|Player-owned farm tutorial|~ Complete the tutorial": {
 				"BaseQuest": "Player-owned farm tutorial",
 				"Chunks": ["10548"],
+				"Items": ["Hammer", "Saw"],
 				"Skills": {
 					"Construction": 20,
 					"Farming": 17
@@ -96638,7 +96670,7 @@
 				"BaseQuest": "Princess and the Pauper",
 				"Description": "Return to Rodney, then build a dog house.",
 				"Chunks": ["13111"],
-				"Items": ["Wooden frame", "Plank", "Steel nails", "Bolt of cloth", "Wool"],
+				"Items": ["Wooden frame", "Plank", "Steel nails", "Bolt of cloth", "Wool", "Hammer", "Saw"],
 				"Tasks": {
 					"~|Princess and the Pauper|~ 7": "Quest"
 				}
@@ -97398,7 +97430,7 @@
 				"BaseQuest": "Rat Catchers",
 				"Description": "Talk to Smokin' Joe",
 				"Chunks": ["Keldagrim"],
-				"Items": ["Cat", "Catspeak amulet", "Empty pot", "Weeds"],
+				"Items": ["Cat", "Catspeak amulet", "Empty pot", "Weeds", "Tinderbox"],
 				"Tasks": {
 					"~|Rat Catchers|~ 10": "Quest"
 				},
@@ -97700,7 +97732,7 @@
 				"BaseQuest": "Recipe for Disaster: Freeing the Goblin Generals",
 				"Description": "Talk to Mudknuckles",
 				"Chunks": ["11830-1"],
-				"Items": ["Orange", "SlopDye[+]", "Spice[+]", "Fishing bait", "Bread", "Bucket of water", "Charcoal"],
+				"Items": ["Orange", "Knife", "SlopDye[+]", "Spice[+]", "Fishing bait", "Bread", "Bucket of water", "Charcoal"],
 				"Tasks": {
 					"~|Recipe for Disaster: Freeing the Goblin Generals|~ 1": "Quest"
 				},
@@ -97784,7 +97816,7 @@
 			"~|Recipe for Disaster: Freeing Pirate Pete|~ 6": {
 				"BaseQuest": "Recipe for Disaster: Freeing Pirate Pete",
 				"Description": "Bake the fishcake",
-				"Items": ["Raw cod", "Bread"],
+				"Items": ["Raw cod", "Bread", "Pestle and mortar", "Knife"],
 				"Objects": ["Cooking range[+]"],
 				"Tasks": {
 					"~|Recipe for Disaster: Freeing Pirate Pete|~ 5": "Quest"
@@ -97983,7 +98015,7 @@
 				"BaseQuest": "Recipe for Disaster: Freeing King Awowogei",
 				"Description": "Stuff and cook the snake",
 				"Chunks": ["Temple of Marimbo Dungeon"],
-				"Items": ["Zombie monkey greegree"],
+				"Items": ["Zombie monkey greegree", "Knife", "Pestle and mortar"],
 				"Tasks": {
 					"~|Recipe for Disaster: Freeing King Awowogei|~ 5": "Quest"
 				},
@@ -98080,6 +98112,7 @@
 			"~|Recipe for Disaster: Freeing Sir Amik Varze|~ 8": {
 				"BaseQuest": "Recipe for Disaster: Freeing Sir Amik Varze",
 				"Description": "Grind the branch into cinnamon",
+				"Items": ["Pestle and mortar"],
 				"Tasks": {
 					"~|Recipe for Disaster: Freeing Sir Amik Varze|~ 7": "Quest"
 				},
@@ -98136,6 +98169,7 @@
 				"BaseQuest": "Recipe for Disaster: Freeing Skrach Uglogwee",
 				"Description": "Talk to Rantz and make a boat",
 				"Chunks": ["10542"],
+				"Items": ["Hatchet[+]"],
 				"Tasks": {
 					"~|Recipe for Disaster: Freeing Skrach Uglogwee|~ 1": "Quest"
 				},
@@ -98145,7 +98179,7 @@
 				"BaseQuest": "Recipe for Disaster: Freeing Skrach Uglogwee",
 				"Description": "Cook a chompy on Karamja",
 				"Chunks": ["11056"],
-				"Items": ["Logs", "Iron spit", "Raw chompy"],
+				"Items": ["Logs", "Iron spit", "Raw chompy", "Tinderbox"],
 				"Tasks": {
 					"~|Recipe for Disaster: Freeing Skrach Uglogwee|~ 2": "Quest"
 				},
@@ -98391,7 +98425,7 @@
 			"~|Regicide|~ 14": {
 				"BaseQuest": "Regicide",
 				"Description": "Create the barrel bomb",
-				"Items": ["Limestone", "Empty pot", "Strip of cloth"],
+				"Items": ["Limestone", "Empty pot", "Strip of cloth", "Pestle and mortar"],
 				"Objects": ["Furnace[+]"],
 				"Tasks": {
 					"~|Regicide|~ 13": "Quest"
@@ -98412,6 +98446,7 @@
 				"BaseQuest": "Regicide",
 				"Description": "Light and fire the bomb",
 				"Chunks": ["8753-2"],
+				"Items": ["Tinderbox"],
 				"Tasks": {
 					"~|Regicide|~ 15": "Quest"
 				},
@@ -98922,9 +98957,9 @@
 			},
 			"~|River of Blood|~ 10": {
 				"BaseQuest": "River of Blood",
-				"Description": "Brew a super Guthix balance potion, speak to Ivan and pour it into the Salve well",
+				"Description": "Burn a blisterwood log and use its ashes to brew a super Guthix balance potion. Then speak to Ivan and pour the potion into the Salve well",
 				"Chunks": ["Paterdomus"],
-				"Items": ["Blisterwood logs"],
+				"Items": ["Blisterwood logs", "Tinderbox"],
 				"Tasks": {
 					"~|River of Blood|~ 9": "Quest"
 				},
@@ -98951,7 +98986,7 @@
 			"~|River of Blood|~ 13": {
 				"BaseQuest": "River of Blood",
 				"Description": "Reforge the Sunspear",
-				"Items": ["Wolfbane", "Blisterwood logs", "Sunspear"],
+				"Items": ["Wolfbane", "Blisterwood logs", "Sunspear", "Knife"],
 				"Tasks": {
 					"~|River of Blood|~ 12": "Quest"
 				},
@@ -98970,6 +99005,7 @@
 			"~|River of Blood|~ 15": {
 				"BaseQuest": "River of Blood",
 				"Description": "Gather refined daeyalt, then inspect the rejuvination tank and go proceed through the hallucination and cure Safalaan",
+				"Items": ["Pickaxe[+]"],
 				"Chunks": ["Meiyerditch Mine"],
 				"Tasks": {
 					"~|River of Blood|~ 14": "Quest"
@@ -99280,7 +99316,7 @@
 				"BaseQuest": "Roving Elves",
 				"Description": "Bury the seed next to the Chalice of Eternity",
 				"Chunks": ["Waterfall cave"],
-				"Items": ["Rope"],
+				"Items": ["Rope", "Spade"],
 				"Tasks": {
 					"~|Roving Elves|~ 3": "Quest"
 				},
@@ -99549,14 +99585,25 @@
 				"BaseQuest": "Rum Deal",
 				"Description": "Brew ‘rum' for Captain Braindeath",
 				"Chunks": ["Braindeath Island"],
+				"Items": ["Rake", "Seed dibber"],
 				"Tasks": {
 					"~|Rum Deal|~ 1": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|Rum Deal|~ Complete the quest": {
+			"~|Rum Deal|~ 3": {
+				"BaseQuest": "Rum Deal",
+				"Description": "Enhance the 'rum' with a tinge of fever spider and finish the quest",
+				"Chunks": ["Braindeath Island"],
+				"Items": ["Slayer gloves"],
 				"Tasks": {
 					"~|Rum Deal|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Rum Deal|~ Complete the quest": {
+				"Tasks": {
+					"~|Rum Deal|~ 3": "Quest"
 				},
 				"QuestPoints": 2,
 				"XpReward": {
@@ -99830,6 +99877,7 @@
 				"BaseQuest": "Salt in the Wound",
 				"Description": "Speak to Kennith on the Fishing Platform, find a way into the Slug Citadel and defeat Mother Mallum",
 				"Chunks": ["11059-1"],
+				"Items": ["Pestle and mortar"],
 				"Tasks": {
 					"~|Salt in the Wound|~ 1": "Quest"
 				},
@@ -100040,6 +100088,7 @@
 				"BaseQuest": "Secrets of Amberfell",
 				"Description": "Repair the bridge to Amberfell",
 				"Chunks": ["17204"],
+				"Items": ["Hammer", "Saw"],
 				"Tasks": {
 					"~|Secrets of Amberfell|~ 4": "Quest"
 				},
@@ -100248,7 +100297,7 @@
 				"BaseQuest": "Shades of Mort'ton",
 				"Description": "Burn a shade and talk to Ulsquire",
 				"Chunks": ["13875-1"],
-				"Items": ["Serum 207 (3)", "Olive oil (3)", "Limestone brick", "Timber beam", "Swamp paste", "Logs"],
+				"Items": ["Serum 207 (3)", "Olive oil (3)", "Limestone brick", "Timber beam", "Swamp paste", "Logs", "Hammer", "Tinderbox"],
 				"Tasks": {
 					"~|Shades of Mort'ton|~ 3": "Quest"
 				},
@@ -100634,7 +100683,7 @@
 			"~|A Sliver of Silver Helps the Sanguine Go Down|~ 4": {
 				"BaseQuest": "A Sliver of Silver Helps the Sanguine Go Down",
 				"Description": "Smith a havensilver longsword and a havensilver off-hand longsword",
-				"Items": ["Havensilver bar"],
+				"Items": ["Havensilver bar", "Hammer"],
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Tasks": {
 					"~|A Sliver of Silver Helps the Sanguine Go Down|~ 3": "Quest"
@@ -100856,7 +100905,7 @@
 			"~|The Slug Menace|~ 7": {
 				"BaseQuest": "The Slug Menace",
 				"Description": "Craft the rune shapes",
-				"Items": ["RuneEssence[+]"],
+				"Items": ["RuneEssence[+]", "Chisel"],
 				"Tasks": {
 					"~|The Slug Menace|~ 6": "Quest"
 				},
@@ -101309,7 +101358,7 @@
 				"BaseQuest": "Spirits of the Elid",
 				"Description": "Repair the torn robes and obtain the ancestral key",
 				"Chunks": ["13613"],
-				"Items": ["Thread", "Air rune[+]", "Law rune"],
+				"Items": ["Thread", "Air rune[+]", "Law rune", "Needle"],
 				"Tasks": {
 					"~|Spirits of the Elid|~ 1": "Quest"
 				},
@@ -101319,7 +101368,7 @@
 				"BaseQuest": "Spirits of the Elid",
 				"Description": "Speak to the spirits of the Elid",
 				"Chunks": ["Water Ravine Dungeon"],
-				"Items": ["AnyBow[+]", "AnyArrow[+]"],
+				"Items": ["AnyBow[+]", "AnyArrow[+]", "Pickaxe[+]"],
 				"Tasks": {
 					"~|Spirits of the Elid|~ 2": "Quest"
 				},
@@ -101338,7 +101387,7 @@
 				"BaseQuest": "Spirits of the Elid",
 				"Description": "Give the genie the mayor's sole",
 				"Chunks": ["Elid Genie Cave"],
-				"Items": ["Rope"],
+				"Items": ["Rope", "Knife"],
 				"Tasks": {
 					"~|Spirits of the Elid|~ 4": "Quest"
 				},
@@ -101590,6 +101639,7 @@
 				"BaseQuest": "Succession",
 				"Description": "Mine the argonlike ore east of Fort Forinthry",
 				"Chunks": ["13367-3"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Succession|~ 4": "Quest"
 				},
@@ -101608,6 +101658,7 @@
 				"BaseQuest": "Succession",
 				"Description": "Smith the agonlike bars into equipment for Adrasteia and yourself",
 				"Chunks": ["12093"],
+				"Items": ["Hammer"],
 				"Tasks": {
 					"~|Succession|~ 6": "Quest"
 				},
@@ -165206,6 +165257,7 @@
 			},
 			"Brine Rat Cavern": {
 				"UnlocksArea": true,
+				"Items": ["Spade"],
 				"Tasks": {
 					"~|Olaf's Quest|~ 4": "Quest"
 				}
