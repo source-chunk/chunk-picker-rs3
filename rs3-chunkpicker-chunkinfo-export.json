@@ -75392,7 +75392,7 @@
 				"Description": "Talk to Waterface the bog witch",
 				"Chunks": ["18227-3"],
 				"Tasks": {
-					"~|Bogolin Dichromacy|~ ": "Quest"
+					"~|Bogolin Dichromacy|~ 1": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -92617,9 +92617,8 @@
 			},
 			"~|Missing My Mummy|~ 5a": {
 				"BaseQuest": "Missing My Mummy",
-				"Description": "Place the canopic jars and the mummy in the tomb. Pray at the broken statues. Repair the chair and table near the sarcophagus. Kill the shadow in the east room.",
+				"Description": "Place the canopic jars and the mummy in the tomb. Pray at the broken statues. Kill the shadow in the east room.",
 				"Chunks": ["Uzer Mastaba"],
-				"Items": ["Hammer", "Saw"],
 				"Tasks": {
 					"~|Missing My Mummy|~ 4": "Quest"
 				},
@@ -92788,13 +92787,23 @@
 				},
 				"Not F2P": true
 			},
+			"~|Missing My Mummy|~ 5h": {
+				"BaseQuest": "Missing My Mummy",
+				"Description": "Repair the chair and table near the sarcophagus",
+				"Chunks": ["Uzer Mastaba"],
+				"Items": ["Hammer", "Saw"],
+				"Tasks": {
+					"~|Missing My Mummy|~ 4": "Quest"
+				},
+				"Not F2P": true
+			},
 			"~|Missing My Mummy|~ 6": {
 				"BaseQuest": "Missing My Mummy",
 				"Description": "Return to Leela",
 				"Chunks": ["12338-1"],
 				"Tasks": {
 					"~|Missing My Mummy|~ 5a": "Quest",
-					"MissingMyMummyPartial[+]x6": "Quest"
+					"MissingMyMummyPartial[+]x7": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -92826,7 +92835,8 @@
 					"~|Missing My Mummy|~ 5e4": "Quest",
 					"~|Missing My Mummy|~ 5f3a": "Quest",
 					"~|Missing My Mummy|~ 5f3b2": "Quest",
-					"~|Missing My Mummy|~ 5g3": "Quest"
+					"~|Missing My Mummy|~ 5g3": "Quest",
+					"~|Missing My Mummy|~ 5h": "Quest"
 				},
 				"Skills": {
 					"Thieving": 25,
@@ -101976,6 +101986,7 @@
 				"BaseQuest": "Tai Bwo Wannai Trio",
 				"Description": "Fish for Karambwanji",
 				"Chunks": ["11055-1"],
+				"Items": ["Small fishing net"],
 				"Tasks": {
 					"~|Tai Bwo Wannai Trio|~ 2": "Quest"
 				},
@@ -102002,7 +102013,7 @@
 			"~|Tai Bwo Wannai Trio|~ 6": {
 				"BaseQuest": "Tai Bwo Wannai Trio",
 				"Description": "Poison a spear",
-				"Items": ["Spears[+]", "Logs[+]"],
+				"Items": ["Spears[+]", "Logs[+]", "Pestle and mortar"],
 				"Tasks": {
 					"~|Tai Bwo Wannai Trio|~ 5": "Quest"
 				},
@@ -102022,7 +102033,7 @@
 				"BaseQuest": "Tai Bwo Wannai Trio",
 				"Description": "Talk to Tinsay and feed him the banana rum",
 				"Chunks": ["11054"],
-				"Items": ["Banana", "Karamjan rum"],
+				"Items": ["Banana", "Karamjan rum", "Knife"],
 				"Tasks": {
 					"~|Tai Bwo Wannai Trio|~ 7": "Quest"
 				},
@@ -102042,7 +102053,7 @@
 				"BaseQuest": "Tai Bwo Wannai Trio",
 				"Description": "Talk to Tinsay and feed him the marinated jogre bones",
 				"Chunks": ["11054"],
-				"Items": ["Jogre bones", "Raw karambwanji", "Logs[+]"],
+				"Items": ["Jogre bones", "Raw karambwanji", "Logs[+]", "Tinderbox", "Pestle and mortar"],
 				"Tasks": {
 					"~|Tai Bwo Wannai Trio|~ 9": "Quest"
 				},
@@ -102152,7 +102163,7 @@
 				"BaseQuest": "A Tail of Two Cats",
 				"Description": "Tend garden",
 				"Chunks": ["11575-1"],
-				"Items": ["Potato seed"],
+				"Items": ["Potato seed", "Seed dibber", "Rake"],
 				"Tasks": {
 					"~|A Tail of Two Cats|~ 6": "Quest"
 				},
@@ -102171,7 +102182,7 @@
 				"BaseQuest": "A Tail of Two Cats",
 				"Description": "Warm human",
 				"Chunks": ["11575-1"],
-				"Items": ["Logs"],
+				"Items": ["Logs", "Tinderbox"],
 				"Tasks": {
 					"~|A Tail of Two Cats|~ 6": "Quest"
 				},
@@ -102191,6 +102202,7 @@
 				"BaseQuest": "A Tail of Two Cats",
 				"Description": "Tidy human",
 				"Chunks": ["11575-1"],
+				"Items": ["Shears"],
 				"Tasks": {
 					"~|A Tail of Two Cats|~ 6": "Quest"
 				},
@@ -102267,6 +102279,7 @@
 				"BaseQuest": "The Tale of the Muspah",
 				"Description": "Enter the cave and thaw out the ice",
 				"Chunks": ["Erjolf's cave"],
+				"Items": ["Spade", "Knife", "Tinderbox"],
 				"Tasks": {
 					"~|The Tale of the Muspah|~ 1": "Quest"
 				},
@@ -102313,7 +102326,7 @@
 				"BaseQuest": "The Tale of the Muspah",
 				"Description": "Meet Jahllan in the ritual cave and freeze him again",
 				"Chunks": ["Mahjarrat Ritual Site Cavern"],
-				"Items": ["Sapphire", "Cosmic rune", "Water rune[+]"],
+				"Items": ["Sapphire", "Cosmic rune", "Water rune[+]", "Knife", "Hatchet[+]"],
 				"Tasks": {
 					"~|The Tale of the Muspah|~ 6": "Quest"
 				},
@@ -102542,7 +102555,7 @@
 				"BaseQuest": "Tears of Guthix",
 				"Description": "Talk to Juna and unlock Tears of Guthix",
 				"Chunks": ["Tears of Guthix cavern"],
-				"Items": ["Sapphire", "Bullseye lantern (oil)"],
+				"Items": ["Sapphire", "Bullseye lantern (oil)", "Chisel", "Pickaxe[+]"],
 				"Skills": {
 					"Firemaking": 49,
 					"Crafting": 20,
@@ -102610,6 +102623,7 @@
 				"BaseQuest": "The Temple at Senntisten",
 				"Description": "Retrieve the Frostenhorn",
 				"Chunks": ["Ghorrock Fortress Dungeon"],
+				"Items": ["Hammer"],
 				"Tasks": {
 					"~|The Temple at Senntisten|~ 3": "Quest"
 				},
@@ -102946,6 +102960,7 @@
 				"BaseQuest": "There's No Place Like Home...",
 				"Description": "Enter your very own house, clean it up, and build your very first chair!",
 				"Chunks": ["11570"],
+				"Items": ["Saw", "Hammer"],
 				"Tasks": {
 					"~|There's No Place Like Home...|~ 1": "Quest"
 				}
@@ -103260,7 +103275,7 @@
 			},
 			"~|TokTz-Ket-Dill|~ 3": {
 				"BaseQuest": "TokTz-Ket-Dill",
-				"Description": "Return to the TzHaar en enter the mine, then help Hur-Brekt with his play",
+				"Description": "Return to the TzHaar and enter the mine, then help Hur-Brekt with his play",
 				"Chunks": ["TzHaar City"],
 				"Tasks": {
 					"~|TokTz-Ket-Dill|~ 2": "Quest"
@@ -103271,7 +103286,7 @@
 				"BaseQuest": "TokTz-Ket-Dill",
 				"Description": "Mine some obsidian and craft the stone pillars",
 				"Chunks": ["TzHaar City"],
-				"Items": ["DillPickaxe[+]"],
+				"Items": ["DillPickaxe[+]", "Hammer", "Chisel"],
 				"Tasks": {
 					"~|TokTz-Ket-Dill|~ 3": "Quest"
 				},
@@ -103535,7 +103550,7 @@
 				"BaseQuest": "Tortle Combat (miniquest)",
 				"Description": "Build the training dummy",
 				"Chunks": ["Varrock Sewers"],
-				"Items": ["Empty sack", "Rope", "Bucket of sand", "Plank", "Iron nails"],
+				"Items": ["Empty sack", "Rope", "Bucket of sand", "Plank", "Iron nails", "Hammer"],
 				"Tasks": {
 					"~|Tortle Combat (miniquest)|~ 4": "Quest"
 				},
@@ -103545,7 +103560,7 @@
 				"BaseQuest": "Tortle Combat (miniquest)",
 				"Description": "Build the climbing net and rope swing",
 				"Chunks": ["Varrock Sewers"],
-				"Items": ["Rope", "Plank", "Iron nails"],
+				"Items": ["Rope", "Plank", "Iron nails", "Hammer"],
 				"Tasks": {
 					"~|Tortle Combat (miniquest)|~ 4": "Quest"
 				},
@@ -103555,7 +103570,7 @@
 				"BaseQuest": "Tortle Combat (miniquest)",
 				"Description": "Build the balance beam",
 				"Chunks": ["Varrock Sewers"],
-				"Items": ["Plank", "Iron nails"],
+				"Items": ["Plank", "Iron nails", "Hammer"],
 				"Tasks": {
 					"~|Tortle Combat (miniquest)|~ 4": "Quest"
 				},
@@ -103705,7 +103720,7 @@
 				"BaseQuest": "The Tourist Trap",
 				"Description": "Create a dart",
 				"Chunks": ["12591"],
-				"Items": ["Bronze bar", "Feather"],
+				"Items": ["Bronze bar", "Feather", "Hammer"],
 				"Tasks": {
 					"~|The Tourist Trap|~ 6": "Quest"
 				},
@@ -103814,6 +103829,7 @@
 				"BaseQuest": "Tower of Life",
 				"Description": "Repair the machines in the tower and talk to Effigy",
 				"Chunks": ["10546-1"],
+				"Items": ["Hammer", "Saw"],
 				"Tasks": {
 					"~|Tower of Life|~ 3": "Quest"
 				},
@@ -103871,6 +103887,7 @@
 				"BaseQuest": "Trader Woes",
 				"Description": "Speak to Geva and light the beacon",
 				"Chunks": ["16438"],
+				"Items": ["Tinderbox"],
 				"Tasks": {
 					"~|Trader Woes|~ 2a1": "Quest"
 				}
@@ -103903,7 +103920,7 @@
 				"BaseQuest": "Trader Woes",
 				"Description": "Find and repair Maya's boat at the shore",
 				"Chunks": ["16435-1"],
-				"Items": ["Iron nails"],
+				"Items": ["Iron nails", "Hammer"],
 				"Tasks": {
 					"~|Trader Woes|~ 2b2": "Quest"
 				}
@@ -104439,8 +104456,9 @@
 			},
 			"~|Underground Pass|~ 6": {
 				"BaseQuest": "Underground Pass",
-				"Description": "Continue down the Pass and defeat Iban",
+				"Description": "Dig through the mud by the cages and continue to the large cavern",
 				"Chunks": ["Underground Pass"],
+				"Items": ["Spade"],
 				"Tasks": {
 					"~|Underground Pass|~ 5": "Quest"
 				},
@@ -104448,16 +104466,35 @@
 			},
 			"~|Underground Pass|~ 7": {
 				"BaseQuest": "Underground Pass",
-				"Description": "Talk to King Lathas",
-				"Chunks": ["10291"],
+				"Description": "Talk to the dwarves and infuse the doll with Iban's body",
+				"Chunks": ["Underground Pass"],
+				"Items": ["Bucket", "Tinderbox"],
 				"Tasks": {
 					"~|Underground Pass|~ 6": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|Underground Pass|~ Complete the quest": {
+			"~|Underground Pass|~ 8": {
+				"BaseQuest": "Underground Pass",
+				"Description": "Infuse the doll with the other elements and defeat Iban",
+				"Chunks": ["Underground Pass"],
 				"Tasks": {
 					"~|Underground Pass|~ 7": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Underground Pass|~ 9": {
+				"BaseQuest": "Underground Pass",
+				"Description": "Talk to King Lathas",
+				"Chunks": ["10291"],
+				"Tasks": {
+					"~|Underground Pass|~ 8": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Underground Pass|~ Complete the quest": {
+				"Tasks": {
+					"~|Underground Pass|~ 9": "Quest"
 				},
 				"QuestPoints": 5,
 				"XpReward": {
@@ -104487,7 +104524,7 @@
 				"BaseQuest": "Unwelcome Guests",
 				"Description": "Build the guardhouse and speak to Siv",
 				"Chunks": ["13111"],
-				"Items": ["Maple frame*", "Stone wall segment*"],
+				"Items": ["Maple frame", "Stone wall segment", "Hammer", "Saw"],
 				"Tasks": {
 					"~|Unwelcome Guests|~ 1": "Quest"
 				},
@@ -104930,6 +104967,7 @@
 				"BaseQuest": "Visions of Havenhythe",
 				"Description": "Build the Havenhythe lodestone",
 				"Chunks": ["16691-1"],
+				"Items": ["Hammer"],
 				"Tasks": {
 					"~|Visions of Havenhythe|~ 7": "Quest"
 				}
@@ -104983,6 +105021,7 @@
 				"BaseQuest": "A Void Dance",
 				"Description": "Speak to the bartender and find the cellar key",
 				"Chunks": ["12082-1"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|A Void Dance|~ 3": "Quest"
 				},
@@ -105045,6 +105084,7 @@
 				"BaseQuest": "A Void Dance",
 				"Description": "Solve the first clue",
 				"Chunks": ["11572-1"],
+				"Items": ["Spade"],
 				"Tasks": {
 					"~|A Void Dance|~ 10": "Quest"
 				},
@@ -105490,7 +105530,7 @@
 				"BaseQuest": "Watchtower",
 				"Description": "Create the magic ogre potion",
 				"Chunks": ["10032-2"],
-				"Items": ["Vial of water", "Clean guam", "Jangerberries", "Bat bones"],
+				"Items": ["Vial of water", "Clean guam", "Jangerberries", "Bat bones", "Pestle and mortar"],
 				"Tasks": {
 					"~|Watchtower|~ 14": "Quest"
 				},
@@ -105519,6 +105559,7 @@
 				"BaseQuest": "Watchtower",
 				"Description": "Mine the Rock of Dalgroth",
 				"Chunks": ["Ogre enclave"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|Watchtower|~ 17": "Quest"
 				},
@@ -105733,6 +105774,7 @@
 				"BaseQuest": "What's Mine is Yours",
 				"Description": "Defeat the living rock brawler in the Dwarven Mine",
 				"Chunks": ["Dwarven Mine"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 1": "Quest"
 				}
@@ -105741,6 +105783,7 @@
 				"BaseQuest": "What's Mine is Yours",
 				"Description": "Defeat the living rock brawler in the Rimmington mine",
 				"Chunks": ["11826"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 1": "Quest"
 				}
@@ -105749,6 +105792,7 @@
 				"BaseQuest": "What's Mine is Yours",
 				"Description": "Defeat the living rock brawler in the Varrock east mine",
 				"Chunks": ["13108-1"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 1": "Quest"
 				}
@@ -105757,6 +105801,7 @@
 				"BaseQuest": "What's Mine is Yours",
 				"Description": "Defeat the living rock brawler in the Varrock west mine",
 				"Chunks": ["12596-1"],
+				"Items": ["Pickaxe[+]"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 1": "Quest"
 				}
@@ -105765,6 +105810,7 @@
 				"BaseQuest": "What's Mine is Yours",
 				"Description": "Return the high quality ores to Doric, and smith the high-quality weapons in his workshop",
 				"Chunks": ["11829-1"],
+				"Items": ["Hammer[+]"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 2a": "Quest",
 					"~|What's Mine is Yours|~ 2b": "Quest",
@@ -105792,6 +105838,7 @@
 				"BaseQuest": "What's Mine is Yours",
 				"Description": "Heal the relationship between Doric and his son, then smith the items for Doric",
 				"Chunks": ["11829-1"],
+				"Items": ["Hammer[+]"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 5": "Quest"
 				}
@@ -105859,7 +105906,7 @@
 				"BaseQuest": "While Guthix Sleeps",
 				"Description": "Catch a broav",
 				"Chunks": ["10029"],
-				"Items": ["Logs", "Mort myre fungus"],
+				"Items": ["Logs", "Mort myre fungus", "Knife"],
 				"Tasks": {
 					"~|While Guthix Sleeps|~ 4": "Quest"
 				},
@@ -105963,6 +106010,7 @@
 				"BaseQuest": "While Guthix Sleeps",
 				"Description": "Return to Thaerisk and plant the snapdragon seed at the top of the White Knights' Castle, then speak to Idria",
 				"Chunks": ["11828"],
+				"Items": ["Seed dibber"],
 				"Tasks": {
 					"~|While Guthix Sleeps|~ 15": "Quest"
 				},
@@ -106478,6 +106526,7 @@
 					"~|There's No Place Like Home...|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["10550"],
+				"Items": ["Hatchet[+]"],
 				"Not F2P": true
 			},
 			"~|You Are It|~ 2": {
@@ -106502,6 +106551,7 @@
 				"BaseQuest": "You Are It",
 				"Description": "Dig up a grave in the Lumbridge cemetery",
 				"Chunks": ["12849"],
+				"Items": ["Spade"],
 				"Tasks": {
 					"~|You Are It|~ 3": "Quest"
 				},
@@ -106529,7 +106579,7 @@
 				"BaseQuest": "You Are It",
 				"Description": "Dig a hole in McGrubor's wood, enter it, and finish up the quest",
 				"Chunks": ["10550"],
-				"Items": ["Rope"],
+				"Items": ["Rope", "Spade"],
 				"Tasks": {
 					"~|You Are It|~ 6": "Quest"
 				},
@@ -106936,6 +106986,7 @@
 				"BaseQuest": "Embrace the Chaos",
 				"Description": "Open the portal to the Infernal Source",
 				"Chunks": ["Dungeon of Disorder"],
+				"Items": ["Tinderbox"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Embrace the Chaos|~ 1": "Quest"
 				},
@@ -107072,7 +107123,7 @@
 			},
 			"Archaeology Mystery: ~|Time Served|~ 1": {
 				"BaseQuest": "Time Served",
-				"Description": "Inspec tthe ancient mechanism",
+				"Description": "Inspect the ancient mechanism",
 				"Chunks": ["Kharid-et - Carcerem excavation site"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Prison Break|~ Complete the mystery": "Quest"
@@ -107537,7 +107588,7 @@
 			},
 			"Archaeology Mystery: ~|Into the Forge|~ 2a": {
 				"BaseQuest": "Into the Forge",
-				"Description": "Find the Huzamogaarb, Saragorgak, Thorobshuun, Yurkolgokh, Dorgeshuun and Drogokishuun keys in the Warforge Tunnels",
+				"Description": "Find the Huzamogaarb, Saragorgak,Yurkolgokh, Dorgeshuun and Drogokishuun keys in the Warforge Tunnels",
 				"Chunks": ["Warforge Tunnels"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Into the Forge|~ 1": "Quest"
@@ -107557,7 +107608,7 @@
 				"BaseQuest": "Into the Forge",
 				"Description": "Find the Garagoshruun key while fishing",
 				"Chunks": ["Warforge Tunnels"],
-				"Items": ["Fishing bait"],
+				"Items": ["Fishing bait", "Fishing rod"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Into the Forge|~ 1": "Quest"
 				},
@@ -107578,6 +107629,19 @@
 				},
 				"Not F2P": true
 			},
+			"Archaeology Mystery: ~|Into the Forge|~ 2e": {
+				"BaseQuest": "Into the Forge",
+				"Description": "Find the Thorobshuun key while mining",
+				"Chunks": ["Warforge Tunnels"],
+				"Items": ["Pickaxe[+]"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Into the Forge|~ 1": "Quest"
+				},
+				"Skills": {
+					"Fishing": 28
+				},
+				"Not F2P": true
+			},
 			"Archaeology Mystery: ~|Into the Forge|~ 3": {
 				"BaseQuest": "Into the Forge",
 				"Description": "Unlock, enter and activate Thalmund's Forge",
@@ -107586,7 +107650,8 @@
 					"Archaeology Mystery: ~|Into the Forge|~ 2a": "Quest",
 					"Archaeology Mystery: ~|Into the Forge|~ 2b": "Quest",
 					"Archaeology Mystery: ~|Into the Forge|~ 2c": "Quest",
-					"Archaeology Mystery: ~|Into the Forge|~ 2d": "Quest"
+					"Archaeology Mystery: ~|Into the Forge|~ 2d": "Quest",
+					"Archaeology Mystery: ~|Into the Forge|~ 2e": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -164788,6 +164853,7 @@
 				"UnlocksArea": true
 			},
 			"The Barrows": {
+				"Items": ["Spade"],
 				"UnlocksArea": true
 			},
 			"Gorak Plane": {
@@ -241735,7 +241801,7 @@
 				"Wield a ~|runic staff|~"
 			],
 			"MindAccess[+]": ["Access the mind rune temple with a talisman*", "Access the mind rune temple through the abyss*"],
-			"MissingMyMummyPartial[+]": ["~|Missing My Mummy|~ 5b", "~|Missing My Mummy|~ 5c", "~|Missing My Mummy|~ 5d1", "~|Missing My Mummy|~ 5d2", "~|Missing My Mummy|~ 5d3", "~|Missing My Mummy|~ 5e1", "~|Missing My Mummy|~ 5e2", "~|Missing My Mummy|~ 5e3", "~|Missing My Mummy|~ 5e4", "~|Missing My Mummy|~ 5f3a", "~|Missing My Mummy|~ 5f3b2", "~|Missing My Mummy|~ 5g3"],
+			"MissingMyMummyPartial[+]": ["~|Missing My Mummy|~ 5b", "~|Missing My Mummy|~ 5c", "~|Missing My Mummy|~ 5d1", "~|Missing My Mummy|~ 5d2", "~|Missing My Mummy|~ 5d3", "~|Missing My Mummy|~ 5e1", "~|Missing My Mummy|~ 5e2", "~|Missing My Mummy|~ 5e3", "~|Missing My Mummy|~ 5e4", "~|Missing My Mummy|~ 5f3a", "~|Missing My Mummy|~ 5f3b2", "~|Missing My Mummy|~ 5g3", "~|Missing My Mummy|~ 5h"],
 			"More Fletcher than Sumona[+]": ["Easy Desert tasks ~|More Fletcher than Sumona|~ (Arrows)*", "Easy Desert tasks ~|More Fletcher than Sumona|~ (Bolts)*"],
 			"NatureAccess[+]": ["Access the nature rune temple with a talisman*", "Access the nature rune temple through the abyss*"],
 			"RecipeSub[+]": ["~|Recipe for Disaster: Freeing the Mountain Dwarf|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Goblin Generals|~ Complete the subquest", "~|Recipe for Disaster: Freeing Pirate Pete|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Lumbridge Sage|~ Complete the subquest", "~|Recipe for Disaster: Freeing Evil Dave|~ Complete the subquest", "~|Recipe for Disaster: Freeing King Awowogei|~ Complete the subquest", "~|Recipe for Disaster: Freeing Sir Amik Varze|~ Complete the subquest", "~|Recipe for Disaster: Freeing Skrach Uglogwee|~ Complete the subquest"],

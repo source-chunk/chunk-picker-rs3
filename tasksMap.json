@@ -9261,6 +9261,7 @@
   "~|Missing My Mummy|~ 5g1": "t_8889",
   "~|Missing My Mummy|~ 5g2": "t_8890",
   "~|Missing My Mummy|~ 5g3": "t_8891",
+  "~|Missing My Mummy|~ 5h": "t_123684",
   "~|Missing My Mummy|~ 6": "t_8892",
   "~|Missing My Mummy|~ Complete the quest": "t_8893",
   "~|Restoring Senliten|~ 1": "t_8894",
@@ -9404,6 +9405,8 @@
   "~|Nomad's Elegy|~ 1": "t_9032",
   "~|Nomad's Elegy|~ 2": "t_9033",
   "~|Nomad's Elegy|~ 3": "t_9034",
+  "~|Nomad's Elegy|~ 4": "t_123685",
+  "~|Nomad's Elegy|~ 5": "t_123686",
   "~|Nomad's Elegy|~ Complete the quest": "t_9035",
   "~|Nomad's Requiem|~ 1": "t_9036",
   "~|Nomad's Requiem|~ 2": "t_9037",
@@ -9939,6 +9942,7 @@
   "~|Royal Trouble|~ Complete the quest": "t_9557",
   "~|Rum Deal|~ 1": "t_9558",
   "~|Rum Deal|~ 2": "t_9559",
+  "~|Rum Deal|~ 3": "t_123687",
   "~|Rum Deal|~ Complete the quest": "t_9560",
   "~|Rune Mechanics|~ 1": "t_9561",
   "~|Rune Mechanics|~ 2": "t_9562",
@@ -10418,6 +10422,8 @@
   "~|Underground Pass|~ 5": "t_9980",
   "~|Underground Pass|~ 6": "t_9981",
   "~|Underground Pass|~ 7": "t_9982",
+  "~|Underground Pass|~ 8": "t_123688",
+  "~|Underground Pass|~ 9": "t_123689",
   "~|Underground Pass|~ Complete the quest": "t_9983",
   "~|Unwelcome Guests|~ 1": "t_9984",
   "~|Unwelcome Guests|~ 2": "t_9985",
@@ -10735,6 +10741,7 @@
   "Archaeology Mystery: ~|Into the Forge|~ 2b": "t_10283",
   "Archaeology Mystery: ~|Into the Forge|~ 2c": "t_10284",
   "Archaeology Mystery: ~|Into the Forge|~ 2d": "t_10285",
+  "Archaeology Mystery: ~|Into the Forge|~ 2e": "t_123690",
   "Archaeology Mystery: ~|Into the Forge|~ 3": "t_10286",
   "Archaeology Mystery: ~|Into the Forge|~ Complete the mystery": "t_10287",
   "Archaeology Mystery: ~|Out of the Crucible|~ 1": "t_10288",
@@ -90470,5 +90477,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 123684
+  "currentNextIndex": 123691
 }
